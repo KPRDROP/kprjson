@@ -30,7 +30,7 @@ jobs:
 
       - name: Run updater
         env:
-          LTSPRETA_CH_API_URL: ${{ secrets.LTSPRETA_CH_API_URL }}
+          LTSPRETA_API_URL: ${{ secrets.LTSPRETA_API_URL }}
         run: |
           echo "Starting Update LTSPRETA updater..."
           python ltspreta.py
