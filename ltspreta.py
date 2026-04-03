@@ -53,12 +53,67 @@ def extract_id_from_url(url: str) -> str:
         log.debug(f"Error extracting ID from {url}: {e}")
     return None
 
-def construct_referer_url(player_url: str) -> str:
-    """Construct referer URL from player URL"""
-    event_id = extract_id_from_url(player_url)
-    if event_id:
-        return f"https://lista-preta-tv.site/player-all.html?id={event_id}"
-    return "https://lista-preta-tv.site/"
+async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]:
+    """Process event URL to get M3U8 stream"""
+    nones = None, None
+    
+    # Extract event ID from URL
+    event_id = extract_id_from_url(url)
+    if not event_id:
+        log.warning(f"URL {url_num}) Could not extract ID from URL: {url}")
+        return nones
+    
+    log.debug(f"URL {url_num}) Extracted event ID: {event_id}")
+    
+    # Get token from generate_token.php
+    if not (
+        token_req := await network.request(
+            "https://lista-preta-tv.site/generate_token.php",
+            params={"id": event_id},
+            log=log,
+        )
+    ):
+        log.warning(f"URL {url_num}) Failed to load token data.")
+        return nones
+    
+    if not (token_data := token_req.json()):
+        log.warning(f"URL {url_num}) No token data available.")
+        return nones
+    
+    token = token_data.get("token")
+    exp = token_data.get("exp")
+    
+    if not token or not exp:
+        log.warning(f"URL {url_num}) Missing token or expiration data.")
+        return nones
+    
+    log.debug(f"URL {url_num}) Got token: {token}, exp: {exp}")
+    
+    # Construct referer URL
+    ref = f"https://lista-preta-tv.site/player-all.html?id={event_id}"
+    
+    # Get M3U8 stream
+    if not (
+        m3u8_req := await network.request(
+            "https://lista-preta-tv.site/m3u8.php",
+            headers={"Referer": ref},
+            params={"id": event_id, "token": token, "exp": exp},
+            follow_redirects=False,
+            log=log,
+        )
+    ):
+        log.warning(f"URL {url_num}) Unable to fetch M3U8 request.")
+        return nones
+    
+    # Get the Location header which contains the M3U8 URL
+    m3u8 = m3u8_req.headers.get("Location")
+    if not m3u8:
+        log.warning(f"URL {url_num}) No Location header in response.")
+        return nones
+    
+    log.info(f"URL {url_num}) Captured M3U8: {m3u8}")
+    
+    return m3u8, ref
 
 def generate_output_files():
     """Generate both VLC and TiviMate M3U8 files"""
@@ -87,8 +142,7 @@ def generate_output_files():
         logo = data.get("logo", "")
         tvg_id = data.get("id", "Live.Event.us")
         url = data.get("url", "")
-        link = data.get("link", "")
-        referer_url = data.get("referer_url", link)
+        referer_url = data.get("referer_url", "")
         
         # Keep the full URL with token parameters
         full_url = url
@@ -98,7 +152,7 @@ def generate_output_files():
             continue
         
         # For VLC referer, use the constructed referer URL
-        vlc_referer = referer_url if referer_url else link
+        vlc_referer = referer_url if referer_url else "https://lista-preta-tv.site/"
         
         # EXTINF line (same for both formats)
         extinf = f'#EXTINF:-1 tvg-chno="{chno}" tvg-id="{tvg_id}" tvg-name="{key}" tvg-logo="{logo}" group-title="{sport}",{event_name}\n'
@@ -244,27 +298,15 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
                     if not player_url:
                         continue
                     
-                    # Get channel name for stream URL construction
+                    # Extract event ID from player URL
+                    event_id = extract_id_from_url(player_url)
+                    if not event_id:
+                        log.debug(f"Could not extract ID from player URL: {player_url}")
+                        continue
+                    
+                    # Get channel name and code
                     channel_name = channel.get("channel_name", "")
                     channel_code = channel.get("channel_code", "")
-                    
-                    # Construct the actual stream URL
-                    # Format: https://lista-preta-tv.site/live/{channel_code}/index.php?ch={channel_name_cleaned}
-                    if channel_code and channel_name:
-                        # Clean channel name (remove spaces, special characters)
-                        clean_channel_name = re.sub(r'[^A-Za-z0-9]', '', channel_name.upper())
-                        stream_url = f"https://lista-preta-tv.site/live/{channel_code.lower()}/index.php?ch={clean_channel_name}"
-                    else:
-                        # Fallback to original player URL
-                        stream_url = player_url
-                    
-                    # Construct referer URL
-                    referer_url = construct_referer_url(player_url)
-                    
-                    # Get logo from channel or event
-                    logo = channel.get("image", "")
-                    if not logo:
-                        logo = event.get("homeIMG", "")
                     
                     # Parse event time
                     event_time_str = event.get("start", "")
@@ -292,12 +334,15 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
                         log.debug(f"Event already in cache: {key}")
                         continue
                     
+                    # Get logo from channel or event
+                    logo = channel.get("image", "")
+                    if not logo:
+                        logo = event.get("homeIMG", "")
+                    
                     events.append({
                         "sport": tournament,
                         "event": event_name,
                         "link": player_url,  # Store player URL for processing
-                        "stream_url": stream_url,  # Store constructed stream URL
-                        "referer_url": referer_url,  # Store constructed referer URL
                         "timestamp": timestamp,
                         "tournament": tournament,
                         "sport_type": sport,
@@ -305,10 +350,11 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
                         "away_team": away_team,
                         "logo": logo,
                         "channel_name": channel_name,
-                        "channel_code": channel_code
+                        "channel_code": channel_code,
+                        "event_id": event_id
                     })
                     
-                    log.info(f"Found new event: {key} at {event_time_str if event_time_str else 'current time'} (stream: {stream_url})")
+                    log.info(f"Found new event: {key} at {event_time_str if event_time_str else 'current time'} (player_url: {player_url})")
                     break  # Use first valid channel
                     
                 except Exception as e:
@@ -338,61 +384,54 @@ async def scrape(browser: Browser) -> None:
     if events := await get_events(list(cached_urls.keys())):
         log.info(f"Processing {len(events)} new URL(s)")
         
-        async with network.event_context(browser) as context:
-            for i, ev in enumerate(events, start=1):
-                async with network.event_page(context) as page:
-                    log.info(f"Processing event {i}/{len(events)}: {ev['sport']} - {ev['event']}")
-                    
-                    # Use the player URL to get the actual m3u8 stream
-                    handler = partial(
-                        network.process_event,
-                        url=(player_url := ev["link"]),
-                        url_num=i,
-                        page=page,
-                        log=log,
-                        timeout=15,
-                    )
-                    
-                    # Get the full URL with token from the player page
-                    url = await network.safe_process(
-                        handler,
-                        url_num=i,
-                        semaphore=network.PW_S,
-                        log=log,
-                    )
-                    
-                    if url:
-                        sport, event, ts = (
-                            ev["sport"],
-                            ev["event"],
-                            ev["timestamp"],
-                        )
+        # Use a semaphore to limit concurrent processing
+        semaphore = asyncio.Semaphore(3)
+        
+        async def process_single_event(i, ev):
+            async with semaphore:
+                async with network.event_context(browser) as context:
+                    async with network.event_page(context) as page:
+                        log.info(f"Processing event {i}/{len(events)}: {ev['sport']} - {ev['event']}")
                         
-                        key = f"[{sport}] {event} ({TAG})"
+                        # Use the process_event function to get M3U8
+                        m3u8_url, referer = await process_event(ev["link"], i)
                         
-                        tvg_id, logo = leagues.get_tvg_info(sport, event)
-                        
-                        # Use the constructed stream URL if available, otherwise use the captured URL
-                        final_url = ev.get("stream_url", url)
-                        
-                        # Use logo from API if available
-                        final_logo = ev.get("logo", logo) if ev.get("logo") else logo
-                        final_id = tvg_id or f"{sport.replace(' ', '.')}.event"
-                        
-                        entry = {
-                            "url": final_url,
-                            "logo": final_logo,
-                            "base": ev.get("referer_url", "https://lista-preta-tv.site/"),
-                            "timestamp": ts,
-                            "id": final_id,
-                            "link": ev.get("referer_url", player_url),  # Store referer URL
-                            "referer_url": ev.get("referer_url", player_url),
-                        }
-                        
-                        urls[key] = cached_urls[key] = entry
-                        log.info(f"Successfully added URL for: {key}")
-                    else:
-                        log.warning(f"Failed to get URL for event: {ev['sport']} - {ev['event']}")
+                        if m3u8_url:
+                            sport, event, ts = (
+                                ev["sport"],
+                                ev["event"],
+                                ev["timestamp"],
+                            )
+                            
+                            key = f"[{sport}] {event} ({TAG})"
+                            
+                            tvg_id, logo = leagues.get_tvg_info(sport, event)
+                            
+                            # Use logo from API if available
+                            final_logo = ev.get("logo", logo) if ev.get("logo") else logo
+                            final_id = tvg_id or f"{sport.replace(' ', '.')}.event"
+                            
+                            entry = {
+                                "url": m3u8_url,
+                                "logo": final_logo,
+                                "base": referer if referer else "https://lista-preta-tv.site/",
+                                "timestamp": ts,
+                                "id": final_id,
+                                "link": ev["link"],
+                                "referer_url": referer if referer else f"https://lista-preta-tv.site/player-all.html?id={ev.get('event_id', '')}",
+                            }
+                            
+                            urls[key] = cached_urls[key] = entry
+                            log.info(f"Successfully added URL for: {key} - M3U8: {m3u8_url}")
+                        else:
+                            log.warning(f"Failed to get M3U8 for event: {ev['sport']} - {ev['event']}")
+        
+        # Process events concurrently
+        tasks = []
+        for i, ev in enumerate(events, start=1):
+            tasks.append(process_single_event(i, ev))
+        
+        await asyncio.gather(*tasks)
         
         log.info(f"Collected and cached {len(cached_urls) - cached_count} new event(s)")
     
