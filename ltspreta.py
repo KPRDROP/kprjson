@@ -15,7 +15,7 @@ urls: dict[str, dict[str, str | float]] = {}
 
 TAG = "LISTA"
 
-CACHE_FILE = Cache(TAG, exp=10_800)
+CACHE_FILE = Cache(TAG, exp=19_800)
 
 API_CACHE = Cache(f"{TAG}-api", exp=19_800)
 
@@ -34,37 +34,18 @@ def encode_user_agent(user_agent: str) -> str:
     """Encode user agent for TiviMate format"""
     return urllib.parse.quote(user_agent)
 
-def extract_id_from_url(url: str) -> str:
-    """Extract ID from player.php URL"""
-    try:
-        # Parse the URL
-        parsed = urlparse(url)
-        # Get query parameters
-        params = parse_qs(parsed.query)
-        # Extract id parameter
-        if 'id' in params:
-            return params['id'][0]
-        
-        # Try regex as fallback
-        match = re.search(r'[?&]id=([^&]+)', url)
-        if match:
-            return match.group(1)
-    except Exception as e:
-        log.debug(f"Error extracting ID from {url}: {e}")
-    return None
-
 async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]:
     """Process event URL to get M3U8 stream"""
     nones = None, None
-    
+
     # Extract event ID from URL
-    event_id = extract_id_from_url(url)
+    event_id = url.split("id=")[-1]
     if not event_id:
         log.warning(f"URL {url_num}) Could not extract ID from URL: {url}")
         return nones
-    
+
     log.debug(f"URL {url_num}) Extracted event ID: {event_id}")
-    
+
     # Get token from generate_token.php
     if not (
         token_req := await network.request(
@@ -75,44 +56,46 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
     ):
         log.warning(f"URL {url_num}) Failed to load token data.")
         return nones
-    
+
     if not (token_data := token_req.json()):
         log.warning(f"URL {url_num}) No token data available.")
         return nones
-    
-    token = token_data.get("token")
-    exp = token_data.get("exp")
-    
-    if not token or not exp:
-        log.warning(f"URL {url_num}) Missing token or expiration data.")
+
+    elif not (token := token_data.get("token")) or not (exp := token_data.get("exp")):
+        log.warning(f"URL {url_num}) No token data available.")
         return nones
-    
+
     log.debug(f"URL {url_num}) Got token: {token}, exp: {exp}")
-    
+
     # Construct referer URL
     ref = f"https://lista-preta-tv.site/player-all.html?id={event_id}"
-    
-    # Get M3U8 stream
+
+    # Get M3U8 stream - follow redirects to get final URL
     if not (
         m3u8_req := await network.request(
             "https://lista-preta-tv.site/m3u8.php",
             headers={"Referer": ref},
             params={"id": event_id, "token": token, "exp": exp},
-            follow_redirects=False,
+            follow_redirects=True,  # Changed to True to follow redirects
             log=log,
         )
     ):
         log.warning(f"URL {url_num}) Unable to fetch M3U8 request.")
         return nones
+
+    # Get the final URL after redirects
+    m3u8 = m3u8_req.url if hasattr(m3u8_req, 'url') else None
     
-    # Get the Location header which contains the M3U8 URL
-    m3u8 = m3u8_req.headers.get("Location")
     if not m3u8:
-        log.warning(f"URL {url_num}) No Location header in response.")
+        # Try to get from Location header as fallback
+        m3u8 = m3u8_req.headers.get("Location")
+    
+    if not m3u8:
+        log.warning(f"URL {url_num}) Unable to fetch M3U8 request.")
         return nones
-    
+
     log.info(f"URL {url_num}) Captured M3U8: {m3u8}")
-    
+
     return m3u8, ref
 
 def generate_output_files():
@@ -252,24 +235,16 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
         log.warning("No API data available")
         return events
     
-    # Extended time window to capture more events (4 hours before to 4 hours after)
-    start_dt = now.delta(minutes=-240)
-    end_dt = now.delta(minutes=240)
-    
-    log.info(f"Processing {len(api_data)} events from API (time window: -4h to +4h)")
+    log.info(f"Processing {len(api_data)} events from API")
     
     for event in api_data:
         try:
-            # Extract event information from new API format
-            sport = event.get("sport", "")
-            if not sport:
-                continue
+            # Extract event information
+            sport = event.get("sport")
+            home_team = event.get("home")
+            away_team = event.get("away")
             
-            # Get teams
-            home_team = event.get("home", "")
-            away_team = event.get("away", "")
-            
-            if not (home_team and away_team):
+            if not (sport and home_team and away_team):
                 continue
             
             # Format event name
@@ -290,76 +265,43 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
                 log.debug(f"No channels for event: {event_name}")
                 continue
             
-            # Process channels to get stream URL and referer
-            for channel in channels:
+            # Get player URL from first channel
+            player_url = channels[0].get("url")
+            if not player_url:
+                continue
+            
+            # Parse event time
+            event_time_str = event.get("start", "")
+            timestamp = now.timestamp()
+            
+            # Construct datetime from start time if available
+            if event_time_str:
                 try:
-                    # Get player URL from channel
-                    player_url = channel.get("url", "")
-                    if not player_url:
-                        continue
-                    
-                    # Extract event ID from player URL
-                    event_id = extract_id_from_url(player_url)
-                    if not event_id:
-                        log.debug(f"Could not extract ID from player URL: {player_url}")
-                        continue
-                    
-                    # Get channel name and code
-                    channel_name = channel.get("channel_name", "")
-                    channel_code = channel.get("channel_code", "")
-                    
-                    # Parse event time
-                    event_time_str = event.get("start", "")
-                    timestamp = now.timestamp()
-                    
-                    # Construct datetime from start time if available
-                    if event_time_str:
-                        try:
-                            event_dt = Time.from_str(event_time_str, timezone="UTC")
-                            timestamp = event_dt.timestamp()
-                            
-                            # Check if event is within our time window
-                            if not (start_dt <= event_dt <= end_dt):
-                                log.debug(f"Event outside time window: {event_name} at {event_dt}")
-                                continue
-                                
-                        except Exception as e:
-                            log.debug(f"Could not parse time for {event_name}: {e}")
-                            # Use current time as fallback
-                    
-                    # Create key with tournament and event name
-                    key = f"[{tournament}] {event_name} ({TAG})"
-                    
-                    if key in cached_keys:
-                        log.debug(f"Event already in cache: {key}")
-                        continue
-                    
-                    # Get logo from channel or event
-                    logo = channel.get("image", "")
-                    if not logo:
-                        logo = event.get("homeIMG", "")
-                    
-                    events.append({
-                        "sport": tournament,
-                        "event": event_name,
-                        "link": player_url,  # Store player URL for processing
-                        "timestamp": timestamp,
-                        "tournament": tournament,
-                        "sport_type": sport,
-                        "home_team": home_team,
-                        "away_team": away_team,
-                        "logo": logo,
-                        "channel_name": channel_name,
-                        "channel_code": channel_code,
-                        "event_id": event_id
-                    })
-                    
-                    log.info(f"Found new event: {key} at {event_time_str if event_time_str else 'current time'} (player_url: {player_url})")
-                    break  # Use first valid channel
-                    
+                    event_dt = Time.from_str(event_time_str, timezone="UTC")
+                    timestamp = event_dt.timestamp()
                 except Exception as e:
-                    log.error(f"Error processing channel for event {event_name}: {e}")
-                    continue
+                    log.debug(f"Could not parse time for {event_name}: {e}")
+            
+            # Create key with tournament and event name
+            key = f"[{tournament}] {event_name} ({TAG})"
+            
+            if key in cached_keys:
+                log.debug(f"Event already in cache: {key}")
+                continue
+            
+            # Get logo from channel
+            logo = channels[0].get("image", "")
+            
+            events.append({
+                "sport": tournament,
+                "event": event_name,
+                "link": player_url,
+                "timestamp": timestamp,
+                "logo": logo,
+                "event_id": player_url.split("id=")[-1]
+            })
+            
+            log.info(f"Found new event: {key} at {event_time_str if event_time_str else 'current time'}")
             
         except Exception as e:
             log.error(f"Error processing event: {e}")
@@ -384,54 +326,42 @@ async def scrape(browser: Browser) -> None:
     if events := await get_events(list(cached_urls.keys())):
         log.info(f"Processing {len(events)} new URL(s)")
         
-        # Use a semaphore to limit concurrent processing
-        semaphore = asyncio.Semaphore(3)
-        
-        async def process_single_event(i, ev):
-            async with semaphore:
-                async with network.event_context(browser) as context:
-                    async with network.event_page(context) as page:
-                        log.info(f"Processing event {i}/{len(events)}: {ev['sport']} - {ev['event']}")
-                        
-                        # Use the process_event function to get M3U8
-                        m3u8_url, referer = await process_event(ev["link"], i)
-                        
-                        if m3u8_url:
-                            sport, event, ts = (
-                                ev["sport"],
-                                ev["event"],
-                                ev["timestamp"],
-                            )
-                            
-                            key = f"[{sport}] {event} ({TAG})"
-                            
-                            tvg_id, logo = leagues.get_tvg_info(sport, event)
-                            
-                            # Use logo from API if available
-                            final_logo = ev.get("logo", logo) if ev.get("logo") else logo
-                            final_id = tvg_id or f"{sport.replace(' ', '.')}.event"
-                            
-                            entry = {
-                                "url": m3u8_url,
-                                "logo": final_logo,
-                                "base": referer if referer else "https://lista-preta-tv.site/",
-                                "timestamp": ts,
-                                "id": final_id,
-                                "link": ev["link"],
-                                "referer_url": referer if referer else f"https://lista-preta-tv.site/player-all.html?id={ev.get('event_id', '')}",
-                            }
-                            
-                            urls[key] = cached_urls[key] = entry
-                            log.info(f"Successfully added URL for: {key} - M3U8: {m3u8_url}")
-                        else:
-                            log.warning(f"Failed to get M3U8 for event: {ev['sport']} - {ev['event']}")
-        
-        # Process events concurrently
-        tasks = []
+        # Process events sequentially to avoid overwhelming
         for i, ev in enumerate(events, start=1):
-            tasks.append(process_single_event(i, ev))
-        
-        await asyncio.gather(*tasks)
+            log.info(f"Processing event {i}/{len(events)}: {ev['sport']} - {ev['event']}")
+            
+            # Use the process_event function to get M3U8
+            m3u8_url, referer = await process_event(ev["link"], i)
+            
+            if m3u8_url:
+                sport, event, ts = (
+                    ev["sport"],
+                    ev["event"],
+                    ev["timestamp"],
+                )
+                
+                key = f"[{sport}] {event} ({TAG})"
+                
+                tvg_id, logo = leagues.get_tvg_info(sport, event)
+                
+                # Use logo from API if available
+                final_logo = ev.get("logo", logo) if ev.get("logo") else logo
+                final_id = tvg_id or f"{sport.replace(' ', '.')}.event"
+                
+                entry = {
+                    "url": m3u8_url,
+                    "logo": final_logo,
+                    "base": referer if referer else "https://lista-preta-tv.site/",
+                    "timestamp": ts,
+                    "id": final_id,
+                    "link": ev["link"],
+                    "referer_url": referer if referer else f"https://lista-preta-tv.site/player-all.html?id={ev.get('event_id', '')}",
+                }
+                
+                urls[key] = cached_urls[key] = entry
+                log.info(f"Successfully added URL for: {key}")
+            else:
+                log.warning(f"Failed to get M3U8 for event: {ev['sport']} - {ev['event']}")
         
         log.info(f"Collected and cached {len(cached_urls) - cached_count} new event(s)")
     
@@ -455,16 +385,8 @@ async def main():
     
     log.info(f"Using API URL: {API_URL}")
     
-    from playwright.async_api import async_playwright
-    
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
-        try:
-            await scrape(browser)
-        finally:
-            await browser.close()
-    
-    log.info("LTSPRETA updater completed")
+    # Remove Playwright dependency - we don't need a browser for HTTP requests
+    await scrape(None)
 
 def run():
     """Synchronous entry point for the updater"""
