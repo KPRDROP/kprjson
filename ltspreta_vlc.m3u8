@@ -1,23 +1,17 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="NBA.event" tvg-name="[NBA] Charlotte Hornets vs Indiana Pacers (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvc2VyYmlhL3NrLTEucG5nLndlYnA%3D" group-title="NBA",Charlotte Hornets vs Indiana Pacers
+#EXTINF:-1 tvg-chno="1" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Charlotte Hornets vs Indiana Pacers (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvc2VyYmlhL3NrLTEucG5nLndlYnA%3D" group-title="NBA",Charlotte Hornets vs Indiana Pacers
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=946
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=946
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 https://lista-preta-tv.site/live/rs/index.php?ch=SPORTKLUB1RS
 
-#EXTINF:-1 tvg-chno="2" tvg-id="NBA.event" tvg-name="[NBA] Philadelphia 76ers vs Minnesota Timberwolves (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtNC53ZWJw" group-title="NBA",Philadelphia 76ers vs Minnesota Timberwolves
+#EXTINF:-1 tvg-chno="2" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Philadelphia 76ers vs Minnesota Timberwolves (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtNC53ZWJw" group-title="NBA",Philadelphia 76ers vs Minnesota Timberwolves
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=448
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=448
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=COSMOTESPORT4
 
-#EXTINF:-1 tvg-chno="3" tvg-id="NBA.event" tvg-name="[NBA] Brooklyn Nets vs Atlanta Hawks (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy95ZXMucG5n" group-title="NBA",Brooklyn Nets vs Atlanta Hawks
-#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=655
-#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=655
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lista-preta-tv.site/tv247V3/us/index.php?id=YESNetwork
-
-#EXTINF:-1 tvg-chno="4" tvg-id="NHL.event" tvg-name="[NHL] Philadelphia Flyers vs New York Islanders (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9uaGwtbmV0d29yay5zdmc%3D" group-title="NHL",Philadelphia Flyers vs New York Islanders
+#EXTINF:-1 tvg-chno="3" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Philadelphia Flyers vs New York Islanders (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9uaGwtbmV0d29yay5zdmc%3D" group-title="NHL",Philadelphia Flyers vs New York Islanders
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1168
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1168
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
