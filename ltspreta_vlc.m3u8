@@ -1,1 +1,37 @@
 #EXTM3U
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.event" tvg-name="[Soccer] Rayo Vallecano vs Elche (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9lc3BuLWRlcG9ydGVzLnBuZw%3D%3D" group-title="Soccer",Rayo Vallecano vs Elche
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=787
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=787
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/tv247V3/us/index.php?id=ESPNDeportes
+
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.event" tvg-name="[Soccer] Coventry City vs Derby County (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9jYnMtc3BvcnRzLWdvbGF6by53ZWJw" group-title="Soccer",Coventry City vs Derby County
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=783
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=783
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/tv247V3/us/index.php?id=CBSSportsGolazo
+
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.event" tvg-name="[Soccer] Sporting CP vs Santa Clara (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ2VybWFueS9zcG9ydGRpZ2l0YWwtZnVzc2JhbGwuc3Zn" group-title="Soccer",Sporting CP vs Santa Clara
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=503
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=503
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/live/de/index.php?ch=sportdigitalfussball
+
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.event" tvg-name="[Soccer] Unión Santa Fe vs Deportivo Riestra (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYXJnZW50aW5hL3RudC1zcG9ydHMucG5n" group-title="Soccer",Unión Santa Fe vs Deportivo Riestra
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=528
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=528
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/live/ar/index.php?ch=TNTSARG
+
+#EXTINF:-1 tvg-chno="5" tvg-id="MLB.event" tvg-name="[MLB] Boston Red Sox vs San Diego Padres (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vdG50LXNwb3J0LTIucG5n" group-title="MLB",Boston Red Sox vs San Diego Padres
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=410
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=410
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/live/uk/index.php?ch=tntsports2
+
+#EXTINF:-1 tvg-chno="6" tvg-id="MLB.event" tvg-name="[MLB] Texas Rangers vs Cincinnati Reds (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9tbGItbmV0d29yay5zdmc%3D" group-title="MLB",Texas Rangers vs Cincinnati Reds
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1150
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1150
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/tv247V3/us/index.php?id=MLBNetwork
+
