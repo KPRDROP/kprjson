@@ -13,7 +13,7 @@ log = get_logger(__name__)
 
 urls: dict[str, dict[str, str | float]] = {}
 
-TAG = "LISTA"
+TAG = "LTSPRETA"
 
 CACHE_FILE = Cache(TAG, exp=19_800)
 
@@ -76,19 +76,21 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
             "https://lista-preta-tv.site/m3u8.php",
             headers={"Referer": ref},
             params={"id": event_id, "token": token, "exp": exp},
-            follow_redirects=True,  # Changed to True to follow redirects
+            follow_redirects=True,  # Follow redirects to get final URL
             log=log,
         )
     ):
         log.warning(f"URL {url_num}) Unable to fetch M3U8 request.")
         return nones
 
-    # Get the final URL after redirects
-    m3u8 = m3u8_req.url if hasattr(m3u8_req, 'url') else None
+    # Get the final URL after redirects and convert to string
+    m3u8 = str(m3u8_req.url) if hasattr(m3u8_req, 'url') else None
     
     if not m3u8:
         # Try to get from Location header as fallback
-        m3u8 = m3u8_req.headers.get("Location")
+        location = m3u8_req.headers.get("Location")
+        if location:
+            m3u8 = str(location)
     
     if not m3u8:
         log.warning(f"URL {url_num}) Unable to fetch M3U8 request.")
@@ -310,7 +312,7 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
     log.info(f"Total new events found: {len(events)}")
     return events
 
-async def scrape(browser: Browser) -> None:
+async def scrape(browser: Browser = None) -> None:
     """Main scraping function"""
     # Load cached URLs
     cached_urls = CACHE_FILE.load() or {}
@@ -349,7 +351,7 @@ async def scrape(browser: Browser) -> None:
                 final_id = tvg_id or f"{sport.replace(' ', '.')}.event"
                 
                 entry = {
-                    "url": m3u8_url,
+                    "url": str(m3u8_url),  # Ensure URL is string
                     "logo": final_logo,
                     "base": referer if referer else "https://lista-preta-tv.site/",
                     "timestamp": ts,
@@ -369,10 +371,10 @@ async def scrape(browser: Browser) -> None:
         log.info("No new events found")
     
     # Save updated cache
-    CACHE_FILE.write(cached_urls)
-    
-    # Generate output files
-    generate_output_files()
+    if cached_urls:
+        CACHE_FILE.write(cached_urls)
+    else:
+        log.info("No events to cache")
 
 async def main():
     """Main function to run the updater"""
@@ -385,8 +387,8 @@ async def main():
     
     log.info(f"Using API URL: {API_URL}")
     
-    # Remove Playwright dependency - we don't need a browser for HTTP requests
-    await scrape(None)
+    # No browser needed for HTTP requests
+    await scrape()
 
 def run():
     """Synchronous entry point for the updater"""
