@@ -33,7 +33,7 @@ jobs:
           LTSPRETA_CH_API_URL: ${{ secrets.LTSPRETA_CH_API_URL }}
         run: |
           echo "Starting Update LTSPRETA Filtered updater..."
-          python cdntv_ch_filter.py
+          python ltspreta.py
 
       - name: Commit & Push safely
         run: |
