@@ -5,15 +5,13 @@ import re
 from functools import partial
 from urllib.parse import urljoin, urlparse, parse_qs
 
-from playwright.async_api import Browser
-
 from utils import Cache, Time, get_logger, leagues, network
 
 log = get_logger(__name__)
 
 urls: dict[str, dict[str, str | float]] = {}
 
-TAG = "LISTA"
+TAG = "LTSPRETA"
 
 CACHE_FILE = Cache(TAG, exp=19_800)
 
@@ -76,7 +74,7 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
             "https://lista-preta-tv.site/m3u8.php",
             headers={"Referer": ref},
             params={"id": event_id, "token": token, "exp": exp},
-            follow_redirects=True,  # Follow redirects to get final URL
+            follow_redirects=True,
             log=log,
         )
     ):
@@ -102,9 +100,7 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
 
 def generate_output_files():
     """Generate both VLC and TiviMate M3U8 files"""
-    if not urls:
-        log.info("No URLs to write to output files")
-        return
+    global urls
     
     log.info(f"Generating output files with {len(urls)} events")
     
@@ -112,57 +108,62 @@ def generate_output_files():
     vlc_content = "#EXTM3U\n"
     tivimate_content = "#EXTM3U\n"
     
-    # Sort by timestamp to maintain order
-    sorted_urls = sorted(urls.items(), key=lambda x: x[1].get("timestamp", 0))
-    
-    chno = 1  # Start channel number from 1
-    for key, data in sorted_urls:
-        if not data.get("url"):
-            continue
+    if urls:
+        # Sort by timestamp to maintain order
+        sorted_urls = sorted(urls.items(), key=lambda x: x[1].get("timestamp", 0))
+        
+        chno = 1  # Start channel number from 1
+        for key, data in sorted_urls:
+            if not data.get("url"):
+                continue
+                
+            # Extract data
+            sport_match = key.split("[")[1].split("]")[0] if "[" in key else "Live Events"
+            sport = sport_match
+            event_name = key.split("]")[-1].strip().replace(f"({TAG})", "").strip() if "]" in key else key
+            logo = data.get("logo", "")
+            tvg_id = data.get("id", "Live.Event.us")
+            url = data.get("url", "")
+            referer_url = data.get("referer_url", "")
             
-        # Extract data
-        sport_match = key.split("[")[1].split("]")[0] if "[" in key else "Live Events"
-        sport = sport_match
-        event_name = key.split("]")[-1].strip().replace(f"({TAG})", "").strip() if "]" in key else key
-        logo = data.get("logo", "")
-        tvg_id = data.get("id", "Live.Event.us")
-        url = data.get("url", "")
-        referer_url = data.get("referer_url", "")
+            # Keep the full URL with token parameters
+            full_url = url
+            
+            # Skip if no URL
+            if not full_url:
+                continue
+            
+            # For VLC referer, use the constructed referer URL
+            vlc_referer = referer_url if referer_url else "https://lista-preta-tv.site/"
+            
+            # EXTINF line (same for both formats)
+            extinf = f'#EXTINF:-1 tvg-chno="{chno}" tvg-id="{tvg_id}" tvg-name="{key}" tvg-logo="{logo}" group-title="{sport}",{event_name}\n'
+            
+            # VLC format
+            vlc_content += extinf
+            vlc_content += f"#EXTVLCOPT:http-referrer={vlc_referer}\n"
+            vlc_content += f"#EXTVLCOPT:http-origin={vlc_referer}\n"
+            vlc_content += f"#EXTVLCOPT:http-user-agent={USER_AGENT}\n"
+            vlc_content += f"{full_url}\n\n"
+            
+            # TiviMate format (with pipe and encoded user agent)
+            encoded_ua = encode_user_agent(USER_AGENT)
+            tivimate_url = f"{full_url}|referer={vlc_referer}|origin={vlc_referer}|user-agent={encoded_ua}"
+            
+            tivimate_content += extinf
+            tivimate_content += f"{tivimate_url}\n\n"
+            
+            chno += 1
         
-        # Keep the full URL with token parameters
-        full_url = url
-        
-        # Skip if no URL
-        if not full_url:
-            continue
-        
-        # For VLC referer, use the constructed referer URL
-        vlc_referer = referer_url if referer_url else "https://lista-preta-tv.site/"
-        
-        # EXTINF line (same for both formats)
-        extinf = f'#EXTINF:-1 tvg-chno="{chno}" tvg-id="{tvg_id}" tvg-name="{key}" tvg-logo="{logo}" group-title="{sport}",{event_name}\n'
-        
-        # VLC format
-        vlc_content += extinf
-        vlc_content += f"#EXTVLCOPT:http-referrer={vlc_referer}\n"
-        vlc_content += f"#EXTVLCOPT:http-origin={vlc_referer}\n"
-        vlc_content += f"#EXTVLCOPT:http-user-agent={USER_AGENT}\n"
-        vlc_content += f"{full_url}\n\n"
-        
-        # TiviMate format (with pipe and encoded user agent)
-        encoded_ua = encode_user_agent(USER_AGENT)
-        tivimate_url = f"{full_url}|referer={vlc_referer}|origin={vlc_referer}|user-agent={encoded_ua}"
-        
-        tivimate_content += extinf
-        tivimate_content += f"{tivimate_url}\n\n"
-        
-        chno += 1
+        log.info(f"Processed {chno-1} events for output files")
+    else:
+        log.warning("No URLs available to write to output files")
     
     # Write VLC file
     try:
         with open(VLC_OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write(vlc_content)
-        log.info(f"Successfully wrote {VLC_OUTPUT_FILE} with {chno-1} events")
+        log.info(f"Successfully wrote {VLC_OUTPUT_FILE}")
     except Exception as e:
         log.error(f"Error writing {VLC_OUTPUT_FILE}: {e}")
     
@@ -170,7 +171,7 @@ def generate_output_files():
     try:
         with open(TIVIMATE_OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write(tivimate_content)
-        log.info(f"Successfully wrote {TIVIMATE_OUTPUT_FILE} with {chno-1} events")
+        log.info(f"Successfully wrote {TIVIMATE_OUTPUT_FILE}")
     except Exception as e:
         log.error(f"Error writing {TIVIMATE_OUTPUT_FILE}: {e}")
 
@@ -312,15 +313,18 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
     log.info(f"Total new events found: {len(events)}")
     return events
 
-async def scrape(browser: Browser = None) -> None:
+async def scrape(browser=None) -> None:
     """Main scraping function"""
+    global urls
+    
     # Load cached URLs
     cached_urls = CACHE_FILE.load() or {}
     
-    cached_count = len(cached_urls)
-    
-    # Update global urls with cached ones
+    # Clear and reload urls from cache
+    urls.clear()
     urls.update(cached_urls)
+    
+    cached_count = len(cached_urls)
     
     log.info(f"Loaded {cached_count} event(s) from cache")
     log.info(f'Scraping from "{API_URL}"')
@@ -360,7 +364,9 @@ async def scrape(browser: Browser = None) -> None:
                     "referer_url": referer if referer else f"https://lista-preta-tv.site/player-all.html?id={ev.get('event_id', '')}",
                 }
                 
-                urls[key] = cached_urls[key] = entry
+                # Update both dictionaries
+                cached_urls[key] = entry
+                urls[key] = entry
                 log.info(f"Successfully added URL for: {key}")
             else:
                 log.warning(f"Failed to get M3U8 for event: {ev['sport']} - {ev['event']}")
@@ -373,11 +379,14 @@ async def scrape(browser: Browser = None) -> None:
     # Save updated cache
     if cached_urls:
         CACHE_FILE.write(cached_urls)
+        log.info(f"Saved {len(cached_urls)} events to cache")
     else:
         log.info("No events to cache")
-        
-   # CRITICAL FIX: ALWAYS GENERATE FILES
-        GENERATE_OUTPUT_FILES()
+    
+    # CRITICAL FIX: ALWAYS GENERATE OUTPUT FILES
+    log.info("Generating output files...")
+    generate_output_files()
+    log.info(f"Final URLs count: {len(urls)}")
 
 async def main():
     """Main function to run the updater"""
