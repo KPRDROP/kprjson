@@ -20,8 +20,8 @@ if API_URL and not API_URL.startswith(("http://", "https://")):
 
 # OUNTRY FILTER
 ALLOWED_COUNTRIES = {
-    "US", "IN", "TR", "HR", "RS", "GB", "BR", "AU",
-    "GR", "PL", "BG", "AR", "MX", "RU", "CA", "ZA"
+    "US", "IN", "RS", "GB", "GR", "PL", 
+    "BG", "AR", "MX", "RU", "CA"
 }
 
 # OUTPUT FILES
