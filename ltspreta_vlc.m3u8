@@ -1,17 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Seattle Mariners vs Los Angeles Angels (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9tbGItbmV0d29yay5zdmc%3D" group-title="MLB",Seattle Mariners vs Los Angeles Angels
-#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1150
-#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1150
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lista-preta-tv.site/tv247V3/us/index.php?id=MLBNetwork
-
-#EXTINF:-1 tvg-chno="2" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] St. Louis Blues vs Anaheim Ducks (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvY2FuYWRhL3Nwb3J0c25ldC1vbnRhcmlvLnBuZw%3D%3D" group-title="NHL",St. Louis Blues vs Anaheim Ducks
-#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=956
-#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=956
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lista-preta-tv.site/live/ca/index.php?ch=SportsnetOntario
-
-#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Liga MX] Tijuana vs Tigres UANL (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy90dWRuLnN2Zw%3D%3D" group-title="Liga MX",Tijuana vs Tigres UANL
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Liga MX] Tijuana vs Tigres UANL (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy90dWRuLnN2Zw%3D%3D" group-title="Liga MX",Tijuana vs Tigres UANL
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=645
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=645
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
