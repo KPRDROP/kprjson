@@ -18,10 +18,15 @@ TAG = "LTSPRETA"
 CACHE_FILE = Cache(TAG, exp=19_800)
 API_CACHE = Cache(f"{TAG}-api", exp=19_800)
 
+# Allowed status
+ALLOWED_STATUS = ["live", "upcoming"]
+
+# Get API_URL from environment variable
 API_URL = os.environ.get("LTSPRETA_API_URL")
 if API_URL and not API_URL.startswith(('http://', 'https://')):
     API_URL = f"https://{API_URL}"
 
+# Output files
 VLC_OUTPUT_FILE = "ltspreta_vlc.m3u8"
 TIVIMATE_OUTPUT_FILE = "ltspreta_tivimate.m3u8"
 
@@ -88,8 +93,6 @@ def generate_output_files():
         log.info("No URLs to write")
         return
 
-    log.info(f"Generating output files with {len(urls)} events")
-
     vlc_content = "#EXTM3U\n"
     tivimate_content = "#EXTM3U\n"
 
@@ -106,21 +109,21 @@ def generate_output_files():
         logo = data.get("logo", "")
         tvg_id = data.get("id", "Live.Event")
         url = data.get("url")
-        referer = data.get("referer_url", "https://lista-preta-tv.site/")
+        referer_url = data.get("referer_url", "")
 
         extinf = f'#EXTINF:-1 tvg-chno="{chno}" tvg-id="{tvg_id}" tvg-name="{key}" tvg-logo="{logo}" group-title="{sport}",{event_name}\n'
 
-        # VLC
         vlc_content += extinf
-        vlc_content += f"#EXTVLCOPT:http-referrer={referer}\n"
-        vlc_content += f"#EXTVLCOPT:http-origin={referer}\n"
+        vlc_content += f"#EXTVLCOPT:http-referrer={referer_url}\n"
+        vlc_content += f"#EXTVLCOPT:http-origin={referer_url}\n"
         vlc_content += f"#EXTVLCOPT:http-user-agent={USER_AGENT}\n"
         vlc_content += f"{url}\n\n"
 
-        # TiviMate
         encoded_ua = encode_user_agent(USER_AGENT)
+        tivimate_url = f"{url}|referer={referer_url}|origin={referer_url}|user-agent={encoded_ua}"
+
         tivimate_content += extinf
-        tivimate_content += f"{url}|referer={referer}|origin={referer}|user-agent={encoded_ua}\n\n"
+        tivimate_content += f"{tivimate_url}\n\n"
 
         chno += 1
 
@@ -130,10 +133,10 @@ def generate_output_files():
     with open(TIVIMATE_OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(tivimate_content)
 
-    log.info(f"Files generated: {VLC_OUTPUT_FILE}, {TIVIMATE_OUTPUT_FILE}")
+    log.info(f"Generated {chno-1} channels")
 
 
-async def get_events(cached_keys):
+async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
     now = Time.clean(Time.now())
     events = []
 
@@ -143,26 +146,34 @@ async def get_events(cached_keys):
         if not API_URL:
             return events
 
-        if r := await network.request(API_URL, log=log, headers={"User-Agent": USER_AGENT}):
+        if r := await network.request(API_URL, log=log):
             api_data = r.json()
 
-        API_CACHE.write(api_data or [])
+        API_CACHE.write(api_data)
 
     if not api_data:
         return events
 
+    log.info(f"Processing {len(api_data)} events")
+
     for event in api_data:
         try:
-            if event.get("status", "").lower() != "live", "upcoming" :
-                continue
-
+            sport = event.get("sport")
             home = event.get("home")
             away = event.get("away")
-            sport = event.get("sport")
 
-            if not (home and away and sport):
+            if not (sport and home and away):
                 continue
 
+            event_name = f"{home} vs {away}"
+            tournament = event.get("tournament", sport)
+
+            # STATUS FILTER
+            status = str(event.get("status", "")).lower().strip()
+            if status not in ALLOWED_STATUS:
+                continue
+
+            # Channels
             channels = event.get("channels", [])
             if not channels:
                 continue
@@ -171,27 +182,43 @@ async def get_events(cached_keys):
             if not player_url:
                 continue
 
-            key = f"[{sport}] {home} vs {away} ({TAG})"
+            # BETTER TIME HANDLING
+            timestamp = now.timestamp()
+            start = event.get("start")
+
+            if start:
+                try:
+                    event_dt = Time.from_str(start, timezone="UTC")
+                    timestamp = event_dt.timestamp()
+                except:
+                    pass
+
+            key = f"[{tournament}] {event_name} ({TAG})"
 
             if key in cached_keys:
                 continue
 
+            logo = channels[0].get("image", "")
+
             events.append({
-                "sport": sport,
-                "event": f"{home} vs {away}",
+                "sport": tournament,
+                "event": event_name,
                 "link": player_url,
-                "timestamp": now.timestamp(),
-                "logo": channels[0].get("image", ""),
+                "timestamp": timestamp,
+                "logo": logo,
                 "event_id": player_url.split("id=")[-1]
             })
 
-        except:
+            log.info(f"Added ({status}) event: {key}")
+
+        except Exception as e:
+            log.error(f"Error: {e}")
             continue
 
     return events
 
 
-async def scrape(browser=None):
+async def scrape():
     cached_urls = CACHE_FILE.load() or {}
     urls.update(cached_urls)
 
@@ -202,16 +229,19 @@ async def scrape(browser=None):
             if m3u8:
                 key = f"[{ev['sport']}] {ev['event']} ({TAG})"
 
+                tvg_id, logo = leagues.get_tvg_info(ev["sport"], ev["event"])
+
                 urls[key] = cached_urls[key] = {
-                    "url": m3u8,
-                    "logo": ev["logo"],
+                    "url": str(m3u8),
+                    "logo": ev.get("logo", logo),
                     "timestamp": ev["timestamp"],
-                    "id": f"{ev['sport']}.event",
-                    "referer_url": ref
+                    "id": tvg_id or "Live.Event",
+                    "referer_url": ref,
                 }
 
     CACHE_FILE.write(cached_urls)
 
+    # IMPORTANT: always generate files
     generate_output_files()
 
 
