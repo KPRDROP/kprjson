@@ -2,8 +2,7 @@ name: LTSPRETA Updater
 
 on:
   schedule:
-    # Runs every hour
-    - cron: '0 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 permissions:
