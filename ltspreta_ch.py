@@ -10,7 +10,7 @@ urls: dict[str, dict[str, str | float]] = {}
 
 TAG = "LTSPRETA-CH"
 
-CACHE_FILE = Cache(TAG, exp=19_800)
+CACHE_FILE = Cache(TAG, exp=28_800)
 API_CACHE = Cache(f"{TAG}-api", exp=19_800)
 
 # API
