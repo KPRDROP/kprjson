@@ -28,6 +28,9 @@ VLC_OUTPUT_FILE = "ltspreta_vlc.m3u8"
 TIVIMATE_OUTPUT_FILE = "ltspreta_tivimate.m3u8"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 
+# Allowed status types
+ALLOWED_STATUS = ["live", "upcoming"]
+
 def encode_user_agent(user_agent: str) -> str:
     """Encode user agent for TiviMate format"""
     return urllib.parse.quote(user_agent)
@@ -240,6 +243,10 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
     
     log.info(f"Processing {len(api_data)} events from API")
     
+    # Counter for status types
+    live_count = 0
+    upcoming_count = 0
+    
     for event in api_data:
         try:
             # Extract event information
@@ -256,11 +263,17 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
             # Get tournament/league
             tournament = event.get("tournament", sport)
             
-            # Get status (only process live events)
+            # Get status (process both live and upcoming)
             status = event.get("status", "").lower()
-            if status != "live":
-                log.debug(f"Event {event_name} status is '{status}', skipping")
+            if status not in ALLOWED_STATUS:
+                log.debug(f"Event {event_name} status is '{status}', skipping (allowed: {ALLOWED_STATUS})")
                 continue
+            
+            # Count status types
+            if status == "live":
+                live_count += 1
+            elif status == "upcoming":
+                upcoming_count += 1
             
             # Get channels
             channels = event.get("channels", [])
@@ -295,22 +308,24 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
             # Get logo from channel
             logo = channels[0].get("image", "")
             
+            # Add status to event data
             events.append({
                 "sport": tournament,
                 "event": event_name,
                 "link": player_url,
                 "timestamp": timestamp,
                 "logo": logo,
-                "event_id": player_url.split("id=")[-1]
+                "event_id": player_url.split("id=")[-1],
+                "status": status  # Store status for debugging
             })
             
-            log.info(f"Found new event: {key} at {event_time_str if event_time_str else 'current time'}")
+            log.info(f"Found new {status.upper()} event: {key} at {event_time_str if event_time_str else 'current time'}")
             
         except Exception as e:
             log.error(f"Error processing event: {e}")
             continue
     
-    log.info(f"Total new events found: {len(events)}")
+    log.info(f"Total new events found: {len(events)} (Live: {live_count}, Upcoming: {upcoming_count})")
     return events
 
 async def scrape(browser=None) -> None:
@@ -328,13 +343,15 @@ async def scrape(browser=None) -> None:
     
     log.info(f"Loaded {cached_count} event(s) from cache")
     log.info(f'Scraping from "{API_URL}"')
+    log.info(f"Processing events with status: {ALLOWED_STATUS}")
     
     if events := await get_events(list(cached_urls.keys())):
         log.info(f"Processing {len(events)} new URL(s)")
         
         # Process events sequentially to avoid overwhelming
+        success_count = 0
         for i, ev in enumerate(events, start=1):
-            log.info(f"Processing event {i}/{len(events)}: {ev['sport']} - {ev['event']}")
+            log.info(f"Processing event {i}/{len(events)}: {ev['sport']} - {ev['event']} (Status: {ev.get('status', 'unknown')})")
             
             # Use the process_event function to get M3U8
             m3u8_url, referer = await process_event(ev["link"], i)
@@ -362,16 +379,18 @@ async def scrape(browser=None) -> None:
                     "id": final_id,
                     "link": ev["link"],
                     "referer_url": referer if referer else f"https://lista-preta-tv.site/player-all.html?id={ev.get('event_id', '')}",
+                    "status": ev.get("status", "unknown")  # Store status in cache
                 }
                 
                 # Update both dictionaries
                 cached_urls[key] = entry
                 urls[key] = entry
+                success_count += 1
                 log.info(f"Successfully added URL for: {key}")
             else:
                 log.warning(f"Failed to get M3U8 for event: {ev['sport']} - {ev['event']}")
         
-        log.info(f"Collected and cached {len(cached_urls) - cached_count} new event(s)")
+        log.info(f"Collected and cached {success_count} new event(s) (Total in cache: {len(cached_urls)})")
     
     else:
         log.info("No new events found")
@@ -398,6 +417,7 @@ async def main():
         return
     
     log.info(f"Using API URL: {API_URL}")
+    log.info(f"Processing status types: {ALLOWED_STATUS}")
     
     # No browser needed for HTTP requests
     await scrape()
