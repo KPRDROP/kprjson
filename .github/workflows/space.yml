@@ -22,11 +22,11 @@ jobs:
     - name: Install requests
       run: pip install requests
     
-    - name: Run transformer
+    - name: Run space updater
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_REPO: ${{ github.repository }}
-      run: python playlist_transformer.py
+      run: python space.py
     
     - name: Commit changes
       run: |
