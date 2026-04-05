@@ -59,7 +59,13 @@ https://lista-preta-tv.site/tv247V3/us/index.php?id=Telemundo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 https://lista-preta-tv.site/live/us/index.php?ch=ESPN
 
-#EXTINF:-1 tvg-chno="11" tvg-id="Soccer.Dummy.us" tvg-name="[Liga MX] Guadalajara vs Pumas UNAM (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9uYmMucG5n" group-title="Liga MX",Guadalajara vs Pumas UNAM
+#EXTINF:-1 tvg-chno="11" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Golden State Warriors vs Houston Rockets (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy90ZWxlbXVuZG8uc3Zn" group-title="NBA",Golden State Warriors vs Houston Rockets
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=647
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=647
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/tv247V3/us/index.php?id=Telemundo
+
+#EXTINF:-1 tvg-chno="12" tvg-id="Soccer.Dummy.us" tvg-name="[Liga MX] Guadalajara vs Pumas UNAM (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9uYmMucG5n" group-title="Liga MX",Guadalajara vs Pumas UNAM
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=631
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=631
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
