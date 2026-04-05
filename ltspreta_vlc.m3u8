@@ -1,59 +1,17 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Liga MX] Monterrey vs Atlético San Luis (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy90dWRuLnN2Zw%3D%3D" group-title="Liga MX",Monterrey vs Atlético San Luis
-#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=645
-#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=645
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lista-preta-tv.site/tv247V3/us/index.php?id=TUDN
-
-#EXTINF:-1 tvg-chno="2" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Winnipeg Jets vs Columbus Blue Jackets (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvY2FuYWRhL3Nwb3J0c25ldC13ZXN0LnBuZw%3D%3D" group-title="NHL",Winnipeg Jets vs Columbus Blue Jackets
-#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=957
-#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=957
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lista-preta-tv.site/live/ca/index.php?ch=SportsnetWest
-
-#EXTINF:-1 tvg-chno="3" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Toronto Maple Leafs vs Los Angeles Kings (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvY2FuYWRhL3Nwb3J0c25ldC1vbnRhcmlvLnBuZw%3D%3D" group-title="NHL",Toronto Maple Leafs vs Los Angeles Kings
-#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=956
-#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=956
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lista-preta-tv.site/live/ca/index.php?ch=SportsnetOntario
-
-#EXTINF:-1 tvg-chno="4" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Montreal Canadiens vs New Jersey Devils (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9uaGwtbmV0d29yay5zdmc%3D" group-title="NHL",Montreal Canadiens vs New Jersey Devils
-#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1168
-#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1168
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lista-preta-tv.site/tv247V3/us/index.php?id=NHLNetwork
-
-#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Arizona Diamondbacks vs Atlanta Braves (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9mb3gtZGVwb3J0ZXMuc3Zn" group-title="MLB",Arizona Diamondbacks vs Atlanta Braves
-#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=331
-#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=331
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lista-preta-tv.site/live/us/index.php?ch=FOXDEPORTES
-
-#EXTINF:-1 tvg-chno="6" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Rosario Central vs Atlético Tucumán (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYXJnZW50aW5hL3RudC1zcG9ydHMucG5n" group-title="Primera División",Rosario Central vs Atlético Tucumán
-#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=528
-#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=528
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lista-preta-tv.site/live/ar/index.php?ch=TNTSARG
-
-#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event" tvg-name="[Brasileirão] Vasco da Gama vs Botafogo (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9ydHVnYWwvY2FuYWwtMTEucG5n" group-title="Brasileirão",Vasco da Gama vs Botafogo
-#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=287
-#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=287
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lista-preta-tv.site/live/index.php?ch=Canal11
-
-#EXTINF:-1 tvg-chno="8" tvg-id="Soccer.Dummy.us" tvg-name="[Liga MX] Cruz Azul vs Pachuca (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9jYnMtc3BvcnRzLW5ldHdvcmsuc3Zn" group-title="Liga MX",Cruz Azul vs Pachuca
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Liga MX] Cruz Azul vs Pachuca (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9jYnMtc3BvcnRzLW5ldHdvcmsuc3Zn" group-title="Liga MX",Cruz Azul vs Pachuca
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=778
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=778
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=CBSSportsNetwork
 
-#EXTINF:-1 tvg-chno="9" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Chicago Blackhawks vs Seattle Kraken (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZGVubWFyay90djMtc3BvcnQud2VicA%3D%3D" group-title="NHL",Chicago Blackhawks vs Seattle Kraken
+#EXTINF:-1 tvg-chno="2" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Chicago Blackhawks vs Seattle Kraken (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZGVubWFyay90djMtc3BvcnQud2VicA%3D%3D" group-title="NHL",Chicago Blackhawks vs Seattle Kraken
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=475
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=475
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 https://lista-preta-tv.site/live/dk/index.php?ch=TV3Sport
 
-#EXTINF:-1 tvg-chno="10" tvg-id="Soccer.Dummy.us" tvg-name="[Liga MX] Santos Laguna vs América (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy90dWRuLnN2Zw%3D%3D" group-title="Liga MX",Santos Laguna vs América
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Liga MX] Santos Laguna vs América (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy90dWRuLnN2Zw%3D%3D" group-title="Liga MX",Santos Laguna vs América
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=645
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=645
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
