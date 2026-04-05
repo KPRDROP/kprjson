@@ -1,4 +1,4 @@
-name: Auto-Update Playlist
+name: Space-Update Playlist
 
 on:
   schedule:
