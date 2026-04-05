@@ -1,0 +1,37 @@
+name: Auto-Update Playlist
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install requests
+      run: pip install requests
+    
+    - name: Run transformer
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_REPO: ${{ github.repository }}
+      run: python playlist_transformer.py
+    
+    - name: Commit changes
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git add space.m3u8
+        git diff --staged --quiet || git commit -m "Auto-update playlist $(date '+%Y-%m-%d %H:%M:%S')"
+        git push
