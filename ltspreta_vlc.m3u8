@@ -47,13 +47,19 @@ https://lista-preta-tv.site/live/uk/index.php?ch=TNT1UK
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 https://lista-preta-tv.site/live/ar/index.php?ch=ESPNPLUSARG
 
-#EXTINF:-1 tvg-chno="9" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] St. Louis Blues vs Colorado Avalanche (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9lc3BuLnN2Zw%3D%3D" group-title="NHL",St. Louis Blues vs Colorado Avalanche
+#EXTINF:-1 tvg-chno="9" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Dallas Mavericks vs Los Angeles Lakers (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy90ZWxlbXVuZG8uc3Zn" group-title="NBA",Dallas Mavericks vs Los Angeles Lakers
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=647
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=647
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/tv247V3/us/index.php?id=Telemundo
+
+#EXTINF:-1 tvg-chno="10" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] St. Louis Blues vs Colorado Avalanche (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9lc3BuLnN2Zw%3D%3D" group-title="NHL",St. Louis Blues vs Colorado Avalanche
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=329
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=329
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 https://lista-preta-tv.site/live/us/index.php?ch=ESPN
 
-#EXTINF:-1 tvg-chno="10" tvg-id="Soccer.Dummy.us" tvg-name="[Liga MX] Guadalajara vs Pumas UNAM (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9uYmMucG5n" group-title="Liga MX",Guadalajara vs Pumas UNAM
+#EXTINF:-1 tvg-chno="11" tvg-id="Soccer.Dummy.us" tvg-name="[Liga MX] Guadalajara vs Pumas UNAM (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9uYmMucG5n" group-title="Liga MX",Guadalajara vs Pumas UNAM
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=631
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=631
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
