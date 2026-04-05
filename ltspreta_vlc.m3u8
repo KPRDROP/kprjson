@@ -1,67 +1,175 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Boston Red Sox vs San Diego Padres (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vdG50LXNwb3J0LTIucG5n" group-title="MLB",Boston Red Sox vs San Diego Padres
-#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=410
-#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=410
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Pisa vs Torino (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9mb3gtZGVwb3J0ZXMuc3Zn" group-title="Serie A",Pisa vs Torino
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=331
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=331
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lista-preta-tv.site/live/uk/index.php?ch=tntsports2
+https://lista-preta-tv.site/live/us/index.php?ch=FOXDEPORTES
 
-#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago White Sox vs Toronto Blue Jays (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvY2FuYWRhL3Nwb3J0c25ldC1lYXN0LnBuZw%3D%3D" group-title="MLB",Chicago White Sox vs Toronto Blue Jays
-#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=955
-#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=955
+#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event" tvg-name="[1. Lig] Amed SK vs Boluspor (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdHVya2V5L3RydC1zcG9yLnN2Zw%3D%3D" group-title="1. Lig",Amed SK vs Boluspor
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=319
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=319
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lista-preta-tv.site/live/ca/index.php?ch=SportsnetEast
+https://lista-preta-tv.site/live/tr/index.php?ch=TRTSPOR
 
-#EXTINF:-1 tvg-chno="3" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Milwaukee Bucks vs Memphis Grizzlies (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvZGllbWEtc3BvcnRzLTEucG5n" group-title="NBA",Milwaukee Bucks vs Memphis Grizzlies
+#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event" tvg-name="[Super League] PAOK vs Panathinaikos (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLXByaW1lLnBuZw%3D%3D" group-title="Super League",PAOK vs Panathinaikos
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=472
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=472
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/live/gr/index.php?ch=NOVASPORTSPR
+
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Segunda Division] Las Palmas vs Huesca (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLTQucG5n" group-title="Segunda Division",Las Palmas vs Huesca
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=467
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=467
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/live/gr/index.php?ch=NOVASPORTS4
+
+#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event" tvg-name="[Parva Liga] Ludogorets vs CSKA 1948 (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvZGllbWEtc3BvcnRzLTEucG5n" group-title="Parva Liga",Ludogorets vs CSKA 1948
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=417
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=417
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 https://lista-preta-tv.site/live/bg/index.php?ch=DiemaSport
 
-#EXTINF:-1 tvg-chno="4" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Boston Bruins vs Philadelphia Flyers (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy90bnQucG5n" group-title="NHL",Boston Bruins vs Philadelphia Flyers
+#EXTINF:-1 tvg-chno="6" tvg-id="Soccer.Dummy.us" tvg-name="[Super Lig] Fenerbahçe vs Beşiktaş (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvc3BhaW4vYmVpbi1zcG9ydHMtbi5zdmc%3D" group-title="Super Lig",Fenerbahçe vs Beşiktaş
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=687
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=687
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/live/es/index.php?ch=BEINSPORTES
+
+#EXTINF:-1 tvg-chno="7" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Minnesota Wild vs Detroit Red Wings (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy90bnQucG5n" group-title="NHL",Minnesota Wild vs Detroit Red Wings
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=644
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=644
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=TNT
 
-#EXTINF:-1 tvg-chno="5" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Minnesota Timberwolves vs Charlotte Hornets (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtNC53ZWJw" group-title="NBA",Minnesota Timberwolves vs Charlotte Hornets
-#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=448
-#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=448
+#EXTINF:-1 tvg-chno="8" tvg-id="Soccer.Dummy.us" tvg-name="[Liga I] Rapid Bucureşti vs Universitatea Cluj (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcm9tYW5pYS9kaWdpLXNwb3J0LTEucG5n" group-title="Liga I",Rapid Bucureşti vs Universitatea Cluj
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=529
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=529
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lista-preta-tv.site/live/gr/index.php?ch=COSMOTESPORT4
+https://lista-preta-tv.site/live/ro/index.php?ch=DIGISPORT1
 
-#EXTINF:-1 tvg-chno="6" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Washington Capitals vs New York Rangers (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9lc3BuLnN2Zw%3D%3D" group-title="NHL",Washington Capitals vs New York Rangers
-#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=329
-#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=329
+#EXTINF:-1 tvg-chno="9" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Boston Red Sox vs San Diego Padres (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vdG50LXNwb3J0LTIucG5n" group-title="MLB",Boston Red Sox vs San Diego Padres
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=410
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=410
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lista-preta-tv.site/live/us/index.php?ch=ESPN
+https://lista-preta-tv.site/live/uk/index.php?ch=tntsports2
 
-#EXTINF:-1 tvg-chno="7" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] New Jersey Devils vs Montreal Canadiens (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvY2FuYWRhL3Rzbi0yLnN2Zw%3D%3D" group-title="NHL",New Jersey Devils vs Montreal Canadiens
-#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=595
-#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=595
+#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event" tvg-name="[Super League] Olympiakos Piraeus vs AEK Athens (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtMS5zdmc%3D" group-title="Super League",Olympiakos Piraeus vs AEK Athens
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=445
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=445
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lista-preta-tv.site/live/ca/index.php?ch=TSN2
+https://lista-preta-tv.site/live/gr/index.php?ch=COSMOTESPORT1
 
-#EXTINF:-1 tvg-chno="8" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Detroit Tigers vs St. Louis Cardinals (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vdG50LXNwb3J0LTEucG5n" group-title="MLB",Detroit Tigers vs St. Louis Cardinals
-#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=409
-#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=409
+#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event" tvg-name="[Pro League] Al Ittifaq vs Al Quadisiya (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9mb3gtc3BvcnQtMi5zdmc%3D" group-title="Pro League",Al Ittifaq vs Al Quadisiya
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=333
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=333
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lista-preta-tv.site/live/uk/index.php?ch=TNT1UK
+https://lista-preta-tv.site/live/us/index.php?ch=FOXSPORTS2
 
-#EXTINF:-1 tvg-chno="9" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Central Córdoba SdE vs Newell&#039;s Old Boys (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYXJnZW50aW5hL2VzcG4tcHJlbWl1bS5zdmc%3D" group-title="Primera División",Central Córdoba SdE vs Newell&#039;s Old Boys
+#EXTINF:-1 tvg-chno="12" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago White Sox vs Toronto Blue Jays (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvY2FuYWRhL3Nwb3J0c25ldC1lYXN0LnBuZw%3D%3D" group-title="MLB",Chicago White Sox vs Toronto Blue Jays
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=955
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=955
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/live/ca/index.php?ch=SportsnetEast
+
+#EXTINF:-1 tvg-chno="13" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Gimnasia La Plata vs Huracán (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYXJnZW50aW5hL2VzcG4tcHJlbWl1bS5zdmc%3D" group-title="Primera División",Gimnasia La Plata vs Huracán
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=524
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=524
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 https://lista-preta-tv.site/live/ar/index.php?ch=ESPNPLUSARG
 
-#EXTINF:-1 tvg-chno="10" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] St. Louis Blues vs Colorado Avalanche (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9lc3BuLnN2Zw%3D%3D" group-title="NHL",St. Louis Blues vs Colorado Avalanche
+#EXTINF:-1 tvg-chno="14" tvg-id="Soccer.Dummy.us" tvg-name="[Ligue 1] Monaco vs Olympique Marseille (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvc3BhaW4vYmVpbi1zcG9ydHMtbi5zdmc%3D" group-title="Ligue 1",Monaco vs Olympique Marseille
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=687
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=687
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/live/es/index.php?ch=BEINSPORTES
+
+#EXTINF:-1 tvg-chno="15" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Internazionale vs Roma (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9hc3Ryby1mb290YmFsbC53ZWJw" group-title="Serie A",Internazionale vs Roma
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=59
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=59
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/live/us/index.php?ch=AstroSuperSport4
+
+#EXTINF:-1 tvg-chno="16" tvg-id="Soccer.Dummy.us" tvg-name="[La Liga] Deportivo Alavés vs Osasuna (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9lc3BuLWRlcG9ydGVzLnBuZw%3D%3D" group-title="La Liga",Deportivo Alavés vs Osasuna
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=787
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=787
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/tv247V3/us/index.php?id=ESPNDeportes
+
+#EXTINF:-1 tvg-chno="17" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Milwaukee Bucks vs Memphis Grizzlies (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvZGllbWEtc3BvcnRzLTEucG5n" group-title="NBA",Milwaukee Bucks vs Memphis Grizzlies
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=417
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=417
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/live/bg/index.php?ch=DiemaSport
+
+#EXTINF:-1 tvg-chno="18" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Boston Bruins vs Philadelphia Flyers (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy90bnQucG5n" group-title="NHL",Boston Bruins vs Philadelphia Flyers
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=644
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=644
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/tv247V3/us/index.php?id=TNT
+
+#EXTINF:-1 tvg-chno="19" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] River Plate vs Belgrano (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vcHJlbWllci1zcG9ydHMtMS5zdmc%3D" group-title="Primera División",River Plate vs Belgrano
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=415
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=415
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/live/uk/index.php?ch=PREMIERSPORTS1
+
+#EXTINF:-1 tvg-chno="20" tvg-id="Soccer.Dummy.us" tvg-name="[Liga Nacional] Platense vs Marathón (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9mb3gtZGVwb3J0ZXMuc3Zn" group-title="Liga Nacional",Platense vs Marathón
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=331
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=331
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/live/us/index.php?ch=FOXDEPORTES
+
+#EXTINF:-1 tvg-chno="21" tvg-id="Live.Event" tvg-name="[Brasileirão] Bahia vs Palmeiras (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvc3BhaW4vbW92aXN0YXItbGlnYS1jYW1wZW9uZXMtMS5zdmc%3D" group-title="Brasileirão",Bahia vs Palmeiras
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=361
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=361
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/live/es/index.php?ch=MLIGADECAMPEONES
+
+#EXTINF:-1 tvg-chno="22" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Minnesota Timberwolves vs Charlotte Hornets (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtNC53ZWJw" group-title="NBA",Minnesota Timberwolves vs Charlotte Hornets
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=448
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=448
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/live/gr/index.php?ch=COSMOTESPORT4
+
+#EXTINF:-1 tvg-chno="23" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Washington Capitals vs New York Rangers (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9lc3BuLnN2Zw%3D%3D" group-title="NHL",Washington Capitals vs New York Rangers
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=329
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=329
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 https://lista-preta-tv.site/live/us/index.php?ch=ESPN
 
-#EXTINF:-1 tvg-chno="11" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Golden State Warriors vs Houston Rockets (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy90ZWxlbXVuZG8uc3Zn" group-title="NBA",Golden State Warriors vs Houston Rockets
+#EXTINF:-1 tvg-chno="24" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] New Jersey Devils vs Montreal Canadiens (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvY2FuYWRhL3Rzbi0yLnN2Zw%3D%3D" group-title="NHL",New Jersey Devils vs Montreal Canadiens
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=595
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=595
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/live/ca/index.php?ch=TSN2
+
+#EXTINF:-1 tvg-chno="25" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Detroit Tigers vs St. Louis Cardinals (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vdG50LXNwb3J0LTEucG5n" group-title="MLB",Detroit Tigers vs St. Louis Cardinals
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=409
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=409
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/live/uk/index.php?ch=TNT1UK
+
+#EXTINF:-1 tvg-chno="26" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Central Córdoba SdE vs Newell&#039;s Old Boys (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYXJnZW50aW5hL2VzcG4tcHJlbWl1bS5zdmc%3D" group-title="Primera División",Central Córdoba SdE vs Newell&#039;s Old Boys
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=524
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=524
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/live/ar/index.php?ch=ESPNPLUSARG
+
+#EXTINF:-1 tvg-chno="27" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Dallas Mavericks vs Los Angeles Lakers (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy90ZWxlbXVuZG8uc3Zn" group-title="NBA",Dallas Mavericks vs Los Angeles Lakers
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=647
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=647
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=Telemundo
+
+#EXTINF:-1 tvg-chno="28" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] St. Louis Blues vs Colorado Avalanche (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9lc3BuLnN2Zw%3D%3D" group-title="NHL",St. Louis Blues vs Colorado Avalanche
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=329
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=329
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/live/us/index.php?ch=ESPN
+
+#EXTINF:-1 tvg-chno="29" tvg-id="Soccer.Dummy.us" tvg-name="[Liga MX] Guadalajara vs Pumas UNAM (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9uYmMucG5n" group-title="Liga MX",Guadalajara vs Pumas UNAM
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=631
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=631
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lista-preta-tv.site/tv247V3/us/index.php?id=NBCUSA
 
