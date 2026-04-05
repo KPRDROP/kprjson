@@ -1,17 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Liga MX] Cruz Azul vs Pachuca (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9jYnMtc3BvcnRzLW5ldHdvcmsuc3Zn" group-title="Liga MX",Cruz Azul vs Pachuca
-#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=778
-#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=778
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lista-preta-tv.site/tv247V3/us/index.php?id=CBSSportsNetwork
-
-#EXTINF:-1 tvg-chno="2" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Chicago Blackhawks vs Seattle Kraken (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZGVubWFyay90djMtc3BvcnQud2VicA%3D%3D" group-title="NHL",Chicago Blackhawks vs Seattle Kraken
-#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=475
-#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=475
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lista-preta-tv.site/live/dk/index.php?ch=TV3Sport
-
-#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Liga MX] Santos Laguna vs América (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy90dWRuLnN2Zw%3D%3D" group-title="Liga MX",Santos Laguna vs América
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Liga MX] Santos Laguna vs América (LTSPRETA)" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy90dWRuLnN2Zw%3D%3D" group-title="Liga MX",Santos Laguna vs América
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=645
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=645
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
