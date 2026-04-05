@@ -209,1061 +209,1061 @@ https://lista-preta-tv.site/live/pl/index.php?ch=CANALSPORTPL
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/pl/index.php?ch=CANALSPORT2PL
 
-#EXTINF:-1 tvg-chno="36" tvg-id="478" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL2NhbmFsLXNwb3J0LTMuc3Zn" group-title="PL",[PL] Canal Sport 3 (LTSPRETA-CH)
-#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=478
-#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=478
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-https://lista-preta-tv.site/live/pl/index.php?ch=CANALSPORT3PL
-
-#EXTINF:-1 tvg-chno="37" tvg-id="479" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL2NhbmFsLXNwb3J0LTQuc3Zn" group-title="PL",[PL] Canal Sport 4 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="36" tvg-id="479" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL2NhbmFsLXNwb3J0LTQuc3Zn" group-title="PL",[PL] Canal Sport 4 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=479
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=479
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/pl/index.php?ch=CANALSPORT4PL
 
-#EXTINF:-1 tvg-chno="38" tvg-id="480" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL2NhbmFsLXNwb3J0LTUuc3Zn" group-title="PL",[PL] Canal Sport 5 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="37" tvg-id="480" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL2NhbmFsLXNwb3J0LTUuc3Zn" group-title="PL",[PL] Canal Sport 5 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=480
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=480
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/pl/index.php?ch=CANALSPORT5PL
 
-#EXTINF:-1 tvg-chno="39" tvg-id="481" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="PL",[PL] Canal Extra 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="38" tvg-id="481" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="PL",[PL] Canal Extra 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=481
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=481
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/pl/index.php?ch=CLPLExtra1
 
-#EXTINF:-1 tvg-chno="40" tvg-id="482" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="PL",[PL] Canal Extra 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="39" tvg-id="482" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="PL",[PL] Canal Extra 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=482
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=482
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/pl/index.php?ch=CLPLExtra2
 
-#EXTINF:-1 tvg-chno="41" tvg-id="484" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="PL",[PL] Canal Extra 4 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="40" tvg-id="484" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="PL",[PL] Canal Extra 4 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=484
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=484
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/pl/index.php?ch=CLPLExtra4
 
-#EXTINF:-1 tvg-chno="42" tvg-id="483" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="PL",[PL] Canal Extra 3 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="41" tvg-id="483" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="PL",[PL] Canal Extra 3 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=483
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=483
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/pl/index.php?ch=CLPLExtra3
 
-#EXTINF:-1 tvg-chno="43" tvg-id="1065" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL2NhbmFsLXByZW1pdW0ud2VicA%3D%3D" group-title="PL",[PL] Canal Premium (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="42" tvg-id="1065" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL2NhbmFsLXByZW1pdW0ud2VicA%3D%3D" group-title="PL",[PL] Canal Premium (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1065
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1065
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/pl/index.php?id=CanalPlusPremium
 
-#EXTINF:-1 tvg-chno="44" tvg-id="445" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtMS5zdmc%3D" group-title="GR",[GR] Cosmote Sport 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="43" tvg-id="445" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtMS5zdmc%3D" group-title="GR",[GR] Cosmote Sport 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=445
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=445
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=COSMOTESPORT1
 
-#EXTINF:-1 tvg-chno="45" tvg-id="446" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtMi53ZWJw" group-title="GR",[GR] Cosmote Sport 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="44" tvg-id="446" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtMi53ZWJw" group-title="GR",[GR] Cosmote Sport 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=446
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=446
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=COSMOTESPORT2
 
-#EXTINF:-1 tvg-chno="46" tvg-id="447" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtMy53ZWJw" group-title="GR",[GR] Cosmote Sport 3 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="45" tvg-id="447" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtMy53ZWJw" group-title="GR",[GR] Cosmote Sport 3 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=447
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=447
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=COSMOTESPORT3
 
-#EXTINF:-1 tvg-chno="47" tvg-id="448" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtNC53ZWJw" group-title="GR",[GR] Cosmote Sport 4 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="46" tvg-id="448" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtNC53ZWJw" group-title="GR",[GR] Cosmote Sport 4 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=448
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=448
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=COSMOTESPORT4
 
-#EXTINF:-1 tvg-chno="48" tvg-id="449" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtNS53ZWJw" group-title="GR",[GR] Cosmote Sport 5 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="47" tvg-id="449" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtNS53ZWJw" group-title="GR",[GR] Cosmote Sport 5 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=449
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=449
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=COSMOTESPORT5
 
-#EXTINF:-1 tvg-chno="49" tvg-id="450" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtNi53ZWJw" group-title="GR",[GR] Cosmote Sport 6 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="48" tvg-id="450" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtNi53ZWJw" group-title="GR",[GR] Cosmote Sport 6 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=450
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=450
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=COSMOTESPORT6
 
-#EXTINF:-1 tvg-chno="50" tvg-id="451" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtNy53ZWJw" group-title="GR",[GR] Cosmote Sport 7 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="49" tvg-id="451" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtNy53ZWJw" group-title="GR",[GR] Cosmote Sport 7 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=451
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=451
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=COSMOTESPORT7
 
-#EXTINF:-1 tvg-chno="51" tvg-id="452" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtOC53ZWJw" group-title="GR",[GR] Cosmote Sport 8 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="50" tvg-id="452" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtOC53ZWJw" group-title="GR",[GR] Cosmote Sport 8 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=452
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=452
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=COSMOTESPORT8
 
-#EXTINF:-1 tvg-chno="52" tvg-id="453" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtOS53ZWJw" group-title="GR",[GR] Cosmote Sport 9 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="51" tvg-id="453" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL2Nvc21vdGUtc3BvcnQtOS53ZWJw" group-title="GR",[GR] Cosmote Sport 9 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=453
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=453
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=COSMOTESPORT9
 
-#EXTINF:-1 tvg-chno="53" tvg-id="444" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] Cosmote Sport Highlights (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="52" tvg-id="444" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] Cosmote Sport Highlights (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=444
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=444
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=COSMOTESPORTHG
 
-#EXTINF:-1 tvg-chno="54" tvg-id="839" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] Court TV (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="53" tvg-id="839" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] Court TV (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=839
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=839
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://amg01438-ewscrippscompan-courttv-tablo-nbcc7.amagi.tv/playlist/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="55" tvg-id="454" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] Cytavision Sports 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="54" tvg-id="454" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] Cytavision Sports 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=454
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=454
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=Cyta1
 
-#EXTINF:-1 tvg-chno="56" tvg-id="455" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] Cytavision Sports 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="55" tvg-id="455" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] Cytavision Sports 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=455
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=455
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=Cyta2
 
-#EXTINF:-1 tvg-chno="57" tvg-id="456" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] Cytavision Sports 3 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="56" tvg-id="456" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] Cytavision Sports 3 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=456
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=456
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=Cyta3
 
-#EXTINF:-1 tvg-chno="58" tvg-id="457" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] Cytavision Sports 4 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="57" tvg-id="457" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] Cytavision Sports 4 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=457
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=457
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=Cyta4
 
-#EXTINF:-1 tvg-chno="59" tvg-id="458" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] Cytavision Sports 5 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="58" tvg-id="458" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] Cytavision Sports 5 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=458
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=458
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=Cyta5
 
-#EXTINF:-1 tvg-chno="60" tvg-id="459" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] Cytavision Sports 6 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="59" tvg-id="459" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] Cytavision Sports 6 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=459
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=459
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=Cyta6
 
-#EXTINF:-1 tvg-chno="61" tvg-id="460" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] Cytavision Sports 7 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="60" tvg-id="460" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] Cytavision Sports 7 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=460
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=460
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=Cyta7
 
-#EXTINF:-1 tvg-chno="62" tvg-id="461" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] Cytavision Sports 8 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="61" tvg-id="461" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] Cytavision Sports 8 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=461
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=461
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=Cyta8
 
-#EXTINF:-1 tvg-chno="63" tvg-id="417" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvZGllbWEtc3BvcnRzLTEucG5n" group-title="BG",[BG] DIEMA SPORT 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="62" tvg-id="417" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvZGllbWEtc3BvcnRzLTEucG5n" group-title="BG",[BG] DIEMA SPORT 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=417
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=417
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/bg/index.php?ch=DiemaSport
 
-#EXTINF:-1 tvg-chno="64" tvg-id="418" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvZGllbWEtc3BvcnRzLTIucG5n" group-title="BG",[BG] DIEMA SPORT 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="63" tvg-id="418" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvZGllbWEtc3BvcnRzLTIucG5n" group-title="BG",[BG] DIEMA SPORT 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=418
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=418
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/bg/index.php?ch=DiemaSport2
 
-#EXTINF:-1 tvg-chno="65" tvg-id="419" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvZGllbWEtc3BvcnRzLTMucG5n" group-title="BG",[BG] DIEMA SPORT 3 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="64" tvg-id="419" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvZGllbWEtc3BvcnRzLTMucG5n" group-title="BG",[BG] DIEMA SPORT 3 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=419
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=419
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/bg/index.php?ch=DiemaSport3
 
-#EXTINF:-1 tvg-chno="66" tvg-id="520" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="AR",[AR] DeporTV (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="65" tvg-id="520" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="AR",[AR] DeporTV (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=520
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=520
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/ar/index.php?ch=DEPORTV
 
-#EXTINF:-1 tvg-chno="67" tvg-id="521" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYXJnZW50aW5hL2VzcG4uc3Zn" group-title="AR",[AR] ESPN (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="66" tvg-id="521" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYXJnZW50aW5hL2VzcG4uc3Zn" group-title="AR",[AR] ESPN (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=521
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=521
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/ar/index.php?ch=ESPNARG
 
-#EXTINF:-1 tvg-chno="68" tvg-id="522" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYXJnZW50aW5hL2VzcG4tMi5zdmc%3D" group-title="AR",[AR] ESPN 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="67" tvg-id="522" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYXJnZW50aW5hL2VzcG4tMi5zdmc%3D" group-title="AR",[AR] ESPN 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=522
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=522
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/ar/index.php?ch=ESPN2ARG
 
-#EXTINF:-1 tvg-chno="69" tvg-id="523" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYXJnZW50aW5hL2VzcG4tMy5zdmc%3D" group-title="AR",[AR] ESPN 3 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="68" tvg-id="523" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYXJnZW50aW5hL2VzcG4tMy5zdmc%3D" group-title="AR",[AR] ESPN 3 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=523
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=523
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/ar/index.php?ch=ESPN3ARG
 
-#EXTINF:-1 tvg-chno="70" tvg-id="524" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYXJnZW50aW5hL2VzcG4tcHJlbWl1bS5zdmc%3D" group-title="AR",[AR] ESPN Premium (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="69" tvg-id="524" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYXJnZW50aW5hL2VzcG4tcHJlbWl1bS5zdmc%3D" group-title="AR",[AR] ESPN Premium (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=524
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=524
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/ar/index.php?ch=ESPNPLUSARG
 
-#EXTINF:-1 tvg-chno="71" tvg-id="1100" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvbWV4aWNvL2VzcG4uc3Zn" group-title="MX",[MX] ESPN (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="70" tvg-id="1100" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvbWV4aWNvL2VzcG4uc3Zn" group-title="MX",[MX] ESPN (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1100
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1100
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/mx/index.php?id=ESPN1
 
-#EXTINF:-1 tvg-chno="72" tvg-id="1101" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvbWV4aWNvL2VzcG4tMi5zdmc%3D" group-title="MX",[MX] ESPN 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="71" tvg-id="1101" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvbWV4aWNvL2VzcG4tMi5zdmc%3D" group-title="MX",[MX] ESPN 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1101
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1101
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/mx/index.php?id=ESPN2
 
-#EXTINF:-1 tvg-chno="73" tvg-id="1102" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvbWV4aWNvL2VzcG4tMy5zdmc%3D" group-title="MX",[MX] ESPN 3 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="72" tvg-id="1102" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvbWV4aWNvL2VzcG4tMy5zdmc%3D" group-title="MX",[MX] ESPN 3 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1102
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1102
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/mx/index.php?id=ESPN3
 
-#EXTINF:-1 tvg-chno="74" tvg-id="1103" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvbWV4aWNvL2VzcG4tNC5zdmc%3D" group-title="MX",[MX] ESPN 4 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="73" tvg-id="1103" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvbWV4aWNvL2VzcG4tNC5zdmc%3D" group-title="MX",[MX] ESPN 4 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1103
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1103
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/mx/index.php?id=ESPN4
 
-#EXTINF:-1 tvg-chno="75" tvg-id="329" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9lc3BuLnN2Zw%3D%3D" group-title="US",[US] ESPN (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="74" tvg-id="329" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9lc3BuLnN2Zw%3D%3D" group-title="US",[US] ESPN (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=329
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=329
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/us/index.php?ch=ESPN
 
-#EXTINF:-1 tvg-chno="76" tvg-id="330" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9lc3BuLTIuc3Zn" group-title="US",[US] ESPN 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="75" tvg-id="330" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9lc3BuLTIuc3Zn" group-title="US",[US] ESPN 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=330
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=330
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/us/index.php?ch=ESPN2
 
-#EXTINF:-1 tvg-chno="77" tvg-id="328" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9lc3BuLXUuc3Zn" group-title="US",[US] ESPNU (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="76" tvg-id="328" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9lc3BuLXUuc3Zn" group-title="US",[US] ESPNU (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=328
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=328
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/us/index.php?ch=ESPNU
 
-#EXTINF:-1 tvg-chno="78" tvg-id="787" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9lc3BuLWRlcG9ydGVzLnBuZw%3D%3D" group-title="US",[US] ESPN Deportes (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="77" tvg-id="787" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9lc3BuLWRlcG9ydGVzLnBuZw%3D%3D" group-title="US",[US] ESPN Deportes (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=787
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=787
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=ESPNDeportes
 
-#EXTINF:-1 tvg-chno="79" tvg-id="788" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9lc3BuLW5ld3Muc3Zn" group-title="US",[US] ESPN News (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="78" tvg-id="788" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9lc3BuLW5ld3Muc3Zn" group-title="US",[US] ESPN News (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=788
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=788
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=ESPNews
 
-#EXTINF:-1 tvg-chno="80" tvg-id="420" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvZXVyby1zcG9ydC0xLnBuZw%3D%3D" group-title="BG",[BG] EUROSPORT 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="79" tvg-id="420" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvZXVyby1zcG9ydC0xLnBuZw%3D%3D" group-title="BG",[BG] EUROSPORT 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=420
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=420
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/bg/index.php?ch=EURO1BG
 
-#EXTINF:-1 tvg-chno="81" tvg-id="421" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvZXVyby1zcG9ydC0yLnBuZw%3D%3D" group-title="BG",[BG] EUROSPORT 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="80" tvg-id="421" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvZXVyby1zcG9ydC0yLnBuZw%3D%3D" group-title="BG",[BG] EUROSPORT 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=421
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=421
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/bg/index.php?ch=EURO2BG
 
-#EXTINF:-1 tvg-chno="82" tvg-id="462" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] EUROSPORT 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="81" tvg-id="462" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] EUROSPORT 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=462
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=462
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=EURO1GR
 
-#EXTINF:-1 tvg-chno="83" tvg-id="463" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] EUROSPORT 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="82" tvg-id="463" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GR",[GR] EUROSPORT 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=463
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=463
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=EURO2GR
 
-#EXTINF:-1 tvg-chno="84" tvg-id="850" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="RS",[RS] EUROSPORT 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="83" tvg-id="850" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="RS",[RS] EUROSPORT 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=850
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=850
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/rs/index.php?ch=EUROSPORT1RS
 
-#EXTINF:-1 tvg-chno="85" tvg-id="851" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="RS",[RS] EUROSPORT 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="84" tvg-id="851" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="RS",[RS] EUROSPORT 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=851
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=851
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/rs/index.php?ch=EUROSPORT2RS
 
-#EXTINF:-1 tvg-chno="86" tvg-id="548" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="RU",[RU] EUROSPORT 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="85" tvg-id="548" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="RU",[RU] EUROSPORT 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=548
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=548
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/ru/index.php?ch=EURO1RU
 
-#EXTINF:-1 tvg-chno="87" tvg-id="549" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="RU",[RU] EUROSPORT 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="86" tvg-id="549" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="RU",[RU] EUROSPORT 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=549
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=549
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/ru/index.php?ch=EURO2RU
 
-#EXTINF:-1 tvg-chno="88" tvg-id="485" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL2VsZXZlbi1zcG9ydC0xLnN2Zw%3D%3D" group-title="PL",[PL] Eleven Sports 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="87" tvg-id="485" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL2VsZXZlbi1zcG9ydC0xLnN2Zw%3D%3D" group-title="PL",[PL] Eleven Sports 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=485
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=485
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/pl/index.php?ch=ElevenSports1PL
 
-#EXTINF:-1 tvg-chno="89" tvg-id="486" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL2VsZXZlbi1zcG9ydC0yLnN2Zw%3D%3D" group-title="PL",[PL] Eleven Sports 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="88" tvg-id="486" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL2VsZXZlbi1zcG9ydC0yLnN2Zw%3D%3D" group-title="PL",[PL] Eleven Sports 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=486
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=486
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/pl/index.php?ch=ElevenSports2PL
 
-#EXTINF:-1 tvg-chno="90" tvg-id="487" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL2VsZXZlbi1zcG9ydC0zLnN2Zw%3D%3D" group-title="PL",[PL] Eleven Sports 3 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="89" tvg-id="487" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL2VsZXZlbi1zcG9ydC0zLnN2Zw%3D%3D" group-title="PL",[PL] Eleven Sports 3 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=487
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=487
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/pl/index.php?ch=ElevenSports3PL
 
-#EXTINF:-1 tvg-chno="91" tvg-id="488" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL2VsZXZlbi1zcG9ydC00LnN2Zw%3D%3D" group-title="PL",[PL] Eleven Sports 4 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="90" tvg-id="488" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL2VsZXZlbi1zcG9ydC00LnN2Zw%3D%3D" group-title="PL",[PL] Eleven Sports 4 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=488
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=488
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/pl/index.php?ch=ElevenSports4PL
 
-#EXTINF:-1 tvg-chno="92" tvg-id="413" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vZXVyby1zcG9ydC0xLnBuZw%3D%3D" group-title="GB",[GB] Euro Sport 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="91" tvg-id="413" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vZXVyby1zcG9ydC0xLnBuZw%3D%3D" group-title="GB",[GB] Euro Sport 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=413
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=413
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=Eurosport1UK
 
-#EXTINF:-1 tvg-chno="93" tvg-id="414" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vZXVyby1zcG9ydC0yLnBuZw%3D%3D" group-title="GB",[GB] Euro Sport 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="92" tvg-id="414" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vZXVyby1zcG9ydC0yLnBuZw%3D%3D" group-title="GB",[GB] Euro Sport 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=414
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=414
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=Eurosport2UK
 
-#EXTINF:-1 tvg-chno="94" tvg-id="525" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYXJnZW50aW5hL2ZveC1zcG9ydHMuc3Zn" group-title="AR",[AR] FOX SPORTS (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="93" tvg-id="525" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYXJnZW50aW5hL2ZveC1zcG9ydHMuc3Zn" group-title="AR",[AR] FOX SPORTS (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=525
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=525
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/ar/index.php?ch=FOX1ARG
 
-#EXTINF:-1 tvg-chno="95" tvg-id="526" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYXJnZW50aW5hL2ZveC1zcG9ydHMtMi5zdmc%3D" group-title="AR",[AR] FOX SPORTS 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="94" tvg-id="526" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYXJnZW50aW5hL2ZveC1zcG9ydHMtMi5zdmc%3D" group-title="AR",[AR] FOX SPORTS 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=526
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=526
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/ar/index.php?ch=FOX2ARG
 
-#EXTINF:-1 tvg-chno="96" tvg-id="527" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYXJnZW50aW5hL2ZveC1zcG9ydHMtMy5zdmc%3D" group-title="AR",[AR] FOX SPORTS 3 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="95" tvg-id="527" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYXJnZW50aW5hL2ZveC1zcG9ydHMtMy5zdmc%3D" group-title="AR",[AR] FOX SPORTS 3 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=527
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=527
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/ar/index.php?ch=FOX3ARG
 
-#EXTINF:-1 tvg-chno="97" tvg-id="1113" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="MX",[MX] Fox Sports 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="96" tvg-id="1113" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="MX",[MX] Fox Sports 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1113
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1113
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/mx/index.php?id=FoxSports1
 
-#EXTINF:-1 tvg-chno="98" tvg-id="1114" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvbWV4aWNvL2ZveC1zcG9ydHMtMi5zdmc%3D" group-title="MX",[MX] Fox Sports 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="97" tvg-id="1114" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvbWV4aWNvL2ZveC1zcG9ydHMtMi5zdmc%3D" group-title="MX",[MX] Fox Sports 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1114
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1114
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/mx/index.php?id=FoxSports2
 
-#EXTINF:-1 tvg-chno="99" tvg-id="1115" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvbWV4aWNvL2ZveC1zcG9ydHMtMy5zdmc%3D" group-title="MX",[MX] Fox Sports 3 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="98" tvg-id="1115" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvbWV4aWNvL2ZveC1zcG9ydHMtMy5zdmc%3D" group-title="MX",[MX] Fox Sports 3 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1115
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1115
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/mx/index.php?id=FoxSports3
 
-#EXTINF:-1 tvg-chno="100" tvg-id="1116" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvbWV4aWNvL2ZveC1zcG9ydHMtcHJlbWl1bS53ZWJw" group-title="MX",[MX] Fox Sports Premium (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="99" tvg-id="1116" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvbWV4aWNvL2ZveC1zcG9ydHMtcHJlbWl1bS53ZWJw" group-title="MX",[MX] Fox Sports Premium (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1116
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1116
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/mx/index.php?id=FoxSportsPremium
 
-#EXTINF:-1 tvg-chno="101" tvg-id="1119" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] FanDuel Sports Midwest (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="100" tvg-id="1119" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] FanDuel Sports Midwest (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1119
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1119
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=FanDuelSportsNetworkMidwest
 
-#EXTINF:-1 tvg-chno="102" tvg-id="1121" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] FanDuel Sports Ohio (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="101" tvg-id="1121" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] FanDuel Sports Ohio (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1121
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1121
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=FanDuelSportsNetworkOhio
 
-#EXTINF:-1 tvg-chno="103" tvg-id="1126" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] FanDuel Sports New Orleans (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="102" tvg-id="1126" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] FanDuel Sports New Orleans (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1126
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1126
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=FanDuelSportsNetworkNewOrleans
 
-#EXTINF:-1 tvg-chno="104" tvg-id="1127" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] FanDuel Sports North (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="103" tvg-id="1127" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] FanDuel Sports North (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1127
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1127
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=FanDuelSportsNetworkNorth
 
-#EXTINF:-1 tvg-chno="105" tvg-id="1128" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] FanDuel Sports Oklahoma (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="104" tvg-id="1128" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] FanDuel Sports Oklahoma (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1128
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1128
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=FanDuelSportsNetworkOklahoma
 
-#EXTINF:-1 tvg-chno="106" tvg-id="1129" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] FanDuel Sports SoCal (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="105" tvg-id="1129" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] FanDuel Sports SoCal (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1129
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1129
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=FanDuelSportsNetworkSoCal
 
-#EXTINF:-1 tvg-chno="107" tvg-id="550" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="RU",[RU] FightBox (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="106" tvg-id="550" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="RU",[RU] FightBox (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=550
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=550
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/ru/index.php?ch=FightBox
 
-#EXTINF:-1 tvg-chno="108" tvg-id="1066" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Film4 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="107" tvg-id="1066" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Film4 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1066
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1066
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=Film4
 
-#EXTINF:-1 tvg-chno="109" tvg-id="332" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9mb3gtc3BvcnQtMS5zdmc%3D" group-title="US",[US] Fox Sports 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="108" tvg-id="332" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9mb3gtc3BvcnQtMS5zdmc%3D" group-title="US",[US] Fox Sports 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=332
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=332
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/us/index.php?ch=FOXSPORTS1
 
-#EXTINF:-1 tvg-chno="110" tvg-id="333" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9mb3gtc3BvcnQtMi5zdmc%3D" group-title="US",[US] Fox Sports 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="109" tvg-id="333" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9mb3gtc3BvcnQtMi5zdmc%3D" group-title="US",[US] Fox Sports 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=333
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=333
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/us/index.php?ch=FOXSPORTS2
 
-#EXTINF:-1 tvg-chno="111" tvg-id="794" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] Fox USA (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="110" tvg-id="794" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] Fox USA (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=794
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=794
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=FOXUSA
 
-#EXTINF:-1 tvg-chno="112" tvg-id="331" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9mb3gtZGVwb3J0ZXMuc3Zn" group-title="US",[US] Fox Deportes (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="111" tvg-id="331" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9mb3gtZGVwb3J0ZXMuc3Zn" group-title="US",[US] Fox Deportes (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=331
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=331
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/us/index.php?ch=FOXDEPORTES
 
-#EXTINF:-1 tvg-chno="113" tvg-id="791" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9mb3gtc29jY2VyLXBsdXMuc3Zn" group-title="US",[US] Fox Soccer Plus (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="112" tvg-id="791" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9mb3gtc29jY2VyLXBsdXMuc3Zn" group-title="US",[US] Fox Soccer Plus (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=791
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=791
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=FOXSoccerPlus
 
-#EXTINF:-1 tvg-chno="114" tvg-id="795" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9mb3gtbmV3cy5zdmc%3D" group-title="US",[US] FOX News (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="113" tvg-id="795" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9mb3gtbmV3cy5zdmc%3D" group-title="US",[US] FOX News (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=795
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=795
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=FoxNews
 
-#EXTINF:-1 tvg-chno="115" tvg-id="613" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] Fox News Radio (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="114" tvg-id="613" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] Fox News Radio (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=613
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=613
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8
 
-#EXTINF:-1 tvg-chno="116" tvg-id="793" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] Fox Business (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="115" tvg-id="793" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] Fox Business (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=793
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=793
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=FoxBusiness
 
-#EXTINF:-1 tvg-chno="117" tvg-id="857" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Gold (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="116" tvg-id="857" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Gold (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=857
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=857
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=GoldUK
 
-#EXTINF:-1 tvg-chno="118" tvg-id="858" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Horse and Country (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="117" tvg-id="858" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Horse and Country (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=858
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=858
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://amg00810-hctvltd-hncfree-localnow-t4eey.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="119" tvg-id="859" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vaXR2LTEuc3Zn" group-title="GB",[GB] ITV 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="118" tvg-id="859" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vaXR2LTEuc3Zn" group-title="GB",[GB] ITV 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=859
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=859
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=ITV1
 
-#EXTINF:-1 tvg-chno="120" tvg-id="860" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vaXR2LTIuc3Zn" group-title="GB",[GB] ITV 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="119" tvg-id="860" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vaXR2LTIuc3Zn" group-title="GB",[GB] ITV 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=860
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=860
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=ITV2
 
-#EXTINF:-1 tvg-chno="121" tvg-id="861" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vaXR2LTMuc3Zn" group-title="GB",[GB] ITV 3 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="120" tvg-id="861" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vaXR2LTMuc3Zn" group-title="GB",[GB] ITV 3 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=861
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=861
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=ITV3
 
-#EXTINF:-1 tvg-chno="122" tvg-id="862" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vaXR2LTQuc3Zn" group-title="GB",[GB] ITV 4 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="121" tvg-id="862" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vaXR2LTQuc3Zn" group-title="GB",[GB] ITV 4 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=862
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=862
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=ITV4
 
-#EXTINF:-1 tvg-chno="123" tvg-id="552" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="RU",[RU] KHL PRIME (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="122" tvg-id="552" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="RU",[RU] KHL PRIME (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=552
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=552
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/ru/index.php?ch=KHLPrime
 
-#EXTINF:-1 tvg-chno="124" tvg-id="551" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="RU",[RU] KHL (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="123" tvg-id="551" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="RU",[RU] KHL (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=551
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=551
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/ru/index.php?ch=KHLTV
 
-#EXTINF:-1 tvg-chno="125" tvg-id="863" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vbGEtbGlnYS10di5zdmc%3D" group-title="GB",[GB] LA LIGA TV (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="124" tvg-id="863" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vbGEtbGlnYS10di5zdmc%3D" group-title="GB",[GB] LA LIGA TV (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=863
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=863
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=ViaplayLaLigaUK
 
-#EXTINF:-1 tvg-chno="126" tvg-id="865" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] LFCTV (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="125" tvg-id="865" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] LFCTV (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=865
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=865
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=LFCTV
 
-#EXTINF:-1 tvg-chno="127" tvg-id="422" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvbWF4LXNwb3J0LTEuc3Zn" group-title="BG",[BG] MAX SPORT 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="126" tvg-id="422" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvbWF4LXNwb3J0LTEuc3Zn" group-title="BG",[BG] MAX SPORT 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=422
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=422
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/bg/index.php?ch=MaxSportBG
 
-#EXTINF:-1 tvg-chno="128" tvg-id="423" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvbWF4LXNwb3J0LTIuc3Zn" group-title="BG",[BG] MAX SPORT 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="127" tvg-id="423" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvbWF4LXNwb3J0LTIuc3Zn" group-title="BG",[BG] MAX SPORT 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=423
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=423
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/bg/index.php?ch=MaxSport2BG
 
-#EXTINF:-1 tvg-chno="129" tvg-id="424" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvbWF4LXNwb3J0LTMuc3Zn" group-title="BG",[BG] MAX SPORT 3 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="128" tvg-id="424" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvbWF4LXNwb3J0LTMuc3Zn" group-title="BG",[BG] MAX SPORT 3 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=424
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=424
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/bg/index.php?ch=MaxSport3BG
 
-#EXTINF:-1 tvg-chno="130" tvg-id="425" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvbWF4LXNwb3J0LTQuc3Zn" group-title="BG",[BG] MAX SPORT 4 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="129" tvg-id="425" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvbWF4LXNwb3J0LTQuc3Zn" group-title="BG",[BG] MAX SPORT 4 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=425
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=425
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/bg/index.php?ch=MaxSport4BG
 
-#EXTINF:-1 tvg-chno="131" tvg-id="1150" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9tbGItbmV0d29yay5zdmc%3D" group-title="US",[US] MLB Network (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="130" tvg-id="1150" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9tbGItbmV0d29yay5zdmc%3D" group-title="US",[US] MLB Network (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1150
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1150
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=MLBNetwork
 
-#EXTINF:-1 tvg-chno="132" tvg-id="867" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] MTV (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="131" tvg-id="867" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] MTV (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=867
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=867
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=MTV
 
-#EXTINF:-1 tvg-chno="133" tvg-id="868" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] MUTV (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="132" tvg-id="868" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] MUTV (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=868
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=868
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=MUTV
 
-#EXTINF:-1 tvg-chno="134" tvg-id="556" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcnVzc2lhL21hdGNoLXR2LndlYnA%3D" group-title="RU",[RU] Match TV (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="133" tvg-id="556" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcnVzc2lhL21hdGNoLXR2LndlYnA%3D" group-title="RU",[RU] Match TV (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=556
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=556
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/ru/index.php?ch=MatchTV
 
-#EXTINF:-1 tvg-chno="135" tvg-id="557" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="RU",[RU] Match TV Fight (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="134" tvg-id="557" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="RU",[RU] Match TV Fight (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=557
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=557
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/ru/index.php?ch=MatchTVFight
 
-#EXTINF:-1 tvg-chno="136" tvg-id="553" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcnVzc2lhL21hdGNoLWZvb3RiYWxsLTEuc3Zn" group-title="RU",[RU] Match Football 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="135" tvg-id="553" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcnVzc2lhL21hdGNoLWZvb3RiYWxsLTEuc3Zn" group-title="RU",[RU] Match Football 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=553
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=553
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/ru/index.php?ch=MatchTV1
 
-#EXTINF:-1 tvg-chno="137" tvg-id="554" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcnVzc2lhL21hdGNoLWZvb3RiYWxsLTIuc3Zn" group-title="RU",[RU] Match Football 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="136" tvg-id="554" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcnVzc2lhL21hdGNoLWZvb3RiYWxsLTIuc3Zn" group-title="RU",[RU] Match Football 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=554
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=554
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/ru/index.php?ch=MatchTV2
 
-#EXTINF:-1 tvg-chno="138" tvg-id="555" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcnVzc2lhL21hdGNoLWZvb3RiYWxsLTMuc3Zn" group-title="RU",[RU] Match Football 3 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="137" tvg-id="555" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcnVzc2lhL21hdGNoLWZvb3RiYWxsLTMuc3Zn" group-title="RU",[RU] Match Football 3 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=555
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=555
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/ru/index.php?ch=MatchTV3
 
-#EXTINF:-1 tvg-chno="139" tvg-id="1156" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcnVzc2lhL21hdGNoLXByZW1pZXIuc3Zn" group-title="RU",[RU] Match Premier (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="138" tvg-id="1156" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcnVzc2lhL21hdGNoLXByZW1pZXIuc3Zn" group-title="RU",[RU] Match Premier (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1156
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1156
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/ru/index.php?id=MatchPremier
 
-#EXTINF:-1 tvg-chno="140" tvg-id="869" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="PL",[PL] Motowizja (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="139" tvg-id="869" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="PL",[PL] Motowizja (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=869
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=869
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/pl/index.php?ch=Motowizja
 
-#EXTINF:-1 tvg-chno="141" tvg-id="164" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] NBC Sports Boston (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="140" tvg-id="164" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] NBC Sports Boston (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=164
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=164
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=NBCBoston
 
-#EXTINF:-1 tvg-chno="142" tvg-id="870" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] NBC Sports California (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="141" tvg-id="870" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] NBC Sports California (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=870
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=870
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=NBCCalifornia
 
-#EXTINF:-1 tvg-chno="143" tvg-id="166" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] NBC Sports Philadelphia (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="142" tvg-id="166" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] NBC Sports Philadelphia (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=166
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=166
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=NBCPhiladelphia
 
-#EXTINF:-1 tvg-chno="144" tvg-id="335" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] NBC GOLF (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="143" tvg-id="335" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] NBC GOLF (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=335
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=335
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/us/index.php?ch=GOLFChannel
 
-#EXTINF:-1 tvg-chno="145" tvg-id="631" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9uYmMucG5n" group-title="US",[US] NBC (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="144" tvg-id="631" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9uYmMucG5n" group-title="US",[US] NBC (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=631
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=631
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=NBCUSA
 
-#EXTINF:-1 tvg-chno="146" tvg-id="158" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] NFL RedZone (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="145" tvg-id="158" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] NFL RedZone (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=158
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=158
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=NFLRedZone
 
-#EXTINF:-1 tvg-chno="147" tvg-id="634" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9uZmwtbmV0d29yay5zdmc%3D" group-title="US",[US] NFL Network (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="146" tvg-id="634" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9uZmwtbmV0d29yay5zdmc%3D" group-title="US",[US] NFL Network (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=634
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=634
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=NFLNetwork
 
-#EXTINF:-1 tvg-chno="148" tvg-id="1168" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9uaGwtbmV0d29yay5zdmc%3D" group-title="US",[US] NHL Network (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="147" tvg-id="1168" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9uaGwtbmV0d29yay5zdmc%3D" group-title="US",[US] NHL Network (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1168
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1168
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=NHLNetwork
 
-#EXTINF:-1 tvg-chno="149" tvg-id="426" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvbm92YS1zcG9ydC5wbmc%3D" group-title="BG",[BG] NOVA SPORT (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="148" tvg-id="426" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvbm92YS1zcG9ydC5wbmc%3D" group-title="BG",[BG] NOVA SPORT (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=426
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=426
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/bg/index.php?ch=NOVASPORTBG
 
-#EXTINF:-1 tvg-chno="150" tvg-id="464" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLTEucG5n" group-title="GR",[GR] Nova Sports 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="149" tvg-id="464" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLTEucG5n" group-title="GR",[GR] Nova Sports 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=464
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=464
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=NOVASPORTS1
 
-#EXTINF:-1 tvg-chno="151" tvg-id="465" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLTIucG5n" group-title="GR",[GR] Nova Sports 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="150" tvg-id="465" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLTIucG5n" group-title="GR",[GR] Nova Sports 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=465
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=465
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=NOVASPORTS2
 
-#EXTINF:-1 tvg-chno="152" tvg-id="466" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLTMucG5n" group-title="GR",[GR] Nova Sports 3 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="151" tvg-id="466" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLTMucG5n" group-title="GR",[GR] Nova Sports 3 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=466
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=466
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=NOVASPORTS3
 
-#EXTINF:-1 tvg-chno="153" tvg-id="467" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLTQucG5n" group-title="GR",[GR] Nova Sports 4 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="152" tvg-id="467" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLTQucG5n" group-title="GR",[GR] Nova Sports 4 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=467
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=467
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=NOVASPORTS4
 
-#EXTINF:-1 tvg-chno="154" tvg-id="468" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLTUucG5n" group-title="GR",[GR] Nova Sports 5 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="153" tvg-id="468" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLTUucG5n" group-title="GR",[GR] Nova Sports 5 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=468
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=468
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=NOVASPORTS5
 
-#EXTINF:-1 tvg-chno="155" tvg-id="469" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLTYucG5n" group-title="GR",[GR] Nova Sports 6 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="154" tvg-id="469" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLTYucG5n" group-title="GR",[GR] Nova Sports 6 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=469
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=469
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=NOVASPORTS6
 
-#EXTINF:-1 tvg-chno="156" tvg-id="470" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLW5ld3MucG5n" group-title="GR",[GR] Nova Sports News (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="155" tvg-id="470" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLW5ld3MucG5n" group-title="GR",[GR] Nova Sports News (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=470
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=470
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=NOVASPORTN
 
-#EXTINF:-1 tvg-chno="157" tvg-id="471" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLXByZW1pZXItbGVhZ3VlLnBuZw%3D%3D" group-title="GR",[GR] Nova Sports Premier League (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="156" tvg-id="471" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLXByZW1pZXItbGVhZ3VlLnBuZw%3D%3D" group-title="GR",[GR] Nova Sports Premier League (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=471
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=471
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=NOVASPORTSPL
 
-#EXTINF:-1 tvg-chno="158" tvg-id="472" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLXByaW1lLnBuZw%3D%3D" group-title="GR",[GR] Nova Sports Prime (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="157" tvg-id="472" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLXByaW1lLnBuZw%3D%3D" group-title="GR",[GR] Nova Sports Prime (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=472
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=472
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=NOVASPORTSPR
 
-#EXTINF:-1 tvg-chno="159" tvg-id="473" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLXN0YXJ0LnBuZw%3D%3D" group-title="GR",[GR] Nova Sports Start (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="158" tvg-id="473" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvZ3JlZWNlL25vdmEtc3BvcnRzLXN0YXJ0LnBuZw%3D%3D" group-title="GR",[GR] Nova Sports Start (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=473
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=473
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/gr/index.php?ch=NOVASPORTSPR
 
-#EXTINF:-1 tvg-chno="160" tvg-id="879" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL3BvbHNhdC5zdmc%3D" group-title="PL",[PL] Polsat (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="159" tvg-id="879" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL3BvbHNhdC5zdmc%3D" group-title="PL",[PL] Polsat (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=879
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=879
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/pl/index.php?ch=POLSAT
 
-#EXTINF:-1 tvg-chno="161" tvg-id="489" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL3BvbHNhdC1zcG9ydC5zdmc%3D" group-title="PL",[PL] Polsat Sport (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="160" tvg-id="489" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL3BvbHNhdC1zcG9ydC5zdmc%3D" group-title="PL",[PL] Polsat Sport (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=489
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=489
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/pl/index.php?ch=POLSATSPORTPL
 
-#EXTINF:-1 tvg-chno="162" tvg-id="490" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL3BvbHNhdC1zcG9ydC0yLnN2Zw%3D%3D" group-title="PL",[PL] Polsat Sport 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="161" tvg-id="490" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL3BvbHNhdC1zcG9ydC0yLnN2Zw%3D%3D" group-title="PL",[PL] Polsat Sport 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=490
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=490
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/pl/index.php?ch=POLSATSPORTEXTRA
 
-#EXTINF:-1 tvg-chno="163" tvg-id="491" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL3BvbHNhdC1zcG9ydC0zLnN2Zw%3D%3D" group-title="PL",[PL] Polsat Sport 3 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="162" tvg-id="491" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL3BvbHNhdC1zcG9ydC0zLnN2Zw%3D%3D" group-title="PL",[PL] Polsat Sport 3 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=491
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=491
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/pl/index.php?ch=POLSATSPORTNEWS
 
-#EXTINF:-1 tvg-chno="164" tvg-id="877" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL3BvbHNhdC1zcG9ydC1wcmVtaXVtLTEuc3Zn" group-title="PL",[PL] Polsat Sport Premium 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="163" tvg-id="877" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL3BvbHNhdC1zcG9ydC1wcmVtaXVtLTEuc3Zn" group-title="PL",[PL] Polsat Sport Premium 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=877
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=877
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/pl/index.php?ch=PolsatSportPremium1
 
-#EXTINF:-1 tvg-chno="165" tvg-id="878" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL3BvbHNhdC1zcG9ydC1wcmVtaXVtLTIuc3Zn" group-title="PL",[PL] Polsat Sport Premium 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="164" tvg-id="878" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL3BvbHNhdC1zcG9ydC1wcmVtaXVtLTIuc3Zn" group-title="PL",[PL] Polsat Sport Premium 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=878
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=878
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/pl/index.php?ch=PolsatSportPremium2
 
-#EXTINF:-1 tvg-chno="166" tvg-id="1185" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL3BvbHNhdC1uZXdzLnN2Zw%3D%3D" group-title="PL",[PL] Polsat News (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="165" tvg-id="1185" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvcG9sYW5kL3BvbHNhdC1uZXdzLnN2Zw%3D%3D" group-title="PL",[PL] Polsat News (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1185
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1185
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/pl/index.php?id=PolsatNews
 
-#EXTINF:-1 tvg-chno="167" tvg-id="415" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vcHJlbWllci1zcG9ydHMtMS5zdmc%3D" group-title="GB",[GB] Premier Sports 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="166" tvg-id="415" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vcHJlbWllci1zcG9ydHMtMS5zdmc%3D" group-title="GB",[GB] Premier Sports 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=415
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=415
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=PREMIERSPORTS1
 
-#EXTINF:-1 tvg-chno="168" tvg-id="891" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Racing Tv (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="167" tvg-id="891" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Racing Tv (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=891
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=891
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=RacingTV
 
-#EXTINF:-1 tvg-chno="169" tvg-id="892" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Rally TV (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="168" tvg-id="892" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Rally TV (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=892
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=892
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=WRC
 
-#EXTINF:-1 tvg-chno="170" tvg-id="893" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Real Madrid TV (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="169" tvg-id="893" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Real Madrid TV (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=893
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=893
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8
 
-#EXTINF:-1 tvg-chno="171" tvg-id="1215" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvcmluZy5wbmc%3D" group-title="BG",[BG] Ring (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="170" tvg-id="1215" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvYnVsZ2FyaWEvcmluZy5wbmc%3D" group-title="BG",[BG] Ring (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1215
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1215
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/bg/index.php?id=Ring
 
-#EXTINF:-1 tvg-chno="172" tvg-id="894" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] S4C (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="171" tvg-id="894" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] S4C (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=894
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=894
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=S4CUK
 
-#EXTINF:-1 tvg-chno="173" tvg-id="336" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9zZWMtbmV0d29yay5zdmc%3D" group-title="US",[US] SEC Network (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="172" tvg-id="336" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9zZWMtbmV0d29yay5zdmc%3D" group-title="US",[US] SEC Network (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=336
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=336
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/us/index.php?ch=ESPNSECNETWORK
 
-#EXTINF:-1 tvg-chno="174" tvg-id="659" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvaW5kaWEvc29ueS1zcG9ydHMtdGVuLTEud2VicA%3D%3D" group-title="IN",[IN] SONY TEN 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="173" tvg-id="659" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvaW5kaWEvc29ueS1zcG9ydHMtdGVuLTEud2VicA%3D%3D" group-title="IN",[IN] SONY TEN 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=659
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=659
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/in/index.php?id=SONYTEN1
 
-#EXTINF:-1 tvg-chno="175" tvg-id="660" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvaW5kaWEvc29ueS1zcG9ydHMtdGVuLTIud2VicA%3D%3D" group-title="IN",[IN] SONY TEN 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="174" tvg-id="660" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvaW5kaWEvc29ueS1zcG9ydHMtdGVuLTIud2VicA%3D%3D" group-title="IN",[IN] SONY TEN 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=660
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=660
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/in/index.php?id=SONYTEN2
 
-#EXTINF:-1 tvg-chno="176" tvg-id="661" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvaW5kaWEvc29ueS1zcG9ydHMtdGVuLTMud2VicA%3D%3D" group-title="IN",[IN] SONY TEN 3 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="175" tvg-id="661" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvaW5kaWEvc29ueS1zcG9ydHMtdGVuLTMud2VicA%3D%3D" group-title="IN",[IN] SONY TEN 3 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=661
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=661
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/in/index.php?id=SONYTEN3
 
-#EXTINF:-1 tvg-chno="177" tvg-id="899" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] SYFY (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="176" tvg-id="899" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="US",[US] SYFY (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=899
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=899
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=SYFY
 
-#EXTINF:-1 tvg-chno="178" tvg-id="558" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="RU",[RU] Setanta Sports 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="177" tvg-id="558" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="RU",[RU] Setanta Sports 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=558
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=558
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/ru/index.php?ch=Setanta1RU
 
-#EXTINF:-1 tvg-chno="179" tvg-id="559" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="RU",[RU] Setanta Sports 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="178" tvg-id="559" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="RU",[RU] Setanta Sports 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=559
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=559
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/ru/index.php?ch=Setanta2RU
 
-#EXTINF:-1 tvg-chno="180" tvg-id="642" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9zaG93dGltZS5zdmc%3D" group-title="US",[US] Showtime (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="179" tvg-id="642" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLXN0YXRlcy9zaG93dGltZS5zdmc%3D" group-title="US",[US] Showtime (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=642
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=642
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/us/index.php?id=Showtime
 
-#EXTINF:-1 tvg-chno="181" tvg-id="400" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vc2t5LXNwb3J0LWZvb3RiYWxsLnN2Zw%3D%3D" group-title="GB",[GB] Sky Sports Football (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="180" tvg-id="400" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vc2t5LXNwb3J0LWZvb3RiYWxsLnN2Zw%3D%3D" group-title="GB",[GB] Sky Sports Football (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=400
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=400
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=SkySportsFootballUK
 
-#EXTINF:-1 tvg-chno="182" tvg-id="397" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vc2t5LXNwb3J0LWFjdGlvbi5zdmc%3D" group-title="GB",[GB] Sky Sports Action (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="181" tvg-id="397" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vc2t5LXNwb3J0LWFjdGlvbi5zdmc%3D" group-title="GB",[GB] Sky Sports Action (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=397
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=397
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=skysportsaction
 
-#EXTINF:-1 tvg-chno="183" tvg-id="408" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vc2t5LXNwb3J0LXRlbm5pcy5zdmc%3D" group-title="GB",[GB] Sky Sports Tennis (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="182" tvg-id="408" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vc2t5LXNwb3J0LXRlbm5pcy5zdmc%3D" group-title="GB",[GB] Sky Sports Tennis (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=408
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=408
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=skysportstennisuk
 
-#EXTINF:-1 tvg-chno="184" tvg-id="399" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vc2t5LXNwb3J0LWYxLnN2Zw%3D%3D" group-title="GB",[GB] Sky Sports F1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="183" tvg-id="399" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vc2t5LXNwb3J0LWYxLnN2Zw%3D%3D" group-title="GB",[GB] Sky Sports F1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=399
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=399
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=SkySportsF1
 
-#EXTINF:-1 tvg-chno="185" tvg-id="401" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vc2t5LXNwb3J0LWdvbGYuc3Zn" group-title="GB",[GB] Sky Sports Golf (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="184" tvg-id="401" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vc2t5LXNwb3J0LWdvbGYuc3Zn" group-title="GB",[GB] Sky Sports Golf (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=401
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=401
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=skysportsgolfuk
 
-#EXTINF:-1 tvg-chno="186" tvg-id="404" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Sports News (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="185" tvg-id="404" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Sports News (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=404
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=404
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=skysportsnews
 
-#EXTINF:-1 tvg-chno="187" tvg-id="402" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vc2t5LXNwb3J0LW1haW4tZXZlbnQuc3Zn" group-title="GB",[GB] Sky Sports Main Event (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="186" tvg-id="402" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vc2t5LXNwb3J0LW1haW4tZXZlbnQuc3Zn" group-title="GB",[GB] Sky Sports Main Event (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=402
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=402
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=skysportsmainevent
 
-#EXTINF:-1 tvg-chno="188" tvg-id="406" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vc2t5LXNwb3J0LXByZW1pZXItbGVhZ3VlLndlYnA%3D" group-title="GB",[GB] Sky Sports Premier League (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="187" tvg-id="406" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vc2t5LXNwb3J0LXByZW1pZXItbGVhZ3VlLndlYnA%3D" group-title="GB",[GB] Sky Sports Premier League (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=406
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=406
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=skysportspremierleague
 
-#EXTINF:-1 tvg-chno="189" tvg-id="398" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vc2t5LXNwb3J0LWNyaWNrZXQuc3Zn" group-title="GB",[GB] Sky Sports Cricket (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="188" tvg-id="398" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vc2t5LXNwb3J0LWNyaWNrZXQuc3Zn" group-title="GB",[GB] Sky Sports Cricket (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=398
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=398
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=skysportscricketuk
 
-#EXTINF:-1 tvg-chno="190" tvg-id="403" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vc2t5LXNwb3J0LW1peC5zdmc%3D" group-title="GB",[GB] Sky Sports Mix (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="189" tvg-id="403" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vc2t5LXNwb3J0LW1peC5zdmc%3D" group-title="GB",[GB] Sky Sports Mix (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=403
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=403
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=skysportsmixuk
 
-#EXTINF:-1 tvg-chno="191" tvg-id="407" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vc2t5LXNwb3J0LXJhY2luZy5zdmc%3D" group-title="GB",[GB] Sky Sports Racing (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="190" tvg-id="407" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvdW5pdGVkLWtpbmdkb20vc2t5LXNwb3J0LXJhY2luZy5zdmc%3D" group-title="GB",[GB] Sky Sports Racing (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=407
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=407
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=SkySportsRacing
 
-#EXTINF:-1 tvg-chno="192" tvg-id="396" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky History (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="191" tvg-id="396" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky History (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=396
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=396
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=SkyHistoryUK
 
-#EXTINF:-1 tvg-chno="193" tvg-id="395" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Crime (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="192" tvg-id="395" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Crime (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=395
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=395
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=SkyCrimeUK
 
-#EXTINF:-1 tvg-chno="194" tvg-id="394" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Comedy (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="193" tvg-id="394" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Comedy (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=394
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=394
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=SkyComedyUK
 
-#EXTINF:-1 tvg-chno="195" tvg-id="382" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Arts (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="194" tvg-id="382" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Arts (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=382
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=382
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=SkyArtsUK
 
-#EXTINF:-1 tvg-chno="196" tvg-id="824" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Showcase (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="195" tvg-id="824" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Showcase (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=824
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=824
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/gb/index.php?id=SkyShowcase
 
-#EXTINF:-1 tvg-chno="197" tvg-id="392" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Sci-Fi Horror (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="196" tvg-id="392" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Sci-Fi Horror (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=392
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=392
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=SkyCinemaSciFiHorrorUK
 
-#EXTINF:-1 tvg-chno="198" tvg-id="387" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Drama (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="197" tvg-id="387" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Drama (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=387
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=387
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=SkyCinemaDramaUK
 
-#EXTINF:-1 tvg-chno="199" tvg-id="820" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Thriller (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="198" tvg-id="820" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Thriller (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=820
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=820
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/tv247V3/gb/index.php?id=SkyCinemaThriller
 
-#EXTINF:-1 tvg-chno="200" tvg-id="386" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Comedy (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="199" tvg-id="386" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Comedy (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=386
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=386
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=SkyCinemaComedyUK
 
-#EXTINF:-1 tvg-chno="201" tvg-id="384" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Action (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="200" tvg-id="384" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Action (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=384
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=384
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=SkyCinemaActionUK
 
-#EXTINF:-1 tvg-chno="202" tvg-id="388" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Family (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="201" tvg-id="388" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Family (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=388
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=388
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=SkyCinemaFamilyUK
 
-#EXTINF:-1 tvg-chno="203" tvg-id="385" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Animation (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="202" tvg-id="385" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Animation (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=385
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=385
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=SkyCinemaAnimationUK
 
-#EXTINF:-1 tvg-chno="204" tvg-id="390" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Hits (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="203" tvg-id="390" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Hits (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=390
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=390
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=SkyCinemaHitsUK
 
-#EXTINF:-1 tvg-chno="205" tvg-id="389" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Greats (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="204" tvg-id="389" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Greats (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=389
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=389
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=SkyCinemaGreatsUK
 
-#EXTINF:-1 tvg-chno="206" tvg-id="393" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Select (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="205" tvg-id="393" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Select (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=393
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=393
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=SkyCinemaSelectUK
 
-#EXTINF:-1 tvg-chno="207" tvg-id="391" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Premiere (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="206" tvg-id="391" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Cinema Premiere (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=391
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=391
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=SkyCinemaPremiereUK
 
-#EXTINF:-1 tvg-chno="208" tvg-id="383" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Atlantic (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="207" tvg-id="383" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Atlantic (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=383
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=383
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=SkyAtlantic
 
-#EXTINF:-1 tvg-chno="209" tvg-id="405" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Sports Plus (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="208" tvg-id="405" tvg-logo="https://listapreta.site/developer-api/defimage.png" group-title="GB",[GB] Sky Sports Plus (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=405
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=405
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/uk/index.php?ch=skysportsplus
 
-#EXTINF:-1 tvg-chno="210" tvg-id="946" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvc2VyYmlhL3NrLTEucG5nLndlYnA%3D" group-title="RS",[RS] Sport Klub 1 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="209" tvg-id="946" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvc2VyYmlhL3NrLTEucG5nLndlYnA%3D" group-title="RS",[RS] Sport Klub 1 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=946
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=946
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/rs/index.php?ch=SPORTKLUB1RS
 
-#EXTINF:-1 tvg-chno="211" tvg-id="947" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvc2VyYmlhL3NrLTIucG5nLndlYnA%3D" group-title="RS",[RS] Sport Klub 2 (LTSPRETA-CH)
+#EXTINF:-1 tvg-chno="210" tvg-id="947" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvc2VyYmlhL3NrLTIucG5nLndlYnA%3D" group-title="RS",[RS] Sport Klub 2 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=947
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=947
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://lista-preta-tv.site/live/rs/index.php?ch=SPORTKLUB2RS
+
+#EXTINF:-1 tvg-chno="211" tvg-id="948" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvc2VyYmlhL3NrLTMucG5nLndlYnA%3D" group-title="RS",[RS] Sport Klub 3 (LTSPRETA-CH)
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=948
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=948
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://lista-preta-tv.site/live/rs/index.php?ch=SPORTKLUB3RS
 
 #EXTINF:-1 tvg-chno="212" tvg-id="949" tvg-logo="https://listapreta.site/developer-api/images/img.php?url=aHR0cHM6Ly9hcGkuY2RuLWxpdmUudHYvYXBpL3YxL2NoYW5uZWxzL2ltYWdlczYzMTgvc2VyYmlhL3NrLTQucG5nLndlYnA%3D" group-title="RS",[RS] Sport Klub 4 (LTSPRETA-CH)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=949
