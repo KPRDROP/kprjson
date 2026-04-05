@@ -110,6 +110,7 @@ class PlaylistTransformer:
             return response.json()
         else:
             print(f"✗ GitHub push failed: {response.status_code}")
+            print(f"Response: {response.text}")
             return None
     
     def run(self):
@@ -139,7 +140,7 @@ class PlaylistTransformer:
             print("=" * 50)
             
         except Exception as e:
-            print(f"\n Error: {e}")
+            print(f"\nError: {e}")
             raise
 
 if __name__ == "__main__":
