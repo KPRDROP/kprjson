@@ -28,7 +28,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        ip install selectolax playwright httpx[http2] pytz
+        pip install selectolax playwright httpx[http2] pytz
         playwright install chromium
     
     - name: Run SPORTir scraper
