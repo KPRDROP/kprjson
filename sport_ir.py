@@ -17,7 +17,7 @@ API_URLS = {
     sport: f"https://api.{sport.lower()}24all.ir"
     for sport in [
         "MLB",
-        # "NBA",
+        "NBA",
         # "NFL",
         "NHL",
     ]
@@ -45,6 +45,8 @@ def generate_playlists():
     
     ua_encoded = quote(USER_AGENT, safe="")
     
+    valid_streams = 0
+    
     for chno, (name, data) in enumerate(urls.items(), start=1):
         
         url = data.get("url")
@@ -54,6 +56,8 @@ def generate_playlists():
         
         if not url:
             continue
+        
+        valid_streams += 1
         
         extinf = (
             f'#EXTINF:-1 tvg-chno="{chno}" tvg-id="{tvg_id}" '
@@ -80,16 +84,14 @@ def generate_playlists():
         tivimate_lines.append("")  # Empty line for readability
     
     # Write VLC playlist
-    if vlc_lines:
-        with open(VLC_OUTPUT, "w", encoding="utf8") as f:
-            f.write("\n".join(vlc_lines))
-        log.info(f"Generated {VLC_OUTPUT} with {len([u for u in urls.values() if u.get('url')])} streams")
+    with open(VLC_OUTPUT, "w", encoding="utf8") as f:
+        f.write("\n".join(vlc_lines))
+    log.info(f"Generated {VLC_OUTPUT} with {valid_streams} streams")
     
     # Write Tivimate playlist
-    if tivimate_lines:
-        with open(TIVIMATE_OUTPUT, "w", encoding="utf8") as f:
-            f.write("\n".join(tivimate_lines))
-        log.info(f"Generated {TIVIMATE_OUTPUT} with {len([u for u in urls.values() if u.get('url')])} streams")
+    with open(TIVIMATE_OUTPUT, "w", encoding="utf8") as f:
+        f.write("\n".join(tivimate_lines))
+    log.info(f"Generated {TIVIMATE_OUTPUT} with {valid_streams} streams")
 
 
 # ---------------------------------------------------------
@@ -149,8 +151,9 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
 
     events = []
 
-    start_dt = now.delta(hours=-1)
-    end_dt = now.delta(minutes=5)
+    # Expanded time window: 6 hours back and 6 hours forward
+    start_dt = now.delta(hours=-6)
+    end_dt = now.delta(hours=6)
 
     for sport in api_data:
         data = api_data[sport]
@@ -186,7 +189,9 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
             away = team_identifier.get(game["away_team_id"])
             home = team_identifier.get(game["home_team_id"])
 
-            # Fixed: Removed assignment expression inside f-string
+            if not away or not home:
+                continue
+
             event_name = f"{away} vs {home}"
             cache_key = f"[{sport}] {event_name} ({TAG})"
             
@@ -207,6 +212,7 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
                         "media_id": media_id,
                     }
                 )
+                log.info(f"Found event: {sport} - {event_name} at {event_dt}")
 
     return events
 
