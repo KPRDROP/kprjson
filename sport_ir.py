@@ -17,7 +17,7 @@ API_URLS = {
     sport: f"https://api.{sport.lower()}24all.ir"
     for sport in [
         "MLB",
-        "NBA",
+        # "NBA",
         # "NFL",
         "NHL",
     ]
@@ -38,7 +38,7 @@ TIVIMATE_OUTPUT = "sport_ir_tivimate.m3u8"
 
 def generate_playlists():
     """
-    Generate VLC and Tivimate playlist
+    Generate VLC and Tivimate playlist files from captured streams
     """
     vlc_lines = ["#EXTM3U"]
     tivimate_lines = ["#EXTM3U"]
@@ -80,14 +80,16 @@ def generate_playlists():
         tivimate_lines.append("")  # Empty line for readability
     
     # Write VLC playlist
-    with open(VLC_OUTPUT, "w", encoding="utf8") as f:
-        f.write("\n".join(vlc_lines))
-    log.info(f"Generated {VLC_OUTPUT} with {len([u for u in urls.values() if u.get('url')])} streams")
+    if vlc_lines:
+        with open(VLC_OUTPUT, "w", encoding="utf8") as f:
+            f.write("\n".join(vlc_lines))
+        log.info(f"Generated {VLC_OUTPUT} with {len([u for u in urls.values() if u.get('url')])} streams")
     
     # Write Tivimate playlist
-    with open(TIVIMATE_OUTPUT, "w", encoding="utf8") as f:
-        f.write("\n".join(tivimate_lines))
-    log.info(f"Generated {TIVIMATE_OUTPUT} with {len([u for u in urls.values() if u.get('url')])} streams")
+    if tivimate_lines:
+        with open(TIVIMATE_OUTPUT, "w", encoding="utf8") as f:
+            f.write("\n".join(tivimate_lines))
+        log.info(f"Generated {TIVIMATE_OUTPUT} with {len([u for u in urls.values() if u.get('url')])} streams")
 
 
 # ---------------------------------------------------------
@@ -184,7 +186,11 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
             away = team_identifier.get(game["away_team_id"])
             home = team_identifier.get(game["home_team_id"])
 
-            if f"[{sport}] {(event_name:=f"{away} vs {home}")} ({TAG})" in cached_keys:
+            # Fixed: Removed assignment expression inside f-string
+            event_name = f"{away} vs {home}"
+            cache_key = f"[{sport}] {event_name} ({TAG})"
+            
+            if cache_key in cached_keys:
                 continue
 
             media_id = parsed_media_events.get(game_id, 0)
