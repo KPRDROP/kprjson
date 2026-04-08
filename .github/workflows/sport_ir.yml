@@ -2,9 +2,12 @@ name: SPORTir Stream Updater
 
 on:
   schedule:
-    # Run every 2 hours
-    - cron: '0 */2 * * *'
+    # Run every 4 hours
+    - cron: '0 */4 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-streams:
@@ -15,6 +18,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+        persist-credentials: true
     
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -24,7 +28,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install selectolax playwright httpx[http2] pytz
+        ip install selectolax playwright httpx[http2] pytz
         playwright install chromium
     
     - name: Run SPORTir scraper
@@ -52,3 +56,5 @@ jobs:
       run: |
         git commit -m "Auto-update SPORTir streams [skip ci]"
         git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
