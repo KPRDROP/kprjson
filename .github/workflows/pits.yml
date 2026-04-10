@@ -2,8 +2,8 @@ name: PITS Scraper
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Run every 30 minutes
-  workflow_dispatch:  # Allow manual trigger
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
