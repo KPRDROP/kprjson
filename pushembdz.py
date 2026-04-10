@@ -10,13 +10,10 @@ log = get_logger(__name__)
 
 TAG = "PUSHEMBDZ"
 
-BASE_URL = "https://pushembdz.store/"
-WATCH_BASE = f"{BASE_URL}/embed"
-
+BASE_URL = "https://pushembdz.store"
 CACHE_FILE = Cache(f"{TAG.lower()}.json", exp=10_800)
 OUTPUT_FILE = Path("pushembdz.m3u8")
 
-# Encoded User-Agent for TiViMate pipe
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) "
     "Gecko/20100101 Firefox/146.0"
@@ -25,7 +22,7 @@ UA_ENC = quote_plus(UA)
 
 
 # -------------------------------------------------
-# Extract playable stream from embed URL (UNCHANGED)
+# Extract playable stream (UNCHANGED)
 # -------------------------------------------------
 async def extract_playable_stream(embed_url: str, url_num: int) -> str | None:
     try:
@@ -80,43 +77,66 @@ async def extract_playable_stream(embed_url: str, url_num: int) -> str | None:
 
 
 # -------------------------------------------------
-# NEW: Extract Events from homepage
+# ✅ FIXED: Extract events using Playwright (JS render)
 # -------------------------------------------------
 async def get_events(cached_hrefs: set[str]) -> list[dict]:
     events = []
 
-    r = await network.request(BASE_URL, log=log)
-    if not r:
-        return events
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        page = await browser.new_page()
 
-    content = r.text
+        try:
+            await page.goto(BASE_URL, wait_until="networkidle", timeout=60000)
 
-    # Find all event blocks
-    pattern = re.findall(
-        r'<h3[^>]*title="([^"]+)"[^>]*>.*?</h3>.*?<code[^>]*>(https://pushembdz\.store/embed/[a-z0-9\-]+)</code>',
-        content,
-        re.DOTALL | re.IGNORECASE
-    )
+            # Wait for content to render
+            await asyncio.sleep(5)
 
-    for title, embed_url in pattern:
-        event_id = embed_url.split("/")[-1]
+            # Get all event cards
+            cards = await page.query_selector_all("h3")
 
-        if event_id in cached_hrefs:
-            continue
+            for card in cards:
+                title = await card.get_attribute("title")
 
-        events.append({
-            "event": title.strip(),
-            "embed": embed_url.strip(),
-            "href": event_id,
-            "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png"
-        })
+                if not title:
+                    continue
+
+                # Find embed URL near this card
+                parent = await card.evaluate_handle("el => el.parentElement")
+
+                code_el = await parent.query_selector("code")
+
+                if not code_el:
+                    continue
+
+                embed_url = (await code_el.inner_text()).strip()
+
+                if "pushembdz.store/embed" not in embed_url:
+                    continue
+
+                event_id = embed_url.split("/")[-1]
+
+                if event_id in cached_hrefs:
+                    continue
+
+                events.append({
+                    "event": title.strip(),
+                    "embed": embed_url,
+                    "href": event_id,
+                    "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png"
+                })
+
+        except Exception as e:
+            log.error(f"Error extracting events: {e}")
+        finally:
+            await browser.close()
 
     log.info(f"Extracted {len(events)} events from homepage")
     return events
 
 
 # -------------------------------------------------
-# Build playlist (UNCHANGED FORMAT)
+# Build playlist
 # -------------------------------------------------
 def build_playlist(data: dict[str, dict]) -> str:
     lines = ["#EXTM3U"]
@@ -156,6 +176,10 @@ async def scrape():
 
     events = await get_events(cached_hrefs)
 
+    if not events and not urls:
+        log.warning("No events found")
+        return
+
     now_ts = Time.clean(Time.now()).timestamp()
 
     for i, ev in enumerate(events, start=1):
@@ -187,8 +211,6 @@ async def scrape():
         OUTPUT_FILE.write_text(playlist, encoding="utf-8")
 
         log.info(f"Playlist written: {OUTPUT_FILE}")
-    else:
-        log.warning("No events found")
 
 
 # -------------------------------------------------
