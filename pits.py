@@ -1,10 +1,9 @@
 import asyncio
 import re
-import json
-from functools import partial
 from pathlib import Path
 from urllib.parse import quote, quote_plus, urljoin
 
+from playwright.async_api import async_playwright
 from utils import Cache, Time, get_logger, leagues, network
 
 log = get_logger(__name__)
@@ -26,72 +25,107 @@ UA_ENC = quote_plus(UA)
 
 
 # -------------------------------------------------
-# Extract stream URL from watch page
+# Extract stream URL using Playwright
 # -------------------------------------------------
-async def extract_stream_from_watch_page(watch_url: str, url_num: int) -> str | None:
-    """Extract M3U8/stream URL from watch page"""
+async def extract_stream_with_playwright(watch_url: str, url_num: int) -> str | None:
+    """Extract stream URL using Playwright to capture dynamic content"""
+    stream_url = None
+    
+    async with async_playwright() as p:
+        # Launch browser
+        browser = await p.chromium.launch(headless=True)
+        page = await browser.new_page()
+        
+        # Set up request interception to capture stream URLs
+        async def handle_request(request):
+            nonlocal stream_url
+            url = request.url
+            
+            # Look for serveplay URLs
+            if 'serveplay' in url and (url.endswith('.html') or url.endswith('.m3u8')):
+                stream_url = url
+                log.info(f"URL {url_num}) captured stream via network: {url[:100]}...")
+        
+        # Listen to all requests
+        page.on('request', handle_request)
+        
+        try:
+            # Navigate to the watch page
+            log.debug(f"URL {url_num}) navigating to {watch_url}")
+            await page.goto(watch_url, wait_until='networkidle', timeout=30000)
+            
+            # Wait a bit for dynamic content to load
+            await asyncio.sleep(3)
+            
+            # Also check for iframes
+            iframes = await page.query_selector_all('iframe')
+            for iframe in iframes:
+                src = await iframe.get_attribute('src')
+                if src and ('serveplay' in src or 'embed' in src):
+                    stream_url = src
+                    log.info(f"URL {url_num}) captured stream from iframe: {src[:100]}...")
+                    break
+            
+            # Check page content for stream URL
+            content = await page.content()
+            
+            # Look for stream URL patterns in the page
+            patterns = [
+                r'(https?://[^\s"\']+serveplay[^\s"\']+\.html[^\s"\']*)',
+                r'(https?://[^\s"\']+serveplay[^\s"\']+\.m3u8[^\s"\']*)',
+                r'(https?://[^\s"\']+dash\.serveplay[^\s"\']+\.html[^\s"\']*)',
+                r'(https?://[^\s"\']+dash\.serveplay[^\s"\']+\.m3u8[^\s"\']*)',
+            ]
+            
+            for pattern in patterns:
+                matches = re.findall(pattern, content, re.IGNORECASE)
+                for match in matches:
+                    if 'serveplay' in match:
+                        stream_url = match
+                        log.info(f"URL {url_num}) captured stream from page content: {match[:100]}...")
+                        break
+                if stream_url:
+                    break
+            
+        except Exception as e:
+            log.error(f"URL {url_num}) Playwright error: {e}")
+        finally:
+            await browser.close()
+    
+    return stream_url
+
+
+# -------------------------------------------------
+# Extract stream URL using direct requests
+# -------------------------------------------------
+async def extract_stream_direct(watch_url: str, url_num: int) -> str | None:
+    """Extract stream URL using direct HTTP requests"""
     r = await network.request(watch_url, log=log)
     if not r:
-        log.warning(f"URL {url_num}) failed to load watch page")
         return None
     
     content = r.text
     
-    # Look for iframe in the page
-    iframe_pattern = r'<iframe[^>]*src=["\']([^"\']+)["\']'
-    iframes = re.findall(iframe_pattern, content, re.IGNORECASE)
-    
-    for iframe_src in iframes:
-        if 'embed' in iframe_src or 'stream' in iframe_src or 'player' in iframe_src:
-            iframe_url = iframe_src if iframe_src.startswith('http') else urljoin(watch_url, iframe_src)
-            iframe_r = await network.request(iframe_url, headers={"Referer": watch_url}, log=log)
-            if iframe_r:
-                # Look for M3U8 in iframe
-                m3u8 = re.search(r'(https?://[^\s"\']+\.m3u8[^\s"\']*)', iframe_r.text, re.IGNORECASE)
-                if m3u8:
-                    stream = m3u8.group(1)
-                    log.info(f"URL {url_num}) captured M3U8 from iframe")
-                    return stream
-                
-                # Look for HTML stream
-                html = re.search(r'(https?://[^\s"\']+\.html[^\s"\']*)', iframe_r.text, re.IGNORECASE)
-                if html:
-                    stream = html.group(1)
-                    log.info(f"URL {url_num}) captured HTML stream from iframe")
-                    return stream
-    
-    # Look for Next.js data containing stream URL
-    # Pattern for the stream URL in Next.js props
-    stream_patterns = [
+    # Look for embed URLs that might contain the stream
+    patterns = [
+        # Direct serveplay URLs
+        r'(https?://[^\s"\']*serveplay[^\s"\']+\.(?:html|m3u8)[^\s"\']*)',
+        # URLs in script variables
+        r'(?:url|src|source|stream|file|video|hls)\s*[=:]\s*["\']([^"\']+serveplay[^"\']+\.(?:html|m3u8)[^"\']*)["\']',
+        # Next.js data
         r'streamUrl["\']\s*:\s*["\']([^"\']+)["\']',
         r'stream_url["\']\s*:\s*["\']([^"\']+)["\']',
-        r'url["\']\s*:\s*["\'](https?://[^\s"\']+serveplay[^\s"\']+\.html)',
-        r'url["\']\s*:\s*["\'](https?://[^\s"\']+serveplay[^\s"\']+\.m3u8)',
-        r'(https?://[^\s"\']+serveplay[^\s"\']+\.(?:m3u8|html))',
+        # Iframe src
+        r'<iframe[^>]+src=["\']([^"\']+serveplay[^"\']+)["\']',
     ]
     
-    for pattern in stream_patterns:
-        match = re.search(pattern, content, re.IGNORECASE)
-        if match:
-            stream = match.group(1)
-            log.info(f"URL {url_num}) captured stream from Next.js data")
-            return stream
-    
-    # Look for embed URLs in the page
-    embed_patterns = [
-        r'(https?://[^\s"\']+serveplay[^\s"\']+\.html[^\s"\']*)',
-        r'(https?://[^\s"\']+serveplay[^\s"\']+\.m3u8[^\s"\']*)',
-        r'(https?://[^\s"\']+\.serveplay[^\s"\']+\.(?:m3u8|html))',
-    ]
-    
-    for pattern in embed_patterns:
+    for pattern in patterns:
         matches = re.findall(pattern, content, re.IGNORECASE)
         for match in matches:
             if 'serveplay' in match:
-                log.info(f"URL {url_num}) captured stream from embed pattern")
+                log.info(f"URL {url_num}) captured stream from direct request: {match[:100]}...")
                 return match
     
-    log.warning(f"URL {url_num}) no stream found on watch page")
     return None
 
 
@@ -110,42 +144,30 @@ async def get_event_ids_from_page() -> list[dict]:
     content = r.text
     
     # Find all watch URLs in the page
-    # Pattern: href="/watch/{uuid}"
     watch_pattern = r'href=["\']/watch/([a-f0-9-]+)["\']'
     watch_ids = set(re.findall(watch_pattern, content, re.IGNORECASE))
     
-    # Also look for Next.js data containing event info
-    # Extract category and title from the page
-    event_info_pattern = r'category":"([^"]+)".*?title":"([^"]+)"'
-    info_matches = re.findall(event_info_pattern, content, re.DOTALL)
-    
-    # Create a mapping of categories and titles (order may not match)
-    event_details = []
-    for category, title in info_matches:
-        event_details.append({
-            'category': category,
-            'title': title
-        })
-    
-    # Match watch IDs with their details
-    for i, watch_id in enumerate(watch_ids):
+    # Extract event details from the page
+    for watch_id in watch_ids:
         event_url = f"{WATCH_BASE}/{watch_id}"
         
-        # Try to get event details
-        category = "Unknown"
-        title = "Event"
+        # Try to extract category and title from around this watch ID
+        context_pattern = rf'href=["\']/watch/{watch_id}["\'][^>]*>.*?<p[^>]*class="[^"]*text-gray-500[^"]*"[^>]*>([^<]+)</p>.*?<h1[^>]*>([^<]+)</h1>'
+        context_match = re.search(context_pattern, content, re.DOTALL)
         
-        if i < len(event_details):
-            category = event_details[i].get('category', 'Unknown')
-            title = event_details[i].get('title', 'Event')
+        if context_match:
+            category = context_match.group(1).strip()
+            title = context_match.group(2).strip()
         else:
-            # Try to extract from the page around this watch ID
-            # Find the context around this watch ID
-            context_pattern = rf'href=["\']/watch/{watch_id}["\'][^>]*>.*?<p[^>]*class="[^"]*text-gray-500[^"]*"[^>]*>([^<]+)</p>.*?<h1[^>]*>([^<]+)</h1>'
-            context_match = re.search(context_pattern, content, re.DOTALL)
-            if context_match:
-                category = context_match.group(1).strip()
-                title = context_match.group(2).strip()
+            # Try alternative pattern
+            alt_pattern = rf'href=["\']/watch/{watch_id}["\'][^>]*>.*?<h1[^>]*>([^<]+)</h1>'
+            alt_match = re.search(alt_pattern, content, re.DOTALL)
+            if alt_match:
+                title = alt_match.group(1).strip()
+                category = "Unknown"
+            else:
+                category = "Unknown"
+                title = f"Event {watch_id[:8]}"
         
         events.append({
             'id': watch_id,
@@ -178,9 +200,6 @@ async def get_events(cached_hrefs: set[str]) -> list[dict[str, str]]:
         if event_id in cached_hrefs:
             continue
         
-        # Build full event name
-        full_event_name = f"{category} - {title}"
-        
         # Build sport name for group
         sport = category.upper().replace(' ', '_')
         
@@ -188,8 +207,7 @@ async def get_events(cached_hrefs: set[str]) -> list[dict[str, str]]:
             "sport": sport,
             "category": category,
             "event": title,
-            "datetime": "",
-            "full_name": full_event_name,
+            "full_name": f"{category} - {title}",
             "link": event_url,
             "href": event_id,
             "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
@@ -210,8 +228,10 @@ def build_playlist(data: dict[str, dict]) -> str:
         
         # Extract domain for referer/origin
         if 'serveplay' in stream_url:
-            referer = "https://pushembdz.store/"
-            origin = "https://pushembdz.store"
+            # Extract base domain for referer
+            parsed_url = re.search(r'(https?://[^/]+)', stream_url)
+            referer = parsed_url.group(1) if parsed_url else "https://pushembdz.store/"
+            origin = referer
         else:
             referer = BASE_URL
             origin = BASE_URL
@@ -239,7 +259,14 @@ def build_playlist(data: dict[str, dict]) -> str:
 # -------------------------------------------------
 async def process_event(url: str, url_num: int) -> str | None:
     """Process event page to extract stream URL"""
-    stream = await extract_stream_from_watch_page(url, url_num)
+    # Try direct extraction first (faster)
+    stream = await extract_stream_direct(url, url_num)
+    
+    # If direct extraction fails, try with Playwright
+    if not stream:
+        log.debug(f"URL {url_num}) direct extraction failed, trying Playwright...")
+        stream = await extract_stream_with_playwright(url, url_num)
+    
     return stream
 
 
@@ -266,14 +293,7 @@ async def scrape() -> None:
     for i, ev in enumerate(events, start=1):
         log.info(f"Processing event {i}/{len(events)}: {ev['full_name'][:80]}...")
         
-        handler = partial(process_event, ev["link"], i)
-        
-        stream = await network.safe_process(
-            handler,
-            url_num=i,
-            semaphore=network.HTTP_S,
-            log=log,
-        )
+        stream = await process_event(ev["link"], i)
         
         if not stream:
             log.warning(f"Event {i}) No stream found for: {ev['full_name'][:50]}...")
@@ -296,6 +316,9 @@ async def scrape() -> None:
         }
         new_events_count += 1
         log.info(f"Event {i}) ✓ Added: {ev['full_name'][:60]}... -> {stream[:80]}...")
+        
+        # Small delay between requests
+        await asyncio.sleep(1)
     
     if new_events_count > 0:
         CACHE_FILE.write(urls)
