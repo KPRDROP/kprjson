@@ -6,7 +6,6 @@ from pathlib import Path
 from urllib.parse import quote, quote_plus, urljoin
 
 from utils import Cache, Time, get_logger, leagues, network
-from selectolax.parser import HTMLParser
 
 log = get_logger(__name__)
 
@@ -26,18 +25,28 @@ UA_ENC = quote_plus(UA)
 
 
 # -------------------------------------------------
-# Extract image URL from srcset
+# Extract image URL from Next.js image config
 # -------------------------------------------------
-def extract_image_url(srcset: str) -> str:
-    """Extract full image URL from srcset attribute"""
-    if not srcset:
+def extract_image_url(image_config: dict) -> str:
+    """Extract full image URL from Next.js image configuration"""
+    if not image_config:
         return "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png"
     
-    # Pattern to match URL in srcset
-    pattern = r'(https?://[^\s]+\.(?:jpg|jpeg|png|webp))'
-    match = re.search(pattern, srcset)
-    if match:
-        return match.group(1)
+    # Check if it's a string (direct URL)
+    if isinstance(image_config, str):
+        if image_config.startswith('http'):
+            return image_config
+        elif image_config.startswith('/'):
+            return urljoin(BASE_URL, image_config)
+    
+    # Check for src or url in dict
+    if isinstance(image_config, dict):
+        src = image_config.get('src') or image_config.get('url')
+        if src:
+            if src.startswith('http'):
+                return src
+            elif src.startswith('/'):
+                return urljoin(BASE_URL, src)
     
     return "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png"
 
@@ -52,56 +61,54 @@ async def extract_stream_from_watch_page(watch_url: str, url_num: int) -> str | 
         log.warning(f"URL {url_num}) failed to load watch page")
         return None
     
-    soup = HTMLParser(r.content)
+    # Look for iframe with embed in the page
+    iframe_pattern = r'<iframe[^>]*src=["\']([^"\']+)[^>]*>'
+    iframes = re.findall(iframe_pattern, r.text, re.IGNORECASE)
     
-    # Look for iframe with embed
-    iframe = soup.css_first('iframe[src*="embed"], iframe[src*="stream"], iframe[src*="player"]')
-    if iframe:
-        iframe_src = iframe.attributes.get("src")
-        if iframe_src:
+    for iframe_src in iframes:
+        if 'embed' in iframe_src or 'stream' in iframe_src or 'player' in iframe_src:
             # Fetch iframe content
-            iframe_r = await network.request(iframe_src, headers={"Referer": watch_url}, log=log)
+            iframe_url = iframe_src if iframe_src.startswith('http') else urljoin(watch_url, iframe_src)
+            iframe_r = await network.request(iframe_url, headers={"Referer": watch_url}, log=log)
             if iframe_r:
                 # Look for M3U8 in iframe content
                 m3u8_pattern = r'(https?://[^\s"\']+\.m3u8[^\s"\']*)'
                 match = re.search(m3u8_pattern, iframe_r.text, re.IGNORECASE)
                 if match:
                     stream = match.group(1)
-                    log.info(f"URL {url_num}) captured M3U8 from iframe -> {stream[:80]}...")
+                    log.info(f"URL {url_num}) captured M3U8 from iframe")
                     return stream
     
     # Look for direct M3U8 in page
     m3u8_pattern = r'(https?://[^\s"\']+\.(?:m3u8|html)[^\s"\']*)'
     matches = re.findall(m3u8_pattern, r.text, re.IGNORECASE)
     
-    # Filter for actual stream URLs
     for match in matches:
         if 'serveplay' in match or 'm3u8' in match:
-            log.info(f"URL {url_num}) captured M3U8 -> {match[:80]}...")
+            log.info(f"URL {url_num}) captured M3U8")
             return match
     
-    # Look for JavaScript variables containing stream URL
+    # Look for JavaScript variables
     script_pattern = r'(?:var|const|let)\s+(?:url|src|source|stream|file|video|hls)\s*=\s*["\']([^"\']+\.(?:m3u8|html)[^"\']*)["\']'
     match = re.search(script_pattern, r.text, re.IGNORECASE)
     if match:
         stream = match.group(1)
-        log.info(f"URL {url_num}) captured M3U8 from JS -> {stream[:80]}...")
+        log.info(f"URL {url_num}) captured M3U8 from JS")
         return stream
     
-    # Look for HTML file that might contain the stream
-    html_pattern = r'(https?://[^\s"\']+\.html[^\s"\']*)'
-    matches = re.findall(html_pattern, r.text, re.IGNORECASE)
+    # Look for embed URLs in Next.js data
+    embed_pattern = r'https?://[^\s"\']*serveplay[^\s"\']*\.html[^\s"\']*'
+    matches = re.findall(embed_pattern, r.text, re.IGNORECASE)
     for match in matches:
-        if 'serveplay' in match:
-            log.info(f"URL {url_num}) captured HTML stream -> {match[:80]}...")
-            return match
+        log.info(f"URL {url_num}) captured HTML stream")
+        return match
     
     log.warning(f"URL {url_num}) no stream found on watch page")
     return None
 
 
 # -------------------------------------------------
-# Parse events from main homepage HTML
+# Parse events from Next.js page data
 # -------------------------------------------------
 async def get_events(cached_hrefs: set[str]) -> list[dict[str, str]]:
     events = []
@@ -111,78 +118,105 @@ async def get_events(cached_hrefs: set[str]) -> list[dict[str, str]]:
         log.error("Failed to fetch live-now page")
         return events
     
-    soup = HTMLParser(r.content)
+    content = r.text
     
-    # Find all event cards - look for elements with the structure
-    # Looking for parent elements that contain both category and event name
-    event_cards = soup.css('div.flex.flex-col')
+    # Extract JSON data from Next.js script tags
+    # Look for pattern: self.__next_f.push([...]) containing event data
+    json_pattern = r'self\.__next_f\.push\(\[[^,]*,\s*"([^"]*)"\]\)'
+    json_matches = re.findall(json_pattern, content)
     
-    for card in event_cards:
-        # Get category (race name) from p tag
-        category_elem = card.css_first('p.text-gray-500.text-xs.font-semibold.uppercase.tracking-wider.mb-1')
-        if not category_elem:
+    all_events_data = []
+    
+    for json_str in json_matches:
+        # Unescape the JSON string
+        json_str = json_str.replace('\\"', '"').replace('\\\\', '\\')
+        json_str = json_str.replace('\\n', '').replace('\\t', '')
+        
+        # Try to find event data patterns
+        event_pattern = r'category":"([^"]+)".*?title":"([^"]+)".*?href":"([^"]+)".*?imageUrl":"([^"]*)"'
+        matches = re.findall(event_pattern, json_str, re.DOTALL)
+        
+        for category, title, href, image_url in matches:
+            if href and href not in cached_hrefs:
+                all_events_data.append({
+                    'category': category,
+                    'title': title,
+                    'href': href,
+                    'image_url': image_url
+                })
+    
+    # Also try to find event data from the embedded props
+    props_pattern = r'\"props\":\{[^}]*\"pageProps\":\{[^}]*\"events\":\[(.*?)\]'
+    props_match = re.search(props_pattern, content, re.DOTALL)
+    if props_match:
+        events_json = props_match.group(1)
+        # Extract individual events
+        event_pattern = r'\{[^}]*"category":"([^"]+)"[^}]*"title":"([^"]+)"[^}]*"href":"([^"]+)"[^}]*"imageUrl":"([^"]*)"[^}]*\}'
+        matches = re.findall(event_pattern, events_json, re.DOTALL)
+        for category, title, href, image_url in matches:
+            if href and href not in cached_hrefs:
+                all_events_data.append({
+                    'category': category,
+                    'title': title,
+                    'href': href,
+                    'image_url': image_url
+                })
+    
+    # Process all found events
+    for event_data in all_events_data:
+        category = event_data['category']
+        title = event_data['title']
+        href = event_data['href']
+        image_url = event_data['image_url']
+        
+        if not href:
             continue
         
-        category = category_elem.text(strip=True)
+        # Extract date/time from title if present
+        datetime_str = ""
+        time_match = re.search(r'(\d{1,2}\s+\w+\s+\d{4},\s+\d{1,2}:\d{2}\s+(?:AM|PM))', title)
+        if time_match:
+            datetime_str = time_match.group(1)
+            datetime_str = datetime_str.replace(',', ' -')
+            # Remove time from title
+            title = title.replace(time_match.group(0), '').strip()
         
-        # Get event name from h1 tag
-        name_elem = card.css_first('h1.text-white.font-bold')
-        if not name_elem:
-            continue
+        # Build full event URL
+        event_url = urljoin(BASE_URL, href)
         
-        event_name = name_elem.text(strip=True)
+        # Create unique identifier
+        href_id = href
         
-        # Get date/time from h2 tag
-        datetime_elem = card.css_first('h2.text-gray-400.min-h-\\[1\\.5em\\]')
-        if not datetime_elem:
-            continue
+        # Build full event name
+        full_event_name = f"{category} - {title}"
+        if datetime_str:
+            full_event_name += f" ({datetime_str})"
         
-        event_datetime = datetime_elem.text(strip=True)
-        # Replace comma with dash
-        event_datetime = event_datetime.replace(',', ' -')
-        
-        # Get image URL from img tag
-        img_elem = card.css_first('img')
-        img_url = ""
-        if img_elem:
-            srcset = img_elem.attributes.get('srcset', '')
-            img_url = extract_image_url(srcset)
-            if not img_url:
-                img_url = img_elem.attributes.get('src', '')
-        
-        # Get watch link from a tag
-        link_elem = card.css_first('a.block')
-        if not link_elem:
-            continue
-        
-        watch_path = link_elem.attributes.get('href', '')
-        if not watch_path:
-            continue
-        
-        watch_url = urljoin(BASE_URL, watch_path)
-        
-        # Create unique href identifier
-        href_id = watch_path
-        
-        if href_id in cached_hrefs:
-            continue
-        
-        # Combine category and event name with datetime
-        full_event_name = f"{category} - {event_name} ({event_datetime})"
+        # Build image URL
+        if image_url and not image_url.startswith('http'):
+            image_url = urljoin(BASE_URL, image_url)
         
         events.append({
             "sport": category.upper().replace(' ', '_'),
             "category": category,
-            "event": event_name,
-            "datetime": event_datetime,
+            "event": title,
+            "datetime": datetime_str,
             "full_name": full_event_name,
-            "link": watch_url,
+            "link": event_url,
             "href": href_id,
-            "logo": img_url,
+            "logo": image_url,
         })
     
-    log.info(f"Found {len(events)} events on live-now page")
-    return events
+    # Remove duplicates by href
+    seen = set()
+    unique_events = []
+    for event in events:
+        if event['href'] not in seen:
+            seen.add(event['href'])
+            unique_events.append(event)
+    
+    log.info(f"Found {len(unique_events)} events on live-now page")
+    return unique_events
 
 
 # -------------------------------------------------
@@ -193,7 +227,6 @@ def build_playlist(data: dict[str, dict]) -> str:
     chno = 1
     
     for title, info in data.items():
-        # Get referer and origin from stream URL or use default
         stream_url = info["url"]
         
         # Extract domain for referer/origin
@@ -244,19 +277,15 @@ async def scrape() -> None:
     events = await get_events(cached_hrefs)
     log.info(f"Found {len(events)} new event(s)")
     
-    if not events:
-        log.info("No new events to process")
-        # Still write playlist with cached events
-        if urls:
-            out = build_playlist(urls)
-            OUTPUT_FILE.write_text(out, encoding="utf-8")
-            log.info(f"Successfully wrote {len(urls)} entries to pits.m3u8 (from cache)")
+    if not events and not urls:
+        log.info("No events found and no cached events")
         return
     
     now_ts = Time.clean(Time.now()).timestamp()
+    new_events_count = 0
     
     for i, ev in enumerate(events, start=1):
-        log.info(f"Processing event {i}/{len(events)}: {ev['full_name']}")
+        log.info(f"Processing event {i}/{len(events)}: {ev['full_name'][:80]}...")
         
         handler = partial(process_event, ev["link"], i)
         
@@ -268,11 +297,14 @@ async def scrape() -> None:
         )
         
         if not stream:
-            log.warning(f"Event {i}) No stream found for: {ev['full_name']}")
+            log.warning(f"Event {i}) No stream found for: {ev['full_name'][:50]}...")
             continue
         
-        # Create title with datetime for uniqueness
-        title = f"[{ev['sport']}] {ev['category']} - {ev['event']} ({ev['datetime']}) ({TAG})"
+        # Create title
+        title = f"[{ev['sport']}] {ev['category']} - {ev['event']}"
+        if ev['datetime']:
+            title += f" ({ev['datetime']})"
+        title += f" ({TAG})"
         
         tvg_id, _logo_lookup = leagues.get_tvg_info(ev["sport"], ev["event"])
         
@@ -287,15 +319,20 @@ async def scrape() -> None:
             "event": ev["event"],
             "datetime": ev["datetime"],
         }
-        
-        log.info(f"Event {i}) ✓ Added: {ev['full_name']}")
+        new_events_count += 1
+        log.info(f"Event {i}) ✓ Added: {ev['full_name'][:60]}...")
     
-    CACHE_FILE.write(urls)
+    if new_events_count > 0:
+        CACHE_FILE.write(urls)
+        log.info(f"Added {new_events_count} new events to cache")
     
     # Write playlist
-    out = build_playlist(urls)
-    OUTPUT_FILE.write_text(out, encoding="utf-8")
-    log.info(f"Successfully wrote {len(urls)} entries to pits.m3u8")
+    if urls:
+        out = build_playlist(urls)
+        OUTPUT_FILE.write_text(out, encoding="utf-8")
+        log.info(f"Successfully wrote {len(urls)} entries to pits.m3u8")
+    else:
+        log.warning("No events to write to playlist")
 
 
 # -------------------------------------------------
