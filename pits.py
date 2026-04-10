@@ -212,10 +212,10 @@ async def extract_stream_direct(watch_url: str, url_num: int) -> str | None:
 
 
 # -------------------------------------------------
-# Extract event IDs from live-now page
+# Extract Live Now events from page
 # -------------------------------------------------
-async def get_event_ids_from_page() -> list[dict]:
-    """Extract event IDs and info from the live-now page"""
+async def get_live_now_events(cached_hrefs: set[str]) -> list[dict[str, str]]:
+    """Extract Live Now events from the page"""
     events = []
     
     r = await network.request(LIVE_NOW_URL, log=log)
@@ -225,40 +225,127 @@ async def get_event_ids_from_page() -> list[dict]:
     
     content = r.text
     
-    # Find all watch URLs in the page
-    watch_pattern = r'href=["\']/watch/([a-f0-9-]+)["\']'
-    watch_ids = set(re.findall(watch_pattern, content, re.IGNORECASE))
+    # Check if there are any Live Now events
+    live_now_pattern = r'<h1[^>]*id="livenow"[^>]*>Live Now</h1>'
+    if not re.search(live_now_pattern, content, re.IGNORECASE):
+        log.debug("No Live Now section found")
+        return events
     
-    # Extract event details from the page
-    for watch_id in watch_ids:
-        event_url = f"{WATCH_BASE}/{watch_id}"
+    log.info("Live Now section detected, extracting events...")
+    
+    # Find all watch URLs in the Live Now section
+    # Look for watch links that appear after the Live Now header
+    live_now_section_pattern = r'<h1[^>]*id="livenow"[^>]*>Live Now</h1>(.*?)(?=<h1[^>]*id="upcoming"|$)'
+    live_now_match = re.search(live_now_section_pattern, content, re.DOTALL | re.IGNORECASE)
+    
+    if live_now_match:
+        live_now_content = live_now_match.group(1)
         
-        # Try to extract category and title from around this watch ID
-        context_pattern = rf'href=["\']/watch/{watch_id}["\'][^>]*>.*?<p[^>]*class="[^"]*text-gray-500[^"]*"[^>]*>([^<]+)</p>.*?<h1[^>]*>([^<]+)</h1>'
-        context_match = re.search(context_pattern, content, re.DOTALL)
+        # Find all watch URLs in this section
+        watch_pattern = r'href=["\']/watch/([a-f0-9-]+)["\']'
+        watch_ids = set(re.findall(watch_pattern, live_now_content, re.IGNORECASE))
         
-        if context_match:
-            category = context_match.group(1).strip()
-            title = context_match.group(2).strip()
-        else:
-            # Try alternative pattern
-            alt_pattern = rf'href=["\']/watch/{watch_id}["\'][^>]*>.*?<h1[^>]*>([^<]+)</h1>'
-            alt_match = re.search(alt_pattern, content, re.DOTALL)
-            if alt_match:
-                title = alt_match.group(1).strip()
-                category = "Unknown"
+        # Extract event details for each watch ID
+        for watch_id in watch_ids:
+            event_url = f"{WATCH_BASE}/{watch_id}"
+            
+            # Try to extract category and title from around this watch ID
+            context_pattern = rf'href=["\']/watch/{watch_id}["\'][^>]*>.*?<p[^>]*class="[^"]*text-gray-500[^"]*"[^>]*>([^<]+)</p>.*?<h1[^>]*>([^<]+)</h1>'
+            context_match = re.search(context_pattern, live_now_content, re.DOTALL)
+            
+            if context_match:
+                category = context_match.group(1).strip()
+                title = context_match.group(2).strip()
             else:
-                category = "Unknown"
-                title = f"Event {watch_id[:8]}"
-        
-        events.append({
-            'id': watch_id,
-            'url': event_url,
-            'category': category,
-            'title': title,
-        })
+                category = "Live Now"
+                title = f"Live Event {watch_id[:8]}"
+            
+            # Skip if already cached
+            if watch_id in cached_hrefs:
+                continue
+            
+            # Build sport name for group
+            sport = category.upper().replace(' ', '_')
+            
+            events.append({
+                "sport": sport,
+                "category": category,
+                "event": title,
+                "full_name": f"{category} - {title} (LIVE NOW)",
+                "link": event_url,
+                "href": watch_id,
+                "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
+                "is_live": True,
+            })
     
-    log.info(f"Found {len(events)} event IDs on live-now page")
+    return events
+
+
+# -------------------------------------------------
+# Extract upcoming events from page
+# -------------------------------------------------
+async def get_upcoming_events(cached_hrefs: set[str]) -> list[dict[str, str]]:
+    """Extract upcoming events from the page"""
+    events = []
+    
+    r = await network.request(LIVE_NOW_URL, log=log)
+    if not r:
+        log.error("Failed to fetch live-now page")
+        return events
+    
+    content = r.text
+    
+    # Find all watch URLs in the upcoming section
+    upcoming_section_pattern = r'<h1[^>]*id="upcoming"[^>]*>Upcoming Live</h1>(.*?)(?=</div>\s*</div>\s*</div>|$)'
+    upcoming_match = re.search(upcoming_section_pattern, content, re.DOTALL | re.IGNORECASE)
+    
+    if upcoming_match:
+        upcoming_content = upcoming_match.group(1)
+        
+        # Find all watch URLs in this section
+        watch_pattern = r'href=["\']/watch/([a-f0-9-]+)["\']'
+        watch_ids = set(re.findall(watch_pattern, upcoming_content, re.IGNORECASE))
+        
+        # Extract event details for each watch ID
+        for watch_id in watch_ids:
+            event_url = f"{WATCH_BASE}/{watch_id}"
+            
+            # Try to extract category and title from around this watch ID
+            context_pattern = rf'href=["\']/watch/{watch_id}["\'][^>]*>.*?<p[^>]*class="[^"]*text-gray-500[^"]*"[^>]*>([^<]+)</p>.*?<h1[^>]*>([^<]+)</h1>'
+            context_match = re.search(context_pattern, upcoming_content, re.DOTALL)
+            
+            if context_match:
+                category = context_match.group(1).strip()
+                title = context_match.group(2).strip()
+            else:
+                # Try alternative pattern
+                alt_pattern = rf'href=["\']/watch/{watch_id}["\'][^>]*>.*?<h1[^>]*>([^<]+)</h1>'
+                alt_match = re.search(alt_pattern, upcoming_content, re.DOTALL)
+                if alt_match:
+                    title = alt_match.group(1).strip()
+                    category = "Upcoming"
+                else:
+                    category = "Upcoming"
+                    title = f"Event {watch_id[:8]}"
+            
+            # Skip if already cached
+            if watch_id in cached_hrefs:
+                continue
+            
+            # Build sport name for group
+            sport = category.upper().replace(' ', '_')
+            
+            events.append({
+                "sport": sport,
+                "category": category,
+                "event": title,
+                "full_name": f"{category} - {title}",
+                "link": event_url,
+                "href": watch_id,
+                "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
+                "is_live": False,
+            })
+    
     return events
 
 
@@ -266,35 +353,18 @@ async def get_event_ids_from_page() -> list[dict]:
 # Get events (cached and new)
 # -------------------------------------------------
 async def get_events(cached_hrefs: set[str]) -> list[dict[str, str]]:
-    """Get events from live-now page"""
+    """Get events from live-now page (both Live Now and Upcoming)"""
     events = []
     
-    # Get all event IDs from the page
-    event_ids = await get_event_ids_from_page()
+    # First, get Live Now events (priority)
+    live_events = await get_live_now_events(cached_hrefs)
+    events.extend(live_events)
     
-    for event_data in event_ids:
-        event_id = event_data['id']
-        event_url = event_data['url']
-        category = event_data['category']
-        title = event_data['title']
-        
-        # Skip if already cached
-        if event_id in cached_hrefs:
-            continue
-        
-        # Build sport name for group
-        sport = category.upper().replace(' ', '_')
-        
-        events.append({
-            "sport": sport,
-            "category": category,
-            "event": title,
-            "full_name": f"{category} - {title}",
-            "link": event_url,
-            "href": event_id,
-            "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
-        })
+    # Then, get upcoming events
+    upcoming_events = await get_upcoming_events(cached_hrefs)
+    events.extend(upcoming_events)
     
+    log.info(f"Found {len(events)} events total ({len(live_events)} live now, {len(upcoming_events)} upcoming)")
     return events
 
 
@@ -371,7 +441,8 @@ async def scrape() -> None:
     new_events_count = 0
     
     for i, ev in enumerate(events, start=1):
-        log.info(f"Processing event {i}/{len(events)}: {ev['full_name'][:80]}...")
+        live_tag = " (LIVE)" if ev.get('is_live', False) else ""
+        log.info(f"Processing event {i}/{len(events)}: {ev['full_name'][:80]}{live_tag}...")
         
         stream = await process_event(ev["link"], i)
         
@@ -379,8 +450,10 @@ async def scrape() -> None:
             log.warning(f"Event {i}) No stream found for: {ev['full_name'][:50]}...")
             continue
         
-        # Create title
+        # Create title with LIVE indicator if applicable
         title = f"[{ev['sport']}] {ev['category']} - {ev['event']} ({TAG})"
+        if ev.get('is_live', False):
+            title = f"[LIVE] {title}"
         
         tvg_id, _logo_lookup = leagues.get_tvg_info(ev["sport"], ev["event"])
         
@@ -393,9 +466,10 @@ async def scrape() -> None:
             "href": ev["href"],
             "category": ev["category"],
             "event": ev["event"],
+            "is_live": ev.get('is_live', False),
         }
         new_events_count += 1
-        log.info(f"Event {i}) ✓ Added: {ev['full_name'][:60]}... -> {stream[:80]}...")
+        log.info(f"Event {i}) ✓ Added: {ev['full_name'][:60]}{live_tag}... -> {stream[:80]}...")
         
         # Small delay between requests
         await asyncio.sleep(1)
