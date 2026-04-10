@@ -25,26 +25,113 @@ UA_ENC = quote_plus(UA)
 
 
 # -------------------------------------------------
+# Extract playable stream from embed URL
+# -------------------------------------------------
+async def extract_playable_stream(embed_url: str, url_num: int) -> str | None:
+    """Extract the actual playable stream URL from embed page"""
+    try:
+        # First try direct request to get the embed content
+        r = await network.request(embed_url, log=log)
+        if r:
+            content = r.text
+            
+            # Look for CSS file that contains the stream
+            css_pattern = r'(https?://[^\s"\']+\.css[^\s"\']*)'
+            css_matches = re.findall(css_pattern, content, re.IGNORECASE)
+            
+            for css_url in css_matches:
+                if 'serveplay' in css_url:
+                    log.info(f"URL {url_num}) found CSS stream: {css_url}")
+                    
+                    # Fetch the CSS file to get the actual stream
+                    css_response = await network.request(css_url, headers={"Referer": embed_url}, log=log)
+                    if css_response:
+                        css_content = css_response.text
+                        
+                        # Look for the actual stream URL in CSS content
+                        stream_patterns = [
+                            r'(https?://[^\s"\']+\.js[^\s"\']*)',
+                            r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
+                            r'(https?://[^\s"\']+serveplay[^\s"\']+\.(?:js|m3u8)[^\s"\']*)',
+                        ]
+                        
+                        for pattern in stream_patterns:
+                            stream_matches = re.findall(pattern, css_content, re.IGNORECASE)
+                            for stream_url in stream_matches:
+                                if 'serveplay' in stream_url:
+                                    log.info(f"URL {url_num}) extracted playable stream: {stream_url[:100]}...")
+                                    return stream_url
+        
+        # If direct request fails, use Playwright to capture network requests
+        async with async_playwright() as p:
+            browser = await p.chromium.launch(headless=True)
+            page = await browser.new_page()
+            
+            stream_url = None
+            
+            async def handle_request(request):
+                nonlocal stream_url
+                url = request.url
+                # Look for CSS or JS files from serveplay domain
+                if 'serveplay' in url and (url.endswith('.css') or url.endswith('.js') or url.endswith('.m3u8')):
+                    stream_url = url
+                    log.info(f"URL {url_num}) captured stream via network: {url[:100]}...")
+            
+            page.on('request', handle_request)
+            
+            try:
+                await page.goto(embed_url, wait_until='networkidle', timeout=30000)
+                await asyncio.sleep(3)  # Wait for dynamic content
+                
+                # Also check for iframes
+                iframes = await page.query_selector_all('iframe')
+                for iframe in iframes:
+                    src = await iframe.get_attribute('src')
+                    if src and 'serveplay' in src:
+                        # Recursively extract from iframe
+                        stream_url = await extract_playable_stream(src, url_num)
+                        if stream_url:
+                            break
+                
+            except Exception as e:
+                log.error(f"URL {url_num}) Playwright error: {e}")
+            finally:
+                await browser.close()
+            
+            return stream_url
+            
+    except Exception as e:
+        log.error(f"URL {url_num}) Error extracting playable stream: {e}")
+    
+    return None
+
+
+# -------------------------------------------------
 # Extract stream URL using Playwright
 # -------------------------------------------------
 async def extract_stream_with_playwright(watch_url: str, url_num: int) -> str | None:
     """Extract stream URL using Playwright to capture dynamic content"""
     stream_url = None
+    embed_url = None
     
     async with async_playwright() as p:
-        # Launch browser
         browser = await p.chromium.launch(headless=True)
         page = await browser.new_page()
         
         # Set up request interception to capture stream URLs
         async def handle_request(request):
-            nonlocal stream_url
+            nonlocal stream_url, embed_url
             url = request.url
             
-            # Look for serveplay URLs
-            if 'serveplay' in url and (url.endswith('.html') or url.endswith('.m3u8')):
+            # First capture the embed URL
+            if 'pushembdz.store/embed' in url and not embed_url:
+                embed_url = url
+                log.info(f"URL {url_num}) captured embed URL: {url[:100]}...")
+            
+            # Look for playable streams (CSS/JS files from serveplay)
+            if 'serveplay' in url and (url.endswith('.css') or url.endswith('.js') or url.endswith('.m3u8')):
                 stream_url = url
-                log.info(f"URL {url_num}) captured stream via network: {url[:100]}...")
+                log.info(f"URL {url_num}) captured playable stream: {url[:100]}...")
         
         # Listen to all requests
         page.on('request', handle_request)
@@ -55,37 +142,32 @@ async def extract_stream_with_playwright(watch_url: str, url_num: int) -> str | 
             await page.goto(watch_url, wait_until='networkidle', timeout=30000)
             
             # Wait a bit for dynamic content to load
-            await asyncio.sleep(3)
+            await asyncio.sleep(5)
             
-            # Also check for iframes
-            iframes = await page.query_selector_all('iframe')
-            for iframe in iframes:
-                src = await iframe.get_attribute('src')
-                if src and ('serveplay' in src or 'embed' in src):
-                    stream_url = src
-                    log.info(f"URL {url_num}) captured stream from iframe: {src[:100]}...")
-                    break
+            # If we found an embed URL but no stream yet, try to extract from embed
+            if embed_url and not stream_url:
+                log.info(f"URL {url_num}) extracting playable stream from embed...")
+                stream_url = await extract_playable_stream(embed_url, url_num)
             
-            # Check page content for stream URL
-            content = await page.content()
-            
-            # Look for stream URL patterns in the page
-            patterns = [
-                r'(https?://[^\s"\']+serveplay[^\s"\']+\.html[^\s"\']*)',
-                r'(https?://[^\s"\']+serveplay[^\s"\']+\.m3u8[^\s"\']*)',
-                r'(https?://[^\s"\']+dash\.serveplay[^\s"\']+\.html[^\s"\']*)',
-                r'(https?://[^\s"\']+dash\.serveplay[^\s"\']+\.m3u8[^\s"\']*)',
-            ]
-            
-            for pattern in patterns:
-                matches = re.findall(pattern, content, re.IGNORECASE)
-                for match in matches:
-                    if 'serveplay' in match:
-                        stream_url = match
-                        log.info(f"URL {url_num}) captured stream from page content: {match[:100]}...")
+            # Also check page content for any stream URLs
+            if not stream_url:
+                content = await page.content()
+                patterns = [
+                    r'(https?://[^\s"\']+serveplay[^\s"\']+\.css[^\s"\']*)',
+                    r'(https?://[^\s"\']+serveplay[^\s"\']+\.js[^\s"\']*)',
+                    r'(https?://[^\s"\']+serveplay[^\s"\']+\.m3u8[^\s"\']*)',
+                    r'(https?://[^\s"\']+dash\.serveplay[^\s"\']+\.css[^\s"\']*)',
+                ]
+                
+                for pattern in patterns:
+                    matches = re.findall(pattern, content, re.IGNORECASE)
+                    for match in matches:
+                        if 'serveplay' in match:
+                            stream_url = match
+                            log.info(f"URL {url_num}) captured stream from page content: {match[:100]}...")
+                            break
+                    if stream_url:
                         break
-                if stream_url:
-                    break
             
         except Exception as e:
             log.error(f"URL {url_num}) Playwright error: {e}")
@@ -106,24 +188,24 @@ async def extract_stream_direct(watch_url: str, url_num: int) -> str | None:
     
     content = r.text
     
-    # Look for embed URLs that might contain the stream
-    patterns = [
-        # Direct serveplay URLs
-        r'(https?://[^\s"\']*serveplay[^\s"\']+\.(?:html|m3u8)[^\s"\']*)',
-        # URLs in script variables
-        r'(?:url|src|source|stream|file|video|hls)\s*[=:]\s*["\']([^"\']+serveplay[^"\']+\.(?:html|m3u8)[^"\']*)["\']',
-        # Next.js data
-        r'streamUrl["\']\s*:\s*["\']([^"\']+)["\']',
-        r'stream_url["\']\s*:\s*["\']([^"\']+)["\']',
-        # Iframe src
-        r'<iframe[^>]+src=["\']([^"\']+serveplay[^"\']+)["\']',
+    # Look for embed URLs first
+    embed_patterns = [
+        r'(https?://[^\s"\']*pushembdz\.store/embed/[^\s"\']+)',
+        r'(https?://[^\s"\']*serveplay[^\s"\']+\.css[^\s"\']*)',
+        r'(https?://[^\s"\']*serveplay[^\s"\']+\.js[^\s"\']*)',
     ]
     
-    for pattern in patterns:
+    for pattern in embed_patterns:
         matches = re.findall(pattern, content, re.IGNORECASE)
         for match in matches:
-            if 'serveplay' in match:
-                log.info(f"URL {url_num}) captured stream from direct request: {match[:100]}...")
+            if 'pushembdz.store/embed' in match:
+                # Found embed URL, try to extract playable stream from it
+                log.info(f"URL {url_num}) found embed URL, extracting playable stream...")
+                stream = await extract_playable_stream(match, url_num)
+                if stream:
+                    return stream
+            elif 'serveplay' in match and (match.endswith('.css') or match.endswith('.js')):
+                log.info(f"URL {url_num}) captured playable stream directly: {match[:100]}...")
                 return match
     
     return None
@@ -228,10 +310,8 @@ def build_playlist(data: dict[str, dict]) -> str:
         
         # Extract domain for referer/origin
         if 'serveplay' in stream_url:
-            # Extract base domain for referer
-            parsed_url = re.search(r'(https?://[^/]+)', stream_url)
-            referer = parsed_url.group(1) if parsed_url else "https://pushembdz.store/"
-            origin = referer
+            referer = BASE_URL
+            origin = BASE_URL
         else:
             referer = BASE_URL
             origin = BASE_URL
