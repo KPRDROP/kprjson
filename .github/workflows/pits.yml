@@ -1,4 +1,4 @@
-name: PITS Scraper
+name: PITS updater
 
 on:
   schedule:
@@ -37,7 +37,7 @@ jobs:
           pip install selectolax playwright httpx[http2] pytz
           playwright install --with-deps chromium
 
-      - name: Run PITS scraper
+      - name: Run PITS updater
         run: |
           python pits.py
 
