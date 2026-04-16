@@ -1,8 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[EVENT] Event 01: Supermotocross (PUSHEMBDZ)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[EVENT] Event 01: Supermotocross (PUSHEMBDZ)
-https://dash.serveplay.site/v0_92585cb80081.js|referer=https://pushembdz.store|origin=https://pushembdz.store|user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A146.0%29+Gecko%2F20100101+Firefox%2F146.0
+https://dash.serveplay.site/92585cb80081.css|referer=https://pushembdz.store|origin=https://pushembdz.store|user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A146.0%29+Gecko%2F20100101+Firefox%2F146.0
 #EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[EVENT] Event 02: Masters Featured Groups R1 (PUSHEMBDZ)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[EVENT] Event 02: Masters Featured Groups R1 (PUSHEMBDZ)
-https://dash.serveplay.site/v0_b7054ea8f3f7.js|referer=https://pushembdz.store|origin=https://pushembdz.store|user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A146.0%29+Gecko%2F20100101+Firefox%2F146.0
+https://dash.serveplay.site/b7054ea8f3f7.css|referer=https://pushembdz.store|origin=https://pushembdz.store|user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A146.0%29+Gecko%2F20100101+Firefox%2F146.0
 #EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[EVENT] Event 03: Masters H1516 (PUSHEMBDZ)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[EVENT] Event 03: Masters H1516 (PUSHEMBDZ)
 https://dash.serveplay.site/masters4/index.html|referer=https://pushembdz.store|origin=https://pushembdz.store|user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A146.0%29+Gecko%2F20100101+Firefox%2F146.0
 #EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[EVENT] Event 04: Masters Amen Corner (PUSHEMBDZ)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[EVENT] Event 04: Masters Amen Corner (PUSHEMBDZ)
