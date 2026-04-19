@@ -18,7 +18,7 @@ CACHE_FILE = Cache("TPK", exp=28_800)
 
 # BASE URL FROM SECRET
 BASES = {
-    "TPK": os.getenv("TPK_BASE_URL", "https://live.totalsportek.fyi")
+    "TPK": os.getenv("TPK_BASE_URL")
 }
 
 REPO_DIR = Path(__file__).resolve().parent.parent
