@@ -153,7 +153,7 @@ class Leagues:
         pattern = re.compile(r"\s+(?:-|vs\.?|at|@)\s+", re.I)
 
         if pattern.search(event):
-            t1, t2 = re.split(pattern, event)
+            t1, t2 = pattern.split(event)
 
             return any(t in self.teams(league) for t in (t1.strip(), t2.strip()))
 
