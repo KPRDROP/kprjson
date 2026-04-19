@@ -34,28 +34,63 @@ def fix_txt(s: str) -> str:
 
 
 async def process_ts1(ifr_src: str, url_num: int) -> str | None:
+    """Process iframe with hex encoded M3U8"""
     if not (ifr_src_data := await network.request(ifr_src, log=log)):
         log.info(f"URL {url_num}) Failed to load iframe source.")
-        return
+        return None
 
-    valid_m3u8 = re.compile(r'(var|const)\s+(\w+)\s*=\s*"([^"]*)"', re.I)
+    # Try multiple patterns for hex encoded data
+    patterns = [
+        r'(var|const)\s+(\w+)\s*=\s*"([^"]*)"',
+        r'(var|const)\s+(\w+)\s*=\s*\'([^\']*)\'',
+        r'(\w+)\s*=\s*"([^"]*)"',
+    ]
+    
+    for pattern in patterns:
+        if match := re.search(pattern, ifr_src_data.text, re.I):
+            if len(match.group(2) if len(match.groups()) > 2 else match.group(1)) < 20:
+                encoded = match.group(3) if len(match.groups()) > 2 else match.group(2)
+            else:
+                encoded = match.group(2) if len(match.groups()) > 2 else match.group(1)
+            
+            try:
+                decoded = bytes.fromhex(encoded).decode("utf-8")
+                if '.m3u8' in decoded or 'http' in decoded:
+                    log.info(f"URL {url_num}) Captured M3U8 from hex")
+                    return decoded
+            except:
+                continue
+    
+    return None
 
-    if not (match := valid_m3u8.search(ifr_src_data.text)):
-        log.warning(f"URL {url_num}) No Clappr source found.")
-        return
 
-    if len(encoded := match[2]) < 20:
-        encoded = match[3]
-
-    log.info(f"URL {url_num}) Captured M3U8")
-
-    return bytes.fromhex(encoded).decode("utf-8")
+async def process_ts2(ifr_src: str, url_num: int) -> str | None:
+    """Process iframe with direct M3U8 URL"""
+    if not (ifr_src_data := await network.request(ifr_src, log=log)):
+        log.info(f"URL {url_num}) Failed to load iframe source.")
+        return None
+    
+    # Look for direct M3U8 URLs
+    patterns = [
+        r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
+        r'(https?://[^\s"\']+\.m3u8(?:\?[^\s"\']*)?)',
+        r'(https?://[^\s"\']+stream[^\s"\']*\.m3u8[^\s"\']*)',
+        r'(https?://[^\s"\']+playlist[^\s"\']*\.m3u8[^\s"\']*)',
+    ]
+    
+    for pattern in patterns:
+        if match := re.search(pattern, ifr_src_data.text, re.I):
+            log.info(f"URL {url_num}) Captured M3U8 direct")
+            return match.group(1)
+    
+    return None
 
 
 async def process_ts3(ifr_src: str, url_num: int) -> str | None:
+    """Process iframe with nested iframe structure"""
     if not (ifr_1_src_data := await network.request(ifr_src, log=log)):
         log.warning(f"URL {url_num}) Failed to load iframe source. (IFR1)")
-        return
+        return None
 
     soup_2 = HTMLParser(ifr_1_src_data.content)
 
@@ -63,7 +98,7 @@ async def process_ts3(ifr_src: str, url_num: int) -> str | None:
 
     if not ifr_2 or not (ifr_2_src := ifr_2.attributes.get("src")):
         log.warning(f"URL {url_num}) No iframe element found. (IFR2)")
-        return
+        return None
 
     if not (
         ifr_2_src_data := await network.request(
@@ -73,37 +108,85 @@ async def process_ts3(ifr_src: str, url_num: int) -> str | None:
         )
     ):
         log.warning(f"URL {url_num}) Failed to load iframe source. (IFR2)")
-        return
+        return None
 
-    valid_m3u8 = re.compile(r'currentStreamUrl\s+=\s+"([^"]*)"', re.I)
+    # Look for currentStreamUrl pattern
+    patterns = [
+        r'currentStreamUrl\s+=\s+"([^"]*)"',
+        r'currentStreamUrl\s*=\s*\'([^\']*)\'',
+        r'source\s*:\s*"([^"]*)"',
+        r'file\s*:\s*"([^"]*)"',
+        r'url\s*:\s*"([^"]*)"',
+    ]
+    
+    for pattern in patterns:
+        if match := re.search(pattern, ifr_2_src_data.text, re.I):
+            try:
+                url = json.loads(f'"{match.group(1)}"')
+                if '.m3u8' in url or 'http' in url:
+                    log.info(f"URL {url_num}) Captured M3U8 from nested iframe")
+                    return url
+            except:
+                if '.m3u8' in match.group(1):
+                    log.info(f"URL {url_num}) Captured M3U8 from nested iframe")
+                    return match.group(1)
+    
+    return None
 
-    if not (match := valid_m3u8.search(ifr_2_src_data.text)):
-        log.warning(f"URL {url_num}) No Clappr source found.")
-        return
 
-    log.info(f"URL {url_num}) Captured M3U8")
-
-    return json.loads(f'"{match[1]}"')
+async def process_ts4(page_url: str, url_num: int) -> str | None:
+    """Process page with embedded player script"""
+    if not (event_data := await network.request(page_url, log=log)):
+        log.warning(f"URL {url_num}) Failed to load url.")
+        return None
+    
+    # Look for player scripts and embedded data
+    patterns = [
+        r'player\.setup\s*\(\s*\{\s*file\s*:\s*"([^"]+)"',
+        r'sources\s*:\s*\[\s*\{\s*file\s*:\s*"([^"]+)"',
+        r'video\s*:\s*"([^"]+\.m3u8)"',
+        r'stream\s*:\s*"([^"]+\.m3u8)"',
+    ]
+    
+    for pattern in patterns:
+        if match := re.search(pattern, event_data.text, re.I):
+            log.info(f"URL {url_num}) Captured M3U8 from player setup")
+            return match.group(1)
+    
+    return None
 
 
 async def process_event(url: str, url_num: int, tag: str) -> str | None:
+    """Process event page to extract stream URL using multiple methods"""
     if not (event_data := await network.request(url, log=log)):
         log.warning(f"URL {url_num}) Failed to load url.")
-        return
+        return None
 
     soup = HTMLParser(event_data.content)
 
+    # Try to find iframe
     iframe = soup.css_first("iframe")
-
-    if not iframe or not (iframe_src := iframe.attributes.get("src")):
-        log.warning(f"URL {url_num}) No valid iframe source found.")
-        return
-
-    return (
-        await process_ts1(iframe_src, url_num)
-        if tag == "TPK"
-        else await process_ts3(iframe_src, url_num)
-    )
+    
+    if iframe and (iframe_src := iframe.attributes.get("src")):
+        # Try different extraction methods for iframe
+        for method in [process_ts1, process_ts2, process_ts3]:
+            result = await method(iframe_src, url_num)
+            if result:
+                return result
+    
+    # If no iframe or iframe methods failed, try direct page extraction
+    result = await process_ts4(url, url_num)
+    if result:
+        return result
+    
+    # Try to find any M3U8 URL in the page
+    m3u8_pattern = r'(https?://[^\s"\']+\.m3u8[^\s"\']*)'
+    if match := re.search(m3u8_pattern, event_data.text, re.I):
+        log.info(f"URL {url_num}) Captured M3U8 from page")
+        return match.group(1)
+    
+    log.warning(f"URL {url_num}) No valid stream source found.")
+    return None
 
 
 async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
@@ -114,54 +197,50 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
 
     soup = HTMLParser(html_data.content)
 
-    sport = "Live Event"
-
-    for node in soup.css("a"):
-        if not node.attributes.get("class"):
+    # Find all event links
+    for node in soup.css("a[href*='/event/']"):
+        href = node.attributes.get("href")
+        if not href:
             continue
-
-        if (parent := node.parent) and "my-1" in parent.attributes.get("class", ""):
-            if span := node.css_first("span"):
-                sport = span.text(strip=True)
-
+        
+        # Get event title
+        title_elem = node.css_first(".event-title, .title, h3, h4")
+        if not title_elem:
+            continue
+        
+        event_title = title_elem.text(strip=True)
+        if not event_title:
+            continue
+        
+        # Get sport category
+        sport_elem = node.css_first(".sport, .category, .league")
+        sport = sport_elem.text(strip=True) if sport_elem else "Live Event"
         sport = fix_txt(sport)
-
-        if not (teams := [t.text(strip=True) for t in node.css(".col-7 .col-12")]):
-            continue
-
-        if not (href := node.attributes.get("href")):
-            continue
-
-        href = urlparse(href).path if href.startswith("http") else href
-
-        if not (time_node := node.css_first(".col-3 span")):
-            continue
-
-        if time_node.text(strip=True).lower() != "matchstarted":
-            continue
-
-        event_name = fix_txt(" vs ".join(teams))
-
-        key = f"[{sport}] {event_name} ({TAG})"
+        
+        # Check if already cached
+        key = f"[{sport}] {event_title} ({TAG})"
         if key in cached_keys:
             continue
-
+        
+        event_url = urljoin(BASE_URL, href)
+        
         events.append(
             {
                 "sport": sport,
-                "event": event_name,
+                "event": event_title,
                 "tag": TAG,
-                "link": urljoin(BASE_URL, href),
+                "link": event_url,
             }
         )
-
+    
+    log.info(f"Found {len(events)} events")
     return events
 
 
 def generate_vlc_playlist(data: dict[str, dict]) -> int:
     """Generate VLC-compatible playlist"""
     lines = ["#EXTM3U"]
-    lines.append(f"# Playlist generated by {TAG} Updater - {Time.clean(Time.now()).strftime('%Y-%m-%d %H:%M:%S')}")
+    lines.append(f"# Playlist generated by {TAG} Scraper - {Time.clean(Time.now()).strftime('%Y-%m-%d %H:%M:%S')}")
     lines.append("")
     count = 0
 
