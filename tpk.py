@@ -33,6 +33,32 @@ def fix_txt(s: str) -> str:
     return s.upper() if s.islower() else s
 
 
+def extract_sport_from_text(text: str) -> str:
+    """Extract sport category from text"""
+    sport_keywords = {
+        'F1': 'F1',
+        'NASCAR': 'NASCAR',
+        'WWE': 'WWE',
+        'Tennis': 'Tennis',
+        'Golf': 'Golf',
+        'NBA': 'NBA',
+        'NFL': 'NFL',
+        'MLB': 'MLB',
+        'NHL': 'NHL',
+        'UFC': 'UFC',
+        'Boxing': 'BOXING',
+        'Soccer': 'SOCCER',
+        'Football': 'FOOTBALL',
+        'Racing': 'RACING',
+        'Rally': 'RALLY',
+    }
+    
+    for key, value in sport_keywords.items():
+        if key.lower() in text.lower():
+            return value
+    return "Live Event"
+
+
 async def process_ts1(ifr_src: str, url_num: int) -> str | None:
     """Process iframe with hex encoded M3U8"""
     if not (ifr_src_data := await network.request(ifr_src, log=log)):
@@ -196,45 +222,104 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
         return events
 
     soup = HTMLParser(html_data.content)
-
-    # Find all event links
-    for node in soup.css("a[href*='/event/']"):
-        href = node.attributes.get("href")
+    
+    # Find all event links - look for elements that contain match information
+    # The page structure: each event is in a div or container with match info
+    
+    # Method 1: Look for links that might be event pages
+    for link in soup.css('a[href*="/event/"], a[href*="/match/"], a[href*="/stream/"]'):
+        href = link.attributes.get("href")
         if not href:
             continue
         
-        # Get event title
-        title_elem = node.css_first(".event-title, .title, h3, h4")
-        if not title_elem:
+        # Get the text content of the link and its parent
+        link_text = link.text(strip=True)
+        if not link_text or len(link_text) < 3:
             continue
         
-        event_title = title_elem.text(strip=True)
-        if not event_title:
+        # Skip navigation links
+        if any(skip in link_text.lower() for skip in ['home', 'login', 'register', 'contact', 'about']):
             continue
         
-        # Get sport category
-        sport_elem = node.css_first(".sport, .category, .league")
-        sport = sport_elem.text(strip=True) if sport_elem else "Live Event"
-        sport = fix_txt(sport)
+        # Build full URL
+        event_url = urljoin(BASE_URL, href)
         
-        # Check if already cached
-        key = f"[{sport}] {event_title} ({TAG})"
+        # Try to extract team names from the text
+        teams = link_text.split(' vs ')
+        if len(teams) == 2:
+            event_name = fix_txt(f"{teams[0]} vs {teams[1]}")
+        else:
+            event_name = fix_txt(link_text)
+        
+        # Determine sport from context or link text
+        sport = extract_sport_from_text(link_text)
+        
+        # Check parent elements for sport info
+        parent = link.parent
+        for _ in range(3):  # Check up to 3 levels up
+            if parent:
+                parent_text = parent.text(strip=True)
+                sport_from_parent = extract_sport_from_text(parent_text)
+                if sport_from_parent != "Live Event":
+                    sport = sport_from_parent
+                    break
+                parent = parent.parent
+        
+        key = f"[{sport}] {event_name} ({TAG})"
         if key in cached_keys:
             continue
         
-        event_url = urljoin(BASE_URL, href)
-        
-        events.append(
-            {
-                "sport": sport,
-                "event": event_title,
-                "tag": TAG,
-                "link": event_url,
-            }
-        )
+        events.append({
+            "sport": sport,
+            "event": event_name,
+            "tag": TAG,
+            "link": event_url,
+        })
     
-    log.info(f"Found {len(events)} events")
-    return events
+    # Method 2: Look for text patterns that indicate live events
+    # Find elements containing "Match Started" or "Match Ended"
+    for node in soup.css('*'):
+        if not node.text():
+            continue
+        
+        node_text = node.text(strip=True)
+        if 'Match Started' in node_text or 'Match Ended' in node_text or 'Live' in node_text:
+            # Look for nearby links
+            parent_container = node.parent
+            if parent_container:
+                for link in parent_container.css('a'):
+                    href = link.attributes.get("href")
+                    if href and ('/event/' in href or '/match/' in href or '/stream/' in href):
+                        event_url = urljoin(BASE_URL, href)
+                        
+                        # Get event name from sibling or parent text
+                        event_name = node_text.replace('Match Started', '').replace('Match Ended', '').replace('Live', '').strip()
+                        if not event_name or len(event_name) < 3:
+                            event_name = link.text(strip=True)
+                        
+                        if event_name:
+                            event_name = fix_txt(event_name)
+                            sport = extract_sport_from_text(event_name)
+                            
+                            key = f"[{sport}] {event_name} ({TAG})"
+                            if key not in cached_keys and key not in [e['event'] for e in events]:
+                                events.append({
+                                    "sport": sport,
+                                    "event": event_name,
+                                    "tag": TAG,
+                                    "link": event_url,
+                                })
+    
+    # Remove duplicates by link
+    seen_links = set()
+    unique_events = []
+    for event in events:
+        if event["link"] not in seen_links:
+            seen_links.add(event["link"])
+            unique_events.append(event)
+    
+    log.info(f"Found {len(unique_events)} events")
+    return unique_events
 
 
 def generate_vlc_playlist(data: dict[str, dict]) -> int:
