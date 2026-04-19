@@ -57,7 +57,8 @@ class Network:
         try:
             r = await self.client.get(url, **kwargs)
 
-            r.raise_for_status()
+            if r.status_code >= 400:
+                r.raise_for_status()
 
             return r
         except (httpx.HTTPError, httpx.TimeoutException) as e:
@@ -216,9 +217,14 @@ class Network:
         got_one: asyncio.Event,
     ) -> None:
 
-        invalids = ["amazonaws", "knitcdn", "jwpltx"]
-
-        escaped = [re.escape(i) for i in invalids]
+        escaped = [
+            re.escape(i)
+            for i in {
+                "amazonaws",
+                "knitcdn",
+                "jwpltx",
+            }
+        ]
 
         pattern = re.compile(rf"^(?!.*({'|'.join(escaped)})).*\.m3u8", re.I)
 
@@ -253,11 +259,13 @@ class Network:
             resp = await page.goto(
                 url,
                 wait_until="domcontentloaded",
-                timeout=30000,
+                timeout=6_000,
             )
 
-            if resp.status != 200:
-                log.warning(f"URL {url_num}) Status Code: {resp.status}")
+            if not resp or resp.status != 200:
+                log.warning(
+                    f"URL {url_num}) Status Code: {resp.status if resp else 'None'}"
+                )
 
                 return
 
