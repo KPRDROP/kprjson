@@ -2,61 +2,40 @@ name: TPK Updater
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Run every 30 minutes
-  workflow_dispatch:  # Allow manual trigger
-
-permissions:
-  contents: write
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
 
 jobs:
-  scrape:
+  run:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+    - uses: actions/setup-python@v5
+      with:
+        python-version: "3.10"
 
-      - name: Cache Python packages
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
+    - name: Install deps
+      run: |
+        pip install --upgrade pip
+        pip install selectolax playwright httpx[http2] pytz GitPython
 
-      - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install selectolax playwright httpx[http2] pytz GitPython
-          playwright install --with-deps chromium
+    - name: Run script
+      env:
+        TPK_BASE_URL: ${{ secrets.TPK_BASE_URL }}
+      run: |
+        python -m tpk.tpk
 
-      - name: Run TPK updater
-        run: |
-          python tpk.py
+    - name: Force push
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit and push changes
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          
-          # Check if playlist files exist and have changes
-          if [ -f "tpk_vlc.m3u8" ] && [ -f "tpk_tivimate.m3u8" ]; then
-            git add tpk_vlc.m3u8 tpk_tivimate.m3u8
-            if ! git diff --cached --quiet; then
-              git commit -m "Update TPK playlists [skip ci]"
-              git push
-              echo "Changes pushed successfully"
-            else
-              echo "No changes to commit"
-            fi
-          else
-            echo "Playlist files not found"
-            exit 1
-          fi
+        git add -A
+        git commit --allow-empty -m "TPK auto $(date -u '+%Y-%m-%d %H:%M')" 
+        git push origin main --force-with-lease
