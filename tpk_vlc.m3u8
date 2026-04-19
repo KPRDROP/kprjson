@@ -6,3 +6,15 @@
 #EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Oklahoma-City-Thunder-vs-Phoenix-Suns/66833
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2
+
+#EXTINF:-1 tvg-chno="201" tvg-id="Live.Event.us" tvg-name="[Live Event] Detroit Pistons vs Orlando Magic (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Detroit Pistons vs Orlando Magic (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Detroit-Pistons-vs-Orlando-Magic/66834
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Detroit-Pistons-vs-Orlando-Magic/66834
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2
+
+#EXTINF:-1 tvg-chno="202" tvg-id="Live.Event.us" tvg-name="[Live Event] San Antonio Spurs vs Portland Trail Blazers (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] San Antonio Spurs vs Portland Trail Blazers (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/San-Antonio-Spurs-vs-Portland-Trail-Blazers/66568
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/San-Antonio-Spurs-vs-Portland-Trail-Blazers/66568
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2
