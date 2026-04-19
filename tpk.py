@@ -18,7 +18,7 @@ CACHE_FILE = Cache("TPK", exp=28_800)
 
 # BASE URL FROM SECRET
 BASES = {
-    "TPK": os.getenv("TPK_BASE_URL")
+    "TPK": os.getenv("TPK_BASE_URL", "https://live.totalsportek.fyi")
 }
 
 REPO_DIR = Path(__file__).resolve().parent.parent
@@ -87,7 +87,7 @@ async def process_event(url: str, url_num: int, tag: str) -> str | None:
     return await process_ts1(src, url_num) if tag == "TPK" else await process_ts3(src, url_num)
 
 
-# ───────── UPDATER ─────────
+# ───────── SCRAPER ─────────
 
 async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
     events = []
@@ -242,3 +242,8 @@ async def main():
         log.info("Pushed to GitHub.")
     except Exception as e:
         log.error(f"Git push error: {e}")
+
+
+# THIS WAS MISSING (CRITICAL)
+if __name__ == "__main__":
+    asyncio.run(main())
