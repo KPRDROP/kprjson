@@ -45,11 +45,11 @@ class Cache:
         if per_entry:
             return {k: v for k, v in data.items() if self.is_fresh(v)}
 
-        if index:
-            ts: float | int = data[index].get("timestamp", Time.default_8())
-
-        else:
-            ts: float | int = data.get("timestamp", Time.default_8())
+        ts: float | int = (
+            data[index].get("timestamp", Time.default_8())
+            if index
+            else data.get("timestamp", Time.default_8())
+        )
 
         dt_ts = Time.clean(Time.from_ts(ts)).timestamp()
 
