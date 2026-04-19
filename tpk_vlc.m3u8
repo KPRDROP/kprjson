@@ -1,2 +1,7 @@
 #EXTM3U
-# No events available
+#EXTINF:-1 tvg-chno="200" tvg-id="Live.Event.us" tvg-name="[Live Event] Boston Celtics vs Philadelphia 76ers (TPK)" group-title="Live Events",[Live Event] Boston Celtics vs Philadelphia 76ers (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Boston-Celtics-vs-Philadelphia-76ers/66668
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Boston-Celtics-vs-Philadelphia-76ers/66668
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://d121nihvgyypox.cloudfront.net/status/n1/fronts.woff2?3c1cef
+# updated 1776625304.5989258
