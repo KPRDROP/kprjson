@@ -1,12 +1,11 @@
 import json
 import re
 import asyncio
-from functools import partial
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin
 
 from selectolax.parser import HTMLParser
 
-from utils import Cache, Time, get_logger, leagues, network
+from utils import Cache, Time, get_logger, network
 
 log = get_logger(__name__)
 
@@ -20,13 +19,13 @@ USER_AGENT = "Mozilla/5.0"
 
 
 # =========================
-#  UNIVERSAL M3U8 EXTRACTOR
+#  IMPROVED EXTRACTOR
 # =========================
 M3U8_REGEX = re.compile(r"https?://[^\s\"']+\.m3u8[^\s\"']*", re.I)
 
 
 async def extract_m3u8(url: str, depth=0, referer=None):
-    if depth > 4:
+    if depth > 5:
         return None
 
     headers = {"User-Agent": USER_AGENT}
@@ -39,27 +38,26 @@ async def extract_m3u8(url: str, depth=0, referer=None):
 
     text = res.text
 
-    #  Direct m3u8
+    #  direct m3u8
     if m := M3U8_REGEX.search(text):
+        log.info(f"FOUND m3u8 (direct)")
         return m.group(0)
 
-    #  source / file pattern
+    #  multiple patterns
     patterns = [
         r'source\s*:\s*"([^"]+)"',
         r'file\s*:\s*"([^"]+)"',
         r'hls\s*:\s*"([^"]+)"',
+        r'"(https://[^"]+\.m3u8[^"]*)"',
     ]
 
     for p in patterns:
         if m := re.search(p, text):
             if ".m3u8" in m.group(1):
+                log.info(f"FOUND m3u8 (pattern)")
                 return m.group(1)
 
-    #  Clappr style
-    if m := re.search(r'Clappr\.Player.*?source\s*:\s*"([^"]+)"', text, re.S):
-        return m.group(1)
-
-    #  Follow iframes recursively
+    #  recursive iframe scan
     soup = HTMLParser(res.content)
 
     for iframe in soup.css("iframe"):
@@ -73,17 +71,13 @@ async def extract_m3u8(url: str, depth=0, referer=None):
         if result:
             return result
 
+    log.warning(f"NO STREAM FOUND: {url}")
     return None
 
 
 # =========================
-# EVENT SCRAPER (UNCHANGED CORE)
+# EVENTS
 # =========================
-def fix_txt(s: str) -> str:
-    s = " ".join(s.split())
-    return s.upper() if s.islower() else s
-
-
 async def get_events():
     events = []
 
@@ -109,7 +103,7 @@ async def get_events():
         if not time_node or time_node.text(strip=True).lower() != "matchstarted":
             continue
 
-        event_name = fix_txt(" vs ".join(teams))
+        event_name = " vs ".join(teams)
 
         events.append({
             "event": event_name,
@@ -120,17 +114,8 @@ async def get_events():
 
 
 # =========================
-#  PROCESS ALL EVENTS (PARALLEL)
+# PROCESS
 # =========================
-async def process_all(events):
-    tasks = []
-
-    for ev in events:
-        tasks.append(handle_event(ev))
-
-    await asyncio.gather(*tasks)
-
-
 async def handle_event(ev):
     name = ev["event"]
     link = ev["link"]
@@ -139,53 +124,52 @@ async def handle_event(ev):
 
     stream = await extract_m3u8(link)
 
-    entry = {
+    urls[f"[Live Event] {name} (TPK)"] = {
         "url": stream,
-        "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
         "link": link,
         "id": "Live.Event.us",
+        "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
         "timestamp": Time.now().timestamp(),
     }
 
-    urls[f"[Live Event] {name} (TPK)"] = entry
+
+async def process_all(events):
+    await asyncio.gather(*(handle_event(ev) for ev in events))
 
 
 # =========================
-#  M3U GENERATOR
+# OUTPUT (FIXED)
 # =========================
 def write_outputs():
-    with open("tpk_vlc.m3u8", "w", encoding="utf-8") as f_vlc, \
-         open("tpk_tivimate.m3u8", "w", encoding="utf-8") as f_tivi:
+    with open("tpk_vlc.m3u8", "w", encoding="utf-8") as f1, \
+         open("tpk_tivimate.m3u8", "w", encoding="utf-8") as f2:
 
-        f_vlc.write("#EXTM3U\n")
-        f_tivi.write("#EXTM3U\n")
+        f1.write("#EXTM3U\n")
+        f2.write("#EXTM3U\n")
 
         for i, (name, data) in enumerate(urls.items(), start=200):
-            if not data["url"]:
-                continue
 
-            url = data["url"]
-            link = data["link"]
+            url = data["url"] or "http://invalid/stream"  # 🔥 NEVER EMPTY
 
             # VLC
-            f_vlc.write(
+            f1.write(
                 f'#EXTINF:-1 tvg-chno="{i}" tvg-id="{data["id"]}" tvg-name="{name}" '
                 f'tvg-logo="{data["logo"]}" group-title="Live Events",{name}\n'
             )
-            f_vlc.write(f'#EXTVLCOPT:http-referrer={link}\n')
-            f_vlc.write(f'#EXTVLCOPT:http-origin={link}\n')
-            f_vlc.write(f'#EXTVLCOPT:http-user-agent={USER_AGENT}\n')
-            f_vlc.write(f"{url}\n")
+            f1.write(f'#EXTVLCOPT:http-referrer={data["link"]}\n')
+            f1.write(f'#EXTVLCOPT:http-origin={data["link"]}\n')
+            f1.write(f'#EXTVLCOPT:http-user-agent={USER_AGENT}\n')
+            f1.write(f"{url}\n")
 
             # TiviMate
-            f_tivi.write(
+            ua = USER_AGENT.replace(" ", "%20").replace("/", "%2F")
+
+            f2.write(
                 f'#EXTINF:-1 tvg-chno="{i}" tvg-id="{data["id"]}" tvg-name="{name}" '
                 f'tvg-logo="{data["logo"]}" group-title="Live Events",{name}\n'
             )
-
-            encoded_ua = USER_AGENT.replace(" ", "%20").replace("/", "%2F")
-            f_tivi.write(
-                f"{url}|referer={link}|origin={link}|user-agent={encoded_ua}\n"
+            f2.write(
+                f"{url}|referer={data['link']}|origin={data['link']}|user-agent={ua}\n"
             )
 
 
