@@ -34,7 +34,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install selectolax playwright httpx[http2] pytz
+          pip install selectolax playwright httpx[http2] pytz GitPython
           playwright install --with-deps chromium
 
       - name: Run TPK updater
