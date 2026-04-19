@@ -1,1 +1,316 @@
 #EXTM3U
+#EXTINF:-1 tvg-chno="200" tvg-id="Live.Event.us" tvg-name="[Live Event] Juventus vs Bologna (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Juventus vs Bologna (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Juventus-vs-Bologna/65966
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Juventus-vs-Bologna/65966
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="201" tvg-id="Live.Event.us" tvg-name="[Live Event] Sporting CP vs Benfica (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Sporting CP vs Benfica (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Sporting-CP-vs-Benfica/66148
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Sporting-CP-vs-Benfica/66148
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="202" tvg-id="Live.Event.us" tvg-name="[Live Event] New York City vs Charlotte (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] New York City vs Charlotte (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/New-York-City-vs-Charlotte/60986
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/New-York-City-vs-Charlotte/60986
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="203" tvg-id="Live.Event.us" tvg-name="[Live Event] F1 Saudi Arabia Grand Prix vs Live (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] F1 Saudi Arabia Grand Prix vs Live (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/F1-Saudi-Arabia-Grand-Prix-vs-Live/65661
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/F1-Saudi-Arabia-Grand-Prix-vs-Live/65661
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="204" tvg-id="Live.Event.us" tvg-name="[Live Event] PSG vs Olympique Lyonnais (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] PSG vs Olympique Lyonnais (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/PSG-vs-Olympique-Lyonnais/65719
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/PSG-vs-Olympique-Lyonnais/65719
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="205" tvg-id="Live.Event.us" tvg-name="[Live Event] Stuttgart Open vs Tennis (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Stuttgart Open vs Tennis (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Stuttgart-Open-vs-Tennis/63298
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Stuttgart-Open-vs-Tennis/63298
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="206" tvg-id="Live.Event.us" tvg-name="[Live Event] Open de Rouen vs Tennis (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Open de Rouen vs Tennis (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Open-de-Rouen-vs-Tennis/63299
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Open-de-Rouen-vs-Tennis/63299
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="207" tvg-id="Live.Event.us" tvg-name="[Live Event] Kasimpasa vs Alanyaspor (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Kasimpasa vs Alanyaspor (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Kasimpasa-vs-Alanyaspor/65834
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Kasimpasa-vs-Alanyaspor/65834
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="208" tvg-id="Live.Event.us" tvg-name="[Live Event] Orlando City SC vs Houston Dynamo (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Orlando City SC vs Houston Dynamo (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Orlando-City-SC-vs-Houston-Dynamo/60988
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Orlando-City-SC-vs-Houston-Dynamo/60988
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="209" tvg-id="Live.Event.us" tvg-name="[Live Event] Boston Red Sox vs Detroit Tigers (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Boston Red Sox vs Detroit Tigers (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Boston-Red-Sox-vs-Detroit-Tigers/61389
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Boston-Red-Sox-vs-Detroit-Tigers/61389
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="210" tvg-id="Live.Event.us" tvg-name="[Live Event] NASCAR Kansas Speedway vs Live (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] NASCAR Kansas Speedway vs Live (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/NASCAR-Kansas-Speedway-vs-Live/59185
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/NASCAR-Kansas-Speedway-vs-Live/59185
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="211" tvg-id="Live.Event.us" tvg-name="[Live Event] Samsunspor vs Besiktas (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Samsunspor vs Besiktas (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Samsunspor-vs-Besiktas/65835
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Samsunspor-vs-Besiktas/65835
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="212" tvg-id="Live.Event.us" tvg-name="[Live Event] Borussia M gladbach vs Mainz 05 (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Borussia M gladbach vs Mainz 05 (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Borussia-M-gladbach-vs-Mainz-05/65911
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Borussia-M-gladbach-vs-Mainz-05/65911
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="213" tvg-id="Live.Event.us" tvg-name="[Live Event] Philadelphia Union vs DC United (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Philadelphia Union vs DC United (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Philadelphia-Union-vs-DC-United/60984
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Philadelphia-Union-vs-DC-United/60984
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="214" tvg-id="Live.Event.us" tvg-name="[Live Event] Trabzonspor vs Istanbul Basaksehir (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Trabzonspor vs Istanbul Basaksehir (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Trabzonspor-vs-Istanbul-Basaksehir/65836
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Trabzonspor-vs-Istanbul-Basaksehir/65836
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="215" tvg-id="Live.Event.us" tvg-name="[Live Event] Freiburg vs Heidenheim (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Freiburg vs Heidenheim (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Freiburg-vs-Heidenheim/65909
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Freiburg-vs-Heidenheim/65909
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="216" tvg-id="Live.Event.us" tvg-name="[Live Event] Celtic vs St. Mirren (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Celtic vs St. Mirren (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Celtic-vs-St.-Mirren/66959
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Celtic-vs-St.-Mirren/66959
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="217" tvg-id="Live.Event.us" tvg-name="[Live Event] Cincinnati vs Chicago Fire (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Cincinnati vs Chicago Fire (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Cincinnati-vs-Chicago-Fire/60985
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Cincinnati-vs-Chicago-Fire/60985
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="218" tvg-id="Live.Event.us" tvg-name="[Live Event] Ipswich Town vs Middlesbrough (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Ipswich Town vs Middlesbrough (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Ipswich-Town-vs-Middlesbrough/66090
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Ipswich-Town-vs-Middlesbrough/66090
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="219" tvg-id="Live.Event.us" tvg-name="[Live Event] Sale Sharks vs Saracens (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Sale Sharks vs Saracens (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Sale-Sharks-vs-Saracens/62457
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Sale-Sharks-vs-Saracens/62457
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="220" tvg-id="Live.Event.us" tvg-name="[Live Event] Jonathan Mansour vs William King (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Jonathan Mansour vs William King (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Jonathan-Mansour-vs-William-King/66160
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Jonathan-Mansour-vs-William-King/66160
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="221" tvg-id="Live.Event.us" tvg-name="[Live Event] WWE vs Monday Night RAW (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] WWE vs Monday Night RAW (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/WWE-vs-Monday-Night-RAW/62672
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/WWE-vs-Monday-Night-RAW/62672
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="222" tvg-id="Live.Event.us" tvg-name="[Live Event] Arouca vs Estrela (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Arouca vs Estrela (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Arouca-vs-Estrela/66147
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Arouca-vs-Estrela/66147
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="223" tvg-id="Live.Event.us" tvg-name="[Live Event] Penguins vs Flyers (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Penguins vs Flyers (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Penguins-vs-Flyers/66676
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Penguins-vs-Flyers/66676
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="224" tvg-id="Live.Event.us" tvg-name="[Live Event] Minnesota United vs Portland Timbers (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Minnesota United vs Portland Timbers (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Minnesota-United-vs-Portland-Timbers/60991
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Minnesota-United-vs-Portland-Timbers/60991
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="225" tvg-id="Live.Event.us" tvg-name="[Live Event] Seattle Sounders FC vs St Louis City (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Seattle Sounders FC vs St Louis City (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Seattle-Sounders-FC-vs-St-Louis-City/60992
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Seattle-Sounders-FC-vs-St-Louis-City/60992
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="226" tvg-id="Live.Event.us" tvg-name="[Live Event] WWE vs Kill Tony WrestleMania (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] WWE vs Kill Tony WrestleMania (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/WWE-vs-Kill-Tony-WrestleMania/65586
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/WWE-vs-Kill-Tony-WrestleMania/65586
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="227" tvg-id="Live.Event.us" tvg-name="[Live Event] Real Salt Lake vs San Diego FC (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Real Salt Lake vs San Diego FC (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Real-Salt-Lake-vs-San-Diego-FC/60993
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Real-Salt-Lake-vs-San-Diego-FC/60993
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="228" tvg-id="Live.Event.us" tvg-name="[Live Event] Atlanta United vs Nashville SC (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Atlanta United vs Nashville SC (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Atlanta-United-vs-Nashville-SC/60989
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Atlanta-United-vs-Nashville-SC/60989
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="229" tvg-id="Live.Event.us" tvg-name="[Live Event] Cleveland Guardians vs Baltimore Orioles (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Cleveland Guardians vs Baltimore Orioles (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Cleveland-Guardians-vs-Baltimore-Orioles/61370
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Cleveland-Guardians-vs-Baltimore-Orioles/61370
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="230" tvg-id="Live.Event.us" tvg-name="[Live Event] Dallas vs LA Galaxy (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Dallas vs LA Galaxy (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Dallas-vs-LA-Galaxy/66157
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Dallas-vs-LA-Galaxy/66157
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="231" tvg-id="Live.Event.us" tvg-name="[Live Event] Kansas City Royals vs Philadelphia Phillies (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Kansas City Royals vs Philadelphia Phillies (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Kansas-City-Royals-vs-Philadelphia-Phillies/65976
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Kansas-City-Royals-vs-Philadelphia-Phillies/65976
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="232" tvg-id="Live.Event.us" tvg-name="[Live Event] Munich BMW Open vs Tennis (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Munich BMW Open vs Tennis (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Munich-BMW-Open-vs-Tennis/63296
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Munich-BMW-Open-vs-Tennis/63296
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="233" tvg-id="Live.Event.us" tvg-name="[Live Event] Nagoya Grampus vs Avispa Fukuoka (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Nagoya Grampus vs Avispa Fukuoka (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Nagoya-Grampus-vs-Avispa-Fukuoka/66023
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Nagoya-Grampus-vs-Avispa-Fukuoka/66023
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="234" tvg-id="Live.Event.us" tvg-name="[Live Event] Miami Marlins vs Milwaukee Brewers (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Miami Marlins vs Milwaukee Brewers (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Miami-Marlins-vs-Milwaukee-Brewers/61391
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Miami-Marlins-vs-Milwaukee-Brewers/61391
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="235" tvg-id="Live.Event.us" tvg-name="[Live Event] Barcelona Open vs Tennis (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Barcelona Open vs Tennis (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Barcelona-Open-vs-Tennis/63297
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Barcelona-Open-vs-Tennis/63297
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="236" tvg-id="Live.Event.us" tvg-name="[Live Event] Peterborough United vs Burton Albion (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Peterborough United vs Burton Albion (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Peterborough-United-vs-Burton-Albion/66259
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Peterborough-United-vs-Burton-Albion/66259
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="237" tvg-id="Live.Event.us" tvg-name="[Live Event] Arizona Diamondbacks vs Toronto Blue Jays (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Arizona Diamondbacks vs Toronto Blue Jays (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Arizona-Diamondbacks-vs-Toronto-Blue-Jays/61382
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Arizona-Diamondbacks-vs-Toronto-Blue-Jays/61382
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="238" tvg-id="Live.Event.us" tvg-name="[Live Event] New York Yankees vs Kansas City Royals (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] New York Yankees vs Kansas City Royals (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/New-York-Yankees-vs-Kansas-City-Royals/61390
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/New-York-Yankees-vs-Kansas-City-Royals/61390
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="239" tvg-id="Live.Event.us" tvg-name="[Live Event] Colorado Rockies vs Los Angeles Dodgers (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Colorado Rockies vs Los Angeles Dodgers (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Colorado-Rockies-vs-Los-Angeles-Dodgers/61383
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Colorado-Rockies-vs-Los-Angeles-Dodgers/61383
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="240" tvg-id="Live.Event.us" tvg-name="[Live Event] Port Vale vs Wigan Athletic (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Port Vale vs Wigan Athletic (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Port-Vale-vs-Wigan-Athletic/66260
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Port-Vale-vs-Wigan-Athletic/66260
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="241" tvg-id="Live.Event.us" tvg-name="[Live Event] Houston Astros vs St. Louis Cardinals (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Houston Astros vs St. Louis Cardinals (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Houston-Astros-vs-St.-Louis-Cardinals/61379
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Houston-Astros-vs-St.-Louis-Cardinals/61379
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="242" tvg-id="Live.Event.us" tvg-name="[Live Event] FC Andorra vs Real Valladolid (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FC Andorra vs Real Valladolid (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/FC-Andorra-vs-Real-Valladolid/65752
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/FC-Andorra-vs-Real-Valladolid/65752
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="243" tvg-id="Live.Event.us" tvg-name="[Live Event] Minnesota Twins vs Cincinnati Reds (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Minnesota Twins vs Cincinnati Reds (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Minnesota-Twins-vs-Cincinnati-Reds/61393
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Minnesota-Twins-vs-Cincinnati-Reds/61393
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="244" tvg-id="Live.Event.us" tvg-name="[Live Event] Los Angeles Angels vs San Diego Padres (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Los Angeles Angels vs San Diego Padres (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Los-Angeles-Angels-vs-San-Diego-Padres/61384
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Los-Angeles-Angels-vs-San-Diego-Padres/61384
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="245" tvg-id="Live.Event.us" tvg-name="[Live Event] New England Revolution vs Columbus Crew (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] New England Revolution vs Columbus Crew (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/New-England-Revolution-vs-Columbus-Crew/60987
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/New-England-Revolution-vs-Columbus-Crew/60987
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="246" tvg-id="Live.Event.us" tvg-name="[Live Event] Multan Sultans vs Karachi Kings (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Multan Sultans vs Karachi Kings (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Multan-Sultans-vs-Karachi-Kings/65469
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Multan-Sultans-vs-Karachi-Kings/65469
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="247" tvg-id="Live.Event.us" tvg-name="[Live Event] Sporting Gijon vs Cadiz (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Sporting Gijon vs Cadiz (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Sporting-Gijon-vs-Cadiz/65753
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Sporting-Gijon-vs-Cadiz/65753
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="248" tvg-id="Live.Event.us" tvg-name="[Live Event] Albacete vs Granada (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Albacete vs Granada (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Albacete-vs-Granada/65754
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Albacete-vs-Granada/65754
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="249" tvg-id="Live.Event.us" tvg-name="[Live Event] Chicago Cubs vs New York Mets (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Chicago Cubs vs New York Mets (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Chicago-Cubs-vs-New-York-Mets/61386
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Chicago-Cubs-vs-New-York-Mets/61386
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="250" tvg-id="Live.Event.us" tvg-name="[Live Event] Philadelphia Phillies vs Atlanta Braves (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Philadelphia Phillies vs Atlanta Braves (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Philadelphia-Phillies-vs-Atlanta-Braves/61380
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Philadelphia-Phillies-vs-Atlanta-Braves/61380
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="251" tvg-id="Live.Event.us" tvg-name="[Live Event] Greuther Furth vs Darmstadt 98 (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Greuther Furth vs Darmstadt 98 (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Greuther-Furth-vs-Darmstadt-98/65928
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Greuther-Furth-vs-Darmstadt-98/65928
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="252" tvg-id="Live.Event.us" tvg-name="[Live Event] Seattle Mariners vs Texas Rangers (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Seattle Mariners vs Texas Rangers (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Seattle-Mariners-vs-Texas-Rangers/61381
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Seattle-Mariners-vs-Texas-Rangers/61381
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="253" tvg-id="Live.Event.us" tvg-name="[Live Event] Pittsburgh Pirates vs Tampa Bay Rays (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Pittsburgh Pirates vs Tampa Bay Rays (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Pittsburgh-Pirates-vs-Tampa-Bay-Rays/61387
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Pittsburgh-Pirates-vs-Tampa-Bay-Rays/61387
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="254" tvg-id="Live.Event.us" tvg-name="[Live Event] Washington Nationals vs San Francisco Giants (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Washington Nationals vs San Francisco Giants (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Washington-Nationals-vs-San-Francisco-Giants/61388
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Washington-Nationals-vs-San-Francisco-Giants/61388
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="255" tvg-id="Live.Event.us" tvg-name="[Live Event] Eibar vs Huesca (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Eibar vs Huesca (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Eibar-vs-Huesca/65755
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Eibar-vs-Huesca/65755
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="256" tvg-id="Live.Event.us" tvg-name="[Live Event] Mito Hollyhock vs Kashiwa Reysol (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Mito Hollyhock vs Kashiwa Reysol (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Mito-Hollyhock-vs-Kashiwa-Reysol/66021
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Mito-Hollyhock-vs-Kashiwa-Reysol/66021
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="257" tvg-id="Live.Event.us" tvg-name="[Live Event] Gamba Osaka vs Fagiano Okayama (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Gamba Osaka vs Fagiano Okayama (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Gamba-Osaka-vs-Fagiano-Okayama/66022
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Gamba-Osaka-vs-Fagiano-Okayama/66022
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="258" tvg-id="Live.Event.us" tvg-name="[Live Event] Boston Celtics vs Philadelphia 76ers (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Boston Celtics vs Philadelphia 76ers (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Boston-Celtics-vs-Philadelphia-76ers/66668
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Boston-Celtics-vs-Philadelphia-76ers/66668
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="259" tvg-id="Live.Event.us" tvg-name="[Live Event] RBC Heritage vs Golf (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] RBC Heritage vs Golf (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/RBC-Heritage-vs-Golf/66442
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/RBC-Heritage-vs-Golf/66442
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="260" tvg-id="Live.Event.us" tvg-name="[Live Event] Peshawar Zalmi vs Quetta Gladiators (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Peshawar Zalmi vs Quetta Gladiators (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Peshawar-Zalmi-vs-Quetta-Gladiators/65470
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Peshawar-Zalmi-vs-Quetta-Gladiators/65470
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="261" tvg-id="Live.Event.us" tvg-name="[Live Event] Eintracht Braunschweig vs Hertha BSC (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Eintracht Braunschweig vs Hertha BSC (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Eintracht-Braunschweig-vs-Hertha-BSC/65927
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Eintracht-Braunschweig-vs-Hertha-BSC/65927
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
+#EXTINF:-1 tvg-chno="262" tvg-id="Live.Event.us" tvg-name="[Live Event] Schalke 04 vs Preuben Munster (TPK)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Schalke 04 vs Preuben Munster (TPK)
+#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Schalke-04-vs-Preuben-Munster/65929
+#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Schalke-04-vs-Preuben-Munster/65929
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+http://invalid/stream
