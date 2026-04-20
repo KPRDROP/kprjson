@@ -5,7 +5,7 @@ from urllib.parse import urljoin
 
 from selectolax.parser import HTMLParser
 
-from .utils import Cache, Time, get_logger, network
+from utils import Cache, Time, get_logger, network
 
 log = get_logger(__name__)
 
