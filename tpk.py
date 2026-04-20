@@ -2,12 +2,10 @@ import json
 import re
 import asyncio
 from urllib.parse import urljoin
-from pathlib import Path
 
 from selectolax.parser import HTMLParser
-from playwright.async_api import async_playwright
 
-from utils import Cache, Time, get_logger, network
+from .utils import Cache, Time, get_logger, network
 
 log = get_logger(__name__)
 
@@ -17,141 +15,63 @@ CACHE_FILE = Cache("TPK", exp=28_800)
 
 BASE_URL = "https://live.totalsportek.fyi"
 
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
-
-OUTPUT_VLC = Path("tpk_vlc.m3u8")
-OUTPUT_TIVIMATE = Path("tpk_tivimate.m3u8")
+USER_AGENT = "Mozilla/5.0"
 
 
 # =========================
-# PLAYWRIGHT STREAM EXTRACTOR
+# 🔥 IMPROVED EXTRACTOR
 # =========================
-async def extract_stream_with_playwright(url: str, url_num: int) -> str | None:
-    """Extract stream URL using Playwright with network interception"""
-    stream_url = None
-    
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(
-            headless=True,
-            args=["--no-sandbox", "--disable-dev-shm-usage"]
-        )
-        page = await browser.new_page()
-        
-        # Set up request interception
-        async def handle_request(request):
-            nonlocal stream_url
-            req_url = request.url
-            
-            # Look for stream URLs
-            if any(x in req_url for x in ['.m3u8', '.woff2', 'cloudfront', 'serveplay']):
-                if 'invalid' not in req_url and 'google' not in req_url:
-                    stream_url = req_url
-                    log.info(f"URL {url_num}) Captured stream: {req_url[:100]}...")
-        
-        page.on('request', handle_request)
-        
-        try:
-            # Navigate to the event page
-            await page.goto(url, wait_until='networkidle', timeout=30000)
-            
-            # Wait for streams to load
-            await asyncio.sleep(5)
-            
-            # Also check for iframes
-            iframes = await page.query_selector_all('iframe')
-            for iframe in iframes:
-                src = await iframe.get_attribute('src')
-                if src:
-                    # Navigate to iframe
-                    try:
-                        await page.goto(src, wait_until='networkidle', timeout=15000)
-                        await asyncio.sleep(3)
-                    except:
-                        pass
-            
-            # Check page content for stream URLs
-            content = await page.content()
-            patterns = [
-                r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
-                r'(https?://[^\s"\']+\.woff2[^\s"\']*)',
-                r'(https?://[^\s"\']+cloudfront[^\s"\']+\.(?:m3u8|woff2)[^\s"\']*)',
-            ]
-            for pattern in patterns:
-                matches = re.findall(pattern, content, re.I)
-                for match in matches:
-                    if 'invalid' not in match and 'google' not in match:
-                        stream_url = match
-                        log.info(f"URL {url_num}) Captured from page: {match[:100]}...")
-                        break
-                if stream_url:
-                    break
-                    
-        except Exception as e:
-            log.error(f"URL {url_num}) Playwright error: {e}")
-        finally:
-            await browser.close()
-    
-    return stream_url
+M3U8_REGEX = re.compile(r"https?://[^\s\"']+\.m3u8[^\s\"']*", re.I)
 
 
-# =========================
-# DIRECT HTTP EXTRACTOR (FALLBACK)
-# =========================
-async def extract_stream_direct(url: str, url_num: int) -> str | None:
-    """Extract stream URL using direct HTTP requests"""
-    res = await network.request(url, log=log)
+async def extract_m3u8(url: str, depth=0, referer=None):
+    if depth > 5:
+        return None
+
+    headers = {"User-Agent": USER_AGENT}
+    if referer:
+        headers["Referer"] = referer
+
+    res = await network.request(url, headers=headers, log=log)
     if not res:
         return None
-    
+
     text = res.text
-    
-    # Look for stream URLs
+
+    # ✅ direct m3u8
+    if m := M3U8_REGEX.search(text):
+        log.info(f"FOUND m3u8 (direct)")
+        return m.group(0)
+
+    # ✅ multiple patterns
     patterns = [
-        r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
-        r'(https?://[^\s"\']+\.woff2[^\s"\']*)',
-        r'(https?://[^\s"\']+cloudfront[^\s"\']+\.(?:m3u8|woff2)[^\s"\']*)',
-        r'source\s*:\s*"([^"]+\.m3u8[^"]*)"',
-        r'file\s*:\s*"([^"]+\.m3u8[^"]*)"',
+        r'source\s*:\s*"([^"]+)"',
+        r'file\s*:\s*"([^"]+)"',
+        r'hls\s*:\s*"([^"]+)"',
+        r'"(https://[^"]+\.m3u8[^"]*)"',
     ]
-    
-    for pattern in patterns:
-        matches = re.findall(pattern, text, re.I)
-        for match in matches:
-            if 'invalid' not in match and 'google' not in match:
-                log.info(f"URL {url_num}) Captured direct: {match[:100]}...")
-                return match
-    
-    # Check for iframes recursively
+
+    for p in patterns:
+        if m := re.search(p, text):
+            if ".m3u8" in m.group(1):
+                log.info(f"FOUND m3u8 (pattern)")
+                return m.group(1)
+
+    # 🔁 recursive iframe scan
     soup = HTMLParser(res.content)
+
     for iframe in soup.css("iframe"):
         src = iframe.attributes.get("src")
-        if src:
-            src = urljoin(url, src)
-            result = await extract_stream_direct(src, url_num)
-            if result:
-                return result
-    
-    return None
+        if not src:
+            continue
 
+        src = urljoin(url, src)
 
-# =========================
-# MAIN EXTRACTOR
-# =========================
-async def extract_stream(url: str, url_num: int) -> str | None:
-    """Extract stream URL using multiple methods"""
-    
-    # Try direct HTTP first (faster)
-    stream = await extract_stream_direct(url, url_num)
-    if stream:
-        return stream
-    
-    # Try Playwright (handles dynamic content)
-    log.info(f"URL {url_num}) Trying Playwright...")
-    stream = await extract_stream_with_playwright(url, url_num)
-    if stream:
-        return stream
-    
-    log.warning(f"URL {url_num}) NO STREAM FOUND")
+        result = await extract_m3u8(src, depth + 1, referer=url)
+        if result:
+            return result
+
+    log.warning(f"NO STREAM FOUND: {url}")
     return None
 
 
@@ -184,129 +104,90 @@ async def get_events():
             continue
 
         event_name = " vs ".join(teams)
-        event_url = urljoin(BASE_URL, href)
 
         events.append({
             "event": event_name,
-            "link": event_url
+            "link": urljoin(BASE_URL, href)
         })
 
-    log.info(f"Found {len(events)} events")
     return events
 
 
 # =========================
-# PROCESS EVENTS
+# PROCESS
 # =========================
-async def process_event(ev, index, total):
+async def handle_event(ev):
     name = ev["event"]
     link = ev["link"]
-    
-    log.info(f"[{index}/{total}] Processing: {name}")
-    
-    stream = await extract_stream(link, index)
-    
-    if stream:
-        urls[f"[Live Event] {name} (TPK)"] = {
-            "url": stream,
-            "link": link,
-            "id": "Live.Event.us",
-            "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
-            "timestamp": Time.now().timestamp(),
-        }
-        log.info(f"[{index}/{total}] ✓ Captured: {name[:50]}...")
-    else:
-        log.warning(f"[{index}/{total}] ✗ Failed: {name[:50]}...")
+
+    log.info(f"Processing: {name}")
+
+    stream = await extract_m3u8(link)
+
+    urls[f"[Live Event] {name} (TPK)"] = {
+        "url": stream,
+        "link": link,
+        "id": "Live.Event.us",
+        "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
+        "timestamp": Time.now().timestamp(),
+    }
+
+
+async def process_all(events):
+    await asyncio.gather(*(handle_event(ev) for ev in events))
 
 
 # =========================
-# OUTPUT
+# OUTPUT (FIXED)
 # =========================
 def write_outputs():
-    vlc_lines = ["#EXTM3U"]
-    tivi_lines = ["#EXTM3U"]
-    vlc_lines.append("# Playlist generated by TPK Scraper")
-    tivi_lines.append("# Playlist generated by TPK Scraper")
-    vlc_lines.append("")
-    tivi_lines.append("")
-    
-    chno = 200
-    
-    for name, data in urls.items():
-        url = data["url"]
-        if not url or "invalid" in url:
-            continue
-            
-        # VLC format
-        vlc_lines.append(
-            f'#EXTINF:-1 tvg-chno="{chno}" tvg-id="{data["id"]}" tvg-name="{name}" '
-            f'tvg-logo="{data["logo"]}" group-title="Live Events",{name}'
-        )
-        vlc_lines.append(f'#EXTVLCOPT:http-referrer={data["link"]}')
-        vlc_lines.append(f'#EXTVLCOPT:http-origin={data["link"]}')
-        vlc_lines.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}')
-        vlc_lines.append(url)
-        vlc_lines.append("")
-        
-        # TiviMate format
-        ua_encoded = USER_AGENT.replace(" ", "%20").replace("/", "%2F")
-        tivi_lines.append(
-            f'#EXTINF:-1 tvg-chno="{chno}" tvg-id="{data["id"]}" tvg-name="{name}" '
-            f'tvg-logo="{data["logo"]}" group-title="Live Events",{name}'
-        )
-        tivi_lines.append(
-            f'{url}|referer={data["link"]}|origin={data["link"]}|user-agent={ua_encoded}'
-        )
-        tivi_lines.append("")
-        
-        chno += 1
-    
-    # Write files
-    OUTPUT_VLC.write_text("\n".join(vlc_lines), encoding="utf-8")
-    OUTPUT_TIVIMATE.write_text("\n".join(tivi_lines), encoding="utf-8")
-    
-    log.info(f"Playlists written: {len(urls)} streams")
+    with open("tpk_vlc.m3u8", "w", encoding="utf-8") as f1, \
+         open("tpk_tivimate.m3u8", "w", encoding="utf-8") as f2:
+
+        f1.write("#EXTM3U\n")
+        f2.write("#EXTM3U\n")
+
+        for i, (name, data) in enumerate(urls.items(), start=200):
+
+            url = data["url"] or "http://invalid/stream"  # 🔥 NEVER EMPTY
+
+            # VLC
+            f1.write(
+                f'#EXTINF:-1 tvg-chno="{i}" tvg-id="{data["id"]}" tvg-name="{name}" '
+                f'tvg-logo="{data["logo"]}" group-title="Live Events",{name}\n'
+            )
+            f1.write(f'#EXTVLCOPT:http-referrer={data["link"]}\n')
+            f1.write(f'#EXTVLCOPT:http-origin={data["link"]}\n')
+            f1.write(f'#EXTVLCOPT:http-user-agent={USER_AGENT}\n')
+            f1.write(f"{url}\n")
+
+            # TiviMate
+            ua = USER_AGENT.replace(" ", "%20").replace("/", "%2F")
+
+            f2.write(
+                f'#EXTINF:-1 tvg-chno="{i}" tvg-id="{data["id"]}" tvg-name="{name}" '
+                f'tvg-logo="{data["logo"]}" group-title="Live Events",{name}\n'
+            )
+            f2.write(
+                f"{url}|referer={data['link']}|origin={data['link']}|user-agent={ua}\n"
+            )
 
 
 # =========================
 # MAIN
 # =========================
 async def scrape():
-    log.info("Starting TPK scraper")
-    
-    # Load cache
-    cache = CACHE_FILE.load() or {}
-    for k, v in cache.items():
-        if v.get("url") and "invalid" not in v["url"]:
-            urls[k] = v
-    
-    log.info(f"Loaded {len(urls)} cached events")
-    
-    # Get new events
+    log.info("Fetching events...")
+
     events = await get_events()
-    
-    # Filter out already processed events
-    new_events = []
-    for ev in events:
-        key = f"[Live Event] {ev['event']} (TPK)"
-        if key not in urls:
-            new_events.append(ev)
-    
-    log.info(f"Processing {len(new_events)} new events")
-    
-    # Process events sequentially (to avoid overwhelming)
-    for i, ev in enumerate(new_events, 1):
-        await process_event(ev, i, len(new_events))
-        # Small delay between requests
-        await asyncio.sleep(1)
-    
-    # Save cache
+
+    log.info(f"Found {len(events)} events")
+
+    await process_all(events)
+
     CACHE_FILE.write(urls)
-    
-    # Write outputs
+
     write_outputs()
-    
-    log.info(f"TPK scraper completed - {len(urls)} total streams")
 
 
 if __name__ == "__main__":
