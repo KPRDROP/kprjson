@@ -40,3 +40,6 @@ jobs:
         git commit -m "TPK auto $(date)" || echo "No changes"
         git pull --rebase
         git push
+
+    - name: Pull latest changes
+      run: git pull --rebase origin main    
