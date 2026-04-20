@@ -1,8 +1,8 @@
 import json
 import re
+import asyncio
 from functools import partial
 from urllib.parse import urljoin, urlparse
-from pathlib import Path
 
 from selectolax.parser import HTMLParser
 
@@ -12,15 +12,16 @@ log = get_logger(__name__)
 
 urls: dict[str, dict[str, str | float]] = {}
 
-TAG = "TPK"
-CACHE_FILE = Cache(TAG, exp=28_800)
+CACHE_FILE = Cache("TPK", exp=28_800)
 
-BASE_URL = "https://live.totalsportek.fyi"
+BASE_URL = {
+    "TPK": "https://live.totalsportek.fyi"
+}
 
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
-
-OUTPUT_VLC = Path("tpk_vlc.m3u8")
-OUTPUT_TIVIMATE = Path("tpk_tivimate.m3u8")
+# 🚫 ignore junk iframes
+BAD_IFRAME = (
+    "youtube", "youtu.be", "atletifan", "facebook", "twitter"
+)
 
 
 def fix_txt(s: str) -> str:
@@ -28,353 +29,205 @@ def fix_txt(s: str) -> str:
     return s.upper() if s.islower() else s
 
 
-async def extract_stream_from_page(url: str, url_num: int) -> str | None:
-    """Extract stream URL from event page by finding iframes and scripts"""
-    if not (event_data := await network.request(url, log=log)):
-        log.warning(f"URL {url_num}) Failed to load url.")
+# 🔥 UNIVERSAL M3U8 EXTRACTOR
+async def extract_m3u8(url: str, referer: str, url_num: int) -> str | None:
+    if any(b in url for b in BAD_IFRAME):
         return None
 
-    soup = HTMLParser(event_data.content)
-    
-    # Look for iframes
-    iframes = soup.css("iframe")
-    for iframe in iframes:
-        src = iframe.attributes.get("src")
-        if not src:
-            continue
-        
-        if not src.startswith("http"):
-            src = urljoin(url, src)
-        
-        # Skip chat iframes
-        if "chat" in src.lower():
-            continue
-        
-        # Fetch iframe content
-        iframe_data = await network.request(src, headers={"Referer": url}, log=log)
-        if iframe_data:
-            # Look for stream URLs in iframe
-            patterns = [
-                r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
-                r'(https?://[^\s"\']+\.woff2[^\s"\']*)',
-                r'(https?://[^\s"\']+cloudfront[^\s"\']+\.(?:m3u8|woff2)[^\s"\']*)',
-                r'(https?://[^\s"\']+serveplay[^\s"\']+\.(?:css|js)[^\s"\']*)',
-            ]
-            for pattern in patterns:
-                match = re.search(pattern, iframe_data.text, re.I)
-                if match:
-                    log.info(f"URL {url_num}) Captured stream from iframe")
-                    return match.group(1)
-    
-    # Look for stream URLs in scripts
-    scripts = soup.css("script")
-    for script in scripts:
-        script_text = script.text()
-        if script_text:
-            patterns = [
-                r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
-                r'(https?://[^\s"\']+\.woff2[^\s"\']*)',
-                r'(https?://[^\s"\']+cloudfront[^\s"\']+\.(?:m3u8|woff2)[^\s"\']*)',
-                r'file\s*:\s*"([^"]+\.m3u8[^"]*)"',
-                r'source\s*:\s*"([^"]+\.m3u8[^"]*)"',
-            ]
-            for pattern in patterns:
-                match = re.search(pattern, script_text, re.I)
-                if match:
-                    log.info(f"URL {url_num}) Captured stream from script")
-                    return match.group(1)
-    
-    # Look for direct stream URLs in page
-    patterns = [
-        r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
-        r'(https?://[^\s"\']+\.woff2[^\s"\']*)',
-        r'(https?://[^\s"\']+cloudfront[^\s"\']+\.(?:m3u8|woff2)[^\s"\']*)',
-    ]
-    for pattern in patterns:
-        match = re.search(pattern, event_data.text, re.I)
-        if match:
-            log.info(f"URL {url_num}) Captured stream from page")
-            return match.group(1)
-    
+    data = await network.request(url, headers={"Referer": referer}, log=log)
+    if not data:
+        return None
+
+    text = data.text
+
+    # ✅ pattern 1: direct m3u8
+    m = re.search(r'https?://[^"\']+\.m3u8[^"\']*', text)
+    if m:
+        log.info(f"URL {url_num}) Direct m3u8 found")
+        return m.group(0)
+
+    # ✅ pattern 2: currentStreamUrl
+    m = re.search(r'currentStreamUrl\s*=\s*"([^"]+)"', text)
+    if m:
+        log.info(f"URL {url_num}) currentStreamUrl found")
+        return json.loads(f'"{m.group(1)}"')
+
+    # ✅ pattern 3: hex encoded
+    m = re.search(r'(?:var|const)\s+\w+\s*=\s*"([0-9a-fA-F]+)"', text)
+    if m:
+        try:
+            decoded = bytes.fromhex(m.group(1)).decode()
+            if ".m3u8" in decoded:
+                log.info(f"URL {url_num}) Hex decoded m3u8")
+                return decoded
+        except:
+            pass
+
+    # ✅ pattern 4: sources: [{file: "..."}]
+    m = re.search(r'file\s*:\s*"([^"]+\.m3u8[^"]*)"', text)
+    if m:
+        log.info(f"URL {url_num}) JWPlayer source found")
+        return m.group(1)
+
     return None
 
 
 async def process_event(url: str, url_num: int, tag: str) -> str | None:
-    """Process event page to extract stream URL"""
-    return await extract_stream_from_page(url, url_num)
+    event_data = await network.request(url, log=log)
+    if not event_data:
+        log.warning(f"URL {url_num}) Failed to load page")
+        return
+
+    soup = HTMLParser(event_data.content)
+
+    # 🔥 FIX: scan ALL iframes
+    iframes = soup.css("iframe")
+
+    for ifr in iframes:
+        src = ifr.attributes.get("src")
+        if not src:
+            continue
+
+        stream = await extract_m3u8(src, url, url_num)
+        if stream:
+            return stream
+
+    log.warning(f"NO STREAM FOUND: {url}")
+    return None
 
 
 async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
-    """Extract events from the main page"""
     events = []
 
-    if not (html_data := await network.request(BASE_URL, log=log)):
+    html_data = await network.request(BASE_URL["TPK"], log=log)
+    if not html_data:
         return events
 
     soup = HTMLParser(html_data.content)
-    
-    # Find all event links from the page structure
-    # Look for links with href containing event IDs
-    for link in soup.css("a[href*='/']"):
-        href = link.attributes.get("href")
-        if not href:
-            continue
-        
-        # Check if it's an event link (contains numbers like /xxxxx)
-        if not re.search(r'/\d{5}', href):
-            continue
-        
-        # Skip non-event links
-        if any(skip in href.lower() for skip in ['boxing', 'blog', 'date', 'images', 'css']):
-            continue
-        
-        # Get the event name from surrounding elements
-        # Look for parent div with game info
-        parent = link.parent
-        event_name = None
-        sport = "Live Event"
-        
-        # Try to find team names in parent structure
-        for _ in range(3):
-            if parent:
-                # Look for team names in col-12 elements
-                team_elements = parent.css(".col-12")
-                if len(team_elements) >= 2:
-                    team1 = team_elements[0].text(strip=True)
-                    team2 = team_elements[1].text(strip=True)
-                    if team1 and team2 and len(team1) > 1 and len(team2) > 1:
-                        event_name = f"{team1} vs {team2}"
-                        break
-                
-                # Look for any text that might be event name
-                all_text = parent.text(strip=True)
-                if all_text and " vs " in all_text:
-                    event_name = all_text.split(" vs ")[0].strip() + " vs " + all_text.split(" vs ")[1].strip().split()[0]
-                    break
-                
-                parent = parent.parent
-            else:
-                break
-        
-        if not event_name:
-            # Extract from href as fallback
-            href_parts = href.split('/')
-            if len(href_parts) > 1:
-                event_name = href_parts[-1].replace('-', ' ').title()
-            else:
-                continue
-        
-        # Try to determine sport from surrounding text
-        parent_check = link.parent
-        for _ in range(5):
-            if parent_check:
-                parent_text = parent_check.text(strip=True)
-                if 'F1' in parent_text or 'Formula' in parent_text:
-                    sport = "F1"
-                    break
-                elif 'NASCAR' in parent_text:
-                    sport = "NASCAR"
-                    break
-                elif 'WWE' in parent_text:
-                    sport = "WWE"
-                    break
-                elif 'Tennis' in parent_text:
-                    sport = "Tennis"
-                    break
-                elif 'NBA' in parent_text or 'Basketball' in parent_text:
-                    sport = "NBA"
-                    break
-                elif 'MLB' in parent_text or 'Baseball' in parent_text:
-                    sport = "MLB"
-                    break
-                elif 'NHL' in parent_text or 'Hockey' in parent_text:
-                    sport = "NHL"
-                    break
-                elif 'Golf' in parent_text:
-                    sport = "Golf"
-                    break
-                elif 'Boxing' in parent_text:
-                    sport = "BOXING"
-                    break
-                elif 'Soccer' in parent_text or 'Football' in parent_text:
-                    sport = "Soccer"
-                    break
-                parent_check = parent_check.parent
-            else:
-                break
-        
-        event_url = urljoin(BASE_URL, href)
-        key = f"[{sport}] {event_name} ({TAG})"
-        
-        if key in cached_keys:
-            continue
-        
-        events.append({
-            "sport": sport,
-            "event": event_name,
-            "tag": TAG,
-            "link": event_url,
-        })
-    
-    # Remove duplicates by link
-    seen = set()
-    unique_events = []
-    for event in events:
-        if event["link"] not in seen:
-            seen.add(event["link"])
-            unique_events.append(event)
-    
-    log.info(f"Found {len(unique_events)} events")
-    return unique_events
 
+    sport = "Live Event"
 
-def generate_vlc_playlist(data: dict[str, dict]) -> int:
-    """Generate VLC-compatible playlist"""
-    lines = ["#EXTM3U"]
-    lines.append(f"# Playlist generated by {TAG} Scraper - {Time.clean(Time.now()).strftime('%Y-%m-%d %H:%M:%S')}")
-    lines.append("")
-    count = 0
-
-    for name, entry in data.items():
-        url = entry.get("url")
-        if not url:
-            continue
-
-        referer = entry.get("link", BASE_URL)
-        tvg_id = entry.get("id", "Live.Event.us")
-        tvg_logo = entry.get("logo", "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png")
-        group_title = entry.get("sport", "Live Events")
-        
-        lines.append(f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{tvg_logo}" group-title="{group_title}",{name}')
-        lines.append(f"#EXTVLCOPT:http-referrer={referer}")
-        lines.append(f"#EXTVLCOPT:http-origin={referer}")
-        lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
-        lines.append(url)
-        lines.append("")
-        count += 1
-
-    with open(OUTPUT_VLC, "w", encoding="utf-8") as f:
-        f.write("\n".join(lines))
-
-    log.info(f"Generated {OUTPUT_VLC} with {count} events")
-    return count
-
-
-def generate_tivimate_playlist(data: dict[str, dict]) -> int:
-    """Generate TiviMate-compatible playlist with pipe format"""
-    ua_encoded = USER_AGENT.replace(" ", "%20").replace("/", "%2F")
-    lines = ["#EXTM3U"]
-    lines.append(f"# Playlist generated by {TAG} Scraper - {Time.clean(Time.now()).strftime('%Y-%m-%d %H:%M:%S')}")
-    lines.append("")
-    count = 0
-
-    for name, entry in data.items():
-        url = entry.get("url")
-        if not url:
-            continue
-
-        referer = entry.get("link", BASE_URL)
-        tvg_id = entry.get("id", "Live.Event.us")
-        tvg_logo = entry.get("logo", "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png")
-        group_title = entry.get("sport", "Live Events")
-        
-        lines.append(f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{tvg_logo}" group-title="{group_title}",{name}')
-        lines.append(f"{url}|referer={referer}|origin={referer}|user-agent={ua_encoded}")
-        lines.append("")
-        count += 1
-
-    with open(OUTPUT_TIVIMATE, "w", encoding="utf-8") as f:
-        f.write("\n".join(lines))
-
-    log.info(f"Generated {OUTPUT_TIVIMATE} with {count} events")
-    return count
-
-
-async def scrape() -> None:
-    cached_urls = CACHE_FILE.load() or {}
-    valid_urls = {k: v for k, v in cached_urls.items() if v.get("url")}
-    valid_count = cached_count = len(valid_urls)
-
-    urls.update(valid_urls)
-
-    log.info(f"Loaded {cached_count} event(s) from cache")
-    log.info(f'Scraping from "{BASE_URL}"')
-
-    events = await get_events(cached_urls.keys())
-    
-    if events:
-        log.info(f"Processing {len(events)} new URL(s)")
-
-        now = Time.clean(Time.now())
-
-        for i, ev in enumerate(events, start=1):
-            log.info(f"Processing {i}/{len(events)}: {ev['event']}")
-            
-            handler = partial(
-                process_event,
-                url=ev["link"],
-                url_num=i,
-                tag=ev["tag"],
-            )
-
-            stream_url = await network.safe_process(
-                handler,
-                url_num=i,
-                semaphore=network.HTTP_S,
-                log=log,
-            )
-
-            if not stream_url:
-                log.warning(f"Event {i}) No stream found for: {ev['event']}")
+    for tag, base in BASE_URL.items():
+        for node in soup.css("a"):
+            if not node.attributes.get("class"):
                 continue
 
-            key = f"[{ev['sport']}] {ev['event']} ({ev['tag']})"
-            tvg_id, logo = leagues.get_tvg_info(ev["sport"], ev["event"])
+            if (parent := node.parent) and "my-1" in parent.attributes.get("class", ""):
+                if span := node.css_first("span"):
+                    sport = span.text(strip=True)
 
-            entry = {
-                "url": stream_url,
-                "logo": logo,
-                "base": ev["link"],
-                "timestamp": now.timestamp(),
-                "id": tvg_id or "Live.Event.us",
-                "link": ev["link"],
-                "sport": ev["sport"],
-            }
+            sport = fix_txt(sport)
 
-            cached_urls[key] = entry
-            urls[key] = entry
-            valid_count += 1
-            log.info(f"Event {i}) ✓ Captured: {ev['event']}")
+            teams = [t.text(strip=True) for t in node.css(".col-7 .col-12")]
+            if not teams:
+                continue
 
-        log.info(f"Collected and cached {valid_count - cached_count} new event(s)")
+            href = node.attributes.get("href")
+            if not href:
+                continue
 
-    else:
-        log.info("No new events found")
+            href = urlparse(href).path if href.startswith("http") else href
 
-    CACHE_FILE.write(cached_urls)
-    
-    # Generate playlists only with valid URLs
-    valid_events = {k: v for k, v in urls.items() if v.get("url")}
-    
-    if valid_events:
-        vlc_count = generate_vlc_playlist(valid_events)
-        tivimate_count = generate_tivimate_playlist(valid_events)
-        log.info(f"Final playlist size: {len(valid_events)} events")
-        log.info(f"Total written: {vlc_count + tivimate_count}")
-    else:
-        log.warning("No valid events to generate playlists")
-        with open(OUTPUT_VLC, "w") as f:
-            f.write("#EXTM3U\n# No events available\n")
-        with open(OUTPUT_TIVIMATE, "w") as f:
-            f.write("#EXTM3U\n# No events available\n")
+            time_node = node.css_first(".col-3 span")
+            if not time_node:
+                continue
+
+            if time_node.text(strip=True).lower() != "matchstarted":
+                continue
+
+            event_name = fix_txt(" vs ".join(teams))
+            key = f"[{sport}] {event_name} ({tag})"
+
+            if key in cached_keys:
+                continue
+
+            events.append({
+                "sport": sport,
+                "event": event_name,
+                "tag": tag,
+                "link": urljoin(base, href),
+            })
+
+    return events
 
 
-async def main():
-    log.info("Starting TPK scraper")
-    await scrape()
-    log.info("TPK scraper completed")
+# 🔥 OUTPUT GENERATORS
+def write_outputs(data: dict):
+    ua = "Mozilla/5.0"
+
+    vlc = ["#EXTM3U"]
+    tivimate = ["#EXTM3U"]
+
+    ch = 200
+
+    for name, d in data.items():
+        if not d.get("url"):
+            continue
+
+        url = d["url"]
+        link = d["link"]
+
+        tvg = d.get("id", "Live.Event.us")
+        logo = d.get("logo", "")
+
+        # VLC
+        vlc.append(
+            f'#EXTINF:-1 tvg-chno="{ch}" tvg-id="{tvg}" tvg-name="{name}" tvg-logo="{logo}" group-title="Live Events",{name}'
+        )
+        vlc.append(f"#EXTVLCOPT:http-referrer={link}")
+        vlc.append(f"#EXTVLCOPT:http-origin={link}")
+        vlc.append(f"#EXTVLCOPT:http-user-agent={ua}")
+        vlc.append(url)
+
+        # Tivimate
+        tivimate.append(
+            f'#EXTINF:-1 tvg-chno="{ch}" tvg-id="{tvg}" tvg-name="{name}" tvg-logo="{logo}" group-title="Live Events",{name}'
+        )
+        tivimate.append(
+            f"{url}|referer={link}|origin={link}|user-agent=Mozilla%2F5.0"
+        )
+
+        ch += 1
+
+    with open("tpk_vlc.m3u8", "w", encoding="utf-8") as f:
+        f.write("\n".join(vlc))
+
+    with open("tpk_tivimate.m3u8", "w", encoding="utf-8") as f:
+        f.write("\n".join(tivimate))
+
+
+async def scrape():
+    cached = CACHE_FILE.load()
+
+    log.info("Fetching events...")
+    events = await get_events(cached.keys())
+    log.info(f"Found {len(events)} events")
+
+    now = Time.clean(Time.now())
+
+    tasks = []
+    for i, ev in enumerate(events, 1):
+        log.info(f"Processing: {ev['event']}")
+        tasks.append(process_event(ev["link"], i, ev["tag"]))
+
+    results = await asyncio.gather(*tasks)
+
+    for ev, stream in zip(events, results):
+        key = f"[{ev['sport']}] {ev['event']} ({ev['tag']})"
+        tvg_id, logo = leagues.get_tvg_info(ev["sport"], ev["event"])
+
+        cached[key] = {
+            "url": stream,
+            "logo": logo,
+            "link": ev["link"],
+            "id": tvg_id or "Live.Event.us",
+            "timestamp": now.timestamp(),
+        }
+
+    CACHE_FILE.write(cached)
+
+    write_outputs(cached)
 
 
 if __name__ == "__main__":
-    import asyncio
-    asyncio.run(main())
+    asyncio.run(scrape())
