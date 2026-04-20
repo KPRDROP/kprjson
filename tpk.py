@@ -1,164 +1,151 @@
+import asyncio
 import json
 import re
-import asyncio
-from functools import partial
 from urllib.parse import urlparse
 
-from selectolax.parser import HTMLParser
+from playwright.async_api import async_playwright
 
-from utils import Cache, Time, get_logger, leagues, network
+from utils import Cache, get_logger
 
 log = get_logger(__name__)
 
 CACHE_FILE = Cache("TPK", exp=28_800)
 
+urls = {}
 
-# 🔥 IMPROVED extractor
-async def extract_stream(ifr_src: str, referer: str, url_num: int):
-    if not ifr_src:
-        return None
 
-    data = await network.request(ifr_src, headers={"Referer": referer}, log=log)
-    if not data:
-        return None
+# ---------------------------
+# PLAYWRIGHT STREAM CAPTURE
+# ---------------------------
+async def get_stream_playwright(page_url: str) -> str | None:
+    try:
+        async with async_playwright() as p:
+            browser = await p.chromium.launch(headless=True)
+            context = await browser.new_context(
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+            )
+            page = await context.new_page()
 
-    text = data.text
+            m3u8_url = None
 
-    # ✅ direct m3u8
-    m = re.search(r'https?://[^"\']+\.m3u8[^"\']*', text)
-    if m:
-        log.info(f"{url_num}) direct m3u8")
-        return m.group(0)
+            def handle_response(response):
+                nonlocal m3u8_url
+                url = response.url
+                if ".m3u8" in url:
+                    m3u8_url = url
 
-    # ✅ currentStreamUrl
-    m = re.search(r'currentStreamUrl\s*=\s*"([^"]+)"', text)
-    if m:
-        log.info(f"{url_num}) currentStreamUrl")
-        return json.loads(f'"{m.group(1)}"')
+            page.on("response", handle_response)
 
-    # ✅ hex encoded
-    m = re.search(r'(?:var|const)\s+\w+\s*=\s*"([0-9a-fA-F]+)"', text)
-    if m:
-        try:
-            decoded = bytes.fromhex(m.group(1)).decode()
-            if ".m3u8" in decoded:
-                log.info(f"{url_num}) hex decoded")
-                return decoded
-        except:
-            pass
+            log.info(f"Opening page: {page_url}")
 
-    # ✅ jwplayer
-    m = re.search(r'file\s*:\s*"([^"]+\.m3u8[^"]*)"', text)
-    if m:
-        log.info(f"{url_num}) jwplayer")
-        return m.group(1)
+            await page.goto(page_url, timeout=60000)
+
+            # Wait for iframe
+            await page.wait_for_timeout(3000)
+
+            # Try clicking play buttons / overlays
+            try:
+                await page.mouse.click(500, 400)
+                await page.wait_for_timeout(2000)
+                await page.mouse.click(500, 400)
+            except:
+                pass
+
+            # Wait for network
+            await page.wait_for_timeout(8000)
+
+            await browser.close()
+
+            if m3u8_url:
+                log.info(f"Captured stream: {m3u8_url}")
+                return m3u8_url
+
+    except Exception as e:
+        log.warning(f"Playwright error: {e}")
 
     return None
 
 
-# 🔥 FIX: scan ALL iframes
-async def process_event(url: str, url_num: int):
-    data = await network.request(url, log=log)
-    if not data:
-        log.warning(f"{url_num}) page failed")
-        return None
+# ---------------------------
+# LOAD JSON EVENTS
+# ---------------------------
+def load_events():
+    data = CACHE_FILE.load()
 
-    soup = HTMLParser(data.content)
+    log.info(f"Loaded {len(data)} events from tpk.json")
 
-    for ifr in soup.css("iframe"):
-        src = ifr.attributes.get("src")
-        if not src:
+    return data
+
+
+# ---------------------------
+# BUILD M3U OUTPUT
+# ---------------------------
+def build_outputs(entries):
+    vlc_lines = ["#EXTM3U"]
+    tivimate_lines = ["#EXTM3U"]
+
+    for name, data in entries.items():
+        url = data.get("url")
+        if not url:
             continue
 
-        stream = await extract_stream(src, url, url_num)
-        if stream:
-            return stream
+        logo = data.get("logo", "")
+        tvg_id = data.get("id", "Live.Event.us")
 
-    log.warning(f"NO STREAM FOUND: {url}")
-    return None
-
-
-# 🔥 LOAD FROM JSON INSTEAD OF WEBSITE
-def load_events_from_cache():
-    cached = CACHE_FILE.load()
-
-    events = []
-    for name, data in cached.items():
-        if not data.get("link"):
-            continue
-
-        events.append({
-            "name": name,
-            "link": data["link"],
-            "id": data.get("id", "Live.Event.us"),
-            "logo": data.get("logo", ""),
-        })
-
-    return cached, events
-
-
-# 🔥 OUTPUT FILES
-def write_outputs(data):
-    vlc = ["#EXTM3U"]
-    tivimate = ["#EXTM3U"]
-
-    ch = 200
-
-    for name, d in data.items():
-        if not d.get("url"):
-            continue
-
-        url = d["url"]
-        link = d["link"]
-        tvg = d["id"]
-        logo = d["logo"]
-
-        vlc.append(
-            f'#EXTINF:-1 tvg-chno="{ch}" tvg-id="{tvg}" tvg-name="{name}" tvg-logo="{logo}" group-title="Live Events",{name}'
+        vlc_lines.append(
+            f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}",{name}'
         )
-        vlc.append(f"#EXTVLCOPT:http-referrer={link}")
-        vlc.append(f"#EXTVLCOPT:http-origin={link}")
-        vlc.append(f"#EXTVLCOPT:http-user-agent=Mozilla/5.0")
-        vlc.append(url)
+        vlc_lines.append(url)
 
-        tivimate.append(
-            f'#EXTINF:-1 tvg-chno="{ch}" tvg-id="{tvg}" tvg-name="{name}" tvg-logo="{logo}" group-title="Live Events",{name}'
+        tivimate_lines.append(
+            f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}",{name}'
         )
-        tivimate.append(
-            f"{url}|referer={link}|origin={link}|user-agent=Mozilla%2F5.0"
+        tivimate_lines.append(
+            f'{url}|user-agent=Mozilla/5.0'
         )
-
-        ch += 1
 
     with open("tpk_vlc.m3u8", "w", encoding="utf-8") as f:
-        f.write("\n".join(vlc))
+        f.write("\n".join(vlc_lines))
 
-    with open("tpk_tivimate.m3u8", "w", encoding="utf-8") as f:
-        f.write("\n".join(tivimate))
+    with open("tpk.tivimate.m3u8", "w", encoding="utf-8") as f:
+        f.write("\n".join(tivimate_lines))
 
 
+# ---------------------------
+# MAIN SCRAPER
+# ---------------------------
 async def scrape():
-    cached, events = load_events_from_cache()
+    events = load_events()
 
-    log.info(f"Loaded {len(events)} events from tpk.json")
+    updated = 0
 
-    tasks = []
-    for i, ev in enumerate(events, 1):
-        log.info(f"Processing: {ev['name']}")
-        tasks.append(process_event(ev["link"], i))
+    for i, (name, data) in enumerate(events.items(), start=1):
+        if data.get("url"):
+            continue
 
-    results = await asyncio.gather(*tasks)
+        link = data.get("link")
+        if not link:
+            continue
 
-    now = Time.clean(Time.now())
+        log.info(f"Processing: {name}")
 
-    for ev, stream in zip(events, results):
-        cached[ev["name"]]["url"] = stream
-        cached[ev["name"]]["timestamp"] = now.timestamp()
+        stream = await get_stream_playwright(link)
 
-    CACHE_FILE.write(cached)
+        if stream:
+            data["url"] = stream
+            updated += 1
+        else:
+            log.warning(f"NO STREAM FOUND: {link}")
 
-    write_outputs(cached)
+    CACHE_FILE.write(events)
+
+    log.info(f"Updated {updated} streams")
+
+    build_outputs(events)
 
 
+# ---------------------------
+# ENTRY
+# ---------------------------
 if __name__ == "__main__":
     asyncio.run(scrape())
