@@ -82,5 +82,89 @@
     "id": "Live.Event.us",
     "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
     "timestamp": 1776644294.72562
+  },
+  "[F1] NASCAR Kansas Speedway vs Live (TPK)": {
+    "url": null,
+    "logo": "https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png",
+    "link": "https://live.totalsportek.fyi/NASCAR-Kansas-Speedway-vs-Live/59185",
+    "id": "Racing.Dummy.us",
+    "timestamp": 1776644580.0
+  },
+  "[WWE] WWE vs Monday Night RAW (TPK)": {
+    "url": null,
+    "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
+    "link": "https://live.totalsportek.fyi/WWE-vs-Monday-Night-RAW/62672",
+    "id": "PPV.EVENTS.Dummy.us",
+    "timestamp": 1776644580.0
+  },
+  "[TENNIS] Munich BMW Open vs Tennis (TPK)": {
+    "url": null,
+    "logo": "https://i.gyazo.com/b5e83afc3a75dacfb831abe975fd3821.png",
+    "link": "https://live.totalsportek.fyi/Munich-BMW-Open-vs-Tennis/63296",
+    "id": "Tennis.Dummy.us",
+    "timestamp": 1776644580.0
+  },
+  "[TENNIS] Barcelona Open vs Tennis (TPK)": {
+    "url": null,
+    "logo": "https://i.gyazo.com/b5e83afc3a75dacfb831abe975fd3821.png",
+    "link": "https://live.totalsportek.fyi/Barcelona-Open-vs-Tennis/63297",
+    "id": "Tennis.Dummy.us",
+    "timestamp": 1776644580.0
+  },
+  "[NHL] Golden Knights vs Mammoth (TPK)": {
+    "url": null,
+    "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png",
+    "link": "https://live.totalsportek.fyi/Golden-Knights-vs-Mammoth/66678",
+    "id": "NHL.Hockey.Dummy.us",
+    "timestamp": 1776644580.0
+  },
+  "[NHL] Sabres vs Bruins (TPK)": {
+    "url": null,
+    "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png",
+    "link": "https://live.totalsportek.fyi/Sabres-vs-Bruins/66677",
+    "id": "NHL.Hockey.Dummy.us",
+    "timestamp": 1776644580.0
+  },
+  "[MLS] Los Angeles FC vs San Jose Earthquakes (TPK)": {
+    "url": null,
+    "logo": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/19.png",
+    "link": "https://live.totalsportek.fyi/Los-Angeles-FC-vs-San-Jose-Earthquakes/61340",
+    "id": "Soccer.Dummy.us",
+    "timestamp": 1776644580.0
+  },
+  "[MLB] Kansas City Royals vs Philadelphia Phillies (TPK)": {
+    "url": null,
+    "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png",
+    "link": "https://live.totalsportek.fyi/Kansas-City-Royals-vs-Philadelphia-Phillies/65976",
+    "id": "MLB.Baseball.Dummy.us",
+    "timestamp": 1776644580.0
+  },
+  "[MLB] Philadelphia Phillies vs Atlanta Braves (TPK)": {
+    "url": null,
+    "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png",
+    "link": "https://live.totalsportek.fyi/Philadelphia-Phillies-vs-Atlanta-Braves/61399",
+    "id": "MLB.Baseball.Dummy.us",
+    "timestamp": 1776644580.0
+  },
+  "[International Friendlies] Mexico Legends vs Brazil Legends (TPK)": {
+    "url": null,
+    "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
+    "link": "https://live.totalsportek.fyi/Mexico-Legends-vs-Brazil-Legends/66832",
+    "id": "Live.Event.us",
+    "timestamp": 1776644580.0
+  },
+  "[NBA] Detroit Pistons vs Orlando Magic (TPK)": {
+    "url": null,
+    "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png",
+    "link": "https://live.totalsportek.fyi/Detroit-Pistons-vs-Orlando-Magic/66834",
+    "id": "NBA.Basketball.Dummy.us",
+    "timestamp": 1776644580.0
+  },
+  "[NBA] San Antonio Spurs vs Portland Trail Blazers (TPK)": {
+    "url": null,
+    "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png",
+    "link": "https://live.totalsportek.fyi/San-Antonio-Spurs-vs-Portland-Trail-Blazers/66568",
+    "id": "NBA.Basketball.Dummy.us",
+    "timestamp": 1776644580.0
   }
 }
