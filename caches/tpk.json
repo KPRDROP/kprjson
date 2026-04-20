@@ -1,23 +1,86 @@
 {
-  "[Live Event] Oklahoma City Thunder vs Phoenix Suns (TPK)": {
-    "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
-    "link": "https://live.totalsportek.fyi/Oklahoma-City-Thunder-vs-Phoenix-Suns/66833",
+  "[Live Event] WWE vs Monday Night RAW (TPK)": {
+    "url": null,
+    "link": "https://live.totalsportek.fyi/WWE-vs-Monday-Night-RAW/62672",
     "id": "Live.Event.us",
     "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
-    "timestamp": 1776629636.658227
+    "timestamp": 1776644293.99753
   },
-  "[Live Event] Detroit Pistons vs Orlando Magic (TPK)": {
-    "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
-    "link": "https://live.totalsportek.fyi/Detroit-Pistons-vs-Orlando-Magic/66834",
+  "[Live Event] Philadelphia Phillies vs Atlanta Braves (TPK)": {
+    "url": null,
+    "link": "https://live.totalsportek.fyi/Philadelphia-Phillies-vs-Atlanta-Braves/61399",
     "id": "Live.Event.us",
     "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
-    "timestamp": 1776642682.625618
+    "timestamp": 1776644294.346135
+  },
+  "[Live Event] Mexico Legends vs Brazil Legends (TPK)": {
+    "url": null,
+    "link": "https://live.totalsportek.fyi/Mexico-Legends-vs-Brazil-Legends/66832",
+    "id": "Live.Event.us",
+    "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
+    "timestamp": 1776644294.363351
+  },
+  "[Live Event] Golden Knights vs Mammoth (TPK)": {
+    "url": null,
+    "link": "https://live.totalsportek.fyi/Golden-Knights-vs-Mammoth/66678",
+    "id": "Live.Event.us",
+    "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
+    "timestamp": 1776644294.379468
+  },
+  "[Live Event] Sabres vs Bruins (TPK)": {
+    "url": null,
+    "link": "https://live.totalsportek.fyi/Sabres-vs-Bruins/66677",
+    "id": "Live.Event.us",
+    "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
+    "timestamp": 1776644294.427103
+  },
+  "[Live Event] Los Angeles FC vs San Jose Earthquakes (TPK)": {
+    "url": null,
+    "link": "https://live.totalsportek.fyi/Los-Angeles-FC-vs-San-Jose-Earthquakes/61340",
+    "id": "Live.Event.us",
+    "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
+    "timestamp": 1776644294.441792
+  },
+  "[Live Event] Kansas City Royals vs Philadelphia Phillies (TPK)": {
+    "url": null,
+    "link": "https://live.totalsportek.fyi/Kansas-City-Royals-vs-Philadelphia-Phillies/65976",
+    "id": "Live.Event.us",
+    "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
+    "timestamp": 1776644294.456673
+  },
+  "[Live Event] Barcelona Open vs Tennis (TPK)": {
+    "url": null,
+    "link": "https://live.totalsportek.fyi/Barcelona-Open-vs-Tennis/63297",
+    "id": "Live.Event.us",
+    "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
+    "timestamp": 1776644294.480804
+  },
+  "[Live Event] Munich BMW Open vs Tennis (TPK)": {
+    "url": null,
+    "link": "https://live.totalsportek.fyi/Munich-BMW-Open-vs-Tennis/63296",
+    "id": "Live.Event.us",
+    "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
+    "timestamp": 1776644294.495606
+  },
+  "[Live Event] NASCAR Kansas Speedway vs Live (TPK)": {
+    "url": null,
+    "link": "https://live.totalsportek.fyi/NASCAR-Kansas-Speedway-vs-Live/59185",
+    "id": "Live.Event.us",
+    "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
+    "timestamp": 1776644294.509744
   },
   "[Live Event] San Antonio Spurs vs Portland Trail Blazers (TPK)": {
-    "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+    "url": null,
     "link": "https://live.totalsportek.fyi/San-Antonio-Spurs-vs-Portland-Trail-Blazers/66568",
     "id": "Live.Event.us",
     "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
-    "timestamp": 1776642696.667182
+    "timestamp": 1776644294.720704
+  },
+  "[Live Event] Detroit Pistons vs Orlando Magic (TPK)": {
+    "url": null,
+    "link": "https://live.totalsportek.fyi/Detroit-Pistons-vs-Orlando-Magic/66834",
+    "id": "Live.Event.us",
+    "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
+    "timestamp": 1776644294.72562
   }
 }
