@@ -134,7 +134,10 @@ async def get_api_data() -> dict[str, dict[str, list[dict]]]:
     tasks = [
         (
             sport,
-            network.request(urljoin(url, "api/v2/stateshot"), log=log),
+            network.request(
+                urljoin(url, "api/v2/stateshot"),
+                log=log,
+            ),
         )
         for sport, url in API_URLS.items()
     ]
