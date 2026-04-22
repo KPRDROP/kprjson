@@ -38,12 +38,16 @@ class Network:
     PW_S = asyncio.Semaphore(3)
 
     def __init__(self) -> None:
-        self.client = httpx.AsyncClient(
-            timeout=httpx.Timeout(5.0),
-            follow_redirects=True,
-            headers={"User-Agent": Network.UA},
-            http2=True,
-        )
+        client_params = {
+            "timeout": httpx.Timeout(5.0),
+            "follow_redirects": True,
+            "headers": {"User-Agent": Network.UA},
+            "http2": True,
+        }
+
+        self.client = httpx.AsyncClient(**client_params)
+
+        self.unvd_client = httpx.AsyncClient(**client_params, verify=False)
 
     async def request(
         self,
