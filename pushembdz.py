@@ -1,7 +1,8 @@
 import asyncio
+import json
 import re
 from pathlib import Path
-from urllib.parse import quote_plus
+from urllib.parse import quote_plus, urljoin
 
 from playwright.async_api import async_playwright
 from utils import Cache, Time, get_logger, leagues, network
@@ -22,109 +23,184 @@ UA_ENC = quote_plus(UA)
 
 
 # -------------------------------------------------
-# Extract playable stream (UNCHANGED)
+# Extract stream from embed URL
 # -------------------------------------------------
-async def extract_playable_stream(embed_url: str, url_num: int) -> str | None:
+async def extract_stream_from_embed(embed_url: str, url_num: int) -> str | None:
+    """Extract stream URL from embed page by finding the API response"""
     try:
-        r = await network.request(embed_url, log=log)
-        if r:
-            content = r.text
-
-            css_matches = re.findall(r'(https?://[^\s"\']+\.css[^\s"\']*)', content, re.IGNORECASE)
-
-            for css_url in css_matches:
-                if 'serveplay' in css_url:
-                    css_response = await network.request(css_url, headers={"Referer": embed_url}, log=log)
-                    if css_response:
-                        css_content = css_response.text
-
-                        patterns = [
-                            r'(https?://[^\s"\']+\.js[^\s"\']*)',
-                            r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
-                        ]
-
-                        for pattern in patterns:
-                            matches = re.findall(pattern, css_content, re.IGNORECASE)
-                            for url in matches:
-                                if 'serveplay' in url:
-                                    return url
-
-        async with async_playwright() as p:
-            browser = await p.chromium.launch(headless=True)
-            page = await browser.new_page()
-
-            stream_url = None
-
-            async def handle_request(request):
-                nonlocal stream_url
-                if 'serveplay' in request.url:
-                    stream_url = request.url
-
-            page.on('request', handle_request)
-
+        # Extract the UUID from the embed URL
+        uuid_match = re.search(r'/embed/([a-f0-9-]+)', embed_url)
+        if not uuid_match:
+            log.warning(f"URL {url_num}) Could not extract UUID from embed URL")
+            return None
+        
+        uuid = uuid_match.group(1)
+        
+        # Try the API endpoint directly
+        api_url = f"https://pushembdz.store/api/stream/{uuid}"
+        log.info(f"URL {url_num}) Trying API: {api_url}")
+        
+        api_response = await network.request(api_url, log=log)
+        if api_response:
             try:
-                await page.goto(embed_url, wait_until='networkidle')
-                await asyncio.sleep(3)
-            finally:
-                await browser.close()
-
-            return stream_url
-
+                data = json.loads(api_response.text)
+                stream_url = data.get("link")
+                if stream_url and ('.css' in stream_url or '.js' in stream_url):
+                    log.info(f"URL {url_num}) Captured stream from API: {stream_url[:100]}...")
+                    return stream_url
+            except json.JSONDecodeError:
+                log.debug(f"URL {url_num}) API response not JSON")
+        
+        # Fallback: fetch the embed page and look for the stream
+        response = await network.request(embed_url, log=log)
+        if response:
+            content = response.text
+            
+            # Look for the stream URL in the page
+            stream_patterns = [
+                r'(https?://[^\s"\']+serveplay[^\s"\']+\.css[^\s"\']*)',
+                r'(https?://[^\s"\']+serveplay[^\s"\']+\.js[^\s"\']*)',
+                r'(https?://[^\s"\']+ev01-prod[^\s"\']+\.css[^\s"\']*)',
+                r'(https?://[^\s"\']+ev01-prod[^\s"\']+\.js[^\s"\']*)',
+                r'(https?://[^\s"\']+cloudfront[^\s"\']+\.(?:css|js)[^\s"\']*)',
+            ]
+            
+            for pattern in stream_patterns:
+                matches = re.findall(pattern, content, re.IGNORECASE)
+                for match in matches:
+                    log.info(f"URL {url_num}) Found stream URL in page: {match[:100]}...")
+                    return match
+        
+        return None
+        
     except Exception as e:
-        log.error(f"URL {url_num}) error extracting stream: {e}")
-
-    return None
+        log.error(f"URL {url_num}) Error extracting stream: {e}")
+        return None
 
 
 # -------------------------------------------------
-# ✅ FIXED: Extract events using Playwright (JS render)
+# Extract stream using Playwright (fallback)
+# -------------------------------------------------
+async def extract_stream_with_playwright(embed_url: str, url_num: int) -> str | None:
+    """Extract stream URL using Playwright to capture API responses"""
+    stream_url = None
+    
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(
+            headless=True,
+            args=["--no-sandbox", "--disable-dev-shm-usage"]
+        )
+        page = await browser.new_page()
+        
+        async def handle_response(response):
+            nonlocal stream_url
+            url = response.url
+            
+            # Look for API responses
+            if 'pushembdz.store/api/stream' in url:
+                try:
+                    body = await response.text()
+                    data = json.loads(body)
+                    if data.get("link"):
+                        stream_url = data["link"]
+                        log.info(f"URL {url_num}) Captured from API response: {stream_url[:100]}...")
+                except:
+                    pass
+            
+            # Look for stream URLs in responses
+            if any(x in url for x in ['.css', '.js']) and any(x in url for x in ['serveplay', 'ev01-prod', 'cloudfront']):
+                stream_url = url
+                log.info(f"URL {url_num}) Captured stream from response: {url[:100]}...")
+        
+        page.on('response', handle_response)
+        
+        try:
+            await page.goto(embed_url, wait_until='networkidle', timeout=30000)
+            await asyncio.sleep(5)
+            
+        except Exception as e:
+            log.error(f"URL {url_num}) Playwright error: {e}")
+        finally:
+            await browser.close()
+    
+    return stream_url
+
+
+# -------------------------------------------------
+# Extract events from homepage using Playwright
 # -------------------------------------------------
 async def get_events(cached_hrefs: set[str]) -> list[dict]:
+    """Extract events from the homepage using Playwright"""
     events = []
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
+        browser = await p.chromium.launch(
+            headless=True,
+            args=["--no-sandbox", "--disable-dev-shm-usage"]
+        )
         page = await browser.new_page()
 
         try:
             await page.goto(BASE_URL, wait_until="networkidle", timeout=60000)
-
+            
             # Wait for content to render
             await asyncio.sleep(5)
-
-            # Get all event cards
+            
+            # Find all event cards - look for h3 elements with titles
             cards = await page.query_selector_all("h3")
-
+            
             for card in cards:
                 title = await card.get_attribute("title")
-
                 if not title:
+                    title = await card.inner_text()
+                
+                if not title or not title.strip():
                     continue
-
-                # Find embed URL near this card
-                parent = await card.evaluate_handle("el => el.parentElement")
-
+                
+                title = title.strip()
+                
+                # Find the code element containing the embed URL
+                # The embed URL is usually in a code tag near the h3
+                parent = await card.evaluate_handle("el => el.closest('div')")
                 code_el = await parent.query_selector("code")
-
+                
                 if not code_el:
-                    continue
-
-                embed_url = (await code_el.inner_text()).strip()
-
+                    # Try to find code in siblings
+                    siblings = await page.evaluate_handle("""
+                        (el) => {
+                            const parent = el.parentElement;
+                            if (parent) {
+                                const code = parent.querySelector('code');
+                                return code ? code.innerText : null;
+                            }
+                            return null;
+                        }
+                    """, card)
+                    
+                    if siblings:
+                        embed_url = str(siblings).strip()
+                    else:
+                        continue
+                else:
+                    embed_url = await code_el.inner_text()
+                    embed_url = embed_url.strip()
+                
                 if "pushembdz.store/embed" not in embed_url:
                     continue
-
+                
                 event_id = embed_url.split("/")[-1]
-
+                
                 if event_id in cached_hrefs:
                     continue
-
+                
                 events.append({
-                    "event": title.strip(),
+                    "event": title,
                     "embed": embed_url,
                     "href": event_id,
                     "logo": "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png"
                 })
+                
+                log.info(f"Found event: {title[:50]}... -> {embed_url[:60]}...")
 
         except Exception as e:
             log.error(f"Error extracting events: {e}")
@@ -140,9 +216,21 @@ async def get_events(cached_hrefs: set[str]) -> list[dict]:
 # -------------------------------------------------
 def build_playlist(data: dict[str, dict]) -> str:
     lines = ["#EXTM3U"]
+    lines.append(f"# Playlist generated by {TAG} Scraper - {Time.clean(Time.now()).strftime('%Y-%m-%d %H:%M:%S')}")
+    lines.append("")
     chno = 1
 
     for title, info in data.items():
+        stream_url = info["url"]
+        
+        # Extract domain for referer/origin
+        if 'serveplay' in stream_url or 'ev01-prod' in stream_url:
+            referer = "https://pushembdz.store/"
+            origin = "https://pushembdz.store"
+        else:
+            referer = BASE_URL
+            origin = BASE_URL
+        
         lines.append(
             f'#EXTINF:-1 tvg-chno="{chno}" '
             f'tvg-id="{info["id"]}" '
@@ -150,14 +238,13 @@ def build_playlist(data: dict[str, dict]) -> str:
             f'tvg-logo="{info["logo"]}" '
             f'group-title="Live Events",{title}'
         )
-
         lines.append(
-            f'{info["url"]}'
-            f'|referer={BASE_URL}'
-            f'|origin={BASE_URL}'
+            f'{stream_url}'
+            f'|referer={referer}'
+            f'|origin={origin}'
             f'|user-agent={UA_ENC}'
         )
-
+        lines.append("")
         chno += 1
 
     return "\n".join(lines) + "\n"
@@ -170,24 +257,36 @@ async def scrape():
     cached = CACHE_FILE.load() or {}
     urls = dict(cached)
 
-    cached_hrefs = {v.get("href") for v in urls.values()}
+    cached_hrefs = {v.get("href") for v in urls.values() if v.get("href")}
 
     log.info(f"Loaded {len(urls)} cached events")
 
     events = await get_events(cached_hrefs)
 
-    if not events and not urls:
+    if not events:
         log.warning("No events found")
+        if urls:
+            playlist = build_playlist(urls)
+            OUTPUT_FILE.write_text(playlist, encoding="utf-8")
+            log.info(f"Playlist written from cache: {OUTPUT_FILE}")
         return
 
     now_ts = Time.clean(Time.now()).timestamp()
+    new_events_count = 0
 
     for i, ev in enumerate(events, start=1):
-        log.info(f"Processing {i}/{len(events)}: {ev['event']}")
-
-        stream = await extract_playable_stream(ev["embed"], i)
-
+        log.info(f"Processing {i}/{len(events)}: {ev['event'][:60]}...")
+        
+        # Try direct API call first
+        stream = await extract_stream_from_embed(ev["embed"], i)
+        
+        # If direct fails, try Playwright
         if not stream:
+            log.debug(f"Event {i}) Trying Playwright...")
+            stream = await extract_stream_with_playwright(ev["embed"], i)
+        
+        if not stream:
+            log.warning(f"Event {i}) No stream found for: {ev['event'][:50]}...")
             continue
 
         title = f"[EVENT] {ev['event']} ({TAG})"
@@ -201,16 +300,23 @@ async def scrape():
             "id": tvg_id or "Live.Event.us",
             "href": ev["href"],
         }
+        new_events_count += 1
+        log.info(f"Event {i}) ✓ Captured: {ev['event'][:50]}... -> {stream[:80]}...")
 
         await asyncio.sleep(1)
 
-    if urls:
+    if new_events_count > 0:
         CACHE_FILE.write(urls)
+        log.info(f"Added {new_events_count} new events to cache")
 
+    # Write playlist
+    if urls:
         playlist = build_playlist(urls)
         OUTPUT_FILE.write_text(playlist, encoding="utf-8")
-
-        log.info(f"Playlist written: {OUTPUT_FILE}")
+        log.info(f"Playlist written: {OUTPUT_FILE} with {len(urls)} events")
+    else:
+        log.warning("No events to write to playlist")
+        OUTPUT_FILE.write_text("#EXTM3U\n# No events available\n", encoding="utf-8")
 
 
 # -------------------------------------------------
@@ -219,6 +325,7 @@ async def scrape():
 async def main():
     log.info("Starting PUSHEMBDZ scraper")
     await scrape()
+    log.info("PUSHEMBDZ scraper completed")
 
 
 if __name__ == "__main__":
