@@ -270,7 +270,6 @@ class Network:
                 log.warning(
                     f"URL {url_num}) Status Code: {resp.status if resp else 'None'}"
                 )
-
                 return
 
             wait_task = asyncio.create_task(got_one.wait())
@@ -279,7 +278,6 @@ class Network:
                 await asyncio.wait_for(wait_task, timeout=timeout)
             except asyncio.TimeoutError:
                 log.warning(f"URL {url_num}) Timed out waiting for M3U8.")
-
                 return
 
             finally:
@@ -293,16 +291,10 @@ class Network:
 
             if captured:
                 log.info(f"URL {url_num}) Captured M3U8")
-
                 return captured[0]
-
-            log.warning(f"URL {url_num}) No M3U8 captured after waiting.")
-
-            return
 
         except Exception as e:
             log.warning(f"URL {url_num}) {e}")
-
             return
 
         finally:
