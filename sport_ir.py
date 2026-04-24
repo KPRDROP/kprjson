@@ -182,9 +182,7 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
         for game in data.get("games", {}):
             game_id = game["id"]
 
-            game_time = game["datetime"]
-
-            event_dt = Time.from_str(game_time, timezone="UTC")
+            event_dt = Time.fromisoformat(game["datetime"]).to_tz("EST")
 
             if not start_dt <= event_dt <= end_dt:
                 continue
