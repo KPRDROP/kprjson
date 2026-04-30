@@ -23,7 +23,7 @@ jobs:
 
       - name:  Install deps
         run: |
-          pip install playwright selectolax
+          pip install playwright selectolax httpx[http2] pytz
           python -m playwright install chromium
 
       - name:  Run Updater
