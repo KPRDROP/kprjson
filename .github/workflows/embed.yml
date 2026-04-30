@@ -1,4 +1,4 @@
-name: EMBED Stream Scraper
+name: EMBED Stream Updater
 
 on:
   schedule:
@@ -70,7 +70,7 @@ jobs:
           playwright install chromium
           playwright install-deps chromium || true
       
-      - name: Run EMBED scraper
+      - name: Run EMBED updater
         run: python embed.py
         continue-on-error: true
       
