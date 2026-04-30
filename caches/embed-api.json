@@ -1,0 +1,1160 @@
+{
+  "meta": {
+    "now_et": "2026-04-30 15:46",
+    "now_ts_et": 1777578385,
+    "total": 64,
+    "returned": 64,
+    "live": 9,
+    "filter": {
+      "cat": null,
+      "league": null,
+      "hours": 8,
+      "group": "day",
+      "limit": 500,
+      "offset": 0
+    },
+    "window_from_et": "2026-04-30 12:15",
+    "window_from_ts_et": 1777565700,
+    "window_to_et": "2026-06-14 22:00",
+    "window_to_ts_et": 1781488800
+  },
+  "days": [
+    {
+      "day_et": "2026-04-30",
+      "count": 18,
+      "items": [
+        {
+          "id": 22052,
+          "league": "mlb",
+          "title": "Atlanta Braves - Detroit Tigers",
+          "when_et": "2026-04-30 12:15",
+          "ts_et": 1777565700,
+          "status": "LIVE",
+          "hds": [
+            601
+          ],
+          "streams": [
+            {
+              "hd": 601,
+              "link": "https://embedhd.org/source/fetch.php?hd=601"
+            }
+          ]
+        },
+        {
+          "id": 22053,
+          "league": "mlb",
+          "title": "Baltimore Orioles - Houston Astros",
+          "when_et": "2026-04-30 12:35",
+          "ts_et": 1777566900,
+          "status": "LIVE",
+          "hds": [
+            602
+          ],
+          "streams": [
+            {
+              "hd": 602,
+              "link": "https://embedhd.org/source/fetch.php?hd=602"
+            }
+          ]
+        },
+        {
+          "id": 22054,
+          "league": "mlb",
+          "title": "Pittsburgh Pirates - St. Louis Cardinals",
+          "when_et": "2026-04-30 12:35",
+          "ts_et": 1777566900,
+          "status": "LIVE",
+          "hds": [
+            621
+          ],
+          "streams": [
+            {
+              "hd": 621,
+              "link": "https://embedhd.org/source/fetch.php?hd=621"
+            }
+          ]
+        },
+        {
+          "id": 22071,
+          "league": "mlb",
+          "title": "Philadelphia Phillies - San Francisco Giants",
+          "when_et": "2026-04-30 12:35",
+          "ts_et": 1777566900,
+          "status": "LIVE",
+          "hds": [
+            620
+          ],
+          "streams": [
+            {
+              "hd": 620,
+              "link": "https://embedhd.org/source/fetch.php?hd=620"
+            }
+          ]
+        },
+        {
+          "id": 22055,
+          "league": "mlb",
+          "title": "Cincinnati Reds - Colorado Rockies",
+          "when_et": "2026-04-30 12:40",
+          "ts_et": 1777567200,
+          "status": "LIVE",
+          "hds": [
+            606
+          ],
+          "streams": [
+            {
+              "hd": 606,
+              "link": "https://embedhd.org/source/fetch.php?hd=606"
+            }
+          ]
+        },
+        {
+          "id": 22056,
+          "league": "mlb",
+          "title": "Philadelphia Phillies - San Francisco Giants",
+          "when_et": "2026-04-30 13:05",
+          "ts_et": 1777568700,
+          "status": "LIVE",
+          "hds": [
+            620
+          ],
+          "streams": [
+            {
+              "hd": 620,
+              "link": "https://embedhd.org/source/fetch.php?hd=620"
+            }
+          ]
+        },
+        {
+          "id": 22057,
+          "league": "mlb",
+          "title": "New York Mets - Washington Nationals",
+          "when_et": "2026-04-30 13:10",
+          "ts_et": 1777569000,
+          "status": "LIVE",
+          "hds": [
+            617
+          ],
+          "streams": [
+            {
+              "hd": 617,
+              "link": "https://embedhd.org/source/fetch.php?hd=617"
+            }
+          ]
+        },
+        {
+          "id": 22058,
+          "league": "mlb",
+          "title": "Milwaukee Brewers - Arizona Diamondbacks",
+          "when_et": "2026-04-30 13:40",
+          "ts_et": 1777570800,
+          "status": "LIVE",
+          "hds": [
+            615
+          ],
+          "streams": [
+            {
+              "hd": 615,
+              "link": "https://embedhd.org/source/fetch.php?hd=615"
+            }
+          ]
+        },
+        {
+          "id": 22059,
+          "league": "mlb",
+          "title": "Athletics - Kansas City Royals",
+          "when_et": "2026-04-30 15:05",
+          "ts_et": 1777575900,
+          "status": "LIVE",
+          "hds": [
+            619
+          ],
+          "streams": [
+            {
+              "hd": 619,
+              "link": "https://embedhd.org/source/fetch.php?hd=619"
+            }
+          ]
+        },
+        {
+          "id": 22072,
+          "league": "mlb",
+          "title": "Baltimore Orioles - Houston Astros",
+          "when_et": "2026-04-30 16:05",
+          "ts_et": 1777579500,
+          "status": "UPCOMING",
+          "hds": [
+            602
+          ],
+          "streams": [
+            {
+              "hd": 602,
+              "link": "https://embedhd.org/source/fetch.php?hd=602"
+            }
+          ]
+        },
+        {
+          "id": 22073,
+          "league": "mlb",
+          "title": "Philadelphia Phillies - San Francisco Giants",
+          "when_et": "2026-04-30 17:35",
+          "ts_et": 1777584900,
+          "status": "UPCOMING",
+          "hds": [
+            620
+          ],
+          "streams": [
+            {
+              "hd": 620,
+              "link": "https://embedhd.org/source/fetch.php?hd=620"
+            }
+          ]
+        },
+        {
+          "id": 22046,
+          "league": "nba",
+          "title": "Atlanta Hawks - New York Knicks",
+          "when_et": "2026-04-30 19:00",
+          "ts_et": 1777590000,
+          "status": "UPCOMING",
+          "hds": [
+            501
+          ],
+          "streams": [
+            {
+              "hd": 501,
+              "link": "https://embedhd.org/source/fetch.php?hd=501"
+            }
+          ]
+        },
+        {
+          "id": 22049,
+          "league": "wnba",
+          "title": "Indiana Fever - Dallas Wings",
+          "when_et": "2026-04-30 19:00",
+          "ts_et": 1777590000,
+          "status": "UPCOMING",
+          "hds": [
+            704
+          ],
+          "streams": [
+            {
+              "hd": 704,
+              "link": "https://embedhd.org/source/fetch.php?hd=704"
+            }
+          ]
+        },
+        {
+          "id": 22050,
+          "league": "nhl",
+          "title": "Minnesota Wild - Dallas Stars",
+          "when_et": "2026-04-30 19:30",
+          "ts_et": 1777591800,
+          "status": "UPCOMING",
+          "hds": [
+            233
+          ],
+          "streams": [
+            {
+              "hd": 233,
+              "link": "https://embedhd.org/source/fetch.php?hd=233"
+            }
+          ]
+        },
+        {
+          "id": 22060,
+          "league": "mlb",
+          "title": "Minnesota Twins - Toronto Blue Jays",
+          "when_et": "2026-04-30 19:40",
+          "ts_et": 1777592400,
+          "status": "UPCOMING",
+          "hds": [
+            616
+          ],
+          "streams": [
+            {
+              "hd": 616,
+              "link": "https://embedhd.org/source/fetch.php?hd=616"
+            }
+          ]
+        },
+        {
+          "id": 22047,
+          "league": "nba",
+          "title": "Philadelphia 76ers - Boston Celtics",
+          "when_et": "2026-04-30 20:00",
+          "ts_et": 1777593600,
+          "status": "UPCOMING",
+          "hds": [
+            522
+          ],
+          "streams": [
+            {
+              "hd": 522,
+              "link": "https://embedhd.org/source/fetch.php?hd=522"
+            }
+          ]
+        },
+        {
+          "id": 22048,
+          "league": "nba",
+          "title": "Minnesota Timberwolves - Denver Nuggets",
+          "when_et": "2026-04-30 21:30",
+          "ts_et": 1777599000,
+          "status": "UPCOMING",
+          "hds": [
+            517
+          ],
+          "streams": [
+            {
+              "hd": 517,
+              "link": "https://embedhd.org/source/fetch.php?hd=517"
+            }
+          ]
+        },
+        {
+          "id": 22051,
+          "league": "nhl",
+          "title": "Anaheim Ducks - Edmonton Oilers",
+          "when_et": "2026-04-30 22:00",
+          "ts_et": 1777600800,
+          "status": "UPCOMING",
+          "hds": [
+            219
+          ],
+          "streams": [
+            {
+              "hd": 219,
+              "link": "https://embedhd.org/source/fetch.php?hd=219"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day_et": "2026-05-01",
+      "count": 24,
+      "items": [
+        {
+          "id": 21888,
+          "league": "formula 1",
+          "title": "Miami Grand Prix – Free Practice 1",
+          "when_et": "2026-05-01 12:30",
+          "ts_et": 1777653000,
+          "status": "UPCOMING",
+          "hds": [
+            106
+          ],
+          "streams": [
+            {
+              "hd": 106,
+              "link": "https://embedhd.org/source/fetch.php?hd=106"
+            }
+          ]
+        },
+        {
+          "id": 22074,
+          "league": "mlb",
+          "title": "Chicago Cubs - Arizona Diamondbacks",
+          "when_et": "2026-05-01 14:20",
+          "ts_et": 1777659600,
+          "status": "UPCOMING",
+          "hds": [
+            604
+          ],
+          "streams": [
+            {
+              "hd": 604,
+              "link": "https://embedhd.org/source/fetch.php?hd=604"
+            }
+          ]
+        },
+        {
+          "id": 22044,
+          "league": "premier league",
+          "title": "Leeds United - Burnley",
+          "when_et": "2026-05-01 15:00",
+          "ts_et": 1777662000,
+          "status": "UPCOMING",
+          "hds": [
+            20
+          ],
+          "streams": [
+            {
+              "hd": 20,
+              "link": "https://embedhd.org/source/fetch.php?hd=20"
+            }
+          ]
+        },
+        {
+          "id": 21889,
+          "league": "formula 1",
+          "title": "Miami Grand Prix – Qualifying Sprint",
+          "when_et": "2026-05-01 16:30",
+          "ts_et": 1777667400,
+          "status": "UPCOMING",
+          "hds": [
+            106
+          ],
+          "streams": [
+            {
+              "hd": 106,
+              "link": "https://embedhd.org/source/fetch.php?hd=106"
+            }
+          ]
+        },
+        {
+          "id": 22075,
+          "league": "mlb",
+          "title": "Pittsburgh Pirates - Cincinnati Reds",
+          "when_et": "2026-05-01 18:40",
+          "ts_et": 1777675200,
+          "status": "UPCOMING",
+          "hds": [
+            621
+          ],
+          "streams": [
+            {
+              "hd": 621,
+              "link": "https://embedhd.org/source/fetch.php?hd=621"
+            }
+          ]
+        },
+        {
+          "id": 22076,
+          "league": "mlb",
+          "title": "Detroit Tigers - Texas Rangers",
+          "when_et": "2026-05-01 18:40",
+          "ts_et": 1777675200,
+          "status": "UPCOMING",
+          "hds": [
+            609
+          ],
+          "streams": [
+            {
+              "hd": 609,
+              "link": "https://embedhd.org/source/fetch.php?hd=609"
+            }
+          ]
+        },
+        {
+          "id": 22077,
+          "league": "mlb",
+          "title": "Washington Nationals - Milwaukee Brewers",
+          "when_et": "2026-05-01 18:45",
+          "ts_et": 1777675500,
+          "status": "UPCOMING",
+          "hds": [
+            629
+          ],
+          "streams": [
+            {
+              "hd": 629,
+              "link": "https://embedhd.org/source/fetch.php?hd=629"
+            }
+          ]
+        },
+        {
+          "id": 22065,
+          "league": "nba",
+          "title": "Orlando Magic - Detroit Pistons",
+          "when_et": "2026-05-01 19:00",
+          "ts_et": 1777676400,
+          "status": "UPCOMING",
+          "hds": [
+            521
+          ],
+          "streams": [
+            {
+              "hd": 521,
+              "link": "https://embedhd.org/source/fetch.php?hd=521"
+            }
+          ]
+        },
+        {
+          "id": 22068,
+          "league": "nhl",
+          "title": "Montreal Canadiens - Tampa Bay Lightning",
+          "when_et": "2026-05-01 19:00",
+          "ts_et": 1777676400,
+          "status": "UPCOMING",
+          "hds": [
+            234
+          ],
+          "streams": [
+            {
+              "hd": 234,
+              "link": "https://embedhd.org/source/fetch.php?hd=234"
+            }
+          ]
+        },
+        {
+          "id": 22078,
+          "league": "mlb",
+          "title": "New York Yankees - Baltimore Orioles",
+          "when_et": "2026-05-01 19:05",
+          "ts_et": 1777676700,
+          "status": "UPCOMING",
+          "hds": [
+            618
+          ],
+          "streams": [
+            {
+              "hd": 618,
+              "link": "https://embedhd.org/source/fetch.php?hd=618"
+            }
+          ]
+        },
+        {
+          "id": 22079,
+          "league": "mlb",
+          "title": "Boston Red Sox - Houston Astros",
+          "when_et": "2026-05-01 19:10",
+          "ts_et": 1777677000,
+          "status": "UPCOMING",
+          "hds": [
+            603
+          ],
+          "streams": [
+            {
+              "hd": 603,
+              "link": "https://embedhd.org/source/fetch.php?hd=603"
+            }
+          ]
+        },
+        {
+          "id": 22080,
+          "league": "mlb",
+          "title": "Miami Marlins - Philadelphia Phillies",
+          "when_et": "2026-05-01 19:10",
+          "ts_et": 1777677000,
+          "status": "UPCOMING",
+          "hds": [
+            614
+          ],
+          "streams": [
+            {
+              "hd": 614,
+              "link": "https://embedhd.org/source/fetch.php?hd=614"
+            }
+          ]
+        },
+        {
+          "id": 22081,
+          "league": "mlb",
+          "title": "Tampa Bay Rays - San Francisco Giants",
+          "when_et": "2026-05-01 19:10",
+          "ts_et": 1777677000,
+          "status": "UPCOMING",
+          "hds": [
+            626
+          ],
+          "streams": [
+            {
+              "hd": 626,
+              "link": "https://embedhd.org/source/fetch.php?hd=626"
+            }
+          ]
+        },
+        {
+          "id": 22066,
+          "league": "nba",
+          "title": "Toronto Raptors - Cleveland Cavaliers",
+          "when_et": "2026-05-01 19:30",
+          "ts_et": 1777678200,
+          "status": "UPCOMING",
+          "hds": [
+            527
+          ],
+          "streams": [
+            {
+              "hd": 527,
+              "link": "https://embedhd.org/source/fetch.php?hd=527"
+            }
+          ]
+        },
+        {
+          "id": 22069,
+          "league": "nhl",
+          "title": "Boston Bruins - Buffalo Sabres",
+          "when_et": "2026-05-01 19:30",
+          "ts_et": 1777678200,
+          "status": "UPCOMING",
+          "hds": [
+            221
+          ],
+          "streams": [
+            {
+              "hd": 221,
+              "link": "https://embedhd.org/source/fetch.php?hd=221"
+            }
+          ]
+        },
+        {
+          "id": 22082,
+          "league": "mlb",
+          "title": "Minnesota Twins - Toronto Blue Jays",
+          "when_et": "2026-05-01 20:10",
+          "ts_et": 1777680600,
+          "status": "UPCOMING",
+          "hds": [
+            616
+          ],
+          "streams": [
+            {
+              "hd": 616,
+              "link": "https://embedhd.org/source/fetch.php?hd=616"
+            }
+          ]
+        },
+        {
+          "id": 22083,
+          "league": "mlb",
+          "title": "St. Louis Cardinals - Los Angeles Dodgers",
+          "when_et": "2026-05-01 20:15",
+          "ts_et": 1777680900,
+          "status": "UPCOMING",
+          "hds": [
+            625
+          ],
+          "streams": [
+            {
+              "hd": 625,
+              "link": "https://embedhd.org/source/fetch.php?hd=625"
+            }
+          ]
+        },
+        {
+          "id": 22084,
+          "league": "mlb",
+          "title": "Colorado Rockies - Atlanta Braves",
+          "when_et": "2026-05-01 20:40",
+          "ts_et": 1777682400,
+          "status": "UPCOMING",
+          "hds": [
+            608
+          ],
+          "streams": [
+            {
+              "hd": 608,
+              "link": "https://embedhd.org/source/fetch.php?hd=608"
+            }
+          ]
+        },
+        {
+          "id": 22067,
+          "league": "nba",
+          "title": "Houston Rockets - Los Angeles Lakers",
+          "when_et": "2026-05-01 21:30",
+          "ts_et": 1777685400,
+          "status": "UPCOMING",
+          "hds": [
+            532
+          ],
+          "streams": [
+            {
+              "hd": 532,
+              "link": "https://embedhd.org/source/fetch.php?hd=532"
+            }
+          ]
+        },
+        {
+          "id": 22085,
+          "league": "mlb",
+          "title": "Los Angeles Angels - New York Mets",
+          "when_et": "2026-05-01 21:38",
+          "ts_et": 1777685880,
+          "status": "UPCOMING",
+          "hds": [
+            612
+          ],
+          "streams": [
+            {
+              "hd": 612,
+              "link": "https://embedhd.org/source/fetch.php?hd=612"
+            }
+          ]
+        },
+        {
+          "id": 22086,
+          "league": "mlb",
+          "title": "San Diego Padres - Chicago White Sox",
+          "when_et": "2026-05-01 21:40",
+          "ts_et": 1777686000,
+          "status": "UPCOMING",
+          "hds": [
+            622
+          ],
+          "streams": [
+            {
+              "hd": 622,
+              "link": "https://embedhd.org/source/fetch.php?hd=622"
+            }
+          ]
+        },
+        {
+          "id": 22087,
+          "league": "mlb",
+          "title": "Athletics - Cleveland Guardians",
+          "when_et": "2026-05-01 21:40",
+          "ts_et": 1777686000,
+          "status": "UPCOMING",
+          "hds": [
+            619
+          ],
+          "streams": [
+            {
+              "hd": 619,
+              "link": "https://embedhd.org/source/fetch.php?hd=619"
+            }
+          ]
+        },
+        {
+          "id": 22088,
+          "league": "mlb",
+          "title": "Seattle Mariners - Kansas City Royals",
+          "when_et": "2026-05-01 21:45",
+          "ts_et": 1777686300,
+          "status": "UPCOMING",
+          "hds": [
+            624
+          ],
+          "streams": [
+            {
+              "hd": 624,
+              "link": "https://embedhd.org/source/fetch.php?hd=624"
+            }
+          ]
+        },
+        {
+          "id": 22070,
+          "league": "nhl",
+          "title": "Utah Mammoth - Vegas Golden Knights",
+          "when_et": "2026-05-01 22:00",
+          "ts_et": 1777687200,
+          "status": "UPCOMING",
+          "hds": [
+            218
+          ],
+          "streams": [
+            {
+              "hd": 218,
+              "link": "https://embedhd.org/source/fetch.php?hd=218"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day_et": "2026-05-02",
+      "count": 6,
+      "items": [
+        {
+          "id": 22061,
+          "league": "premier league",
+          "title": "Brentford - West Ham United",
+          "when_et": "2026-05-02 10:00",
+          "ts_et": 1777730400,
+          "status": "UPCOMING",
+          "hds": [
+            13
+          ],
+          "streams": [
+            {
+              "hd": 13,
+              "link": "https://embedhd.org/source/fetch.php?hd=13"
+            }
+          ]
+        },
+        {
+          "id": 22062,
+          "league": "premier league",
+          "title": "Newcastle United - Brighton & Hove Albion",
+          "when_et": "2026-05-02 10:00",
+          "ts_et": 1777730400,
+          "status": "UPCOMING",
+          "hds": [
+            24
+          ],
+          "streams": [
+            {
+              "hd": 24,
+              "link": "https://embedhd.org/source/fetch.php?hd=24"
+            }
+          ]
+        },
+        {
+          "id": 22063,
+          "league": "premier league",
+          "title": "Wolverhampton Wanderers - Sunderland",
+          "when_et": "2026-05-02 10:00",
+          "ts_et": 1777730400,
+          "status": "UPCOMING",
+          "hds": [
+            29
+          ],
+          "streams": [
+            {
+              "hd": 29,
+              "link": "https://embedhd.org/source/fetch.php?hd=29"
+            }
+          ]
+        },
+        {
+          "id": 21890,
+          "league": "formula 1",
+          "title": "Miami GP – Sprint",
+          "when_et": "2026-05-02 12:00",
+          "ts_et": 1777737600,
+          "status": "UPCOMING",
+          "hds": [
+            106
+          ],
+          "streams": [
+            {
+              "hd": 106,
+              "link": "https://embedhd.org/source/fetch.php?hd=106"
+            }
+          ]
+        },
+        {
+          "id": 22064,
+          "league": "premier league",
+          "title": "Arsenal - Fulham",
+          "when_et": "2026-05-02 12:30",
+          "ts_et": 1777739400,
+          "status": "UPCOMING",
+          "hds": [
+            11
+          ],
+          "streams": [
+            {
+              "hd": 11,
+              "link": "https://embedhd.org/source/fetch.php?hd=11"
+            }
+          ]
+        },
+        {
+          "id": 21891,
+          "league": "formula 1",
+          "title": "Miami Grand Prix - Qualifying",
+          "when_et": "2026-05-02 16:00",
+          "ts_et": 1777752000,
+          "status": "UPCOMING",
+          "hds": [
+            106
+          ],
+          "streams": [
+            {
+              "hd": 106,
+              "link": "https://embedhd.org/source/fetch.php?hd=106"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day_et": "2026-05-03",
+      "count": 4,
+      "items": [
+        {
+          "id": 22089,
+          "league": "premier league",
+          "title": "AFC Bournemouth - Crystal Palace",
+          "when_et": "2026-05-03 09:00",
+          "ts_et": 1777813200,
+          "status": "UPCOMING",
+          "hds": [
+            10
+          ],
+          "streams": [
+            {
+              "hd": 10,
+              "link": "https://embedhd.org/source/fetch.php?hd=10"
+            }
+          ]
+        },
+        {
+          "id": 22090,
+          "league": "premier league",
+          "title": "Manchester United - Liverpool",
+          "when_et": "2026-05-03 10:30",
+          "ts_et": 1777818600,
+          "status": "UPCOMING",
+          "hds": [
+            23
+          ],
+          "streams": [
+            {
+              "hd": 23,
+              "link": "https://embedhd.org/source/fetch.php?hd=23"
+            }
+          ]
+        },
+        {
+          "id": 22091,
+          "league": "premier league",
+          "title": "Aston Villa - Tottenham Hotspur",
+          "when_et": "2026-05-03 14:00",
+          "ts_et": 1777831200,
+          "status": "UPCOMING",
+          "hds": [
+            12
+          ],
+          "streams": [
+            {
+              "hd": 12,
+              "link": "https://embedhd.org/source/fetch.php?hd=12"
+            }
+          ]
+        },
+        {
+          "id": 21892,
+          "league": "formula 1",
+          "title": "Miami Grand Prix - Race",
+          "when_et": "2026-05-03 16:00",
+          "ts_et": 1777838400,
+          "status": "UPCOMING",
+          "hds": [
+            106
+          ],
+          "streams": [
+            {
+              "hd": 106,
+              "link": "https://embedhd.org/source/fetch.php?hd=106"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day_et": "2026-06-11",
+      "count": 2,
+      "items": [
+        {
+          "id": 20959,
+          "league": "fifa world cup",
+          "title": "Mexico - South Africa",
+          "when_et": "2026-06-11 15:00",
+          "ts_et": 1781204400,
+          "status": "UPCOMING",
+          "hds": [
+            120
+          ],
+          "streams": [
+            {
+              "hd": 120,
+              "link": "https://embedhd.org/source/fetch.php?hd=120"
+            }
+          ]
+        },
+        {
+          "id": 21297,
+          "league": "fifa world cup",
+          "title": "South Korea - Czechia",
+          "when_et": "2026-06-11 22:00",
+          "ts_et": 1781229600,
+          "status": "UPCOMING",
+          "hds": [
+            121
+          ],
+          "streams": [
+            {
+              "hd": 121,
+              "link": "https://embedhd.org/source/fetch.php?hd=121"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day_et": "2026-06-12",
+      "count": 2,
+      "items": [
+        {
+          "id": 21298,
+          "league": "fifa world cup",
+          "title": "Canada - Bosnia and Herzegovina",
+          "when_et": "2026-06-12 15:00",
+          "ts_et": 1781290800,
+          "status": "UPCOMING",
+          "hds": [
+            120
+          ],
+          "streams": [
+            {
+              "hd": 120,
+              "link": "https://embedhd.org/source/fetch.php?hd=120"
+            }
+          ]
+        },
+        {
+          "id": 21299,
+          "league": "fifa world cup",
+          "title": "United States - Paraguay",
+          "when_et": "2026-06-12 21:00",
+          "ts_et": 1781312400,
+          "status": "UPCOMING",
+          "hds": [
+            121
+          ],
+          "streams": [
+            {
+              "hd": 121,
+              "link": "https://embedhd.org/source/fetch.php?hd=121"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day_et": "2026-06-13",
+      "count": 3,
+      "items": [
+        {
+          "id": 21300,
+          "league": "fifa world cup",
+          "title": "Qatar - Switzerland",
+          "when_et": "2026-06-13 15:00",
+          "ts_et": 1781377200,
+          "status": "UPCOMING",
+          "hds": [
+            120
+          ],
+          "streams": [
+            {
+              "hd": 120,
+              "link": "https://embedhd.org/source/fetch.php?hd=120"
+            }
+          ]
+        },
+        {
+          "id": 21301,
+          "league": "fifa world cup",
+          "title": "Brazil - Morocco",
+          "when_et": "2026-06-13 18:00",
+          "ts_et": 1781388000,
+          "status": "UPCOMING",
+          "hds": [
+            121
+          ],
+          "streams": [
+            {
+              "hd": 121,
+              "link": "https://embedhd.org/source/fetch.php?hd=121"
+            }
+          ]
+        },
+        {
+          "id": 21302,
+          "league": "fifa world cup",
+          "title": "Haiti - Scotland",
+          "when_et": "2026-06-13 21:00",
+          "ts_et": 1781398800,
+          "status": "UPCOMING",
+          "hds": [
+            122
+          ],
+          "streams": [
+            {
+              "hd": 122,
+              "link": "https://embedhd.org/source/fetch.php?hd=122"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day_et": "2026-06-14",
+      "count": 5,
+      "items": [
+        {
+          "id": 21303,
+          "league": "fifa world cup",
+          "title": "Australia - Türkiye",
+          "when_et": "2026-06-14 00:00",
+          "ts_et": 1781409600,
+          "status": "UPCOMING",
+          "hds": [
+            123
+          ],
+          "streams": [
+            {
+              "hd": 123,
+              "link": "https://embedhd.org/source/fetch.php?hd=123"
+            }
+          ]
+        },
+        {
+          "id": 21304,
+          "league": "fifa world cup",
+          "title": "Germany - Curacao",
+          "when_et": "2026-06-14 13:00",
+          "ts_et": 1781456400,
+          "status": "UPCOMING",
+          "hds": [
+            120
+          ],
+          "streams": [
+            {
+              "hd": 120,
+              "link": "https://embedhd.org/source/fetch.php?hd=120"
+            }
+          ]
+        },
+        {
+          "id": 21305,
+          "league": "fifa world cup",
+          "title": "Netherlands - Japan",
+          "when_et": "2026-06-14 16:00",
+          "ts_et": 1781467200,
+          "status": "UPCOMING",
+          "hds": [
+            121
+          ],
+          "streams": [
+            {
+              "hd": 121,
+              "link": "https://embedhd.org/source/fetch.php?hd=121"
+            }
+          ]
+        },
+        {
+          "id": 21306,
+          "league": "fifa world cup",
+          "title": "Ivory Coast - Ecuador",
+          "when_et": "2026-06-14 19:00",
+          "ts_et": 1781478000,
+          "status": "UPCOMING",
+          "hds": [
+            122
+          ],
+          "streams": [
+            {
+              "hd": 122,
+              "link": "https://embedhd.org/source/fetch.php?hd=122"
+            }
+          ]
+        },
+        {
+          "id": 21307,
+          "league": "fifa world cup",
+          "title": "Sweden - Tunisia",
+          "when_et": "2026-06-14 22:00",
+          "ts_et": 1781488800,
+          "status": "UPCOMING",
+          "hds": [
+            123
+          ],
+          "streams": [
+            {
+              "hd": 123,
+              "link": "https://embedhd.org/source/fetch.php?hd=123"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timestamp": 1777578360.0
+}
