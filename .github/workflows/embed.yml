@@ -7,6 +7,11 @@ on:
   workflow_dispatch:
     # Allow manual trigger
 
+# Add permissions block
+permissions:
+  contents: write
+  actions: read
+
 env:
   EMBED_BASE_URL: ${{ secrets.EMBED_BASE_URL }}
 
@@ -21,6 +26,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
+          persist-credentials: true
       
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -64,20 +70,24 @@ jobs:
           playwright install chromium
           playwright install-deps chromium || true
       
-      - name: Run EMBED updater
+      - name: Run EMBED scraper
         run: python embed.py
         continue-on-error: true
       
       - name: Commit and push changes
         if: always()
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          # Configure git with the correct user
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Pull latest changes first
-          git pull origin ${{ github.ref_name }} --rebase || true
+          # Set remote URL with token for authentication
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           
-          # Add playlist files
+          # Pull latest changes first
+          git pull origin ${{ github.ref_name }} --rebase --allow-unrelated-histories || true
+          
+          # Add playlist files and caches
           git add embed_vlc.m3u8 embed_tivimate.m3u8 caches/ || true
           
           # Check if there are changes to commit
