@@ -1,13 +1,10 @@
-name: EMBED Stream Scraper
+name: EMBED Stream Updater
 
 on:
   schedule:
-    # Run every 30 minutes
     - cron: '*/30 * * * *'
   workflow_dispatch:
-    # Allow manual trigger
 
-# Add permissions block
 permissions:
   contents: write
   actions: read
