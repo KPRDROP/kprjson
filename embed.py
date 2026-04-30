@@ -246,8 +246,14 @@ def generate_playlists():
 
 def push_to_github():
     """Push generated files to GitHub repository"""
+    # Skip git push if running in GitHub Actions (workflow handles it)
+    if os.getenv("GITHUB_ACTIONS") == "true":
+        log.info("Running in GitHub Actions - skipping Python git push")
+        return True
+    
     try:
         from git import Repo
+        import subprocess
         
         repo = Repo(REPO_DIR)
         
@@ -260,20 +266,61 @@ def push_to_github():
                 repo.git.add(str(file.relative_to(REPO_DIR)))
                 changed = True
         
+        # Also add caches directory if it exists
+        caches_dir = REPO_DIR / "caches"
+        if caches_dir.exists():
+            repo.git.add(str(caches_dir.relative_to(REPO_DIR)))
+            changed = True
+        
         if not changed:
             log.info("No changes to commit")
             return True
         
-        # Commit and push
+        # Commit
         commit_message = f"Update EMBED playlists {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
         repo.index.commit(commit_message)
         
-        # Push using default token
-        origin = repo.remote("origin")
-        origin.push()
-        
-        log.info("✓ Successfully pushed to GitHub")
-        return True
+        # Try to push using different methods
+        try:
+            # Method 1: Try using token from environment
+            token = os.getenv("GITHUB_TOKEN") or os.getenv("GH_TOKEN")
+            if token:
+                remote_url = repo.remote("origin").url
+                if remote_url.startswith("https://"):
+                    # Insert token into URL
+                    authenticated_url = remote_url.replace(
+                        "https://",
+                        f"https://x-access-token:{token}@"
+                    )
+                    repo.remote("origin").set_url(authenticated_url)
+                    log.info("Using token authentication for git push")
+            
+            # Push
+            repo.remote("origin").push()
+            log.info("✓ Successfully pushed to GitHub")
+            return True
+            
+        except Exception as push_error:
+            log.warning(f"Push with token failed: {push_error}")
+            
+            # Method 2: Try using subprocess
+            try:
+                result = subprocess.run(
+                    ["git", "push", "origin", "HEAD"],
+                    cwd=REPO_DIR,
+                    capture_output=True,
+                    text=True,
+                    timeout=30
+                )
+                if result.returncode == 0:
+                    log.info("✓ Successfully pushed using subprocess")
+                    return True
+                else:
+                    log.error(f"Git push failed: {result.stderr}")
+            except Exception as sub_error:
+                log.error(f"Subprocess push failed: {sub_error}")
+            
+            return False
         
     except ImportError:
         log.warning("GitPython not installed. Skipping git push.")
@@ -289,14 +336,22 @@ def push_to_github():
 async def main():
     """Main function to run the scraper and generate outputs"""
     log.info("=" * 60)
-    log.info(f"EMBED STREAM SCRAPER - {TAG}")
+    log.info(f"EMBED STREAM UPDATER - {TAG}")
     log.info(f"Base URL: {BASE_URL}")
     log.info(f"Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     log.info("=" * 60)
     
     try:
         async with async_playwright() as p:
-            browser = await p.chromium.launch(headless=True)
+            browser = await p.chromium.launch(
+                headless=True,
+                args=[
+                    '--no-sandbox',
+                    '--disable-setuid-sandbox',
+                    '--disable-dev-shm-usage',
+                    '--disable-gpu',
+                ]
+            )
             
             try:
                 # Run the scraper
@@ -306,7 +361,7 @@ async def main():
                 if generate_playlists():
                     log.info("Playlists generated successfully")
                     
-                    # Push to GitHub
+                    # Push to GitHub (only if not in GitHub Actions)
                     push_to_github()
                 else:
                     log.warning("No playlists generated")
