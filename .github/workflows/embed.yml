@@ -1,8 +1,11 @@
-name: EMBED Updater
+name: EMBED Stream Scraper
+
 on:
   schedule:
+    # Run every 30 minutes
     - cron: '*/30 * * * *'
   workflow_dispatch:
+    # Allow manual trigger
 
 env:
   EMBED_BASE_URL: ${{ secrets.EMBED_BASE_URL }}
@@ -10,6 +13,7 @@ env:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     
     steps:
       - name: Checkout repository
@@ -25,32 +29,64 @@ jobs:
       
       - name: Install system dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            chromium-browser \
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends \
+            libasound2t64 \
             libgbm1 \
-            libasound2
+            libxkbcommon0 \
+            libnspr4 \
+            libnss3 \
+            libxcomposite1 \
+            libxdamage1 \
+            libxrandr2 \
+            libatk-bridge2.0-0 \
+            libatspi2.0-0 \
+            libcups2 \
+            libdrm2 \
+            libx11-xcb1 \
+            libxcb-dri3-0 \
+            libxcb1 \
+            libxfixes3 \
+            libxshmfence1 \
+            libwayland-client0 \
+            libpango-1.0-0 \
+            libcairo2 \
+            libgdk-pixbuf2.0-0 \
+            libgtk-3-0 || true
       
       - name: Install Python dependencies
         run: |
-          pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install playwright gitpython requests httpx[http2] pytz
+      
+      - name: Install Playwright browsers
+        run: |
           playwright install chromium
-          playwright install-deps chromium
+          playwright install-deps chromium || true
       
       - name: Run EMBED updater
         run: python embed.py
+        continue-on-error: true
       
       - name: Commit and push changes
-        if: success()
+        if: always()
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add embed_vlc.m3u8 embed_tivimate.m3u8
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           
+          # Pull latest changes first
+          git pull origin ${{ github.ref_name }} --rebase || true
+          
+          # Add playlist files
+          git add embed_vlc.m3u8 embed_tivimate.m3u8 caches/ || true
+          
+          # Check if there are changes to commit
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update EMBED streams $(date +'%Y-%m-%d %H:%M:%S')"
-            git push
+            git commit -m "Update EMBED streams $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git push origin ${{ github.ref_name }}
+            echo "Successfully pushed changes"
           fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
