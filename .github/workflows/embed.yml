@@ -1,0 +1,56 @@
+name: EMBED Updater
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+env:
+  EMBED_BASE_URL: ${{ secrets.EMBED_BASE_URL }}
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            chromium-browser \
+            libgbm1 \
+            libasound2
+      
+      - name: Install Python dependencies
+        run: |
+          pip install --upgrade pip
+          pip install playwright gitpython requests httpx[http2] pytz
+          playwright install chromium
+          playwright install-deps chromium
+      
+      - name: Run EMBED updater
+        run: python embed.py
+      
+      - name: Commit and push changes
+        if: success()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add embed_vlc.m3u8 embed_tivimate.m3u8
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update EMBED streams $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
