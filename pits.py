@@ -28,9 +28,9 @@ UA_ENC = quote_plus(UA)
 # -------------------------------------------------
 # Extract stream from API endpoint
 # -------------------------------------------------
-async def extract_stream_from_api(watch_id: str, url_num: int) -> str | None:
-    """Extract stream URL from the API endpoint"""
-    api_url = f"https://pushembdz.store/api/stream/{watch_id}"
+async def extract_stream_from_api(embed_id: str, url_num: int) -> str | None:
+    """Extract stream URL from the API endpoint using embed ID"""
+    api_url = f"https://pushembdz.store/api/stream/{embed_id}"
     
     try:
         log.info(f"URL {url_num}) Trying API: {api_url}")
@@ -53,17 +53,62 @@ async def extract_stream_from_api(watch_id: str, url_num: int) -> str | None:
 
 
 # -------------------------------------------------
-# Extract stream from watch page
+# Extract embed ID from watch page
+# -------------------------------------------------
+async def extract_embed_id_from_watch_page(watch_url: str, url_num: int) -> str | None:
+    """Extract the embed ID from the watch page"""
+    try:
+        response = await network.request(watch_url, log=log)
+        if not response:
+            return None
+        
+        content = response.text
+        
+        # Look for embed URL pattern
+        embed_patterns = [
+            r'https?://pushembdz\.store/embed/([a-f0-9-]+)',
+            r'pushembdz\.store/embed/([a-f0-9-]+)',
+            r'/embed/([a-f0-9-]+)',
+        ]
+        
+        for pattern in embed_patterns:
+            match = re.search(pattern, content, re.IGNORECASE)
+            if match:
+                embed_id = match.group(1)
+                log.info(f"URL {url_num}) Found embed ID: {embed_id}")
+                return embed_id
+        
+        # Also look for API calls in the page
+        api_pattern = r'pushembdz\.store/api/stream/([a-f0-9-]+)'
+        match = re.search(api_pattern, content, re.IGNORECASE)
+        if match:
+            embed_id = match.group(1)
+            log.info(f"URL {url_num}) Found API embed ID: {embed_id}")
+            return embed_id
+        
+        return None
+        
+    except Exception as e:
+        log.error(f"URL {url_num}) Error extracting embed ID: {e}")
+        return None
+
+
+# -------------------------------------------------
+# Extract stream from watch page (improved)
 # -------------------------------------------------
 async def extract_stream_from_page(watch_url: str, watch_id: str, url_num: int) -> str | None:
-    """Extract stream URL from watch page by finding API calls"""
+    """Extract stream URL from watch page by finding embed and API calls"""
     try:
-        # First try the API endpoint directly
-        stream = await extract_stream_from_api(watch_id, url_num)
-        if stream:
-            return stream
+        # First, try to find the embed ID from the watch page
+        embed_id = await extract_embed_id_from_watch_page(watch_url, url_num)
         
-        # If API fails, try fetching the page
+        if embed_id:
+            # Try API with the embed ID
+            stream = await extract_stream_from_api(embed_id, url_num)
+            if stream:
+                return stream
+        
+        # If no embed ID found or API failed, try fetching the page directly
         response = await network.request(watch_url, log=log)
         if not response:
             return None
@@ -71,24 +116,28 @@ async def extract_stream_from_page(watch_url: str, watch_id: str, url_num: int) 
         content = response.text
         
         # Look for API URLs in the page
-        api_pattern = r'https?://pushembdz\.store/api/stream/[a-f0-9-]+'
+        api_pattern = r'https?://pushembdz\.store/api/stream/([a-f0-9-]+)'
         api_matches = re.findall(api_pattern, content, re.IGNORECASE)
         
-        for api_url in api_matches:
+        for api_match in api_matches:
+            api_embed_id = api_match
+            api_url = f"https://pushembdz.store/api/stream/{api_embed_id}"
             log.info(f"URL {url_num}) Found API URL: {api_url}")
             api_response = await network.request(api_url, log=log)
             if api_response:
                 try:
                     data = json.loads(api_response.text)
                     stream_url = data.get("link")
-                    if stream_url and ('.css' in stream_url or '.js' in stream_url):
+                    if stream_url and ('.css' in stream_url or '.js' in stream_url or '.m3u8' in stream_url):
                         log.info(f"URL {url_num}) Captured stream from page API: {stream_url[:100]}...")
                         return stream_url
                 except:
                     pass
         
-        # Look for direct stream URLs
+        # Look for direct stream URLs (including new ossfeed domain)
         stream_patterns = [
+            r'(https?://[^\s"\']+ossfeed\.store/out/v2/[a-f0-9]+/master\.css[^\s"\']*)',
+            r'(https?://[^\s"\']+ossfeed\.store/out/v2/[a-f0-9]+/variant-[^/]+/stream\.js[^\s"\']*)',
             r'(https?://[^\s"\']+serveplay[^\s"\']+\.css[^\s"\']*)',
             r'(https?://[^\s"\']+serveplay[^\s"\']+\.js[^\s"\']*)',
             r'(https?://[^\s"\']+ev01-prod[^\s"\']+\.css[^\s"\']*)',
@@ -100,6 +149,14 @@ async def extract_stream_from_page(watch_url: str, watch_id: str, url_num: int) 
             matches = re.findall(pattern, content, re.IGNORECASE)
             for match in matches:
                 log.info(f"URL {url_num}) Found stream URL: {match[:100]}...")
+                return match
+        
+        # Look for any .css or .js URL that might be a stream
+        css_js_pattern = r'(https?://[^\s"\']+\.(?:css|js)[^\s"\']*)'
+        matches = re.findall(css_js_pattern, content, re.IGNORECASE)
+        for match in matches:
+            if any(x in match for x in ['ossfeed', 'serveplay', 'ev01-prod', 'cloudfront']):
+                log.info(f"URL {url_num}) Found potential stream: {match[:100]}...")
                 return match
         
         return None
@@ -138,8 +195,8 @@ async def extract_stream_with_playwright(watch_url: str, url_num: int) -> str | 
                 except:
                     pass
             
-            # Look for stream URLs in responses
-            if any(x in url for x in ['.css', '.js', '.m3u8']) and any(x in url for x in ['serveplay', 'ev01-prod', 'cloudfront']):
+            # Look for stream URLs in responses (including ossfeed)
+            if any(x in url for x in ['.css', '.js', '.m3u8']) and any(x in url for x in ['ossfeed', 'serveplay', 'ev01-prod', 'cloudfront']):
                 stream_url = url
                 log.info(f"URL {url_num}) Captured stream from response: {url[:100]}...")
         
@@ -148,6 +205,18 @@ async def extract_stream_with_playwright(watch_url: str, url_num: int) -> str | 
         try:
             await page.goto(watch_url, wait_until='networkidle', timeout=30000)
             await asyncio.sleep(5)
+            
+            # Check for embed URLs in the page
+            content = await page.content()
+            embed_pattern = r'https?://pushembdz\.store/embed/([a-f0-9-]+)'
+            embed_match = re.search(embed_pattern, content, re.IGNORECASE)
+            
+            if embed_match:
+                embed_id = embed_match.group(1)
+                embed_url = f"https://pushembdz.store/embed/{embed_id}"
+                log.info(f"URL {url_num}) Found embed URL, navigating...")
+                await page.goto(embed_url, wait_until='networkidle', timeout=30000)
+                await asyncio.sleep(3)
             
             # Check for iframes
             iframes = await page.query_selector_all('iframe')
@@ -180,13 +249,10 @@ async def get_events_from_schedule(cached_hrefs: set[str]) -> list[dict[str, str
     content = response.text
     
     # Find all event links
-    # Pattern: href="/watch/{uuid}"
     watch_pattern = r'href=["\']/watch/([a-f0-9-]+)["\']'
     watch_matches = re.findall(watch_pattern, content, re.IGNORECASE)
     
-    # Also look for the newer structure with blocks
-    for match in watch_matches:
-        watch_id = match
+    for watch_id in watch_matches:
         event_url = f"{WATCH_BASE}/{watch_id}"
         
         if watch_id in cached_hrefs:
@@ -207,6 +273,8 @@ async def get_events_from_schedule(cached_hrefs: set[str]) -> list[dict[str, str
         # Find the category/sport
         category = "Unknown"
         sport_keywords = {
+            'F1': 'F1',
+            'Formula E': 'Formula E',
             'NASCAR': 'NASCAR',
             'World Rally': 'WRC',
             'Rally': 'WRC',
@@ -214,7 +282,11 @@ async def get_events_from_schedule(cached_hrefs: set[str]) -> list[dict[str, str
             'Moto2': 'Moto2',
             'Moto3': 'Moto3',
             'Super Formula': 'Super Formula',
+            'Super GT': 'Super GT',
             'Basketball': 'Basketball',
+            'WorldSBK': 'WorldSBK',
+            'IMSA': 'IMSA',
+            'F2': 'F2',
         }
         for keyword, sport_name in sport_keywords.items():
             if keyword.lower() in title.lower():
@@ -225,7 +297,7 @@ async def get_events_from_schedule(cached_hrefs: set[str]) -> list[dict[str, str
         full_name = f"{category} - {title}" if category != "Unknown" else title
         
         events.append({
-            "sport": category.upper().replace(' ', '_'),
+            "sport": category.upper().replace(' ', '_') if category != "Unknown" else "LIVE",
             "category": category,
             "event": title,
             "full_name": full_name,
@@ -235,8 +307,16 @@ async def get_events_from_schedule(cached_hrefs: set[str]) -> list[dict[str, str
             "is_live": False,
         })
     
-    log.info(f"Found {len(events)} events from schedule page")
-    return events
+    # Remove duplicates
+    seen = set()
+    unique_events = []
+    for event in events:
+        if event["href"] not in seen:
+            seen.add(event["href"])
+            unique_events.append(event)
+    
+    log.info(f"Found {len(unique_events)} events from schedule page")
+    return unique_events
 
 
 # -------------------------------------------------
@@ -261,7 +341,10 @@ def build_playlist(data: dict[str, dict]) -> str:
         stream_url = info["url"]
         
         # Extract domain for referer/origin
-        if 'serveplay' in stream_url or 'ev01-prod' in stream_url:
+        if 'ossfeed' in stream_url:
+            referer = "https://pushembdz.store/"
+            origin = "https://pushembdz.store"
+        elif 'serveplay' in stream_url or 'ev01-prod' in stream_url:
             referer = "https://pushembdz.store/"
             origin = "https://pushembdz.store"
         else:
@@ -292,17 +375,12 @@ def build_playlist(data: dict[str, dict]) -> str:
 # -------------------------------------------------
 async def process_event(watch_id: str, url: str, url_num: int) -> str | None:
     """Process event to extract stream URL"""
-    # First try direct API call
-    stream = await extract_stream_from_api(watch_id, url_num)
-    if stream:
-        return stream
-    
-    # Then try fetching the page
+    # First try extracting from the watch page (this will find embed ID and call API)
     stream = await extract_stream_from_page(url, watch_id, url_num)
     if stream:
         return stream
     
-    # Finally try Playwright
+    # If that fails, try Playwright
     log.debug(f"URL {url_num}) Trying Playwright...")
     stream = await extract_stream_with_playwright(url, url_num)
     
