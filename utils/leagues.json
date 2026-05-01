@@ -48,7 +48,7 @@
       {
         "MLB": {
           "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png",
-          "names": ["MAJOR LEAGUE BASEBALL", "MLB PLAYOFFS"]
+          "names": ["MAJOR LEAGUE BASEBALL", "MLB BASEBALL", "MLB PLAYOFFS"]
         }
       }
     ],
@@ -751,13 +751,17 @@
       {
         "UEFA CONFERENCE LEAGUE": {
           "logo": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/20296.png",
-          "names": []
+          "names": [
+            "EUROPA CONFERENCE LEAGUE",
+            "EUROPE UEFA CONFERENCE LEAGUE",
+            "UEFA EUROPA CONFERENCE LEAGUE"
+          ]
         }
       },
       {
         "UEFA EUROPA LEAGUE": {
           "logo": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png",
-          "names": ["EUROPA LEAGUE", "EUROPE UEFA CONFERENCE LEAGUE"]
+          "names": ["EUROPA LEAGUE"]
         }
       },
       {
@@ -778,9 +782,9 @@
           "names": [
             "UCL WOMEN",
             "UEFA WOMEN",
-            "WOMEN'S CHAMPIONS LEAGUE",
+            "UEFA WOMEN CHAMPIONS LEAGUE",
             "UEFA WOMENS CHAMPIONS LEAGUE",
-            "UEFA WOMEN CHAMPIONS LEAGUE"
+            "WOMEN'S CHAMPIONS LEAGUE"
           ]
         }
       },
@@ -819,7 +823,7 @@
       {
         "TENNIS": {
           "logo": "https://i.gyazo.com/b5e83afc3a75dacfb831abe975fd3821.png",
-          "names": []
+          "names": ["TENNIS ATP"]
         }
       }
     ],
