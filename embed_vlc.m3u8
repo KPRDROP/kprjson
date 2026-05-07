@@ -1,31 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Washington Nationals - Minnesota Twins (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Washington Nationals - Minnesota Twins (EMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Colorado Rockies - New York Mets (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Colorado Rockies - New York Mets (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/mwashingtonnationals.m3u8?md5=A526-m6GwAWOI8WgJ8zI1Q&expires=1778191267
+https://cdn13.zohanayaan.com:1686/hls/mcoloradorockies.m3u8?md5=eb_t1yArYVvqpaeNG5I9xw&expires=1778196660
 
-#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Kansas City Royals - Cleveland Guardians (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Kansas City Royals - Cleveland Guardians (EMBED)
+#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Arizona Diamondbacks - Pittsburgh Pirates (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Arizona Diamondbacks - Pittsburgh Pirates (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/mkansascityroyals.m3u8?md5=X5PXonBu_4qvn-lEDOvQUg&expires=1778191268
-
-#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs - Cincinnati Reds (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago Cubs - Cincinnati Reds (EMBED)
-#EXTVLCOPT:http-referrer=https://hoca6.com/
-#EXTVLCOPT:http-origin=https://hoca6.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/mchicagocubs.m3u8?md5=Ywk_Ea0CRN0GF_uScr3-Qg&expires=1778191269
-
-#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Colorado Rockies - New York Mets (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Colorado Rockies - New York Mets (EMBED)
-#EXTVLCOPT:http-referrer=https://hoca6.com/
-#EXTVLCOPT:http-origin=https://hoca6.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/mcoloradorockies.m3u8?md5=2Aqx3OvZyxAhApnY0_WFig&expires=1778191270
-
-#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Arizona Diamondbacks - Pittsburgh Pirates (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Arizona Diamondbacks - Pittsburgh Pirates (EMBED)
-#EXTVLCOPT:http-referrer=https://hoca6.com/
-#EXTVLCOPT:http-origin=https://hoca6.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/marizonadiamondbacks.m3u8?md5=LDMJBsHd9h7O2hcOR8yYbQ&expires=1778191271
+https://cdn14.zohanayaan.com:1686/hls/marizonadiamondbacks.m3u8?md5=UX4QTXmlvwWkqLRZC_mplA&expires=1778196661
 
