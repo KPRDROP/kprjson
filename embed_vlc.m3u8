@@ -1,25 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="WNBA.dummy.us" tvg-name="[WNBA] Los Angeles Sparks - Las Vegas Aces (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/wnba.png" group-title="Live Events",[WNBA] Los Angeles Sparks - Las Vegas Aces (EMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Anaheim Ducks - Vegas Golden Knights (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Anaheim Ducks - Vegas Golden Knights (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/nlosangelessparks.m3u8?md5=FO_ZYkWQBPip-twJWUEg7g&expires=1778464767
-
-#EXTINF:-1 tvg-chno="2" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Montreal Canadiens - Buffalo Sabres (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Montreal Canadiens - Buffalo Sabres (EMBED)
-#EXTVLCOPT:http-referrer=https://hoca6.com/
-#EXTVLCOPT:http-origin=https://hoca6.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/mmontrealcanadiens.m3u8?md5=1LIO5T2zO4IC-6GevO--cQ&expires=1778464768
-
-#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Kansas City Royals - Detroit Tigers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Kansas City Royals - Detroit Tigers (EMBED)
-#EXTVLCOPT:http-referrer=https://hoca6.com/
-#EXTVLCOPT:http-origin=https://hoca6.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/mkansascityroyals.m3u8?md5=HTQbP1WXOTaqEtuKgOJilw&expires=1778464769
-
-#EXTINF:-1 tvg-chno="4" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Minnesota Timberwolves - San Antonio Spurs (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Minnesota Timberwolves - San Antonio Spurs (EMBED)
-#EXTVLCOPT:http-referrer=https://hoca6.com/
-#EXTVLCOPT:http-origin=https://hoca6.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/mminnesotatimberwolves.m3u8?md5=QKE6cTsKf7XAKnwYI46sNw&expires=1778464770
+https://cdn15.zohanayaan.com:1686/hls/mmanheimducks.m3u8?md5=a6Zt2Rx6WwsQDoNaOujvzw&expires=1778480230
 
