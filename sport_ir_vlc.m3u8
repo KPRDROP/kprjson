@@ -3,34 +3,40 @@
 #EXTVLCOPT:http-referrer=https://mlb24all.ir
 #EXTVLCOPT:http-origin=https://mlb24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-6a57c764.streamtofu.com/6a02da35.790be480i9c672bca.141b9.fea0e62d/free.live.espn/master.m3u8
+https://node-6a57c764.streamtofu.com/6a02f29b.5c2f988ei0c1b8e78.14352.0bd6759a/free.live.espn/master.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Seattle Mariners vs Houston Astros (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Seattle Mariners vs Houston Astros (SPORTir)
 #EXTVLCOPT:http-referrer=https://mlb24all.ir
 #EXTVLCOPT:http-origin=https://mlb24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-6a57c764.streamtofu.com/6a02da35.eada7760i9c672bca.141b8.02f0aa1d/free.live.espn/master.m3u8
+https://node-9b5feb01.streamtofu.com/6a02f29b.ef533285i0c1b8e78.1457e.f009e8e7/free.live.sportsnet/master.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Yankees vs Baltimore Orioles (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] New York Yankees vs Baltimore Orioles (SPORTir)
 #EXTVLCOPT:http-referrer=https://mlb24all.ir
 #EXTVLCOPT:http-origin=https://mlb24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-59639d19.streamtofu.com/6a02da36.158d22b8i9c672bca.141aa.7208d106/free.live.espn/master.m3u8
+https://node-59639d19.streamtofu.com/6a02f29c.2ebe1c09i0c1b8e78.141aa.6b8f688f/free.live.espn/master.m3u8
 
-#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Angels vs Cleveland Guardians (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Los Angeles Angels vs Cleveland Guardians (SPORTir)
+#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Francisco Giants vs Los Angeles Dodgers (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] San Francisco Giants vs Los Angeles Dodgers (SPORTir)
 #EXTVLCOPT:http-referrer=https://mlb24all.ir
 #EXTVLCOPT:http-origin=https://mlb24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-6a57c764.streamtofu.com/6a02da37.b2f735a1i9c672bca.1419f.b163797b/free.live.espn/master.m3u8
+https://node-6a57c764.streamtofu.com/6a02f29c.0a035251i0c1b8e78.14357.7189d9b6/free.live.espn/master.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Tampa Bay Rays vs Toronto Blue Jays (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Tampa Bay Rays vs Toronto Blue Jays (SPORTir)
+#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Angels vs Cleveland Guardians (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Los Angeles Angels vs Cleveland Guardians (SPORTir)
 #EXTVLCOPT:http-referrer=https://mlb24all.ir
 #EXTVLCOPT:http-origin=https://mlb24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-59639d19.streamtofu.com/6a02da38.3ba2ba8ci9c672bca.141ae.106d13c5/free.live.espn/master.m3u8
+https://node-6a57c764.streamtofu.com/6a02f29d.24e780eei0c1b8e78.1419f.846a4dcd/free.live.espn/master.m3u8
 
-#EXTINF:-1 tvg-chno="6" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Colorado Avalanche vs Minnesota Wild (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Colorado Avalanche vs Minnesota Wild (SPORTir)
+#EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Tampa Bay Rays vs Toronto Blue Jays (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Tampa Bay Rays vs Toronto Blue Jays (SPORTir)
+#EXTVLCOPT:http-referrer=https://mlb24all.ir
+#EXTVLCOPT:http-origin=https://mlb24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-025d151e.streamtofu.com/6a02f29e.1f55dfe5i0c1b8e78.14349.0ab393af/free.live.sportsnet/master.m3u8
+
+#EXTINF:-1 tvg-chno="7" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Colorado Avalanche vs Minnesota Wild (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Colorado Avalanche vs Minnesota Wild (SPORTir)
 #EXTVLCOPT:http-referrer=https://nhl24all.ir
 #EXTVLCOPT:http-origin=https://nhl24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-582e4e77.streamtofu.com/6a02da39.bb4d8e51i9c672bca.1457c.9d54e9aa/free.live.sportsnet/master.m3u8
+https://node-31fbddbb.streamtofu.com/6a02f2a0.72cfdb1di0c1b8e78.1457c.696d4099/free.live.sportsnet/master.m3u8
