@@ -3,71 +3,95 @@
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/mclevelandguardians.m3u8?md5=akNgX5lM1H2l3g7LZDj5fA&expires=1778634635
+https://cdn13.zohanayaan.com:1686/hls/mclevelandguardians.m3u8?md5=13dz3ZwUKNR4GlSE21_RSg&expires=1778637651
 
 #EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Baltimore Orioles - New York Yankees (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Baltimore Orioles - New York Yankees (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/mbaltimoreorioles.m3u8?md5=4ckNOSdLx08pcSxvL9d55A&expires=1778634637
+https://cdn14.zohanayaan.com:1686/hls/mbaltimoreorioles.m3u8?md5=vZv6pEpHbO_4pKy8VZ2opA&expires=1778637652
 
 #EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Pittsburgh Pirates - Colorado Rockies (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Pittsburgh Pirates - Colorado Rockies (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/mpittsburghpirates.m3u8?md5=0ftOJmX3yqqoUpS5GUAR7Q&expires=1778634638
+https://cdn15.zohanayaan.com:1686/hls/mpittsburghpirates.m3u8?md5=QNMYJzaetcmcrb4Zf3q8tw&expires=1778637654
 
 #EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Cincinnati Reds - Washington Nationals (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Cincinnati Reds - Washington Nationals (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/mcincinnatireds.m3u8?md5=1CWWUdq3oL0S3PxhodIsoQ&expires=1778634639
+https://cdn11.zohanayaan.com:1686/hls/mcincinnatireds.m3u8?md5=pliGEduB5W444Qo6Nt5FLA&expires=1778637655
 
 #EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Boston Red Sox - Philadelphia Phillies (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Boston Red Sox - Philadelphia Phillies (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/mbostonredsox.m3u8?md5=JCDdI0cu5fCqvgCkngUgaQ&expires=1778634640
+https://cdn14.zohanayaan.com:1686/hls/mbostonredsox.m3u8?md5=IQZLIFuoz4FMRBP_CnrJOA&expires=1778637656
 
 #EXTINF:-1 tvg-chno="6" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Montreal Canadiens - Buffalo Sabres (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Montreal Canadiens - Buffalo Sabres (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/mmontrealcanadiens.m3u8?md5=4nx_ufmrwzrV3rli-OuvgQ&expires=1778634641
+https://cdn11.zohanayaan.com:1686/hls/mmontrealcanadiens.m3u8?md5=Vsu768CTJBKfK4C2c9UMlA&expires=1778637657
 
 #EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Toronto Blue Jays - Tampa Bay Rays (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Toronto Blue Jays - Tampa Bay Rays (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/mtorontobluejays.m3u8?md5=FY7vEcy5YH8MTOH9oqnRIA&expires=1778634642
+https://cdn11.zohanayaan.com:1686/hls/mtorontobluejays.m3u8?md5=cg6HNVj9ng3asrtO92rFVA&expires=1778637658
 
 #EXTINF:-1 tvg-chno="8" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Mets - Detroit Tigers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] New York Mets - Detroit Tigers (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/mnewyorkmets.m3u8?md5=IUrswUgWuzqqckI1qlEjTg&expires=1778634643
+https://cdn12.zohanayaan.com:1686/hls/mnewyorkmets.m3u8?md5=_zJCgJDEHuEEekV75BmbIA&expires=1778637659
 
 #EXTINF:-1 tvg-chno="9" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Atlanta Braves - Chicago Cubs (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Atlanta Braves - Chicago Cubs (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/matlantabraves.m3u8?md5=_UE5naO3rqRFVpU0MOLuYA&expires=1778634643
+https://cdn13.zohanayaan.com:1686/hls/matlantabraves.m3u8?md5=8SYyMwR60wMS1FL1mE1d8A&expires=1778637660
 
 #EXTINF:-1 tvg-chno="10" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago White Sox - Kansas City Royals (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago White Sox - Kansas City Royals (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/mchicagowhitesox.m3u8?md5=TdcVEGxtk4XRLQ0pK4QZ-w&expires=1778634644
+https://cdn12.zohanayaan.com:1686/hls/mchicagowhitesox.m3u8?md5=rer5tl9rtiK2cdef94vR9g&expires=1778637661
 
 #EXTINF:-1 tvg-chno="11" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Minnesota Twins - Miami Marlins (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Minnesota Twins - Miami Marlins (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/mminnesotatwins.m3u8?md5=kxKlqi_39J6btqBtOHu3GQ&expires=1778634645
+https://cdn11.zohanayaan.com:1686/hls/mminnesotatwins.m3u8?md5=WWRDxQSgdz7YZcAsFDS04w&expires=1778637662
 
 #EXTINF:-1 tvg-chno="12" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Milwaukee Brewers - San Diego Padres (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Milwaukee Brewers - San Diego Padres (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/mmilwaukeebrewers.m3u8?md5=zkZXnFlqZ-3oSKwAIWkZ6g&expires=1778634646
+https://cdn15.zohanayaan.com:1686/hls/mmilwaukeebrewers.m3u8?md5=1t_27M1KWC2vBuRZTdFCUQ&expires=1778637663
+
+#EXTINF:-1 tvg-chno="13" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] San Antonio Spurs - Minnesota Timberwolves (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] San Antonio Spurs - Minnesota Timberwolves (EMBED)
+#EXTVLCOPT:http-referrer=https://hoca6.com/
+#EXTVLCOPT:http-origin=https://hoca6.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://cdn14.zohanayaan.com:1686/hls/msanantoniospurs.m3u8?md5=LG9VlMC9BPMmRms6s-JGFA&expires=1778637663
+
+#EXTINF:-1 tvg-chno="14" tvg-id="WNBA.dummy.us" tvg-name="[WNBA] Dallas Wings - Atlanta Dream (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/wnba.png" group-title="Live Events",[WNBA] Dallas Wings - Atlanta Dream (EMBED)
+#EXTVLCOPT:http-referrer=https://hoca6.com/
+#EXTVLCOPT:http-origin=https://hoca6.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://cdn11.zohanayaan.com:1686/hls/ndallaswings.m3u8?md5=Tiabgcm8QjmLKzQ1n-7kdQ&expires=1778637664
+
+#EXTINF:-1 tvg-chno="15" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Texas Rangers - Arizona Diamondbacks (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Texas Rangers - Arizona Diamondbacks (EMBED)
+#EXTVLCOPT:http-referrer=https://hoca6.com/
+#EXTVLCOPT:http-origin=https://hoca6.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://cdn13.zohanayaan.com:1686/hls/mtexasrangers.m3u8?md5=cs-d82z_4VekcAkHxMDOtA&expires=1778637665
+
+#EXTINF:-1 tvg-chno="16" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Houston Astros - Seattle Mariners (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Houston Astros - Seattle Mariners (EMBED)
+#EXTVLCOPT:http-referrer=https://hoca6.com/
+#EXTVLCOPT:http-origin=https://hoca6.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://cdn14.zohanayaan.com:1686/hls/mhoustonastros.m3u8?md5=IBXJLL2SnSfVL0VAXIq3Fw&expires=1778637666
 
