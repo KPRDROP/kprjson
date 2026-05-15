@@ -137,49 +137,43 @@ https://dami-tv.pro/live-hls/channel/wnba/2026-05-15/tor-la/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wnba/2026-05-15/chi-phx/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="24" tvg-id="Live.Event.us" tvg-name="[Combat Sports] ONE Friday Fights 154 & The Inner Circle (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/c9f768228cf65d42df5e3bb466977e2d-thumbnail.jpg" group-title="Live Events",[Combat Sports] ONE Friday Fights 154 & The Inner Circle (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=one-friday-fights-154--the-inner-circle
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=one-friday-fights-154--the-inner-circle
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/one-friday-fights-154--the-inner-circle/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="25" tvg-id="Live.Event.us" tvg-name="[Combat Sports] Chukhadzhian vs. Donovan (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/307a18249239c86c3e9ff4642fc3a14f-thumbnail.jpg" group-title="Live Events",[Combat Sports] Chukhadzhian vs. Donovan (PRO)
+#EXTINF:-1 tvg-chno="24" tvg-id="Live.Event.us" tvg-name="[Combat Sports] Chukhadzhian vs. Donovan (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/307a18249239c86c3e9ff4642fc3a14f-thumbnail.jpg" group-title="Live Events",[Combat Sports] Chukhadzhian vs. Donovan (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=chukhadzhian-vs-donovan
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=chukhadzhian-vs-donovan
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/chukhadzhian-vs-donovan/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="26" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Salford City vs. Grimsby Town (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/41e519be973db3cda661fc88a0e4fcc3-thumbnail.jpg" group-title="Live Events",[Football] Salford City vs. Grimsby Town (PRO)
+#EXTINF:-1 tvg-chno="25" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Salford City vs. Grimsby Town (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/41e519be973db3cda661fc88a0e4fcc3-thumbnail.jpg" group-title="Live Events",[Football] Salford City vs. Grimsby Town (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=efl-league-two/2026-05-15/sal-gri
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=efl-league-two/2026-05-15/sal-gri
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/efl-league-two/2026-05-15/sal-gri/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="27" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Aston Villa vs. Liverpool (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/d28f1c1fe9b35b76f5877fc9a4a0a19f-thumbnail.jpg" group-title="Live Events",[Football] Aston Villa vs. Liverpool (PRO)
+#EXTINF:-1 tvg-chno="26" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Aston Villa vs. Liverpool (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/d28f1c1fe9b35b76f5877fc9a4a0a19f-thumbnail.jpg" group-title="Live Events",[Football] Aston Villa vs. Liverpool (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=pl/2026-05-15/avl-liv
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=pl/2026-05-15/avl-liv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/pl/2026-05-15/avl-liv/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="28" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Notts County vs. Chesterfield (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/67c0ca86b28c7e0cc392b2f7be969d77-thumbnail.jpg" group-title="Live Events",[Football] Notts County vs. Chesterfield (PRO)
+#EXTINF:-1 tvg-chno="27" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Notts County vs. Chesterfield (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/67c0ca86b28c7e0cc392b2f7be969d77-thumbnail.jpg" group-title="Live Events",[Football] Notts County vs. Chesterfield (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=efl-league-two/2026-05-15/nott-ches
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=efl-league-two/2026-05-15/nott-ches
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/efl-league-two/2026-05-15/nott-ches/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="29" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] United States vs. Switzerland (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/bcdb9b1bdbfeed744ea8f59c9a4bc33e-thumbnail.jpg" group-title="Live Events",[Ice Hockey] United States vs. Switzerland (PRO)
+#EXTINF:-1 tvg-chno="28" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] United States vs. Switzerland (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/bcdb9b1bdbfeed744ea8f59c9a4bc33e-thumbnail.jpg" group-title="Live Events",[Ice Hockey] United States vs. Switzerland (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-15/usa-sui
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-15/usa-sui
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/iihf-world-championship/2026-05-15/usa-sui/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="30" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Czech Republic vs. Denmark (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/0f72667a9a5ce44f9afe3b88203c4f57-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Czech Republic vs. Denmark (PRO)
+#EXTINF:-1 tvg-chno="29" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Czech Republic vs. Denmark (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/0f72667a9a5ce44f9afe3b88203c4f57-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Czech Republic vs. Denmark (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-15/cze-den
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-15/cze-den
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/iihf-world-championship/2026-05-15/cze-den/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="31" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: Friday Night Smackdown (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ec7810b68fc39115ce3510bcf9687a63-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: Friday Night Smackdown (PRO)
+#EXTINF:-1 tvg-chno="30" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: Friday Night Smackdown (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ec7810b68fc39115ce3510bcf9687a63-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: Friday Night Smackdown (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wwe/smackdown/2026-05-15
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wwe/smackdown/2026-05-15
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
