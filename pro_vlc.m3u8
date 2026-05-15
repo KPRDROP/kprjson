@@ -173,31 +173,19 @@ https://dami-tv.pro/live-hls/channel/pl/2026-05-15/avl-liv/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/efl-league-two/2026-05-15/nott-ches/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="30" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Finland vs. Germany (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/07d0baa156f08a0c2027e2f14c44c120-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Finland vs. Germany (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-15/fin-ger
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-15/fin-ger
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/iihf-world-championship/2026-05-15/fin-ger/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="31" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Canada vs. Sweden (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/756b61447ad2791382ceaba99bf979af-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Canada vs. Sweden (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-15/can-swe
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-15/can-swe
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/iihf-world-championship/2026-05-15/can-swe/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="32" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] United States vs. Switzerland (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/bcdb9b1bdbfeed744ea8f59c9a4bc33e-thumbnail.jpg" group-title="Live Events",[Ice Hockey] United States vs. Switzerland (PRO)
+#EXTINF:-1 tvg-chno="30" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] United States vs. Switzerland (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/bcdb9b1bdbfeed744ea8f59c9a4bc33e-thumbnail.jpg" group-title="Live Events",[Ice Hockey] United States vs. Switzerland (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-15/usa-sui
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-15/usa-sui
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/iihf-world-championship/2026-05-15/usa-sui/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="33" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Czech Republic vs. Denmark (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/0f72667a9a5ce44f9afe3b88203c4f57-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Czech Republic vs. Denmark (PRO)
+#EXTINF:-1 tvg-chno="31" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Czech Republic vs. Denmark (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/0f72667a9a5ce44f9afe3b88203c4f57-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Czech Republic vs. Denmark (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-15/cze-den
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-15/cze-den
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/iihf-world-championship/2026-05-15/cze-den/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="34" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: Friday Night Smackdown (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ec7810b68fc39115ce3510bcf9687a63-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: Friday Night Smackdown (PRO)
+#EXTINF:-1 tvg-chno="32" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: Friday Night Smackdown (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ec7810b68fc39115ce3510bcf9687a63-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: Friday Night Smackdown (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wwe/smackdown/2026-05-15
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wwe/smackdown/2026-05-15
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
