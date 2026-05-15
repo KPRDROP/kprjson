@@ -159,7 +159,7 @@ async def scrape() -> None:
 
     CACHE_FILE.write(urls)
     
-    # Generate playlists after scraping
+    # Generate playlists after updating
     generate_playlists()
 
 
