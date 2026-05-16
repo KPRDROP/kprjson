@@ -1,43 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Colorado Rockies - Arizona Diamondbacks (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Colorado Rockies - Arizona Diamondbacks (EMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Fa Cup] Celtic vs Heart of Midlothian (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/40.png&w=500&h=500" group-title="Live Events",[Fa Cup] Celtic vs Heart of Midlothian (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/mcoloradorockies.m3u8?md5=wsloruP_NG7o8_OLTj2R8g&expires=1778908977
-
-#EXTINF:-1 tvg-chno="2" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Minnesota Timberwolves - San Antonio Spurs (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Minnesota Timberwolves - San Antonio Spurs (EMBED)
-#EXTVLCOPT:http-referrer=https://hoca6.com/
-#EXTVLCOPT:http-origin=https://hoca6.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/mminnesotatimberwolves.m3u8?md5=F3r_O0g_GzxU12wE3Sb_Ww&expires=1778908978
-
-#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Angels - Los Angeles Dodgers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Los Angeles Angels - Los Angeles Dodgers (EMBED)
-#EXTVLCOPT:http-referrer=https://hoca6.com/
-#EXTVLCOPT:http-origin=https://hoca6.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/mlosangelesangels.m3u8?md5=ohC147K13X-WySRYsJzc1w&expires=1778908979
-
-#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Seattle Mariners - San Diego Padres (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Seattle Mariners - San Diego Padres (EMBED)
-#EXTVLCOPT:http-referrer=https://hoca6.com/
-#EXTVLCOPT:http-origin=https://hoca6.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/mseattlemariners.m3u8?md5=nt62BcbhbSvylG0XkAuqRA&expires=1778908980
-
-#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Athletics - San Francisco Giants (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Athletics - San Francisco Giants (EMBED)
-#EXTVLCOPT:http-referrer=https://hoca6.com/
-#EXTVLCOPT:http-origin=https://hoca6.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/moaklandathletics.m3u8?md5=sbM14qmlZm1n9lzViohYmg&expires=1778908981
-
-#EXTINF:-1 tvg-chno="6" tvg-id="WNBA.dummy.us" tvg-name="[WNBA] Los Angeles Sparks - Toronto Tempo (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/wnba.png" group-title="Live Events",[WNBA] Los Angeles Sparks - Toronto Tempo (EMBED)
-#EXTVLCOPT:http-referrer=https://hoca6.com/
-#EXTVLCOPT:http-origin=https://hoca6.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/nlosangelessparks.m3u8?md5=8XpTYi-mAhxD0BaZbcD8fQ&expires=1778908982
-
-#EXTINF:-1 tvg-chno="7" tvg-id="WNBA.dummy.us" tvg-name="[WNBA] Phoenix Mercury - Chicago Sky (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/wnba.png" group-title="Live Events",[WNBA] Phoenix Mercury - Chicago Sky (EMBED)
-#EXTVLCOPT:http-referrer=https://hoca6.com/
-#EXTVLCOPT:http-origin=https://hoca6.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/nphoenixmercury.m3u8?md5=DYsmlZX4txNbH5ELoZW6fg&expires=1778908983
+https://cdn14.zohanayaan.com:1686/hls/mevent11.m3u8?md5=kxraT-tGpD3Ph71eFzWvtA&expires=1778942213
 
