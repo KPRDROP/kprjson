@@ -1,37 +1,37 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Boxing] El Ahmad - Banabakov (EMBED)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Boxing] El Ahmad - Banabakov (EMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] St. Louis Cardinals - Kansas City Royals (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] St. Louis Cardinals - Kansas City Royals (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/mevent5.m3u8?md5=NYXHsOeAO6oboUsYTxmgLw&expires=1778967554
+https://cdn14.zohanayaan.com:1686/hls/mstlouiscardinals.m3u8?md5=EuHnNOhQ6qN_fxRjRJFGFA&expires=1778971878
 
-#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Detroit Tigers - Toronto Blue Jays (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Detroit Tigers - Toronto Blue Jays (EMBED)
+#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Colorado Rockies - Arizona Diamondbacks (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Colorado Rockies - Arizona Diamondbacks (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/mdetroittigers.m3u8?md5=t7KGnoZB-i_DySDool5mMg&expires=1778967555
+https://cdn12.zohanayaan.com:1686/hls/mcoloradorockies.m3u8?md5=Ylcl1hEp8zDGXclX7sj_vg&expires=1778971879
 
-#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] St. Louis Cardinals - Kansas City Royals (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] St. Louis Cardinals - Kansas City Royals (EMBED)
+#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Washington Nationals - Baltimore Orioles (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Washington Nationals - Baltimore Orioles (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/mstlouiscardinals.m3u8?md5=zsm4TcpMn0y2QoAj_gC-yw&expires=1778967556
+https://cdn11.zohanayaan.com:1686/hls/mwashingtonnationals.m3u8?md5=Lr_kUGoT2TW1PBR4ryJL6A&expires=1778971880
 
-#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Colorado Rockies - Arizona Diamondbacks (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Colorado Rockies - Arizona Diamondbacks (EMBED)
+#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Pittsburgh Pirates - Philadelphia Phillies (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Pittsburgh Pirates - Philadelphia Phillies (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/mcoloradorockies.m3u8?md5=DabMO61LBYA0gLTW1rQJgQ&expires=1778967557
+https://cdn15.zohanayaan.com:1686/hls/mpittsburghpirates.m3u8?md5=wOrziUoh3lZfFePTI6_M6g&expires=1778971881
 
-#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Washington Nationals - Baltimore Orioles (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Washington Nationals - Baltimore Orioles (EMBED)
+#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Tampa Bay Rays - Miami Marlins (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Tampa Bay Rays - Miami Marlins (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/mwashingtonnationals.m3u8?md5=BMgXyEUSaKxiQiC0cWVlvg&expires=1778967558
+https://cdn13.zohanayaan.com:1686/hls/mtampabayrays.m3u8?md5=wRKOOcxn_N4i-Cr3GtCcSw&expires=1778971882
 
-#EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Pittsburgh Pirates - Philadelphia Phillies (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Pittsburgh Pirates - Philadelphia Phillies (EMBED)
+#EXTINF:-1 tvg-chno="6" tvg-id="UFC.247.Dummy.us" tvg-name="[UFC] UFC Fight NIght Allen - Costa (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2017/06/Logo-UFC-500x313.png" group-title="Live Events",[UFC] UFC Fight NIght Allen - Costa (EMBED)
 #EXTVLCOPT:http-referrer=https://hoca6.com/
 #EXTVLCOPT:http-origin=https://hoca6.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/mpittsburghpirates.m3u8?md5=Hw1Mr4rmVKZZgF3XEZSevw&expires=1778967558
+https://cdn14.zohanayaan.com:1686/hls/mevent1.m3u8?md5=ZYthVb3_3O1Wlduj9OP1Wg&expires=1778971883
 
