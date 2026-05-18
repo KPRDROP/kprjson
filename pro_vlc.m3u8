@@ -101,19 +101,13 @@ https://dami-tv.pro/live-hls/channel/nba/2026-05-18/sa-okc/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wnba/2026-05-18/con-por/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="18" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Arsenal vs. Burnley (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/a5a52b5299bcd0d090cead31c1794ef7-thumbnail.jpg" group-title="Live Events",[Football] Arsenal vs. Burnley (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=pl/2026-05-18/ars-bur
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=pl/2026-05-18/ars-bur
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/pl/2026-05-18/ars-bur/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="19" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Ice Hockey] Montreal Canadiens vs. Buffalo Sabres (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/27e38bf8f6119fca13d6b0339ead9d3f-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Montreal Canadiens vs. Buffalo Sabres (PRO)
+#EXTINF:-1 tvg-chno="18" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Ice Hockey] Montreal Canadiens vs. Buffalo Sabres (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/27e38bf8f6119fca13d6b0339ead9d3f-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Montreal Canadiens vs. Buffalo Sabres (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=nhl/2026-05-18/mtl-buf
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=nhl/2026-05-18/mtl-buf
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/nhl/2026-05-18/mtl-buf/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="20" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: Monday Night RAW (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/56336f9d22c51c416e1a56afbd18f314-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: Monday Night RAW (PRO)
+#EXTINF:-1 tvg-chno="19" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: Monday Night RAW (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/56336f9d22c51c416e1a56afbd18f314-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: Monday Night RAW (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wwe/raw/2026-05-18
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wwe/raw/2026-05-18
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
