@@ -113,49 +113,31 @@ https://dami-tv.pro/live-hls/channel/wnba/2026-05-20/dal-chi/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wnba/2026-05-20/con-sea/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="20" tvg-id="Live.Event.us" tvg-name="[Cricket] Kolkata Knight Riders vs. Mumbai Indians (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/23467d283c7f749ee3ee49fec53df543-thumbnail.jpg" group-title="Live Events",[Cricket] Kolkata Knight Riders vs. Mumbai Indians (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=ipl/2026-05-20/kkr-mi
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=ipl/2026-05-20/kkr-mi
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/ipl/2026-05-20/kkr-mi/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="21" tvg-id="Soccer.Dummy.us" tvg-name="[Football] SC Freiburg vs. Aston Villa (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/95f716a9aa3d36f9f5e88ee69303fec5-thumbnail.jpg" group-title="Live Events",[Football] SC Freiburg vs. Aston Villa (PRO)
+#EXTINF:-1 tvg-chno="20" tvg-id="Soccer.Dummy.us" tvg-name="[Football] SC Freiburg vs. Aston Villa (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/95f716a9aa3d36f9f5e88ee69303fec5-thumbnail.jpg" group-title="Live Events",[Football] SC Freiburg vs. Aston Villa (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=uel/2026-05-20/scf-avl
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=uel/2026-05-20/scf-avl
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/uel/2026-05-20/scf-avl/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="22" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Austria vs. Switzerland (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/0df46194aa2a28789ff21b9a7a3d1850-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Austria vs. Switzerland (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-20/aut-sui
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-20/aut-sui
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/iihf-world-championship/2026-05-20/aut-sui/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="23" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Czech Republic vs. Italy (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/aac3f69e70133241273705874a9406ed-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Czech Republic vs. Italy (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-20/cze-ita
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-20/cze-ita
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/iihf-world-championship/2026-05-20/cze-ita/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="24" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] United States vs. Germany (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/d51bb9b7d55fbb6738e14d8f4bd19a22-thumbnail.jpg" group-title="Live Events",[Ice Hockey] United States vs. Germany (PRO)
+#EXTINF:-1 tvg-chno="21" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] United States vs. Germany (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/d51bb9b7d55fbb6738e14d8f4bd19a22-thumbnail.jpg" group-title="Live Events",[Ice Hockey] United States vs. Germany (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-20/usa-ger
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-20/usa-ger
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/iihf-world-championship/2026-05-20/usa-ger/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="25" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Sweden vs. Slovenia (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/0027cfa30ae2457d0b3684c845045875-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Sweden vs. Slovenia (PRO)
+#EXTINF:-1 tvg-chno="22" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Sweden vs. Slovenia (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/0027cfa30ae2457d0b3684c845045875-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Sweden vs. Slovenia (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-20/swe-slo
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-20/swe-slo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/iihf-world-championship/2026-05-20/swe-slo/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="26" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Ice Hockey] Vegas Golden Knights vs. Colorado Avalanche (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/04a6f76b5523de628d76a3b4c86dbed6-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Vegas Golden Knights vs. Colorado Avalanche (PRO)
+#EXTINF:-1 tvg-chno="23" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Ice Hockey] Vegas Golden Knights vs. Colorado Avalanche (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/04a6f76b5523de628d76a3b4c86dbed6-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Vegas Golden Knights vs. Colorado Avalanche (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=nhl/2026-05-20/vgk-col
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=nhl/2026-05-20/vgk-col
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/nhl/2026-05-20/vgk-col/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="27" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] AEW: Wednesday Night Dynamite (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/b406ff9100d91b9210600260350246ff-thumbnail.jpg" group-title="Live Events",[Wrestling] AEW: Wednesday Night Dynamite (PRO)
+#EXTINF:-1 tvg-chno="24" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] AEW: Wednesday Night Dynamite (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/b406ff9100d91b9210600260350246ff-thumbnail.jpg" group-title="Live Events",[Wrestling] AEW: Wednesday Night Dynamite (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=aew/dynamite/2026-05-20
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=aew/dynamite/2026-05-20
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
