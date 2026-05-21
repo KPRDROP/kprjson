@@ -65,43 +65,31 @@ https://dami-tv.pro/live-hls/channel/wnba/2026-05-21/tor-min/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wnba/2026-05-21/la-phx/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[Cricket] Gujarat Titans vs. Chennai Super Kings (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/415f98dbc9a596e9d342c2d2c34309ca-thumbnail.jpg" group-title="Live Events",[Cricket] Gujarat Titans vs. Chennai Super Kings (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=ipl/2026-05-21/gt-csk
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=ipl/2026-05-21/gt-csk
+#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[Darts] 2026 Premier League Darts: Sheffield (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/209eab7d4a09da5eaf9ac5c946243d16-thumbnail.jpg" group-title="Live Events",[Darts] 2026 Premier League Darts: Sheffield (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=2026-premier-league-darts-sheffield
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=2026-premier-league-darts-sheffield
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/ipl/2026-05-21/gt-csk/playlist.m3u8
+https://dami-tv.pro/live-hls/channel/2026-premier-league-darts-sheffield/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="13" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Latvia vs. Finland (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/63e183fed89ee9de0b442b3858c80169-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Latvia vs. Finland (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-21/lat-fin
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-21/lat-fin
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/iihf-world-championship/2026-05-21/lat-fin/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="14" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Canada vs. Norway (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/9bf18d68acdafe9b9a8b01a6421c6648-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Canada vs. Norway (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-21/can-nor
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-21/can-nor
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/iihf-world-championship/2026-05-21/can-nor/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="15" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Switzerland vs. United Kingdom (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/9c13f5853d8b4ee70f1edb78397a6e08-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Switzerland vs. United Kingdom (PRO)
+#EXTINF:-1 tvg-chno="13" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Switzerland vs. United Kingdom (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/9c13f5853d8b4ee70f1edb78397a6e08-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Switzerland vs. United Kingdom (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-21/sui-gbr
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-21/sui-gbr
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/iihf-world-championship/2026-05-21/sui-gbr/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="16" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Denmark vs. Slovakia (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/479c8dd76425df953f974ca453c15e72-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Denmark vs. Slovakia (PRO)
+#EXTINF:-1 tvg-chno="14" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Denmark vs. Slovakia (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/479c8dd76425df953f974ca453c15e72-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Denmark vs. Slovakia (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-21/den-svk
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-21/den-svk
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/iihf-world-championship/2026-05-21/den-svk/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="17" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Ice Hockey] Montreal Canadiens vs. Carolina Hurricanes (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/8e1e6ca4d566e8a23de197b510169769-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Montreal Canadiens vs. Carolina Hurricanes (PRO)
+#EXTINF:-1 tvg-chno="15" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Ice Hockey] Montreal Canadiens vs. Carolina Hurricanes (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/8e1e6ca4d566e8a23de197b510169769-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Montreal Canadiens vs. Carolina Hurricanes (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=nhl/2026-05-21/mtl-car
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=nhl/2026-05-21/mtl-car
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/nhl/2026-05-21/mtl-car/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="18" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] TNA: Impact (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/78f581ee61589a76f6bcdeb095f95c12-thumbnail.jpg" group-title="Live Events",[Wrestling] TNA: Impact (PRO)
+#EXTINF:-1 tvg-chno="16" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] TNA: Impact (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/78f581ee61589a76f6bcdeb095f95c12-thumbnail.jpg" group-title="Live Events",[Wrestling] TNA: Impact (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=tna/impact/2026-05-21
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=tna/impact/2026-05-21
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
