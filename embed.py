@@ -25,8 +25,8 @@ BASE_URL = os.environ.get("EMBED_BASE_URL")
 if not BASE_URL:
     raise RuntimeError("Missing EMBED_BASE_URL secret")
 
-REFERER = "https://hoca6.com/"
-ORIGIN = "https://hoca6.com"
+REFERER = "https://exposestrat.com/"
+ORIGIN = "https://exposestrat.com"
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
