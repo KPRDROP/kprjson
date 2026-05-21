@@ -53,19 +53,13 @@ https://dami-tv.pro/live-hls/channel/wnba/2026-05-21/tor-min/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wnba/2026-05-21/la-phx/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[Darts] 2026 Premier League Darts: Sheffield (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/209eab7d4a09da5eaf9ac5c946243d16-thumbnail.jpg" group-title="Live Events",[Darts] 2026 Premier League Darts: Sheffield (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=2026-premier-league-darts-sheffield
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=2026-premier-league-darts-sheffield
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/2026-premier-league-darts-sheffield/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="11" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Ice Hockey] Montreal Canadiens vs. Carolina Hurricanes (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/8e1e6ca4d566e8a23de197b510169769-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Montreal Canadiens vs. Carolina Hurricanes (PRO)
+#EXTINF:-1 tvg-chno="10" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Ice Hockey] Montreal Canadiens vs. Carolina Hurricanes (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/8e1e6ca4d566e8a23de197b510169769-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Montreal Canadiens vs. Carolina Hurricanes (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=nhl/2026-05-21/mtl-car
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=nhl/2026-05-21/mtl-car
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/nhl/2026-05-21/mtl-car/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="12" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] TNA: Impact (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/78f581ee61589a76f6bcdeb095f95c12-thumbnail.jpg" group-title="Live Events",[Wrestling] TNA: Impact (PRO)
+#EXTINF:-1 tvg-chno="11" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] TNA: Impact (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/78f581ee61589a76f6bcdeb095f95c12-thumbnail.jpg" group-title="Live Events",[Wrestling] TNA: Impact (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=tna/impact/2026-05-21
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=tna/impact/2026-05-21
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
