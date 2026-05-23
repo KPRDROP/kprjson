@@ -3,59 +3,59 @@
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/nskyf1hdd.m3u8?md5=Y-_KDVY1396Xb-3J1vmU5Q&expires=1779582127
+https://cdn13.zohanayaan.com:1686/hls/nskyf1hdd.m3u8?md5=Uz-2XyStQxkoeQRuy6mVLw&expires=1779582406
 
 #EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Philadelphia Phillies - Cleveland Guardians (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Philadelphia Phillies - Cleveland Guardians (EMBED)
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/mphiladelphiaphillies.m3u8?md5=Doj6BDc-rcV7pt1-HWBdpg&expires=1779582128
+https://cdn11.zohanayaan.com:1686/hls/mphiladelphiaphillies.m3u8?md5=Z2RPfDiD-EkbsbYZ5zWWlw&expires=1779582407
 
 #EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Baltimore Orioles - Detroit Tigers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Baltimore Orioles - Detroit Tigers (EMBED)
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/mbaltimoreorioles.m3u8?md5=5o1QuP7ASL0n9OzFvMcL_Q&expires=1779582128
+https://cdn13.zohanayaan.com:1686/hls/mbaltimoreorioles.m3u8?md5=uZnCoEA-Nm3kvBBKhxJfFQ&expires=1779582408
 
 #EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Francisco Giants - Chicago White Sox (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] San Francisco Giants - Chicago White Sox (EMBED)
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/msanfranciscogiants.m3u8?md5=3kxjwUvLAdpH2rm6Cy2meg&expires=1779582129
+https://cdn12.zohanayaan.com:1686/hls/msanfranciscogiants.m3u8?md5=n8RIrzW5f8QhPQkImTsKTg&expires=1779582409
 
 #EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Boston Red Sox - Minnesota Twins (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Boston Red Sox - Minnesota Twins (EMBED)
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/mbostonredsox.m3u8?md5=hyx1PZurT6xFlXKl2kN_6Q&expires=1779582130
+https://cdn12.zohanayaan.com:1686/hls/mbostonredsox.m3u8?md5=lwqGuI0eqhFugb8OFXfPXA&expires=1779582410
 
 #EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Miami Marlins - New York Mets (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Miami Marlins - New York Mets (EMBED)
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/mmiamimarlins.m3u8?md5=-3SO2XGlFOvOo8-CNLkSVw&expires=1779582131
+https://cdn14.zohanayaan.com:1686/hls/mmiamimarlins.m3u8?md5=IHOJ9dwhBFPxA-XwvdnyYw&expires=1779582410
 
 #EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Atlanta Braves - Washington Nationals (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Atlanta Braves - Washington Nationals (EMBED)
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/matlantabraves.m3u8?md5=zxU5YPFUHo9Rxizi7848YQ&expires=1779582132
+https://cdn15.zohanayaan.com:1686/hls/matlantabraves.m3u8?md5=dYMbCedH4hdM3BMGbnIbEA&expires=1779582411
 
 #EXTINF:-1 tvg-chno="8" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Kansas City Royals - Seattle Mariners (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Kansas City Royals - Seattle Mariners (EMBED)
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/mkansascityroyals.m3u8?md5=UGct-ipRzF16Q4Cfx92XDQ&expires=1779582133
+https://cdn11.zohanayaan.com:1686/hls/mkansascityroyals.m3u8?md5=KlTgPKxS4O2Mhlf5lwLX4Q&expires=1779582412
 
 #EXTINF:-1 tvg-chno="9" tvg-id="Soccer.Dummy.us" tvg-name="[MLS] Minnesota United FC - Real Salt Lake (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/19.png" group-title="Live Events",[MLS] Minnesota United FC - Real Salt Lake (EMBED)
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/nminnesotaunitedfc.m3u8?md5=C4Dfs9HutCclWhXD41x5Hw&expires=1779582134
+https://cdn15.zohanayaan.com:1686/hls/nminnesotaunitedfc.m3u8?md5=fLtC1gUsxd2yPodXgSxMmA&expires=1779582413
 
 #EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[Boxing] Oleksandr Usyk - Rico Verhoeven (EMBED)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Boxing] Oleksandr Usyk - Rico Verhoeven (EMBED)
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/mevent1.m3u8?md5=0Zqq6S2lPHtFdDBH2yzdBQ&expires=1779582135
+https://cdn13.zohanayaan.com:1686/hls/mevent1.m3u8?md5=Jpliz3cnFGTXGCdM3D7HBA&expires=1779582413
 
