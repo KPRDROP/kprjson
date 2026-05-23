@@ -1,5 +1,7 @@
 import asyncio
+import json
 import os
+import re
 from functools import partial
 from urllib.parse import urljoin, quote
 
@@ -130,41 +132,36 @@ async def process_event(
 # EVENT DISCOVERY
 # ---------------------------------------------------------
 
-async def get_api_data() -> dict[str, dict[str, list[dict]]]:
-    tasks = [
-        (
-            sport,
-            network.request(
-                urljoin(url, "api/v2/stateshot"),
-                log=log,
-            ),
-        )
-        for sport, url in API_URLS.items()
-    ]
-
-    results = await asyncio.gather(*(task for _, task in tasks))
-
-    return {sport: r.json() for (sport, _), r in zip(tasks, results) if r}
-
-
 async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
-    now = Time.clean(Time.now())
-
-    api_data = await get_api_data()
+    # Fetch HTML from BASE_URLS instead of API endpoints
+    tasks = [network.request(url, log=log) for url in BASE_URLS.values()]
+    results = await asyncio.gather(*tasks)
 
     events = []
 
-    # Expanded time window: 6 hours back and 6 hours forward
+    if not (html_data := [(html.text, html.url) for html in results if html]):
+        return events
+
+    now = Time.clean(Time.now())
+
+    # Pattern to extract stateshot variable from HTML
+    stateshot_ptrn = re.compile(r"var\s+stateshot\s+=\s+(.*);", re.I)
+
+    # Time window: 6 hours back and 6 hours forward
     start_dt = now.delta(hours=-6)
     end_dt = now.delta(hours=6)
 
-    for sport in api_data:
-        data = api_data[sport]
+    for content, url in html_data:
+        sport = next((k for k, v in BASE_URLS.items() if v == url), "Live Event")
+
+        if not (match := stateshot_ptrn.search(content)):
+            log.warning(f"No stateshot found for {sport}")
+            continue
+
+        data: dict = json.loads(f"{match[1]}")
 
         teams = data.get("teams", {})
-
         flavors = data.get("flavors", {})
-
         media_events = data.get("media_events", {})
 
         team_identifier: dict[int, str] = {t.get("id"): t.get("name") for t in teams}
@@ -250,7 +247,7 @@ async def scrape() -> None:
             url = await network.safe_process(
                 handler,
                 url_num=i,
-                semaphore=network.PW_S,
+                semaphore=network.HTTP_S,  # Use HTTP_S instead of PW_S since no browser needed
                 log=log,
             )
 
