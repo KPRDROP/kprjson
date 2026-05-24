@@ -328,3 +328,9 @@ https://dami-tv.pro/live-hls/channel/110th-running-of-the-indianapolis-500/playl
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=f1/2026/canada/race
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/f1/2026/canada/race/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="56" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] AEW: Double or Nothing (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/0a4509837e6ec75ec02eb1f4a4c781cc-thumbnail.jpg" group-title="Live Events",[Wrestling] AEW: Double or Nothing (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=aew/2026-05-24/double-or-nothing
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=aew/2026-05-24/double-or-nothing
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://dami-tv.pro/live-hls/channel/aew/2026-05-24/double-or-nothing/playlist.m3u8
