@@ -1,1 +1,63 @@
-#EXTM3U
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
+# Last Updated: 2026-05-26 15:52 UTC
+
+#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Live Event] Washington Nationals vs Cleveland Guardians 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Washington Nationals vs Cleveland Guardians 1 (SHOPP)
+https://streamxyz.shop/guardians/index.m3u8|referer=https%3A%2F%2Fxyzstreams.shop|origin=https%3A%2F%2Fxyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0%29%20Gecko%2F20100101%20Firefox%2F146.0
+
+#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[Live Event] Washington Nationals vs Cleveland Guardians 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Washington Nationals vs Cleveland Guardians 2 (SHOPP)
+https://streamxyz.shop/nationals/index.m3u8|referer=https%3A%2F%2Fxyzstreams.shop|origin=https%3A%2F%2Fxyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0%29%20Gecko%2F20100101%20Firefox%2F146.0
+
+#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Live Event] Tampa Bay Rays vs Baltimore Orioles 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Tampa Bay Rays vs Baltimore Orioles 1 (SHOPP)
+https://streamxyz.shop/orioles/index.m3u8|referer=https%3A%2F%2Fxyzstreams.shop|origin=https%3A%2F%2Fxyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0%29%20Gecko%2F20100101%20Firefox%2F146.0
+
+#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[Live Event] Tampa Bay Rays vs Baltimore Orioles 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Tampa Bay Rays vs Baltimore Orioles 2 (SHOPP)
+https://streamxyz.shop/rays/index.m3u8|referer=https%3A%2F%2Fxyzstreams.shop|origin=https%3A%2F%2Fxyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0%29%20Gecko%2F20100101%20Firefox%2F146.0
+
+#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[Live Event] Los Angeles Angels vs Detroit Tigers 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Los Angeles Angels vs Detroit Tigers 1 (SHOPP)
+https://streamxyz.shop/tigers/index.m3u8|referer=https%3A%2F%2Fxyzstreams.shop|origin=https%3A%2F%2Fxyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0%29%20Gecko%2F20100101%20Firefox%2F146.0
+
+#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[Live Event] Los Angeles Angels vs Detroit Tigers 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Los Angeles Angels vs Detroit Tigers 2 (SHOPP)
+https://streamxyz.shop/angels/index.m3u8|referer=https%3A%2F%2Fxyzstreams.shop|origin=https%3A%2F%2Fxyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0%29%20Gecko%2F20100101%20Firefox%2F146.0
+
+#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[Live Event] Chicago Cubs vs Pittsburgh Pirates 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Chicago Cubs vs Pittsburgh Pirates 1 (SHOPP)
+https://streamxyz.shop/cubs/index.m3u8|referer=https%3A%2F%2Fxyzstreams.shop|origin=https%3A%2F%2Fxyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0%29%20Gecko%2F20100101%20Firefox%2F146.0
+
+#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[Live Event] Chicago Cubs vs Pittsburgh Pirates 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Chicago Cubs vs Pittsburgh Pirates 2 (SHOPP)
+https://streamxyz.shop/pirates/index.m3u8|referer=https%3A%2F%2Fxyzstreams.shop|origin=https%3A%2F%2Fxyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0%29%20Gecko%2F20100101%20Firefox%2F146.0
+
+#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[Live Event] Atlanta Braves vs Boston Red Sox 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Atlanta Braves vs Boston Red Sox 1 (SHOPP)
+https://streamxyz.shop/braves/index.m3u8|referer=https%3A%2F%2Fxyzstreams.shop|origin=https%3A%2F%2Fxyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0%29%20Gecko%2F20100101%20Firefox%2F146.0
+
+#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[Live Event] Atlanta Braves vs Boston Red Sox 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Atlanta Braves vs Boston Red Sox 2 (SHOPP)
+https://streamxyz.shop/redsox/index.m3u8|referer=https%3A%2F%2Fxyzstreams.shop|origin=https%3A%2F%2Fxyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0%29%20Gecko%2F20100101%20Firefox%2F146.0
+
+#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[Live Event] Miami Marlins vs Toronto Blue Jays 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Miami Marlins vs Toronto Blue Jays 1 (SHOPP)
+https://streamxyz.shop/marlins/index.m3u8|referer=https%3A%2F%2Fxyzstreams.shop|origin=https%3A%2F%2Fxyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0%29%20Gecko%2F20100101%20Firefox%2F146.0
+
+#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[Live Event] Miami Marlins vs Toronto Blue Jays 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Miami Marlins vs Toronto Blue Jays 2 (SHOPP)
+https://streamxyz.shop/bluejays/index.m3u8|referer=https%3A%2F%2Fxyzstreams.shop|origin=https%3A%2F%2Fxyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0%29%20Gecko%2F20100101%20Firefox%2F146.0
+
+#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[Live Event] Cincinnati Reds vs New York Mets 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Cincinnati Reds vs New York Mets 1 (SHOPP)
+https://streamxyz.shop/reds/index.m3u8|referer=https%3A%2F%2Fxyzstreams.shop|origin=https%3A%2F%2Fxyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0%29%20Gecko%2F20100101%20Firefox%2F146.0
+
+#EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[Live Event] Cincinnati Reds vs New York Mets 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Cincinnati Reds vs New York Mets 2 (SHOPP)
+https://streamxyz.shop/mets/index.m3u8|referer=https%3A%2F%2Fxyzstreams.shop|origin=https%3A%2F%2Fxyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0%29%20Gecko%2F20100101%20Firefox%2F146.0
+
+#EXTINF:-1 tvg-chno="15" tvg-id="Live.Event.us" tvg-name="[Live Event] Minnesota Twins vs Chicago White Sox 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Minnesota Twins vs Chicago White Sox 1 (SHOPP)
+https://streamxyz.shop/whitesox/index.m3u8|referer=https%3A%2F%2Fxyzstreams.shop|origin=https%3A%2F%2Fxyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0%29%20Gecko%2F20100101%20Firefox%2F146.0
+
+#EXTINF:-1 tvg-chno="16" tvg-id="Live.Event.us" tvg-name="[Live Event] Minnesota Twins vs Chicago White Sox 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Minnesota Twins vs Chicago White Sox 2 (SHOPP)
+https://streamxyz.shop/twins/index.m3u8|referer=https%3A%2F%2Fxyzstreams.shop|origin=https%3A%2F%2Fxyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0%29%20Gecko%2F20100101%20Firefox%2F146.0
+
+#EXTINF:-1 tvg-chno="17" tvg-id="Live.Event.us" tvg-name="[Live Event] New York Yankees vs Kansas City Royals 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] New York Yankees vs Kansas City Royals 1 (SHOPP)
+https://streamxyz.shop/royals/index.m3u8|referer=https%3A%2F%2Fxyzstreams.shop|origin=https%3A%2F%2Fxyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0%29%20Gecko%2F20100101%20Firefox%2F146.0
+
+#EXTINF:-1 tvg-chno="18" tvg-id="Live.Event.us" tvg-name="[Live Event] New York Yankees vs Kansas City Royals 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] New York Yankees vs Kansas City Royals 2 (SHOPP)
+https://streamxyz.shop/yankees/index.m3u8|referer=https%3A%2F%2Fxyzstreams.shop|origin=https%3A%2F%2Fxyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0%29%20Gecko%2F20100101%20Firefox%2F146.0
+
+#EXTINF:-1 tvg-chno="19" tvg-id="Live.Event.us" tvg-name="[Live Event] St. Louis Cardinals vs Milwaukee Brewers 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] St. Louis Cardinals vs Milwaukee Brewers 1 (SHOPP)
+https://streamxyz.shop/brewers/index.m3u8|referer=https%3A%2F%2Fxyzstreams.shop|origin=https%3A%2F%2Fxyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0%29%20Gecko%2F20100101%20Firefox%2F146.0
+
+#EXTINF:-1 tvg-chno="20" tvg-id="Live.Event.us" tvg-name="[Live Event] St. Louis Cardinals vs Milwaukee Brewers 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] St. Louis Cardinals vs Milwaukee Brewers 2 (SHOPP)
+https://streamxyz.shop/cardinals/index.m3u8|referer=https%3A%2F%2Fxyzstreams.shop|origin=https%3A%2F%2Fxyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0%29%20Gecko%2F20100101%20Firefox%2F146.0
+
