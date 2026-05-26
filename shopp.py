@@ -3,7 +3,6 @@
 from utils import Cache, Time, get_logger, leagues, network
 from datetime import datetime
 from urllib.parse import quote
-import os
 
 log = get_logger(__name__)
 
@@ -22,8 +21,16 @@ TIVIMATE_OUTPUT = "shopp_tivimate.m3u8"
 # Headers for streams
 REFERER = "https://xyzstreams.shop"
 ORIGIN = "https://xyzstreams.shop"
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
-TIVIMATE_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) "
+    "Gecko/20100101 Firefox/151.0"
+)
+
+TIVIMATE_USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) "
+    "Gecko/20100101 Firefox/151.0"
+)
 
 
 async def get_events() -> dict[str, dict[str, str | float]]:
@@ -90,81 +97,125 @@ async def scrape() -> None:
 
 
 def generate_playlists() -> None:
-    """Generate VLC and TiviMate playlist files from collected events"""
+    """Generate VLC and TiviMate playlist files"""
+
     if not urls:
         log.warning("No events to generate playlists")
         return
 
     ts = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
-    header = f'#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"\n# Last Updated: {ts}\n\n'
 
-    # Generate VLC playlist
+    header = (
+        '#EXTM3U x-tvg-url="https://epgshare01.online/'
+        'epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"\n'
+        f"# Last Updated: {ts}\n\n"
+    )
+
+    # =========================================================
+    # VLC PLAYLIST
+    # =========================================================
+
     with open(VLC_OUTPUT, "w", encoding="utf-8") as f:
         f.write(header)
-        
+
         ch_no = 1
+
         for event_name, event_data in urls.items():
             url = event_data.get("url")
-            logo = event_data.get("logo", "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png")
+            logo = event_data.get(
+                "logo",
+                "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
+            )
             tvg_id = event_data.get("id", "Live.Event.us")
-            
+
             if not url:
                 continue
-            
-            # Write VLC format with EXTVLCOPT lines
-            f.write(f'#EXTINF:-1 tvg-chno="{ch_no}" tvg-id="{tvg_id}" tvg-name="{event_name}" tvg-logo="{logo}" group-title="Live Events",{event_name}\n')
-            f.write(f'#EXTVLCOPT:http-referrer={REFERER}\n')
-            f.write(f'#EXTVLCOPT:http-origin={ORIGIN}\n')
-            f.write(f'#EXTVLCOPT:http-user-agent={USER_AGENT}\n')
-            f.write(f'{url}\n\n')
-            
-            ch_no += 1
-    
-    log.info(f"Generated VLC playlist: {VLC_OUTPUT} with {ch_no - 1} streams")
 
-    # Generate TiviMate playlist
+            f.write(
+                f'#EXTINF:-1 tvg-chno="{ch_no}" '
+                f'tvg-id="{tvg_id}" '
+                f'tvg-name="{event_name}" '
+                f'tvg-logo="{logo}" '
+                f'group-title="Live Events",{event_name}\n'
+            )
+
+            f.write(f"#EXTVLCOPT:http-referrer={REFERER}\n")
+            f.write(f"#EXTVLCOPT:http-origin={ORIGIN}\n")
+            f.write(f"#EXTVLCOPT:http-user-agent={USER_AGENT}\n")
+            f.write(f"{url}\n\n")
+
+            ch_no += 1
+
+    log.info(
+        f"Generated VLC playlist: {VLC_OUTPUT} "
+        f"with {ch_no - 1} streams"
+    )
+
+    # =========================================================
+    # TIVIMATE PLAYLIST
+    # =========================================================
+
+    # ONLY encode user-agent
     ua_enc = quote(TIVIMATE_USER_AGENT, safe="")
-    referer_enc = quote(REFERER, safe="")
-    origin_enc = quote(ORIGIN, safe="")
-    
+
     with open(TIVIMATE_OUTPUT, "w", encoding="utf-8") as f:
         f.write(header)
-        
+
         ch_no = 1
+
         for event_name, event_data in urls.items():
             url = event_data.get("url")
-            logo = event_data.get("logo", "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png")
+            logo = event_data.get(
+                "logo",
+                "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png",
+            )
             tvg_id = event_data.get("id", "Live.Event.us")
-            
+
             if not url:
                 continue
-            
-            # Write TiviMate format with pipe-separated headers
-            f.write(f'#EXTINF:-1 tvg-chno="{ch_no}" tvg-id="{tvg_id}" tvg-name="{event_name}" tvg-logo="{logo}" group-title="Live Events",{event_name}\n')
-            f.write(f'{url}|referer={referer_enc}|origin={origin_enc}|user-agent={ua_enc}\n\n')
-            
+
+            f.write(
+                f'#EXTINF:-1 tvg-chno="{ch_no}" '
+                f'tvg-id="{tvg_id}" '
+                f'tvg-name="{event_name}" '
+                f'tvg-logo="{logo}" '
+                f'group-title="Live Events",{event_name}\n'
+            )
+
+            # Referer and origin in plain text
+            f.write(
+                f'{url}'
+                f'|referer={REFERER}'
+                f'|origin={ORIGIN}'
+                f'|user-agent={ua_enc}\n\n'
+            )
+
             ch_no += 1
-    
-    log.info(f"Generated TiviMate playlist: {TIVIMATE_OUTPUT} with {ch_no - 1} streams")
+
+    log.info(
+        f"Generated TiviMate playlist: {TIVIMATE_OUTPUT} "
+        f"with {ch_no - 1} streams"
+    )
 
 
 async def main() -> None:
-    """Runn the updater and generate playlists"""
+    """Run updater and generate playlists"""
+
     log.info("Starting SHOPP playlist generator")
-    
-    # Scrape events
+
     await scrape()
-    
-    # Generate playlists
+
     generate_playlists()
-    
+
     log.info("Playlist generation completed")
-    print(f"\n Playlists generated successfully!")
-    print(f"    VLC: {VLC_OUTPUT}")
-    print(f"    TiviMate: {TIVIMATE_OUTPUT}")
-    print(f"    Total streams: {len(urls)}")
+
+    print("\nPlaylists generated successfully!")
+    print(f"VLC: {VLC_OUTPUT}")
+    print(f"TiviMate: {TIVIMATE_OUTPUT}")
+    print(f"Total streams: {len(urls)}")
 
 
 if __name__ == "__main__":
     import asyncio
+
     asyncio.run(main())
