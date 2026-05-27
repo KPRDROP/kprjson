@@ -137,13 +137,7 @@ https://dami-tv.pro/live-hls/channel/uecl/2026-05-27/cry-ray/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/nhl/2026-05-27/car-mtl/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="24" tvg-id="Live.Event.us" tvg-name="[Rugby] New South Wales vs. Queensland (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/cbc6203b659a7f2f4c594fd49a467d05-thumbnail.jpg" group-title="Live Events",[Rugby] New South Wales vs. Queensland (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=nrl/2026-05-27/new-que
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=nrl/2026-05-27/new-que
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/nrl/2026-05-27/new-que/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="25" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] AEW: Wednesday Night Dynamite (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/b406ff9100d91b9210600260350246ff-thumbnail.jpg" group-title="Live Events",[Wrestling] AEW: Wednesday Night Dynamite (PRO)
+#EXTINF:-1 tvg-chno="24" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] AEW: Wednesday Night Dynamite (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/b406ff9100d91b9210600260350246ff-thumbnail.jpg" group-title="Live Events",[Wrestling] AEW: Wednesday Night Dynamite (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=aew/dynamite/2026-05-27
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=aew/dynamite/2026-05-27
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
