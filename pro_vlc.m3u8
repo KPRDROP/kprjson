@@ -119,25 +119,19 @@ https://dami-tv.pro/live-hls/channel/wnba/2026-05-27/con-por/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wnba/2026-05-27/wsh-sea/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="21" tvg-id="Live.Event.us" tvg-name="[Cricket] Rajasthan Royals vs. Sunrisers Hyderabad (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/53c44f69ff52cf671024589ac0b6ddf0-thumbnail.jpg" group-title="Live Events",[Cricket] Rajasthan Royals vs. Sunrisers Hyderabad (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=ipl/2026-05-27/rr-srh
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=ipl/2026-05-27/rr-srh
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/ipl/2026-05-27/rr-srh/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="22" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Crystal Palace vs. Rayo Vallecano (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/741a4c73c5a54e8e25b60ea4e10c86b1-thumbnail.jpg" group-title="Live Events",[Football] Crystal Palace vs. Rayo Vallecano (PRO)
+#EXTINF:-1 tvg-chno="21" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Crystal Palace vs. Rayo Vallecano (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/741a4c73c5a54e8e25b60ea4e10c86b1-thumbnail.jpg" group-title="Live Events",[Football] Crystal Palace vs. Rayo Vallecano (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=uecl/2026-05-27/cry-ray
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=uecl/2026-05-27/cry-ray
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/uecl/2026-05-27/cry-ray/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="23" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Ice Hockey] Carolina Hurricanes vs. Montreal Canadiens (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/6fc004a7df4ddb50e198717ed4cec741-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Carolina Hurricanes vs. Montreal Canadiens (PRO)
+#EXTINF:-1 tvg-chno="22" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Ice Hockey] Carolina Hurricanes vs. Montreal Canadiens (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/6fc004a7df4ddb50e198717ed4cec741-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Carolina Hurricanes vs. Montreal Canadiens (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=nhl/2026-05-27/car-mtl
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=nhl/2026-05-27/car-mtl
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/nhl/2026-05-27/car-mtl/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="24" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] AEW: Wednesday Night Dynamite (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/b406ff9100d91b9210600260350246ff-thumbnail.jpg" group-title="Live Events",[Wrestling] AEW: Wednesday Night Dynamite (PRO)
+#EXTINF:-1 tvg-chno="23" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] AEW: Wednesday Night Dynamite (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/b406ff9100d91b9210600260350246ff-thumbnail.jpg" group-title="Live Events",[Wrestling] AEW: Wednesday Night Dynamite (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=aew/dynamite/2026-05-27
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=aew/dynamite/2026-05-27
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
