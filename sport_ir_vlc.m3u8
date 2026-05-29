@@ -1,18 +1,24 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Atlanta Braves vs Boston Red Sox (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Atlanta Braves vs Boston Red Sox (SPORTir)
+#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs vs Pittsburgh Pirates (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago Cubs vs Pittsburgh Pirates (SPORTir)
 #EXTVLCOPT:http-referrer=https://mlb24all.ir
 #EXTVLCOPT:http-origin=https://mlb24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-59639d19.streamtofu.com/6a193a60.b76bf6b2i1375cb43.160e5.ba614824/free.live.espn/master.m3u8
+https://node-6a57c764.streamtofu.com/6a195c79.0ade93dbi2c8a0f43.160f7.4185854a/free.live.espn/master.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs vs Pittsburgh Pirates (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago Cubs vs Pittsburgh Pirates (SPORTir)
+#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Toronto Blue Jays vs Baltimore Orioles (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Toronto Blue Jays vs Baltimore Orioles (SPORTir)
 #EXTVLCOPT:http-referrer=https://mlb24all.ir
 #EXTVLCOPT:http-origin=https://mlb24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-6a57c764.streamtofu.com/6a193a60.ccec4223i1375cb43.160f7.9eb26af6/free.live.espn/master.m3u8
+https://node-582e4e77.streamtofu.com/6a195c79.a574d9afi2c8a0f43.16189.069e41a8/free.live.sportsnet/master.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Toronto Blue Jays vs Baltimore Orioles (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Toronto Blue Jays vs Baltimore Orioles (SPORTir)
+#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Houston Astros vs Texas Rangers (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Houston Astros vs Texas Rangers (SPORTir)
 #EXTVLCOPT:http-referrer=https://mlb24all.ir
 #EXTVLCOPT:http-origin=https://mlb24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-8bba18be.streamtofu.com/6a193a60.31c2b970i1375cb43.16189.227c1aa1/free.live.sportsnet/master.m3u8
+https://node-5d763f4c.streamtofu.com/6a195c79.ce542b98i2c8a0f43.16316.fb0a0643/free.live.sportsnet/master.m3u8
+
+#EXTINF:-1 tvg-chno="4" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Oklahoma City Thunder vs San Antonio Spurs (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Oklahoma City Thunder vs San Antonio Spurs (SPORTir)
+#EXTVLCOPT:http-referrer=https://nba24all.ir
+#EXTVLCOPT:http-origin=https://nba24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-025d151e.streamtofu.com/6a195c7a.d1d25a25i2c8a0f43.16314.ba8e92d7/free.live.sportsnet/master.m3u8
