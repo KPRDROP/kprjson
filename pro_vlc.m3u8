@@ -119,49 +119,37 @@ https://dami-tv.pro/live-hls/channel/nba/2026-05-30/sa-okc/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wnba/2026-05-30/ind-por/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="21" tvg-id="Live.Event.us" tvg-name="[Combat Sports] UFC Fight Night: Song vs. Figueiredo (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/03e5e1f8a89c2b151e99bb77bc99efa8-thumbnail.jpg" group-title="Live Events",[Combat Sports] UFC Fight Night: Song vs. Figueiredo (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=ufc-fight-night-song-vs-figueiredo
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=ufc-fight-night-song-vs-figueiredo
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/ufc-fight-night-song-vs-figueiredo/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="22" tvg-id="Live.Event.us" tvg-name="[Combat Sports] Dmitry Bivol vs. Michael Eifert (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/0e2a972d1c6b07abdb33c1721f748fa9-thumbnail.jpg" group-title="Live Events",[Combat Sports] Dmitry Bivol vs. Michael Eifert (PRO)
+#EXTINF:-1 tvg-chno="21" tvg-id="Live.Event.us" tvg-name="[Combat Sports] Dmitry Bivol vs. Michael Eifert (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/0e2a972d1c6b07abdb33c1721f748fa9-thumbnail.jpg" group-title="Live Events",[Combat Sports] Dmitry Bivol vs. Michael Eifert (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=bivol-vs-eifert
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=bivol-vs-eifert
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/bivol-vs-eifert/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="23" tvg-id="Live.Event.us" tvg-name="[Combat Sports] O'Shaquie Foster vs. Raymond Ford (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ba40c428d0b9238582b4c46159bbe32a-thumbnail.jpg" group-title="Live Events",[Combat Sports] O'Shaquie Foster vs. Raymond Ford (PRO)
+#EXTINF:-1 tvg-chno="22" tvg-id="Live.Event.us" tvg-name="[Combat Sports] O'Shaquie Foster vs. Raymond Ford (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ba40c428d0b9238582b4c46159bbe32a-thumbnail.jpg" group-title="Live Events",[Combat Sports] O'Shaquie Foster vs. Raymond Ford (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=oshaquie-foster-vs-raymond-ford
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=oshaquie-foster-vs-raymond-ford
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/oshaquie-foster-vs-raymond-ford/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="24" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Paris Saint-Germain vs. Arsenal (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/04dde5bde80cfea592f10c44e7273252-thumbnail.jpg" group-title="Live Events",[Football] Paris Saint-Germain vs. Arsenal (PRO)
+#EXTINF:-1 tvg-chno="23" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Paris Saint-Germain vs. Arsenal (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/04dde5bde80cfea592f10c44e7273252-thumbnail.jpg" group-title="Live Events",[Football] Paris Saint-Germain vs. Arsenal (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=ucl/2026-05-30/psg-ars
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=ucl/2026-05-30/psg-ars
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/ucl/2026-05-30/psg-ars/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="25" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Switzerland vs. Norway (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/8ebcffa0b8c01731084627150a180cde-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Switzerland vs. Norway (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-30/sui-nor
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-30/sui-nor
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/iihf-world-championship/2026-05-30/sui-nor/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="26" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Canada vs. Finland (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/8530274229747a7565002f0f7deb1b32-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Canada vs. Finland (PRO)
+#EXTINF:-1 tvg-chno="24" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Canada vs. Finland (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/8530274229747a7565002f0f7deb1b32-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Canada vs. Finland (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-30/can-fin
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-30/can-fin
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/iihf-world-championship/2026-05-30/can-fin/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="27" tvg-id="Live.Event.us" tvg-name="[Motorsports] Pro Motocross: Fox Raceway (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/987906340148eb24238a7ba4ceb6cb9f-thumbnail.jpg" group-title="Live Events",[Motorsports] Pro Motocross: Fox Raceway (PRO)
+#EXTINF:-1 tvg-chno="25" tvg-id="Live.Event.us" tvg-name="[Motorsports] Pro Motocross: Fox Raceway (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/987906340148eb24238a7ba4ceb6cb9f-thumbnail.jpg" group-title="Live Events",[Motorsports] Pro Motocross: Fox Raceway (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=smx-wk17
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=smx-wk17
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/smx-wk17/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="28" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] AEW: Saturday Night Collision (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/6e29b1bb679dd5133c85bbaadc2c4b13-thumbnail.jpg" group-title="Live Events",[Wrestling] AEW: Saturday Night Collision (PRO)
+#EXTINF:-1 tvg-chno="26" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] AEW: Saturday Night Collision (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/6e29b1bb679dd5133c85bbaadc2c4b13-thumbnail.jpg" group-title="Live Events",[Wrestling] AEW: Saturday Night Collision (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=aew/collision/2026-05-30
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=aew/collision/2026-05-30
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
