@@ -95,35 +95,35 @@ https://dami-tv.pro/live-hls/channel/mlb/2026-05-30/ari-sea/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mlb/2026-05-30/phi-lad/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="17" tvg-id="WNBA.dummy.us" tvg-name="[Basketball] Seattle Storm vs. Toronto Tempo (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/93e5bbab3e7495373d58728e654e0260-thumbnail.jpg" group-title="Live Events",[Basketball] Seattle Storm vs. Toronto Tempo (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wnba/2026-05-30/sea-tor
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wnba/2026-05-30/sea-tor
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/wnba/2026-05-30/sea-tor/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="18" tvg-id="WNBA.dummy.us" tvg-name="[Basketball] Los Angeles Sparks vs. Connecticut Sun (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/b1eb1f7876f72fb850a07601467c860a-thumbnail.jpg" group-title="Live Events",[Basketball] Los Angeles Sparks vs. Connecticut Sun (PRO)
+#EXTINF:-1 tvg-chno="17" tvg-id="WNBA.dummy.us" tvg-name="[Basketball] Los Angeles Sparks vs. Connecticut Sun (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/b1eb1f7876f72fb850a07601467c860a-thumbnail.jpg" group-title="Live Events",[Basketball] Los Angeles Sparks vs. Connecticut Sun (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wnba/2026-05-30/la-con
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wnba/2026-05-30/la-con
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wnba/2026-05-30/la-con/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="19" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] San Antonio Spurs vs. Oklahoma City Thunder (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/36969d0eaf575e6fb9d31504dec50c82-thumbnail.jpg" group-title="Live Events",[Basketball] San Antonio Spurs vs. Oklahoma City Thunder (PRO)
+#EXTINF:-1 tvg-chno="18" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] San Antonio Spurs vs. Oklahoma City Thunder (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/36969d0eaf575e6fb9d31504dec50c82-thumbnail.jpg" group-title="Live Events",[Basketball] San Antonio Spurs vs. Oklahoma City Thunder (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=nba/2026-05-30/sa-okc
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=nba/2026-05-30/sa-okc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/nba/2026-05-30/sa-okc/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="20" tvg-id="WNBA.dummy.us" tvg-name="[Basketball] Indiana Fever vs. Portland Fire (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/57b301107e2f7484f3b384149d622be7-thumbnail.jpg" group-title="Live Events",[Basketball] Indiana Fever vs. Portland Fire (PRO)
+#EXTINF:-1 tvg-chno="19" tvg-id="WNBA.dummy.us" tvg-name="[Basketball] Indiana Fever vs. Portland Fire (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/57b301107e2f7484f3b384149d622be7-thumbnail.jpg" group-title="Live Events",[Basketball] Indiana Fever vs. Portland Fire (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wnba/2026-05-30/ind-por
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wnba/2026-05-30/ind-por
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wnba/2026-05-30/ind-por/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="21" tvg-id="Live.Event.us" tvg-name="[Combat Sports] Dmitry Bivol vs. Michael Eifert (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/0e2a972d1c6b07abdb33c1721f748fa9-thumbnail.jpg" group-title="Live Events",[Combat Sports] Dmitry Bivol vs. Michael Eifert (PRO)
+#EXTINF:-1 tvg-chno="20" tvg-id="Live.Event.us" tvg-name="[Combat Sports] Dmitry Bivol vs. Michael Eifert (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/0e2a972d1c6b07abdb33c1721f748fa9-thumbnail.jpg" group-title="Live Events",[Combat Sports] Dmitry Bivol vs. Michael Eifert (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=bivol-vs-eifert
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=bivol-vs-eifert
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/bivol-vs-eifert/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="21" tvg-id="Live.Event.us" tvg-name="[Combat Sports] BKFC 90: Tierney vs. Franco (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/70697677625c9579805eeab889fe93c9-thumbnail.jpg" group-title="Live Events",[Combat Sports] BKFC 90: Tierney vs. Franco (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=bkfc-90-tierney-vs-franco
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=bkfc-90-tierney-vs-franco
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://dami-tv.pro/live-hls/channel/bkfc-90-tierney-vs-franco/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="22" tvg-id="Live.Event.us" tvg-name="[Combat Sports] O'Shaquie Foster vs. Raymond Ford (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ba40c428d0b9238582b4c46159bbe32a-thumbnail.jpg" group-title="Live Events",[Combat Sports] O'Shaquie Foster vs. Raymond Ford (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=oshaquie-foster-vs-raymond-ford
@@ -131,25 +131,19 @@ https://dami-tv.pro/live-hls/channel/bivol-vs-eifert/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/oshaquie-foster-vs-raymond-ford/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="23" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Paris Saint-Germain vs. Arsenal (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/04dde5bde80cfea592f10c44e7273252-thumbnail.jpg" group-title="Live Events",[Football] Paris Saint-Germain vs. Arsenal (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=ucl/2026-05-30/psg-ars
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=ucl/2026-05-30/psg-ars
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/ucl/2026-05-30/psg-ars/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="24" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Canada vs. Finland (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/8530274229747a7565002f0f7deb1b32-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Canada vs. Finland (PRO)
+#EXTINF:-1 tvg-chno="23" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Canada vs. Finland (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/8530274229747a7565002f0f7deb1b32-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Canada vs. Finland (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-30/can-fin
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-30/can-fin
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/iihf-world-championship/2026-05-30/can-fin/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="25" tvg-id="Live.Event.us" tvg-name="[Motorsports] Pro Motocross: Fox Raceway (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/987906340148eb24238a7ba4ceb6cb9f-thumbnail.jpg" group-title="Live Events",[Motorsports] Pro Motocross: Fox Raceway (PRO)
+#EXTINF:-1 tvg-chno="24" tvg-id="Live.Event.us" tvg-name="[Motorsports] Pro Motocross: Fox Raceway (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/987906340148eb24238a7ba4ceb6cb9f-thumbnail.jpg" group-title="Live Events",[Motorsports] Pro Motocross: Fox Raceway (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=smx-wk17
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=smx-wk17
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/smx-wk17/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="26" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] AEW: Saturday Night Collision (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/6e29b1bb679dd5133c85bbaadc2c4b13-thumbnail.jpg" group-title="Live Events",[Wrestling] AEW: Saturday Night Collision (PRO)
+#EXTINF:-1 tvg-chno="25" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] AEW: Saturday Night Collision (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/6e29b1bb679dd5133c85bbaadc2c4b13-thumbnail.jpg" group-title="Live Events",[Wrestling] AEW: Saturday Night Collision (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=aew/collision/2026-05-30
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=aew/collision/2026-05-30
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
