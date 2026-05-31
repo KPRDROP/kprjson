@@ -107,49 +107,25 @@ https://dami-tv.pro/live-hls/channel/mlb/2026-05-31/chc-stl/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wnba/2026-05-31/lv-gs/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="19" tvg-id="Live.Event.us" tvg-name="[Cricket] Gujarat Titans vs. Royal Challengers Bengaluru (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/2a49bc6cc8c5b5ef7b7db1fa93c7566c-thumbnail.jpg" group-title="Live Events",[Cricket] Gujarat Titans vs. Royal Challengers Bengaluru (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=ipl/2026-05-31/gt-rcb
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=ipl/2026-05-31/gt-rcb
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/ipl/2026-05-31/gt-rcb/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="20" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Brighton & Hove Albion vs. Manchester City (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/6f4afb3018c9bdf6675d8a8f10b1674b-thumbnail.jpg" group-title="Live Events",[Football] Brighton & Hove Albion vs. Manchester City (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=womens-fa-cup/2026-05-31/bha-mci
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=womens-fa-cup/2026-05-31/bha-mci
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/womens-fa-cup/2026-05-31/bha-mci/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="21" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Czechia vs. Kosovo (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/d3ad0f75ce54911ef6dbf5775a8cb0be-thumbnail.jpg" group-title="Live Events",[Football] Czechia vs. Kosovo (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-05-31/cze-kos
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-05-31/cze-kos
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-05-31/cze-kos/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="22" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Poland vs. Ukraine (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/c90d8b337d41ddf28fe006ab91e73eac-thumbnail.jpg" group-title="Live Events",[Football] Poland vs. Ukraine (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-05-31/pol-ukr
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-05-31/pol-ukr
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-05-31/pol-ukr/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="23" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Germany vs. Finland (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/765750636cf8651bd66b2585481dcf1c-thumbnail.jpg" group-title="Live Events",[Football] Germany vs. Finland (PRO)
+#EXTINF:-1 tvg-chno="19" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Germany vs. Finland (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/765750636cf8651bd66b2585481dcf1c-thumbnail.jpg" group-title="Live Events",[Football] Germany vs. Finland (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-05-31/ger-fin
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-05-31/ger-fin
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-05-31/ger-fin/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="24" tvg-id="Soccer.Dummy.us" tvg-name="[Football] United States vs. Senegal (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/651b0cc363a24d05593c1cf3ae3e63da-thumbnail.jpg" group-title="Live Events",[Football] United States vs. Senegal (PRO)
+#EXTINF:-1 tvg-chno="20" tvg-id="Soccer.Dummy.us" tvg-name="[Football] United States vs. Senegal (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/651b0cc363a24d05593c1cf3ae3e63da-thumbnail.jpg" group-title="Live Events",[Football] United States vs. Senegal (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-05-31/usa-sen
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-05-31/usa-sen
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-05-31/usa-sen/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="25" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Switzerland vs. Finland (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/a619d30f6401dfaa777769f337733acc-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Switzerland vs. Finland (PRO)
+#EXTINF:-1 tvg-chno="21" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] Switzerland vs. Finland (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/a619d30f6401dfaa777769f337733acc-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Switzerland vs. Finland (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-31/sui-fin
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=iihf-world-championship/2026-05-31/sui-fin
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/iihf-world-championship/2026-05-31/sui-fin/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="26" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: Clash in Italy (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/feb813bcaa86efa15b9f3ee122f96ebd-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: Clash in Italy (PRO)
+#EXTINF:-1 tvg-chno="22" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: Clash in Italy (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/feb813bcaa86efa15b9f3ee122f96ebd-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: Clash in Italy (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wwe/2026-05-31
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wwe/2026-05-31
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
