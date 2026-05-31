@@ -167,8 +167,8 @@ https://dami-tv.pro/live-hls/channel/iihf-world-championship/2026-05-31/can-nor/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/iihf-world-championship/2026-05-31/sui-fin/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="29" tvg-id="Live.Event.us" tvg-name="[Rugby] Panthers vs. Warriors (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/95556d96bf54506ffd4bbb20b2a8c1c2-thumbnail.jpg" group-title="Live Events",[Rugby] Panthers vs. Warriors (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=nrl/2026-05-31/pen-new
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=nrl/2026-05-31/pen-new
+#EXTINF:-1 tvg-chno="29" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: Clash in Italy (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/feb813bcaa86efa15b9f3ee122f96ebd-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: Clash in Italy (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wwe/2026-05-31
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wwe/2026-05-31
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/nrl/2026-05-31/pen-new/playlist.m3u8
+https://dami-tv.pro/live-hls/channel/wwe/2026-05-31/playlist.m3u8
