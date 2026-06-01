@@ -5,55 +5,19 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/ufl/2026-05-31/lou-clb/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] San Francisco Giants vs. Colorado Rockies (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/79f6746f22a3753e0aac4c4848063e84-thumbnail.jpg" group-title="Live Events",[Baseball] San Francisco Giants vs. Colorado Rockies (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-05-31/sf-col
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-05-31/sf-col
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/mlb/2026-05-31/sf-col/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] New York Yankees vs. Athletics (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/9a201aec66974d9817a5def4c4d7d495-thumbnail.jpg" group-title="Live Events",[Baseball] New York Yankees vs. Athletics (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-05-31/nyy-ath
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-05-31/nyy-ath
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/mlb/2026-05-31/nyy-ath/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Arizona Diamondbacks vs. Seattle Mariners (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/8b9f666f01d86d7a60554be6add84f5c-thumbnail.jpg" group-title="Live Events",[Baseball] Arizona Diamondbacks vs. Seattle Mariners (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-05-31/ari-sea
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-05-31/ari-sea
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/mlb/2026-05-31/ari-sea/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Philadelphia Phillies vs. Los Angeles Dodgers (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/2132c0278366d3d94a1c230970d995cb-thumbnail.jpg" group-title="Live Events",[Baseball] Philadelphia Phillies vs. Los Angeles Dodgers (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-05-31/phi-lad
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-05-31/phi-lad
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/mlb/2026-05-31/phi-lad/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Chicago Cubs vs. St. Louis Cardinals (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/1f6a81dd742621b18c86861208cd0f00-thumbnail.jpg" group-title="Live Events",[Baseball] Chicago Cubs vs. St. Louis Cardinals (PRO)
+#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Chicago Cubs vs. St. Louis Cardinals (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/1f6a81dd742621b18c86861208cd0f00-thumbnail.jpg" group-title="Live Events",[Baseball] Chicago Cubs vs. St. Louis Cardinals (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-05-31/chc-stl
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-05-31/chc-stl
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mlb/2026-05-31/chc-stl/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="7" tvg-id="WNBA.dummy.us" tvg-name="[Basketball] Las Vegas Aces vs. Golden State Valkyries (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/9e86422ea9e2ce019518d82d7a630c1e-thumbnail.jpg" group-title="Live Events",[Basketball] Las Vegas Aces vs. Golden State Valkyries (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wnba/2026-05-31/lv-gs
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wnba/2026-05-31/lv-gs
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/wnba/2026-05-31/lv-gs/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[Combat Sports] FURY FC 120 (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/a739bebcde7628e2bf6940c0446b4684-thumbnail.jpg" group-title="Live Events",[Combat Sports] FURY FC 120 (PRO)
+#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Combat Sports] FURY FC 120 (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/a739bebcde7628e2bf6940c0446b4684-thumbnail.jpg" group-title="Live Events",[Combat Sports] FURY FC 120 (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=fury-fc-120
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=fury-fc-120
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/fury-fc-120/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="9" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Brazil vs. Panama (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/3aaa76964efc2e9976f56deb063f8494-thumbnail.jpg" group-title="Live Events",[Football] Brazil vs. Panama (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-05-31/bra-pan
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-05-31/bra-pan
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-05-31/bra-pan/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="10" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Cruzeiro vs. Fluminense (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/41f484ee5f652ed213b71827f2d9ff39-thumbnail.jpg" group-title="Live Events",[Football] Cruzeiro vs. Fluminense (PRO)
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Cruzeiro vs. Fluminense (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/41f484ee5f652ed213b71827f2d9ff39-thumbnail.jpg" group-title="Live Events",[Football] Cruzeiro vs. Fluminense (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=brazil-serie-a/2026-05-31/cru-flu
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=brazil-serie-a/2026-05-31/cru-flu
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
