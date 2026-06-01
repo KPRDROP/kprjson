@@ -65,43 +65,31 @@ https://dami-tv.pro/live-hls/channel/wnba/2026-06-01/sea-dal/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wnba/2026-06-01/min-phx/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="12" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Bulgaria vs. Montenegro (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/1aa4c4b1fcf4751602693c430dcb66b0-thumbnail.jpg" group-title="Live Events",[Football] Bulgaria vs. Montenegro (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-01/bul-mne
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-01/bul-mne
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-01/bul-mne/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="13" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Slovakia vs. Malta (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ce305fd45c1a209f92cc77148f012ab6-thumbnail.jpg" group-title="Live Events",[Football] Slovakia vs. Malta (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-01/svk-mlt
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-01/svk-mlt
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-01/svk-mlt/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="14" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Norway vs. Sweden (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/8fff60da492f1b3e3bd8e024dee5f90b-thumbnail.jpg" group-title="Live Events",[Football] Norway vs. Sweden (PRO)
+#EXTINF:-1 tvg-chno="12" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Norway vs. Sweden (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/8fff60da492f1b3e3bd8e024dee5f90b-thumbnail.jpg" group-title="Live Events",[Football] Norway vs. Sweden (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-01/nor-swe
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-01/nor-swe
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-01/nor-swe/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="15" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Türkiye vs. North Macedonia (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/b238e13f1d3365a6f62bded9cd0cc2f4-thumbnail.jpg" group-title="Live Events",[Football] Türkiye vs. North Macedonia (PRO)
+#EXTINF:-1 tvg-chno="13" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Türkiye vs. North Macedonia (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/b238e13f1d3365a6f62bded9cd0cc2f4-thumbnail.jpg" group-title="Live Events",[Football] Türkiye vs. North Macedonia (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-01/tur-mkd
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-01/tur-mkd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-01/tur-mkd/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="16" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Austria vs. Tunisia (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/995ecc9a00256ddae5d2d6a54fc56343-thumbnail.jpg" group-title="Live Events",[Football] Austria vs. Tunisia (PRO)
+#EXTINF:-1 tvg-chno="14" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Austria vs. Tunisia (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/995ecc9a00256ddae5d2d6a54fc56343-thumbnail.jpg" group-title="Live Events",[Football] Austria vs. Tunisia (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-01/aut-tun
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-01/aut-tun
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-01/aut-tun/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="17" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Canada vs. Uzbekistan (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/4b5b405d97187fcf4ed2cd99cec0c065-thumbnail.jpg" group-title="Live Events",[Football] Canada vs. Uzbekistan (PRO)
+#EXTINF:-1 tvg-chno="15" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Canada vs. Uzbekistan (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/4b5b405d97187fcf4ed2cd99cec0c065-thumbnail.jpg" group-title="Live Events",[Football] Canada vs. Uzbekistan (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-02/can-uzb
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-02/can-uzb
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-02/can-uzb/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="18" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: Monday Night RAW (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/56336f9d22c51c416e1a56afbd18f314-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: Monday Night RAW (PRO)
+#EXTINF:-1 tvg-chno="16" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: Monday Night RAW (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/56336f9d22c51c416e1a56afbd18f314-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: Monday Night RAW (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wwe/raw/2026-06-01
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wwe/raw/2026-06-01
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
