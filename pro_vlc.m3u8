@@ -1,24 +1,72 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[American Football] Louisville Kings vs. Columbus Aviators (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/362039a02f9e41cf73bfe3cb7ab7a470-thumbnail.jpg" group-title="Live Events",[American Football] Louisville Kings vs. Columbus Aviators (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=ufl/2026-05-31/lou-clb
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=ufl/2026-05-31/lou-clb
+#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Detroit Tigers vs. Tampa Bay Rays (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/948e984a70b26f56d3886640756dd162-thumbnail.jpg" group-title="Live Events",[Baseball] Detroit Tigers vs. Tampa Bay Rays (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-06-01/det-tb
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-06-01/det-tb
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/ufl/2026-05-31/lou-clb/playlist.m3u8
+https://dami-tv.pro/live-hls/channel/mlb/2026-06-01/det-tb/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Chicago Cubs vs. St. Louis Cardinals (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/1f6a81dd742621b18c86861208cd0f00-thumbnail.jpg" group-title="Live Events",[Baseball] Chicago Cubs vs. St. Louis Cardinals (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-05-31/chc-stl
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-05-31/chc-stl
+#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Miami Marlins vs. Washington Nationals (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/324552ee40ae5c4d78417729aa9f5818-thumbnail.jpg" group-title="Live Events",[Baseball] Miami Marlins vs. Washington Nationals (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-06-01/mia-wsh
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-06-01/mia-wsh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/mlb/2026-05-31/chc-stl/playlist.m3u8
+https://dami-tv.pro/live-hls/channel/mlb/2026-06-01/mia-wsh/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Combat Sports] FURY FC 120 (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/a739bebcde7628e2bf6940c0446b4684-thumbnail.jpg" group-title="Live Events",[Combat Sports] FURY FC 120 (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=fury-fc-120
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=fury-fc-120
+#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Kansas City Royals vs. Cincinnati Reds (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/be19c9152a6152848bc9dbc8a80e6f22-thumbnail.jpg" group-title="Live Events",[Baseball] Kansas City Royals vs. Cincinnati Reds (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-06-01/kc-cin
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-06-01/kc-cin
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/fury-fc-120/playlist.m3u8
+https://dami-tv.pro/live-hls/channel/mlb/2026-06-01/kc-cin/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Cruzeiro vs. Fluminense (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/41f484ee5f652ed213b71827f2d9ff39-thumbnail.jpg" group-title="Live Events",[Football] Cruzeiro vs. Fluminense (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=brazil-serie-a/2026-05-31/cru-flu
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=brazil-serie-a/2026-05-31/cru-flu
+#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Chicago White Sox vs. Minnesota Twins (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/d151bfab2414427ec2df1973a5dcbc7b-thumbnail.jpg" group-title="Live Events",[Baseball] Chicago White Sox vs. Minnesota Twins (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-06-01/chw-min
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-06-01/chw-min
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/brazil-serie-a/2026-05-31/cru-flu/playlist.m3u8
+https://dami-tv.pro/live-hls/channel/mlb/2026-06-01/chw-min/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] San Francisco Giants vs. Milwaukee Brewers (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/6612c8a795208830f140ff7ed745b5ec-thumbnail.jpg" group-title="Live Events",[Baseball] San Francisco Giants vs. Milwaukee Brewers (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-06-01/sf-mil
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-06-01/sf-mil
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://dami-tv.pro/live-hls/channel/mlb/2026-06-01/sf-mil/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Texas Rangers vs. St. Louis Cardinals (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/a7870ba0374b05178413835944928f35-thumbnail.jpg" group-title="Live Events",[Baseball] Texas Rangers vs. St. Louis Cardinals (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-06-01/tex-stl
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-06-01/tex-stl
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://dami-tv.pro/live-hls/channel/mlb/2026-06-01/tex-stl/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Colorado Rockies vs. Los Angeles Angels (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/72e46a3116eafcd32755a60f898d2c68-thumbnail.jpg" group-title="Live Events",[Baseball] Colorado Rockies vs. Los Angeles Angels (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-06-01/col-laa
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-06-01/col-laa
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://dami-tv.pro/live-hls/channel/mlb/2026-06-01/col-laa/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="8" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Los Angeles Dodgers vs. Arizona Diamondbacks (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/c4979538831207668bf4bd277ed759a9-thumbnail.jpg" group-title="Live Events",[Baseball] Los Angeles Dodgers vs. Arizona Diamondbacks (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-06-01/lad-ari
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-06-01/lad-ari
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://dami-tv.pro/live-hls/channel/mlb/2026-06-01/lad-ari/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="9" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] New York Mets vs. Seattle Mariners (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/648fae0b8e46847ca9b02f3a8afad8e2-thumbnail.jpg" group-title="Live Events",[Baseball] New York Mets vs. Seattle Mariners (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-06-01/nym-sea
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-06-01/nym-sea
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://dami-tv.pro/live-hls/channel/mlb/2026-06-01/nym-sea/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="10" tvg-id="WNBA.dummy.us" tvg-name="[Basketball] Seattle Storm vs. Dallas Wings (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/918b462b6d4b3416b9b0612296c708f0-thumbnail.jpg" group-title="Live Events",[Basketball] Seattle Storm vs. Dallas Wings (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wnba/2026-06-01/sea-dal
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wnba/2026-06-01/sea-dal
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://dami-tv.pro/live-hls/channel/wnba/2026-06-01/sea-dal/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="11" tvg-id="WNBA.dummy.us" tvg-name="[Basketball] Minnesota Lynx vs. Phoenix Mercury (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/abafaf2c201bc288453a602bef266ee4-thumbnail.jpg" group-title="Live Events",[Basketball] Minnesota Lynx vs. Phoenix Mercury (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wnba/2026-06-01/min-phx
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wnba/2026-06-01/min-phx
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://dami-tv.pro/live-hls/channel/wnba/2026-06-01/min-phx/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="12" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: Monday Night RAW (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/56336f9d22c51c416e1a56afbd18f314-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: Monday Night RAW (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wwe/raw/2026-06-01
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wwe/raw/2026-06-01
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://dami-tv.pro/live-hls/channel/wwe/raw/2026-06-01/playlist.m3u8
