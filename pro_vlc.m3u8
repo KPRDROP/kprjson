@@ -113,31 +113,19 @@ https://dami-tv.pro/live-hls/channel/wnba/2026-06-02/por-gs/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wnba/2026-06-02/lv-la/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="20" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Georgia vs. Romania (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/c17152c7719fb0cacb50933d3c441446-thumbnail.jpg" group-title="Live Events",[Football] Georgia vs. Romania (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-02/geo-rou
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-02/geo-rou
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-02/geo-rou/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="21" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Wales vs. Ghana (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/4eb5ae8ed66bf28e8b198ca27e322723-thumbnail.jpg" group-title="Live Events",[Football] Wales vs. Ghana (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-02/wal-gha
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-02/wal-gha
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-02/wal-gha/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="22" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Haiti vs. New Zealand (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/733c13132d02836bb30739e772926b9c-thumbnail.jpg" group-title="Live Events",[Football] Haiti vs. New Zealand (PRO)
+#EXTINF:-1 tvg-chno="20" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Haiti vs. New Zealand (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/733c13132d02836bb30739e772926b9c-thumbnail.jpg" group-title="Live Events",[Football] Haiti vs. New Zealand (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-03/hai-nzl
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-03/hai-nzl
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-03/hai-nzl/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="23" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Ice Hockey] Vegas Golden Knights vs. Carolina Hurricanes (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/c0be139c9818bfc8e4746ddab9e54dca-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Vegas Golden Knights vs. Carolina Hurricanes (PRO)
+#EXTINF:-1 tvg-chno="21" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Ice Hockey] Vegas Golden Knights vs. Carolina Hurricanes (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/c0be139c9818bfc8e4746ddab9e54dca-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Vegas Golden Knights vs. Carolina Hurricanes (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=nhl/2026-06-02/vgk-car
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=nhl/2026-06-02/vgk-car
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/nhl/2026-06-02/vgk-car/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="24" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: NXT (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ef5595e08561ede45c52b36a0b62af76-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: NXT (PRO)
+#EXTINF:-1 tvg-chno="22" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: NXT (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ef5595e08561ede45c52b36a0b62af76-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: NXT (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wwe/nxt/2026-06-02
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wwe/nxt/2026-06-02
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
