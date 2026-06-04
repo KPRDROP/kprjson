@@ -5,145 +5,133 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/cfl/2026-06-04/mtl-ham/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[Australian Football] Adelaide Crows vs. Geelong Cats (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/1e1d707885232c24c9f10cbdb0807ff0-thumbnail.jpg" group-title="Live Events",[Australian Football] Adelaide Crows vs. Geelong Cats (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=afl/2026-06-04/adel-geel
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=afl/2026-06-04/adel-geel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/afl/2026-06-04/adel-geel/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] San Diego Padres vs. Philadelphia Phillies (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/411626507ed9841110a2a217f79cd0f2-thumbnail.jpg" group-title="Live Events",[Baseball] San Diego Padres vs. Philadelphia Phillies (PRO)
+#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] San Diego Padres vs. Philadelphia Phillies (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/411626507ed9841110a2a217f79cd0f2-thumbnail.jpg" group-title="Live Events",[Baseball] San Diego Padres vs. Philadelphia Phillies (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-06-04/sd-phi
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-06-04/sd-phi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mlb/2026-06-04/sd-phi/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Baltimore Orioles vs. Boston Red Sox (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/913170f1dc80c5c0fda3f6084f386fbe-thumbnail.jpg" group-title="Live Events",[Baseball] Baltimore Orioles vs. Boston Red Sox (PRO)
+#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Baltimore Orioles vs. Boston Red Sox (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/913170f1dc80c5c0fda3f6084f386fbe-thumbnail.jpg" group-title="Live Events",[Baseball] Baltimore Orioles vs. Boston Red Sox (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-06-04/bal-bos
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-06-04/bal-bos
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mlb/2026-06-04/bal-bos/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Cleveland Guardians vs. New York Yankees (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/fdae8dbf90c8eb025de8818ff0ecdbb7-thumbnail.jpg" group-title="Live Events",[Baseball] Cleveland Guardians vs. New York Yankees (PRO)
+#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Cleveland Guardians vs. New York Yankees (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/fdae8dbf90c8eb025de8818ff0ecdbb7-thumbnail.jpg" group-title="Live Events",[Baseball] Cleveland Guardians vs. New York Yankees (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-06-04/cle-nyy
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-06-04/cle-nyy
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mlb/2026-06-04/cle-nyy/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] San Francisco Giants vs. Milwaukee Brewers (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/6612c8a795208830f140ff7ed745b5ec-thumbnail.jpg" group-title="Live Events",[Baseball] San Francisco Giants vs. Milwaukee Brewers (PRO)
+#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] San Francisco Giants vs. Milwaukee Brewers (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/6612c8a795208830f140ff7ed745b5ec-thumbnail.jpg" group-title="Live Events",[Baseball] San Francisco Giants vs. Milwaukee Brewers (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-06-04/sf-mil
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-06-04/sf-mil
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mlb/2026-06-04/sf-mil/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Toronto Blue Jays vs. Atlanta Braves (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/242099426aaa2236e495da20a5e8b571-thumbnail.jpg" group-title="Live Events",[Baseball] Toronto Blue Jays vs. Atlanta Braves (PRO)
+#EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Toronto Blue Jays vs. Atlanta Braves (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/242099426aaa2236e495da20a5e8b571-thumbnail.jpg" group-title="Live Events",[Baseball] Toronto Blue Jays vs. Atlanta Braves (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-06-04/tor-atl
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-06-04/tor-atl
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mlb/2026-06-04/tor-atl/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="8" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Kansas City Royals vs. Minnesota Twins (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/031acdc8ab0bd2488ddf822cb9ed9542-thumbnail.jpg" group-title="Live Events",[Baseball] Kansas City Royals vs. Minnesota Twins (PRO)
+#EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Kansas City Royals vs. Minnesota Twins (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/031acdc8ab0bd2488ddf822cb9ed9542-thumbnail.jpg" group-title="Live Events",[Baseball] Kansas City Royals vs. Minnesota Twins (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-06-04/kc-min
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-06-04/kc-min
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mlb/2026-06-04/kc-min/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="9" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Athletics vs. Chicago Cubs (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/cda9512ed50e5bfc3b309f43bf49a2a7-thumbnail.jpg" group-title="Live Events",[Baseball] Athletics vs. Chicago Cubs (PRO)
+#EXTINF:-1 tvg-chno="8" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Athletics vs. Chicago Cubs (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/cda9512ed50e5bfc3b309f43bf49a2a7-thumbnail.jpg" group-title="Live Events",[Baseball] Athletics vs. Chicago Cubs (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-06-04/ath-chc
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-06-04/ath-chc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mlb/2026-06-04/ath-chc/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="10" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Pittsburgh Pirates vs. Houston Astros (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/028c265284bab418045b46863f771157-thumbnail.jpg" group-title="Live Events",[Baseball] Pittsburgh Pirates vs. Houston Astros (PRO)
+#EXTINF:-1 tvg-chno="9" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Pittsburgh Pirates vs. Houston Astros (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/028c265284bab418045b46863f771157-thumbnail.jpg" group-title="Live Events",[Baseball] Pittsburgh Pirates vs. Houston Astros (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-06-04/pit-hou
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-06-04/pit-hou
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mlb/2026-06-04/pit-hou/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="11" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Los Angeles Dodgers vs. Arizona Diamondbacks (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/c4979538831207668bf4bd277ed759a9-thumbnail.jpg" group-title="Live Events",[Baseball] Los Angeles Dodgers vs. Arizona Diamondbacks (PRO)
+#EXTINF:-1 tvg-chno="10" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Baseball] Los Angeles Dodgers vs. Arizona Diamondbacks (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/c4979538831207668bf4bd277ed759a9-thumbnail.jpg" group-title="Live Events",[Baseball] Los Angeles Dodgers vs. Arizona Diamondbacks (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mlb/2026-06-04/lad-ari
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mlb/2026-06-04/lad-ari
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mlb/2026-06-04/lad-ari/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="12" tvg-id="WNBA.dummy.us" tvg-name="[Basketball] Atlanta Dream vs. Indiana Fever (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/88ead7025c519c53415e6e8ccec912ec-thumbnail.jpg" group-title="Live Events",[Basketball] Atlanta Dream vs. Indiana Fever (PRO)
+#EXTINF:-1 tvg-chno="11" tvg-id="WNBA.dummy.us" tvg-name="[Basketball] Atlanta Dream vs. Indiana Fever (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/88ead7025c519c53415e6e8ccec912ec-thumbnail.jpg" group-title="Live Events",[Basketball] Atlanta Dream vs. Indiana Fever (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wnba/2026-06-04/atl-ind
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wnba/2026-06-04/atl-ind
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wnba/2026-06-04/atl-ind/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="13" tvg-id="WNBA.dummy.us" tvg-name="[Basketball] Golden State Valkyries vs. Minnesota Lynx (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/8818bd7dcd9937dfae72098100a9aa28-thumbnail.jpg" group-title="Live Events",[Basketball] Golden State Valkyries vs. Minnesota Lynx (PRO)
+#EXTINF:-1 tvg-chno="12" tvg-id="WNBA.dummy.us" tvg-name="[Basketball] Golden State Valkyries vs. Minnesota Lynx (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/8818bd7dcd9937dfae72098100a9aa28-thumbnail.jpg" group-title="Live Events",[Basketball] Golden State Valkyries vs. Minnesota Lynx (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wnba/2026-06-04/gs-min
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wnba/2026-06-04/gs-min
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wnba/2026-06-04/gs-min/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[Cricket] England vs. New Zealand (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/9679984208c3a875e5810b747bd6b62c-thumbnail.jpg" group-title="Live Events",[Cricket] England vs. New Zealand (PRO)
+#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[Cricket] England vs. New Zealand (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/9679984208c3a875e5810b747bd6b62c-thumbnail.jpg" group-title="Live Events",[Cricket] England vs. New Zealand (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=cricket/2026-06-04/eng-nzl
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=cricket/2026-06-04/eng-nzl
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/cricket/2026-06-04/eng-nzl/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="15" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Northern Ireland vs. Guinea (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/8293418210d96ce5232747c3b525a595-thumbnail.jpg" group-title="Live Events",[Football] Northern Ireland vs. Guinea (PRO)
+#EXTINF:-1 tvg-chno="14" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Northern Ireland vs. Guinea (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/8293418210d96ce5232747c3b525a595-thumbnail.jpg" group-title="Live Events",[Football] Northern Ireland vs. Guinea (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-04/nir-gui
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-04/nir-gui
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-04/nir-gui/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="16" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Slovenia vs. Cyprus (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/5cbd66032e6ed49d3cc84a4bd6e9634b-thumbnail.jpg" group-title="Live Events",[Football] Slovenia vs. Cyprus (PRO)
+#EXTINF:-1 tvg-chno="15" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Slovenia vs. Cyprus (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/5cbd66032e6ed49d3cc84a4bd6e9634b-thumbnail.jpg" group-title="Live Events",[Football] Slovenia vs. Cyprus (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-04/svn-cyp
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-04/svn-cyp
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-04/svn-cyp/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="17" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Andorra vs. Liechtenstein (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/7c6af21d1e376d046a5f85044465a807-thumbnail.jpg" group-title="Live Events",[Football] Andorra vs. Liechtenstein (PRO)
+#EXTINF:-1 tvg-chno="16" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Andorra vs. Liechtenstein (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/7c6af21d1e376d046a5f85044465a807-thumbnail.jpg" group-title="Live Events",[Football] Andorra vs. Liechtenstein (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-04/and-lie
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-04/and-lie
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-04/and-lie/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="18" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Sweden vs. Greece (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/5a4162b34e717e271b62380c19c60bfd-thumbnail.jpg" group-title="Live Events",[Football] Sweden vs. Greece (PRO)
+#EXTINF:-1 tvg-chno="17" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Sweden vs. Greece (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/5a4162b34e717e271b62380c19c60bfd-thumbnail.jpg" group-title="Live Events",[Football] Sweden vs. Greece (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-04/swe-gre
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-04/swe-gre
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-04/swe-gre/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="19" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Spain vs. Iraq (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/65e44e7f4c34af7a088cef8667c841ad-thumbnail.jpg" group-title="Live Events",[Football] Spain vs. Iraq (PRO)
+#EXTINF:-1 tvg-chno="18" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Spain vs. Iraq (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/65e44e7f4c34af7a088cef8667c841ad-thumbnail.jpg" group-title="Live Events",[Football] Spain vs. Iraq (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-04/esp-irq
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-04/esp-irq
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-04/esp-irq/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="20" tvg-id="Soccer.Dummy.us" tvg-name="[Football] France vs. Ivory Coast (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/6c027a2f20aa94111e1e4c249f8c738d-thumbnail.jpg" group-title="Live Events",[Football] France vs. Ivory Coast (PRO)
+#EXTINF:-1 tvg-chno="19" tvg-id="Soccer.Dummy.us" tvg-name="[Football] France vs. Ivory Coast (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/6c027a2f20aa94111e1e4c249f8c738d-thumbnail.jpg" group-title="Live Events",[Football] France vs. Ivory Coast (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-04/fra-civ
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-04/fra-civ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-04/fra-civ/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="21" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Czechia vs. Guatemala (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/3a871da17a64e09d708e033b22b15430-thumbnail.jpg" group-title="Live Events",[Football] Czechia vs. Guatemala (PRO)
+#EXTINF:-1 tvg-chno="20" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Czechia vs. Guatemala (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/3a871da17a64e09d708e033b22b15430-thumbnail.jpg" group-title="Live Events",[Football] Czechia vs. Guatemala (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-05/cze-gua
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-05/cze-gua
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-05/cze-gua/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="22" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Mexico vs. Serbia (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/81349ffe10cd389c7109398a54f1cec0-thumbnail.jpg" group-title="Live Events",[Football] Mexico vs. Serbia (PRO)
+#EXTINF:-1 tvg-chno="21" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Mexico vs. Serbia (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/81349ffe10cd389c7109398a54f1cec0-thumbnail.jpg" group-title="Live Events",[Football] Mexico vs. Serbia (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-05/mex-srb
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-05/mex-srb
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-05/mex-srb/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="23" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Ice Hockey] Vegas Golden Knights vs. Carolina Hurricanes (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/c0be139c9818bfc8e4746ddab9e54dca-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Vegas Golden Knights vs. Carolina Hurricanes (PRO)
+#EXTINF:-1 tvg-chno="22" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Ice Hockey] Vegas Golden Knights vs. Carolina Hurricanes (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/c0be139c9818bfc8e4746ddab9e54dca-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Vegas Golden Knights vs. Carolina Hurricanes (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=nhl/2026-06-04/vgk-car
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=nhl/2026-06-04/vgk-car
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/nhl/2026-06-04/vgk-car/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="24" tvg-id="Live.Event.us" tvg-name="[Rugby] Sea Eagles vs. Rabbitohs (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/a2cf8cf06e8f9dc79d0da74ffe8d5c34-thumbnail.jpg" group-title="Live Events",[Rugby] Sea Eagles vs. Rabbitohs (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=nrl/2026-06-04/man-sou
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=nrl/2026-06-04/man-sou
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/nrl/2026-06-04/man-sou/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="25" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] TNA: Impact (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/78f581ee61589a76f6bcdeb095f95c12-thumbnail.jpg" group-title="Live Events",[Wrestling] TNA: Impact (PRO)
+#EXTINF:-1 tvg-chno="23" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] TNA: Impact (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/78f581ee61589a76f6bcdeb095f95c12-thumbnail.jpg" group-title="Live Events",[Wrestling] TNA: Impact (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=tna/impact/2026-06-04
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=tna/impact/2026-06-04
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
