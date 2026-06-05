@@ -2,11 +2,11 @@ import asyncio
 import logging
 import random
 import re
-from collections.abc import Awaitable, Callable
+from collections.abc import AsyncGenerator, Awaitable, Callable
 from contextlib import asynccontextmanager
 from functools import cache, partial
 from pathlib import Path
-from typing import AsyncGenerator, TypeVar
+from typing import TypeVar
 from urllib.parse import urlparse
 
 import httpx
@@ -158,7 +158,7 @@ class Network:
         browser: Browser,
         stealth: bool = True,
         ignore_https: bool = False,
-    ) -> AsyncGenerator[BrowserContext, None]:
+    ) -> AsyncGenerator[BrowserContext]:
 
         context: BrowserContext | None = None
 
@@ -195,7 +195,7 @@ class Network:
 
     @staticmethod
     @asynccontextmanager
-    async def event_page(context: BrowserContext) -> AsyncGenerator[Page, None]:
+    async def event_page(context: BrowserContext) -> AsyncGenerator[Page]:
         page = await context.new_page()
 
         try:
