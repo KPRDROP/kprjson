@@ -119,62 +119,44 @@ https://dami-tv.pro/live-hls/channel/wnba/2026-06-07/chi-tor/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wnba/2026-06-07/por-la/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="21" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Liechtenstein vs. Cyprus (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/f3429329667c2c035f8eea8597c8cf7b-thumbnail.jpg" group-title="Live Events",[Football] Liechtenstein vs. Cyprus (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-07/lie-cyp
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-07/lie-cyp
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-07/lie-cyp/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="22" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Denmark vs. Ukraine (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/0f04180d4288b58fbb00c85fdda3a37f-thumbnail.jpg" group-title="Live Events",[Football] Denmark vs. Ukraine (PRO)
+#EXTINF:-1 tvg-chno="21" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Denmark vs. Ukraine (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/0f04180d4288b58fbb00c85fdda3a37f-thumbnail.jpg" group-title="Live Events",[Football] Denmark vs. Ukraine (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-07/den-ukr
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-07/den-ukr
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-07/den-ukr/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="23" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Kosovo vs. Andorra (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/dfc529857ec8e469a788d50b0db64d98-thumbnail.jpg" group-title="Live Events",[Football] Kosovo vs. Andorra (PRO)
+#EXTINF:-1 tvg-chno="22" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Kosovo vs. Andorra (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/dfc529857ec8e469a788d50b0db64d98-thumbnail.jpg" group-title="Live Events",[Football] Kosovo vs. Andorra (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-07/kos-and
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-07/kos-and
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-07/kos-and/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="24" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Croatia vs. Slovenia (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/62a34d1861ba157b2f193d465dbf6739-thumbnail.jpg" group-title="Live Events",[Football] Croatia vs. Slovenia (PRO)
+#EXTINF:-1 tvg-chno="23" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Croatia vs. Slovenia (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/62a34d1861ba157b2f193d465dbf6739-thumbnail.jpg" group-title="Live Events",[Football] Croatia vs. Slovenia (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-07/cro-svn
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-07/cro-svn
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-07/cro-svn/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="25" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Greece vs. Italy (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/82d918c83c8a6dff9396f73f31f59e87-thumbnail.jpg" group-title="Live Events",[Football] Greece vs. Italy (PRO)
+#EXTINF:-1 tvg-chno="24" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Greece vs. Italy (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/82d918c83c8a6dff9396f73f31f59e87-thumbnail.jpg" group-title="Live Events",[Football] Greece vs. Italy (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-07/gre-ita
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-07/gre-ita
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-07/gre-ita/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="26" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Morocco vs. Norway (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/7546858068965d99349668fba526a052-thumbnail.jpg" group-title="Live Events",[Football] Morocco vs. Norway (PRO)
+#EXTINF:-1 tvg-chno="25" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Morocco vs. Norway (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/7546858068965d99349668fba526a052-thumbnail.jpg" group-title="Live Events",[Football] Morocco vs. Norway (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-07/mar-nor
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-07/mar-nor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-07/mar-nor/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="27" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Ecuador vs. Guatemala (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/fce7de672c0b07f7606a1b34640a7a1f-thumbnail.jpg" group-title="Live Events",[Football] Ecuador vs. Guatemala (PRO)
+#EXTINF:-1 tvg-chno="26" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Ecuador vs. Guatemala (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/fce7de672c0b07f7606a1b34640a7a1f-thumbnail.jpg" group-title="Live Events",[Football] Ecuador vs. Guatemala (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-07/ecu-gua
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-07/ecu-gua
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-07/ecu-gua/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="28" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Colombia vs. Jordan (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/57e34efd61af2d5e1181fc3808fffab5-thumbnail.jpg" group-title="Live Events",[Football] Colombia vs. Jordan (PRO)
+#EXTINF:-1 tvg-chno="27" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Colombia vs. Jordan (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/57e34efd61af2d5e1181fc3808fffab5-thumbnail.jpg" group-title="Live Events",[Football] Colombia vs. Jordan (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-07/col-jor
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-07/col-jor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-07/col-jor/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="29" tvg-id="Live.Event.us" tvg-name="[Miscellaneous] Women's VNL 2026 | China v Poland (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/4c6af54313900221e125ac2687bb59dc-thumbnail.jpg" group-title="Live Events",[Miscellaneous] Women's VNL 2026 | China v Poland (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=vnl/2026-06-07/chn-pol
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=vnl/2026-06-07/chn-pol
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/vnl/2026-06-07/chn-pol/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="30" tvg-id="Live.Event.us" tvg-name="[Motorsports] Monaco Grand Prix - Race (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/287b881495ff145b04fd73c0b4aff7a3-thumbnail.jpg" group-title="Live Events",[Motorsports] Monaco Grand Prix - Race (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=f1/2026/monaco/race
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=f1/2026/monaco/race
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/f1/2026/monaco/race/playlist.m3u8
