@@ -6,7 +6,7 @@ from urllib.parse import urljoin, quote
 from datetime import datetime
 import re
 
-from playwright.async_api import Browser, Page, TimeoutError
+from playwright.async_api import async_playwright, Browser, Page, TimeoutError
 from selectolax.parser import HTMLParser
 
 from utils import Cache, Time, get_logger, leagues, network
@@ -191,42 +191,46 @@ async def scrape(browser: Browser) -> None:
 
         now = Time.clean(Time.now())
 
-        async with network.event_context(browser, stealth=False) as context:
-            for i, ev in enumerate(events, start=1):
-                async with network.event_page(context) as page:
-                    handler = partial(
-                        process_event,
-                        url=(link := ev["link"]),
-                        url_num=i,
-                        page=page,
-                    )
+        # Use browser context from the passed browser
+        context = browser.contexts[0] if browser.contexts else await browser.new_context()
+        
+        for i, ev in enumerate(events, start=1):
+            page = await context.new_page()
+            try:
+                handler = partial(
+                    process_event,
+                    url=(link := ev["link"]),
+                    url_num=i,
+                    page=page,
+                )
 
-                    event, ifr_src, url = await network.safe_process(
-                        handler,
-                        url_num=i,
-                        semaphore=network.PW_S,
-                        log=log,
-                    )
+                event, ifr_src, url = await network.safe_process(
+                    handler,
+                    url_num=i,
+                    semaphore=network.PW_S,
+                    log=log,
+                )
 
-                    tvg_id, logo = leagues.get_tvg_info((sport := ev["sport"]), event)
+                tvg_id, logo = leagues.get_tvg_info((sport := ev["sport"]), event)
 
-                    key = f"[{sport}] {event} ({TAG})"
+                key = f"[{sport}] {event} ({TAG})"
 
-                    entry = {
-                        "url": url,
-                        "logo": logo,
-                        "base": ifr_src,
-                        "timestamp": now.timestamp(),
-                        "id": tvg_id or "Live.Event.us",
-                        "link": link,
-                    }
+                entry = {
+                    "url": url,
+                    "logo": logo,
+                    "base": ifr_src,
+                    "timestamp": now.timestamp(),
+                    "id": tvg_id or "Live.Event.us",
+                    "link": link,
+                }
 
-                    cached_urls[key] = entry
+                cached_urls[key] = entry
 
                 if url:
                     valid_count += 1
-
                     urls[key] = entry
+            finally:
+                await page.close()
 
         log.info(f"Collected and cached {valid_count - cached_count} event(s)")
 
@@ -321,8 +325,8 @@ async def main() -> None:
     log.info("Starting SPFIT playlist generator")
     
     try:
-        # Launch browser and scrape
-        async with network.playwright_manager() as pw:
+        # Launch playwright browser
+        async with async_playwright() as pw:
             browser = await pw.chromium.launch(headless=True)
             try:
                 await scrape(browser)
