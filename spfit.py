@@ -157,6 +157,7 @@ async def extract_m3u8_from_event(page, event_url: str, event_name: str, url_num
                 log.info(f"URL {url_num}) Found m3u8: {m3u8_url}")
         
         page.on('request', handle_request)
+        page.on("response", handle_response)
         
         # Wait for m3u8 to load (check multiple times)
         for attempt in range(10):
@@ -276,7 +277,8 @@ async def scrape() -> None:
                         m3u8_url = request.url
                         log.info(f"Captured m3u8: {m3u8_url}")
                 
-                page.on('request', handle_request)
+                page.on("request", handle_request)
+                page.on("response", handle_response)
                 
                 # Navigate to event page
                 await page.goto(event['url'], wait_until="domcontentloaded", timeout=15000)
