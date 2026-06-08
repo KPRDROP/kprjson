@@ -26,7 +26,7 @@ VLC_OUTPUT = "spfit_vlc.m3u8"
 TIVIMATE_OUTPUT = "spfit_tivimate.m3u8"
 
 # Headers (NOT encoded for TiviMate)
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+USER_AGENT = "Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36"
 REFERER = "https://sportspass.fit/"
 ORIGIN = "https://sportspass.fit"
 
