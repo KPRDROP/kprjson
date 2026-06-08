@@ -10,6 +10,9 @@ on:
     paths:
       - 'spfit.py'
 
+permissions:
+  contents: write
+
 jobs:
   generate-playlists:
     runs-on: ubuntu-latest
