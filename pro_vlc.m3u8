@@ -107,43 +107,31 @@ https://dami-tv.pro/live-hls/channel/wnba/2026-06-09/dal-min/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wnba/2026-06-09/phx-gs/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="19" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Armenia vs. Moldova (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/dae5571457965282270624bff6b0e1c8-thumbnail.jpg" group-title="Live Events",[Football] Armenia vs. Moldova (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-09/arm-mda
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-09/arm-mda
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-09/arm-mda/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="20" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Belarus vs. Burkina Faso (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ed3016afb009ae267aef552481876b15-thumbnail.jpg" group-title="Live Events",[Football] Belarus vs. Burkina Faso (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-09/blr-bka
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-09/blr-bka
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-09/blr-bka/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="21" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Hungary vs. Kazakhstan (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/d595ca195b8e323cc053a189f32545be-thumbnail.jpg" group-title="Live Events",[Football] Hungary vs. Kazakhstan (PRO)
+#EXTINF:-1 tvg-chno="19" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Hungary vs. Kazakhstan (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/d595ca195b8e323cc053a189f32545be-thumbnail.jpg" group-title="Live Events",[Football] Hungary vs. Kazakhstan (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-09/hun-kaz
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-09/hun-kaz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-09/hun-kaz/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="22" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Azerbaijan vs. San Marino (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/13ed546832cc6dca76334453e5c18739-thumbnail.jpg" group-title="Live Events",[Football] Azerbaijan vs. San Marino (PRO)
+#EXTINF:-1 tvg-chno="20" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Azerbaijan vs. San Marino (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/13ed546832cc6dca76334453e5c18739-thumbnail.jpg" group-title="Live Events",[Football] Azerbaijan vs. San Marino (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-09/aze-smr
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-09/aze-smr
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-09/aze-smr/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="23" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Argentina vs. Iceland (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/456f798b8225600d53f04f24ed694672-thumbnail.jpg" group-title="Live Events",[Football] Argentina vs. Iceland (PRO)
+#EXTINF:-1 tvg-chno="21" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Argentina vs. Iceland (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/456f798b8225600d53f04f24ed694672-thumbnail.jpg" group-title="Live Events",[Football] Argentina vs. Iceland (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-10/arg-isl
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mens-international-friendly/2026-06-10/arg-isl
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mens-international-friendly/2026-06-10/arg-isl/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="24" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Ice Hockey] Carolina Hurricanes vs. Vegas Golden Knights (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/d092e55198454abeba219515dd80ab20-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Carolina Hurricanes vs. Vegas Golden Knights (PRO)
+#EXTINF:-1 tvg-chno="22" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Ice Hockey] Carolina Hurricanes vs. Vegas Golden Knights (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/d092e55198454abeba219515dd80ab20-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Carolina Hurricanes vs. Vegas Golden Knights (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=nhl/2026-06-09/car-vgk
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=nhl/2026-06-09/car-vgk
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/nhl/2026-06-09/car-vgk/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="25" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: NXT (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ef5595e08561ede45c52b36a0b62af76-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: NXT (PRO)
+#EXTINF:-1 tvg-chno="23" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: NXT (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ef5595e08561ede45c52b36a0b62af76-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: NXT (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wwe/nxt/2026-06-09
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wwe/nxt/2026-06-09
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
