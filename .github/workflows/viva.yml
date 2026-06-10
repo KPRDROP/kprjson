@@ -1,0 +1,40 @@
+name: VIVA Streams Updater
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install selectolax aiohttp httpx[http2] pytz
+
+      - name: Run VIVA updater
+        run: |
+          python -c "from viva import main; import asyncio; asyncio.run(main())"
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add viva_vlc.m3u8 viva_tivimate.m3u8 cache_VIVA.json 2>/dev/null || true
+          git diff --staged --quiet || (git commit -m "chore: update VIVA streams [skip ci]" && git push)
