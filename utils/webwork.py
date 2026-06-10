@@ -7,7 +7,7 @@ from contextlib import asynccontextmanager
 from functools import cache, partial
 from pathlib import Path
 from typing import TypeVar
-from urllib.parse import urlparse
+from urllib.parse import urlsplit
 
 import httpx
 from playwright.async_api import (
@@ -134,7 +134,7 @@ class Network:
 
     @staticmethod
     def to_block(request: Request) -> bool:
-        hostname = (urlparse(request.url).hostname or "").lower()
+        hostname = (urlsplit(request.url).hostname or "").lower()
 
         return any(
             hostname == domain or hostname.endswith(f".{domain}")
@@ -222,7 +222,7 @@ class Network:
         escaped = [
             re.escape(i)
             for i in {
-                "amazonaws",
+                # "amazonaws",
                 "knitcdn",
                 "jwpltx",
             }
