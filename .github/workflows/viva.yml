@@ -28,9 +28,10 @@ jobs:
         run: |
           pip install selectolax aiohttp httpx[http2] pytz
 
-      - name: Run VIVA updater
+      - name: Run Viva updater
         run: |
-          python -c "from viva import main; import asyncio; asyncio.run(main())"
+          echo "Starting Viva updater..."
+          python viva.py
 
       - name: Commit and push changes
         run: |
