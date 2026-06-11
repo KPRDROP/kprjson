@@ -1,1 +1,9 @@
 #EXTM3U
+#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Arizona Diamondbacks vs Miami Marlins (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Arizona Diamondbacks vs Miami Marlins (SPORTir)
+https://node-6a57c764.streamtofu.com/6a2b6ae1.35212414i0c8a0f43.6488.43a81054/free.live.espn/master.m3u8|referer=https://mlb24all.ir|origin=https://mlb24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Texas Rangers vs Kansas City Royals (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Texas Rangers vs Kansas City Royals (SPORTir)
+https://node-025d151e.streamtofu.com/6a2b6ae2.789fc83ai0c8a0f43.648e.494a113e/free.live.espn/master.m3u8|referer=https://mlb24all.ir|origin=https://mlb24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Minnesota Twins vs Detroit Tigers (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Minnesota Twins vs Detroit Tigers (SPORTir)
+https://node-6a57c764.streamtofu.com/6a2b6ae2.71cfd5cai0c8a0f43.648b.69620066/free.live.espn/master.m3u8|referer=https://mlb24all.ir|origin=https://mlb24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
