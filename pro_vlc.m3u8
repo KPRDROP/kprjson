@@ -77,49 +77,37 @@ https://dami-tv.pro/live-hls/channel/wnba/2026-06-11/phx-dal/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wnba/2026-06-11/lv-por/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="14" tvg-id="Soccer.Dummy.us" tvg-name="[Football] FIFA World Cup Opening Ceremony: Mexico (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/06a3ff2b8d9aba875c155c6e3b77e511-thumbnail.jpg" group-title="Live Events",[Football] FIFA World Cup Opening Ceremony: Mexico (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=fifa-world-cup-opening-ceremony-mexico
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=fifa-world-cup-opening-ceremony-mexico
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/fifa-world-cup-opening-ceremony-mexico/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="15" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Mexico vs. South Africa (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/0538ffe471086a9d189adacf591c83d7-thumbnail.jpg" group-title="Live Events",[Football] Mexico vs. South Africa (PRO)
+#EXTINF:-1 tvg-chno="14" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Mexico vs. South Africa (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/0538ffe471086a9d189adacf591c83d7-thumbnail.jpg" group-title="Live Events",[Football] Mexico vs. South Africa (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wc/2026-06-11/mex-rsa
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wc/2026-06-11/mex-rsa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wc/2026-06-11/mex-rsa/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="16" tvg-id="Soccer.Dummy.us" tvg-name="[Football] South Korea vs. Czechia (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/9a3b30906c29d4c6aa851819610dbcef-thumbnail.jpg" group-title="Live Events",[Football] South Korea vs. Czechia (PRO)
+#EXTINF:-1 tvg-chno="15" tvg-id="Soccer.Dummy.us" tvg-name="[Football] South Korea vs. Czechia (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/9a3b30906c29d4c6aa851819610dbcef-thumbnail.jpg" group-title="Live Events",[Football] South Korea vs. Czechia (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wc/2026-06-12/kor-cze
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wc/2026-06-12/kor-cze
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wc/2026-06-12/kor-cze/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="17" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Ice Hockey] Vegas Golden Knights vs. Carolina Hurricanes (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/1d2c77d87b846fa5ea6ca4e95df0ed7d-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Vegas Golden Knights vs. Carolina Hurricanes (PRO)
+#EXTINF:-1 tvg-chno="16" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Ice Hockey] Vegas Golden Knights vs. Carolina Hurricanes (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/1d2c77d87b846fa5ea6ca4e95df0ed7d-thumbnail.jpg" group-title="Live Events",[Ice Hockey] Vegas Golden Knights vs. Carolina Hurricanes (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=nhl/2026-06-11/vgk-car
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=nhl/2026-06-11/vgk-car
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/nhl/2026-06-11/vgk-car/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="18" tvg-id="Live.Event.us" tvg-name="[Motorsports] 24 Hours of Le Mans - Practice 3 (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/e1a1218f599f25abee09529de8c17e33-thumbnail.jpg" group-title="Live Events",[Motorsports] 24 Hours of Le Mans - Practice 3 (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=fia-wec/2026/lemans/fp3
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=fia-wec/2026/lemans/fp3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/fia-wec/2026/lemans/fp3/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="19" tvg-id="Live.Event.us" tvg-name="[Motorsports] 24 Hours of Le Mans - Hyperpole (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/8e67df2ba8777284b14475aea36391b6-thumbnail.jpg" group-title="Live Events",[Motorsports] 24 Hours of Le Mans - Hyperpole (PRO)
+#EXTINF:-1 tvg-chno="17" tvg-id="Live.Event.us" tvg-name="[Motorsports] 24 Hours of Le Mans - Hyperpole (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/8e67df2ba8777284b14475aea36391b6-thumbnail.jpg" group-title="Live Events",[Motorsports] 24 Hours of Le Mans - Hyperpole (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=fia-wec/2026/lemans/hyperpole
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=fia-wec/2026/lemans/hyperpole
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/fia-wec/2026/lemans/hyperpole/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="20" tvg-id="Live.Event.us" tvg-name="[Motorsports] 24 Hours of Le Mans - Practice 4 (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/1203fd3d88bd08646af23c213a735865-thumbnail.jpg" group-title="Live Events",[Motorsports] 24 Hours of Le Mans - Practice 4 (PRO)
+#EXTINF:-1 tvg-chno="18" tvg-id="Live.Event.us" tvg-name="[Motorsports] 24 Hours of Le Mans - Practice 4 (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/1203fd3d88bd08646af23c213a735865-thumbnail.jpg" group-title="Live Events",[Motorsports] 24 Hours of Le Mans - Practice 4 (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=fia-wec/2026/lemans/fp4
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=fia-wec/2026/lemans/fp4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/fia-wec/2026/lemans/fp4/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="21" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] TNA: Impact (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/78f581ee61589a76f6bcdeb095f95c12-thumbnail.jpg" group-title="Live Events",[Wrestling] TNA: Impact (PRO)
+#EXTINF:-1 tvg-chno="19" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] TNA: Impact (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/78f581ee61589a76f6bcdeb095f95c12-thumbnail.jpg" group-title="Live Events",[Wrestling] TNA: Impact (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=tna/impact/2026-06-11
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=tna/impact/2026-06-11
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
