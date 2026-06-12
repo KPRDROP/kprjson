@@ -2,7 +2,6 @@ import asyncio
 import base64
 import re
 from functools import partial
-from urllib.parse import urlsplit, quote
 
 from utils import Cache, Time, get_logger, leagues, network
 
