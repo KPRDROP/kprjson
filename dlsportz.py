@@ -21,6 +21,16 @@ API_URL = "https://streameast.mov/api/events"
 # Headers for requests
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
 
+# Additional headers to avoid blocking
+API_HEADERS = {
+    "Referer": "https://streameast.mov/",
+    "Origin": "https://streameast.mov",
+    "User-Agent": USER_AGENT,
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Cache-Control": "no-cache",
+}
+
 
 def generate_playlists():
     """
@@ -102,7 +112,7 @@ async def process_event(channel_id: str, url_num: int) -> tuple[str | None, str 
     if not (
         html_data := await network.request(
             ifr_url,
-            headers={"Referer": ref_url},
+            headers={"Referer": ref_url, "User-Agent": USER_AGENT},
             log=log,
         )
     ):
@@ -117,11 +127,13 @@ async def process_event(channel_id: str, url_num: int) -> tuple[str | None, str 
         return nones
 
     # Decode base64 to get m3u8 URL
-    m3u8 = base64.b64decode(match[2]).decode("utf-8")
-
-    log.info(f"URL {url_num}) Captured M3U8: {m3u8[:100]}...")
-
-    return m3u8, ref_url
+    try:
+        m3u8 = base64.b64decode(match[2]).decode("utf-8")
+        log.info(f"URL {url_num}) Captured M3U8: {m3u8[:100]}...")
+        return m3u8, ref_url
+    except Exception as e:
+        log.error(f"URL {url_num}) Failed to decode base64: {e}")
+        return nones
 
 
 async def get_events() -> list[dict[str, str]]:
@@ -133,52 +145,111 @@ async def get_events() -> list[dict[str, str]]:
 
     log.info(f"Fetching events from API: {API_URL}")
 
-    if not (api_data := API_FILE.load(per_entry=False, index=-1)):
-        log.info("Refreshing API cache")
-
-        api_data = [{"timestamp": now.timestamp()}]
-
-        if r := await network.request(API_URL, log=log):
-            api_data = r.json()
-
-            api_data[-1]["timestamp"] = now.timestamp()
-
-        API_FILE.write(api_data)
-
-    if not (date := api_data[0].get("day")):
-        log.warning("No date found in API response")
-        return events
-
-    # Parse and compare date
-    api_date = re.sub(
-        r"(?<=\d)(st|nd|rd|th)",
-        "",
-        date.split("-")[0].strip(),
-        flags=re.I,
-    )
-
-    current_date = f"{now:%A} {now.day} {now:%B} {now:%Y}"
+    # Try to load from cache first
+    api_data = API_FILE.load(per_entry=False, index=-1)
     
-    if api_date != current_date:
-        log.info(f"API date mismatch. API: {api_date}, Current: {current_date}")
+    # If cache exists and is recent, use it
+    if api_data and len(api_data) > 0:
+        # Check if cache has timestamp and is not too old (within 8 hours)
+        last_timestamp = api_data[-1].get("timestamp", 0) if isinstance(api_data, list) else 0
+        current_time = now.timestamp()
+        
+        if current_time - last_timestamp < 28_800:  # 8 hours
+            log.info("Using cached API data")
+        else:
+            api_data = None
+            log.info("API cache expired, refreshing")
+
+    if not api_data:
+        log.info("Refreshing API cache")
+        
+        # Make request with proper headers
+        r = await network.request(
+            API_URL, 
+            headers=API_HEADERS,
+            log=log,
+            timeout=30
+        )
+        
+        if r and r.content:
+            try:
+                api_data = r.json()
+                if isinstance(api_data, list) and len(api_data) > 0:
+                    # Add timestamp to the last element or create a metadata object
+                    if isinstance(api_data[-1], dict):
+                        api_data[-1]["timestamp"] = now.timestamp()
+                    API_FILE.write(api_data)
+                    log.info(f"API cache updated with {len(api_data)} items")
+                else:
+                    log.warning("API returned invalid data format")
+                    api_data = None
+            except Exception as e:
+                log.error(f"Failed to parse API response: {e}")
+                api_data = None
+        else:
+            log.error("Failed to fetch API data")
+            api_data = None
+
+    if not api_data or len(api_data) == 0:
+        log.warning("No API data available")
         return events
 
-    for category in api_data[0].get("categories", {}):
+    # Get the first item which contains the date and categories
+    first_item = api_data[0]
+    
+    if not (date := first_item.get("day")):
+        log.warning("No date found in API response")
+        log.debug(f"API response keys: {list(first_item.keys()) if isinstance(first_item, dict) else 'not a dict'}")
+        return events
+
+    # Parse and compare date (extract the date part before the dash)
+    try:
+        # The date format is like "Friday 12th June 2026 - Schedule Time UK GMT"
+        date_part = date.split("-")[0].strip()
+        # Remove ordinal indicators (st, nd, rd, th)
+        api_date = re.sub(r"(?<=\d)(st|nd|rd|th)", "", date_part, flags=re.I)
+        current_date = f"{now:%A} {now.day} {now:%B} {now:%Y}"
+        
+        if api_date != current_date:
+            log.info(f"API date mismatch. API: {api_date}, Current: {current_date}")
+            return events
+    except Exception as e:
+        log.error(f"Date parsing error: {e}")
+        return events
+
+    # Process categories
+    categories = first_item.get("categories", {})
+    if not categories:
+        log.warning("No categories found in API response")
+        return events
+
+    for category, category_info in categories.items():
         # Skip unwanted categories
         if category.lower() in ["popular live events", "tv shows"]:
             continue
 
-        category_info = api_data[0]["categories"][category]
+        # category_info should be a list of events
+        if not isinstance(category_info, list):
+            continue
 
         for event_info in category_info:
             if event_info.get("source") != "tv":
                 continue
 
-            if not (channels := event_info.get("channels")):
+            channels = event_info.get("channels")
+            if not channels or not isinstance(channels, list):
                 continue
 
-            name: str = event_info["event"]
-            channel_id: str = channels[0]["channel_id"]
+            # Get the first channel
+            channel = channels[0]
+            channel_id = channel.get("channel_id")
+            
+            if not channel_id:
+                continue
+
+            name = event_info.get("event", "")
+            if not name:
+                continue
 
             events.append(
                 {
@@ -208,10 +279,16 @@ async def scrape() -> None:
         generate_playlists()
         return
 
-    log.info('Scraping from "strmeast"')
+    log.info('Scraping from "streameast.mov"')
 
-    if events := await get_events():
+    events = await get_events()
+    
+    if events:
         log.info(f"Processing {len(events)} URL(s)")
+
+        # Initialize cached_urls as dict if needed
+        if not isinstance(cached_urls, dict):
+            cached_urls = {}
 
         for i, ev in enumerate(events, start=1):
             log.info(f"--- [{i}/{len(events)}]: {ev['event']} ---")
@@ -261,11 +338,14 @@ async def scrape() -> None:
             await asyncio.sleep(1)
 
         log.info(f"Collected and cached {len(urls)} event(s)")
-
+        CACHE_FILE.write(cached_urls)
     else:
         log.info("No events found")
+        # Still generate playlists with cached data if available
+        if urls:
+            generate_playlists()
+        return
 
-    CACHE_FILE.write(cached_urls)
     generate_playlists()
 
 
