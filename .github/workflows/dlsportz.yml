@@ -18,6 +18,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0  # Fetch all history to avoid rebase issues
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -36,5 +37,31 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add dlsportz_vlc.m3u8 dlsportz_tivimate.m3u8 cache_DLSPORTZ.json cache_DLSPORTZ-api.json 2>/dev/null || true
-          git diff --staged --quiet || (git commit -m "chore: update DLSPORTZ streams [skip ci]" && git push)
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "chore: update DLSPORTZ streams [skip ci]"
+
+          # Retry logic with pull rebase
+          for i in 1 2 3; do
+            echo "Attempt $i: Pushing changes..."
+            
+            # Try to pull latest changes first
+            git pull --rebase origin main || true
+            
+            if git push origin main; then
+              echo "Push successful"
+              exit 0
+            fi
+            
+            echo "Push failed, retrying in 5 seconds..."
+            sleep 5
+          done
+
+          echo "Failed after 3 attempts"
+          exit 1
