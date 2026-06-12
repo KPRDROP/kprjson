@@ -1,8 +1,8 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-06-12 18:44 UTC
-# Total Streams: 9
+# Last Updated: 2026-06-12 22:06 UTC
+# Total Streams: 17
 
-#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Canada Today at 7:00 PM vs Bosnia-Herz (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Canada Today at 7:00 PM vs Bosnia-Herz (SPFIT)
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Canada vs 1 - 1 Bosnia-Herz (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Canada vs 1 - 1 Bosnia-Herz (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
@@ -14,43 +14,91 @@ https://fariadex.s3.us-east-2.amazonaws.com/btsport.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 https://fariadex.s3.us-east-2.amazonaws.com/btsport.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Texas Rangers Today at 11:10 PM vs Boston Red Sox (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Texas Rangers Today at 11:10 PM vs Boston Red Sox (SPFIT)
+#EXTINF:-1 tvg-chno="3" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Miami Marlins Today at 10:40 PM vs Pittsburgh Pirates (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Miami Marlins Today at 10:40 PM vs Pittsburgh Pirates (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://rifusfcollins.s3.us-east-1.amazonaws.com/redsox.m3u8
+https://fariadex.s3.us-east-2.amazonaws.com/nbcsn.m3u8
 
-#EXTINF:-1 tvg-chno="4" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Dodgers Today at 11:40 PM vs Chicago White Sox (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Los Angeles Dodgers Today at 11:40 PM vs Chicago White Sox (SPFIT)
+#EXTINF:-1 tvg-chno="4" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Seattle Mariners Today at 10:45 PM vs Washington Nationals (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Seattle Mariners Today at 10:45 PM vs Washington Nationals (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://rifusfcollins.s3.us-east-1.amazonaws.com/dodgers.m3u8
+https://fariadex.s3.us-east-2.amazonaws.com/nationals.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Philadelphia Phillies Today at 11:40 PM vs Milwaukee Brewers (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Philadelphia Phillies Today at 11:40 PM vs Milwaukee Brewers (SPFIT)
+#EXTINF:-1 tvg-chno="5" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] San Diego Padres Today at 11:05 PM vs Baltimore Orioles (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] San Diego Padres Today at 11:05 PM vs Baltimore Orioles (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://rifusfcollins.s3.us-east-1.amazonaws.com/phillies.m3u8
+https://fariadex.s3.us-east-2.amazonaws.com/orioles.m3u8
 
-#EXTINF:-1 tvg-chno="6" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Atlanta Braves Today at 11:15 PM vs New York Mets (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Atlanta Braves Today at 11:15 PM vs New York Mets (SPFIT)
+#EXTINF:-1 tvg-chno="6" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Detroit Tigers Today at 11:10 PM vs Cleveland Guardians (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Detroit Tigers Today at 11:10 PM vs Cleveland Guardians (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://rifusfcollins.s3.us-east-1.amazonaws.com/btsport.m3u8
+https://fariadex.s3.us-east-2.amazonaws.com/tigers.m3u8
 
-#EXTINF:-1 tvg-chno="7" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] New York Yankees Today at 11:37 PM vs Toronto Blue Jays (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] New York Yankees Today at 11:37 PM vs Toronto Blue Jays (SPFIT)
+#EXTINF:-1 tvg-chno="7" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Texas Rangers Today at 11:10 PM vs Boston Red Sox (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Texas Rangers Today at 11:10 PM vs Boston Red Sox (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://rifusfcollins.s3.us-east-1.amazonaws.com/yankees.m3u8
+https://fariadex.s3.us-east-2.amazonaws.com/redsox.m3u8
 
-#EXTINF:-1 tvg-chno="8" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs Tomorrow at 2:15 AM vs San Francisco Giants (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Chicago Cubs Tomorrow at 2:15 AM vs San Francisco Giants (SPFIT)
+#EXTINF:-1 tvg-chno="8" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Atlanta Braves Today at 11:15 PM vs New York Mets (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Atlanta Braves Today at 11:15 PM vs New York Mets (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://rifusfcollins.s3.us-east-1.amazonaws.com/cubs.m3u8
+https://fariadex.s3.us-east-2.amazonaws.com/mets.m3u8
 
-#EXTINF:-1 tvg-chno="9" tvg-id="Racing.Dummy.us" tvg-name="[F1] MSC CRUISES BARCELONA-CATALUNYA GP 2026 ROUND 23 (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] MSC CRUISES BARCELONA-CATALUNYA GP 2026 ROUND 23 (SPFIT)
+#EXTINF:-1 tvg-chno="9" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Arizona Diamondbacks Today at 11:15 PM vs Cincinnati Reds (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Arizona Diamondbacks Today at 11:15 PM vs Cincinnati Reds (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.fit/
+#EXTVLCOPT:http-origin=https://sportspass.fit
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://fariadex.s3.us-east-2.amazonaws.com/dbacks.m3u8
+
+#EXTINF:-1 tvg-chno="10" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Dodgers Today at 11:40 PM vs Chicago White Sox (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Los Angeles Dodgers Today at 11:40 PM vs Chicago White Sox (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.fit/
+#EXTVLCOPT:http-origin=https://sportspass.fit
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://fariadex.s3.us-east-2.amazonaws.com/dodgers.m3u8
+
+#EXTINF:-1 tvg-chno="11" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Philadelphia Phillies Today at 11:40 PM vs Milwaukee Brewers (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Philadelphia Phillies Today at 11:40 PM vs Milwaukee Brewers (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.fit/
+#EXTVLCOPT:http-origin=https://sportspass.fit
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://fariadex.s3.us-east-2.amazonaws.com/phillies.m3u8
+
+#EXTINF:-1 tvg-chno="12" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] New York Yankees Today at 11:37 PM vs Toronto Blue Jays (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] New York Yankees Today at 11:37 PM vs Toronto Blue Jays (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.fit/
+#EXTVLCOPT:http-origin=https://sportspass.fit
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://fariadex.s3.us-east-2.amazonaws.com/yankees.m3u8
+
+#EXTINF:-1 tvg-chno="13" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] St. Louis Cardinals Tomorrow at 12:10 AM vs Minnesota Twins (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] St. Louis Cardinals Tomorrow at 12:10 AM vs Minnesota Twins (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.fit/
+#EXTVLCOPT:http-origin=https://sportspass.fit
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://fariadex.s3.us-east-2.amazonaws.com/cardinals.m3u8
+
+#EXTINF:-1 tvg-chno="14" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Tampa Bay Rays Tomorrow at 1:38 AM vs Los Angeles Angels (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Tampa Bay Rays Tomorrow at 1:38 AM vs Los Angeles Angels (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.fit/
+#EXTVLCOPT:http-origin=https://sportspass.fit
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://fariadex.s3.us-east-2.amazonaws.com/angels.m3u8
+
+#EXTINF:-1 tvg-chno="15" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs Tomorrow at 2:15 AM vs San Francisco Giants (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Chicago Cubs Tomorrow at 2:15 AM vs San Francisco Giants (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.fit/
+#EXTVLCOPT:http-origin=https://sportspass.fit
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://fariadex.s3.us-east-2.amazonaws.com/cubs.m3u8
+
+#EXTINF:-1 tvg-chno="16" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Houston Astros Tomorrow at 12:10 AM vs Kansas City Royals (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Houston Astros Tomorrow at 12:10 AM vs Kansas City Royals (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.fit/
+#EXTVLCOPT:http-origin=https://sportspass.fit
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://fariadex.s3.us-east-2.amazonaws.com/astros.m3u8
+
+#EXTINF:-1 tvg-chno="17" tvg-id="Racing.Dummy.us" tvg-name="[F1] MSC CRUISES BARCELONA-CATALUNYA GP 2026 ROUND 23 (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] MSC CRUISES BARCELONA-CATALUNYA GP 2026 ROUND 23 (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
