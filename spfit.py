@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
 import asyncio
-import re
-from functools import partial
 from urllib.parse import urljoin
 from datetime import datetime
+import re
+from concurrent.futures import ThreadPoolExecutor
 
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeoutError
 from selectolax.parser import HTMLParser
@@ -19,7 +19,7 @@ TAG = "SPFIT"
 
 CACHE_FILE = Cache(TAG, exp=28_800)
 
-BASE_URL = "https://streamseast.is"
+BASE_URL = "https://streamseast.biz/"
 
 # Output files
 VLC_OUTPUT = "spfit_vlc.m3u8"
@@ -30,10 +30,11 @@ USER_AGENT = "Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleW
 REFERER = "https://sportspass.fit/"
 ORIGIN = "https://sportspass.fit"
 
-# Sport categories (using working URLs from original code)
+# Sport categories
 SPORT_CATEGORIES = {
     "Soccer": "/soccer",
     "NBA": "/nba",
+    # "NFL": "/nfl",
     "NHL": "/nhl",
     "MLB": "/mlb",
     "MMA": "/mma",
@@ -42,8 +43,8 @@ SPORT_CATEGORIES = {
 }
 
 # Concurrency settings
-MAX_CONCURRENT_PAGES = 3
-PAGE_TIMEOUT = 6000  # 6 seconds timeout (from working code)
+MAX_CONCURRENT_PAGES = 5
+PAGE_TIMEOUT = 10000
 RETRY_ATTEMPTS = 2
 
 
@@ -55,225 +56,230 @@ def clean_event_name(event_name: str) -> str:
     cleaned = event_name.replace(",", "")
     cleaned = re.sub(r'\s+', ' ', cleaned)
     cleaned = re.sub(r'\s*-\s*(?:Live|Stream|Watch|SPFIT)\s*$', '', cleaned, flags=re.IGNORECASE)
-    cleaned = cleaned.strip()
     
-    return cleaned if cleaned else "Live Event"
+    return cleaned.strip()
 
 
-async def process_event(
-    url: str,
-    url_num: int,
-    page,
-) -> tuple[str | None, str | None, str | None]:
-    """Process a single event page to extract m3u8 URL"""
-    nones = (None, None, None)
-    captured: list[str] = []
-    got_one = asyncio.Event()
-    handler = partial(
-        network.capture_req,
-        captured=captured,
-        got_one=got_one,
-    )
-    
-    page.on("request", handler)
-    event_name = "Sporting Event"
-    iframe_src = None
-    
-    try:
-        resp = await page.goto(
-            url,
-            wait_until="domcontentloaded",
-            timeout=PAGE_TIMEOUT,
-        )
-        
-        if not resp or resp.status != 200:
-            log.warning(f"URL {url_num}) Status Code: {resp.status if resp else 'None'}")
-            return (event_name, *nones)
-        
-        # Get event name from h1.match-head element
-        try:
-            event_name_elem = page.locator("h1.match-head")
-            event_name = await event_name_elem.inner_text(timeout=1250)
-            event_name = clean_event_name(event_name)
-        except:
-            pass
-        
-        # Find iframe
-        try:
-            ifr = page.locator("iframe.embed-responsive-item")
-            await ifr.wait_for(timeout=1250)
-            iframe_src = await ifr.get_attribute("src")
-        except PlaywrightTimeoutError:
-            log.warning(f"URL {url_num}) No iframe found.")
-            return (event_name, *nones)
-        
-        # Navigate to iframe
-        await page.goto(
-            iframe_src,
-            wait_until="domcontentloaded",
-            timeout=2250,
-        )
-        
-        # Wait for m3u8 capture
-        wait_task = asyncio.create_task(got_one.wait())
-        
-        try:
-            await asyncio.wait_for(wait_task, timeout=5)
-        except asyncio.TimeoutError:
-            log.warning(f"URL {url_num}) Timed out waiting for M3U8.")
-            return (event_name, *nones)
-        finally:
-            if not wait_task.done():
-                wait_task.cancel()
-                try:
-                    await wait_task
-                except asyncio.CancelledError:
-                    pass
-        
-        if captured:
-            log.info(f"✓ [{url_num}] {event_name[:50]}")
-            return event_name, iframe_src, captured[0]
-        
-        return (event_name, *nones)
-        
-    except Exception as e:
-        log.warning(f"URL {url_num}) Error: {e}")
-        return (event_name, *nones)
-    finally:
-        page.remove_listener("request", handler)
-
-
-async def get_events(cached_links: set[str]) -> list[dict[str, str]]:
-    """Get events from category pages"""
-    now = Time.clean(Time.now())
+async def get_event_links_from_category(page, category_url: str) -> list[tuple[str, str]]:
+    """Extract event links from category page"""
     events = []
     
-    for sport, category_path in SPORT_CATEGORIES.items():
-        category_url = urljoin(BASE_URL, category_path)
-        log.info(f"Scanning {sport}...")
+    try:
+        await page.goto(category_url, wait_until="domcontentloaded", timeout=15000)
+        await page.wait_for_timeout(1000)
         
-        try:
-            html = await network.request(category_url, log=log)
-            if not html:
-                log.warning(f"  Failed to fetch {category_url}")
+        # Optimized selector for event links
+        links = await page.query_selector_all('a[href*="/soccer/"], a[href*="/nba/"], a[href*="/nhl/"], a[href*="/mlb/"], a[href*="/mma/"], a[href*="/boxing/"], a[href*="/f1/"]')
+        
+        for link in links:
+            href = await link.get_attribute('href')
+            if not href:
                 continue
             
-            soup = HTMLParser(html.content)
+            # Get full URL
+            full_url = urljoin(BASE_URL, href) if href.startswith('/') else href
             
-            # Find event links using the working selector from original code
-            for event in soup.css("a.matches"):
-                if not (href := event.attributes.get("href")):
-                    continue
-                
-                link = urljoin(BASE_URL, href)
-                
-                if link in cached_links:
-                    continue
-                
-                # Check if event has script with date or status badge
-                if (scr_elem := event.css_first("script")) and (
-                    match := re.search(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}Z", scr_elem.text(strip=True))
-                ):
-                    event_dt = Time.fromisoformat(match[0]).to_tz("EST")
-                elif event.css_first("span.status-badge.badge.bg-success"):
-                    event_dt = now
-                else:
-                    continue
-                
-                # Only get events within time range
-                start_dt = now.delta(hours=-3)
-                end_dt = now.delta(minutes=5)
-                
-                if not start_dt <= event_dt <= end_dt:
-                    continue
-                
-                # Get event name from the link text
-                event_name = event.text(strip=True)
-                event_name = clean_event_name(event_name)
-                
-                events.append({
-                    "sport": sport,
-                    "link": link,
-                    "name": event_name,
-                    "timestamp": event_dt.timestamp(),
-                })
-                
-        except Exception as e:
-            log.error(f"Error scanning {sport}: {e}")
-            continue
+            # Get event name
+            event_name = await link.inner_text()
+            event_name = clean_event_name(event_name)
+            
+            if full_url not in [e[1] for e in events]:
+                events.append((event_name, full_url))
+        
+    except Exception as e:
+        log.error(f"Error getting events from {category_url}: {e}")
     
     return events
 
 
+async def extract_m3u8_from_event(page, event_url: str, event_name: str, url_num: int) -> str | None:
+    """Navigate to event page and extract m3u8 stream URL"""
+    
+    try:
+        # Navigate to event page with shorter timeout
+        await page.goto(event_url, wait_until="domcontentloaded", timeout=PAGE_TIMEOUT)
+        await page.wait_for_timeout(2000)
+        
+        # Set up network request monitoring
+        m3u8_url = None
+        
+        def handle_request(request):
+            nonlocal m3u8_url
+            if '.m3u8' in request.url and not m3u8_url:
+                m3u8_url = request.url
+        
+        page.on('request', handle_request)
+        
+        # Quick check for iframes
+        iframes = await page.query_selector_all('iframe')
+        for iframe in iframes[:2]:  # Check first 2 iframes only
+            try:
+                src = await iframe.get_attribute('src')
+                if src and src.startswith('http'):
+                    await page.goto(src, wait_until="domcontentloaded", timeout=8000)
+                    await page.wait_for_timeout(1500)
+                    
+                    # Try to click play button quickly
+                    play_button = await page.query_selector('button.vjs-big-play-button, button.play-btn')
+                    if play_button:
+                        await play_button.click()
+                        await page.wait_for_timeout(1000)
+            except:
+                pass
+        
+        # Wait for m3u8 with shorter timeouts
+        for attempt in range(8):  # Reduced attempts
+            if m3u8_url:
+                break
+            await page.wait_for_timeout(1000)
+            
+            # Quick page source check
+            content = await page.content()
+            m3u8_match = re.search(r'https?://[^\s"\']+\.m3u8[^\s"\']*', content)
+            if m3u8_match:
+                m3u8_url = m3u8_match.group(0)
+                break
+        
+        page.remove_listener('request', handle_request)
+        
+        if m3u8_url:
+            log.info(f"✓ [{url_num}] {event_name[:50]}")
+            return m3u8_url
+        else:
+            log.debug(f"✗ [{url_num}] No stream: {event_name[:50]}")
+            return None
+            
+    except Exception as e:
+        log.debug(f"✗ [{url_num}] Error: {event_name[:50]} - {str(e)[:50]}")
+        return None
+
+
+async def process_event_batch(browser, events_batch, cached_urls, now, batch_num):
+    """Process a batch of events concurrently"""
+    tasks = []
+    
+    for idx, event in enumerate(events_batch):
+        page = await browser.new_page()
+        task = process_single_event(page, event, cached_urls, now, idx)
+        tasks.append(task)
+    
+    results = await asyncio.gather(*tasks, return_exceptions=True)
+    
+    # Close all pages
+    for task in tasks:
+        if hasattr(task, 'page'):
+            await task.page.close()
+    
+    return results
+
+
+async def process_single_event(page, event, cached_urls, now, idx):
+    """Process a single event"""
+    try:
+        m3u8_url = await extract_m3u8_from_event(page, event['url'], event['name'], idx)
+        
+        if m3u8_url:
+            tvg_id, logo = leagues.get_tvg_info(event['sport'], event['name'])
+            
+            entry = {
+                "url": m3u8_url,
+                "logo": logo,
+                "base": event['url'],
+                "timestamp": now.timestamp(),
+                "id": tvg_id or "Live.Event.us",
+                "link": event['url'],
+            }
+            
+            cached_urls[event['key']] = entry
+            urls[event['key']] = entry
+            return True
+    except Exception as e:
+        log.debug(f"Error processing {event['name'][:50]}: {e}")
+    finally:
+        await page.close()
+    
+    return False
+
+
 async def scrape() -> None:
-    """Main scraping function using the working approach"""
+    """Main scraping function with concurrent processing"""
     cached_urls = CACHE_FILE.load() or {}
     
-    # Get cached links
-    cached_links = {entry.get("link") for entry in cached_urls.values() if entry.get("link")}
-    
-    # Load valid cached URLs
+    # Load cached URLs
     valid_urls = {k: v for k, v in cached_urls.items() if v.get("url")}
     urls.update(valid_urls)
     log.info(f"Loaded {len(valid_urls)} event(s) from cache")
     
-    # Get new events
-    events = await get_events(cached_links)
-    
-    if not events:
-        log.info("No new events to process")
-        return
-    
-    log.info(f"Processing {len(events)} new event(s)")
+    # Get all event links from categories
+    all_events = []
     
     async with async_playwright() as pw:
         browser = await pw.chromium.launch(
-            headless=True,
+            headless=True, 
             args=['--disable-blink-features=AutomationControlled', '--no-sandbox']
         )
         context = await browser.new_context(
             viewport={'width': 1920, 'height': 1080},
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            user_agent=USER_AGENT
+        )
+        page = await context.new_page()
+        
+        try:
+            for sport, category_path in SPORT_CATEGORIES.items():
+                category_url = urljoin(BASE_URL, category_path)
+                log.info(f"Scanning {sport}...")
+                
+                events = await get_event_links_from_category(page, category_url)
+                log.info(f"Found {len(events)} events in {sport}")
+                
+                for event_name, event_url in events:
+                    key = f"[{sport}] {event_name} ({TAG})"
+                    if key in cached_urls and cached_urls[key].get("url"):
+                        continue
+                    
+                    all_events.append({
+                        "sport": sport,
+                        "name": event_name,
+                        "url": event_url,
+                        "key": key
+                    })
+        finally:
+            await browser.close()
+    
+    if not all_events:
+        log.info("No new events to process")
+        return
+    
+    log.info(f"Processing {len(all_events)} new events with {MAX_CONCURRENT_PAGES} concurrent workers")
+    
+    # Process events in batches
+    now = Time.clean(Time.now())
+    new_count = 0
+    
+    # Split events into batches
+    batches = [all_events[i:i + MAX_CONCURRENT_PAGES] for i in range(0, len(all_events), MAX_CONCURRENT_PAGES)]
+    
+    async with async_playwright() as pw:
+        browser = await pw.chromium.launch(
+            headless=True, 
+            args=['--disable-blink-features=AutomationControlled', '--no-sandbox']
         )
         
-        now = Time.clean(Time.now())
-        new_count = 0
-        
-        for i, ev in enumerate(events, start=1):
-            page = await context.new_page()
+        for batch_num, batch in enumerate(batches, 1):
+            log.info(f"Processing batch {batch_num}/{len(batches)} ({len(batch)} events)")
             
-            try:
-                event, iframe_src, stream_url = await process_event(
-                    ev["link"],
-                    i,
-                    page
-                )
-                
-                if stream_url:
-                    tvg_id, logo = leagues.get_tvg_info(ev["sport"], event or ev["name"])
-                    
-                    key = f"[{ev['sport']}] {event or ev['name']} ({TAG})"
-                    
-                    entry = {
-                        "url": stream_url,
-                        "logo": logo,
-                        "base": iframe_src,
-                        "timestamp": ev["timestamp"],
-                        "id": tvg_id or "Live.Event.us",
-                        "link": ev["link"],
-                    }
-                    
-                    cached_urls[key] = entry
-                    urls[key] = entry
-                    new_count += 1
-                    
-            except Exception as e:
-                log.warning(f"Error processing event {i}: {e}")
-            finally:
-                await page.close()
+            # Process batch concurrently
+            tasks = []
+            for event in batch:
+                page = await browser.new_page()
+                task = process_single_event(page, event, cached_urls, now, 0)
+                tasks.append(task)
             
-            # Small delay between requests
-            await asyncio.sleep(0.5)
+            results = await asyncio.gather(*tasks)
+            new_count += sum(1 for r in results if r)
+            
+            # Small delay between batches
+            await asyncio.sleep(1)
         
         await browser.close()
     
@@ -283,7 +289,7 @@ async def scrape() -> None:
 
 
 def generate_playlists() -> None:
-    """Generate VLC and TiviMate playlist files"""
+    """Generate VLC and TiviMate playlist files from collected events"""
     if not urls:
         log.warning("No events to generate playlists")
         with open(VLC_OUTPUT, "w", encoding="utf-8") as f:
@@ -323,7 +329,7 @@ def generate_playlists() -> None:
     except Exception as e:
         log.error(f"Error generating VLC playlist: {e}")
 
-    # Generate TiviMate playlist
+    # Generate TiviMate playlist (WITHOUT encoding)
     try:
         with open(TIVIMATE_OUTPUT, "w", encoding="utf-8") as f:
             f.write(header)
@@ -339,6 +345,7 @@ def generate_playlists() -> None:
                 
                 clean_name = clean_event_name(event_name)
                 
+                # Write TiviMate format
                 f.write(f'#EXTINF:-1 tvg-chno="{ch_no}" tvg-id="{tvg_id}" tvg-name="{clean_name}" tvg-logo="{logo}" group-title="Live Events",{clean_name}\n')
                 f.write(f'{url}|referer={REFERER}|origin={ORIGIN}|user-agent={USER_AGENT}\n\n')
                 
@@ -350,19 +357,21 @@ def generate_playlists() -> None:
 
 
 async def main() -> None:
-    """Main function"""
+    """Main function to run the scraper and generate playlists"""
     log.info("Starting SPFIT playlist generator")
     
     try:
         await scrape()
         generate_playlists()
         
+        log.info("Playlist generation completed")
         print(f"\n SPFIT Playlists generated successfully!")
         print(f"    VLC: {VLC_OUTPUT}")
         print(f"    TiviMate: {TIVIMATE_OUTPUT}")
         print(f"    Total streams: {len(urls)}")
     except Exception as e:
         log.error(f"Error in main execution: {e}")
+        print(f"\n Error: {e}")
         raise
 
 
