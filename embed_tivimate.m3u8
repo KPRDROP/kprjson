@@ -1,4 +1,37 @@
 #EXTM3U
 #EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Pittsburgh Pirates - Miami Marlins (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Pittsburgh Pirates - Miami Marlins (EMBED)
-https://cdn13.zohanayaan.com:1686/hls/mpittsburghpirates.m3u8?md5=ujZmO2X_zTmMXijbngi3nw&expires=1781461405|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
+https://cdn12.zohanayaan.com:1686/hls/mpittsburghpirates.m3u8?md5=Jxt5pJ5kvX1_bppcNEZJLg&expires=1781467061|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Fifa World Cup] Germany - Curaçao (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/4.png" group-title="Live Events",[Fifa World Cup] Germany - Curaçao (EMBED)
+https://cdn15.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=7GIaevtjCNeJ0-luS5pcbg&expires=1781467062|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Baltimore Orioles - San Diego Padres (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Baltimore Orioles - San Diego Padres (EMBED)
+https://cdn15.zohanayaan.com:1686/hls/mbaltimoreorioles.m3u8?md5=JGkz81opbGcJ2_d3YpCBsQ&expires=1781467063|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Washington Nationals - Seattle Mariners (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Washington Nationals - Seattle Mariners (EMBED)
+https://cdn11.zohanayaan.com:1686/hls/mwashingtonnationals.m3u8?md5=yuL0_UlVCb6Ni422R3fsRQ&expires=1781467064|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Toronto Blue Jays - New York Yankees (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Toronto Blue Jays - New York Yankees (EMBED)
+https://cdn11.zohanayaan.com:1686/hls/mtorontobluejays.m3u8?md5=6ETMP4ZIQKFmzKhjx6_MBw&expires=1781467065|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Cincinnati Reds - Arizona Diamondbacks (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Cincinnati Reds - Arizona Diamondbacks (EMBED)
+https://cdn13.zohanayaan.com:1686/hls/mcincinnatireds.m3u8?md5=03s3nVE0h4PCX8S7-4AC7A&expires=1781467066|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Mets - Atlanta Braves (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] New York Mets - Atlanta Braves (EMBED)
+https://cdn14.zohanayaan.com:1686/hls/mnewyorkmets.m3u8?md5=z7bbnBQYaOtGXBKJ4Z8a0Q&expires=1781467067|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="8" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Cleveland Guardians - Detroit Tigers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Cleveland Guardians - Detroit Tigers (EMBED)
+https://cdn12.zohanayaan.com:1686/hls/mclevelandguardians.m3u8?md5=7awTxIryyB7AO9JFuYaodA&expires=1781467067|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="9" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Kansas City Royals - Houston Astros (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Kansas City Royals - Houston Astros (EMBED)
+https://cdn14.zohanayaan.com:1686/hls/mkansascityroyals.m3u8?md5=dCD6WwcShLy3XEKLXZh0Nw&expires=1781467068|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="10" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago White Sox - Los Angeles Dodgers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago White Sox - Los Angeles Dodgers (EMBED)
+https://cdn15.zohanayaan.com:1686/hls/mchicagowhitesox.m3u8?md5=WLKW3RhhdWVHFHHdYwbyTA&expires=1781467069|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="11" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Milwaukee Brewers - Philadelphia Phillies (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Milwaukee Brewers - Philadelphia Phillies (EMBED)
+https://cdn13.zohanayaan.com:1686/hls/mmilwaukeebrewers.m3u8?md5=Wko5gYTmQiJARngD9B8HSw&expires=1781467069|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="12" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Minnesota Twins - St. Louis Cardinals (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Minnesota Twins - St. Louis Cardinals (EMBED)
+https://cdn13.zohanayaan.com:1686/hls/mminnesotatwins.m3u8?md5=7LLCo510OpRawOSmmXWdww&expires=1781467070|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
 
