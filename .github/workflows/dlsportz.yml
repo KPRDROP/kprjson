@@ -40,20 +40,14 @@ jobs:
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
-          git config.user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Force add files (including new files)
           git add -f dlsportz_vlc.m3u8 dlsportz_tivimate.m3u8 cache_DLSPORTZ.json cache_DLSPORTZ-api.json 2>/dev/null || true
 
-          # Check if there are any changes (including new files)
           if git status --porcelain | grep -q .; then
             echo "Changes detected, committing..."
             git commit -m "chore: update DLSPORTZ streams [skip ci]"
-            
-            # Pull latest changes with rebase
             git pull --rebase origin main || true
-            
-            # Push changes
             git push origin main
           else
             echo "No changes to commit"
