@@ -45,6 +45,10 @@ def generate_playlists():
     """
     Generate VLC and TiviMate M3U8 playlists from captured streams.
     """
+    if not urls:
+        log.warning("No streams to generate playlists")
+        return
+        
     vlc_lines = ["#EXTM3U"]
     tivimate_lines = ["#EXTM3U"]
 
@@ -157,21 +161,32 @@ async def get_events() -> list[dict[str, str]]:
     # Try to load from cache first
     api_data = API_FILE.load(per_entry=False, index=-1)
     
-    # If cache exists and is recent, use it
+    api_data_valid = False
+    
+    # If cache exists, check if it's recent and has today's date
     if api_data and len(api_data) > 0:
-        # Check if cache has timestamp and is not too old (within 8 hours)
         last_timestamp = api_data[-1].get("timestamp", 0) if isinstance(api_data, list) else 0
         current_time = now.timestamp()
         
-        if current_time - last_timestamp < 28_800:  # 8 hours
-            log.info("Using cached API data")
-            # Use cached data
-            pass
-        else:
-            api_data = None
-            log.info("API cache expired, refreshing")
+        # Check if cache is within 8 hours
+        if current_time - last_timestamp < 28_800:
+            # Check if the cached data has today's date
+            first_item = api_data[0]
+            if date := first_item.get("day"):
+                try:
+                    date_part = date.split("-")[0].strip()
+                    api_date = re.sub(r"(?<=\d)(st|nd|rd|th)", "", date_part, flags=re.I)
+                    current_date = f"{now:%A} {now.day} {now:%B} {now:%Y}"
+                    
+                    if api_date == current_date:
+                        log.info("Using cached API data (today's date)")
+                        api_data_valid = True
+                    else:
+                        log.info(f"Cached API data is from {api_date}, not today. Will refresh.")
+                except Exception:
+                    pass
 
-    if not api_data:
+    if not api_data_valid:
         log.info("Refreshing API cache")
         
         # Make request with proper headers and retry logic
@@ -197,17 +212,16 @@ async def get_events() -> list[dict[str, str]]:
                         api_data[-1]["timestamp"] = now.timestamp()
                     API_FILE.write(api_data)
                     log.info(f"API cache updated with {len(api_data)} items")
+                    api_data_valid = True
                 else:
                     log.warning("API returned invalid data format")
-                    api_data = None
             except Exception as e:
                 log.error(f"Failed to parse API response: {e}")
-                api_data = None
         else:
             log.error("Failed to fetch API data after 3 attempts")
 
-    if not api_data or len(api_data) == 0:
-        log.warning("No API data available")
+    if not api_data_valid or not api_data or len(api_data) == 0:
+        log.warning("No valid API data available")
         return events
 
     # Get the first item which contains the date and categories
@@ -215,19 +229,17 @@ async def get_events() -> list[dict[str, str]]:
     
     if not (date := first_item.get("day")):
         log.warning("No date found in API response")
-        log.debug(f"API response keys: {list(first_item.keys()) if isinstance(first_item, dict) else 'not a dict'}")
         return events
 
     # Parse and compare date (extract the date part before the dash)
     try:
-        # The date format is like "Friday 12th June 2026 - Schedule Time UK GMT"
         date_part = date.split("-")[0].strip()
-        # Remove ordinal indicators (st, nd, rd, th)
         api_date = re.sub(r"(?<=\d)(st|nd|rd|th)", "", date_part, flags=re.I)
         current_date = f"{now:%A} {now.day} {now:%B} {now:%Y}"
         
         if api_date != current_date:
             log.info(f"API date mismatch. API: {api_date}, Current: {current_date}")
+            log.info("API not yet updated for today. No new events will be processed.")
             return events
     except Exception as e:
         log.error(f"Date parsing error: {e}")
@@ -293,20 +305,30 @@ async def scrape() -> None:
         urls.update(valid_urls)
         log.info(f"Loaded {len(valid_urls)} event(s) from cache")
         generate_playlists()
-        return
-
-    log.info('Scraping from "streameast.mov"')
+        
+        # Still check for new events from API
+        log.info("Checking for new events from API...")
+    else:
+        log.info('Scraping from "streameast.mov"')
 
     events = await get_events()
     
     if events:
-        log.info(f"Processing {len(events)} URL(s)")
+        log.info(f"Processing {len(events)} new URL(s)")
 
         # Initialize cached_urls as dict if needed
         if not isinstance(cached_urls, dict):
             cached_urls = {}
 
+        new_streams_count = 0
+        
         for i, ev in enumerate(events, start=1):
+            # Check if event already exists in cache
+            key = f"[{ev['sport']}] {ev['event']} ({TAG})"
+            if key in cached_urls and cached_urls[key].get("url"):
+                log.info(f"--- [{i}/{len(events)}]: {ev['event']} (already cached, skipping) ---")
+                continue
+                
             log.info(f"--- [{i}/{len(events)}]: {ev['event']} ---")
 
             handler = partial(
@@ -329,8 +351,6 @@ async def scrape() -> None:
                 ev["timestamp"],
             )
 
-            key = f"[{sport}] {event} ({TAG})"
-
             tvg_id, logo = leagues.get_tvg_info(sport, event)
 
             entry = {
@@ -346,21 +366,25 @@ async def scrape() -> None:
 
             if url:
                 urls[key] = entry
-                log.info(f"✓ [{i}] Stream captured: {url[:100]}...")
+                new_streams_count += 1
+                log.info(f"✓ [{i}] New stream captured: {url[:100]}...")
             else:
                 log.warning(f"✗ [{i}] No stream captured")
 
             # Small delay between requests
             await asyncio.sleep(1)
 
-        log.info(f"Collected and cached {len(urls)} event(s)")
-        CACHE_FILE.write(cached_urls)
+        if new_streams_count > 0:
+            log.info(f"Collected and cached {new_streams_count} new event(s)")
+            CACHE_FILE.write(cached_urls)
+        else:
+            log.info("No new streams found")
     else:
-        log.info("No events found")
-        # Still generate playlists with cached data if available
-        if urls:
-            generate_playlists()
-        return
+        log.info("No new events found from API")
+        if valid_urls:
+            log.info("Using cached streams from previous runs")
+        else:
+            log.info("No streams available")
 
     generate_playlists()
 
