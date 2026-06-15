@@ -1,0 +1,64 @@
+name: OVO Updater
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache Python packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install selectolax playwright httpx[http2] pytz
+          playwright install --with-deps chromium
+
+      - name: Run OVO scraper
+        env:
+          OVO_BASE_URL: ${{ secrets.OVO_BASE_URL }}
+        run: |
+          python ovo.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Check if playlist files exist and have changes
+          if [ -f "ovo_vlc.m3u8" ] && [ -f "ovo_tivimate.m3u8" ]; then
+            git add ovo_vlc.m3u8 ovo_tivimate.m3u8
+            if ! git diff --cached --quiet; then
+              git commit -m "Update OVO playlists [skip ci]"
+              git push
+              echo "Changes pushed successfully"
+            else
+              echo "No changes to commit"
+            fi
+          else
+            echo "Playlist files not found"
+            exit 1
+          fi
