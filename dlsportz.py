@@ -4,6 +4,8 @@ import re
 from functools import partial
 from urllib.parse import urlsplit, quote
 
+import cloudscraper
+
 from utils import Cache, Time, get_logger, leagues, network
 
 log = get_logger(__name__)
@@ -149,9 +151,40 @@ async def process_event(channel_id: str, url_num: int) -> tuple[str | None, str 
         return nones
 
 
+def fetch_api_with_cloudscraper() -> dict | None:
+    """
+    Fetch API data using cloudscraper to bypass Cloudflare protection.
+    """
+    try:
+        scraper = cloudscraper.create_scraper(
+            browser={
+                'browser': 'chrome',
+                'platform': 'windows',
+                'desktop': True,
+                'mobile': False
+            }
+        )
+        
+        response = scraper.get(
+            API_URL,
+            headers=API_HEADERS,
+            timeout=30
+        )
+        
+        if response.status_code == 200:
+            return response.json()
+        else:
+            log.error(f"Cloudscraper request failed with status: {response.status_code}")
+            return None
+            
+    except Exception as e:
+        log.error(f"Cloudscraper error: {e}")
+        return None
+
+
 async def get_events() -> list[dict[str, str]]:
     """
-    Fetch and parse events from the API.
+    Fetch and parse events from the API using cloudscraper.
     """
     now = Time.clean(Time.now())
     events = []
@@ -187,41 +220,26 @@ async def get_events() -> list[dict[str, str]]:
                     pass
 
     if not api_data_valid:
-        log.info("Refreshing API cache")
+        log.info("Refreshing API cache using cloudscraper")
         
-        # Make request with proper headers and retry logic
-        r = None
-        for attempt in range(3):  # Retry up to 3 times
+        # Use cloudscraper to fetch API data
+        api_data = None
+        for attempt in range(3):
             log.info(f"API request attempt {attempt + 1}/3")
-            r = await network.request(
-                API_URL, 
-                headers=API_HEADERS,
-                log=log,
-                timeout=30
-            )
-            if r and r.content:
+            api_data = await asyncio.to_thread(fetch_api_with_cloudscraper)
+            
+            if api_data and isinstance(api_data, list) and len(api_data) > 0:
+                # Add timestamp to the last element
+                if isinstance(api_data[-1], dict):
+                    api_data[-1]["timestamp"] = now.timestamp()
+                API_FILE.write(api_data)
+                log.info(f"API cache updated with {len(api_data)} items")
+                api_data_valid = True
                 break
-            await asyncio.sleep(2)  # Wait before retry
-        
-        if r and r.content:
-            try:
-                api_data = r.json()
-                if isinstance(api_data, list) and len(api_data) > 0:
-                    # Add timestamp to the last element
-                    if isinstance(api_data[-1], dict):
-                        api_data[-1]["timestamp"] = now.timestamp()
-                    API_FILE.write(api_data)
-                    log.info(f"API cache updated with {len(api_data)} items")
-                    api_data_valid = True
-                else:
-                    log.warning("API returned invalid data format")
-            except Exception as e:
-                log.error(f"Failed to parse API response: {e}")
-        else:
-            log.error("Failed to fetch API data after 3 attempts")
+            await asyncio.sleep(2)
 
     if not api_data_valid or not api_data or len(api_data) == 0:
-        log.warning("No valid API data available")
+        log.warning("No valid API data available after cloudscraper attempts")
         return events
 
     # Get the first item which contains the date and categories
