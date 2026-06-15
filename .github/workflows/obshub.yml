@@ -33,56 +33,24 @@ jobs:
       run: |
         python obshub.py
     
-    - name: List generated files
+    - name: Push M3U8 files
       run: |
-        echo "Files in current directory:"
-        ls -la
-        echo ""
-        echo "Checking for M3U8 files:"
-        ls -la *.m3u8 2>/dev/null || echo "No M3U8 files found"
-    
-    - name: Commit and push changes
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        # Configure git
-        git config --local user.name "github-actions[bot]"
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        # Setup git
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
         
-        # Set remote URL with token
-        git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        # Add files (force add even if gitignored)
+        git add -f obshub_vlc.m3u8 obshub_tivimate.m3u8 || true
+        git add -f *.cache || true
         
-        # Fetch latest changes
-        git fetch origin
-        
-        # Switch to main branch
-        git checkout ${GITHUB_REF#refs/heads/} || git checkout -b ${GITHUB_REF#refs/heads/}
-        
-        # Pull latest changes with rebase
-        git pull origin ${GITHUB_REF#refs/heads/} --rebase || true
-        
-        # Force add all M3U8 files and cache files
-        git add -f obshub_vlc.m3u8 obshub_tivimate.m3u8 *.cache 2>/dev/null || true
-        
-        # Check if there are changes to commit
-        if git status --porcelain | grep -q .; then
-          echo "Changes detected, committing..."
-          git status
-          git commit -m " Auto-update M3U8 streams [$(date '+%Y-%m-%d %H:%M:%S')]"
-          
-          # Try to push with force-with-lease
-          if git push origin ${GITHUB_REF#refs/heads/} --force-with-lease; then
-            echo " Successfully pushed changes"
-          else
-            echo " Push failed, trying force push..."
-            git push origin ${GITHUB_REF#refs/heads/} --force
-          fi
-        else
-          echo " No changes to commit"
-          git status
+        # Commit if there are changes
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+          exit 0
         fi
-    
-    - name: Verify push
-      run: |
-        echo "Verifying files in repository after push:"
-        git ls-tree HEAD --name-only | grep -E '\.(m3u8|cache)$' || echo "No M3U8 files found in repo"
+        
+        # Commit changes
+        git commit -m "Update M3U8 files [skip ci]"
+        
+        # Push to main branch
+        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main --force
