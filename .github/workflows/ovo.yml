@@ -1,4 +1,4 @@
-name: OVO Updater
+name: OVO updater
 
 on:
   schedule:
@@ -37,9 +37,7 @@ jobs:
           pip install selectolax playwright httpx[http2] pytz
           playwright install --with-deps chromium
 
-      - name: Run OVO scraper
-        env:
-          OVO_BASE_URL: ${{ secrets.OVO_BASE_URL }}
+      - name: Run OVO updater
         run: |
           python ovo.py
 
