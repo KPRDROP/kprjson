@@ -21,14 +21,23 @@ API_URL = "https://streameast.mov/api/events"
 # Headers for requests
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
 
-# Additional headers to avoid blocking
+# Additional headers to avoid blocking - more comprehensive
 API_HEADERS = {
     "Referer": "https://streameast.mov/",
     "Origin": "https://streameast.mov",
     "User-Agent": USER_AGENT,
     "Accept": "application/json, text/plain, */*",
-    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Language": "en-US,en;q=0.9,es;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
     "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-origin",
+    "Sec-Ch-UA": '"Chromium";v="134", "Not:A-Brand";v="24", "Microsoft Edge";v="134"',
+    "Sec-Ch-UA-Mobile": "?0",
+    "Sec-Ch-UA-Platform": '"Windows"',
+    "Connection": "keep-alive",
 }
 
 
@@ -156,6 +165,8 @@ async def get_events() -> list[dict[str, str]]:
         
         if current_time - last_timestamp < 28_800:  # 8 hours
             log.info("Using cached API data")
+            # Use cached data
+            pass
         else:
             api_data = None
             log.info("API cache expired, refreshing")
@@ -163,19 +174,25 @@ async def get_events() -> list[dict[str, str]]:
     if not api_data:
         log.info("Refreshing API cache")
         
-        # Make request with proper headers
-        r = await network.request(
-            API_URL, 
-            headers=API_HEADERS,
-            log=log,
-            timeout=30
-        )
+        # Make request with proper headers and retry logic
+        r = None
+        for attempt in range(3):  # Retry up to 3 times
+            log.info(f"API request attempt {attempt + 1}/3")
+            r = await network.request(
+                API_URL, 
+                headers=API_HEADERS,
+                log=log,
+                timeout=30
+            )
+            if r and r.content:
+                break
+            await asyncio.sleep(2)  # Wait before retry
         
         if r and r.content:
             try:
                 api_data = r.json()
                 if isinstance(api_data, list) and len(api_data) > 0:
-                    # Add timestamp to the last element or create a metadata object
+                    # Add timestamp to the last element
                     if isinstance(api_data[-1], dict):
                         api_data[-1]["timestamp"] = now.timestamp()
                     API_FILE.write(api_data)
@@ -187,8 +204,7 @@ async def get_events() -> list[dict[str, str]]:
                 log.error(f"Failed to parse API response: {e}")
                 api_data = None
         else:
-            log.error("Failed to fetch API data")
-            api_data = None
+            log.error("Failed to fetch API data after 3 attempts")
 
     if not api_data or len(api_data) == 0:
         log.warning("No API data available")
