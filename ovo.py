@@ -5,7 +5,7 @@ from pathlib import Path
 
 from selectolax.parser import HTMLParser
 
-from utils import Cache, Time, get_logger, leagues, network
+from .utils import Cache, Time, get_logger, leagues, network
 
 log = get_logger(__name__)
 
@@ -41,52 +41,47 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
 
     soup = HTMLParser(html_data.content)
 
-    # Look for iframe in the page
     iframe = soup.css_first("iframe")
-    
-    if iframe and (iframe_src := iframe.attributes.get("src")):
-        log.info(f"URL {url_num}) Found iframe: {iframe_src}")
-        
-        iframe_data = await network.request(
-            iframe_src,
-            headers={"Referer": url},
-            log=log,
-        )
-        
-        if iframe_data:
-            # Look for stream URL patterns
-            patterns = [
-                r'(https?://[^\s"\']+\.php[^\s"\']*)',
-                r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
-                r'(https?://[^\s"\']+\.js[^\s"\']*)',
-                r'(https?://[^\s"\']+soccerball\.st/[^\s"\']+)',
-            ]
-            
-            for pattern in patterns:
-                match = re.search(pattern, iframe_data.text, re.I)
-                if match:
-                    stream_url = match.group(1)
-                    log.info(f"URL {url_num}) Captured stream: {stream_url}")
-                    return stream_url, iframe_src
-    
-    # Look for direct stream links in scripts
-    scripts = soup.css("script")
-    for script in scripts:
-        script_text = script.text()
-        if script_text:
-            patterns = [
-                r'(https?://[^\s"\']+\.php[^\s"\']*)',
-                r'(https?://[^\s"\']+soccerball\.st/[^\s"\']+)',
-                r'url\s*:\s*"([^"]+)"',
-                r'src\s*:\s*"([^"]+)"',
-            ]
-            for pattern in patterns:
-                match = re.search(pattern, script_text, re.I)
-                if match:
-                    stream_url = match.group(1)
-                    log.info(f"URL {url_num}) Captured stream from script: {stream_url}")
-                    return stream_url, None
-    
+
+    if not iframe or not (iframe_src := iframe.attributes.get("src")):
+        log.warning(f"URL {url_num}) No iframe element found.")
+        return nones
+
+    log.info(f"URL {url_num}) Found iframe: {iframe_src}")
+
+    # Check if the iframe src is already a stream URL (soccerball.st)
+    if "soccerball.st" in iframe_src:
+        log.info(f"URL {url_num}) Stream URL found directly in iframe")
+        return iframe_src, iframe_src
+
+    # If it's a YouTube embed, skip (not our target)
+    if "youtube.com" in iframe_src or "youtu.be" in iframe_src:
+        log.warning(f"URL {url_num}) YouTube iframe, skipping")
+        return nones
+
+    # Try to fetch iframe content to find stream URL
+    iframe_data = await network.request(
+        iframe_src,
+        headers={"Referer": url},
+        log=log,
+    )
+
+    if iframe_data:
+        # Look for stream URL patterns
+        patterns = [
+            r'(https?://[^\s"\']+soccerball\.st/[^\s"\']+)',
+            r'(https?://[^\s"\']+\.php[^\s"\']*)',
+            r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
+            r'(https?://[^\s"\']+\.js[^\s"\']*)',
+        ]
+
+        for pattern in patterns:
+            match = re.search(pattern, iframe_data.text, re.I)
+            if match:
+                stream_url = match.group(1)
+                log.info(f"URL {url_num}) Captured stream: {stream_url}")
+                return stream_url, iframe_src
+
     log.warning(f"URL {url_num}) No stream found")
     return nones
 
@@ -99,83 +94,57 @@ async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
         return events
 
     soup = HTMLParser(html_data.content)
-    
-    # Find all match cards
+
+    sport = "World Cup 2026"
+
     for card in soup.css("a.match-card"):
         href = card.attributes.get("href")
         if not href or href == "#" or len(href) < 5:
             continue
-        
-        # Skip if not a valid event link
-        if not href.startswith("/update2026/"):
-            continue
-        
+
         # Extract team names
-        home_team_elem = card.css_first(".match-team.home .team-full-name")
-        away_team_elem = card.css_first(".match-team.away .team-full-name")
-        
-        if not home_team_elem or not away_team_elem:
+        home_elem = card.css_first(".match-team.home .team-full-name")
+        away_elem = card.css_first(".match-team.away .team-full-name")
+
+        if not home_elem or not away_elem:
             continue
-        
-        home_team = home_team_elem.text(strip=True)
-        away_team = away_team_elem.text(strip=True)
-        
+
+        home_team = home_elem.text(strip=True)
+        away_team = away_elem.text(strip=True)
+
+        event_name = f"{home_team} vs {away_team}"
+
         # Get match time
         time_elem = card.css_first(".match-time")
-        match_time = time_elem.text(strip=True) if time_elem else ""
-        
-        # Get group info
-        group_elem = card.css_first(".match-group-tag")
-        group = group_elem.text(strip=True) if group_elem else "World Cup"
-        
-        # Extract date from match time
-        match_date = None
-        if match_time:
-            # Parse date like "Jun 15 — 16:00 PM"
-            date_match = re.search(r'(\w{3}\s+\d+)', match_time)
-            if date_match:
-                match_date = date_match.group(1)
-        
-        event_name = f"{home_team} vs {away_team}"
-        sport = "World Cup 2026"
-        
-        # Determine if match is finished or upcoming
-        badge_elem = card.css_first(".match-badge")
-        if badge_elem:
-            badge_text = badge_elem.text(strip=True)
-            if badge_text == "Finished":
-                # Skip finished matches or keep them
-                pass
-        
+        event_time = time_elem.text(strip=True) if time_elem else ""
+
         # Build event URL
         event_url = urljoin(BASE_URL, href)
-        
+
         # Parse event time
         event_dt = now
-        if match_date:
+        if event_time:
             try:
-                # Try to parse the date
-                from datetime import datetime
-                year = now.year
-                date_str = f"{match_date} {year}"
-                event_dt = Time.from_str(date_str, "%b %d %Y", timezone="UTC")
+                # Extract date like "Jun 11" from "Jun 11 — 21:00 PM"
+                date_match = re.search(r'(\w{3}\s+\d+)', event_time)
+                if date_match:
+                    date_str = f"{date_match.group(1)} {now.year}"
+                    event_dt = Time.from_str(date_str, "%b %d %Y", timezone="UTC")
             except:
                 event_dt = now
-        
+
         key = f"[{sport}] {event_name} ({TAG})"
-        
+
         events[key] = {
             "sport": sport,
             "event": event_name,
-            "group": group,
-            "home_team": home_team,
-            "away_team": away_team,
-            "match_time": match_time,
             "link": event_url,
             "event_ts": event_dt.timestamp(),
             "timestamp": now.timestamp(),
+            "home_team": home_team,
+            "away_team": away_team,
         }
-    
+
     log.info(f"Refreshed HTML cache with {len(events)} events")
     return events
 
@@ -205,10 +174,10 @@ def generate_vlc_playlist(data: dict[str, dict]) -> int:
         if not url:
             continue
 
-        referer = entry.get("base", BASE_URL)
+        referer = entry.get("base", "https://soccerball.st/rampages/unoair1/")
         tvg_id = entry.get("id", "Live.Event.us")
         tvg_logo = entry.get("logo", "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png")
-        group_title = entry.get("sport", "Live Events")
+        group_title = entry.get("sport", "World Cup 2026")
         
         lines.append(f'#EXTINF:-1 tvg-chno="{chno}" tvg-id="{tvg_id}" tvg-logo="{tvg_logo}" group-title="{group_title}",{name}')
         lines.append(f"#EXTVLCOPT:http-referrer={referer}")
@@ -239,10 +208,10 @@ def generate_tivimate_playlist(data: dict[str, dict]) -> int:
         if not url:
             continue
 
-        referer = entry.get("base", BASE_URL)
+        referer = entry.get("base", "https://soccerball.st/rampages/unoair1/")
         tvg_id = entry.get("id", "Live.Event.us")
         tvg_logo = entry.get("logo", "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png")
-        group_title = entry.get("sport", "Live Events")
+        group_title = entry.get("sport", "World Cup 2026")
         
         lines.append(f'#EXTINF:-1 tvg-chno="{chno}" tvg-id="{tvg_id}" tvg-logo="{tvg_logo}" group-title="{group_title}",{name}')
         lines.append(f"{url}|referer={referer}|origin={referer}|user-agent={UA_ENC}")
@@ -274,8 +243,6 @@ async def scrape() -> None:
     if events:
         log.info(f"Processing {len(events)} new URL(s)")
 
-        now = Time.clean(Time.now())
-
         for i, ev in enumerate(events, start=1):
             log.info(f"Processing {i}/{len(events)}: {ev['event']}")
             
@@ -292,6 +259,10 @@ async def scrape() -> None:
                 log=log,
             )
 
+            if not url:
+                log.warning(f"Event {i}) No stream found for: {ev['event']}")
+                continue
+
             sport = ev["sport"]
             event = ev["event"]
 
@@ -299,22 +270,23 @@ async def scrape() -> None:
 
             tvg_id, logo = leagues.get_tvg_info(sport, event)
 
+            # Use the iframe as referer if available, otherwise use default
+            referer = iframe if iframe else "https://soccerball.st/rampages/unoair1/"
+
             entry = {
                 "url": url,
                 "logo": logo,
-                "base": iframe or BASE_URL,
-                "timestamp": now.timestamp(),
+                "base": referer,
+                "timestamp": ev["event_ts"],
                 "id": tvg_id or "Live.Event.us",
                 "link": link,
                 "sport": sport,
             }
 
             cached_urls[key] = entry
-
-            if url:
-                valid_count += 1
-                urls[key] = entry
-                log.info(f"Event {i}) ✓ Captured: {event}")
+            urls[key] = entry
+            valid_count += 1
+            log.info(f"Event {i}) ✓ Captured: {event}")
 
         log.info(f"Collected and cached {valid_count - cached_count} new event(s)")
 
@@ -334,7 +306,6 @@ async def scrape() -> None:
         log.info(f"Total written: {vlc_count + tivimate_count}")
     else:
         log.warning("No valid events to generate playlists")
-        # Create empty playlists
         with open(OUTPUT_VLC, "w") as f:
             f.write("#EXTM3U\n# No events available\n")
         with open(OUTPUT_TIVIMATE, "w") as f:
