@@ -5,7 +5,7 @@ from pathlib import Path
 
 from selectolax.parser import HTMLParser
 
-from utils import Cache, Time, get_logger, leagues, network
+from .utils import Cache, Time, get_logger, leagues, network
 
 log = get_logger(__name__)
 
@@ -32,6 +32,7 @@ OUTPUT_TIVIMATE = Path("ovo_tivimate.m3u8")
 
 
 async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]:
+    """Process event page to extract stream URL"""
     nones = None, None
 
     if not (html_data := await network.request(url, log=log)):
@@ -40,88 +41,142 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
 
     soup = HTMLParser(html_data.content)
 
+    # Look for iframe in the page
     iframe = soup.css_first("iframe")
-
-    if not iframe or not (iframe_src := iframe.attributes.get("src")):
-        log.warning(f"URL {url_num}) No iframe element found.")
-        return nones
-
-    if not (
-        iframe_src_data := await network.request(
+    
+    if iframe and (iframe_src := iframe.attributes.get("src")):
+        log.info(f"URL {url_num}) Found iframe: {iframe_src}")
+        
+        iframe_data = await network.request(
             iframe_src,
             headers={"Referer": url},
             log=log,
         )
-    ):
-        log.warning(f"URL {url_num}) Failed to load iframe source.")
-        return nones
-
-    valid_m3u8 = re.compile(r'(var|const)\s+(\w+)\s+=\s+"([^"]*)"', re.I)
-
-    if not (match := valid_m3u8.search(iframe_src_data.text)):
-        log.warning(f"URL {url_num}) No Clappr source found.")
-        return nones
-
-    log.info(f"URL {url_num}) Captured M3U8")
-
-    return match[3], iframe_src
+        
+        if iframe_data:
+            # Look for stream URL patterns
+            patterns = [
+                r'(https?://[^\s"\']+\.php[^\s"\']*)',
+                r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
+                r'(https?://[^\s"\']+\.js[^\s"\']*)',
+                r'(https?://[^\s"\']+soccerball\.st/[^\s"\']+)',
+            ]
+            
+            for pattern in patterns:
+                match = re.search(pattern, iframe_data.text, re.I)
+                if match:
+                    stream_url = match.group(1)
+                    log.info(f"URL {url_num}) Captured stream: {stream_url}")
+                    return stream_url, iframe_src
+    
+    # Look for direct stream links in scripts
+    scripts = soup.css("script")
+    for script in scripts:
+        script_text = script.text()
+        if script_text:
+            patterns = [
+                r'(https?://[^\s"\']+\.php[^\s"\']*)',
+                r'(https?://[^\s"\']+soccerball\.st/[^\s"\']+)',
+                r'url\s*:\s*"([^"]+)"',
+                r'src\s*:\s*"([^"]+)"',
+            ]
+            for pattern in patterns:
+                match = re.search(pattern, script_text, re.I)
+                if match:
+                    stream_url = match.group(1)
+                    log.info(f"URL {url_num}) Captured stream from script: {stream_url}")
+                    return stream_url, None
+    
+    log.warning(f"URL {url_num}) No stream found")
+    return nones
 
 
 async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
+    """Extract events from the main page"""
     events = {}
 
     if not (html_data := await network.request(BASE_URL, log=log)):
         return events
 
     soup = HTMLParser(html_data.content)
-
-    sport = "Live Event"
-
+    
+    # Find all match cards
     for card in soup.css("a.match-card"):
-        if not (href := card.attributes.get("href")) or len(href) == 1:
+        href = card.attributes.get("href")
+        if not href or href == "#" or len(href) < 5:
             continue
-
-        if not (card_time_elem := card.css_first(".match-time")):
+        
+        # Skip if not a valid event link
+        if not href.startswith("/update2026/"):
             continue
-
-        if not (
-            home_elem := card.css_first(
-                ".match-team.home > .team-info > .team-full-name"
-            )
-        ):
-            home_elem = card.css_first(".match-team.home > .team-full-name")
-
-            event_name = home_elem.text(strip=True)
-
-        else:
-            away_elem = card.css_first(
-                ".match-team.away > .team-info > .team-full-name"
-            )
-
-            home_team, away_team = home_elem.text(strip=True), away_elem.text(
-                strip=True
-            )
-
-            event_name = f"{away_team} vs {home_team}"
-
-        event_time = card_time_elem.text(strip=True)
-
-        event_dt = Time.from_str(
-            f"{' '.join(event_time.split()[:-1])} {now.year}",
-            "%b %d — %H:%M %Y",
-            timezone="CET",
-        )
-
+        
+        # Extract team names
+        home_team_elem = card.css_first(".match-team.home .team-full-name")
+        away_team_elem = card.css_first(".match-team.away .team-full-name")
+        
+        if not home_team_elem or not away_team_elem:
+            continue
+        
+        home_team = home_team_elem.text(strip=True)
+        away_team = away_team_elem.text(strip=True)
+        
+        # Get match time
+        time_elem = card.css_first(".match-time")
+        match_time = time_elem.text(strip=True) if time_elem else ""
+        
+        # Get group info
+        group_elem = card.css_first(".match-group-tag")
+        group = group_elem.text(strip=True) if group_elem else "World Cup"
+        
+        # Extract date from match time
+        match_date = None
+        if match_time:
+            # Parse date like "Jun 15 — 16:00 PM"
+            date_match = re.search(r'(\w{3}\s+\d+)', match_time)
+            if date_match:
+                match_date = date_match.group(1)
+        
+        event_name = f"{home_team} vs {away_team}"
+        sport = "World Cup 2026"
+        
+        # Determine if match is finished or upcoming
+        badge_elem = card.css_first(".match-badge")
+        if badge_elem:
+            badge_text = badge_elem.text(strip=True)
+            if badge_text == "Finished":
+                # Skip finished matches or keep them
+                pass
+        
+        # Build event URL
+        event_url = urljoin(BASE_URL, href)
+        
+        # Parse event time
+        event_dt = now
+        if match_date:
+            try:
+                # Try to parse the date
+                from datetime import datetime
+                year = now.year
+                date_str = f"{match_date} {year}"
+                event_dt = Time.from_str(date_str, "%b %d %Y", timezone="UTC")
+            except:
+                event_dt = now
+        
         key = f"[{sport}] {event_name} ({TAG})"
-
+        
         events[key] = {
             "sport": sport,
             "event": event_name,
-            "link": urljoin(f"{html_data.url}", href),
+            "group": group,
+            "home_team": home_team,
+            "away_team": away_team,
+            "match_time": match_time,
+            "link": event_url,
             "event_ts": event_dt.timestamp(),
             "timestamp": now.timestamp(),
         }
-
+    
+    log.info(f"Refreshed HTML cache with {len(events)} events")
     return events
 
 
@@ -130,19 +185,11 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str | float]]:
 
     if not (events := HTML_FILE.load()):
         log.info("Refreshing HTML cache")
-
         events = await refresh_html_cache(now)
-
         HTML_FILE.write(events)
 
-    start_ts = now.delta(minutes=-30).timestamp()
-    end_ts = now.delta(minutes=30).timestamp()
-
-    return [
-        v
-        for k, v in events.items()
-        if k not in cached_keys and start_ts <= v["event_ts"] <= end_ts
-    ]
+    # Return all events (not time-filtered for now)
+    return [v for k, v in events.items() if k not in cached_keys]
 
 
 def generate_vlc_playlist(data: dict[str, dict]) -> int:
@@ -151,6 +198,7 @@ def generate_vlc_playlist(data: dict[str, dict]) -> int:
     lines.append(f"# Playlist generated by {TAG} Scraper - {Time.clean(Time.now()).strftime('%Y-%m-%d %H:%M:%S')}")
     lines.append("")
     count = 0
+    chno = 1
 
     for name, entry in sorted(data.items()):
         url = entry.get("url")
@@ -162,13 +210,14 @@ def generate_vlc_playlist(data: dict[str, dict]) -> int:
         tvg_logo = entry.get("logo", "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png")
         group_title = entry.get("sport", "Live Events")
         
-        lines.append(f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{tvg_logo}" group-title="{group_title}",{name}')
+        lines.append(f'#EXTINF:-1 tvg-chno="{chno}" tvg-id="{tvg_id}" tvg-logo="{tvg_logo}" group-title="{group_title}",{name}')
         lines.append(f"#EXTVLCOPT:http-referrer={referer}")
         lines.append(f"#EXTVLCOPT:http-origin={referer}")
         lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
         lines.append(url)
         lines.append("")
         count += 1
+        chno += 1
 
     with open(OUTPUT_VLC, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
@@ -183,6 +232,7 @@ def generate_tivimate_playlist(data: dict[str, dict]) -> int:
     lines.append(f"# Playlist generated by {TAG} Scraper - {Time.clean(Time.now()).strftime('%Y-%m-%d %H:%M:%S')}")
     lines.append("")
     count = 0
+    chno = 1
 
     for name, entry in sorted(data.items()):
         url = entry.get("url")
@@ -194,10 +244,11 @@ def generate_tivimate_playlist(data: dict[str, dict]) -> int:
         tvg_logo = entry.get("logo", "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png")
         group_title = entry.get("sport", "Live Events")
         
-        lines.append(f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{tvg_logo}" group-title="{group_title}",{name}')
+        lines.append(f'#EXTINF:-1 tvg-chno="{chno}" tvg-id="{tvg_id}" tvg-logo="{tvg_logo}" group-title="{group_title}",{name}')
         lines.append(f"{url}|referer={referer}|origin={referer}|user-agent={UA_ENC}")
         lines.append("")
         count += 1
+        chno += 1
 
     with open(OUTPUT_TIVIMATE, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
@@ -226,6 +277,8 @@ async def scrape() -> None:
         now = Time.clean(Time.now())
 
         for i, ev in enumerate(events, start=1):
+            log.info(f"Processing {i}/{len(events)}: {ev['event']}")
+            
             handler = partial(
                 process_event,
                 url=(link := ev["link"]),
@@ -239,11 +292,8 @@ async def scrape() -> None:
                 log=log,
             )
 
-            sport, event, ts = (
-                ev["sport"],
-                ev["event"],
-                ev["event_ts"],
-            )
+            sport = ev["sport"]
+            event = ev["event"]
 
             key = f"[{sport}] {event} ({TAG})"
 
@@ -253,7 +303,7 @@ async def scrape() -> None:
                 "url": url,
                 "logo": logo,
                 "base": iframe or BASE_URL,
-                "timestamp": ts,
+                "timestamp": now.timestamp(),
                 "id": tvg_id or "Live.Event.us",
                 "link": link,
                 "sport": sport,
@@ -299,7 +349,7 @@ async def main():
 
 
 def run():
-    """Run the scraper"""
+    """Run the updater"""
     import asyncio
     asyncio.run(main())
 
