@@ -5,7 +5,7 @@ from pathlib import Path
 
 from selectolax.parser import HTMLParser
 
-from utils import Cache, Time, get_logger, leagues, network
+from .utils import Cache, Time, get_logger, leagues, network
 
 log = get_logger(__name__)
 
@@ -42,46 +42,62 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
     soup = HTMLParser(html_data.content)
 
     iframe = soup.css_first("iframe")
-
+    
     if not iframe or not (iframe_src := iframe.attributes.get("src")):
         log.warning(f"URL {url_num}) No iframe element found.")
         return nones
 
     log.info(f"URL {url_num}) Found iframe: {iframe_src}")
 
-    # Check if the iframe src is already a stream URL (soccerball.st)
-    if "soccerball.st" in iframe_src:
-        log.info(f"URL {url_num}) Stream URL found directly in iframe")
-        return iframe_src, iframe_src
-
-    # If it's a YouTube embed, skip (not our target)
+    # Skip YouTube embeds
     if "youtube.com" in iframe_src or "youtu.be" in iframe_src:
         log.warning(f"URL {url_num}) YouTube iframe, skipping")
         return nones
 
-    # Try to fetch iframe content to find stream URL
+    # Fetch the iframe content
     iframe_data = await network.request(
         iframe_src,
         headers={"Referer": url},
         log=log,
     )
+    
+    if not iframe_data:
+        log.warning(f"URL {url_num}) Failed to load iframe source.")
+        return nones
 
-    if iframe_data:
-        # Look for stream URL patterns
-        patterns = [
-            r'(https?://[^\s"\']+soccerball\.st/[^\s"\']+)',
-            r'(https?://[^\s"\']+\.php[^\s"\']*)',
-            r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
-            r'(https?://[^\s"\']+\.js[^\s"\']*)',
-        ]
-
-        for pattern in patterns:
-            match = re.search(pattern, iframe_data.text, re.I)
-            if match:
-                stream_url = match.group(1)
-                log.info(f"URL {url_num}) Captured stream: {stream_url}")
-                return stream_url, iframe_src
-
+    # Look for the actual stream URL in the iframe
+    # The iframe contains script that loads soccerball.st/s1.php
+    patterns = [
+        r'(https?://[^\s"\']+soccerball\.st/s1\.php[^\s"\']*)',
+        r'(https?://[^\s"\']+soccerball\.st/[^\s"\']+\.php[^\s"\']*)',
+        r'(https?://[^\s"\']+\.php[^\s"\']*)',
+        r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
+    ]
+    
+    for pattern in patterns:
+        match = re.search(pattern, iframe_data.text, re.I)
+        if match:
+            stream_url = match.group(1)
+            log.info(f"URL {url_num}) Captured stream: {stream_url}")
+            return stream_url, iframe_src
+    
+    # Also check for redirects or scripts that might contain the URL
+    if "window.location" in iframe_data.text:
+        redirect_match = re.search(r'window\.location\s*=\s*["\']([^"\']+)["\']', iframe_data.text, re.I)
+        if redirect_match:
+            redirect_url = redirect_match.group(1)
+            log.info(f"URL {url_num}) Found redirect: {redirect_url}")
+            
+            # Follow the redirect
+            redirect_data = await network.request(redirect_url, headers={"Referer": iframe_src}, log=log)
+            if redirect_data:
+                for pattern in patterns:
+                    match = re.search(pattern, redirect_data.text, re.I)
+                    if match:
+                        stream_url = match.group(1)
+                        log.info(f"URL {url_num}) Captured stream from redirect: {stream_url}")
+                        return stream_url, iframe_src
+    
     log.warning(f"URL {url_num}) No stream found")
     return nones
 
@@ -94,12 +110,14 @@ async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
         return events
 
     soup = HTMLParser(html_data.content)
-
     sport = "World Cup 2026"
 
     for card in soup.css("a.match-card"):
         href = card.attributes.get("href")
         if not href or href == "#" or len(href) < 5:
+            continue
+        
+        if not href.startswith("/update2026/"):
             continue
 
         # Extract team names
@@ -111,7 +129,6 @@ async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
 
         home_team = home_elem.text(strip=True)
         away_team = away_elem.text(strip=True)
-
         event_name = f"{home_team} vs {away_team}"
 
         # Get match time
@@ -125,7 +142,6 @@ async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
         event_dt = now
         if event_time:
             try:
-                # Extract date like "Jun 11" from "Jun 11 — 21:00 PM"
                 date_match = re.search(r'(\w{3}\s+\d+)', event_time)
                 if date_match:
                     date_str = f"{date_match.group(1)} {now.year}"
@@ -141,8 +157,6 @@ async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
             "link": event_url,
             "event_ts": event_dt.timestamp(),
             "timestamp": now.timestamp(),
-            "home_team": home_team,
-            "away_team": away_team,
         }
 
     log.info(f"Refreshed HTML cache with {len(events)} events")
@@ -157,7 +171,6 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str | float]]:
         events = await refresh_html_cache(now)
         HTML_FILE.write(events)
 
-    # Return all events (not time-filtered for now)
     return [v for k, v in events.items() if k not in cached_keys]
 
 
@@ -270,7 +283,6 @@ async def scrape() -> None:
 
             tvg_id, logo = leagues.get_tvg_info(sport, event)
 
-            # Use the iframe as referer if available, otherwise use default
             referer = iframe if iframe else "https://soccerball.st/rampages/unoair1/"
 
             entry = {
