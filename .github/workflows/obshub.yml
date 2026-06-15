@@ -2,7 +2,7 @@ name: OBSHUB Updater
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -27,31 +27,62 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install playwright selectolax aiohttp httpx[http2] pytz
+        pip install selectolax aiohttpx
     
-    - name: Run OBSHUB updater
+    - name: Run OBSHUB scraper
       run: |
         python obshub.py
+    
+    - name: List generated files
+      run: |
+        echo "Files in current directory:"
+        ls -la
+        echo ""
+        echo "Checking for M3U8 files:"
+        ls -la *.m3u8 2>/dev/null || echo "No M3U8 files found"
     
     - name: Commit and push changes
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         # Configure git
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
         
-        # Fetch and merge remote changes
+        # Set remote URL with token
+        git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        
+        # Fetch latest changes
         git fetch origin
-        git merge origin/${GITHUB_REF#refs/heads/} --no-edit --allow-unrelated-histories || true
         
-        # Add files
-        git add obshub_vlc.m3u8 obshub_tivimate.m3u8 *.cache 2>/dev/null || true
+        # Switch to main branch
+        git checkout ${GITHUB_REF#refs/heads/} || git checkout -b ${GITHUB_REF#refs/heads/}
         
-        # Commit if changes exist
-        if ! git diff --staged --quiet; then
-          git commit -m "Update M3U8 files - $(date '+%Y-%m-%d %H:%M:%S') [skip ci]"
-          git push origin HEAD:${GITHUB_REF#refs/heads/}
+        # Pull latest changes with rebase
+        git pull origin ${GITHUB_REF#refs/heads/} --rebase || true
+        
+        # Force add all M3U8 files and cache files
+        git add -f obshub_vlc.m3u8 obshub_tivimate.m3u8 *.cache 2>/dev/null || true
+        
+        # Check if there are changes to commit
+        if git status --porcelain | grep -q .; then
+          echo "Changes detected, committing..."
+          git status
+          git commit -m " Auto-update M3U8 streams [$(date '+%Y-%m-%d %H:%M:%S')]"
+          
+          # Try to push with force-with-lease
+          if git push origin ${GITHUB_REF#refs/heads/} --force-with-lease; then
+            echo " Successfully pushed changes"
+          else
+            echo " Push failed, trying force push..."
+            git push origin ${GITHUB_REF#refs/heads/} --force
+          fi
         else
-          echo "No changes to commit"
+          echo " No changes to commit"
+          git status
         fi
+    
+    - name: Verify push
+      run: |
+        echo "Verifying files in repository after push:"
+        git ls-tree HEAD --name-only | grep -E '\.(m3u8|cache)$' || echo "No M3U8 files found in repo"
