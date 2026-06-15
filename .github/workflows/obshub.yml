@@ -27,7 +27,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install selectolax aiohttpx
+        pip install playwright selectolax aiohttpx httpx[http2] pytz
     
     - name: Run OBSHUB scraper
       run: |
