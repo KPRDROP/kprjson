@@ -106,11 +106,14 @@ def generate_m3u8_files(events_data: dict[str, dict]) -> None:
     
     vlc_lines = []
     tivimate_lines = []
+    valid_streams = 0
     
     for idx, (key, data) in enumerate(events_data.items(), start=1):
         if not data.get("url"):
             continue
             
+        valid_streams += 1
+        
         # Extract event info from key
         # Key format: "[Sport] Event Name (TAG)"
         key_clean = key.replace(f" ({TAG})", "")
@@ -148,8 +151,19 @@ def generate_m3u8_files(events_data: dict[str, dict]) -> None:
         f.write("#EXTM3U\n")
         f.write("\n".join(tivimate_lines))
     
-    log.info(f"Generated {vlc_output_path} with {len([x for x in events_data.values() if x.get('url')])} streams")
-    log.info(f"Generated {tivimate_output_path} with {len([x for x in events_data.values() if x.get('url')])} streams")
+    log.info(f"Generated {vlc_output_path} with {valid_streams} streams")
+    log.info(f"Generated {tivimate_output_path} with {valid_streams} streams")
+    
+    # Verify files were created
+    if vlc_output_path.exists():
+        log.info(f" {vlc_output_path} exists ({vlc_output_path.stat().st_size} bytes)")
+    else:
+        log.error(f" {vlc_output_path} was not created!")
+        
+    if tivimate_output_path.exists():
+        log.info(f" {tivimate_output_path} exists ({tivimate_output_path.stat().st_size} bytes)")
+    else:
+        log.error(f" {tivimate_output_path} was not created!")
 
 
 async def scrape() -> None:
