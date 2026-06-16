@@ -12,7 +12,6 @@ log = get_logger(__name__)
 TAG = "PUSHEMBDZ"
 
 BASE_URL = "https://pushembdz.store"
-API_BASE_URL = "https://api.pushembdz.store"
 CACHE_FILE = Cache(f"{TAG.lower()}.json", exp=10_800)
 OUTPUT_FILE = Path("pushembdz.m3u8")
 
@@ -24,32 +23,71 @@ UA_ENC = quote_plus(UA)
 
 
 # -------------------------------------------------
-# Extract stream from embed URL
+# Extract stream from embed URL using Playwright
 # -------------------------------------------------
 async def extract_stream_from_embed(embed_url: str, url_num: int) -> str | None:
-    """Extract stream URL from embed page by finding the API response"""
-    try:
-        # Extract the UUID from the embed URL
-        uuid_match = re.search(r'/embed/([a-f0-9-]+)', embed_url)
-        if not uuid_match:
-            log.warning(f"URL {url_num}) Could not extract UUID from embed URL")
-            return None
+    """Extract stream URL from embed page by waiting for dynamic content"""
+    stream_url = None
+    
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(
+            headless=True,
+            args=["--no-sandbox", "--disable-dev-shm-usage"]
+        )
         
-        uuid = uuid_match.group(1)
+        # Set up context with proper headers
+        context = await browser.new_context(
+            user_agent=UA,
+            extra_http_headers={
+                "Referer": BASE_URL,
+                "Origin": BASE_URL,
+            }
+        )
+        page = await context.new_page()
         
-        # First try to fetch the embed page content directly
-        log.info(f"URL {url_num}) Fetching embed: {embed_url}")
-        response = await network.request(embed_url, log=log)
+        # Set up request interception to capture API responses
+        async def handle_response(response):
+            nonlocal stream_url
+            url = response.url
+            
+            # Look for the stream data in the page content
+            try:
+                body = await response.text()
+                # Check if the response contains the stream JSON
+                if '"link"' in body and ('m3u8' in body or 'css' in body):
+                    # Try to extract the stream URL from the body
+                    json_patterns = [
+                        r'"link"\s*:\s*"([^"]+\.m3u8[^"]*)"',
+                        r'"link"\s*:\s*"([^"]+\.css[^"]*)"',
+                        r'{"success":\s*true,\s*"timestamp":\s*\d+,\s*"stream":\s*{[^}]+"link":\s*"([^"]+\.m3u8[^"]*)"[^}]*}}',
+                    ]
+                    for pattern in json_patterns:
+                        match = re.search(pattern, body, re.IGNORECASE)
+                        if match:
+                            stream_url = match.group(1)
+                            log.info(f"URL {url_num}) Captured stream from response: {stream_url[:100]}...")
+                            return
+            except:
+                pass
         
-        if response:
-            content = response.text
+        page.on('response', handle_response)
+        
+        try:
+            log.info(f"URL {url_num}) Navigating to embed: {embed_url}")
+            await page.goto(embed_url, wait_until='networkidle', timeout=30000)
+            
+            # Wait for dynamic content to load
+            await asyncio.sleep(8)
+            
+            # Get the page content and look for stream data
+            content = await page.content()
             
             # Look for the stream URL in the page content
-            # The page contains JSON-like data with the stream link
-            stream_patterns = [
+            # The data is embedded in the Next.js page as JSON
+            json_patterns = [
                 r'"link"\s*:\s*"([^"]+\.m3u8[^"]*)"',
                 r'"link"\s*:\s*"([^"]+\.css[^"]*)"',
-                r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
+                r'"success":\s*true,\s*"timestamp":\s*\d+,\s*"stream":\s*{[^}]*"link":\s*"([^"]+\.m3u8[^"]*)"[^}]*}',
                 r'(https?://[^\s"\']+ossfeed\.store/out/v2/[a-f0-9]+/index\.m3u8[^\s"\']*)',
                 r'(https?://[^\s"\']+ossfeed\.store/out/v2/[a-f0-9]+/master\.css[^\s"\']*)',
                 r'(https?://[^\s"\']+serveplay[^\s"\']+\.css[^\s"\']*)',
@@ -58,138 +96,65 @@ async def extract_stream_from_embed(embed_url: str, url_num: int) -> str | None:
                 r'(https?://[^\s"\']+ev01-prod[^\s"\']+\.js[^\s"\']*)',
             ]
             
-            for pattern in stream_patterns:
+            for pattern in json_patterns:
                 matches = re.findall(pattern, content, re.IGNORECASE)
                 for match in matches:
-                    # Filter out the embed URL itself (only return actual streams)
-                    if 'pushembdz.store/embed' not in match and 'api.pushembdz.store' not in match:
+                    if 'pushembdz.store' not in match and 'api.pushembdz.store' not in match:
                         if '.m3u8' in match or '.css' in match or '.js' in match:
-                            log.info(f"URL {url_num}) Found stream URL: {match[:100]}...")
-                            return match
+                            stream_url = match
+                            log.info(f"URL {url_num}) Found stream in page: {stream_url[:100]}...")
+                            return stream_url
             
-            # Look for JSON data in the page (the page is a Next.js app with embedded data)
-            # The stream data is embedded in the page as JSON
-            json_patterns = [
-                r'{"link"\s*:\s*"([^"]+\.m3u8[^"]*)"',
-                r'{"link"\s*:\s*"([^"]+\.css[^"]*)"',
-                r'{"success":\s*true,\s*"timestamp":\s*\d+,\s*"stream":\s*{[^}]+"link":\s*"([^"]+\.m3u8[^"]*)"[^}]*}}',
-            ]
+            # Also look for script tags containing JSON data
+            script_pattern = r'<script[^>]*>([\s\S]*?)</script>'
+            scripts = re.findall(script_pattern, content, re.IGNORECASE)
             
-            for pattern in json_patterns:
-                match = re.search(pattern, content, re.IGNORECASE)
-                if match:
-                    stream_url = match.group(1)
-                    if 'pushembdz.store/embed' not in stream_url and 'api.pushembdz.store' not in stream_url:
+            for script in scripts:
+                if '"link"' in script and ('m3u8' in script or 'css' in script):
+                    # Look for the link in the script
+                    link_pattern = r'"link"\s*:\s*"([^"]+\.m3u8[^"]*)"'
+                    match = re.search(link_pattern, script, re.IGNORECASE)
+                    if match:
+                        stream_url = match.group(1)
+                        log.info(f"URL {url_num}) Found stream in script: {stream_url[:100]}...")
+                        return stream_url
+                    
+                    link_pattern = r'"link"\s*:\s*"([^"]+\.css[^"]*)"'
+                    match = re.search(link_pattern, script, re.IGNORECASE)
+                    if match:
+                        stream_url = match.group(1)
+                        log.info(f"URL {url_num}) Found stream in script: {stream_url[:100]}...")
+                        return stream_url
+            
+            # Try to extract from JSON data in the page
+            json_data_pattern = r'({[^{]*"link"[^}]*})'
+            json_matches = re.findall(json_data_pattern, content, re.IGNORECASE)
+            for json_str in json_matches:
+                try:
+                    data = json.loads(json_str)
+                    if data.get("link") and ('m3u8' in data["link"] or 'css' in data["link"]):
+                        stream_url = data["link"]
                         log.info(f"URL {url_num}) Captured stream from JSON: {stream_url[:100]}...")
                         return stream_url
-        
-        # Try the API endpoint as fallback
-        # Use the correct API URL: https://api.pushembdz.store/v1/streams
-        api_url = f"{API_BASE_URL}/v1/streams"
-        log.info(f"URL {url_num}) Trying API: {api_url}")
-        
-        api_response = await network.request(api_url, log=log)
-        if api_response:
-            try:
-                data = api_response.json()
-                if isinstance(data, list):
-                    for item in data:
-                        if item.get("id") == uuid:
-                            stream_url = item.get("link")
-                            if stream_url and ('m3u8' in stream_url or 'css' in stream_url):
-                                # Convert from API embed URL to actual embed URL if needed
-                                if 'api.pushembdz.store/embed' in stream_url:
-                                    stream_url = stream_url.replace('api.pushembdz.store', 'pushembdz.store')
-                                log.info(f"URL {url_num}) Captured stream from API: {stream_url[:100]}...")
-                                return stream_url
-                elif isinstance(data, dict):
-                    # Check if it's a dict with a "data" key or directly the stream data
-                    items = data.get("data", []) if "data" in data else [data] if data.get("id") else []
-                    for item in items if isinstance(items, list) else []:
-                        if item.get("id") == uuid:
-                            stream_url = item.get("link")
-                            if stream_url and ('m3u8' in stream_url or 'css' in stream_url):
-                                if 'api.pushembdz.store/embed' in stream_url:
-                                    stream_url = stream_url.replace('api.pushembdz.store', 'pushembdz.store')
-                                log.info(f"URL {url_num}) Captured stream from API: {stream_url[:100]}...")
-                                return stream_url
-            except json.JSONDecodeError:
-                log.debug(f"URL {url_num}) API response not JSON")
-        
-        return None
-        
-    except Exception as e:
-        log.error(f"URL {url_num}) Error extracting stream: {e}")
-        return None
-
-
-# -------------------------------------------------
-# Extract stream using Playwright (fallback)
-# -------------------------------------------------
-async def extract_stream_with_playwright(embed_url: str, url_num: int) -> str | None:
-    """Extract stream URL using Playwright to capture API responses"""
-    stream_url = None
-    
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(
-            headless=True,
-            args=["--no-sandbox", "--disable-dev-shm-usage"]
-        )
-        page = await browser.new_page()
-        
-        async def handle_response(response):
-            nonlocal stream_url
-            url = response.url
-            
-            # Look for API responses
-            if 'api.pushembdz.store/v1/streams' in url:
-                try:
-                    body = await response.text()
-                    data = json.loads(body)
-                    if isinstance(data, list):
-                        for item in data:
-                            if item.get("link") and ('m3u8' in item["link"] or 'css' in item["link"]):
-                                stream_url = item["link"]
-                                if 'api.pushembdz.store/embed' in stream_url:
-                                    stream_url = stream_url.replace('api.pushembdz.store', 'pushembdz.store')
-                                log.info(f"URL {url_num}) Captured from API response: {stream_url[:100]}...")
-                    elif isinstance(data, dict):
-                        if data.get("link") and ('m3u8' in data["link"] or 'css' in data["link"]):
-                            stream_url = data["link"]
-                            if 'api.pushembdz.store/embed' in stream_url:
-                                stream_url = stream_url.replace('api.pushembdz.store', 'pushembdz.store')
-                            log.info(f"URL {url_num}) Captured from API response: {stream_url[:100]}...")
                 except:
                     pass
             
-            # Look for stream URLs in responses
-            if any(x in url for x in ['.css', '.js', '.m3u8']) and any(x in url for x in ['ossfeed', 'serveplay', 'ev01-prod']):
-                stream_url = url
-                log.info(f"URL {url_num}) Captured stream from response: {url[:100]}...")
-        
-        page.on('response', handle_response)
-        
-        try:
-            await page.goto(embed_url, wait_until='networkidle', timeout=30000)
-            await asyncio.sleep(5)
-            
-            # Check page content for the stream URL
-            content = await page.content()
-            
-            # Look for stream URLs in the rendered content
-            stream_patterns = [
-                r'"link"\s*:\s*"([^"]+\.m3u8[^"]*)"',
-                r'"link"\s*:\s*"([^"]+\.css[^"]*)"',
-                r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
-            ]
-            
-            for pattern in stream_patterns:
-                matches = re.findall(pattern, content, re.IGNORECASE)
-                for match in matches:
-                    if 'pushembdz.store/embed' not in match and 'api.pushembdz.store' not in match:
-                        stream_url = match
-                        log.info(f"URL {url_num}) Found stream in page: {stream_url[:100]}...")
-                        return stream_url
+            # If no stream found, check if there's a redirect to the stream
+            redirect_pattern = r'window\.location\s*=\s*["\']([^"\']+)["\']'
+            redirect_match = re.search(redirect_pattern, content, re.IGNORECASE)
+            if redirect_match:
+                redirect_url = redirect_match.group(1)
+                log.info(f"URL {url_num}) Found redirect: {redirect_url}")
+                # Follow the redirect
+                redirect_response = await network.request(redirect_url, headers={"Referer": embed_url}, log=log)
+                if redirect_response:
+                    for pattern in json_patterns:
+                        match = re.search(pattern, redirect_response.text, re.IGNORECASE)
+                        if match:
+                            stream_url = match.group(1) if isinstance(match, re.Match) and len(match.groups()) > 0 else None
+                            if stream_url:
+                                log.info(f"URL {url_num}) Captured stream from redirect: {stream_url[:100]}...")
+                                return stream_url
             
         except Exception as e:
             log.error(f"URL {url_num}) Playwright error: {e}")
@@ -211,7 +176,8 @@ async def get_events(cached_hrefs: set[str]) -> list[dict]:
             headless=True,
             args=["--no-sandbox", "--disable-dev-shm-usage"]
         )
-        page = await browser.new_page()
+        context = await browser.new_context(user_agent=UA)
+        page = await context.new_page()
 
         try:
             await page.goto(BASE_URL, wait_until="networkidle", timeout=60000)
@@ -348,13 +314,8 @@ async def scrape():
     for i, ev in enumerate(events, start=1):
         log.info(f"Processing {i}/{len(events)}: {ev['event'][:60]}...")
         
-        # Try direct API call first
+        # Extract stream from embed using Playwright
         stream = await extract_stream_from_embed(ev["embed"], i)
-        
-        # If direct fails, try Playwright
-        if not stream:
-            log.debug(f"Event {i}) Trying Playwright...")
-            stream = await extract_stream_with_playwright(ev["embed"], i)
         
         if not stream:
             log.warning(f"Event {i}) No stream found for: {ev['event'][:50]}...")
