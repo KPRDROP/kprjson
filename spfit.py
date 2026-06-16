@@ -33,9 +33,9 @@ ORIGIN = "https://sportspass.fit"
 # Sport categories
 SPORT_CATEGORIES = {
     "Soccer": "/soccer",
-    "NBA": "/nba",
+    # "NBA": "/nba",
     # "NFL": "/nfl",
-    "NHL": "/nhl",
+    # "NHL": "/nhl",
     "MLB": "/mlb",
     "MMA": "/mma",
     "Boxing": "/boxing",
