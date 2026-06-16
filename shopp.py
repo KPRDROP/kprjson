@@ -12,7 +12,7 @@ TAG = "SHOPP"
 
 CACHE_FILE = Cache(TAG, exp=28_800)
 
-API_URL = "https://xyzstreams.shop:2053/api/scoreboard"
+API_URL = "https://api.streamxyz.shop:2053/api/scoreboard"
 
 # Output files
 VLC_OUTPUT = "shopp_vlc.m3u8"
