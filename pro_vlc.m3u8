@@ -95,31 +95,25 @@ https://dami-tv.pro/live-hls/channel/mlb/2026-06-16/tb-lad/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wnba/2026-06-16/tor-ind/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="17" tvg-id="Live.Event.us" tvg-name="[Darts] 2026 Players Championship 21 (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/7d4dd33867452558399f05dd8de0efd5-thumbnail.jpg" group-title="Live Events",[Darts] 2026 Players Championship 21 (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=2026-players-championship-21
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=2026-players-championship-21
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/2026-players-championship-21/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="18" tvg-id="Soccer.Dummy.us" tvg-name="[Football] France vs. Senegal (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/5212770f3bc7f48643dbdf2a1dceabae-thumbnail.jpg" group-title="Live Events",[Football] France vs. Senegal (PRO)
+#EXTINF:-1 tvg-chno="17" tvg-id="Soccer.Dummy.us" tvg-name="[Football] France vs. Senegal (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/5212770f3bc7f48643dbdf2a1dceabae-thumbnail.jpg" group-title="Live Events",[Football] France vs. Senegal (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wc/2026-06-16/fra-sen
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wc/2026-06-16/fra-sen
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wc/2026-06-16/fra-sen/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="19" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Iraq vs. Norway (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/9c4c09837ca4ec4cc6cb41a030651261-thumbnail.jpg" group-title="Live Events",[Football] Iraq vs. Norway (PRO)
+#EXTINF:-1 tvg-chno="18" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Iraq vs. Norway (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/9c4c09837ca4ec4cc6cb41a030651261-thumbnail.jpg" group-title="Live Events",[Football] Iraq vs. Norway (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wc/2026-06-16/irq-nor
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wc/2026-06-16/irq-nor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wc/2026-06-16/irq-nor/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="20" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Argentina vs. Algeria (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/c2e691d40140db20766ef98b0a0d9a35-thumbnail.jpg" group-title="Live Events",[Football] Argentina vs. Algeria (PRO)
+#EXTINF:-1 tvg-chno="19" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Argentina vs. Algeria (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/c2e691d40140db20766ef98b0a0d9a35-thumbnail.jpg" group-title="Live Events",[Football] Argentina vs. Algeria (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wc/2026-06-16/arg-alg
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wc/2026-06-16/arg-alg
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wc/2026-06-16/arg-alg/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="21" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: NXT (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ef5595e08561ede45c52b36a0b62af76-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: NXT (PRO)
+#EXTINF:-1 tvg-chno="20" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: NXT (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ef5595e08561ede45c52b36a0b62af76-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: NXT (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wwe/nxt/2026-06-16
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wwe/nxt/2026-06-16
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
