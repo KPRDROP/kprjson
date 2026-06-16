@@ -1,13 +1,49 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-06-16 17:17 UTC
-# Total Streams: 3
+# Last Updated: 2026-06-16 21:20 UTC
+# Total Streams: 15
 
-#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] France Today at 7:00 PM vs Senegal (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] France Today at 7:00 PM vs Senegal (SPFIT)
-https://ogilbert.s3.us-east-1.amazonaws.com/btsport.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Iraq Today at 10:00 PM vs Norway (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Iraq Today at 10:00 PM vs Norway (SPFIT)
+https://ogilbert.s3.us-east-1.amazonaws.com/sportsnet.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Argentina Tomorrow at 1:00 AM vs Algeria (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Argentina Tomorrow at 1:00 AM vs Algeria (SPFIT)
-https://ogilbert.s3.us-east-1.amazonaws.com/btsport.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] France vs 3 - 1 Senegal (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] France vs 3 - 1 Senegal (SPFIT)
+https://ogilbert.s3.us-east-1.amazonaws.com/sportsnet.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Iraq Today at 10:00 PM vs Norway (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Iraq Today at 10:00 PM vs Norway (SPFIT)
-https://ogilbert.s3.us-east-1.amazonaws.com/btsport.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Argentina Tomorrow at 1:00 AM vs Algeria (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Argentina Tomorrow at 1:00 AM vs Algeria (SPFIT)
+https://ogilbert.s3.us-east-1.amazonaws.com/sportsnet.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="4" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Kansas City Royals Today at 10:45 PM vs Washington Nationals (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Kansas City Royals Today at 10:45 PM vs Washington Nationals (SPFIT)
+https://ogilbert.s3.us-east-1.amazonaws.com/nationals.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="5" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] San Francisco Giants Today at 11:15 PM vs Atlanta Braves (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] San Francisco Giants Today at 11:15 PM vs Atlanta Braves (SPFIT)
+https://ogilbert.s3.us-east-1.amazonaws.com/braves.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="6" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] New York Mets Today at 11:10 PM vs Cincinnati Reds (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] New York Mets Today at 11:10 PM vs Cincinnati Reds (SPFIT)
+https://ogilbert.s3.us-east-1.amazonaws.com/mets_480p30.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="7" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Cleveland Guardians Today at 11:40 PM vs Milwaukee Brewers (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Cleveland Guardians Today at 11:40 PM vs Milwaukee Brewers (SPFIT)
+https://ogilbert.s3.us-east-1.amazonaws.com/brewers.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="8" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Toronto Blue Jays Today at 10:45 PM vs Boston Red Sox (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Toronto Blue Jays Today at 10:45 PM vs Boston Red Sox (SPFIT)
+https://ogilbert.s3.us-east-1.amazonaws.com/redsox.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="9" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Detroit Tigers Tomorrow at 12:10 AM vs Houston Astros (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Detroit Tigers Tomorrow at 12:10 AM vs Houston Astros (SPFIT)
+https://ogilbert.s3.us-east-1.amazonaws.com/astros.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="10" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Angels Tomorrow at 1:40 AM vs Arizona Diamondbacks (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Los Angeles Angels Tomorrow at 1:40 AM vs Arizona Diamondbacks (SPFIT)
+https://ogilbert.s3.us-east-1.amazonaws.com/dbacks.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="11" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] San Diego Padres Today at 11:45 PM vs St. Louis Cardinals (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] San Diego Padres Today at 11:45 PM vs St. Louis Cardinals (SPFIT)
+https://ogilbert.s3.us-east-1.amazonaws.com/orioles_480p30.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="12" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Minnesota Twins Tomorrow at 12:05 AM vs Texas Rangers (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Minnesota Twins Tomorrow at 12:05 AM vs Texas Rangers (SPFIT)
+https://ogilbert.s3.us-east-1.amazonaws.com/rangers.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="13" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Colorado Rockies Tomorrow at 12:05 AM vs Chicago Cubs (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Colorado Rockies Tomorrow at 12:05 AM vs Chicago Cubs (SPFIT)
+https://ogilbert.s3.us-east-1.amazonaws.com/cubs.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="14" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Baltimore Orioles Tomorrow at 1:40 AM vs Seattle Mariners (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Baltimore Orioles Tomorrow at 1:40 AM vs Seattle Mariners (SPFIT)
+https://ogilbert.s3.us-east-1.amazonaws.com/orioles.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="15" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Tampa Bay Rays Tomorrow at 2:10 AM vs Los Angeles Dodgers (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Tampa Bay Rays Tomorrow at 2:10 AM vs Los Angeles Dodgers (SPFIT)
+https://ogilbert.s3.us-east-1.amazonaws.com/dodgers.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
