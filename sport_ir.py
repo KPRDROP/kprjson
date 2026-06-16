@@ -19,9 +19,9 @@ API_URLS = {
     sport: f"https://api.{sport.lower()}24all.ir"
     for sport in [
         "MLB",
-        "NBA",
+        # "NBA",
         # "NFL",
-        "NHL",
+        # "NHL",
     ]
 }
 
