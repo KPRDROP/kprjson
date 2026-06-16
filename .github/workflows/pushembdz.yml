@@ -2,7 +2,7 @@ name: PUSHEMBDZ Updater
 
 on:
   schedule:
-   - cron: '0 */1 * * *'
+    - cron: '0 */1 * * *'
   workflow_dispatch:
 
 permissions:
@@ -13,48 +13,44 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Cache Python packages
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
       - name: Install deps
         run: |
+          pip install --upgrade pip
           pip install playwright httpx[http2] selectolax pytz
           playwright install chromium
 
       - name: Run updater
         run: python pushembdz.py
 
-      - name: Commit and push changes
+      - name: Commit & push
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Check if playlist files exist and have changes
-          if [ -f "pushembdz.m3u8" ]; then
-            git add pushembdz.m3u8
-            if ! git diff --cached --quiet; then
-              git commit -m "Update PUSHEMBDZ playlists [skip ci]"
-              git push
-              echo "Changes pushed successfully"
-            else
-              echo "No changes to commit"
-            fi
-          else
-            echo "Playlist files not found"
-            exit 1
+          git add pushembdz.m3u8 || true
+          
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
           fi
+          
+          git commit -m "Update pushembdz playlist [skip ci]"
+          
+          # Try to push, if fails, pull and retry
+          if ! git push origin main 2>/dev/null; then
+            echo "Push failed, pulling latest changes..."
+            git pull --rebase origin main
+            git push origin main
+          fi
+          
+          echo "Changes pushed successfully"
