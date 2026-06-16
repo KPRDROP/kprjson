@@ -45,24 +45,79 @@ async def extract_stream_from_embed(embed_url: str, url_num: int) -> str | None:
             try:
                 data = json.loads(api_response.text)
                 stream_url = data.get("link")
-                if stream_url and ('.css' in stream_url or '.js' in stream_url):
+                if stream_url and ('.css' in stream_url or '.js' in stream_url or '.m3u8' in stream_url):
                     log.info(f"URL {url_num}) Captured stream from API: {stream_url[:100]}...")
                     return stream_url
             except json.JSONDecodeError:
                 log.debug(f"URL {url_num}) API response not JSON")
         
-        # Fallback: fetch the embed page and look for the stream
+        # If API fails, fetch the embed page content
         response = await network.request(embed_url, log=log)
         if response:
             content = response.text
             
-            # Look for the stream URL in the page
+            # Look for JSON data in the page
+            json_patterns = [
+                r'{"success":\s*true,\s*"timestamp":\s*\d+,\s*"stream":\s*{[^}]+}}',
+                r'{"link":\s*"([^"]+\.m3u8[^"]*)"',
+                r'{"link":\s*"([^"]+\.css[^"]*)"',
+                r'"link":\s*"([^"]+\.m3u8[^"]*)"',
+            ]
+            
+            for pattern in json_patterns:
+                match = re.search(pattern, content, re.IGNORECASE)
+                if match:
+                    if match.group(0).startswith('{'):
+                        try:
+                            data = json.loads(match.group(0))
+                            stream_url = data.get("stream", {}).get("link") or data.get("link")
+                            if stream_url:
+                                log.info(f"URL {url_num}) Captured stream from JSON: {stream_url[:100]}...")
+                                return stream_url
+                        except:
+                            pass
+                    elif match.group(1):
+                        stream_url = match.group(1)
+                        if '.m3u8' in stream_url or '.css' in stream_url:
+                            log.info(f"URL {url_num}) Captured stream from pattern: {stream_url[:100]}...")
+                            return stream_url
+            
+            # Look for the stream URL in script tags
+            script_pattern = r'<script[^>]*>([\s\S]*?)</script>'
+            scripts = re.findall(script_pattern, content, re.IGNORECASE)
+            
+            for script in scripts:
+                # Look for JSON-like data in scripts
+                if 'link' in script and ('.m3u8' in script or '.css' in script):
+                    json_match = re.search(r'{"link":\s*"([^"]+\.m3u8[^"]*)"', script, re.IGNORECASE)
+                    if json_match:
+                        stream_url = json_match.group(1)
+                        log.info(f"URL {url_num}) Captured stream from script: {stream_url[:100]}...")
+                        return stream_url
+                    
+                    json_match = re.search(r'{"link":\s*"([^"]+\.css[^"]*)"', script, re.IGNORECASE)
+                    if json_match:
+                        stream_url = json_match.group(1)
+                        log.info(f"URL {url_num}) Captured stream from script: {stream_url[:100]}...")
+                        return stream_url
+                    
+                    # Look for the full JSON structure
+                    json_match = re.search(r'{"success":\s*true,\s*"timestamp":\s*\d+,\s*"stream":\s*{[^}]+"link":\s*"([^"]+\.m3u8[^"]*)"[^}]*}}', script, re.IGNORECASE)
+                    if json_match:
+                        stream_url = json_match.group(1)
+                        log.info(f"URL {url_num}) Captured stream from script JSON: {stream_url[:100]}...")
+                        return stream_url
+            
+            # Look for the stream URL in the page content using regex
             stream_patterns = [
+                r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
+                r'(https?://[^\s"\']+\.css[^\s"\']*)',
+                r'(https?://[^\s"\']+ossfeed\.store/out/v2/[a-f0-9]+/index\.m3u8[^\s"\']*)',
+                r'(https?://[^\s"\']+ossfeed\.store/out/v2/[a-f0-9]+/master\.css[^\s"\']*)',
                 r'(https?://[^\s"\']+serveplay[^\s"\']+\.css[^\s"\']*)',
                 r'(https?://[^\s"\']+serveplay[^\s"\']+\.js[^\s"\']*)',
                 r'(https?://[^\s"\']+ev01-prod[^\s"\']+\.css[^\s"\']*)',
                 r'(https?://[^\s"\']+ev01-prod[^\s"\']+\.js[^\s"\']*)',
-                r'(https?://[^\s"\']+cloudfront[^\s"\']+\.(?:css|js)[^\s"\']*)',
             ]
             
             for pattern in stream_patterns:
@@ -107,8 +162,8 @@ async def extract_stream_with_playwright(embed_url: str, url_num: int) -> str | 
                 except:
                     pass
             
-            # Look for stream URLs in responses
-            if any(x in url for x in ['.css', '.js']) and any(x in url for x in ['serveplay', 'ev01-prod', 'cloudfront']):
+            # Look for stream URLs in responses (including ossfeed with .m3u8)
+            if any(x in url for x in ['.css', '.js', '.m3u8']) and any(x in url for x in ['ossfeed', 'serveplay', 'ev01-prod']):
                 stream_url = url
                 log.info(f"URL {url_num}) Captured stream from response: {url[:100]}...")
         
@@ -117,6 +172,25 @@ async def extract_stream_with_playwright(embed_url: str, url_num: int) -> str | 
         try:
             await page.goto(embed_url, wait_until='networkidle', timeout=30000)
             await asyncio.sleep(5)
+            
+            # Check page content for the JSON data
+            content = await page.content()
+            
+            # Look for the JSON structure in the page
+            json_pattern = r'{"success":\s*true,\s*"timestamp":\s*\d+,\s*"stream":\s*{[^}]+"link":\s*"([^"]+\.m3u8[^"]*)"[^}]*}}'
+            match = re.search(json_pattern, content, re.IGNORECASE)
+            if match:
+                stream_url = match.group(1)
+                log.info(f"URL {url_num}) Captured m3u8 from page JSON: {stream_url[:100]}...")
+                return stream_url
+            
+            # Look for any .m3u8 URL
+            m3u8_pattern = r'(https?://[^\s"\']+\.m3u8[^\s"\']*)'
+            matches = re.findall(m3u8_pattern, content, re.IGNORECASE)
+            for match in matches:
+                stream_url = match
+                log.info(f"URL {url_num}) Found m3u8 in page: {stream_url[:100]}...")
+                return stream_url
             
         except Exception as e:
             log.error(f"URL {url_num}) Playwright error: {e}")
@@ -160,12 +234,10 @@ async def get_events(cached_hrefs: set[str]) -> list[dict]:
                 title = title.strip()
                 
                 # Find the code element containing the embed URL
-                # The embed URL is usually in a code tag near the h3
                 parent = await card.evaluate_handle("el => el.closest('div')")
                 code_el = await parent.query_selector("code")
                 
                 if not code_el:
-                    # Try to find code in siblings
                     siblings = await page.evaluate_handle("""
                         (el) => {
                             const parent = el.parentElement;
@@ -224,7 +296,7 @@ def build_playlist(data: dict[str, dict]) -> str:
         stream_url = info["url"]
         
         # Extract domain for referer/origin
-        if 'serveplay' in stream_url or 'ev01-prod' in stream_url:
+        if 'serveplay' in stream_url or 'ev01-prod' in stream_url or 'ossfeed' in stream_url:
             referer = "https://pushembdz.store/"
             origin = "https://pushembdz.store"
         else:
@@ -323,9 +395,9 @@ async def scrape():
 # Run
 # -------------------------------------------------
 async def main():
-    log.info("Starting PUSHEMBDZ scraper")
+    log.info("Starting PUSHEMBDZ updater")
     await scrape()
-    log.info("PUSHEMBDZ scraper completed")
+    log.info("PUSHEMBDZ updater completed")
 
 
 if __name__ == "__main__":
