@@ -363,7 +363,7 @@ async def main():
     Main async entry point.
     """
     log.info("=" * 50)
-    log.info("Starting DLSPORTZ Streams Updater")
+    log.info("Starting DLSPORTZ_CH Streams Updater")
     log.info(f"API URL: {API_URL}")
     log.info("=" * 50)
 
