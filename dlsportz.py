@@ -19,7 +19,7 @@ API_FILE = Cache(f"{TAG}-api", exp=28_800)
 API_URL = "https://streameast.mov/api/events"
 
 # Headers for requests
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
 
 # Additional headers to avoid blocking - more comprehensive
 API_HEADERS = {
