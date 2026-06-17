@@ -4,13 +4,15 @@ import re
 from functools import partial
 from urllib.parse import urlsplit, quote
 
+import cloudscraper
+
 from utils import Cache, Time, get_logger, leagues, network
 
 log = get_logger(__name__)
 
 urls: dict[str, dict[str, str | float]] = {}
 
-TAG = "DLSPORTZ"
+TAG = "DLSPORTZ_CH"
 
 CACHE_FILE = Cache(TAG, exp=3_600)
 
@@ -21,7 +23,6 @@ API_URL = "https://streameast.mov/api/channels"
 # Headers for requests
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
 
-# Additional headers to avoid blocking - more comprehensive
 API_HEADERS = {
     "Referer": "https://streameast.mov/",
     "Origin": "https://streameast.mov",
@@ -45,6 +46,10 @@ def generate_playlists():
     """
     Generate VLC and TiviMate M3U8 playlists from captured streams.
     """
+    if not urls:
+        log.warning("No streams to generate playlists")
+        return
+        
     vlc_lines = ["#EXTM3U"]
     tivimate_lines = ["#EXTM3U"]
 
@@ -59,18 +64,14 @@ def generate_playlists():
         if not url:
             continue
 
-        # Extract base URL for referer (remove query parameters)
         base_url = base.split('?')[0] if base else ""
-
-        # Sanitize name for playlist
         safe_name = name.replace('"', '').replace("'", "")
 
         extinf = (
             f'#EXTINF:-1 tvg-chno="{chno}" tvg-id="{tvg_id}" '
-            f'tvg-name="{safe_name}" tvg-logo="{logo}" group-title="Live Events",{safe_name}'
+            f'tvg-name="{safe_name}" tvg-logo="{logo}" group-title="Live Channels",{safe_name}'
         )
 
-        # VLC (no pipe encoding needed)
         vlc_lines.append(extinf)
         if base_url:
             vlc_lines.append(f"#EXTVLCOPT:http-referrer={base_url}")
@@ -78,10 +79,8 @@ def generate_playlists():
         vlc_lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
         vlc_lines.append(url)
 
-        # TiviMate (pipe format with encoded user agent)
         tivimate_lines.append(extinf)
 
-        # Build the pipe-formatted URL
         if base_url:
             tiv_url = (
                 f"{url}"
@@ -94,11 +93,9 @@ def generate_playlists():
 
         tivimate_lines.append(tiv_url)
 
-    # Write VLC playlist
     with open("dlsportz_ch_vlc.m3u8", "w", encoding="utf8") as f:
         f.write("\n".join(vlc_lines))
 
-    # Write TiviMate playlist
     with open("dlsportz_ch_tivimate.m3u8", "w", encoding="utf8") as f:
         f.write("\n".join(tivimate_lines))
 
@@ -107,7 +104,7 @@ def generate_playlists():
 
 async def process_event(channel_id: str, url_num: int) -> tuple[str | None, str | None]:
     """
-    Process a single event/channel to extract m3u8 URL.
+    Process a single channel to extract m3u8 URL.
     """
     nones = None, None
 
@@ -128,14 +125,12 @@ async def process_event(channel_id: str, url_num: int) -> tuple[str | None, str 
         log.warning(f"URL {url_num}) Failed to load url.")
         return nones
 
-    # Pattern to find base64 encoded source
     pattern = re.compile(r'source:\s+window\.atob\((\'|\")([^"]*)(\'|\")\)', re.I)
 
     if not (match := pattern.search(html_data.text)):
         log.warning(f"URL {url_num}) No M3U8 found")
         return nones
 
-    # Decode base64 to get m3u8 URL
     try:
         m3u8 = base64.b64decode(match[2]).decode("utf-8")
         log.info(f"URL {url_num}) Captured M3U8: {m3u8[:100]}...")
@@ -145,166 +140,178 @@ async def process_event(channel_id: str, url_num: int) -> tuple[str | None, str 
         return nones
 
 
-async def get_events() -> list[dict[str, str]]:
+def fetch_api_with_cloudscraper() -> list | None:
     """
-    Fetch and parse events from the API.
+    Fetch API data using cloudscraper to bypass Cloudflare protection.
+    """
+    try:
+        scraper = cloudscraper.create_scraper(
+            browser={
+                'browser': 'chrome',
+                'platform': 'windows',
+                'desktop': True,
+                'mobile': False
+            }
+        )
+        
+        response = scraper.get(
+            API_URL,
+            headers=API_HEADERS,
+            timeout=30
+        )
+        
+        if response.status_code == 200:
+            return response.json()
+        else:
+            log.error(f"Cloudscraper request failed with status: {response.status_code}")
+            return None
+            
+    except Exception as e:
+        log.error(f"Cloudscraper error: {e}")
+        return None
+
+
+async def get_channels() -> list[dict[str, str]]:
+    """
+    Fetch and parse channels from the API.
+    The /api/channels endpoint returns a direct array of channel objects.
     """
     now = Time.clean(Time.now())
-    events = []
+    channels = []
 
-    log.info(f"Fetching events from API: {API_URL}")
+    log.info(f"Fetching channels from API: {API_URL}")
 
     # Try to load from cache first
     api_data = API_FILE.load(per_entry=False, index=-1)
     
-    # If cache exists and is recent, use it
-    if api_data and len(api_data) > 0:
-        # Check if cache has timestamp and is not too old (within 8 hours)
-        last_timestamp = api_data[-1].get("timestamp", 0) if isinstance(api_data, list) else 0
+    api_data_valid = False
+    
+    if api_data and isinstance(api_data, list) and len(api_data) > 0:
+        last_timestamp = api_data[-1].get("timestamp", 0) if isinstance(api_data[-1], dict) else 0
         current_time = now.timestamp()
         
         if current_time - last_timestamp < 28_800:  # 8 hours
             log.info("Using cached API data")
-        else:
-            api_data = None
-            log.info("API cache expired, refreshing")
+            api_data_valid = True
 
-    if not api_data:
-        log.info("Refreshing API cache")
+    if not api_data_valid:
+        log.info("Refreshing API cache using cloudscraper")
         
-        # Make request with proper headers
-        r = await network.request(
-            API_URL, 
-            headers=API_HEADERS,
-            log=log,
-            timeout=30
-        )
-        
-        if r and r.content:
-            try:
-                api_data = r.json()
-                if isinstance(api_data, list) and len(api_data) > 0:
-                    # Add timestamp to the last element or create a metadata object
-                    if isinstance(api_data[-1], dict):
-                        api_data[-1]["timestamp"] = now.timestamp()
-                    API_FILE.write(api_data)
-                    log.info(f"API cache updated with {len(api_data)} items")
-                else:
-                    log.warning("API returned invalid data format")
-                    api_data = None
-            except Exception as e:
-                log.error(f"Failed to parse API response: {e}")
-                api_data = None
-        else:
-            log.error("Failed to fetch API data")
-            api_data = None
-
-    if not api_data or len(api_data) == 0:
-        log.warning("No API data available")
-        return events
-
-    # Get the first item which contains the date and categories
-    first_item = api_data[0]
-    
-    if not (date := first_item.get("day")):
-        log.warning("No date found in API response")
-        log.debug(f"API response keys: {list(first_item.keys()) if isinstance(first_item, dict) else 'not a dict'}")
-        return events
-
-    # Parse and compare date (extract the date part before the dash)
-    try:
-        # The date format is like "Friday 12th June 2026 - Schedule Time UK GMT"
-        date_part = date.split("-")[0].strip()
-        # Remove ordinal indicators (st, nd, rd, th)
-        api_date = re.sub(r"(?<=\d)(st|nd|rd|th)", "", date_part, flags=re.I)
-        current_date = f"{now:%A} {now.day} {now:%B} {now:%Y}"
-        
-        if api_date != current_date:
-            log.info(f"API date mismatch. API: {api_date}, Current: {current_date}")
-            return events
-    except Exception as e:
-        log.error(f"Date parsing error: {e}")
-        return events
-
-    # Process categories
-    categories = first_item.get("categories", {})
-    if not categories:
-        log.warning("No categories found in API response")
-        return events
-
-    for category, category_info in categories.items():
-        # Skip unwanted categories
-        if category.lower() in ["popular live events", "tv shows"]:
-            continue
-
-        # category_info should be a list of events
-        if not isinstance(category_info, list):
-            continue
-
-        for event_info in category_info:
-            if event_info.get("source") != "tv":
-                continue
-
-            channels = event_info.get("channels")
-            if not channels or not isinstance(channels, list):
-                continue
-
-            # Get the first channel
-            channel = channels[0]
-            channel_id = channel.get("channel_id")
+        api_data = None
+        for attempt in range(3):
+            log.info(f"API request attempt {attempt + 1}/3")
+            api_data = await asyncio.to_thread(fetch_api_with_cloudscraper)
             
-            if not channel_id:
-                continue
+            if api_data and isinstance(api_data, list) and len(api_data) > 0:
+                # Add timestamp as a separate metadata entry
+                api_data.append({"timestamp": now.timestamp()})
+                API_FILE.write(api_data)
+                log.info(f"API cache updated with {len(api_data) - 1} channels")
+                api_data_valid = True
+                break
+            await asyncio.sleep(2)
 
-            name = event_info.get("event", "")
-            if not name:
-                continue
+    if not api_data_valid or not api_data or len(api_data) == 0:
+        log.warning("No valid API data available after cloudscraper attempts")
+        return channels
 
-            events.append(
-                {
-                    "sport": category,
-                    "event": name,
-                    "channel-id": channel_id,
-                    "timestamp": now.timestamp(),
-                }
-            )
+    # Remove the timestamp entry from the end for processing
+    channels_data = [item for item in api_data if "timestamp" not in item]
 
-            log.info(f"Found event: {name} (Channel: {channel_id})")
+    log.info(f"Processing {len(channels_data)} channels from API")
 
-    return events
+    for channel in channels_data:
+        channel_name = channel.get("channel_name", "")
+        channel_id = channel.get("channel_id", "")
+        
+        if not channel_name or not channel_id:
+            continue
+
+        # Determine sport/category from channel name (heuristic)
+        sport = "Channel"
+        
+        # Try to extract sport from channel name
+        sport_keywords = {
+            "Soccer": ["Soccer", "Football", "LaLiga", "Premier", "Bundesliga", "Serie A", "Ligue"],
+            "Motorsport": ["F1", "Formula", "Racing", "MotoGP", "NASCAR"],
+            "MMA": ["MMA", "UFC", "Fight", "Boxing", "Kickboxing"],
+            "Basketball": ["Basketball", "NBA", "Euroleague"],
+            "Tennis": ["Tennis", "WTA", "ATP"],
+            "Hockey": ["Hockey", "NHL"],
+            "Baseball": ["Baseball", "MLB"],
+            "Cricket": ["Cricket"],
+            "Rugby": ["Rugby"],
+        }
+        
+        for sport_name, keywords in sport_keywords.items():
+            for keyword in keywords:
+                if keyword.lower() in channel_name.lower():
+                    sport = sport_name
+                    break
+            if sport != "Channel":
+                break
+
+        key = f"[{sport}] {channel_name} ({TAG})"
+
+        # Skip if already in cache
+        cached_urls = CACHE_FILE.load()
+        if key in cached_urls and cached_urls[key].get("url"):
+            log.debug(f"Channel {channel_name} already cached, skipping")
+            continue
+
+        channels.append({
+            "key": key,
+            "sport": sport,
+            "event": channel_name,
+            "channel-id": channel_id,
+            "timestamp": now.timestamp(),
+        })
+
+        log.info(f"Found channel: {channel_name} (ID: {channel_id})")
+
+    return channels
 
 
 async def scrape() -> None:
     """
     Main scraping function.
     """
-    # Load cached URLs
     cached_urls = CACHE_FILE.load()
     valid_urls = {k: v for k, v in cached_urls.items() if v.get("url")}
 
     if valid_urls:
         urls.update(valid_urls)
-        log.info(f"Loaded {len(valid_urls)} event(s) from cache")
+        log.info(f"Loaded {len(valid_urls)} channel(s) from cache")
         generate_playlists()
-        return
+        
+        # Still check for new channels from API
+        log.info("Checking for new channels from API...")
+    else:
+        log.info('Scraping from "streameast.mov"')
 
-    log.info('Scraping from "streameast.mov"')
-
-    events = await get_events()
+    channels = await get_channels()
     
-    if events:
-        log.info(f"Processing {len(events)} URL(s)")
+    if channels:
+        log.info(f"Processing {len(channels)} new channel(s)")
 
-        # Initialize cached_urls as dict if needed
         if not isinstance(cached_urls, dict):
             cached_urls = {}
 
-        for i, ev in enumerate(events, start=1):
-            log.info(f"--- [{i}/{len(events)}]: {ev['event']} ---")
+        new_streams_count = 0
+        
+        for i, ch in enumerate(channels, start=1):
+            key = ch["key"]
+            
+            # Check if already cached
+            if key in cached_urls and cached_urls[key].get("url"):
+                log.info(f"--- [{i}/{len(channels)}]: {ch['event']} (already cached, skipping) ---")
+                continue
+                
+            log.info(f"--- [{i}/{len(channels)}]: {ch['event']} ---")
 
             handler = partial(
                 process_event,
-                channel_id=ev["channel-id"],
+                channel_id=ch["channel-id"],
                 url_num=i,
             )
 
@@ -317,12 +324,10 @@ async def scrape() -> None:
             )
 
             sport, event, ts = (
-                ev["sport"],
-                ev["event"],
-                ev["timestamp"],
+                ch["sport"],
+                ch["event"],
+                ch["timestamp"],
             )
-
-            key = f"[{sport}] {event} ({TAG})"
 
             tvg_id, logo = leagues.get_tvg_info(sport, event)
 
@@ -339,21 +344,22 @@ async def scrape() -> None:
 
             if url:
                 urls[key] = entry
+                new_streams_count += 1
                 log.info(f"✓ [{i}] Stream captured: {url[:100]}...")
             else:
                 log.warning(f"✗ [{i}] No stream captured")
 
-            # Small delay between requests
             await asyncio.sleep(1)
 
-        log.info(f"Collected and cached {len(urls)} event(s)")
-        CACHE_FILE.write(cached_urls)
+        if new_streams_count > 0:
+            log.info(f"Collected and cached {new_streams_count} new channel(s)")
+            CACHE_FILE.write(cached_urls)
+        else:
+            log.info("No new streams found")
     else:
-        log.info("No events found")
-        # Still generate playlists with cached data if available
-        if urls:
-            generate_playlists()
-        return
+        log.info("No new channels found from API")
+        if valid_urls:
+            log.info("Using cached channels from previous runs")
 
     generate_playlists()
 
