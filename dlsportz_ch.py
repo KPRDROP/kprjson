@@ -95,14 +95,14 @@ def generate_playlists():
         tivimate_lines.append(tiv_url)
 
     # Write VLC playlist
-    with open("dlsportz_vlc.m3u8", "w", encoding="utf8") as f:
+    with open("dlsportz_ch_vlc.m3u8", "w", encoding="utf8") as f:
         f.write("\n".join(vlc_lines))
 
     # Write TiviMate playlist
-    with open("dlsportz_tivimate.m3u8", "w", encoding="utf8") as f:
+    with open("dlsportz_ch_tivimate.m3u8", "w", encoding="utf8") as f:
         f.write("\n".join(tivimate_lines))
 
-    log.info(f"Playlists generated: {len(urls)} streams -> dlsportz_vlc.m3u8 / dlsportz_tivimate.m3u8")
+    log.info(f"Playlists generated: {len(urls)} streams -> dlsportz_ch_vlc.m3u8 / dlsportz_ch_tivimate.m3u8")
 
 
 async def process_event(channel_id: str, url_num: int) -> tuple[str | None, str | None]:
