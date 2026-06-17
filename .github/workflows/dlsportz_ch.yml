@@ -1,0 +1,54 @@
+name: DLSPORTZ_CH Streams updater
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dlsportz-updater
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install playwright selectolax aiohttp httpx[http2] pytz cloudscraper
+
+      - name: Run DLSPORTZ_CH updater
+        run: |
+          python -c "from dlsportz_ch import main; import asyncio; asyncio.run(main())"
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add -f dlsportz_ch_vlc.m3u8 dlsportz_ch_tivimate.m3u8 cache_DLSPORTZ_CH.json cache_DLSPORTZ_CH-api.json 2>/dev/null || true
+
+          if git status --porcelain | grep -q .; then
+            echo "Changes detected, committing..."
+            git commit -m "chore: update DLSPORTZ_CH streams [skip ci]"
+            git pull --rebase origin main || true
+            git push origin main
+          else
+            echo "No changes to commit"
+          fi
