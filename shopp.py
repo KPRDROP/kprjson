@@ -12,6 +12,7 @@ TAG = "SHOPP"
 
 CACHE_FILE = Cache(TAG, exp=28_800)
 
+BASE_URL = "https://xyzstreams.shop/"
 API_URL = "https://api.streamxyz.shop:2053/api/scoreboard"
 
 # Output files
@@ -36,7 +37,14 @@ TIVIMATE_USER_AGENT = (
 async def get_events() -> dict[str, dict[str, str | float]]:
     events = {}
 
-    if not (r := await network.request(API_URL, log=log)):
+    # FIX: Added Referer header to fix 403 error
+    if not (
+        r := await network.request(
+            API_URL,
+            headers={"Referer": BASE_URL},
+            log=log,
+        )
+    ):
         return events
 
     now = Time.clean(Time.now())
@@ -71,7 +79,7 @@ async def get_events() -> dict[str, dict[str, str | float]]:
             events[key] = {
                 "url": feed,
                 "logo": logo,
-                "base": "https://xyzstreams.shop",
+                "base": BASE_URL,
                 "timestamp": now.timestamp(),
                 "id": tvg_id or "Live.Event.us",
             }
@@ -182,7 +190,7 @@ def generate_playlists() -> None:
                 f'group-title="Live Events",{event_name}\n'
             )
 
-            # Referer and origin in plain text
+            # TiviMate format with pipe separators and encoded user-agent
             f.write(
                 f'{url}'
                 f'|referer={REFERER}'
