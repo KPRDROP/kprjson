@@ -67,13 +67,18 @@ async def get_main_page_playwright() -> str | None:
             
             page = await context.new_page()
             
+            # Use domcontentloaded instead of networkidle for faster loading
             await page.goto(
                 MAIN_URL,
-                wait_until="networkidle",
-                timeout=60000
+                wait_until="domcontentloaded",
+                timeout=30000
             )
             
-            await page.wait_for_timeout(5000)
+            # Wait for event cards to load
+            try:
+                await page.wait_for_selector('.event-card', timeout=10000)
+            except:
+                pass
             
             html = await page.content()
             
@@ -89,6 +94,7 @@ async def get_main_page_playwright() -> str | None:
 async def get_events_from_main_page() -> list[dict]:
     """Scrape the main page for event cards using robust parsing"""
     events = []
+    seen_urls = set()  # Track unique URLs to avoid duplicates
     
     try:
         # Try Playwright first for JavaScript-rendered content
@@ -133,6 +139,11 @@ async def get_events_from_main_page() -> list[dict]:
             
             href = href_match.group(1).strip()
             
+            # Skip duplicate URLs
+            if href in seen_urls:
+                continue
+            seen_urls.add(href)
+            
             # Clean title from HTML tags
             title = re.sub(
                 r'<[^>]+>',
@@ -151,7 +162,7 @@ async def get_events_from_main_page() -> list[dict]:
                 "sport": "Live Event"
             })
             
-        log.info(f"Found {len(events)} events on main page")
+        log.info(f"Found {len(events)} unique events on main page")
         return events
         
     except Exception as e:
@@ -196,16 +207,16 @@ async def extract_streams_from_event_page(event_url: str, event_name: str) -> li
                     
             page.on('response', capture_response)
             
-            # Navigate to event page
+            # Navigate to event page with shorter timeout and domcontentloaded
             try:
                 await page.goto(
                     event_url,
-                    wait_until='networkidle',
-                    timeout=60000
+                    wait_until='domcontentloaded',
+                    timeout=30000  # Reduced from 60000
                 )
                 
-                # Wait for streams to load
-                await page.wait_for_timeout(10000)
+                # Wait for potential stream content to load
+                await page.wait_for_timeout(5000)  # Reduced from 10000
                 
                 # Get page content for additional extraction
                 html_content = await page.content()
@@ -236,6 +247,17 @@ async def extract_streams_from_event_page(event_url: str, event_name: str) -> li
                 )
                 for url in player_patterns:
                     found_streams.add(url)
+                
+                # If no streams found via network, try to find in page source
+                if not found_streams:
+                    # Look for m3u8 URLs in the entire page content
+                    all_m3u8 = re.findall(
+                        r'https?://[^\s<>"\']+\.m3u8[^\s<>"\']*',
+                        html_content,
+                        re.I
+                    )
+                    for url in all_m3u8:
+                        found_streams.add(url)
                 
             except Exception as e:
                 log.error(f"Error loading {event_name}: {e}")
