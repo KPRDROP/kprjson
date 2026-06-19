@@ -49,4 +49,5 @@ jobs:
 
           git commit -m "Auto-update SHOPP playlists"
 
-          git push
+          git pull --rebase origin main
+          git push origin main
