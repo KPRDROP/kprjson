@@ -1,32 +1,32 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-06-18 22:26 UTC
+# Last Updated: 2026-06-19 05:16 UTC
 # Total Streams: 12
 
-#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Mexico Tomorrow at 1:00 AM vs South Korea (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Mexico Tomorrow at 1:00 AM vs South Korea (SPFIT)
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Czechia FT 1 - 1 South Africa (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Czechia FT 1 - 1 South Africa (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://yandexco.s3.us-east-1.amazonaws.com/main.m3u8
+https://nawwaara.s3.eu-central-1.amazonaws.com/bsport_480p30.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Canada Today at 10:00 PM vs Qatar (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Canada Today at 10:00 PM vs Qatar (SPFIT)
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Canada FT 6 - 0 Qatar (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Canada FT 6 - 0 Qatar (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://yandexco.s3.us-east-1.amazonaws.com/main.m3u8
+https://nawwaara.s3.eu-central-1.amazonaws.com/bsport.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Switzerland FT 4 - 1 Bosnia-Herz (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Switzerland FT 4 - 1 Bosnia-Herz (SPFIT)
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Mexico FT 1 - 0 South Korea (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Mexico FT 1 - 0 South Korea (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://yandexco.s3.us-east-1.amazonaws.com/main.m3u8
+https://nawwaara.s3.eu-central-1.amazonaws.com/bsport.m3u8
 
-#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Czechia FT 1 - 1 South Africa (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Czechia FT 1 - 1 South Africa (SPFIT)
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Switzerland FT 4 - 1 Bosnia-Herz (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Switzerland FT 4 - 1 Bosnia-Herz (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://yandexco.s3.us-east-1.amazonaws.com/main.m3u8
+https://nawwaara.s3.eu-central-1.amazonaws.com/bsport.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Baltimore Orioles vs Bottom 5th Seattle Mariners (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Baltimore Orioles vs Bottom 5th Seattle Mariners (SPFIT)
+#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Baltimore Orioles vs 0 - 3 Seattle Mariners (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Baltimore Orioles vs 0 - 3 Seattle Mariners (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
@@ -38,7 +38,7 @@ https://yandexco.s3.us-east-1.amazonaws.com/orioles.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 https://yandexco.s3.us-east-1.amazonaws.com/bluejays.m3u8
 
-#EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Minnesota Twins vs Top 9th Texas Rangers (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Minnesota Twins vs Top 9th Texas Rangers (SPFIT)
+#EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Minnesota Twins vs 9 - 3 Texas Rangers (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Minnesota Twins vs 9 - 3 Texas Rangers (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
@@ -50,17 +50,17 @@ https://yandexco.s3.us-east-1.amazonaws.com/rangers.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 https://yandexco.s3.us-east-1.amazonaws.com/brewers.m3u8
 
-#EXTINF:-1 tvg-chno="9" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] New York Mets Today at 10:40 PM vs Philadelphia Phillies (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] New York Mets Today at 10:40 PM vs Philadelphia Phillies (SPFIT)
+#EXTINF:-1 tvg-chno="9" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago White Sox vs 5 - 1 New York Yankees (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago White Sox vs 5 - 1 New York Yankees (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.fit/
+#EXTVLCOPT:http-origin=https://sportspass.fit
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://yandexco.s3.us-east-1.amazonaws.com/bluejays.m3u8
+
+#EXTINF:-1 tvg-chno="10" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Mets vs 6 - 4 Philadelphia Phillies (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] New York Mets vs 6 - 4 Philadelphia Phillies (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 https://yandexco.s3.us-east-1.amazonaws.com/phillies.m3u8
-
-#EXTINF:-1 tvg-chno="10" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Chicago White Sox Today at 11:05 PM vs New York Yankees (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Chicago White Sox Today at 11:05 PM vs New York Yankees (SPFIT)
-#EXTVLCOPT:http-referrer=https://sportspass.fit/
-#EXTVLCOPT:http-origin=https://sportspass.fit
-#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://yandexco.s3.us-east-1.amazonaws.com/yankees.m3u8
 
 #EXTINF:-1 tvg-chno="11" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Francisco Giants vs 0 - 0 Atlanta Braves (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] San Francisco Giants vs 0 - 0 Atlanta Braves (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
@@ -68,7 +68,7 @@ https://yandexco.s3.us-east-1.amazonaws.com/yankees.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 https://yandexco.s3.us-east-1.amazonaws.com/braves.m3u8
 
-#EXTINF:-1 tvg-chno="12" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] St. Louis Cardinals Today at 11:40 PM vs Kansas City Royals (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] St. Louis Cardinals Today at 11:40 PM vs Kansas City Royals (SPFIT)
+#EXTINF:-1 tvg-chno="12" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] St. Louis Cardinals vs 6 - 14 Kansas City Royals (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] St. Louis Cardinals vs 6 - 14 Kansas City Royals (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
