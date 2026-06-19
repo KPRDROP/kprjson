@@ -51,37 +51,88 @@ SCRAPE_HEADERS = {
 }
 
 
+async def get_main_page_playwright() -> str | None:
+    """Fetch main page using Playwright for JavaScript rendering"""
+    try:
+        async with async_playwright() as p:
+            browser = await p.chromium.launch(
+                headless=True,
+                args=['--disable-blink-features=AutomationControlled']
+            )
+            
+            context = await browser.new_context(
+                user_agent=USER_AGENT,
+                viewport={'width': 390, 'height': 844}
+            )
+            
+            page = await context.new_page()
+            
+            await page.goto(
+                MAIN_URL,
+                wait_until="networkidle",
+                timeout=60000
+            )
+            
+            await page.wait_for_timeout(5000)
+            
+            html = await page.content()
+            
+            await browser.close()
+            
+            return html
+            
+    except Exception as e:
+        log.error(f"Playwright main page error: {e}")
+        return None
+
+
 async def get_events_from_main_page() -> list[dict]:
-    """Scrape the main page for event cards using tolerant parsing"""
+    """Scrape the main page for event cards using robust parsing"""
     events = []
     
     try:
-        # Use network module to fetch main page
-        if not (r := await network.request(MAIN_URL, headers=SCRAPE_HEADERS, log=log)):
-            log.error("Failed to fetch main page")
-            return events
-            
-        html_content = r.text
+        # Try Playwright first for JavaScript-rendered content
+        html_content = await get_main_page_playwright()
         
-        # Tolerant regex to find event cards regardless of attribute order
-        card_pattern = re.compile(
-            r'<a[^>]+class=["\']event-card["\'][^>]+href=["\']([^"\']+)["\'][^>]*>(.*?)</a>',
+        # Fallback to network module if Playwright fails
+        if not html_content:
+            log.warning("Playwright failed, falling back to network module")
+            if not (r := await network.request(MAIN_URL, headers=SCRAPE_HEADERS, log=log)):
+                return events
+            html_content = r.text
+        
+        # Debug: log content info
+        log.info(f"Downloaded {len(html_content)} bytes")
+        
+        # Find all event card blocks regardless of attribute order
+        event_blocks = re.findall(
+            r'<a\b[^>]*class=["\'][^"\']*event-card[^"\']*["\'][^>]*>.*?</a>',
+            html_content,
             re.I | re.S
         )
         
-        cards = card_pattern.findall(html_content)
+        log.info(f"Found {len(event_blocks)} event blocks")
         
-        for href, body in cards:
+        for block in event_blocks:
+            # Extract href - works regardless of attribute order
+            href_match = re.search(
+                r'href=["\']([^"\']+)["\']',
+                block,
+                re.I
+            )
+            
             # Extract title from h3 tag
             title_match = re.search(
                 r'<h3[^>]*>(.*?)</h3>',
-                body,
+                block,
                 re.I | re.S
             )
             
-            if not title_match:
+            if not href_match or not title_match:
                 continue
-                
+            
+            href = href_match.group(1).strip()
+            
             # Clean title from HTML tags
             title = re.sub(
                 r'<[^>]+>',
@@ -91,7 +142,7 @@ async def get_events_from_main_page() -> list[dict]:
             
             if not title:
                 continue
-                
+            
             full_url = urljoin(BASE_URL, href)
             
             events.append({
@@ -123,7 +174,7 @@ async def extract_streams_from_event_page(event_url: str, event_name: str) -> li
             # Create context with mobile user agent
             context = await browser.new_context(
                 user_agent=USER_AGENT,
-                viewport={'width': 390, 'height': 844},  # Mobile viewport
+                viewport={'width': 390, 'height': 844},
                 device_scale_factor=2
             )
             
