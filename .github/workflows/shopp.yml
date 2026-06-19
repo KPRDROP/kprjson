@@ -50,11 +50,3 @@ jobs:
           git commit -m "Auto-update SHOPP playlists"
 
           git push
-
-      - name: Upload playlists
-        uses: actions/upload-artifact@v4
-        with:
-          name: shopp-playlists
-          path: |
-            shopp_vlc.m3u8
-            shopp_tivimate.m3u8
