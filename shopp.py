@@ -2,8 +2,10 @@
 
 from utils import Cache, Time, get_logger, leagues, network
 from datetime import datetime
-from urllib.parse import quote
-import json
+from urllib.parse import quote, urljoin
+import re
+import asyncio
+from bs4 import BeautifulSoup
 
 log = get_logger(__name__)
 
@@ -14,8 +16,7 @@ TAG = "SHOPP"
 CACHE_FILE = Cache(TAG, exp=28_800)
 
 BASE_URL = "https://xyzstreams.shop/"
-API_URL = "https://api.streamxyz.shop:2053/api/scoreboard"
-EMBED_API_URL = "https://xyzstreams.shop/embedapi.json"
+MAIN_URL = "https://xyzstreams.shop/"
 
 # Output files
 VLC_OUTPUT = "shopp_vlc.m3u8"
@@ -35,186 +36,197 @@ TIVIMATE_USER_AGENT = (
     "Gecko/20100101 Firefox/151.0"
 )
 
-# Browser-like headers for API requests
-API_HEADERS = {
-    "Accept": "application/json, text/plain, */*",
+# Browser headers for scraping
+SCRAPE_HEADERS = {
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
     "Accept-Encoding": "gzip, deflate, br",
     "Accept-Language": "en-US,en;q=0.9",
     "Connection": "keep-alive",
-    "Host": "api.streamxyz.shop:2053",
-    "Origin": "https://xyzstreams.shop",
+    "Host": "xyzstreams.shop",
     "Referer": "https://xyzstreams.shop/",
-    "Sec-Fetch-Dest": "empty",
-    "Sec-Fetch-Mode": "cors",
-    "Sec-Fetch-Site": "cross-site",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "same-origin",
+    "Upgrade-Insecure-Requests": "1",
     "User-Agent": USER_AGENT,
 }
 
 
-async def get_events() -> dict[str, dict[str, str | float]]:
-    """Fetch events from API with proper headers and fallback to embed API"""
-    events = {}
-    
-    # Try primary API first
-    try:
-        if r := await network.request(
-            API_URL,
-            headers=API_HEADERS,
-            log=log,
-        ):
-            api_data = r.json()
-            events = parse_api_data(api_data)
-            if events:
-                log.info(f"Successfully fetched {len(events)} events from primary API")
-                return events
-    except Exception as e:
-        log.warning(f"Primary API failed: {e}, trying fallback...")
-    
-    # Fallback to embed API
-    try:
-        if r := await network.request(
-            EMBED_API_URL,
-            headers={"Referer": BASE_URL, "User-Agent": USER_AGENT},
-            log=log,
-        ):
-            embed_data = r.json()
-            events = parse_embed_data(embed_data)
-            if events:
-                log.info(f"Successfully fetched {len(events)} events from embed API")
-                return events
-    except Exception as e:
-        log.error(f"Embed API also failed: {e}")
-    
-    return events
-
-
-def parse_api_data(api_data: list[dict]) -> dict[str, dict[str, str | float]]:
-    """Parse data from primary API endpoint"""
-    events = {}
-    now = Time.clean(Time.now())
-    sport = "Live Event"
-    
-    for event_info in api_data:
-        try:
-            away_team = event_info.get("away", {}).get("name")
-            home_team = event_info.get("home", {}).get("name")
-            event_date = event_info.get("gameDate")
-            
-            if not (event_date and away_team and home_team):
-                continue
-                
-            event_dt = Time.fromisoformat(event_date)
-            if event_dt.date() != now.date():
-                continue
-                
-            feeds = event_info.get("feeds")
-            if not feeds:
-                continue
-                
-            event_name = f"{away_team} vs {home_team}"
-            
-            for i, feed in enumerate(feeds.values(), start=1):
-                key = f"[{sport}] {event_name} {i} ({TAG})"
-                tvg_id, logo = leagues.get_tvg_info(sport, event_name)
-                
-                events[key] = {
-                    "url": feed,
-                    "logo": logo,
-                    "base": BASE_URL,
-                    "timestamp": now.timestamp(),
-                    "id": tvg_id or "Live.Event.us",
-                }
-        except Exception as e:
-            log.debug(f"Error parsing event: {e}")
-            continue
-            
-    return events
-
-
-def parse_embed_data(embed_data) -> dict[str, dict[str, str | float]]:
-    """Parse data from embed API as fallback - handles both dict and list"""
-    events = {}
-    now = Time.clean(Time.now())
+async def get_events_from_main_page() -> list[dict]:
+    """Scrape the main page for event cards and extract event info"""
+    events = []
     
     try:
-        # Handle if embed_data is a list
-        if isinstance(embed_data, list):
-            log.debug(f"Embed data is a list with {len(embed_data)} items")
-            for item in embed_data:
-                if isinstance(item, dict):
-                    events.update(parse_embed_item(item, now))
-        # Handle if embed_data is a dictionary
-        elif isinstance(embed_data, dict):
-            log.debug(f"Embed data is a dictionary with {len(embed_data)} keys")
-            # Try to find event lists in dictionary values
-            for key, value in embed_data.items():
-                if isinstance(value, list):
-                    for item in value:
-                        if isinstance(item, dict):
-                            events.update(parse_embed_item(item, now))
-                elif isinstance(value, dict):
-                    events.update(parse_embed_item(value, now))
-        else:
-            log.warning(f"Unexpected embed data type: {type(embed_data)}")
-            
-    except Exception as e:
-        log.error(f"Error parsing embed data: {e}")
-        
-    return events
-
-
-def parse_embed_item(item: dict, now) -> dict[str, dict[str, str | float]]:
-    """Parse a single embed item and return events dict"""
-    events = {}
-    
-    try:
-        # Try different possible field names for teams and IDs
-        away_team = item.get("away", item.get("awayTeam", item.get("team2", item.get("away_name", ""))))
-        home_team = item.get("home", item.get("homeTeam", item.get("team1", item.get("home_name", ""))))
-        clean_id = item.get("id", item.get("cleanId", item.get("clean_id", item.get("gameId", ""))))
-        sport = item.get("sport", item.get("league", item.get("category", "Live Event")))
-        
-        if not (away_team and home_team and clean_id):
-            # Try alternative structure where teams might be in a nested object
-            if "teams" in item and isinstance(item["teams"], list) and len(item["teams"]) >= 2:
-                away_team = item["teams"][1].get("name", "")
-                home_team = item["teams"][0].get("name", "")
-                clean_id = item.get("id", item.get("cleanId", ""))
-                
-        if not (away_team and home_team and clean_id):
+        if not (r := await network.request(MAIN_URL, headers=SCRAPE_HEADERS, log=log)):
             return events
             
-        # Create m3u8 URL from cleanId
-        m3u8_url = f"https://streamxyz.shop/{clean_id}/index.m3u8"
-        event_name = f"{away_team} vs {home_team}"
+        soup = BeautifulSoup(r.text, 'html.parser')
         
-        key = f"[{sport}] {event_name} ({TAG})"
-        tvg_id, logo = leagues.get_tvg_info(sport, event_name)
+        # Find all event cards
+        event_cards = soup.find_all('a', class_='event-card')
         
-        events[key] = {
-            "url": m3u8_url,
-            "logo": logo,
-            "base": BASE_URL,
-            "timestamp": now.timestamp(),
-            "id": tvg_id or clean_id,
-        }
+        for card in event_cards:
+            try:
+                # Extract event name from h3
+                h3 = card.find('h3')
+                if not h3:
+                    continue
+                    
+                event_name = h3.get_text(strip=True)
+                
+                # Get event link
+                event_url = card.get('href')
+                if not event_url:
+                    continue
+                    
+                # Make full URL
+                full_url = urljoin(BASE_URL, event_url)
+                
+                # Get start and end times from data attributes
+                start_time = card.get('data-start')
+                end_time = card.get('data-end')
+                
+                events.append({
+                    'name': event_name,
+                    'url': full_url,
+                    'start': start_time,
+                    'end': end_time,
+                    'sport': 'Live Event'
+                })
+                
+            except Exception as e:
+                log.debug(f"Error parsing event card: {e}")
+                continue
+                
+    except Exception as e:
+        log.error(f"Error scraping main page: {e}")
+        
+    return events
+
+
+async def extract_streams_from_event_page(event_url: str) -> list[str]:
+    """Extract m3u8 stream URLs from an event page"""
+    streams = []
+    
+    try:
+        if not (r := await network.request(event_url, headers=SCRAPE_HEADERS, log=log)):
+            return streams
+            
+        soup = BeautifulSoup(r.text, 'html.parser')
+        
+        # Look for m3u8 URLs in the page
+        # Method 1: Find all script tags that might contain stream URLs
+        scripts = soup.find_all('script')
+        for script in scripts:
+            if script.string:
+                # Look for m3u8 patterns
+                m3u8_patterns = re.findall(r'https?://[^\s"\']+\.m3u8[^\s"\']*', script.string)
+                streams.extend(m3u8_patterns)
+                
+                # Look for streamxyz.shop patterns
+                stream_patterns = re.findall(r'https?://streamxyz\.shop/[^/\s"\']+/index\.m3u8[^\s"\']*', script.string)
+                streams.extend(stream_patterns)
+        
+        # Method 2: Look for select options with stream URLs
+        selects = soup.find_all('select', class_='feed-select')
+        for select in selects:
+            options = select.find_all('option')
+            for option in options:
+                value = option.get('value', '')
+                if '.m3u8' in value:
+                    streams.append(value)
+        
+        # Method 3: Look for direct stream links
+        links = soup.find_all('a', href=True)
+        for link in links:
+            href = link.get('href', '')
+            if '.m3u8' in href:
+                full_url = urljoin(BASE_URL, href)
+                streams.append(full_url)
+        
+        # Method 4: Look in the page HTML for stream URLs
+        html_content = r.text
+        m3u8_urls = re.findall(r'https?://[^\s"\']+\.m3u8[^\s"\']*', html_content)
+        streams.extend(m3u8_urls)
+        
+        # Clean and deduplicate streams
+        unique_streams = []
+        seen = set()
+        for stream in streams:
+            if stream not in seen:
+                seen.add(stream)
+                unique_streams.append(stream)
+                
+        log.info(f"Found {len(unique_streams)} streams on {event_url}")
+        return unique_streams
         
     except Exception as e:
-        log.debug(f"Error parsing embed item: {e}")
-        
+        log.error(f"Error extracting streams from {event_url}: {e}")
+        return []
+
+
+async def get_events() -> dict[str, dict[str, str | float]]:
+    """Main function to get events and their streams"""
+    events = {}
+    
+    # Step 1: Get events from main page
+    main_events = await get_events_from_main_page()
+    
+    if not main_events:
+        log.warning("No events found on main page")
+        return events
+    
+    log.info(f"Found {len(main_events)} events on main page")
+    
+    # Step 2: For each event, extract streams
+    for event_info in main_events:
+        try:
+            event_name = event_info['name']
+            event_url = event_info['url']
+            
+            log.info(f"Processing event: {event_name}")
+            
+            # Extract streams from event page
+            streams = await extract_streams_from_event_page(event_url)
+            
+            if not streams:
+                log.warning(f"No streams found for {event_name}")
+                continue
+            
+            # Get sport info for TVG ID and logo
+            sport = event_info.get('sport', 'Live Event')
+            tvg_id, logo = leagues.get_tvg_info(sport, event_name)
+            
+            # Add each stream as a separate entry
+            for i, stream_url in enumerate(streams, start=1):
+                key = f"[{sport}] {event_name} Stream {i} ({TAG})"
+                
+                events[key] = {
+                    "url": stream_url,
+                    "logo": logo,
+                    "base": BASE_URL,
+                    "timestamp": Time.now().timestamp(),
+                    "id": tvg_id or f"stream_{i}",
+                }
+                
+            log.info(f"Added {len(streams)} streams for {event_name}")
+            
+        except Exception as e:
+            log.error(f"Error processing event {event_info.get('name', 'Unknown')}: {e}")
+            continue
+    
     return events
 
 
 async def scrape() -> None:
-    """Scrape events from all available sources"""
+    """Scrape events from website"""
     if cached := CACHE_FILE.load():
         urls.update(cached)
         log.info(f"Loaded {len(urls)} event(s) from cache")
         return
     
-    log.info('Updating from "xyzstreams"')
+    log.info('Scraping from "xyzstreams"')
     
-    # Try all sources
     events = await get_events()
     
     if events:
@@ -222,7 +234,7 @@ async def scrape() -> None:
         log.info(f"Collected and cached {len(urls)} new event(s)")
         CACHE_FILE.write(urls)
     else:
-        log.warning("No events found from any source")
+        log.warning("No events found")
 
 
 def generate_playlists() -> None:
