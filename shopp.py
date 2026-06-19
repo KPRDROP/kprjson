@@ -5,7 +5,7 @@ from datetime import datetime
 from urllib.parse import quote, urljoin
 import re
 import asyncio
-import cloudscraper
+from playwright.async_api import async_playwright
 
 log = get_logger(__name__)
 
@@ -26,15 +26,14 @@ TIVIMATE_OUTPUT = "shopp_tivimate.m3u8"
 REFERER = "https://xyzstreams.shop"
 ORIGIN = "https://xyzstreams.shop"
 
+# Use mobile user agent for better compatibility
 USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) "
-    "Gecko/20100101 Firefox/151.0"
+    "Mozilla/5.0 (Linux; Android 10; K) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/138.0.0.0 Mobile Safari/537.36"
 )
 
-TIVIMATE_USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) "
-    "Gecko/20100101 Firefox/151.0"
-)
+TIVIMATE_USER_AGENT = USER_AGENT
 
 # Browser headers for scraping
 SCRAPE_HEADERS = {
@@ -52,160 +51,158 @@ SCRAPE_HEADERS = {
 }
 
 
-async def fetch_html_with_cloudscraper(url: str) -> str | None:
-    """Fetch HTML using cloudscraper to bypass Cloudflare"""
-    try:
-        scraper = cloudscraper.create_scraper(
-            browser={
-                'browser': 'firefox',
-                'platform': 'windows',
-                'mobile': False
-            }
-        )
-        response = scraper.get(url, headers=SCRAPE_HEADERS, timeout=30)
-        if response.status_code == 200:
-            return response.text
-        else:
-            log.error(f"Cloudscraper failed with status {response.status_code}")
-            return None
-    except Exception as e:
-        log.error(f"Cloudscraper error: {e}")
-        return None
-
-
 async def get_events_from_main_page() -> list[dict]:
-    """Scrape the main page for event cards and extract event info"""
+    """Scrape the main page for event cards using tolerant parsing"""
     events = []
     
     try:
-        # Try cloudscraper first
-        html_content = await fetch_html_with_cloudscraper(MAIN_URL)
-        if not html_content:
-            # Fallback to network module
-            if not (r := await network.request(MAIN_URL, headers=SCRAPE_HEADERS, log=log)):
-                return events
-            html_content = r.text
+        # Use network module to fetch main page
+        if not (r := await network.request(MAIN_URL, headers=SCRAPE_HEADERS, log=log)):
+            log.error("Failed to fetch main page")
+            return events
+            
+        html_content = r.text
         
-        # Use regex to find event cards since BeautifulSoup might miss dynamic content
-        # Find all event cards with href and class
-        event_pattern = r'<a\s+href="([^"]+)"\s+class="event-card"[^>]*data-start="([^"]*)"[^>]*data-end="([^"]*)"[^>]*>.*?<h3>([^<]+)</h3>'
-        matches = re.findall(event_pattern, html_content, re.DOTALL)
+        # Tolerant regex to find event cards regardless of attribute order
+        card_pattern = re.compile(
+            r'<a[^>]+class=["\']event-card["\'][^>]+href=["\']([^"\']+)["\'][^>]*>(.*?)</a>',
+            re.I | re.S
+        )
         
-        if not matches:
-            # Try alternative pattern without data attributes
-            event_pattern2 = r'<a\s+href="([^"]+)"\s+class="event-card"[^>]*>.*?<h3>([^<]+)</h3>'
-            matches2 = re.findall(event_pattern2, html_content, re.DOTALL)
-            for match in matches2:
-                events.append({
-                    'name': match[1].strip(),
-                    'url': urljoin(BASE_URL, match[0]),
-                    'start': None,
-                    'end': None,
-                    'sport': 'Live Event'
-                })
-        else:
-            for match in matches:
-                events.append({
-                    'name': match[3].strip(),
-                    'url': urljoin(BASE_URL, match[0]),
-                    'start': match[1],
-                    'end': match[2],
-                    'sport': 'Live Event'
-                })
+        cards = card_pattern.findall(html_content)
         
+        for href, body in cards:
+            # Extract title from h3 tag
+            title_match = re.search(
+                r'<h3[^>]*>(.*?)</h3>',
+                body,
+                re.I | re.S
+            )
+            
+            if not title_match:
+                continue
+                
+            # Clean title from HTML tags
+            title = re.sub(
+                r'<[^>]+>',
+                '',
+                title_match.group(1)
+            ).strip()
+            
+            if not title:
+                continue
+                
+            full_url = urljoin(BASE_URL, href)
+            
+            events.append({
+                "name": title,
+                "url": full_url,
+                "sport": "Live Event"
+            })
+            
         log.info(f"Found {len(events)} events on main page")
         return events
         
     except Exception as e:
-        log.error(f"Error scraping main page: {e}")
+        log.error(f"Main page scrape error: {e}")
         return []
 
 
 async def extract_streams_from_event_page(event_url: str, event_name: str) -> list[str]:
-    """Extract m3u8 stream URLs from an event page"""
-    streams = []
+    """Extract m3u8 stream URLs using Playwright for JavaScript execution"""
+    found_streams = set()
     
     try:
-        # Try cloudscraper first
-        html_content = await fetch_html_with_cloudscraper(event_url)
-        if not html_content:
-            # Fallback to network module
-            if not (r := await network.request(event_url, headers=SCRAPE_HEADERS, log=log)):
-                return streams
-            html_content = r.text
-        
-        # Method 1: Look for channel names and construct m3u8 URLs
-        # Common channel patterns from the event page
-        channel_patterns = [
-            r'FOX\s*4K', r'FOX', r'BBC', r'TSN', r'Telemundo',
-            r'beIN\s*Max', r'D\s*Sports'
-        ]
-        
-        for pattern in channel_patterns:
-            if re.search(pattern, html_content, re.IGNORECASE):
-                # Construct m3u8 URL from channel name
-                channel_name = re.search(pattern, html_content, re.IGNORECASE).group(0)
-                channel_clean = re.sub(r'[^a-zA-Z0-9]', '', channel_name).upper()
-                if channel_clean:
-                    m3u8_url = f"https://streamxyz.shop/{channel_clean}/index.m3u8"
-                    streams.append(m3u8_url)
-        
-        # Method 2: Look for direct m3u8 URLs
-        m3u8_patterns = re.findall(r'https?://[^\s"\']+\.m3u8[^\s"\']*', html_content)
-        streams.extend(m3u8_patterns)
-        
-        # Method 3: Look for streamxyz.shop patterns
-        stream_patterns = re.findall(r'https?://streamxyz\.shop/[^/\s"\']+/index\.m3u8[^\s"\']*', html_content)
-        streams.extend(stream_patterns)
-        
-        # Method 4: Look for select options with stream URLs
-        select_pattern = r'<select[^>]*class="[^"]*feed-select[^"]*"[^>]*>.*?</select>'
-        select_matches = re.findall(select_pattern, html_content, re.DOTALL)
-        for select_html in select_matches:
-            option_pattern = r'<option[^>]*value="([^"]+\.m3u8[^"]*)"[^>]*>'
-            option_matches = re.findall(option_pattern, select_html)
-            streams.extend(option_matches)
-        
-        # Method 5: Look for video source URLs
-        source_pattern = r'<source[^>]+src="([^"]+\.m3u8[^"]*)"[^>]*>'
-        source_matches = re.findall(source_pattern, html_content)
-        streams.extend(source_matches)
-        
-        # Method 6: Look for data attributes containing stream URLs
-        data_pattern = r'data-(?:src|url|stream|video)="([^"]+\.m3u8[^"]*)"'
-        data_matches = re.findall(data_pattern, html_content)
-        streams.extend(data_matches)
-        
-        # Clean and deduplicate streams
-        unique_streams = []
-        seen = set()
-        for stream in streams:
-            stream = stream.strip()
-            if stream and stream not in seen:
-                seen.add(stream)
-                unique_streams.append(stream)
-        
-        if unique_streams:
-            log.info(f"Found {len(unique_streams)} streams for {event_name}")
-        else:
-            # If no streams found, try to construct from common channel names
-            log.warning(f"No streams found for {event_name}, trying fallback")
-            # Try to extract from the page title or content
-            title_match = re.search(r'<title>(.*?)</title>', html_content, re.IGNORECASE)
-            if title_match:
-                title = title_match.group(1)
-                # Look for common channel names in title
-                for channel in ['FOX', 'BBC', 'ESPN', 'TNT', 'NBC', 'CBS', 'ABC']:
-                    if channel in title.upper():
-                        fallback_url = f"https://streamxyz.shop/{channel}/index.m3u8"
-                        if fallback_url not in unique_streams:
-                            unique_streams.append(fallback_url)
-        
-        return unique_streams
-        
+        async with async_playwright() as p:
+            # Launch browser with mobile viewport
+            browser = await p.chromium.launch(
+                headless=True,
+                args=['--disable-blink-features=AutomationControlled']
+            )
+            
+            # Create context with mobile user agent
+            context = await browser.new_context(
+                user_agent=USER_AGENT,
+                viewport={'width': 390, 'height': 844},  # Mobile viewport
+                device_scale_factor=2
+            )
+            
+            page = await context.new_page()
+            
+            # Capture network requests
+            def capture_request(req):
+                url = req.url
+                if '.m3u8' in url:
+                    found_streams.add(url)
+                    
+            page.on('request', capture_request)
+            
+            # Also capture responses
+            def capture_response(resp):
+                url = resp.url
+                if '.m3u8' in url:
+                    found_streams.add(url)
+                    
+            page.on('response', capture_response)
+            
+            # Navigate to event page
+            try:
+                await page.goto(
+                    event_url,
+                    wait_until='networkidle',
+                    timeout=60000
+                )
+                
+                # Wait for streams to load
+                await page.wait_for_timeout(10000)
+                
+                # Get page content for additional extraction
+                html_content = await page.content()
+                
+                # Extract m3u8 URLs from HTML
+                hls_patterns = re.findall(
+                    r'https?://[^\s"\']+\.m3u8[^\s"\']*',
+                    html_content,
+                    re.I
+                )
+                for url in hls_patterns:
+                    found_streams.add(url)
+                
+                # Try to find stream URLs in JavaScript variables
+                js_patterns = re.findall(
+                    r'["\'](https?://streamxyz\.shop/[^"\']+\.m3u8[^"\']*)["\']',
+                    html_content,
+                    re.I
+                )
+                for url in js_patterns:
+                    found_streams.add(url)
+                
+                # Extract from player configurations
+                player_patterns = re.findall(
+                    r'(?:src|source|url|stream)\s*[:=]\s*["\'](https?://[^"\']+\.m3u8[^"\']*)["\']',
+                    html_content,
+                    re.I
+                )
+                for url in player_patterns:
+                    found_streams.add(url)
+                
+            except Exception as e:
+                log.error(f"Error loading {event_name}: {e}")
+                
+            await browser.close()
+            
     except Exception as e:
-        log.error(f"Error extracting streams from {event_url}: {e}")
-        return []
+        log.error(f"Playwright error for {event_name}: {e}")
+        
+    # Convert to list and sort
+    streams = sorted(found_streams)
+    
+    if streams:
+        log.info(f"Found {len(streams)} streams for {event_name}")
+    else:
+        log.warning(f"No streams found for {event_name}")
+        
+    return streams
 
 
 async def get_events() -> dict[str, dict[str, str | float]]:
@@ -227,7 +224,7 @@ async def get_events() -> dict[str, dict[str, str | float]]:
             event_name = event_info['name']
             event_url = event_info['url']
             
-            log.info(f"Processing event: {event_name} ({event_url})")
+            log.info(f"Processing event: {event_name}")
             
             # Extract streams from event page
             streams = await extract_streams_from_event_page(event_url, event_name)
