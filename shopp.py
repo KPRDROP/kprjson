@@ -131,50 +131,76 @@ def parse_api_data(api_data: list[dict]) -> dict[str, dict[str, str | float]]:
     return events
 
 
-def parse_embed_data(embed_data: dict) -> dict[str, dict[str, str | float]]:
-    """Parse data from embed API as fallback"""
+def parse_embed_data(embed_data) -> dict[str, dict[str, str | float]]:
+    """Parse data from embed API as fallback - handles both dict and list"""
     events = {}
     now = Time.clean(Time.now())
     
     try:
-        # Look for event data in embed structure
-        for sport_category, events_list in embed_data.items():
-            if not isinstance(events_list, list):
-                continue
-                
-            for event in events_list:
-                try:
-                    # Extract team names and IDs from embed data structure
-                    if isinstance(event, dict):
-                        # Try different possible field names
-                        away_team = event.get("away", event.get("awayTeam", event.get("team2", "")))
-                        home_team = event.get("home", event.get("homeTeam", event.get("team1", "")))
-                        clean_id = event.get("id", event.get("cleanId", ""))
-                        
-                        if not (away_team and home_team and clean_id):
-                            continue
-                            
-                        # Create m3u8 URL from cleanId
-                        m3u8_url = f"https://streamxyz.shop/{clean_id}/index.m3u8"
-                        event_name = f"{away_team} vs {home_team}"
-                        sport = event.get("sport", "Live Event")
-                        
-                        key = f"[{sport}] {event_name} ({TAG})"
-                        tvg_id, logo = leagues.get_tvg_info(sport, event_name)
-                        
-                        events[key] = {
-                            "url": m3u8_url,
-                            "logo": logo,
-                            "base": BASE_URL,
-                            "timestamp": now.timestamp(),
-                            "id": tvg_id or clean_id,
-                        }
-                except Exception as e:
-                    log.debug(f"Error parsing embed event: {e}")
-                    continue
-                    
+        # Handle if embed_data is a list
+        if isinstance(embed_data, list):
+            log.debug(f"Embed data is a list with {len(embed_data)} items")
+            for item in embed_data:
+                if isinstance(item, dict):
+                    events.update(parse_embed_item(item, now))
+        # Handle if embed_data is a dictionary
+        elif isinstance(embed_data, dict):
+            log.debug(f"Embed data is a dictionary with {len(embed_data)} keys")
+            # Try to find event lists in dictionary values
+            for key, value in embed_data.items():
+                if isinstance(value, list):
+                    for item in value:
+                        if isinstance(item, dict):
+                            events.update(parse_embed_item(item, now))
+                elif isinstance(value, dict):
+                    events.update(parse_embed_item(value, now))
+        else:
+            log.warning(f"Unexpected embed data type: {type(embed_data)}")
+            
     except Exception as e:
         log.error(f"Error parsing embed data: {e}")
+        
+    return events
+
+
+def parse_embed_item(item: dict, now) -> dict[str, dict[str, str | float]]:
+    """Parse a single embed item and return events dict"""
+    events = {}
+    
+    try:
+        # Try different possible field names for teams and IDs
+        away_team = item.get("away", item.get("awayTeam", item.get("team2", item.get("away_name", ""))))
+        home_team = item.get("home", item.get("homeTeam", item.get("team1", item.get("home_name", ""))))
+        clean_id = item.get("id", item.get("cleanId", item.get("clean_id", item.get("gameId", ""))))
+        sport = item.get("sport", item.get("league", item.get("category", "Live Event")))
+        
+        if not (away_team and home_team and clean_id):
+            # Try alternative structure where teams might be in a nested object
+            if "teams" in item and isinstance(item["teams"], list) and len(item["teams"]) >= 2:
+                away_team = item["teams"][1].get("name", "")
+                home_team = item["teams"][0].get("name", "")
+                clean_id = item.get("id", item.get("cleanId", ""))
+                
+        if not (away_team and home_team and clean_id):
+            return events
+            
+        # Create m3u8 URL from cleanId
+        m3u8_url = f"https://streamxyz.shop/{clean_id}/index.m3u8"
+        event_name = f"{away_team} vs {home_team}"
+        
+        key = f"[{sport}] {event_name} ({TAG})"
+        tvg_id, logo = leagues.get_tvg_info(sport, event_name)
+        
+        events[key] = {
+            "url": m3u8_url,
+            "logo": logo,
+            "base": BASE_URL,
+            "timestamp": now.timestamp(),
+            "id": tvg_id or clean_id,
+        }
+        
+    except Exception as e:
+        log.debug(f"Error parsing embed item: {e}")
         
     return events
 
