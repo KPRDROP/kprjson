@@ -94,7 +94,7 @@ async def get_main_page_playwright() -> str | None:
 async def get_events_from_main_page() -> list[dict]:
     """Scrape the main page for event cards using robust parsing"""
     events = []
-    seen_urls = set()  # Track unique URLs to avoid duplicates
+    seen_events = set()  # Track unique URLs to avoid duplicates
     
     try:
         # Try Playwright first for JavaScript-rendered content
