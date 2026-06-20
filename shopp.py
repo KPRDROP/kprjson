@@ -25,7 +25,7 @@ VLC_OUTPUT = "shopp_vlc.m3u8"
 TIVIMATE_OUTPUT = "shopp_tivimate.m3u8"
 
 # Headers for streams
-REFERER = "https://xyzstreams.shop"
+REFERER = "https://xyzstreams.shop/"
 ORIGIN = "https://xyzstreams.shop"
 
 # Use mobile user agent for better compatibility
