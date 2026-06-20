@@ -5,6 +5,7 @@ from datetime import datetime
 from urllib.parse import quote, urljoin
 import re
 import asyncio
+import json
 from playwright.async_api import async_playwright
 
 log = get_logger(__name__)
@@ -17,6 +18,7 @@ CACHE_FILE = Cache(TAG, exp=28_800)
 
 BASE_URL = "https://xyzstreams.shop/"
 MAIN_URL = "https://xyzstreams.shop/"
+API_BASE = "https://xyzstreams.shop/api/get-stream"
 
 # Output files
 VLC_OUTPUT = "shopp_vlc.m3u8"
@@ -49,9 +51,6 @@ SCRAPE_HEADERS = {
     "Upgrade-Insecure-Requests": "1",
     "User-Agent": USER_AGENT,
 }
-
-# Stream cache to avoid reprocessing same event pages
-stream_cache: dict[str, list[str]] = {}
 
 
 async def get_main_page_playwright() -> str | None:
@@ -178,13 +177,8 @@ async def get_events_from_main_page() -> list[dict]:
 
 async def extract_streams_from_event_page(event_url: str, event_name: str) -> list[str]:
     """Extract m3u8 stream URLs using Playwright for JavaScript execution"""
-    
-    # Check cache first
-    if event_url in stream_cache:
-        log.info(f"Using cached streams for {event_name}")
-        return stream_cache[event_url]
-    
     found_streams = set()
+    captured_api_urls = set()
     
     try:
         async with async_playwright() as p:
@@ -208,16 +202,38 @@ async def extract_streams_from_event_page(event_url: str, event_name: str) -> li
                 url = req.url
                 if '.m3u8' in url:
                     found_streams.add(url)
+                if '/api/get-stream' in url:
+                    captured_api_urls.add(url)
                     
             page.on('request', capture_request)
             
-            # Also capture responses
-            def capture_response(resp):
-                url = resp.url
-                if '.m3u8' in url:
-                    found_streams.add(url)
+            # Also capture responses with async handler
+            async def capture_response(resp):
+                try:
+                    url = resp.url
                     
-            page.on('response', capture_response)
+                    # Direct m3u8 requests
+                    if '.m3u8' in url:
+                        found_streams.add(url)
+                    
+                    # Token API responses
+                    if '/api/get-stream' in url:
+                        try:
+                            data = await resp.json()
+                            stream_url = data.get('url')
+                            
+                            if stream_url and '.m3u8' in stream_url:
+                                found_streams.add(stream_url)
+                                log.info(f"Captured tokenized stream: {stream_url}")
+                        except Exception:
+                            pass
+                except Exception:
+                    pass
+                    
+            page.on(
+                "response",
+                lambda resp: asyncio.create_task(capture_response(resp))
+            )
             
             # Navigate to event page with shorter timeout and domcontentloaded
             try:
@@ -232,14 +248,12 @@ async def extract_streams_from_event_page(event_url: str, event_name: str) -> li
                 
                 # Try to trigger stream loading by selecting first feed option
                 try:
-                    # Try to select the first option in any select dropdown
                     select_elements = await page.locator("select").all()
                     for select in select_elements:
                         try:
-                            # Get all options
                             options = await select.locator("option").all()
-                            if len(options) > 1:  # Has options besides placeholder
-                                await select.select_option(index=1)  # Select first real option
+                            if len(options) > 1:
+                                await select.select_option(index=1)
                                 await page.wait_for_timeout(3000)
                                 break
                         except Exception:
@@ -252,7 +266,6 @@ async def extract_streams_from_event_page(event_url: str, event_name: str) -> li
                     buttons = await page.locator("button").all()
                     for btn in buttons:
                         try:
-                            # Check if button might be related to streaming
                             btn_text = await btn.text_content()
                             if btn_text and any(keyword in btn_text.lower() for keyword in ['play', 'stream', 'watch', 'load']):
                                 await btn.click(timeout=1000)
@@ -262,8 +275,87 @@ async def extract_streams_from_event_page(event_url: str, event_name: str) -> li
                 except Exception:
                     pass
                 
+                # Wait for API calls to complete
+                await page.wait_for_timeout(3000)
+                
                 # Get page content for additional extraction
                 html_content = await page.content()
+                
+                # Extract channel names from HTML for API calls
+                api_channels = set()
+                
+                # Find channel names in various contexts
+                api_channels.update(
+                    re.findall(
+                        r'channel=([A-Za-z0-9_-]+)',
+                        html_content
+                    )
+                )
+                
+                api_channels.update(
+                    re.findall(
+                        r'/api/get-stream\?channel=([A-Za-z0-9_-]+)',
+                        html_content
+                    )
+                )
+                
+                # Also extract from select options and button texts
+                channel_names = re.findall(
+                    r'([A-Z]{2,}(?:\s*[A-Z0-9]+)?)',
+                    html_content
+                )
+                
+                # Common channel names to try
+                common_channels = ['FOX', 'BBC', 'TSN', 'Telemundo', 'ESPN', 'TNT', 'NBC', 'CBS', 'ABC']
+                for channel in common_channels:
+                    if channel in html_content:
+                        api_channels.add(channel)
+                
+                # Query the API directly for each channel
+                for channel in api_channels:
+                    try:
+                        api_url = f"{API_BASE}?channel={channel}"
+                        
+                        response = await page.request.get(
+                            api_url,
+                            headers={
+                                "Referer": REFERER,
+                                "Origin": ORIGIN,
+                                "User-Agent": USER_AGENT,
+                            }
+                        )
+                        
+                        if response.ok:
+                            data = await response.json()
+                            stream_url = data.get('url')
+                            
+                            if stream_url and '.m3u8' in stream_url:
+                                found_streams.add(stream_url)
+                                log.info(f"API stream found: {channel} -> {stream_url}")
+                    except Exception as e:
+                        log.debug(f"API lookup failed for {channel}: {e}")
+                
+                # Process any captured API URLs from network requests
+                for api_url in captured_api_urls:
+                    try:
+                        response = await page.request.get(
+                            api_url,
+                            headers={
+                                "Referer": REFERER,
+                                "Origin": ORIGIN,
+                                "User-Agent": USER_AGENT,
+                            }
+                        )
+                        
+                        if response.ok:
+                            data = await response.json()
+                            stream_url = data.get('url')
+                            
+                            if stream_url and '.m3u8' in stream_url:
+                                found_streams.add(stream_url)
+                                log.info(f"Captured API URL stream: {stream_url}")
+                    except Exception:
+                        pass
                 
                 # Extract m3u8 URLs from HTML - keep full URLs with query strings
                 hls_patterns = re.findall(
@@ -276,7 +368,7 @@ async def extract_streams_from_event_page(event_url: str, event_name: str) -> li
                 
                 # Try to find stream URLs in JavaScript variables
                 js_patterns = re.findall(
-                    r'["\'](https?://streamxyz\.shop/[^"\']+\.m3u8[^"\']*)["\']',
+                    r'["\'](https?://streamxyz\.shop/[^"\']+\.m3u8(?:\?[^"\']*)?)["\']',
                     html_content,
                     re.I
                 )
@@ -285,23 +377,12 @@ async def extract_streams_from_event_page(event_url: str, event_name: str) -> li
                 
                 # Extract from player configurations
                 player_patterns = re.findall(
-                    r'(?:src|source|url|stream)\s*[:=]\s*["\'](https?://[^"\']+\.m3u8[^"\']*)["\']',
+                    r'(?:src|source|url|stream)\s*[:=]\s*["\'](https?://[^"\']+\.m3u8(?:\?[^"\']*)?)["\']',
                     html_content,
                     re.I
                 )
                 for url in player_patterns:
                     found_streams.add(url)
-                
-                # If no streams found via network, try to find in page source
-                if not found_streams:
-                    # Look for m3u8 URLs in the entire page content
-                    all_m3u8 = re.findall(
-                        r'https?://[^\s<>"\']+\.m3u8[^\s<>"\']*',
-                        html_content,
-                        re.I
-                    )
-                    for url in all_m3u8:
-                        found_streams.add(url)
                 
             except Exception as e:
                 log.error(f"Error loading {event_name}: {e}")
@@ -311,18 +392,24 @@ async def extract_streams_from_event_page(event_url: str, event_name: str) -> li
     except Exception as e:
         log.error(f"Playwright error for {event_name}: {e}")
         
-    # Convert to list and sort
+    # Convert to list and sort, preferring tokenized URLs
     streams = sorted(found_streams)
     
-    # Cache the results
-    stream_cache[event_url] = streams
+    # Filter out non-tokenized URLs if tokenized versions exist
+    final_streams = []
+    tokenized_urls = [s for s in streams if '?' in s and 'expires' in s]
     
-    if streams:
-        log.info(f"Found {len(streams)} streams for {event_name}")
+    if tokenized_urls:
+        final_streams = tokenized_urls
+    else:
+        final_streams = streams
+    
+    if final_streams:
+        log.info(f"Found {len(final_streams)} streams for {event_name}")
     else:
         log.warning(f"No streams found for {event_name}")
         
-    return streams
+    return final_streams
 
 
 async def get_events() -> dict[str, dict[str, str | float]]:
@@ -346,7 +433,7 @@ async def get_events() -> dict[str, dict[str, str | float]]:
             
             log.info(f"Processing event: {event_name}")
             
-            # Extract streams from event page (uses cache if available)
+            # Extract streams from event page
             streams = await extract_streams_from_event_page(event_url, event_name)
             
             if not streams:
