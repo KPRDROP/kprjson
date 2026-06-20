@@ -306,7 +306,7 @@ async def extract_streams_from_event_page(event_url: str, event_name: str) -> li
                 )
                 
                 # Common channel names to try
-                common_channels = ['FOX', 'BBC', 'TSN', 'Telemundo', 'ESPN', 'TNT', 'NBC', 'CBS', 'ABC']
+                common_channels = ['FOX', 'fox4k', 'ITV', 'tsn4k', 'dsports1arg',  'BBC', 'TSN', 'Telemundo', 'ESPN', 'TNT', 'NBC', 'CBS', 'ABC']
                 for channel in common_channels:
                     if channel in html_content:
                         api_channels.add(channel)
