@@ -1,11 +1,11 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-06-20 00:00 UTC
+# Last Updated: 2026-06-20 02:54 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Australia Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Australia Stream 1 (SHOPP)
 https://streamxyz.shop/BBC/index.m3u8|referer=https://xyzstreams.shop|origin=https://xyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
 
 #EXTINF:-1 tvg-chno="2" tvg-id="stream_2" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Australia Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Australia Stream 2 (SHOPP)
-https://streamxyz.shop/FOX/index.m3u8|referer=https://xyzstreams.shop|origin=https://xyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
+https://streamxyz.shop/FS1/index.m3u8|referer=https://xyzstreams.shop|origin=https://xyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
 
 #EXTINF:-1 tvg-chno="3" tvg-id="stream_3" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Australia Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Australia Stream 3 (SHOPP)
 https://streamxyz.shop/Telemundo/index.m3u8|referer=https://xyzstreams.shop|origin=https://xyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
@@ -20,7 +20,7 @@ https://streamxyz.shop/bein4k/index.m3u8|referer=https://xyzstreams.shop|origin=
 https://streamxyz.shop/dsports1arg/index.m3u8|referer=https://xyzstreams.shop|origin=https://xyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
 
 #EXTINF:-1 tvg-chno="7" tvg-id="stream_7" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Australia Stream 7 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Australia Stream 7 (SHOPP)
-https://streamxyz.shop/fox4k/index.m3u8|referer=https://xyzstreams.shop|origin=https://xyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
+https://streamxyz.shop/fs14k/index.m3u8|referer=https://xyzstreams.shop|origin=https://xyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
 
 #EXTINF:-1 tvg-chno="8" tvg-id="stream_8" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Australia Stream 8 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Australia Stream 8 (SHOPP)
 https://streamxyz.shop/tsn1/index.m3u8|referer=https://xyzstreams.shop|origin=https://xyzstreams.shop|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
