@@ -109,14 +109,24 @@ async def get_events_from_main_page() -> list[dict]:
         
         # Debug: log content info
         log.info(f"Downloaded {len(html_content)} bytes")
-        
-        # Find all event card blocks regardless of attribute order
+
+        # Focus only on the events grid
         event_blocks = re.findall(
             r'<a\b[^>]*class=["\'][^"\']*event-card[^"\']*["\'][^>]*>.*?</a>',
             html_content,
             re.I | re.S
         )
-        
+
+        if grid_match:
+            html_content = grid_match.group(1)
+
+        # Extract ALL event cards
+        event_blocks = re.findall(
+            r'<a\b[^>]*class=["\'][^"\']*event-card[^"\']*["\'][^>]*>.*?</a>',
+            html_content,
+            re.I | re.S
+        )
+
         log.info(f"Found {len(event_blocks)} event blocks")
         
         for block in event_blocks:
@@ -138,11 +148,19 @@ async def get_events_from_main_page() -> list[dict]:
                 continue
             
             href = href_match.group(1).strip()
-            
-            # Skip duplicate URLs
-            if href in seen_urls:
+
+            title = re.sub(
+               r'<[^>]+>',
+               '',
+               title_match.group(1)
+            ).strip()
+
+            event_key = f"{title}|{href}"
+
+            if event_key in seen_events:
                 continue
-            seen_urls.add(href)
+
+            seen_events.add(event_key)
             
             # Clean title from HTML tags
             title = re.sub(
@@ -217,13 +235,32 @@ async def extract_streams_from_event_page(event_url: str, event_name: str) -> li
                 
                 # Wait for potential stream content to load
                 await page.wait_for_timeout(5000)  # Reduced from 10000
+				
+		    try:
+                await page.locator("select").select_option(index=0)
+                await page.wait_for_timeout(3000)
+            except Exception:
+                pass
+				
+		    try:
+                buttons = await page.locator("button").all()
+
+                for btn in buttons:
+                    try:
+                        await btn.click(timeout=1000)
+                        await page.wait_for_timeout(1500)
+                    except Exception:
+                        pass
+						
+           except Exception:
+               pass
                 
                 # Get page content for additional extraction
                 html_content = await page.content()
                 
                 # Extract m3u8 URLs from HTML
                 hls_patterns = re.findall(
-                    r'https?://[^\s"\']+\.m3u8[^\s"\']*',
+                    r'https?://[^\s"\']+\.m3u8(?:\?[^\s"\']*)?',
                     html_content,
                     re.I
                 )
