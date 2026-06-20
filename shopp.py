@@ -50,6 +50,9 @@ SCRAPE_HEADERS = {
     "User-Agent": USER_AGENT,
 }
 
+# Stream cache to avoid reprocessing same event pages
+stream_cache: dict[str, list[str]] = {}
+
 
 async def get_main_page_playwright() -> str | None:
     """Fetch main page using Playwright for JavaScript rendering"""
@@ -92,9 +95,9 @@ async def get_main_page_playwright() -> str | None:
 
 
 async def get_events_from_main_page() -> list[dict]:
-    """Scrape the main page for event cards using robust parsing"""
+    """Scrape the main page for all event cards using robust parsing"""
     events = []
-    seen_events = set()  # Track unique URLs to avoid duplicates
+    seen_events = set()  # Track unique events by title + href
     
     try:
         # Try Playwright first for JavaScript-rendered content
@@ -109,24 +112,14 @@ async def get_events_from_main_page() -> list[dict]:
         
         # Debug: log content info
         log.info(f"Downloaded {len(html_content)} bytes")
-
-        # Focus only on the events grid
+        
+        # Find ALL event card blocks - simple pattern that works regardless of attribute order
         event_blocks = re.findall(
             r'<a\b[^>]*class=["\'][^"\']*event-card[^"\']*["\'][^>]*>.*?</a>',
             html_content,
             re.I | re.S
         )
-
-        if grid_match:
-            html_content = grid_match.group(1)
-
-        # Extract ALL event cards
-        event_blocks = re.findall(
-            r'<a\b[^>]*class=["\'][^"\']*event-card[^"\']*["\'][^>]*>.*?</a>',
-            html_content,
-            re.I | re.S
-        )
-
+        
         log.info(f"Found {len(event_blocks)} event blocks")
         
         for block in event_blocks:
@@ -148,19 +141,6 @@ async def get_events_from_main_page() -> list[dict]:
                 continue
             
             href = href_match.group(1).strip()
-
-            title = re.sub(
-               r'<[^>]+>',
-               '',
-               title_match.group(1)
-            ).strip()
-
-            event_key = f"{title}|{href}"
-
-            if event_key in seen_events:
-                continue
-
-            seen_events.add(event_key)
             
             # Clean title from HTML tags
             title = re.sub(
@@ -171,6 +151,14 @@ async def get_events_from_main_page() -> list[dict]:
             
             if not title:
                 continue
+            
+            # Create unique key from title + href to handle duplicate hrefs
+            event_key = f"{title}|{href}"
+            
+            # Skip duplicate events
+            if event_key in seen_events:
+                continue
+            seen_events.add(event_key)
             
             full_url = urljoin(BASE_URL, href)
             
@@ -190,6 +178,12 @@ async def get_events_from_main_page() -> list[dict]:
 
 async def extract_streams_from_event_page(event_url: str, event_name: str) -> list[str]:
     """Extract m3u8 stream URLs using Playwright for JavaScript execution"""
+    
+    # Check cache first
+    if event_url in stream_cache:
+        log.info(f"Using cached streams for {event_name}")
+        return stream_cache[event_url]
+    
     found_streams = set()
     
     try:
@@ -230,35 +224,48 @@ async def extract_streams_from_event_page(event_url: str, event_name: str) -> li
                 await page.goto(
                     event_url,
                     wait_until='domcontentloaded',
-                    timeout=30000  # Reduced from 60000
+                    timeout=30000
                 )
                 
                 # Wait for potential stream content to load
-                await page.wait_for_timeout(5000)  # Reduced from 10000
-				
-		    try:
-                await page.locator("select").select_option(index=0)
-                await page.wait_for_timeout(3000)
-            except Exception:
-                pass
-				
-		    try:
-                buttons = await page.locator("button").all()
-
-                for btn in buttons:
-                    try:
-                        await btn.click(timeout=1000)
-                        await page.wait_for_timeout(1500)
-                    except Exception:
-                        pass
-						
-           except Exception:
-               pass
+                await page.wait_for_timeout(5000)
+                
+                # Try to trigger stream loading by selecting first feed option
+                try:
+                    # Try to select the first option in any select dropdown
+                    select_elements = await page.locator("select").all()
+                    for select in select_elements:
+                        try:
+                            # Get all options
+                            options = await select.locator("option").all()
+                            if len(options) > 1:  # Has options besides placeholder
+                                await select.select_option(index=1)  # Select first real option
+                                await page.wait_for_timeout(3000)
+                                break
+                        except Exception:
+                            continue
+                except Exception:
+                    pass
+                
+                # Try to click buttons that might load streams
+                try:
+                    buttons = await page.locator("button").all()
+                    for btn in buttons:
+                        try:
+                            # Check if button might be related to streaming
+                            btn_text = await btn.text_content()
+                            if btn_text and any(keyword in btn_text.lower() for keyword in ['play', 'stream', 'watch', 'load']):
+                                await btn.click(timeout=1000)
+                                await page.wait_for_timeout(1500)
+                        except Exception:
+                            continue
+                except Exception:
+                    pass
                 
                 # Get page content for additional extraction
                 html_content = await page.content()
                 
-                # Extract m3u8 URLs from HTML
+                # Extract m3u8 URLs from HTML - keep full URLs with query strings
                 hls_patterns = re.findall(
                     r'https?://[^\s"\']+\.m3u8(?:\?[^\s"\']*)?',
                     html_content,
@@ -307,6 +314,9 @@ async def extract_streams_from_event_page(event_url: str, event_name: str) -> li
     # Convert to list and sort
     streams = sorted(found_streams)
     
+    # Cache the results
+    stream_cache[event_url] = streams
+    
     if streams:
         log.info(f"Found {len(streams)} streams for {event_name}")
     else:
@@ -336,7 +346,7 @@ async def get_events() -> dict[str, dict[str, str | float]]:
             
             log.info(f"Processing event: {event_name}")
             
-            # Extract streams from event page
+            # Extract streams from event page (uses cache if available)
             streams = await extract_streams_from_event_page(event_url, event_name)
             
             if not streams:
