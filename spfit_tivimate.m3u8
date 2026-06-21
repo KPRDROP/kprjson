@@ -1,7 +1,19 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-06-21 10:06 UTC
-# Total Streams: 1
+# Last Updated: 2026-06-21 14:32 UTC
+# Total Streams: 5
 
-#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[MMA] UFC FIGHT NIGHT: KAPE VS. HORIGUCHI 2 Meta APEX Las Vegas NV USA Jun 20 2022 Final (SPFIT)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[MMA] UFC FIGHT NIGHT: KAPE VS. HORIGUCHI 2 Meta APEX Las Vegas NV USA Jun 20 2022 Final (SPFIT)
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Belgium Today at 7:00 PM vs Iran (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Belgium Today at 7:00 PM vs Iran (SPFIT)
+https://storage.googleapis.com/xredsox/nflnw/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Spain Today at 4:00 PM vs Saudi Arabia (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Spain Today at 4:00 PM vs Saudi Arabia (SPFIT)
+https://storage.googleapis.com/xredsox/nflnw/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Uruguay Today at 10:00 PM vs Cape Verde (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Uruguay Today at 10:00 PM vs Cape Verde (SPFIT)
+https://storage.googleapis.com/xredsox/nflnw/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] New Zealand Tomorrow at 1:00 AM vs Egypt (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] New Zealand Tomorrow at 1:00 AM vs Egypt (SPFIT)
+https://storage.googleapis.com/xredsox/nflnw/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[MMA] UFC FIGHT NIGHT: KAPE VS. HORIGUCHI 2 Meta APEX Las Vegas NV USA Jun 20 2022 Final (SPFIT)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[MMA] UFC FIGHT NIGHT: KAPE VS. HORIGUCHI 2 Meta APEX Las Vegas NV USA Jun 20 2022 Final (SPFIT)
 https://storage.googleapis.com/xredsox/nbcsn/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
