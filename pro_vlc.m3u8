@@ -155,49 +155,31 @@ https://dami-tv.pro/live-hls/channel/wc/2026-06-21/uru-cpv/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wc/2026-06-21/nzl-egy/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="27" tvg-id="Live.Event.us" tvg-name="[Rugby] Roosters vs. Sharks (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ba99588a531aca3b621324630ac2fcc0-thumbnail.jpg" group-title="Live Events",[Rugby] Roosters vs. Sharks (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=nrl/2026-06-21/syd-cro
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=nrl/2026-06-21/syd-cro
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/nrl/2026-06-21/syd-cro/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="28" tvg-id="Live.Event.us" tvg-name="[Volleyball] Czechia vs. Dominican Republic (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/c513a3da8ba8f209a7d15678aa528af4-thumbnail.jpg" group-title="Live Events",[Volleyball] Czechia vs. Dominican Republic (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=womensvnl/2026-06-21/cze-dom
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=womensvnl/2026-06-21/cze-dom
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/womensvnl/2026-06-21/cze-dom/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="29" tvg-id="Live.Event.us" tvg-name="[Volleyball] Belgium vs. France (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/97f8ddc4daf1ea88abbef1acf599d311-thumbnail.jpg" group-title="Live Events",[Volleyball] Belgium vs. France (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=womensvnl/2026-06-21/bel-fra
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=womensvnl/2026-06-21/bel-fra
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/womensvnl/2026-06-21/bel-fra/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="30" tvg-id="Live.Event.us" tvg-name="[Volleyball] Canada vs. Poland (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/7ff73a1c9c975f53da302af8d71f9c42-thumbnail.jpg" group-title="Live Events",[Volleyball] Canada vs. Poland (PRO)
+#EXTINF:-1 tvg-chno="27" tvg-id="Live.Event.us" tvg-name="[Volleyball] Canada vs. Poland (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/7ff73a1c9c975f53da302af8d71f9c42-thumbnail.jpg" group-title="Live Events",[Volleyball] Canada vs. Poland (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=womensvnl/2026-06-21/can-pol
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=womensvnl/2026-06-21/can-pol
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/womensvnl/2026-06-21/can-pol/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="31" tvg-id="Live.Event.us" tvg-name="[Volleyball] Japan vs. Italy (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ff53242e52cde2a71baf531452dee8d1-thumbnail.jpg" group-title="Live Events",[Volleyball] Japan vs. Italy (PRO)
+#EXTINF:-1 tvg-chno="28" tvg-id="Live.Event.us" tvg-name="[Volleyball] Japan vs. Italy (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ff53242e52cde2a71baf531452dee8d1-thumbnail.jpg" group-title="Live Events",[Volleyball] Japan vs. Italy (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=womensvnl/2026-06-21/jap-ita
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=womensvnl/2026-06-21/jap-ita
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/womensvnl/2026-06-21/jap-ita/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="32" tvg-id="Live.Event.us" tvg-name="[Volleyball] Germany vs. Brazil (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/a2039ce22a1dbfd06b6838014a91af9e-thumbnail.jpg" group-title="Live Events",[Volleyball] Germany vs. Brazil (PRO)
+#EXTINF:-1 tvg-chno="29" tvg-id="Live.Event.us" tvg-name="[Volleyball] Germany vs. Brazil (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/a2039ce22a1dbfd06b6838014a91af9e-thumbnail.jpg" group-title="Live Events",[Volleyball] Germany vs. Brazil (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=womensvnl/2026-06-21/ger-bra
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=womensvnl/2026-06-21/ger-bra
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/womensvnl/2026-06-21/ger-bra/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="33" tvg-id="Live.Event.us" tvg-name="[Volleyball] Thailand vs. Netherlands (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/6daf8052a5f74582f63e6dbe922b45ad-thumbnail.jpg" group-title="Live Events",[Volleyball] Thailand vs. Netherlands (PRO)
+#EXTINF:-1 tvg-chno="30" tvg-id="Live.Event.us" tvg-name="[Volleyball] Thailand vs. Netherlands (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/6daf8052a5f74582f63e6dbe922b45ad-thumbnail.jpg" group-title="Live Events",[Volleyball] Thailand vs. Netherlands (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=womensvnl/2026-06-21/tha-net
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=womensvnl/2026-06-21/tha-net
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/womensvnl/2026-06-21/tha-net/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="34" tvg-id="Live.Event.us" tvg-name="[Volleyball] Türkiye vs. China (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/67764fdf99e2ed4fb9ddbb1ddb6f4a2a-thumbnail.jpg" group-title="Live Events",[Volleyball] Türkiye vs. China (PRO)
+#EXTINF:-1 tvg-chno="31" tvg-id="Live.Event.us" tvg-name="[Volleyball] Türkiye vs. China (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/67764fdf99e2ed4fb9ddbb1ddb6f4a2a-thumbnail.jpg" group-title="Live Events",[Volleyball] Türkiye vs. China (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=womensvnl/2026-06-21/tür-chi
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=womensvnl/2026-06-21/tür-chi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
