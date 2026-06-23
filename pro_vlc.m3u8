@@ -119,13 +119,7 @@ https://dami-tv.pro/live-hls/channel/wc/2026-06-23/pan-cro/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wc/2026-06-23/col-cod/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="21" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: Smackdown (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ec7810b68fc39115ce3510bcf9687a63-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: Smackdown (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wwe/smackdown/2026-06-23
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wwe/smackdown/2026-06-23
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/wwe/smackdown/2026-06-23/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="22" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: NXT (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ef5595e08561ede45c52b36a0b62af76-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: NXT (PRO)
+#EXTINF:-1 tvg-chno="21" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: NXT (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ef5595e08561ede45c52b36a0b62af76-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: NXT (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wwe/nxt/2026-06-23
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wwe/nxt/2026-06-23
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
