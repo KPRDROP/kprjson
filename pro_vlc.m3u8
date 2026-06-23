@@ -101,25 +101,19 @@ https://dami-tv.pro/live-hls/channel/2026-nba-draft--round-1/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wnba/2026-06-23/ny-lv/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="18" tvg-id="Soccer.Dummy.us" tvg-name="[Football] England vs. Ghana (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/cdcd53f827629723ce2b16a3d55dcbcd-thumbnail.jpg" group-title="Live Events",[Football] England vs. Ghana (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wc/2026-06-23/eng-gha
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wc/2026-06-23/eng-gha
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/wc/2026-06-23/eng-gha/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="19" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Panama vs. Croatia (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/cc66e953048e3b9b49c40a58e45b05ef-thumbnail.jpg" group-title="Live Events",[Football] Panama vs. Croatia (PRO)
+#EXTINF:-1 tvg-chno="18" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Panama vs. Croatia (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/cc66e953048e3b9b49c40a58e45b05ef-thumbnail.jpg" group-title="Live Events",[Football] Panama vs. Croatia (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wc/2026-06-23/pan-cro
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wc/2026-06-23/pan-cro
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wc/2026-06-23/pan-cro/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="20" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Colombia vs. Congo DR (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/e5751355526b1d77d9bbc4358249a482-thumbnail.jpg" group-title="Live Events",[Football] Colombia vs. Congo DR (PRO)
+#EXTINF:-1 tvg-chno="19" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Colombia vs. Congo DR (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/e5751355526b1d77d9bbc4358249a482-thumbnail.jpg" group-title="Live Events",[Football] Colombia vs. Congo DR (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wc/2026-06-23/col-cod
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wc/2026-06-23/col-cod
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wc/2026-06-23/col-cod/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="21" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: NXT (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ef5595e08561ede45c52b36a0b62af76-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: NXT (PRO)
+#EXTINF:-1 tvg-chno="20" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: NXT (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ef5595e08561ede45c52b36a0b62af76-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: NXT (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wwe/nxt/2026-06-23
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wwe/nxt/2026-06-23
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
