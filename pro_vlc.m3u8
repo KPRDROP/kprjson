@@ -89,17 +89,17 @@ https://dami-tv.pro/live-hls/channel/mlb/2026-06-23/atl-sd/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mlb/2026-06-23/ath-sf/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="16" tvg-id="WNBA.dummy.us" tvg-name="[Basketball] New York Liberty vs. Las Vegas Aces (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/3e84ae089438b3c81f80bee662c940d5-thumbnail.jpg" group-title="Live Events",[Basketball] New York Liberty vs. Las Vegas Aces (PRO)
+#EXTINF:-1 tvg-chno="16" tvg-id="Basketball.Dummy.us" tvg-name="[Basketball] 2026 NBA Draft | Round 1 (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/d8c6788285e93807efdeb5b38cb4a355-thumbnail.jpg" group-title="Live Events",[Basketball] 2026 NBA Draft | Round 1 (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=2026-nba-draft--round-1
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=2026-nba-draft--round-1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://dami-tv.pro/live-hls/channel/2026-nba-draft--round-1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="17" tvg-id="WNBA.dummy.us" tvg-name="[Basketball] New York Liberty vs. Las Vegas Aces (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/3e84ae089438b3c81f80bee662c940d5-thumbnail.jpg" group-title="Live Events",[Basketball] New York Liberty vs. Las Vegas Aces (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wnba/2026-06-23/ny-lv
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wnba/2026-06-23/ny-lv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wnba/2026-06-23/ny-lv/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="17" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Portugal vs. Uzbekistan (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/fd2bdcc0ef335982c658f336171246a4-thumbnail.jpg" group-title="Live Events",[Football] Portugal vs. Uzbekistan (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wc/2026-06-23/por-uzb
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wc/2026-06-23/por-uzb
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/wc/2026-06-23/por-uzb/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="18" tvg-id="Soccer.Dummy.us" tvg-name="[Football] England vs. Ghana (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/cdcd53f827629723ce2b16a3d55dcbcd-thumbnail.jpg" group-title="Live Events",[Football] England vs. Ghana (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wc/2026-06-23/eng-gha
