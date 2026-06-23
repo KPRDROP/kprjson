@@ -1,18 +1,18 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-06-23 12:48 UTC
+# Last Updated: 2026-06-23 16:35 UTC
 # Total Streams: 5
 
 #EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Portugal Today at 5:00 PM vs Uzbekistan (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Portugal Today at 5:00 PM vs Uzbekistan (SPFIT)
-https://storage.googleapis.com/msnuke4/mainnet/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://obeliskadefat.s3.us-west-2.amazonaws.com/btsport.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Colombia Tomorrow at 2:00 AM vs Congo DR (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Colombia Tomorrow at 2:00 AM vs Congo DR (SPFIT)
-https://storage.googleapis.com/msnuke4/mainnet/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] England Today at 8:00 PM vs Ghana (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] England Today at 8:00 PM vs Ghana (SPFIT)
+https://obeliskadefat.s3.us-west-2.amazonaws.com/btsport.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
 #EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Panama Today at 11:00 PM vs Croatia (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Panama Today at 11:00 PM vs Croatia (SPFIT)
-https://storage.googleapis.com/msnuke4/mainnet/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://obeliskadefat.s3.us-west-2.amazonaws.com/btsport.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] England Today at 8:00 PM vs Ghana (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] England Today at 8:00 PM vs Ghana (SPFIT)
-https://storage.googleapis.com/msnuke4/mainnet/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Colombia Tomorrow at 2:00 AM vs Congo DR (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Colombia Tomorrow at 2:00 AM vs Congo DR (SPFIT)
+https://obeliskadefat.s3.us-west-2.amazonaws.com/btsport.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
 #EXTINF:-1 tvg-chno="5" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Cleveland Guardians Today at 11:40 PM vs Chicago White Sox (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Cleveland Guardians Today at 11:40 PM vs Chicago White Sox (SPFIT)
 https://obeliskadefat.s3.us-west-2.amazonaws.com/whitesox.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
