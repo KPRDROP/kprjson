@@ -155,49 +155,43 @@ https://dami-tv.pro/live-hls/channel/wc/2026-06-24/cze-mex/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wc/2026-06-24/rsa-kor/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="27" tvg-id="Live.Event.us" tvg-name="[Volleyball] Serbia vs. Japan (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/c371527f5b22ec5a352cc1c192c4aad3-thumbnail.jpg" group-title="Live Events",[Volleyball] Serbia vs. Japan (PRO)
-#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mensvnl/2026-06-24/ser-jap
-#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mensvnl/2026-06-24/ser-jap
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://dami-tv.pro/live-hls/channel/mensvnl/2026-06-24/ser-jap/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="28" tvg-id="Live.Event.us" tvg-name="[Volleyball] Argentina vs. Germany (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/92971ed507dc03e120de3a7e597453c4-thumbnail.jpg" group-title="Live Events",[Volleyball] Argentina vs. Germany (PRO)
+#EXTINF:-1 tvg-chno="27" tvg-id="Live.Event.us" tvg-name="[Volleyball] Argentina vs. Germany (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/92971ed507dc03e120de3a7e597453c4-thumbnail.jpg" group-title="Live Events",[Volleyball] Argentina vs. Germany (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mensvnl/2026-06-24/arg-ger
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mensvnl/2026-06-24/arg-ger
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mensvnl/2026-06-24/arg-ger/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="29" tvg-id="Live.Event.us" tvg-name="[Volleyball] Ukraine vs. Brazil (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/22fc14decc77c5723c7fdeb90f706117-thumbnail.jpg" group-title="Live Events",[Volleyball] Ukraine vs. Brazil (PRO)
+#EXTINF:-1 tvg-chno="28" tvg-id="Live.Event.us" tvg-name="[Volleyball] Ukraine vs. Brazil (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/22fc14decc77c5723c7fdeb90f706117-thumbnail.jpg" group-title="Live Events",[Volleyball] Ukraine vs. Brazil (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mensvnl/2026-06-24/ukr-bra
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mensvnl/2026-06-24/ukr-bra
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mensvnl/2026-06-24/ukr-bra/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="30" tvg-id="Live.Event.us" tvg-name="[Volleyball] Cuba vs. USA (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/acc995adc9310e4458143b107641f555-thumbnail.jpg" group-title="Live Events",[Volleyball] Cuba vs. USA (PRO)
+#EXTINF:-1 tvg-chno="29" tvg-id="Live.Event.us" tvg-name="[Volleyball] Cuba vs. USA (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/acc995adc9310e4458143b107641f555-thumbnail.jpg" group-title="Live Events",[Volleyball] Cuba vs. USA (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mensvnl/2026-06-24/cub-usa
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mensvnl/2026-06-24/cub-usa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mensvnl/2026-06-24/cub-usa/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="31" tvg-id="Live.Event.us" tvg-name="[Volleyball] Poland vs. Belgium (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/8883a3747f3171a5a58292988cbb520a-thumbnail.jpg" group-title="Live Events",[Volleyball] Poland vs. Belgium (PRO)
+#EXTINF:-1 tvg-chno="30" tvg-id="Live.Event.us" tvg-name="[Volleyball] Poland vs. Belgium (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/8883a3747f3171a5a58292988cbb520a-thumbnail.jpg" group-title="Live Events",[Volleyball] Poland vs. Belgium (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mensvnl/2026-06-24/pol-bel
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mensvnl/2026-06-24/pol-bel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mensvnl/2026-06-24/pol-bel/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="32" tvg-id="Live.Event.us" tvg-name="[Volleyball] Slovenia vs. Canada (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/d3ec77392afadcbae315cf81ee5a9f6c-thumbnail.jpg" group-title="Live Events",[Volleyball] Slovenia vs. Canada (PRO)
+#EXTINF:-1 tvg-chno="31" tvg-id="Live.Event.us" tvg-name="[Volleyball] Slovenia vs. Canada (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/d3ec77392afadcbae315cf81ee5a9f6c-thumbnail.jpg" group-title="Live Events",[Volleyball] Slovenia vs. Canada (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mensvnl/2026-06-24/slo-can
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mensvnl/2026-06-24/slo-can
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mensvnl/2026-06-24/slo-can/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="33" tvg-id="Live.Event.us" tvg-name="[Volleyball] France vs. Iran (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/36bf49409a78d8cc9b0505ebd83235c8-thumbnail.jpg" group-title="Live Events",[Volleyball] France vs. Iran (PRO)
+#EXTINF:-1 tvg-chno="32" tvg-id="Live.Event.us" tvg-name="[Volleyball] France vs. Iran (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/36bf49409a78d8cc9b0505ebd83235c8-thumbnail.jpg" group-title="Live Events",[Volleyball] France vs. Iran (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=mensvnl/2026-06-24/fra-ira
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=mensvnl/2026-06-24/fra-ira
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/mensvnl/2026-06-24/fra-ira/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="34" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] AEW: Wednesday Night Dynamite (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/b406ff9100d91b9210600260350246ff-thumbnail.jpg" group-title="Live Events",[Wrestling] AEW: Wednesday Night Dynamite (PRO)
+#EXTINF:-1 tvg-chno="33" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] AEW: Wednesday Night Dynamite (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/b406ff9100d91b9210600260350246ff-thumbnail.jpg" group-title="Live Events",[Wrestling] AEW: Wednesday Night Dynamite (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=aew/dynamite/2026-06-24
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=aew/dynamite/2026-06-24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
