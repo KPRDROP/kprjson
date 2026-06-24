@@ -1,10 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Angels - Baltimore Orioles (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Los Angeles Angels - Baltimore Orioles (EMBED)
-https://cdn1.zohanayaan.com:1686/hls/mlosangelesangels.m3u8?md5=f3RIZRsG9MOrmLvhWVfn7Q&expires=1782281927|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Diego Padres - Atlanta Braves (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] San Diego Padres - Atlanta Braves (EMBED)
-https://cdn2.zohanayaan.com:1686/hls/msandiegopadres.m3u8?md5=AitJboAevVMve_5n45_SHQ&expires=1782281928|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Francisco Giants - Athletics (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] San Francisco Giants - Athletics (EMBED)
-https://cdn13.zohanayaan.com:1686/hls/msanfranciscogiants.m3u8?md5=h6fIlDIbPY0h7J-UyT647A&expires=1782281929|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Miami Marlins - Texas Rangers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Miami Marlins - Texas Rangers (EMBED)
+https://cdn14.zohanayaan.com:1686/hls/mmiamimarlins.m3u8?md5=QubJbMT8_7qeGdbcAF5IFQ&expires=1782325380|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
 
