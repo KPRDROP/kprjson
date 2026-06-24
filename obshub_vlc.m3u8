@@ -10,3 +10,9 @@ https://obstreamx.click/live/zoojqh2zjh.m3u8
 #EXTVLCOPT:http-origin=https://obstream.pro
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://obstreamx.click/live/rfvtzlcu7e.m3u8
+
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="Morocco vs Haiti" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/4.png" group-title="FIFA World Cup",Morocco vs Haiti
+#EXTVLCOPT:http-referrer=https://obstream.pro/
+#EXTVLCOPT:http-origin=https://obstream.pro
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://obstreamx.click/live/n8ilhjbzdh.m3u8
