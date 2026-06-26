@@ -16,17 +16,17 @@ TAG = "SHOPP"
 
 CACHE_FILE = Cache(TAG, exp=28_800)
 
-BASE_URL = "https://xyzstreams.shop/"
-MAIN_URL = "https://xyzstreams.shop/"
-API_BASE = "https://xyzstreams.shop/api/get-stream"
+BASE_URL = "https://xyzstreams.st/"
+MAIN_URL = "https://xyzstreams.st/"
+API_BASE = "https://xyzstreams.st/api/get-stream"
 
 # Output files
 VLC_OUTPUT = "shopp_vlc.m3u8"
 TIVIMATE_OUTPUT = "shopp_tivimate.m3u8"
 
 # Headers for streams
-REFERER = "https://xyzstreams.shop/"
-ORIGIN = "https://xyzstreams.shop"
+REFERER = "https://xyzstreams.st/"
+ORIGIN = "https://xyzstreams.st"
 
 # Use mobile user agent for better compatibility
 USER_AGENT = (
