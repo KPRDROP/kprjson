@@ -43,7 +43,7 @@ SCRAPE_HEADERS = {
     "Accept-Encoding": "gzip, deflate, br",
     "Accept-Language": "en-US,en;q=0.9",
     "Connection": "keep-alive",
-    "Host": "xyzstreams.shop",
+    "Host": "xyzstreams.st",
     "Referer": "https://xyzstreams.st/",
     "Sec-Fetch-Dest": "document",
     "Sec-Fetch-Mode": "navigate",
