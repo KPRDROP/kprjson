@@ -44,7 +44,7 @@ SCRAPE_HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
     "Connection": "keep-alive",
     "Host": "xyzstreams.shop",
-    "Referer": "https://xyzstreams.shop/",
+    "Referer": "https://xyzstreams.st/",
     "Sec-Fetch-Dest": "document",
     "Sec-Fetch-Mode": "navigate",
     "Sec-Fetch-Site": "same-origin",
