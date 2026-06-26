@@ -1,2 +1,46 @@
-#EXTM3U
-# No events available
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
+# Last Updated: 2026-06-26 16:30 UTC
+# Total Streams: 7
+
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Uruguay Tomorrow at 12:00 AM vs Spain (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Uruguay Tomorrow at 12:00 AM vs Spain (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.fit/
+#EXTVLCOPT:http-origin=https://sportspass.fit
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://storage.googleapis.com/bluejaysx/bsports/manifest.m3u8
+
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Norway Today at 7:00 PM vs France (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Norway Today at 7:00 PM vs France (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.fit/
+#EXTVLCOPT:http-origin=https://sportspass.fit
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://storage.googleapis.com/bluejaysx/bsports/manifest.m3u8
+
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Cape Verde Tomorrow at 12:00 AM vs Saudi Arabia (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Cape Verde Tomorrow at 12:00 AM vs Saudi Arabia (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.fit/
+#EXTVLCOPT:http-origin=https://sportspass.fit
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://storage.googleapis.com/bluejaysx/bsports/manifest.m3u8
+
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Senegal Today at 7:00 PM vs Iraq (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Senegal Today at 7:00 PM vs Iraq (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.fit/
+#EXTVLCOPT:http-origin=https://sportspass.fit
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://storage.googleapis.com/bluejaysx/bsports/manifest.m3u8
+
+#EXTINF:-1 tvg-chno="5" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Egypt Tomorrow at 3:00 AM vs Iran (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Egypt Tomorrow at 3:00 AM vs Iran (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.fit/
+#EXTVLCOPT:http-origin=https://sportspass.fit
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://storage.googleapis.com/bluejaysx/bsports/manifest.m3u8
+
+#EXTINF:-1 tvg-chno="6" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] New Zealand Tomorrow at 3:00 AM vs Belgium (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] New Zealand Tomorrow at 3:00 AM vs Belgium (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.fit/
+#EXTVLCOPT:http-origin=https://sportspass.fit
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://storage.googleapis.com/bluejaysx/bsports/manifest.m3u8
+
+#EXTINF:-1 tvg-chno="7" tvg-id="Racing.Dummy.us" tvg-name="[F1] LENOVO AUSTRIAN GP Formula 1 Grosser Preis Von Österreich 2026 JUN 26 - 28 2026 ROUND 10 (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] LENOVO AUSTRIAN GP Formula 1 Grosser Preis Von Österreich 2026 JUN 26 - 28 2026 ROUND 10 (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.fit/
+#EXTVLCOPT:http-origin=https://sportspass.fit
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://storage.googleapis.com/bluejaysx/bsports/manifest.m3u8
+
