@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-06-26 21:17 UTC
+# Last Updated: 2026-06-26 23:04 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] FIFA WC 2026™ - Multiview (Watch 2 Games at once) Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Multiview (Watch 2 Games at once) Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -167,7 +167,7 @@ https://lb.xyzcloud3.xyz/FS1/index.m3u8
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://lb.xyzcloud3.xyz/ITV4/index.m3u8
+https://lb.xyzcloud3.xyz/ITV/index.m3u8
 
 #EXTINF:-1 tvg-chno="29" tvg-id="stream_3" tvg-name="[Live Event] FIFA WC 2026™ - Senegal vs Iraq Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Senegal vs Iraq Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -191,19 +191,19 @@ https://lb.xyzcloud3.xyz/fs14k/index.m3u8
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://lb.xyzcloud3.xyz/tele4k2/index.m3u8
+https://lb.xyzcloud3.xyz/tod3/index.m3u8
 
 #EXTINF:-1 tvg-chno="33" tvg-id="stream_7" tvg-name="[Live Event] FIFA WC 2026™ - Senegal vs Iraq Stream 7 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Senegal vs Iraq Stream 7 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://lb.xyzcloud3.xyz/tod4/index.m3u8
+https://lb.xyzcloud3.xyz/tsn2/index.m3u8
 
 #EXTINF:-1 tvg-chno="34" tvg-id="stream_8" tvg-name="[Live Event] FIFA WC 2026™ - Senegal vs Iraq Stream 8 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Senegal vs Iraq Stream 8 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://lb.xyzcloud3.xyz/tsn2/index.m3u8
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=117464558&e=s&n=8031199434648649&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=ntsmvm1p0u80&i=0&lid=18gl1jk1xipb&lsa=set&mt=1&pbd=1&pbr=1&pgi=1cpyglg1rzhv&ph=0&pii=0&pl=185&plc=1&pli=jgfkhy1biuht&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams%20%7C%20World%20Cup%20Live&pu=https%3A%2F%2Fxyzstreams.st%2Fwc-2&pv=8.26.0&pyc=1&s=0&sdk=0&stc=1&stpe=0&t=FS1&tv=3.41.0&vb=1&vi=0.51&vl=90&wd=328&abm=1&bwe=172173&cae=0&cct=2&ch=2&cdid=jwVideoPlayer&drm=0&ff=1100&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2Flb.xyzcloud3.xyz%2FFS1%2Findex.m3u8&pcp=4&pd=2&pdr=&pdt=2026-06-26T23%3A03%3A37.038Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=0&sp=0&strt=1110&tb=6.1&tt=0&vd=0&vh=720&vs=0&vw=1280&sa=1782515037210
 
 #EXTINF:-1 tvg-chno="35" tvg-id="stream_1" tvg-name="[Live Event] FIFA WC 2026™ - Uruguay vs Spain Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Uruguay vs Spain Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -263,7 +263,7 @@ https://lb.xyzcloud3.xyz/FS1/index.m3u8
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://lb.xyzcloud3.xyz/ITV4/index.m3u8
+https://lb.xyzcloud3.xyz/ITV/index.m3u8
 
 #EXTINF:-1 tvg-chno="45" tvg-id="stream_3" tvg-name="[Live Event] FIFA WC 2026™ - Cape Verde Islands vs Saudi Arabia Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Cape Verde Islands vs Saudi Arabia Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -287,19 +287,19 @@ https://lb.xyzcloud3.xyz/fs14k/index.m3u8
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://lb.xyzcloud3.xyz/tele4k2/index.m3u8
+https://lb.xyzcloud3.xyz/tod3/index.m3u8
 
 #EXTINF:-1 tvg-chno="49" tvg-id="stream_7" tvg-name="[Live Event] FIFA WC 2026™ - Cape Verde Islands vs Saudi Arabia Stream 7 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Cape Verde Islands vs Saudi Arabia Stream 7 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://lb.xyzcloud3.xyz/tod4/index.m3u8
+https://lb.xyzcloud3.xyz/tsn2/index.m3u8
 
 #EXTINF:-1 tvg-chno="50" tvg-id="stream_8" tvg-name="[Live Event] FIFA WC 2026™ - Cape Verde Islands vs Saudi Arabia Stream 8 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Cape Verde Islands vs Saudi Arabia Stream 8 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://lb.xyzcloud3.xyz/tsn2/index.m3u8
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=454855802&e=s&n=5987476465710774&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1oxtee51qbsf&i=0&lid=1j4sb5d1izkz&lsa=set&mt=1&pbd=1&pbr=1&pgi=d7ba25w4w4us&ph=0&pii=0&pl=185&plc=1&pli=i5i8um1grs5e&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams%20%7C%20World%20Cup%20Live&pu=https%3A%2F%2Fxyzstreams.st%2Fwc-2&pv=8.26.0&pyc=1&s=0&sdk=0&stc=1&stpe=0&t=FS1&tv=3.41.0&vb=1&vi=0.51&vl=90&wd=328&abm=1&cae=0&cct=2&ch=2&cdid=jwVideoPlayer&drm=0&ff=500&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2Flb.xyzcloud3.xyz%2FFS1%2Findex.m3u8&pcp=4&pd=2&pdr=&pdt=2026-06-26T23%3A04%3A01.612Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=0&sp=0&strt=500&tb=5.7&tt=0&vd=0&vh=720&vs=0&vw=1280&sa=1782515061631
 
 #EXTINF:-1 tvg-chno="51" tvg-id="stream_1" tvg-name="[Live Event] FIFA WC 2026™ - New Zealand vs Belgium Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - New Zealand vs Belgium Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -359,7 +359,7 @@ https://lb.xyzcloud3.xyz/FS1/index.m3u8
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://lb.xyzcloud3.xyz/ITV4/index.m3u8
+https://lb.xyzcloud3.xyz/ITV/index.m3u8
 
 #EXTINF:-1 tvg-chno="61" tvg-id="stream_3" tvg-name="[Live Event] FIFA WC 2026™ - Egypt vs Iran Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Egypt vs Iran Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -383,17 +383,17 @@ https://lb.xyzcloud3.xyz/fs14k/index.m3u8
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://lb.xyzcloud3.xyz/tele4k2/index.m3u8
+https://lb.xyzcloud3.xyz/tod3/index.m3u8
 
 #EXTINF:-1 tvg-chno="65" tvg-id="stream_7" tvg-name="[Live Event] FIFA WC 2026™ - Egypt vs Iran Stream 7 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Egypt vs Iran Stream 7 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://lb.xyzcloud3.xyz/tod4/index.m3u8
+https://lb.xyzcloud3.xyz/tsn2/index.m3u8
 
 #EXTINF:-1 tvg-chno="66" tvg-id="stream_8" tvg-name="[Live Event] FIFA WC 2026™ - Egypt vs Iran Stream 8 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Egypt vs Iran Stream 8 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://lb.xyzcloud3.xyz/tsn2/index.m3u8
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=2127614822&e=s&n=5129830901810996&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1ug6rk41sbk9&i=0&lid=bpvdf416h7i3&lsa=set&mt=1&pbd=1&pbr=1&pgi=1k2f09210o2u&ph=0&pii=0&pl=185&plc=1&pli=1koc0rs1lugs&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams%20%7C%20World%20Cup%20Live&pu=https%3A%2F%2Fxyzstreams.st%2Fwc-2&pv=8.26.0&pyc=1&s=0&sdk=0&stc=1&stpe=0&t=FS1&tv=3.41.0&vb=1&vi=0.51&vl=90&wd=328&abm=1&cae=0&cct=2&ch=2&cdid=jwVideoPlayer&drm=0&ff=510&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2Flb.xyzcloud3.xyz%2FFS1%2Findex.m3u8&pcp=4&pd=2&pdr=&pdt=2026-06-26T23%3A04%3A26.187Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=0&sp=0&strt=510&tb=12.3&tt=0&vd=0&vh=720&vs=0&vw=1280&sa=1782515086529
 
