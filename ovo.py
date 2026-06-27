@@ -27,6 +27,10 @@ USER_AGENT = (
 )
 UA_ENC = quote(USER_AGENT)
 
+# New referer and origin
+REFERER = "https://ziangel.st/"
+ORIGIN = "https://ziangel.st"
+
 OUTPUT_VLC = Path("ovo_vlc.m3u8")
 OUTPUT_TIVIMATE = Path("ovo_tivimate.m3u8")
 
@@ -66,12 +70,16 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
         return nones
 
     # Look for the actual stream URL in the iframe
-    # The iframe contains script that loads soccerball.st/s1.php
+    # The iframe contains script that loads the stream
     patterns = [
+        r'(https?://[^\s"\']+ziangel\.st/[^\s"\']+\.php[^\s"\']*)',
+        r'(https?://[^\s"\']+ziangel\.st/[^\s"\']+)',
         r'(https?://[^\s"\']+soccerball\.st/s1\.php[^\s"\']*)',
         r'(https?://[^\s"\']+soccerball\.st/[^\s"\']+\.php[^\s"\']*)',
         r'(https?://[^\s"\']+\.php[^\s"\']*)',
         r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
+        r'(https?://[^\s"\']+\.css[^\s"\']*)',
+        r'(https?://[^\s"\']+\.js[^\s"\']*)',
     ]
     
     for pattern in patterns:
@@ -97,6 +105,14 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
                         stream_url = match.group(1)
                         log.info(f"URL {url_num}) Captured stream from redirect: {stream_url}")
                         return stream_url, iframe_src
+    
+    # Look for any URL in the iframe content that might be a stream
+    url_pattern = r'(https?://[^\s"\']+[^\s"\']+)'
+    matches = re.findall(url_pattern, iframe_data.text, re.I)
+    for match in matches:
+        if any(x in match for x in ['.php', '.m3u8', '.css', '.js', 'stream', 'play']):
+            log.info(f"URL {url_num}) Found potential stream URL: {match}")
+            return match, iframe_src
     
     log.warning(f"URL {url_num}) No stream found")
     return nones
@@ -187,7 +203,7 @@ def generate_vlc_playlist(data: dict[str, dict]) -> int:
         if not url:
             continue
 
-        referer = entry.get("base", "https://soccerball.st/rampages/unoair1/")
+        referer = entry.get("base", REFERER)
         tvg_id = entry.get("id", "Live.Event.us")
         tvg_logo = entry.get("logo", "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png")
         group_title = entry.get("sport", "World Cup 2026")
@@ -221,7 +237,7 @@ def generate_tivimate_playlist(data: dict[str, dict]) -> int:
         if not url:
             continue
 
-        referer = entry.get("base", "https://soccerball.st/rampages/unoair1/")
+        referer = entry.get("base", REFERER)
         tvg_id = entry.get("id", "Live.Event.us")
         tvg_logo = entry.get("logo", "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png")
         group_title = entry.get("sport", "World Cup 2026")
@@ -284,7 +300,7 @@ async def scrape() -> None:
 
             tvg_id, logo = leagues.get_tvg_info(sport, event)
 
-            referer = iframe if iframe else "https://soccerball.st/rampages/unoair1/"
+            referer = iframe if iframe else REFERER
 
             entry = {
                 "url": url,
