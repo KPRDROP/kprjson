@@ -18,8 +18,8 @@ CACHE_FILE = Cache(TAG, exp=10_800)
 BASE_URL = "https://streamhub.pro"
 
 # Constants for output files
-REFERER = "https://obstream.pro/"
-ORIGIN = "https://obstream.pro"
+REFERER = "https://getembed.live/"
+ORIGIN = "https://getembed.live"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
 USER_AGENT_ENCODED = "Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F149.0.0.0%20Safari%2F537.36"
 
