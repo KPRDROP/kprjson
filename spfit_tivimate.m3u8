@@ -1,7 +1,10 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-06-27 11:47 UTC
-# Total Streams: 1
+# Last Updated: 2026-06-27 14:06 UTC
+# Total Streams: 2
 
-#EXTINF:-1 tvg-chno="1" tvg-id="Racing.Dummy.us" tvg-name="[F1] LENOVO AUSTRIAN GP Formula 1 Grosser Preis Von Österreich 2026 JUN 26 - 28 2026 ROUND 10 (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] LENOVO AUSTRIAN GP Formula 1 Grosser Preis Von Österreich 2026 JUN 26 - 28 2026 ROUND 10 (SPFIT)
-https://storage.googleapis.com/bluejaysx/bsports/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[MMA] UFC FIGHT NIGHT: FIZIEV VS. TORRES National Gymnastics Arena Baku Azerbaijan Jun 27 2022 Scheduled (SPFIT)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[MMA] UFC FIGHT NIGHT: FIZIEV VS. TORRES National Gymnastics Arena Baku Azerbaijan Jun 27 2022 Scheduled (SPFIT)
+https://storage.googleapis.com/xpllas/orioles2/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="2" tvg-id="Racing.Dummy.us" tvg-name="[F1] LENOVO AUSTRIAN GP Formula 1 Grosser Preis Von Österreich 2026 JUN 26 - 28 2026 ROUND 10 (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] LENOVO AUSTRIAN GP Formula 1 Grosser Preis Von Österreich 2026 JUN 26 - 28 2026 ROUND 10 (SPFIT)
+https://storage.googleapis.com/xpllas/main/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
