@@ -1,4 +1,10 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Racing.Dummy.us" tvg-name="[Formula 1] Austrian Grand Prix - Qualifying (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[Formula 1] Austrian Grand Prix - Qualifying (EMBED)
-https://cdn2.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=fb3FjKHVxT4emQmHSfraJg&expires=1782583560|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Boston Red Sox - New York Yankees (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Boston Red Sox - New York Yankees (EMBED)
+https://cdn13.zohanayaan.com:1686/hls/mbostonredsox.m3u8?md5=03UWjsY9dHxsf5By2UCvrg&expires=1782589045|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="2" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] Night of Champions (EMBED)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[WWE] Night of Champions (EMBED)
+https://cdn2.zohanayaan.com:1686/hls/mevent2.m3u8?md5=4P8Q0bwT-6M09jrhKXxPGA&expires=1782589046|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Detroit Tigers - Houston Astros (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Detroit Tigers - Houston Astros (EMBED)
+https://cdn10.zohanayaan.com:1686/hls/mdetroittigers.m3u8?md5=Of4ANoArCLEzuuoWnsnZVg&expires=1782589048|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36
 
