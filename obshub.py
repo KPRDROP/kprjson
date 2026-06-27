@@ -194,6 +194,7 @@ async def scrape() -> None:
             url, iframe = await network.safe_process(
                 handler,
                 url_num=i,
+                timeout_return=(None, None),
                 semaphore=network.HTTP_S,
                 log=log,
             )
