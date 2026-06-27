@@ -1,4 +1,5 @@
 import re
+import json
 from functools import partial
 from urllib.parse import urljoin, quote
 from pathlib import Path
@@ -17,7 +18,7 @@ CACHE_FILE = Cache(TAG, exp=10_800)
 
 HTML_FILE = Cache(f"{TAG}-html", exp=28_800)
 
-BASE_URL = "https://ovogoalz.st"
+BASE_URL = "https://ovo-goal.st"
 
 # User Agent for playlists
 USER_AGENT = (
@@ -26,6 +27,10 @@ USER_AGENT = (
     "Chrome/149.0.0.0 Safari/537.36"
 )
 UA_ENC = quote(USER_AGENT)
+
+# Referer and origin
+REFERER = "https://ziangel.st/"
+ORIGIN = "https://ziangel.st"
 
 OUTPUT_VLC = Path("ovo_vlc.m3u8")
 OUTPUT_TIVIMATE = Path("ovo_tivimate.m3u8")
@@ -55,6 +60,7 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
         return nones
 
     # Fetch the iframe content
+    log.info(f"URL {url_num}) Fetching iframe content...")
     iframe_data = await network.request(
         iframe_src,
         headers={"Referer": url},
@@ -65,38 +71,136 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
         log.warning(f"URL {url_num}) Failed to load iframe source.")
         return nones
 
+    content = iframe_data.text
+    
+    # Debug: Save iframe content for inspection
+    log.debug(f"URL {url_num}) Iframe content length: {len(content)}")
+    
     # Look for the actual stream URL in the iframe
-    # The iframe contains script that loads soccerball.st/s1.php
-    patterns = [
-        r'(https?://[^\s"\']+soccerball\.st/s1\.php[^\s"\']*)',
-        r'(https?://[^\s"\']+soccerball\.st/[^\s"\']+\.php[^\s"\']*)',
-        r'(https?://[^\s"\']+\.php[^\s"\']*)',
+    
+    # Pattern 1: Look for m3u8 URL
+    m3u8_patterns = [
         r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
+        r'(https?://[^\s"\']+\.m3u8\?[^\s"\']*)',
+        r'(https?://[^\s"\']+/hls/[^\s"\']+\.m3u8[^\s"\']*)',
+        r'(https?://[^\s"\']+azplay[^\s"\']+\.me/hls/[^\s"\']+\.m3u8[^\s"\']*)',
+        r'(https?://[^\s"\']+stream[^\s"\']+\.m3u8[^\s"\']*)',
+        r'(https?://[^\s"\']+[a-z0-9]+\.me/hls/[^\s"\']+\.m3u8[^\s"\']*)',
     ]
     
-    for pattern in patterns:
-        match = re.search(pattern, iframe_data.text, re.I)
+    for pattern in m3u8_patterns:
+        matches = re.findall(pattern, content, re.IGNORECASE)
+        for match in matches:
+            if 'cdn.jsdelivr.net' not in match and 'clappr' not in match and 'jquery' not in match:
+                log.info(f"URL {url_num}) Captured M3U8 stream: {match[:100]}...")
+                return match, iframe_src
+    
+    # Pattern 2: Look for source URL in Clappr configuration
+    clappr_patterns = [
+        r'source\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'source\s*:\s*["\']([^"\']+)["\']',
+        r'file\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'url\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'playlist\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'"source"\s*:\s*"([^"]+\.m3u8[^"]*)"',
+        r'"file"\s*:\s*"([^"]+\.m3u8[^"]*)"',
+        r'"url"\s*:\s*"([^"]+\.m3u8[^"]*)"',
+        r'currentStreamUrl\s*=\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'streamUrl\s*=\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+    ]
+    
+    for pattern in clappr_patterns:
+        match = re.search(pattern, content, re.IGNORECASE)
         if match:
             stream_url = match.group(1)
-            log.info(f"URL {url_num}) Captured stream: {stream_url}")
-            return stream_url, iframe_src
+            if 'cdn.jsdelivr.net' not in stream_url and 'clappr' not in stream_url:
+                log.info(f"URL {url_num}) Captured stream from config: {stream_url[:100]}...")
+                return stream_url, iframe_src
     
-    # Also check for redirects or scripts that might contain the URL
-    if "window.location" in iframe_data.text:
-        redirect_match = re.search(r'window\.location\s*=\s*["\']([^"\']+)["\']', iframe_data.text, re.I)
+    # Pattern 3: Look for any URL that might be a stream
+    url_pattern = r'(https?://[^\s"\']+[^\s"\']+\.m3u8[^\s"\']*)'
+    matches = re.findall(url_pattern, content, re.IGNORECASE)
+    for match in matches:
+        if 'cdn.jsdelivr.net' not in match and 'clappr' not in match:
+            log.info(f"URL {url_num}) Found M3U8 URL: {match[:100]}...")
+            return match, iframe_src
+    
+    # Pattern 4: Look for stream URL in script variables
+    var_patterns = [
+        r'(?:var|const|let)\s+(?:url|src|source|stream|file|video|hls|m3u8)\s*=\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'(?:var|const|let)\s+(?:url|src|source|stream|file|video|hls|m3u8)\s*=\s*["\']([^"\']+)["\']',
+        r'(?:url|src|source|stream|file|video|hls|m3u8)\s*[:=]\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+    ]
+    
+    for pattern in var_patterns:
+        matches = re.findall(pattern, content, re.IGNORECASE)
+        for match in matches:
+            if '.m3u8' in match and 'cdn.jsdelivr.net' not in match and 'clappr' not in match:
+                log.info(f"URL {url_num}) Captured stream from variable: {match[:100]}...")
+                return match, iframe_src
+    
+    # Pattern 5: Look for base64 encoded URLs
+    b64_patterns = [
+        r'atob\(["\']([^"\']+)["\']\)',
+        r'decodeURIComponent\(["\']([^"\']+)["\']\)',
+        r'base64\.decode\(["\']([^"\']+)["\']\)',
+    ]
+    
+    for pattern in b64_patterns:
+        matches = re.findall(pattern, content)
+        for match in matches:
+            try:
+                import base64
+                padding = 4 - (len(match) % 4)
+                if padding != 4:
+                    match += '=' * padding
+                decoded = base64.b64decode(match).decode('utf-8')
+                if '.m3u8' in decoded:
+                    log.info(f"URL {url_num}) Captured stream from base64: {decoded[:100]}...")
+                    return decoded, iframe_src
+            except:
+                pass
+    
+    # Pattern 6: Look for the stream URL in the iframe's parent page
+    # Sometimes the stream URL is in a script tag that loads the iframe
+    if 'window.location' in content:
+        redirect_match = re.search(r'window\.location\s*=\s*["\']([^"\']+)["\']', content, re.I)
         if redirect_match:
             redirect_url = redirect_match.group(1)
             log.info(f"URL {url_num}) Found redirect: {redirect_url}")
             
-            # Follow the redirect
             redirect_data = await network.request(redirect_url, headers={"Referer": iframe_src}, log=log)
             if redirect_data:
-                for pattern in patterns:
+                for pattern in m3u8_patterns:
                     match = re.search(pattern, redirect_data.text, re.I)
                     if match:
                         stream_url = match.group(1)
-                        log.info(f"URL {url_num}) Captured stream from redirect: {stream_url}")
-                        return stream_url, iframe_src
+                        if 'cdn.jsdelivr.net' not in stream_url:
+                            log.info(f"URL {url_num}) Captured stream from redirect: {stream_url[:100]}...")
+                            return stream_url, iframe_src
+    
+    # Pattern 7: Look for stream URL in the HTML content (sometimes it's in a meta tag or data attribute)
+    html_patterns = [
+        r'data-stream=["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'data-src=["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'data-video=["\']([^"\']+\.m3u8[^"\']*)["\']',
+    ]
+    
+    for pattern in html_patterns:
+        match = re.search(pattern, content, re.IGNORECASE)
+        if match:
+            stream_url = match.group(1)
+            log.info(f"URL {url_num}) Captured stream from data attribute: {stream_url[:100]}...")
+            return stream_url, iframe_src
+    
+    # Pattern 8: Look for the stream URL in the page content using a more general approach
+    # Sometimes the URL is in the page but not in a standard pattern
+    general_pattern = r'(https?://[^\s"\']+[^\s"\']*\.m3u8[^\s"\']*)'
+    matches = re.findall(general_pattern, content, re.IGNORECASE)
+    for match in matches:
+        if 'cdn.jsdelivr.net' not in match and 'clappr' not in match:
+            log.info(f"URL {url_num}) Found M3U8 in general search: {match[:100]}...")
+            return match, iframe_src
     
     log.warning(f"URL {url_num}) No stream found")
     return nones
@@ -187,7 +291,7 @@ def generate_vlc_playlist(data: dict[str, dict]) -> int:
         if not url:
             continue
 
-        referer = entry.get("base", "https://soccerball.st/rampages/unoair1/")
+        referer = entry.get("base", REFERER)
         tvg_id = entry.get("id", "Live.Event.us")
         tvg_logo = entry.get("logo", "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png")
         group_title = entry.get("sport", "World Cup 2026")
@@ -221,7 +325,7 @@ def generate_tivimate_playlist(data: dict[str, dict]) -> int:
         if not url:
             continue
 
-        referer = entry.get("base", "https://soccerball.st/rampages/unoair1/")
+        referer = entry.get("base", REFERER)
         tvg_id = entry.get("id", "Live.Event.us")
         tvg_logo = entry.get("logo", "https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png")
         group_title = entry.get("sport", "World Cup 2026")
@@ -268,6 +372,7 @@ async def scrape() -> None:
             url, iframe = await network.safe_process(
                 handler,
                 url_num=i,
+                timeout_return=(None, None),
                 semaphore=network.HTTP_S,
                 log=log,
             )
@@ -283,7 +388,7 @@ async def scrape() -> None:
 
             tvg_id, logo = leagues.get_tvg_info(sport, event)
 
-            referer = iframe if iframe else "https://soccerball.st/rampages/unoair1/"
+            referer = iframe if iframe else REFERER
 
             entry = {
                 "url": url,
