@@ -149,7 +149,13 @@ https://dami-tv.pro/live-hls/channel/wc/2026-06-26/egy-irn/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wc/2026-06-26/nzl-bel/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="26" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: Friday Night Smackdown (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ec7810b68fc39115ce3510bcf9687a63-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: Friday Night Smackdown (PRO)
+#EXTINF:-1 tvg-chno="26" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Ice Hockey] 2026 NHL Draft | Round 1 (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/9a778bd40435ea2a0e8f55fa2ee0ac98-thumbnail.jpg" group-title="Live Events",[Ice Hockey] 2026 NHL Draft | Round 1 (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=2026-nhl-draft--round-1
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=2026-nhl-draft--round-1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://dami-tv.pro/live-hls/channel/2026-nhl-draft--round-1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="27" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: Friday Night Smackdown (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/ec7810b68fc39115ce3510bcf9687a63-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: Friday Night Smackdown (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wwe/smackdown/2026-06-26
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wwe/smackdown/2026-06-26
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
