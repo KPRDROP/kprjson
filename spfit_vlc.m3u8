@@ -1,84 +1,84 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-06-28 19:49 UTC
+# Last Updated: 2026-06-28 21:20 UTC
 # Total Streams: 16
 
-#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] South Africa vs 41' Canada (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] South Africa vs 41' Canada (SPFIT)
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] South Africa vs 0 - 1 Canada (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] South Africa vs 0 - 1 Canada (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://mickiecy.s3.eu-central-1.amazonaws.com/btsport.m3u8
+https://mickiecy.s3.eu-central-1.amazonaws.com/sportsnet.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Texas Rangers vs Bottom 1st Toronto Blue Jays (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Texas Rangers vs Bottom 1st Toronto Blue Jays (SPFIT)
+#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Washington Nationals vs Bottom 7th Baltimore Orioles (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Washington Nationals vs Bottom 7th Baltimore Orioles (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.fit/
+#EXTVLCOPT:http-origin=https://sportspass.fit
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://mickiecy.s3.eu-central-1.amazonaws.com/orioles.m3u8
+
+#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Texas Rangers vs Top 8th Toronto Blue Jays (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Texas Rangers vs Top 8th Toronto Blue Jays (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 https://mickiecy.s3.eu-central-1.amazonaws.com/bluejays.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Washington Nationals vs Middle 2nd Baltimore Orioles (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Washington Nationals vs Middle 2nd Baltimore Orioles (SPFIT)
-#EXTVLCOPT:http-referrer=https://sportspass.fit/
-#EXTVLCOPT:http-origin=https://sportspass.fit
-#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://mickiecy.s3.eu-central-1.amazonaws.com/orioles_480p30.m3u8
-
-#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Cincinnati Reds vs Bottom 2nd Pittsburgh Pirates (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Cincinnati Reds vs Bottom 2nd Pittsburgh Pirates (SPFIT)
+#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Cincinnati Reds vs Top 8th Pittsburgh Pirates (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Cincinnati Reds vs Top 8th Pittsburgh Pirates (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 https://mickiecy.s3.eu-central-1.amazonaws.com/reds.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Colorado Rockies Today at 6:10 PM vs Minnesota Twins (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Colorado Rockies Today at 6:10 PM vs Minnesota Twins (SPFIT)
-#EXTVLCOPT:http-referrer=https://sportspass.fit/
-#EXTVLCOPT:http-origin=https://sportspass.fit
-#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://mickiecy.s3.eu-central-1.amazonaws.com/phillies.m3u8
-
-#EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Houston Astros vs Top 2nd Detroit Tigers (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Houston Astros vs Top 2nd Detroit Tigers (SPFIT)
+#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Houston Astros vs Bottom 7th Detroit Tigers (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Houston Astros vs Bottom 7th Detroit Tigers (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 https://mickiecy.s3.eu-central-1.amazonaws.com/astros.m3u8
 
-#EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Philadelphia Phillies vs Top 2nd New York Mets (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Philadelphia Phillies vs Top 2nd New York Mets (SPFIT)
+#EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Colorado Rockies vs Bottom 7th Minnesota Twins (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Colorado Rockies vs Bottom 7th Minnesota Twins (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 https://mickiecy.s3.eu-central-1.amazonaws.com/phillies.m3u8
 
-#EXTINF:-1 tvg-chno="8" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Seattle Mariners vs Top 2nd Cleveland Guardians (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Seattle Mariners vs Top 2nd Cleveland Guardians (SPFIT)
+#EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Philadelphia Phillies vs Top 7th New York Mets (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Philadelphia Phillies vs Top 7th New York Mets (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://mickiecy.s3.eu-central-1.amazonaws.com/phillies.m3u8
+https://mickiecy.s3.eu-central-1.amazonaws.com/phillies_480p30.m3u8
 
-#EXTINF:-1 tvg-chno="9" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs Today at 6:10 PM vs Milwaukee Brewers (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Chicago Cubs Today at 6:10 PM vs Milwaukee Brewers (SPFIT)
+#EXTINF:-1 tvg-chno="8" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Seattle Mariners vs Top 7th Cleveland Guardians (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Seattle Mariners vs Top 7th Cleveland Guardians (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://mickiecy.s3.eu-central-1.amazonaws.com/cubs.m3u8
+https://mickiecy.s3.eu-central-1.amazonaws.com/phillies_480p30.m3u8
 
-#EXTINF:-1 tvg-chno="10" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Dodgers Today at 8:10 PM vs San Diego Padres (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Los Angeles Dodgers Today at 8:10 PM vs San Diego Padres (SPFIT)
-#EXTVLCOPT:http-referrer=https://sportspass.fit/
-#EXTVLCOPT:http-origin=https://sportspass.fit
-#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://mickiecy.s3.eu-central-1.amazonaws.com/dodgers.m3u8
-
-#EXTINF:-1 tvg-chno="11" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Miami Marlins Today at 6:15 PM vs St. Louis Cardinals (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Miami Marlins Today at 6:15 PM vs St. Louis Cardinals (SPFIT)
+#EXTINF:-1 tvg-chno="9" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs vs Top 7th Milwaukee Brewers (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago Cubs vs Top 7th Milwaukee Brewers (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 https://mickiecy.s3.eu-central-1.amazonaws.com/cubs.m3u8
 
-#EXTINF:-1 tvg-chno="12" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Kansas City Royals Today at 6:10 PM vs Chicago White Sox (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Kansas City Royals Today at 6:10 PM vs Chicago White Sox (SPFIT)
+#EXTINF:-1 tvg-chno="10" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Atlanta Braves Today at 8:05 PM vs San Francisco Giants (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Atlanta Braves Today at 8:05 PM vs San Francisco Giants (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.fit/
+#EXTVLCOPT:http-origin=https://sportspass.fit
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://mickiecy.s3.eu-central-1.amazonaws.com/braves.m3u8
+
+#EXTINF:-1 tvg-chno="11" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Kansas City Royals vs Top 6th Chicago White Sox (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Kansas City Royals vs Top 6th Chicago White Sox (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 https://mickiecy.s3.eu-central-1.amazonaws.com/whitesox.m3u8
 
-#EXTINF:-1 tvg-chno="13" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Atlanta Braves Today at 8:05 PM vs San Francisco Giants (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Atlanta Braves Today at 8:05 PM vs San Francisco Giants (SPFIT)
+#EXTINF:-1 tvg-chno="12" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Dodgers Today at 8:10 PM vs San Diego Padres (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Los Angeles Dodgers Today at 8:10 PM vs San Diego Padres (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://mickiecy.s3.eu-central-1.amazonaws.com/braves.m3u8
+https://mickiecy.s3.eu-central-1.amazonaws.com/dodgers.m3u8
+
+#EXTINF:-1 tvg-chno="13" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Miami Marlins vs Middle 7th St. Louis Cardinals (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Miami Marlins vs Middle 7th St. Louis Cardinals (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.fit/
+#EXTVLCOPT:http-origin=https://sportspass.fit
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://mickiecy.s3.eu-central-1.amazonaws.com/cubs.m3u8
 
 #EXTINF:-1 tvg-chno="14" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] New York Yankees Today at 11:20 PM vs Boston Red Sox (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] New York Yankees Today at 11:20 PM vs Boston Red Sox (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
