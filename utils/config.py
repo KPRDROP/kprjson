@@ -7,14 +7,15 @@ import pytz
 
 
 class Time(datetime):
-    ZONES = {
+    ZONES: dict[str, timezone] = {
         "CET": pytz.timezone("Europe/Berlin"),
         "ET": pytz.timezone("America/New_York"),
-        "PST": pytz.timezone("America/Los_Angeles"),
+        "MSK": pytz.timezone("Europe/Moscow"),
+        # "PT": pytz.timezone("America/Los_Angeles"),
         "UTC": timezone.utc,
     }
 
-    ZONES["EDT"] = ZONES["EST"] = ZONES["ET"]
+    ZONES["EST"] = ZONES["ET"]
 
     TZ = ZONES["ET"]
 
