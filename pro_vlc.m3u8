@@ -95,7 +95,13 @@ https://dami-tv.pro/live-hls/channel/wc/2026-06-29/ger-par/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wc/2026-06-29/ned-mar/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="17" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: Monday Night RAW (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/56336f9d22c51c416e1a56afbd18f314-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: Monday Night RAW (PRO)
+#EXTINF:-1 tvg-chno="17" tvg-id="Tennis.Dummy.us" tvg-name="[Tennis] Wimbledon: Courtside (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/d49f8936c9c3510700ab7862aa14f7f8-thumbnail.jpg" group-title="Live Events",[Tennis] Wimbledon: Courtside (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wimbledon/2026-06-29/courtside
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wimbledon/2026-06-29/courtside
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://dami-tv.pro/live-hls/channel/wimbledon/2026-06-29/courtside/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="18" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: Monday Night RAW (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/56336f9d22c51c416e1a56afbd18f314-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: Monday Night RAW (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wwe/raw/2026-06-29
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wwe/raw/2026-06-29
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
