@@ -101,7 +101,19 @@ https://dami-tv.pro/live-hls/channel/wc/2026-06-29/ned-mar/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 https://dami-tv.pro/live-hls/channel/wimbledon/2026-06-29/courtside/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="18" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: Monday Night RAW (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/56336f9d22c51c416e1a56afbd18f314-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: Monday Night RAW (PRO)
+#EXTINF:-1 tvg-chno="18" tvg-id="Tennis.Dummy.us" tvg-name="[Tennis] Alejandro Davidovich Fokina vs. Juan Manuel Cerundolo (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/c9fafc170b8de8c2e6affdd5da284e31-thumbnail.jpg" group-title="Live Events",[Tennis] Alejandro Davidovich Fokina vs. Juan Manuel Cerundolo (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wimbledon/2026-06-29/fokina-cerundolo
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wimbledon/2026-06-29/fokina-cerundolo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://dami-tv.pro/live-hls/channel/wimbledon/2026-06-29/fokina-cerundolo/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="19" tvg-id="Tennis.Dummy.us" tvg-name="[Tennis] Wu Yibing vs. Novak Djokovic (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/adaea8f5c0e3f79f582270c0054b7d1b-thumbnail.jpg" group-title="Live Events",[Tennis] Wu Yibing vs. Novak Djokovic (PRO)
+#EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wimbledon/2026-06-29/yibing-djokovic
+#EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wimbledon/2026-06-29/yibing-djokovic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://dami-tv.pro/live-hls/channel/wimbledon/2026-06-29/yibing-djokovic/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="20" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Wrestling] WWE: Monday Night RAW (PRO)" tvg-logo="https://api.ppv.to/assets/thumb/56336f9d22c51c416e1a56afbd18f314-thumbnail.jpg" group-title="Live Events",[Wrestling] WWE: Monday Night RAW (PRO)
 #EXTVLCOPT:http-referrer=https://dami-tv.pro/player/auto/?match=wwe/raw/2026-06-29
 #EXTVLCOPT:http-origin=https://dami-tv.pro/player/auto/?match=wwe/raw/2026-06-29
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
