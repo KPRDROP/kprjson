@@ -1,48 +1,48 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-06-29 23:14 UTC
+# Last Updated: 2026-06-30 04:24 UTC
 # Total Streams: 15
 
-#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Germany vs 116' Paraguay (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Germany vs 116' Paraguay (SPFIT)
-https://crestfallc.s3.eu-north-1.amazonaws.com/btsport_480p30.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Brazil FT 2 - 1 Japan (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Brazil FT 2 - 1 Japan (SPFIT)
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Brazil FT 2 - 1 Japan (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Brazil FT 2 - 1 Japan (SPFIT)
 https://crestfallc.s3.eu-north-1.amazonaws.com/btsport.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Netherlands Tomorrow at 1:00 AM vs Morocco (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Netherlands Tomorrow at 1:00 AM vs Morocco (SPFIT)
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Netherlands vs 1 - 1 Morocco (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Netherlands vs 1 - 1 Morocco (SPFIT)
 https://crestfallc.s3.eu-north-1.amazonaws.com/btsport.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="4" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Chicago White Sox Today at 10:35 PM vs Baltimore Orioles (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Chicago White Sox Today at 10:35 PM vs Baltimore Orioles (SPFIT)
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Germany FT 1 - 1 Paraguay (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Germany FT 1 - 1 Paraguay (SPFIT)
+https://crestfallc.s3.eu-north-1.amazonaws.com/btsport.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago White Sox vs 8 - 2 Baltimore Orioles (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago White Sox vs 8 - 2 Baltimore Orioles (SPFIT)
 https://storage.googleapis.com/xlakersm/orioles/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="5" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Pittsburgh Pirates Today at 10:40 PM vs Philadelphia Phillies (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Pittsburgh Pirates Today at 10:40 PM vs Philadelphia Phillies (SPFIT)
-https://storage.googleapis.com/xlakersm/phillies/mux_video/index-1.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="6" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] New York Mets Today at 11:07 PM vs Toronto Blue Jays (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] New York Mets Today at 11:07 PM vs Toronto Blue Jays (SPFIT)
-https://storage.googleapis.com/xlakersm/bluejays/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="7" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Texas Rangers Today at 11:00 PM vs Cleveland Guardians (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Texas Rangers Today at 11:00 PM vs Cleveland Guardians (SPFIT)
-https://storage.googleapis.com/xlakersm/phillies/mux_video/index-1.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="8" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Washington Nationals Today at 11:10 PM vs Boston Red Sox (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Washington Nationals Today at 11:10 PM vs Boston Red Sox (SPFIT)
-https://storage.googleapis.com/xlakersm/sportsnett/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="9" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Detroit Tigers Today at 11:05 PM vs New York Yankees (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Detroit Tigers Today at 11:05 PM vs New York Yankees (SPFIT)
+#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Detroit Tigers vs 7 - 3 New York Yankees (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Detroit Tigers vs 7 - 3 New York Yankees (SPFIT)
 https://storage.googleapis.com/xlakersm/yankees/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="10" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Minnesota Twins Tomorrow at 12:10 AM vs Houston Astros (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Minnesota Twins Tomorrow at 12:10 AM vs Houston Astros (SPFIT)
-https://storage.googleapis.com/xlakersm/cubs/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Pittsburgh Pirates vs 11 - 7 Philadelphia Phillies (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Pittsburgh Pirates vs 11 - 7 Philadelphia Phillies (SPFIT)
+https://storage.googleapis.com/xlakersm/phillies/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="11" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Cincinnati Reds Today at 11:40 PM vs Milwaukee Brewers (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Cincinnati Reds Today at 11:40 PM vs Milwaukee Brewers (SPFIT)
+#EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Mets vs 1 - 2 Toronto Blue Jays (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] New York Mets vs 1 - 2 Toronto Blue Jays (SPFIT)
+https://storage.googleapis.com/xlakersm/bluejays/mux_video/index-1.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="8" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Washington Nationals vs 3 - 6 Boston Red Sox (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Washington Nationals vs 3 - 6 Boston Red Sox (SPFIT)
 https://storage.googleapis.com/xlakersm/sportsnett/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="12" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] San Diego Padres Tomorrow at 12:05 AM vs Chicago Cubs (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] San Diego Padres Tomorrow at 12:05 AM vs Chicago Cubs (SPFIT)
+#EXTINF:-1 tvg-chno="9" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Texas Rangers vs 6 - 3 Cleveland Guardians (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Texas Rangers vs 6 - 3 Cleveland Guardians (SPFIT)
+https://storage.googleapis.com/xlakersm/phillies/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="10" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Diego Padres vs Bottom 8th Chicago Cubs (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] San Diego Padres vs Bottom 8th Chicago Cubs (SPFIT)
 https://storage.googleapis.com/xlakersm/cubs/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="13" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Dodgers Tomorrow at 1:40 AM vs Athletics (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Los Angeles Dodgers Tomorrow at 1:40 AM vs Athletics (SPFIT)
-https://storage.googleapis.com/xlakersm/dodgers/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="11" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Cincinnati Reds vs 3 - 5 Milwaukee Brewers (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Cincinnati Reds vs 3 - 5 Milwaukee Brewers (SPFIT)
+https://storage.googleapis.com/xlakersm/sportsnett/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="14" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] San Francisco Giants Tomorrow at 1:40 AM vs Arizona Diamondbacks (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] San Francisco Giants Tomorrow at 1:40 AM vs Arizona Diamondbacks (SPFIT)
+#EXTINF:-1 tvg-chno="12" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Minnesota Twins vs Bottom 9th Houston Astros (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Minnesota Twins vs Bottom 9th Houston Astros (SPFIT)
+https://storage.googleapis.com/xlakersm/whitesox/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="13" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Francisco Giants vs Top 5th Arizona Diamondbacks (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] San Francisco Giants vs Top 5th Arizona Diamondbacks (SPFIT)
 https://storage.googleapis.com/xlakersm/bsporting/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="14" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Dodgers vs Top 4th Athletics (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Los Angeles Dodgers vs Top 4th Athletics (SPFIT)
+https://storage.googleapis.com/xlakersm/dodgers/manifest.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
 #EXTINF:-1 tvg-chno="15" tvg-id="Racing.Dummy.us" tvg-name="[F1] LENOVO AUSTRIAN GP Formula 1 Grosser Preis Von Österreich 2026 JUN 26 - 28 2026 ROUND 10 (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] LENOVO AUSTRIAN GP Formula 1 Grosser Preis Von Österreich 2026 JUN 26 - 28 2026 ROUND 10 (SPFIT)
 https://mickiecy.s3.eu-central-1.amazonaws.com/sportsnet.m3u8|referer=https://sportspass.fit/|origin=https://sportspass.fit|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
