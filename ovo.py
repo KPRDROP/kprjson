@@ -91,6 +91,7 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
         r'(https?://[^\s"\']+[a-z0-9]+\.net/hls/[^\s"\']+\.m3u8[^\s"\']*)',
         r'(https?://[^\s"\']+ziangel\.[a-z]+/hls/[^\s"\']+\.m3u8[^\s"\']*)',
         r'(https?://[^\s"\']+[a-z0-9]+\.xyz/hls/[^\s"\']+\.m3u8[^\s"\']*)',
+        r'(https?://[^\s"\']+[a-z0-9]+\.cloud/hls/[^\s"\']+\.m3u8[^\s"\']*)',
     ]
     
     for pattern in m3u8_patterns:
@@ -100,28 +101,27 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
                 log.info(f"URL {url_num}) Captured M3U8 stream: {match[:100]}...")
                 return match, iframe_src
     
-    # Pattern 2: Look for source URL in player configuration
-    clappr_patterns = [
-        r'source\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
-        r'source\s*:\s*["\']([^"\']+)["\']',
-        r'file\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
-        r'url\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+    # Pattern 2: Look for player configuration in scripts
+    player_patterns = [
+        r'player\.setup\s*\(\s*\{[^}]*file\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'player\.setup\s*\(\s*\{[^}]*source\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'player\.setup\s*\(\s*\{[^}]*src\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'jwp\.setup\s*\(\s*\{[^}]*file\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'jwp\.setup\s*\(\s*\{[^}]*source\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'jwplayer\s*\(\s*["\'][^"\']+["\']\s*\)\.setup\s*\(\s*\{[^}]*file\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'jwplayer\s*\(\s*["\'][^"\']+["\']\s*\)\.setup\s*\(\s*\{[^}]*source\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'videojs\s*\(\s*["\'][^"\']+["\']\s*\)\.src\s*\(\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'hls\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
         r'playlist\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
-        r'"source"\s*:\s*"([^"]+\.m3u8[^"]*)"',
-        r'"file"\s*:\s*"([^"]+\.m3u8[^"]*)"',
-        r'"url"\s*:\s*"([^"]+\.m3u8[^"]*)"',
-        r'currentStreamUrl\s*=\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
-        r'streamUrl\s*=\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
-        r'video\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
-        r'playlist\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'stream\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
     ]
     
-    for pattern in clappr_patterns:
+    for pattern in player_patterns:
         match = re.search(pattern, content, re.IGNORECASE)
         if match:
             stream_url = match.group(1)
             if 'cdn.jsdelivr.net' not in stream_url and 'clappr' not in stream_url:
-                log.info(f"URL {url_num}) Captured stream from config: {stream_url[:100]}...")
+                log.info(f"URL {url_num}) Captured stream from player config: {stream_url[:100]}...")
                 return stream_url, iframe_src
     
     # Pattern 3: Look for any URL that might be a stream
@@ -138,6 +138,9 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
         r'(?:var|const|let)\s+(?:url|src|source|stream|file|video|hls|m3u8)\s*=\s*["\']([^"\']+)["\']',
         r'(?:url|src|source|stream|file|video|hls|m3u8)\s*[:=]\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
         r'(?:url|src|source|stream|file|video|hls|m3u8)\s*[:=]\s*["\']([^"\']+)["\']',
+        r'[\'"]source[\'"]\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'[\'"]file[\'"]\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'[\'"]url[\'"]\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
     ]
     
     for pattern in var_patterns:
@@ -153,6 +156,7 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
         r'decodeURIComponent\(["\']([^"\']+)["\']\)',
         r'base64\.decode\(["\']([^"\']+)["\']\)',
         r'window\.atob\(["\']([^"\']+)["\']\)',
+        r'Base64\.decode\(["\']([^"\']+)["\']\)',
     ]
     
     for pattern in b64_patterns:
@@ -170,8 +174,64 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
             except:
                 pass
     
-    # Pattern 6: Look for the stream URL in the iframe's parent page
-    if 'window.location' in content:
+    # Pattern 6: Look for the stream URL in script tags
+    script_pattern = r'<script[^>]*>([\s\S]*?)</script>'
+    scripts = re.findall(script_pattern, content, re.IGNORECASE)
+    for script in scripts:
+        if '.m3u8' in script:
+            url_pattern = r'(https?://[^\s"\']+\.m3u8[^\s"\']*)'
+            matches = re.findall(url_pattern, script, re.IGNORECASE)
+            for match in matches:
+                if 'cdn.jsdelivr.net' not in match and 'clappr' not in match:
+                    log.info(f"URL {url_num}) Found M3U8 in script: {match[:100]}...")
+                    return match, iframe_src
+        
+        # Look for JSON configuration in scripts
+        json_match = re.search(r'\{[^}]*"file"\s*:\s*"([^"]+\.m3u8[^"]*)"[^}]*\}', script, re.IGNORECASE)
+        if json_match:
+            stream_url = json_match.group(1)
+            log.info(f"URL {url_num}) Found M3U8 in script JSON: {stream_url[:100]}...")
+            return stream_url, iframe_src
+        
+        json_match = re.search(r'\{[^}]*"source"\s*:\s*"([^"]+\.m3u8[^"]*)"[^}]*\}', script, re.IGNORECASE)
+        if json_match:
+            stream_url = json_match.group(1)
+            log.info(f"URL {url_num}) Found M3U8 in script JSON: {stream_url[:100]}...")
+            return stream_url, iframe_src
+        
+        json_match = re.search(r'\{[^}]*"url"\s*:\s*"([^"]+\.m3u8[^"]*)"[^}]*\}', script, re.IGNORECASE)
+        if json_match:
+            stream_url = json_match.group(1)
+            log.info(f"URL {url_num}) Found M3U8 in script JSON: {stream_url[:100]}...")
+            return stream_url, iframe_src
+    
+    # Pattern 7: Look for the stream URL in the HTML content
+    html_patterns = [
+        r'data-stream=["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'data-src=["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'data-video=["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'data-hls=["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'data-source=["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'data-file=["\']([^"\']+\.m3u8[^"\']*)["\']',
+    ]
+    
+    for pattern in html_patterns:
+        match = re.search(pattern, content, re.IGNORECASE)
+        if match:
+            stream_url = match.group(1)
+            log.info(f"URL {url_num}) Captured stream from data attribute: {stream_url[:100]}...")
+            return stream_url, iframe_src
+    
+    # Pattern 8: Look for the stream URL in the page content using a more general approach
+    general_pattern = r'(https?://[^\s"\']+[^\s"\']*\.m3u8[^\s"\']*)'
+    matches = re.findall(general_pattern, content, re.IGNORECASE)
+    for match in matches:
+        if 'cdn.jsdelivr.net' not in match and 'clappr' not in match:
+            log.info(f"URL {url_num}) Found M3U8 in general search: {match[:100]}...")
+            return match, iframe_src
+    
+    # Pattern 9: Check if the iframe content contains a redirect to another player
+    if "window.location" in content:
         redirect_match = re.search(r'window\.location\s*=\s*["\']([^"\']+)["\']', content, re.I)
         if redirect_match:
             redirect_url = redirect_match.group(1)
@@ -187,41 +247,20 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
                             log.info(f"URL {url_num}) Captured stream from redirect: {stream_url[:100]}...")
                             return stream_url, iframe_src
     
-    # Pattern 7: Look for stream URL in the HTML content
-    html_patterns = [
-        r'data-stream=["\']([^"\']+\.m3u8[^"\']*)["\']',
-        r'data-src=["\']([^"\']+\.m3u8[^"\']*)["\']',
-        r'data-video=["\']([^"\']+\.m3u8[^"\']*)["\']',
-        r'data-hls=["\']([^"\']+\.m3u8[^"\']*)["\']',
-        r'data-source=["\']([^"\']+\.m3u8[^"\']*)["\']',
-    ]
-    
-    for pattern in html_patterns:
-        match = re.search(pattern, content, re.IGNORECASE)
-        if match:
-            stream_url = match.group(1)
-            log.info(f"URL {url_num}) Captured stream from data attribute: {stream_url[:100]}...")
-            return stream_url, iframe_src
-    
-    # Pattern 8: Look for the stream URL in script tags
-    script_pattern = r'<script[^>]*>([\s\S]*?)</script>'
-    scripts = re.findall(script_pattern, content, re.IGNORECASE)
-    for script in scripts:
-        if '.m3u8' in script:
-            url_pattern = r'(https?://[^\s"\']+\.m3u8[^\s"\']*)'
-            matches = re.findall(url_pattern, script, re.IGNORECASE)
-            for match in matches:
-                if 'cdn.jsdelivr.net' not in match and 'clappr' not in match:
-                    log.info(f"URL {url_num}) Found M3U8 in script: {match[:100]}...")
-                    return match, iframe_src
-    
-    # Pattern 9: Look for the stream URL in the page content using a more general approach
-    general_pattern = r'(https?://[^\s"\']+[^\s"\']*\.m3u8[^\s"\']*)'
-    matches = re.findall(general_pattern, content, re.IGNORECASE)
-    for match in matches:
-        if 'cdn.jsdelivr.net' not in match and 'clappr' not in match:
-            log.info(f"URL {url_num}) Found M3U8 in general search: {match[:100]}...")
-            return match, iframe_src
+    # Pattern 10: Look for iframe within the iframe content (nested iframes)
+    nested_iframe = soup.css_first("iframe")
+    if nested_iframe:
+        nested_src = nested_iframe.attributes.get("src")
+        if nested_src and nested_src != iframe_src:
+            log.info(f"URL {url_num}) Found nested iframe: {nested_src}")
+            nested_data = await network.request(nested_src, headers={"Referer": iframe_src}, log=log)
+            if nested_data:
+                for pattern in m3u8_patterns:
+                    match = re.search(pattern, nested_data.text, re.I)
+                    if match:
+                        stream_url = match.group(1)
+                        log.info(f"URL {url_num}) Captured stream from nested iframe: {stream_url[:100]}...")
+                        return stream_url, nested_src
     
     log.warning(f"URL {url_num}) No stream found")
     return nones
