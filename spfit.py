@@ -9,7 +9,7 @@ from concurrent.futures import ThreadPoolExecutor
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeoutError
 from selectolax.parser import HTMLParser
 
-from utils import Cache, Time, get_logger, leagues, network
+from utils import Cache, Event, Time, get_logger, leagues, network
 
 log = get_logger(__name__)
 
