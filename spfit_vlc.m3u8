@@ -1,8 +1,8 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-03 04:03 UTC
+# Last Updated: 2026-07-03 07:37 UTC
 # Total Streams: 3
 
-#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Spain FT 3 - 0 Austria (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Spain FT 3 - 0 Austria (SPFIT)
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Switzerland FT 2 - 0 Algeria (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Switzerland FT 2 - 0 Algeria (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
@@ -14,7 +14,7 @@ https://sxdodgers.s3.us-east-1.amazonaws.com/abc.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 https://sxdodgers.s3.us-east-1.amazonaws.com/abc.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Switzerland Today at 3:00 AM vs Algeria (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Switzerland Today at 3:00 AM vs Algeria (SPFIT)
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Spain FT 3 - 0 Austria (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Spain FT 3 - 0 Austria (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.fit/
 #EXTVLCOPT:http-origin=https://sportspass.fit
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
