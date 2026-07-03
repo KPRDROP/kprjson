@@ -852,7 +852,13 @@
       {
         "TENNIS": {
           "logo": "https://i.gyazo.com/b5e83afc3a75dacfb831abe975fd3821.png",
-          "names": ["TENNIS ATP"]
+          "names": [
+            "AUSTRALIAN OPEN",
+            "FRENCH OPEN",
+            "TENNIS ATP",
+            "US OPEN",
+            "WIMBLEDON"
+          ]
         }
       }
     ],
