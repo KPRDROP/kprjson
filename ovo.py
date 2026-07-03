@@ -1,6 +1,6 @@
+import asyncio
 import re
 import json
-import asyncio
 from functools import partial
 from urllib.parse import urljoin, quote
 from pathlib import Path
@@ -77,8 +77,8 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
         context = await browser.new_context(
             user_agent=USER_AGENT,
             extra_http_headers={
-                "Referer": url,
-                "Origin": "https://ziangel.com",
+                "Referer": REFERER,
+                "Origin": ORIGIN,
                 "Accept": "*/*",
                 "Accept-Language": "en-US,en;q=0.9",
             }
