@@ -1,5 +1,6 @@
 import re
 import json
+import asyncio
 from functools import partial
 from urllib.parse import urljoin, quote
 from pathlib import Path
