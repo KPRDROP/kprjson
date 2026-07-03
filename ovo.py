@@ -29,8 +29,8 @@ USER_AGENT = (
 UA_ENC = quote(USER_AGENT)
 
 # Referer and origin
-REFERER = "https://ziangel.st/"
-ORIGIN = "https://ziangel.st"
+REFERER = "https://ziangel.com/"
+ORIGIN = "https://ziangel.com"
 
 OUTPUT_VLC = Path("ovo_vlc.m3u8")
 OUTPUT_TIVIMATE = Path("ovo_tivimate.m3u8")
@@ -78,14 +78,19 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
     
     # Look for the actual stream URL in the iframe
     
-    # Pattern 1: Look for m3u8 URL
+    # Pattern 1: Look for m3u8 URL - Updated with more patterns
     m3u8_patterns = [
         r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
         r'(https?://[^\s"\']+\.m3u8\?[^\s"\']*)',
         r'(https?://[^\s"\']+/hls/[^\s"\']+\.m3u8[^\s"\']*)',
         r'(https?://[^\s"\']+azplay[^\s"\']+\.me/hls/[^\s"\']+\.m3u8[^\s"\']*)',
+        r'(https?://[^\s"\']+azplay[^\s"\']+\.com/hls/[^\s"\']+\.m3u8[^\s"\']*)',
         r'(https?://[^\s"\']+stream[^\s"\']+\.m3u8[^\s"\']*)',
         r'(https?://[^\s"\']+[a-z0-9]+\.me/hls/[^\s"\']+\.m3u8[^\s"\']*)',
+        r'(https?://[^\s"\']+[a-z0-9]+\.com/hls/[^\s"\']+\.m3u8[^\s"\']*)',
+        r'(https?://[^\s"\']+[a-z0-9]+\.net/hls/[^\s"\']+\.m3u8[^\s"\']*)',
+        r'(https?://[^\s"\']+ziangel\.[a-z]+/hls/[^\s"\']+\.m3u8[^\s"\']*)',
+        r'(https?://[^\s"\']+[a-z0-9]+\.xyz/hls/[^\s"\']+\.m3u8[^\s"\']*)',
     ]
     
     for pattern in m3u8_patterns:
@@ -95,7 +100,7 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
                 log.info(f"URL {url_num}) Captured M3U8 stream: {match[:100]}...")
                 return match, iframe_src
     
-    # Pattern 2: Look for source URL in Clappr configuration
+    # Pattern 2: Look for source URL in player configuration
     clappr_patterns = [
         r'source\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
         r'source\s*:\s*["\']([^"\']+)["\']',
@@ -107,6 +112,8 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
         r'"url"\s*:\s*"([^"]+\.m3u8[^"]*)"',
         r'currentStreamUrl\s*=\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
         r'streamUrl\s*=\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'video\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'playlist\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
     ]
     
     for pattern in clappr_patterns:
@@ -130,6 +137,7 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
         r'(?:var|const|let)\s+(?:url|src|source|stream|file|video|hls|m3u8)\s*=\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
         r'(?:var|const|let)\s+(?:url|src|source|stream|file|video|hls|m3u8)\s*=\s*["\']([^"\']+)["\']',
         r'(?:url|src|source|stream|file|video|hls|m3u8)\s*[:=]\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'(?:url|src|source|stream|file|video|hls|m3u8)\s*[:=]\s*["\']([^"\']+)["\']',
     ]
     
     for pattern in var_patterns:
@@ -144,6 +152,7 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
         r'atob\(["\']([^"\']+)["\']\)',
         r'decodeURIComponent\(["\']([^"\']+)["\']\)',
         r'base64\.decode\(["\']([^"\']+)["\']\)',
+        r'window\.atob\(["\']([^"\']+)["\']\)',
     ]
     
     for pattern in b64_patterns:
@@ -162,7 +171,6 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
                 pass
     
     # Pattern 6: Look for the stream URL in the iframe's parent page
-    # Sometimes the stream URL is in a script tag that loads the iframe
     if 'window.location' in content:
         redirect_match = re.search(r'window\.location\s*=\s*["\']([^"\']+)["\']', content, re.I)
         if redirect_match:
@@ -179,11 +187,13 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
                             log.info(f"URL {url_num}) Captured stream from redirect: {stream_url[:100]}...")
                             return stream_url, iframe_src
     
-    # Pattern 7: Look for stream URL in the HTML content (sometimes it's in a meta tag or data attribute)
+    # Pattern 7: Look for stream URL in the HTML content
     html_patterns = [
         r'data-stream=["\']([^"\']+\.m3u8[^"\']*)["\']',
         r'data-src=["\']([^"\']+\.m3u8[^"\']*)["\']',
         r'data-video=["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'data-hls=["\']([^"\']+\.m3u8[^"\']*)["\']',
+        r'data-source=["\']([^"\']+\.m3u8[^"\']*)["\']',
     ]
     
     for pattern in html_patterns:
@@ -193,8 +203,19 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
             log.info(f"URL {url_num}) Captured stream from data attribute: {stream_url[:100]}...")
             return stream_url, iframe_src
     
-    # Pattern 8: Look for the stream URL in the page content using a more general approach
-    # Sometimes the URL is in the page but not in a standard pattern
+    # Pattern 8: Look for the stream URL in script tags
+    script_pattern = r'<script[^>]*>([\s\S]*?)</script>'
+    scripts = re.findall(script_pattern, content, re.IGNORECASE)
+    for script in scripts:
+        if '.m3u8' in script:
+            url_pattern = r'(https?://[^\s"\']+\.m3u8[^\s"\']*)'
+            matches = re.findall(url_pattern, script, re.IGNORECASE)
+            for match in matches:
+                if 'cdn.jsdelivr.net' not in match and 'clappr' not in match:
+                    log.info(f"URL {url_num}) Found M3U8 in script: {match[:100]}...")
+                    return match, iframe_src
+    
+    # Pattern 9: Look for the stream URL in the page content using a more general approach
     general_pattern = r'(https?://[^\s"\']+[^\s"\']*\.m3u8[^\s"\']*)'
     matches = re.findall(general_pattern, content, re.IGNORECASE)
     for match in matches:
@@ -242,16 +263,8 @@ async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
         # Build event URL
         event_url = urljoin(BASE_URL, href)
 
-        # Parse event time
+        # Parse event time - ignore time filtering, always get events
         event_dt = now
-        if event_time:
-            try:
-                date_match = re.search(r'(\w{3}\s+\d+)', event_time)
-                if date_match:
-                    date_str = f"{date_match.group(1)} {now.year}"
-                    event_dt = Time.from_str(date_str, "%b %d %Y", timezone="UTC")
-            except:
-                event_dt = now
 
         key = f"[{sport}] {event_name} ({TAG})"
 
@@ -275,6 +288,7 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str | float]]:
         events = await refresh_html_cache(now)
         HTML_FILE.write(events)
 
+    # Return all events regardless of time
     return [v for k, v in events.items() if k not in cached_keys]
 
 
