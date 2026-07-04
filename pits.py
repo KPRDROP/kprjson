@@ -44,6 +44,7 @@ VALID_STREAM_EXT = (
     ".js",
 )
 
+
 # -------------------------------------------------
 # Check if URL is valid stream
 # -------------------------------------------------
@@ -59,7 +60,7 @@ def is_stream_url(url: str) -> bool:
     if any(domain in url for domain in VALID_STREAM_DOMAINS):
         return True
 
-    # Allow generic ossfeed style
+    # Allow generic out/v2/ style
     if "/out/v2/" in url:
         return True
 
@@ -74,10 +75,7 @@ def clean_stream_url(url: str) -> str:
         return url
 
     url = url.strip().strip('"').strip("'")
-
-    # Remove escaped slashes
     url = url.replace("\\/", "/")
-
     return url
 
 
@@ -94,7 +92,6 @@ def extract_uuids(content: str) -> list[str]:
     )
 
     matches = re.findall(uuid_pattern, content, re.I)
-
     seen = set()
     out = []
 
@@ -131,18 +128,15 @@ async def extract_stream_from_api(embed_id: str, url_num: int) -> str | None:
 
         text = response.text
 
-        # Try JSON parse
         try:
             data = json.loads(text)
 
-            # Check for stream object
             if "stream" in data and "link" in data["stream"]:
                 stream = clean_stream_url(data["stream"]["link"])
                 if is_stream_url(stream):
                     log.info(f"URL {url_num}) ✓ Stream from API: {stream[:120]}...")
                     return stream
 
-            # Direct link
             if "link" in data:
                 stream = clean_stream_url(data["link"])
                 if is_stream_url(stream):
@@ -152,7 +146,7 @@ async def extract_stream_from_api(embed_id: str, url_num: int) -> str | None:
         except Exception:
             pass
 
-        # Raw fallback regex
+        # Raw fallback
         regex = r'https?://[^\s"\']+\.(?:m3u8|css|js)[^\s"\']*'
         matches = re.findall(regex, text, re.I)
 
@@ -169,10 +163,10 @@ async def extract_stream_from_api(embed_id: str, url_num: int) -> str | None:
 
 
 # -------------------------------------------------
-# Extract embed IDs from watch page JSON
+# Extract embed IDs from watch page
 # -------------------------------------------------
 async def extract_embed_ids_from_page(watch_url: str, url_num: int) -> list[str]:
-    """Extract embed IDs from the watch page JSON data"""
+    """Extract embed IDs from the watch page"""
     embed_ids = []
 
     try:
@@ -190,46 +184,7 @@ async def extract_embed_ids_from_page(watch_url: str, url_num: int) -> list[str]
 
         content = response.text
 
-        # Look for JSON data in the page
-        # The page contains JSON with content array of iframe URLs
-        json_pattern = r'<script[^>]*id="__NEXT_DATA__"[^>]*>([\s\S]*?)</script>'
-        match = re.search(json_pattern, content, re.I)
-
-        if match:
-            try:
-                data = json.loads(match.group(1))
-                # Navigate to the content array
-                # The structure varies, so try multiple paths
-                if "props" in data and "pageProps" in data["props"]:
-                    page_props = data["props"]["pageProps"]
-                    if "content" in page_props:
-                        for item in page_props["content"]:
-                            if "iframe" in item:
-                                embed_url = item["iframe"]
-                                # Extract UUID from embed URL
-                                uuid_match = re.search(
-                                    r'/embed/([0-9a-f\-]{36})',
-                                    embed_url,
-                                    re.I
-                                )
-                                if uuid_match:
-                                    embed_ids.append(uuid_match.group(1))
-                    # Also check for streams data
-                    if "streams" in page_props:
-                        for stream in page_props["streams"]:
-                            if "embed" in stream:
-                                embed_url = stream["embed"]
-                                uuid_match = re.search(
-                                    r'/embed/([0-9a-f\-]{36})',
-                                    embed_url,
-                                    re.I
-                                )
-                                if uuid_match:
-                                    embed_ids.append(uuid_match.group(1))
-            except:
-                pass
-
-        # Fallback: look for any embed URLs
+        # Look for embed URLs directly
         embed_pattern = r'pushembdz\.store/embed/([0-9a-f\-]{36})'
         matches = re.findall(embed_pattern, content, re.I)
 
@@ -237,13 +192,42 @@ async def extract_embed_ids_from_page(watch_url: str, url_num: int) -> list[str]
             if match not in embed_ids:
                 embed_ids.append(match)
 
-        # Also look for API URLs
+        # Look for API URLs
         api_pattern = r'api\.pushembdz\.store/v1/stream/([0-9a-f\-]{36})'
         matches = re.findall(api_pattern, content, re.I)
 
         for match in matches:
             if match not in embed_ids:
                 embed_ids.append(match)
+
+        # Look for JSON data in script tags
+        script_pattern = r'<script[^>]*>([\s\S]*?)</script>'
+        scripts = re.findall(script_pattern, content, re.I)
+
+        for script in scripts:
+            # Look for content array with iframes
+            if '"content"' in script and '"iframe"' in script:
+                try:
+                    # Extract JSON-like data
+                    json_matches = re.findall(r'\{[^{}]*"iframe"[^{}]*\}', script, re.I)
+                    for json_match in json_matches:
+                        try:
+                            data = json.loads(json_match)
+                            if "iframe" in data:
+                                embed_url = data["iframe"]
+                                uuid_match = re.search(r'/embed/([0-9a-f\-]{36})', embed_url, re.I)
+                                if uuid_match:
+                                    embed_ids.append(uuid_match.group(1))
+                        except:
+                            pass
+                except:
+                    pass
+
+        # Generic UUID extraction fallback
+        generic = extract_uuids(content)
+        for item in generic:
+            if item not in embed_ids:
+                embed_ids.append(item)
 
         log.info(f"URL {url_num}) Found {len(embed_ids)} embed IDs")
 
@@ -254,7 +238,7 @@ async def extract_embed_ids_from_page(watch_url: str, url_num: int) -> list[str]
 
 
 # -------------------------------------------------
-# Extract event info from schedule page
+# Extract events from schedule page
 # -------------------------------------------------
 async def get_events_from_schedule(cached_hrefs: set[str]) -> list[dict[str, str]]:
     events = []
@@ -267,7 +251,7 @@ async def get_events_from_schedule(cached_hrefs: set[str]) -> list[dict[str, str
 
     content = response.text
 
-    # Find all event links
+    # Find all event links - look for /watch/ URLs
     watch_pattern = r'href=["\']/watch/([a-z0-9\-]+)["\']'
     watch_matches = re.findall(watch_pattern, content, re.I)
 
@@ -302,33 +286,43 @@ async def get_events_from_schedule(cached_hrefs: set[str]) -> list[dict[str, str
 
         watch_url = f"{WATCH_BASE}/{watch_id}"
 
-        # Extract title
-        title_pattern = (
-            rf'href=["\']/watch/{watch_id}["\'][^>]*>'
-            rf'.*?<h1[^>]*>([^<]+)</h1>'
-        )
-        title_match = re.search(title_pattern, content, re.S | re.I)
+        # Find the event card containing this watch ID
+        # Look for the card with the watch ID
+        card_pattern = rf'href=["\']/watch/{watch_id}["\'][^>]*>([\s\S]*?)</a>'
+        card_match = re.search(card_pattern, content, re.S | re.I)
 
-        if title_match:
-            title = title_match.group(1).strip()
-        else:
-            # Try alternative pattern for title
-            alt_title_pattern = rf'/watch/{watch_id}[^>]*>.*?<h1[^>]*>([^<]+)</h1>'
-            alt_match = re.search(alt_title_pattern, content, re.S | re.I)
-            title = alt_match.group(1).strip() if alt_match else f"Event {watch_id[:8]}"
-
-        # Extract date/time
-        date_pattern = (
-            rf'href=["\']/watch/{watch_id}["\'][^>]*>'
-            rf'.*?<h2[^>]*>([^<]+)</h2>'
-        )
-        date_match = re.search(date_pattern, content, re.S | re.I)
-
+        title = f"Event {watch_id[:8]}"
         event_date = ""
-        if date_match:
-            event_date = date_match.group(1).strip()
-            # Remove comma from date
-            event_date = event_date.replace(',', '')
+
+        if card_match:
+            card_content = card_match.group(1)
+
+            # Extract title from h1 within the card
+            title_match = re.search(r'<h1[^>]*>([^<]+)</h1>', card_content, re.I)
+            if title_match:
+                title = title_match.group(1).strip()
+
+            # Extract date from h2 within the card
+            date_match = re.search(r'<h2[^>]*>([^<]+)</h2>', card_content, re.I)
+            if date_match:
+                event_date = date_match.group(1).strip()
+                # Remove comma from date
+                event_date = event_date.replace(',', '')
+
+        # If title not found in card, try finding it elsewhere
+        if title == f"Event {watch_id[:8]}":
+            # Try broader search
+            title_pattern = rf'href=["\']/watch/{watch_id}["\'][^>]*>.*?<h1[^>]*>([^<]+)</h1>'
+            title_match = re.search(title_pattern, content, re.S | re.I)
+            if title_match:
+                title = title_match.group(1).strip()
+
+            # Try broader date search
+            date_pattern = rf'href=["\']/watch/{watch_id}["\'][^>]*>.*?<h2[^>]*>([^<]+)</h2>'
+            date_match = re.search(date_pattern, content, re.S | re.I)
+            if date_match:
+                event_date = date_match.group(1).strip()
+                event_date = event_date.replace(',', '')
 
         # Determine sport category
         category = "LIVE"
@@ -434,13 +428,11 @@ async def extract_stream_with_playwright(
             nonlocal stream_url
             url = response.url
 
-            # Check if it's a stream URL
             if is_stream_url(url):
                 stream_url = clean_stream_url(url)
                 log.info(f"URL {url_num}) ✓ Captured stream: {stream_url[:120]}...")
                 return
 
-            # Check API responses
             if "api.pushembdz.store/v1/stream/" in url:
                 try:
                     body = await response.text()
@@ -461,7 +453,7 @@ async def extract_stream_with_playwright(
             await page.goto(watch_url, wait_until="domcontentloaded", timeout=45000)
             await asyncio.sleep(8)
 
-            # Check for iframes and navigate to them
+            # Check for iframes
             iframes = await page.query_selector_all('iframe')
             for iframe in iframes:
                 try:
