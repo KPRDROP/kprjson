@@ -158,8 +158,8 @@ async def extract_embed_ids_from_watch_page(watch_url: str, url_num: int) -> lis
             # Try to find customText near each embed
             for match in matches:
                 custom_text = None
-                # Look for customText near this embed
-                text_pattern = rf'embed/{match}[^"]*"[^}]*"customText"\s*:\s*([^,}]+)'
+                # Look for customText near this embed - escaped braces for f-string
+                text_pattern = r'embed/' + match + r'[^"]*"[^}]*"customText"\s*:\s*([^,}]+)'
                 text_match = re.search(text_pattern, content, re.I)
                 if text_match:
                     custom_text = text_match.group(1).strip().strip('"')
