@@ -66,7 +66,9 @@
             "NBA BASKETBALL",
             "NBA CUP",
             "NBA PLAYOFFS",
-            "NBA PRESEASON"
+            "NBA PRESEASON",
+            "NBA SUMMER LEAGUE",
+            "SUMMER LEAGUE"
           ]
         }
       }
@@ -1213,6 +1215,7 @@
       "Dallas Wings",
       "Dream",
       "Fever",
+      "Fire",
       "Golden State Valkyries",
       "Indiana Fever",
       "Las Vegas Aces",
@@ -1224,11 +1227,14 @@
       "Mystics",
       "New York Liberty",
       "Phoenix Mercury",
+      "Portland Fire",
       "Seattle Storm",
       "Sky",
       "Sparks",
       "Storm",
       "Sun",
+      "Tempo",
+      "Toronto Tempo",
       "Valkyries",
       "Washington Mystics",
       "Wings"
