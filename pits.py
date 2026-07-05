@@ -4,7 +4,6 @@ import json
 from pathlib import Path
 from urllib.parse import quote_plus, urljoin
 
-from playwright.async_api import async_playwright
 from utils import Cache, Event, Time, get_logger, leagues, network
 
 log = get_logger(__name__)
@@ -12,6 +11,7 @@ log = get_logger(__name__)
 TAG = "PITS"
 BASE_URL = "https://pitsport.live"
 API_URL = "https://api.pitsport.live/v1/streams"
+WATCH_API_BASE = "https://api.pitsport.live/watch"
 WATCH_BASE = f"{BASE_URL}/watch"
 
 CACHE_FILE = Cache(f"{TAG.lower()}.json", exp=10_800)
@@ -33,6 +33,7 @@ UA_ENC = quote_plus(UA)
 VALID_STREAM_DOMAINS = {
     "ossfeed.store",
     "sense-scramble-bay.xyz",
+    "sadhoofiton.shop",
     "serveplay",
     "ev01-prod",
     "cloudfront",
@@ -88,95 +89,6 @@ def is_stream_url(url: str) -> bool:
 
 
 # -------------------------------------------------
-# Extract UUIDs from text
-# -------------------------------------------------
-def extract_uuids(text: str) -> list[str]:
-    seen = set()
-    out = []
-
-    for uuid in UUID_RE.findall(text):
-        if uuid not in seen:
-            seen.add(uuid)
-            out.append(uuid)
-
-    return out
-
-
-# -------------------------------------------------
-# Extract embed IDs from watch page JSON
-# -------------------------------------------------
-async def extract_embed_ids_from_watch_page(watch_url: str, url_num: int) -> list[dict]:
-    """
-    Extract embed IDs with their customText from the watch page
-    Returns list of dicts: [{"embed_id": "...", "custom_text": "..."}, ...]
-    """
-    embed_data = []
-
-    try:
-        response = await network.request(
-            watch_url,
-            headers={
-                "User-Agent": UA,
-                "Referer": BASE_URL,
-            },
-            log=log,
-        )
-
-        if not response:
-            return embed_data
-
-        content = response.text
-
-        # Look for JSON data in the page (__NEXT_DATA__)
-        json_pattern = r'<script[^>]*id="__NEXT_DATA__"[^>]*>([\s\S]*?)</script>'
-        match = re.search(json_pattern, content, re.I)
-
-        if match:
-            try:
-                data = json.loads(match.group(1))
-                # Navigate to content array
-                if "props" in data and "pageProps" in data["props"]:
-                    page_props = data["props"]["pageProps"]
-                    if "content" in page_props:
-                        for item in page_props["content"]:
-                            if "iframe" in item:
-                                embed_url = item["iframe"]
-                                uuid_match = re.search(r'/embed/([0-9a-f\-]{36})', embed_url, re.I)
-                                if uuid_match:
-                                    embed_data.append({
-                                        "embed_id": uuid_match.group(1),
-                                        "custom_text": item.get("customText"),
-                                    })
-            except:
-                pass
-
-        # Fallback: look for embed URLs directly
-        if not embed_data:
-            embed_pattern = r'pushembdz\.store/embed/([0-9a-f\-]{36})'
-            matches = re.findall(embed_pattern, content, re.I)
-
-            # Try to find customText near each embed
-            for match in matches:
-                custom_text = None
-                # Look for customText near this embed - escaped braces for f-string
-                text_pattern = r'embed/' + match + r'[^"]*"[^}]*"customText"\s*:\s*([^,}]+)'
-                text_match = re.search(text_pattern, content, re.I)
-                if text_match:
-                    custom_text = text_match.group(1).strip().strip('"')
-                embed_data.append({
-                    "embed_id": match,
-                    "custom_text": custom_text,
-                })
-
-        log.info(f"URL {url_num}) Found {len(embed_data)} embeds in watch page")
-
-    except Exception as e:
-        log.error(f"URL {url_num}) Error extracting embeds: {e}")
-
-    return embed_data
-
-
-# -------------------------------------------------
 # Extract stream from embed API
 # -------------------------------------------------
 async def extract_stream_from_embed(embed_id: str, url_num: int) -> dict | None:
@@ -220,6 +132,44 @@ async def extract_stream_from_embed(embed_id: str, url_num: int) -> dict | None:
         log.debug(f"URL {url_num}) Embed API error: {e}")
 
     return None
+
+
+# -------------------------------------------------
+# Get watch page content from API
+# -------------------------------------------------
+async def get_watch_content(watch_id: str, url_num: int) -> list[dict]:
+    """Get watch page content from the API"""
+    watch_api_url = f"{WATCH_API_BASE}/{watch_id}"
+
+    try:
+        response = await network.request(
+            watch_api_url,
+            headers={
+                "User-Agent": UA,
+                "Referer": BASE_URL,
+                "Accept": "application/json",
+            },
+            log=log,
+        )
+
+        if not response:
+            return []
+
+        data = json.loads(response.text)
+
+        if not data.get("success"):
+            log.debug(f"URL {url_num}) API returned success=false")
+            return []
+
+        content = data.get("content", [])
+        log.info(f"URL {url_num}) Found {len(content)} embeds from API")
+
+        return content
+
+    except Exception as e:
+        log.debug(f"URL {url_num}) Watch API error: {e}")
+
+    return []
 
 
 # -------------------------------------------------
@@ -304,21 +254,29 @@ async def process_event(watch_id: str, url: str, url_num: int) -> list[dict]:
     """Process event to extract all stream URLs"""
     streams = []
 
-    # Step 1: Extract embed IDs from watch page
-    embed_data = await extract_embed_ids_from_watch_page(url, url_num)
+    # Step 1: Get watch content from API
+    content = await get_watch_content(watch_id, url_num)
 
-    if not embed_data:
-        log.warning(f"URL {url_num}) No embeds found")
+    if not content:
+        log.warning(f"URL {url_num}) No content found from API")
         return streams
 
-    # Step 2: Extract streams from each embed
-    for embed_info in embed_data:
-        embed_id = embed_info.get("embed_id")
-        custom_text = embed_info.get("custom_text")
+    # Step 2: Extract streams from each embed in content
+    for item in content:
+        iframe = item.get("iframe")
+        custom_text = item.get("customText")
 
-        if not embed_id:
+        if not iframe:
             continue
 
+        # Extract embed ID from iframe URL
+        uuid_match = re.search(r'/embed/([0-9a-f\-]{36})', iframe, re.I)
+        if not uuid_match:
+            continue
+
+        embed_id = uuid_match.group(1)
+
+        # Get stream from embed API
         stream_result = await extract_stream_from_embed(embed_id, url_num)
 
         if stream_result:
@@ -326,14 +284,11 @@ async def process_event(watch_id: str, url: str, url_num: int) -> list[dict]:
             stream_title = stream_result.get("title")
 
             # Use customText as title suffix if available
-            title_suffix = custom_text if custom_text else ""
-
-            if stream_title and title_suffix:
-                # If both exist, combine them
-                if title_suffix not in stream_title:
-                    stream_title = f"{stream_title} ({title_suffix})"
-            elif title_suffix:
-                stream_title = title_suffix
+            if custom_text:
+                if stream_title:
+                    stream_title = f"{stream_title} ({custom_text})"
+                else:
+                    stream_title = custom_text
 
             streams.append({
                 "url": stream_url,
@@ -436,11 +391,8 @@ async def scrape() -> None:
             # Check if this title already exists
             existing_titles = [k for k in urls.keys() if k.startswith(f"[{ev['sport']}] {ev['event']}")]
             if existing_titles:
-                # Count how many streams for this event
                 stream_count = len(existing_titles)
-                # Only add number if there are multiple streams with the same title
-                if stream_count > 0:
-                    key = f"{title} [{stream_count + 1}]"
+                key = f"{title} [{stream_count + 1}]"
 
             urls[key] = {
                 "url": stream_url,
