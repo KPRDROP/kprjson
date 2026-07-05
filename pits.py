@@ -2,8 +2,9 @@ import asyncio
 import re
 import json
 from pathlib import Path
-from urllib.parse import quote_plus, urljoin
+from urllib.parse import quote_plus
 
+from playwright.async_api import async_playwright
 from utils import Cache, Event, Time, get_logger, leagues, network
 
 log = get_logger(__name__)
@@ -12,7 +13,6 @@ TAG = "PITS"
 BASE_URL = "https://pitsport.live"
 API_URL = "https://api.pitsport.live/v1/streams"
 WATCH_BASE = f"{BASE_URL}/watch"
-EMBED_BASE = "https://pushembdz.store/embed"
 
 CACHE_FILE = Cache(f"{TAG.lower()}.json", exp=10_800)
 OUTPUT_FILE = Path("pits.m3u8")
@@ -79,101 +79,171 @@ def is_stream_url(url: str) -> bool:
 
 
 # -------------------------------------------------
-# Get watch content from JSON API
+# Extract __NEXT_DATA__ from page
 # -------------------------------------------------
-async def get_watch_content(watch_id: str, url_num: int) -> list[dict]:
-    """Get watch page content from JSON API"""
+async def extract_next_data(page) -> dict:
+    """Extract __NEXT_DATA__ from the page"""
+    try:
+        data = await page.evaluate("() => window.__NEXT_DATA__")
+        if data:
+            return data
+    except:
+        pass
+
+    # Fallback: extract from HTML
+    try:
+        content = await page.content()
+        pattern = r'<script[^>]*id="__NEXT_DATA__"[^>]*>([\s\S]*?)</script>'
+        match = re.search(pattern, content, re.I)
+        if match:
+            return json.loads(match.group(1))
+    except:
+        pass
+
+    return {}
+
+
+# -------------------------------------------------
+# Get watch content using Playwright
+# -------------------------------------------------
+async def get_watch_content_with_playwright(watch_id: str, url_num: int) -> list[dict]:
+    """Get watch page content using Playwright"""
     watch_url = f"{WATCH_BASE}/{watch_id}"
+    content_data = []
 
-    try:
-        response = await network.request(
-            watch_url,
-            headers={
-                "User-Agent": UA,
-                "Accept": "application/json",
-                "Referer": BASE_URL,
-            },
-            log=log,
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(
+            headless=True,
+            args=[
+                "--no-sandbox",
+                "--disable-dev-shm-usage",
+                "--disable-blink-features=AutomationControlled",
+            ],
         )
 
-        if not response:
-            return []
-
-        data = json.loads(response.text)
-
-        if not data.get("success"):
-            log.warning(f"URL {url_num}) watch returned success=false")
-            return []
-
-        content = data.get("content", [])
-
-        log.info(f"URL {url_num}) Found {len(content)} embed(s)")
-
-        return content
-
-    except Exception as e:
-        log.error(f"URL {url_num}) {e}")
-
-    return []
-
-
-# -------------------------------------------------
-# Extract stream from embed
-# -------------------------------------------------
-async def extract_stream_from_embed(embed_id: str, url_num: int) -> dict | None:
-    """Extract stream from embed endpoint"""
-    embed_url = f"{EMBED_BASE}/{embed_id}"
-
-    try:
-        response = await network.request(
-            embed_url,
-            headers={
-                "User-Agent": UA,
-                "Referer": "https://pushembdz.store/",
-                "Origin": "https://pushembdz.store",
-                "Accept": "application/json",
-            },
-            log=log,
+        context = await browser.new_context(
+            user_agent=UA,
+            viewport={"width": 1920, "height": 1080},
         )
 
-        if not response:
-            return None
+        page = await context.new_page()
 
-        data = json.loads(response.text)
+        # Capture XHR responses for embed streams
+        embed_streams = {}
 
-        # Check for single stream
-        stream = data.get("stream")
-        if stream:
-            link = stream.get("link")
-            if is_stream_url(link):
-                return {
-                    "url": clean_stream_url(link),
-                    "title": stream.get("title", ""),
-                }
+        async def handle_response(response):
+            url = response.url
 
-        # Check for streams (plural)
-        streams = data.get("streams")
-        if streams and isinstance(streams, list):
-            for s in streams:
-                link = s.get("link")
-                if is_stream_url(link):
-                    return {
-                        "url": clean_stream_url(link),
-                        "title": s.get("title", ""),
-                    }
+            # Look for embed responses
+            if "pushembdz.store/embed" in url:
+                try:
+                    body = await response.text()
+                    data = json.loads(body)
 
-        # Check for direct link
-        link = data.get("link")
-        if is_stream_url(link):
-            return {
-                "url": clean_stream_url(link),
-                "title": data.get("title", ""),
-            }
+                    # Extract stream link
+                    stream = data.get("stream")
+                    if stream:
+                        link = stream.get("link")
+                        if is_stream_url(link):
+                            embed_id = url.split("/")[-1]
+                            embed_streams[embed_id] = {
+                                "url": clean_stream_url(link),
+                                "title": stream.get("title", ""),
+                            }
+                            log.info(f"URL {url_num}) Captured stream from embed: {link[:80]}...")
 
-    except Exception as e:
-        log.debug(f"URL {url_num}) Embed error: {e}")
+                    # Check for streams (plural)
+                    streams = data.get("streams")
+                    if streams and isinstance(streams, list):
+                        for s in streams:
+                            link = s.get("link")
+                            if is_stream_url(link):
+                                embed_id = url.split("/")[-1]
+                                embed_streams[embed_id] = {
+                                    "url": clean_stream_url(link),
+                                    "title": s.get("title", ""),
+                                }
+                                log.info(f"URL {url_num}) Captured stream from embed: {link[:80]}...")
 
-    return None
+                except:
+                    pass
+
+            # Look for API responses
+            if "api.pushembdz.store" in url:
+                try:
+                    body = await response.text()
+                    data = json.loads(body)
+                    if "stream" in data and "link" in data["stream"]:
+                        link = data["stream"]["link"]
+                        if is_stream_url(link):
+                            # This is likely the embed response
+                            pass
+                except:
+                    pass
+
+        page.on("response", handle_response)
+
+        try:
+            log.info(f"URL {url_num}) Loading watch page: {watch_url}")
+            await page.goto(watch_url, wait_until="domcontentloaded", timeout=30000)
+
+            # Wait for content to load
+            await asyncio.sleep(5)
+
+            # Extract __NEXT_DATA__
+            next_data = await extract_next_data(page)
+
+            # Get content from __NEXT_DATA__
+            if next_data:
+                try:
+                    if "props" in next_data and "pageProps" in next_data["props"]:
+                        page_props = next_data["props"]["pageProps"]
+                        if "content" in page_props:
+                            content_data = page_props["content"]
+                            log.info(f"URL {url_num}) Found {len(content_data)} embeds from __NEXT_DATA__")
+                except:
+                    pass
+
+            # If no content from __NEXT_DATA__, try to find iframes directly
+            if not content_data:
+                # Look for iframe elements
+                iframes = await page.query_selector_all('iframe')
+                for iframe in iframes:
+                    try:
+                        src = await iframe.get_attribute('src')
+                        if src and "pushembdz.store/embed" in src:
+                            # Extract embed ID
+                            uuid_match = re.search(r'/embed/([0-9a-f\-]{36})', src, re.I)
+                            if uuid_match:
+                                content_data.append({
+                                    "iframe": src,
+                                    "customText": None,
+                                })
+                    except:
+                        pass
+
+                log.info(f"URL {url_num}) Found {len(content_data)} embeds from iframes")
+
+            # Wait a bit more for XHR responses
+            await asyncio.sleep(3)
+
+            # If we have embed streams from XHR, add them to content_data
+            if embed_streams:
+                for item in content_data:
+                    iframe = item.get("iframe", "")
+                    uuid_match = re.search(r'/embed/([0-9a-f\-]{36})', iframe, re.I)
+                    if uuid_match:
+                        embed_id = uuid_match.group(1)
+                        if embed_id in embed_streams:
+                            item["_stream"] = embed_streams[embed_id]
+
+        except Exception as e:
+            log.error(f"URL {url_num}) Playwright error: {e}")
+
+        finally:
+            await browser.close()
+
+    return content_data
 
 
 # -------------------------------------------------
@@ -258,19 +328,38 @@ async def process_event(watch_id: str, url: str, url_num: int) -> list[dict]:
     """Process event to extract all stream URLs"""
     streams = []
 
-    # Step 1: Get watch content from JSON API
-    content = await get_watch_content(watch_id, url_num)
+    # Step 1: Get watch content using Playwright
+    content = await get_watch_content_with_playwright(watch_id, url_num)
 
     if not content:
         log.warning(f"URL {url_num}) No content found")
         return streams
 
-    # Step 2: Extract streams from each embed in content
+    # Step 2: Extract streams from content
     for item in content:
         iframe = item.get("iframe")
         custom_text = item.get("customText")
 
         if not iframe:
+            continue
+
+        # Check if we already have a stream from XHR
+        if "_stream" in item:
+            stream_data = item["_stream"]
+            stream_url = stream_data.get("url")
+            stream_title = stream_data.get("title")
+
+            if stream_url:
+                if custom_text:
+                    if stream_title:
+                        stream_title = f"{stream_title} ({custom_text})"
+                    else:
+                        stream_title = custom_text
+
+                streams.append({
+                    "url": stream_url,
+                    "title": stream_title,
+                })
             continue
 
         # Extract embed ID from iframe URL
@@ -280,24 +369,41 @@ async def process_event(watch_id: str, url: str, url_num: int) -> list[dict]:
 
         embed_id = uuid_match.group(1)
 
-        # Get stream from embed endpoint
-        stream_result = await extract_stream_from_embed(embed_id, url_num)
+        # If no stream from XHR, try to load the embed page directly
+        embed_url = f"https://pushembdz.store/embed/{embed_id}"
 
-        if stream_result:
-            stream_url = stream_result.get("url")
-            stream_title = stream_result.get("title")
+        try:
+            # Use network request as fallback
+            response = await network.request(
+                embed_url,
+                headers={
+                    "User-Agent": UA,
+                    "Referer": "https://pushembdz.store/",
+                    "Origin": "https://pushembdz.store",
+                    "Accept": "application/json",
+                },
+                log=log,
+            )
 
-            # Use customText as title suffix if available
-            if custom_text:
-                if stream_title:
-                    stream_title = f"{stream_title} ({custom_text})"
-                else:
-                    stream_title = custom_text
+            if response:
+                data = json.loads(response.text)
+                stream = data.get("stream")
+                if stream:
+                    stream_url = stream.get("link")
+                    if is_stream_url(stream_url):
+                        stream_title = stream.get("title", "")
+                        if custom_text:
+                            if stream_title:
+                                stream_title = f"{stream_title} ({custom_text})"
+                            else:
+                                stream_title = custom_text
 
-            streams.append({
-                "url": stream_url,
-                "title": stream_title,
-            })
+                        streams.append({
+                            "url": clean_stream_url(stream_url),
+                            "title": stream_title,
+                        })
+        except:
+            pass
 
     if streams:
         log.info(f"URL {url_num}) Found {len(streams)} streams")
@@ -392,7 +498,6 @@ async def scrape() -> None:
 
             # Generate unique key for multiple streams per event
             key = title
-            # Check if this title already exists
             existing_titles = [k for k in urls.keys() if k.startswith(f"[{ev['sport']}] {ev['event']}")]
             if existing_titles:
                 stream_count = len(existing_titles)
