@@ -4,7 +4,6 @@ import json
 from pathlib import Path
 from urllib.parse import quote_plus, urljoin
 
-from selectolax.parser import HTMLParser
 from utils import Cache, Event, Time, get_logger, leagues, network
 
 log = get_logger(__name__)
@@ -13,6 +12,7 @@ TAG = "PITS"
 BASE_URL = "https://pitsport.live"
 API_URL = "https://api.pitsport.live/v1/streams"
 WATCH_BASE = f"{BASE_URL}/watch"
+EMBED_BASE = "https://pushembdz.store/embed"
 
 CACHE_FILE = Cache(f"{TAG.lower()}.json", exp=10_800)
 OUTPUT_FILE = Path("pits.m3u8")
@@ -44,16 +44,6 @@ VALID_STREAM_EXT = {
     ".css",
     ".js",
 }
-
-# UUID regex
-UUID_RE = re.compile(
-    r"[0-9a-f]{8}-"
-    r"[0-9a-f]{4}-"
-    r"[0-9a-f]{4}-"
-    r"[0-9a-f]{4}-"
-    r"[0-9a-f]{12}",
-    re.I,
-)
 
 
 # -------------------------------------------------
@@ -89,15 +79,54 @@ def is_stream_url(url: str) -> bool:
 
 
 # -------------------------------------------------
-# Extract stream from embed API
+# Get watch content from JSON API
 # -------------------------------------------------
-async def extract_stream_from_embed(embed_id: str, url_num: int) -> dict | None:
-    """Extract stream from embed API"""
-    api_url = f"https://api.pushembdz.store/v1/stream/{embed_id}"
+async def get_watch_content(watch_id: str, url_num: int) -> list[dict]:
+    """Get watch page content from JSON API"""
+    watch_url = f"{WATCH_BASE}/{watch_id}"
 
     try:
         response = await network.request(
-            api_url,
+            watch_url,
+            headers={
+                "User-Agent": UA,
+                "Accept": "application/json",
+                "Referer": BASE_URL,
+            },
+            log=log,
+        )
+
+        if not response:
+            return []
+
+        data = json.loads(response.text)
+
+        if not data.get("success"):
+            log.warning(f"URL {url_num}) watch returned success=false")
+            return []
+
+        content = data.get("content", [])
+
+        log.info(f"URL {url_num}) Found {len(content)} embed(s)")
+
+        return content
+
+    except Exception as e:
+        log.error(f"URL {url_num}) {e}")
+
+    return []
+
+
+# -------------------------------------------------
+# Extract stream from embed
+# -------------------------------------------------
+async def extract_stream_from_embed(embed_id: str, url_num: int) -> dict | None:
+    """Extract stream from embed endpoint"""
+    embed_url = f"{EMBED_BASE}/{embed_id}"
+
+    try:
+        response = await network.request(
+            embed_url,
             headers={
                 "User-Agent": UA,
                 "Referer": "https://pushembdz.store/",
@@ -112,97 +141,39 @@ async def extract_stream_from_embed(embed_id: str, url_num: int) -> dict | None:
 
         data = json.loads(response.text)
 
-        if "stream" in data and "link" in data["stream"]:
-            link = clean_stream_url(data["stream"]["link"])
+        # Check for single stream
+        stream = data.get("stream")
+        if stream:
+            link = stream.get("link")
             if is_stream_url(link):
                 return {
-                    "url": link,
-                    "title": data["stream"].get("title", ""),
+                    "url": clean_stream_url(link),
+                    "title": stream.get("title", ""),
                 }
 
-        if "link" in data:
-            link = clean_stream_url(data["link"])
-            if is_stream_url(link):
-                return {
-                    "url": link,
-                    "title": "",
-                }
+        # Check for streams (plural)
+        streams = data.get("streams")
+        if streams and isinstance(streams, list):
+            for s in streams:
+                link = s.get("link")
+                if is_stream_url(link):
+                    return {
+                        "url": clean_stream_url(link),
+                        "title": s.get("title", ""),
+                    }
+
+        # Check for direct link
+        link = data.get("link")
+        if is_stream_url(link):
+            return {
+                "url": clean_stream_url(link),
+                "title": data.get("title", ""),
+            }
 
     except Exception as e:
-        log.debug(f"URL {url_num}) Embed API error: {e}")
+        log.debug(f"URL {url_num}) Embed error: {e}")
 
     return None
-
-
-# -------------------------------------------------
-# Get watch page content from HTML
-# -------------------------------------------------
-async def get_watch_content(watch_id: str, url_num: int) -> list[dict]:
-    """Get watch page content by scraping the HTML"""
-    watch_url = f"{WATCH_BASE}/{watch_id}"
-
-    try:
-        response = await network.request(
-            watch_url,
-            headers={
-                "User-Agent": UA,
-                "Referer": BASE_URL,
-            },
-            log=log,
-        )
-
-        if not response:
-            return []
-
-        content = response.text
-
-        # Look for __NEXT_DATA__ script tag
-        next_data_pattern = r'<script[^>]*id="__NEXT_DATA__"[^>]*>([\s\S]*?)</script>'
-        match = re.search(next_data_pattern, content, re.I)
-
-        if match:
-            try:
-                data = json.loads(match.group(1))
-                # Navigate to content array
-                if "props" in data and "pageProps" in data["props"]:
-                    page_props = data["props"]["pageProps"]
-                    if "content" in page_props:
-                        log.info(f"URL {url_num}) Found {len(page_props['content'])} embeds from __NEXT_DATA__")
-                        return page_props["content"]
-            except json.JSONDecodeError:
-                pass
-
-        # Fallback: Try to find JSON data in the page
-        json_pattern = r'({[^{]*"content"\s*:\s*\[[^\]]*\][^}]*})'
-        match = re.search(json_pattern, content, re.I)
-
-        if match:
-            try:
-                data = json.loads(match.group(1))
-                if "content" in data:
-                    log.info(f"URL {url_num}) Found {len(data['content'])} embeds from JSON fallback")
-                    return data["content"]
-            except json.JSONDecodeError:
-                pass
-
-        # Another fallback: Look for content array with iframes
-        content_pattern = r'"content"\s*:\s*(\[[\s\S]*?\])'
-        match = re.search(content_pattern, content, re.I)
-
-        if match:
-            try:
-                content_array = json.loads(match.group(1))
-                log.info(f"URL {url_num}) Found {len(content_array)} embeds from content array")
-                return content_array
-            except json.JSONDecodeError:
-                pass
-
-        log.warning(f"URL {url_num}) No content found in watch page")
-
-    except Exception as e:
-        log.error(f"URL {url_num}) Error fetching watch page: {e}")
-
-    return []
 
 
 # -------------------------------------------------
@@ -287,7 +258,7 @@ async def process_event(watch_id: str, url: str, url_num: int) -> list[dict]:
     """Process event to extract all stream URLs"""
     streams = []
 
-    # Step 1: Get watch content from HTML
+    # Step 1: Get watch content from JSON API
     content = await get_watch_content(watch_id, url_num)
 
     if not content:
@@ -309,7 +280,7 @@ async def process_event(watch_id: str, url: str, url_num: int) -> list[dict]:
 
         embed_id = uuid_match.group(1)
 
-        # Get stream from embed API
+        # Get stream from embed endpoint
         stream_result = await extract_stream_from_embed(embed_id, url_num)
 
         if stream_result:
