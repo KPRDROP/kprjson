@@ -1,18 +1,15 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="Mexico vs England" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/4.png" group-title="FIFA World Cup",Mexico vs England
-https://obstreamx.click/live/esx51jdn9y.m3u8|referer=https://getembed.live/|origin=https://getembed.live|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F149.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="Argentina vs Egypt" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Football3 games",Argentina vs Egypt
+#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="Argentina vs Egypt" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Football3 games",Argentina vs Egypt
 https://obstreamx.click/live/rfvtzlcu7e.m3u8|referer=https://getembed.live/|origin=https://getembed.live|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F149.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="Mexico vs England" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Football3 games",Mexico vs England
+#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="Mexico vs England" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Football3 games",Mexico vs England
 https://obstreamx.click/live/esx51jdn9y.m3u8|referer=https://getembed.live/|origin=https://getembed.live|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F149.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="Portugal vs Spain" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Football3 games",Portugal vs Spain
+#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="Portugal vs Spain" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Football3 games",Portugal vs Spain
 https://obstreamx.click/live/esx51jdn9y.m3u8|referer=https://getembed.live/|origin=https://getembed.live|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F149.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="Switzerland vs Colombia" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Football3 games",Switzerland vs Colombia
+#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="Switzerland vs Colombia" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Football3 games",Switzerland vs Colombia
 https://obstreamx.click/live/esx51jdn9y.m3u8|referer=https://getembed.live/|origin=https://getembed.live|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F149.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="United States vs Belgium" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Football3 games",United States vs Belgium
+#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="United States vs Belgium" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Football3 games",United States vs Belgium
 https://obstreamx.click/live/esx51jdn9y.m3u8|referer=https://getembed.live/|origin=https://getembed.live|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F149.0.0.0%20Safari%2F537.36
