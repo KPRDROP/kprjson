@@ -1,235 +1,97 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-08 16:01 UTC
+# Last Updated: 2026-07-08 18:15 UTC
 
-#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] FIFA WC 2026™ - France vs Morocco Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - France vs Morocco Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://247v2.xyzstreams.st/?stream_id=foxwnyw&pro_id=sling&index-waUvqaAACr.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="stream_2" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="2" tvg-id="stream_2" tvg-name="[Live Event] FIFA WC 2026™ - France vs Morocco Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - France vs Morocco Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://247v2.xyzstreams.st/?stream_id=tele&pro_id=sling&index.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="stream_3" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 3 (SHOPP)
+#EXTINF:-1 tvg-chno="3" tvg-id="stream_3" tvg-name="[Live Event] FIFA WC 2026™ - France vs Morocco Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - France vs Morocco Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://pacquiao.inproviszon.st/bein-xyz-waUvqaAAC.m3u8
 
-#EXTINF:-1 tvg-chno="4" tvg-id="stream_4" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 4 (SHOPP)
+#EXTINF:-1 tvg-chno="4" tvg-id="stream_4" tvg-name="[Live Event] FIFA WC 2026™ - France vs Morocco Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - France vs Morocco Stream 4 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://pacquiao.inproviszon.st/bein12fr-xyz.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-id="stream_5" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 5 (SHOPP)
+#EXTINF:-1 tvg-chno="5" tvg-id="stream_5" tvg-name="[Live Event] FIFA WC 2026™ - France vs Morocco Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - France vs Morocco Stream 5 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://pacquiao.inproviszon.st/bein4k-xyz-waUvqaAAC.m3u8
 
-#EXTINF:-1 tvg-chno="6" tvg-id="stream_6" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 6 (SHOPP)
+#EXTINF:-1 tvg-chno="6" tvg-id="stream_6" tvg-name="[Live Event] FIFA WC 2026™ - France vs Morocco Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - France vs Morocco Stream 6 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://pacquiao.inproviszon.st/fox-usa.m3u8
 
-#EXTINF:-1 tvg-chno="7" tvg-id="stream_7" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 7 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 7 (SHOPP)
+#EXTINF:-1 tvg-chno="7" tvg-id="stream_7" tvg-name="[Live Event] FIFA WC 2026™ - France vs Morocco Stream 7 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - France vs Morocco Stream 7 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://pacquiao.inproviszon.st/fox4k-usa.m3u8
 
-#EXTINF:-1 tvg-chno="8" tvg-id="stream_8" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 8 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 8 (SHOPP)
+#EXTINF:-1 tvg-chno="8" tvg-id="stream_8" tvg-name="[Live Event] FIFA WC 2026™ - France vs Morocco Stream 8 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - France vs Morocco Stream 8 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://pacquiao.inproviszon.st/fussballtv1uhd-de.m3u8
 
-#EXTINF:-1 tvg-chno="9" tvg-id="stream_9" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 9 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 9 (SHOPP)
+#EXTINF:-1 tvg-chno="9" tvg-id="stream_9" tvg-name="[Live Event] FIFA WC 2026™ - France vs Morocco Stream 9 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - France vs Morocco Stream 9 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://pacquiao.inproviszon.st/itv-xyz-waUvqaAAC.m3u8
 
-#EXTINF:-1 tvg-chno="10" tvg-id="stream_10" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 10 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 10 (SHOPP)
+#EXTINF:-1 tvg-chno="10" tvg-id="stream_10" tvg-name="[Live Event] FIFA WC 2026™ - France vs Morocco Stream 10 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - France vs Morocco Stream 10 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://pacquiao.inproviszon.st/telemundo-xyz-waUvqaAACr.m3u8
 
-#EXTINF:-1 tvg-chno="11" tvg-id="stream_11" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 11 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 11 (SHOPP)
+#EXTINF:-1 tvg-chno="11" tvg-id="stream_11" tvg-name="[Live Event] FIFA WC 2026™ - France vs Morocco Stream 11 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - France vs Morocco Stream 11 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://pacquiao.inproviszon.st/tsn1-xyz-waUvqaAACr.m3u8
 
-#EXTINF:-1 tvg-chno="12" tvg-id="stream_12" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 12 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 12 (SHOPP)
+#EXTINF:-1 tvg-chno="12" tvg-id="stream_12" tvg-name="[Live Event] FIFA WC 2026™ - France vs Morocco Stream 12 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - France vs Morocco Stream 12 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://pacquiao.inproviszon.st/tsn4k-xyz-waUvqaAACr.m3u8
 
-#EXTINF:-1 tvg-chno="13" tvg-id="stream_13" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 13 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 13 (SHOPP)
+#EXTINF:-1 tvg-chno="13" tvg-id="stream_13" tvg-name="[Live Event] FIFA WC 2026™ - France vs Morocco Stream 13 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - France vs Morocco Stream 13 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-1678188369&e=s&n=4417212309449253&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1xn6ibtldozp&i=0&lid=1ldisdh1cflb&lsa=read&mt=0&pbd=1&pbr=1&pgi=18o4d21it2qf&ph=0&pii=0&pl=185&plc=1&pli=5l6sysco00vq&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams%20%7C%20World%20Cup%20Live&pu=https%3A%2F%2Fxyzstreams.st%2Fworldcup26-2-0707&pv=8.26.0&pyc=1&s=0&sdk=0&stc=4&stpe=0&t=FOX&tv=3.41.0&vb=1&vi=1&vl=90&wd=328&abm=1&bwe=500&cae=0&cct=0&ch=2&cst=2.048&cdid=jwVideoPlayer&drm=0&ff=3200&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dfoxwnyw%26pro_id%3Dsling%26index-waUvqaAACr.m3u8&pcp=3&pd=2&pdr=&plng=en&pni=0&pr=7&q=0&qcr=auto&sbr=1733&sp=0&strt=3210&tb=4.1&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1783526483588
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Faudio%2F6O2uLsNKQ16hYnn_-Etaqg%2F1783534541%2F28%2Fp-cdn1-808-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F128.m3u8%3Flocation_zip%3Dsling?ck=0b23daf0a0364116ae4c768cf4b0de47%3Ae6c636a3eba47434ec3b1a164c209c97
 
-#EXTINF:-1 tvg-chno="14" tvg-id="stream_14" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 14 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 14 (SHOPP)
+#EXTINF:-1 tvg-chno="14" tvg-id="stream_14" tvg-name="[Live Event] FIFA WC 2026™ - France vs Morocco Stream 14 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - France vs Morocco Stream 14 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Faudio%2F76DgNSRWQ72__EIoEWzVyw%2F1783526482%2F28%2Fp-cdn1-808-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F128.m3u8%3Flocation_zip%3Dsling?ck=0b23daf0a0364116ae4c768cf4b0de47%3Ae6c636a3eba47434ec3b1a164c209c97
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Faudio%2F6O2uLsNKQ16hYnn_-Etaqg%2F1783534541%2F28%2Fp-cdn1-808-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=0b23daf0a0364116ae4c768cf4b0de47%3Ae6c636a3eba47434ec3b1a164c209c97
 
-#EXTINF:-1 tvg-chno="15" tvg-id="stream_15" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 15 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 15 (SHOPP)
+#EXTINF:-1 tvg-chno="15" tvg-id="stream_15" tvg-name="[Live Event] FIFA WC 2026™ - France vs Morocco Stream 15 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - France vs Morocco Stream 15 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Faudio%2F76DgNSRWQ72__EIoEWzVyw%2F1783526482%2F28%2Fp-cdn1-808-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=0b23daf0a0364116ae4c768cf4b0de47%3Ae6c636a3eba47434ec3b1a164c209c97
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Fvideo%2F6O2uLsNKQ16hYnn_-Etaqg%2F1783534541%2F28%2Fp-cdn1-808-cg14-linear-cbd46b77.movetv.com%2Fvid01.m3u8%3Flocation_zip%3Dsling?ck=0b23daf0a0364116ae4c768cf4b0de47%3Ae6c636a3eba47434ec3b1a164c209c97
 
-#EXTINF:-1 tvg-chno="16" tvg-id="stream_16" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 16 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 16 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Fvideo%2F76DgNSRWQ72__EIoEWzVyw%2F1783526482%2F28%2Fp-cdn1-808-cg14-linear-cbd46b77.movetv.com%2Fvid01.m3u8%3Flocation_zip%3Dsling?ck=0b23daf0a0364116ae4c768cf4b0de47%3Ae6c636a3eba47434ec3b1a164c209c97
-
-#EXTINF:-1 tvg-chno="17" tvg-id="stream_17" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 17 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 17 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Fvideo%2F76DgNSRWQ72__EIoEWzVyw%2F1783526482%2F28%2Fp-cdn1-808-cg14-linear-cbd46b77.movetv.com%2Fvid02.m3u8%3Flocation_zip%3Dsling?ck=0b23daf0a0364116ae4c768cf4b0de47%3Ae6c636a3eba47434ec3b1a164c209c97
-
-#EXTINF:-1 tvg-chno="18" tvg-id="stream_18" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 18 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 18 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Fvideo%2F76DgNSRWQ72__EIoEWzVyw%2F1783526482%2F28%2Fp-cdn1-808-cg14-linear-cbd46b77.movetv.com%2Fvid03.m3u8%3Flocation_zip%3Dsling?ck=0b23daf0a0364116ae4c768cf4b0de47%3Ae6c636a3eba47434ec3b1a164c209c97
-
-#EXTINF:-1 tvg-chno="19" tvg-id="stream_19" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 19 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Egypt Stream 19 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fp-dynaman.movetv.com%2Fmanifest%2F537%2Fwidevine%2Fmaster.m3u8%3Flocation_zip%3Dsling?ck=0b23daf0a0364116ae4c768cf4b0de47%3Ae6c636a3eba47434ec3b1a164c209c97
-
-#EXTINF:-1 tvg-chno="20" tvg-id="stream_1" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 1 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://247v2.xyzstreams.st/?stream_id=foxwnyw&pro_id=sling&index-waUvqaAACr.m3u8
-
-#EXTINF:-1 tvg-chno="21" tvg-id="stream_2" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 2 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://247v2.xyzstreams.st/?stream_id=tele&pro_id=sling&index.m3u8
-
-#EXTINF:-1 tvg-chno="22" tvg-id="stream_3" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 3 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://pacquiao.inproviszon.st/bein-xyz-waUvqaAAC.m3u8
-
-#EXTINF:-1 tvg-chno="23" tvg-id="stream_4" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 4 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://pacquiao.inproviszon.st/bein12fr-xyz.m3u8
-
-#EXTINF:-1 tvg-chno="24" tvg-id="stream_5" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 5 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://pacquiao.inproviszon.st/bein4k-xyz-waUvqaAAC.m3u8
-
-#EXTINF:-1 tvg-chno="25" tvg-id="stream_6" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 6 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://pacquiao.inproviszon.st/fox-usa.m3u8
-
-#EXTINF:-1 tvg-chno="26" tvg-id="stream_7" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 7 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 7 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://pacquiao.inproviszon.st/fox4k-usa.m3u8
-
-#EXTINF:-1 tvg-chno="27" tvg-id="stream_8" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 8 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 8 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://pacquiao.inproviszon.st/fussballtv1uhd-de.m3u8
-
-#EXTINF:-1 tvg-chno="28" tvg-id="stream_9" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 9 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 9 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://pacquiao.inproviszon.st/itv-xyz-waUvqaAAC.m3u8
-
-#EXTINF:-1 tvg-chno="29" tvg-id="stream_10" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 10 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 10 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://pacquiao.inproviszon.st/telemundo-xyz-waUvqaAACr.m3u8
-
-#EXTINF:-1 tvg-chno="30" tvg-id="stream_11" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 11 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 11 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://pacquiao.inproviszon.st/tsn1-xyz-waUvqaAACr.m3u8
-
-#EXTINF:-1 tvg-chno="31" tvg-id="stream_12" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 12 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 12 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://pacquiao.inproviszon.st/tsn4k-xyz-waUvqaAACr.m3u8
-
-#EXTINF:-1 tvg-chno="32" tvg-id="stream_13" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 13 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 13 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=212887118&e=s&n=4438344613141212&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=hhqgctf1rqh6&i=0&lid=nv22ak1eecab&lsa=read&mt=0&pbd=1&pbr=1&pgi=12gm1ilt3l0t&ph=0&pii=0&pl=185&plc=1&pli=r3fjle1yxqlu&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams%20%7C%20World%20Cup%20Live&pu=https%3A%2F%2Fxyzstreams.st%2Fworldcup26-2-0707&pv=8.26.0&pyc=1&s=0&sdk=0&stc=4&stpe=0&t=FOX&tv=3.41.0&vb=1&vi=1&vl=90&wd=328&abm=1&bwe=500&cae=0&cct=0&ch=2&cdid=jwVideoPlayer&drm=0&ff=4980&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dfoxwnyw%26pro_id%3Dsling%26index-waUvqaAACr.m3u8&pcp=4&pd=2&pdr=&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=983&sp=0&strt=4980&tb=6.2&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1783526499024
-
-#EXTINF:-1 tvg-chno="33" tvg-id="stream_14" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 14 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 14 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Faudio%2Fgec4UPkyQvSYiq-ZnS6vEQ%2F1783526496%2F28%2Fp-cdn4-808-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F128.m3u8%3Flocation_zip%3Dsling?ck=0b23daf0a0364116ae4c768cf4b0de47%3Ae6c636a3eba47434ec3b1a164c209c97
-
-#EXTINF:-1 tvg-chno="34" tvg-id="stream_15" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 15 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 15 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Faudio%2Fgec4UPkyQvSYiq-ZnS6vEQ%2F1783526496%2F28%2Fp-cdn4-808-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F160.m3u8%3Flocation_zip%3Dsling?ck=0b23daf0a0364116ae4c768cf4b0de47%3Ae6c636a3eba47434ec3b1a164c209c97
-
-#EXTINF:-1 tvg-chno="35" tvg-id="stream_16" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 16 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 16 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Faudio%2Fgec4UPkyQvSYiq-ZnS6vEQ%2F1783526496%2F28%2Fp-cdn4-808-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=0b23daf0a0364116ae4c768cf4b0de47%3Ae6c636a3eba47434ec3b1a164c209c97
-
-#EXTINF:-1 tvg-chno="36" tvg-id="stream_17" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 17 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 17 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Fvideo%2Fgec4UPkyQvSYiq-ZnS6vEQ%2F1783526496%2F28%2Fp-cdn4-808-cg14-linear-cbd46b77.movetv.com%2Fvid01.m3u8%3Flocation_zip%3Dsling?ck=0b23daf0a0364116ae4c768cf4b0de47%3Ae6c636a3eba47434ec3b1a164c209c97
-
-#EXTINF:-1 tvg-chno="37" tvg-id="stream_18" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 18 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 18 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Fvideo%2Fgec4UPkyQvSYiq-ZnS6vEQ%2F1783526496%2F28%2Fp-cdn4-808-cg14-linear-cbd46b77.movetv.com%2Fvid02.m3u8%3Flocation_zip%3Dsling?ck=0b23daf0a0364116ae4c768cf4b0de47%3Ae6c636a3eba47434ec3b1a164c209c97
-
-#EXTINF:-1 tvg-chno="38" tvg-id="stream_19" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 19 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 19 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Fvideo%2Fgec4UPkyQvSYiq-ZnS6vEQ%2F1783526496%2F28%2Fp-cdn4-808-cg14-linear-cbd46b77.movetv.com%2Fvid03.m3u8%3Flocation_zip%3Dsling?ck=0b23daf0a0364116ae4c768cf4b0de47%3Ae6c636a3eba47434ec3b1a164c209c97
-
-#EXTINF:-1 tvg-chno="39" tvg-id="stream_20" tvg-name="[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 20 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - USA vs Belgium Stream 20 (SHOPP)
+#EXTINF:-1 tvg-chno="16" tvg-id="stream_16" tvg-name="[Live Event] FIFA WC 2026™ - France vs Morocco Stream 16 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - France vs Morocco Stream 16 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
