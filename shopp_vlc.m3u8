@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-11 09:25 UTC
+# Last Updated: 2026-07-11 11:02 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] FIFA WC 2026™ - Norway vs England Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Norway vs England Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -17,17 +17,83 @@ https://247v2.xyzstreams.st/?stream_id=tele&pro_id=sling&index.m3u8
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://vinix.inproviszon.st/main/secure/d235bcdb814f5ffaed338326fce951a852afd1ede5842c7aa7664187517b69a5/1783765511/fox-xyz-waUvqaAA.m3u8
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Faudio%2FW9Jd3GpnSjGpBcqopUuIvA%2F1783767707%2F28%2Fp-cdn4-808-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F128.m3u8%3Flocation_zip%3Dsling?ck=6f16fc4c300544d1a6f34adc1b93f14f%3Ada8f9460d0d042062b225e0128f360f9
 
-#EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Switzerland Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Switzerland Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="4" tvg-id="stream_4" tvg-name="[Live Event] FIFA WC 2026™ - Norway vs England Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Norway vs England Stream 4 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Faudio%2FW9Jd3GpnSjGpBcqopUuIvA%2F1783767707%2F28%2Fp-cdn4-808-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=6f16fc4c300544d1a6f34adc1b93f14f%3Ada8f9460d0d042062b225e0128f360f9
+
+#EXTINF:-1 tvg-chno="5" tvg-id="stream_5" tvg-name="[Live Event] FIFA WC 2026™ - Norway vs England Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Norway vs England Stream 5 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Fvideo%2FW9Jd3GpnSjGpBcqopUuIvA%2F1783767707%2F28%2Fp-cdn4-808-cg14-linear-cbd46b77.movetv.com%2Fvid01.m3u8%3Flocation_zip%3Dsling?ck=6f16fc4c300544d1a6f34adc1b93f14f%3Ada8f9460d0d042062b225e0128f360f9
+
+#EXTINF:-1 tvg-chno="6" tvg-id="stream_6" tvg-name="[Live Event] FIFA WC 2026™ - Norway vs England Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Norway vs England Stream 6 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Fvideo%2FW9Jd3GpnSjGpBcqopUuIvA%2F1783767707%2F28%2Fp-cdn4-808-cg14-linear-cbd46b77.movetv.com%2Fvid03.m3u8%3Flocation_zip%3Dsling?ck=6f16fc4c300544d1a6f34adc1b93f14f%3Ada8f9460d0d042062b225e0128f360f9
+
+#EXTINF:-1 tvg-chno="7" tvg-id="stream_7" tvg-name="[Live Event] FIFA WC 2026™ - Norway vs England Stream 7 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Norway vs England Stream 7 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fp-dynaman.movetv.com%2Fmanifest%2F537%2Fwidevine%2Fmaster.m3u8%3Flocation_zip%3Dsling?ck=6f16fc4c300544d1a6f34adc1b93f14f%3Ada8f9460d0d042062b225e0128f360f9
+
+#EXTINF:-1 tvg-chno="8" tvg-id="stream_1" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Switzerland Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Switzerland Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://247v2.xyzstreams.st/?stream_id=foxwnyw&pro_id=sling&index-waUvqaAACr.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-id="stream_2" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Switzerland Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Switzerland Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="9" tvg-id="stream_2" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Switzerland Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Switzerland Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://247v2.xyzstreams.st/?stream_id=tele&pro_id=sling&index.m3u8
+
+#EXTINF:-1 tvg-chno="10" tvg-id="stream_3" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Switzerland Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Switzerland Stream 3 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Faudio%2FWxlHnhYuS66jTGFkUeLKGw%2F1783767722%2F28%2Fp-cdn1-808-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F128.m3u8%3Flocation_zip%3Dsling?ck=6f16fc4c300544d1a6f34adc1b93f14f%3Ada8f9460d0d042062b225e0128f360f9
+
+#EXTINF:-1 tvg-chno="11" tvg-id="stream_4" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Switzerland Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Switzerland Stream 4 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Faudio%2FWxlHnhYuS66jTGFkUeLKGw%2F1783767722%2F28%2Fp-cdn1-808-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=6f16fc4c300544d1a6f34adc1b93f14f%3Ada8f9460d0d042062b225e0128f360f9
+
+#EXTINF:-1 tvg-chno="12" tvg-id="stream_5" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Switzerland Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Switzerland Stream 5 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Fvideo%2FWxlHnhYuS66jTGFkUeLKGw%2F1783767722%2F28%2Fp-cdn1-808-cg14-linear-cbd46b77.movetv.com%2Fvid01.m3u8%3Flocation_zip%3Dsling?ck=6f16fc4c300544d1a6f34adc1b93f14f%3Ada8f9460d0d042062b225e0128f360f9
+
+#EXTINF:-1 tvg-chno="13" tvg-id="stream_6" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Switzerland Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Switzerland Stream 6 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Fvideo%2FWxlHnhYuS66jTGFkUeLKGw%2F1783767722%2F28%2Fp-cdn1-808-cg14-linear-cbd46b77.movetv.com%2Fvid03.m3u8%3Flocation_zip%3Dsling?ck=6f16fc4c300544d1a6f34adc1b93f14f%3Ada8f9460d0d042062b225e0128f360f9
+
+#EXTINF:-1 tvg-chno="14" tvg-id="stream_7" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Switzerland Stream 7 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Switzerland Stream 7 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fp-dynaman.movetv.com%2Fmanifest%2F537%2Fwidevine%2Fmaster.m3u8%3Flocation_zip%3Dsling?ck=6f16fc4c300544d1a6f34adc1b93f14f%3Ada8f9460d0d042062b225e0128f360f9
+
+#EXTINF:-1 tvg-chno="15" tvg-id="stream_8" tvg-name="[Live Event] FIFA WC 2026™ - Argentina vs Switzerland Stream 8 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] FIFA WC 2026™ - Argentina vs Switzerland Stream 8 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://vinix.inproviszon.st/main/secure/e3358879d6c2800fc5dfd0d71a64ad0465b68829ae7f15652fe3fd14a62b4757/1783771312/fox-xyz-waUvqaAA.m3u8
+
+#EXTINF:-1 tvg-chno="16" tvg-id="stream_1" tvg-name="[Live Event] UFC 329: McGregor vs Holloway 2 Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] UFC 329: McGregor vs Holloway 2 Stream 1 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://vinix.inproviszon.st/main/secure/90dbee8e2872b40e3928be8cf395735d7ec4db5338b04e56e1f8a13e200111fd/1783771325/ufc1.m3u8
 
