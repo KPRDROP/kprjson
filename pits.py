@@ -21,8 +21,9 @@ OUTPUT_FILE = Path("pits.m3u8")
 # User-Agent
 # -------------------------------------------------
 UA = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) "
-    "Gecko/20100101 Firefox/146.0"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/149.0.0.0 Safari/537.36"
 )
 
 UA_ENC = quote_plus(UA)
