@@ -1,9 +1,21 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-16 23:57 UTC
+# Last Updated: 2026-07-17 01:52 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] CF Montréal vs Toronto FC Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] CF Montréal vs Toronto FC Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/19d9a64d0bf7ecee6152f4bd5f7050fae4237ea08b6193c0281d6a0698fecca5/1784249508/mls-1.m3u8
+https://fiveo4.vilevodules.uk/main/secure/5243249eaaea2b3b77e469d287e47372f71a18ebe2bb32a6bd793568dad67ac1/1784256635/mls-1.m3u8
+
+#EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] St. Louis City vs Sporting KC Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] St. Louis City vs Sporting KC Stream 1 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://fiveo4.vilevodules.uk/main/secure/11380895474dec5b23ac863886a55015d1960b1275612fb6400f29b32c64372e/1784256644/mls-2.m3u8
+
+#EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Seattle Sounders FC vs Portland Timbers Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Seattle Sounders FC vs Portland Timbers Stream 1 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://fiveo4.vilevodules.uk/main/secure/6e55dd453095320e25892c920eb7643a49842ee00d7dbb09a6b9aa7d757afc81/1784256652/mls-3.m3u8
 
