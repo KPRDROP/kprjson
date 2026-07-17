@@ -1,21 +1,21 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-17 07:14 UTC
+# Last Updated: 2026-07-17 09:50 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] CF Montréal vs Toronto FC Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] CF Montréal vs Toronto FC Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/1f0c8df131b8cc65e472b69df6f9577c4841a730b2ac25f9a5ca0fc1145d7229/1784275947/mls-1.m3u8
+https://fiveo4.vilevodules.uk/main/secure/8654b3334293b8d3dca8fdb30161a27be5c3460018e80c1bb3cc57c9e1b196bc/1784285299/mls-1.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] St. Louis City vs Sporting KC Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] St. Louis City vs Sporting KC Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/ea5a19606551f613ffe12dbd9385c28e6d394ec362a73b743a0cb4e722d6efb1/1784275956/mls-2.m3u8
+https://fiveo4.vilevodules.uk/main/secure/65d34db555c374423c260e95e1ffe6906d252c59a0e7e2f473882514e1ad51db/1784285308/mls-2.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Seattle Sounders FC vs Portland Timbers Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Seattle Sounders FC vs Portland Timbers Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/8345c0e35cc453abcdcf1e715ed737bcee8ac2d91136497aebaec34fe2ea8529/1784275965/mls-3.m3u8
+https://fiveo4.vilevodules.uk/main/secure/f87a0525d7ed0dceb83c6ef1c7d7be06c9897241f82ed610dd04d8284dbf1b3a/1784285317/mls-3.m3u8
 
