@@ -1,10 +1,7 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-17 10:13 UTC
-# Total Streams: 2
+# Last Updated: 2026-07-17 14:04 UTC
+# Total Streams: 1
 
-#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Mets vs 4 - 1 Philadelphia Phillies (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] New York Mets vs 4 - 1 Philadelphia Phillies (SPFIT)
+#EXTINF:-1 tvg-chno="1" tvg-id="Racing.Dummy.us" tvg-name="[F1] MOËT & CHANDON BELGIAN GP Formula 1 Belgian Grand Prix 2026 JUL 17 - 19 2026 ROUND 13 (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] MOËT & CHANDON BELGIAN GP Formula 1 Belgian Grand Prix 2026 JUL 17 - 19 2026 ROUND 13 (SPFIT)
 https://vivianaka.s3.us-east-1.amazonaws.com/mlbstar.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="2" tvg-id="Racing.Dummy.us" tvg-name="[F1] MOËT & CHANDON BELGIAN GP Formula 1 Belgian Grand Prix 2026 JUL 17 - 19 2026 ROUND 13 (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] MOËT & CHANDON BELGIAN GP Formula 1 Belgian Grand Prix 2026 JUL 17 - 19 2026 ROUND 13 (SPFIT)
-https://ayumisathsarani.s3.us-east-1.amazonaws.com/allgame2.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
