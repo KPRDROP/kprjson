@@ -1,54 +1,24 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Diego Padres vs Kansas City Royals (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] San Diego Padres vs Kansas City Royals (SPORTir)
+#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] St. Louis Cardinals vs Arizona Diamondbacks (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] St. Louis Cardinals vs Arizona Diamondbacks (SPORTir)
 #EXTVLCOPT:http-referrer=https://mlb24all.ir
 #EXTVLCOPT:http-origin=https://mlb24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-025d151e.4587.website/6a5b428a.b86f813fi8f353a41.8e46.1cf0ce89/free.live.espn/master.m3u8
+https://node-025d151e.4587.website/6a5b6ed5.6d9d3bbai255dbcca.8e86.f7d9e0c5/free.live.espn/master.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Cincinnati Reds vs Colorado Rockies (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Cincinnati Reds vs Colorado Rockies (SPORTir)
+#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Detroit Tigers vs Los Angeles Angels (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Detroit Tigers vs Los Angeles Angels (SPORTir)
 #EXTVLCOPT:http-referrer=https://mlb24all.ir
 #EXTVLCOPT:http-origin=https://mlb24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-025d151e.4587.website/6a5b428a.29fe0f72i8f353a41.8e81.8cb5552a/free.live.espn/master.m3u8
+https://node-025d151e.4587.website/6a5b6ed5.4aa8832ei255dbcca.8e90.4a353c1e/free.live.espn/master.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Miami Marlins vs Milwaukee Brewers (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Miami Marlins vs Milwaukee Brewers (SPORTir)
+#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Francisco Giants vs Seattle Mariners (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] San Francisco Giants vs Seattle Mariners (SPORTir)
 #EXTVLCOPT:http-referrer=https://mlb24all.ir
 #EXTVLCOPT:http-origin=https://mlb24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-9b5feb01.4587.website/6a5b428a.c17171fdi8f353a41.8e42.e41f27cb/free.live.espn/master.m3u8
+https://node-025d151e.4587.website/6a5b6ed5.b65f0d05i255dbcca.8e8f.5d37897e/free.live.espn/master.m3u8
 
-#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Baltimore Orioles vs Houston Astros (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Baltimore Orioles vs Houston Astros (SPORTir)
+#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Washington Nationals vs Athletics (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Washington Nationals vs Athletics (SPORTir)
 #EXTVLCOPT:http-referrer=https://mlb24all.ir
 #EXTVLCOPT:http-origin=https://mlb24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-025d151e.4587.website/6a5b428b.4e81ac1bi8f353a41.8e48.1c5feb94/free.live.espn/master.m3u8
-
-#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Detroit Tigers vs Los Angeles Angels (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Detroit Tigers vs Los Angeles Angels (SPORTir)
-#EXTVLCOPT:http-referrer=https://mlb24all.ir
-#EXTVLCOPT:http-origin=https://mlb24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-025d151e.4587.website/6a5b428b.f9e37964i8f353a41.8e8a.337d5b6e/free.live.espn/master.m3u8
-
-#EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Minnesota Twins vs Chicago Cubs (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Minnesota Twins vs Chicago Cubs (SPORTir)
-#EXTVLCOPT:http-referrer=https://mlb24all.ir
-#EXTVLCOPT:http-origin=https://mlb24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-025d151e.4587.website/6a5b428b.e501db2di8f353a41.8e7c.6551f348/free.live.espn/master.m3u8
-
-#EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Texas Rangers vs Atlanta Braves (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Texas Rangers vs Atlanta Braves (SPORTir)
-#EXTVLCOPT:http-referrer=https://mlb24all.ir
-#EXTVLCOPT:http-origin=https://mlb24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-9b5feb01.4587.website/6a5b428b.70ce7a50i8f353a41.8e30.a84ab4cb/free.live.espn/master.m3u8
-
-#EXTINF:-1 tvg-chno="8" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] St. Louis Cardinals vs Arizona Diamondbacks (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] St. Louis Cardinals vs Arizona Diamondbacks (SPORTir)
-#EXTVLCOPT:http-referrer=https://mlb24all.ir
-#EXTVLCOPT:http-origin=https://mlb24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-025d151e.4587.website/6a5b428b.f470ff24i8f353a41.8e86.5ecd5cbc/free.live.espn/master.m3u8
-
-#EXTINF:-1 tvg-chno="9" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Washington Nationals vs Athletics (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Washington Nationals vs Athletics (SPORTir)
-#EXTVLCOPT:http-referrer=https://mlb24all.ir
-#EXTVLCOPT:http-origin=https://mlb24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-025d151e.4587.website/6a5b428c.66ce44cai8f353a41.8e89.f4227eca/free.live.espn/master.m3u8
+https://node-025d151e.4587.website/6a5b6ed6.8cd66300i255dbcca.8e89.9e68c4af/free.live.espn/master.m3u8
