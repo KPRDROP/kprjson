@@ -1,105 +1,129 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-19 01:49 UTC
+# Last Updated: 2026-07-19 05:14 UTC
 
-#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] France vs England Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] France vs England Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Querétaro vs América Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Querétaro vs América Stream 1 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://247v2.xyzstreams.st/?stream_id=tudniplldishonly&pro_id=sling&index.m3u8
+
+#EXTINF:-1 tvg-chno="2" tvg-id="stream_2" tvg-name="[Live Event] Querétaro vs América Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Querétaro vs América Stream 2 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1884774217&e=s&n=7694859903678819&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1gizzv516xin&et=classic&i=1&lid=ir7pxs18h1df&lsa=set&mt=1&pbd=1&pbr=1&pgi=ezme7x1ibbes&ph=0&pii=0&pl=199&plc=1&pli=1ak9sjl8xcja&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fmls-2&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=500&cae=0&cct=0&ch=2&cdid=video-player&drm=0&ff=2890&fsm=0&l=0&lng=en&mk=dash&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dtudniplldishonly%26pro_id%3Dsling%26index.m3u8&pcp=1&pd=2&pdr=&pdt=2026-07-19T05%3A13%3A09.609Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2084&sp=0&strt=2900&tb=2.1&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1784438019776
+
+#EXTINF:-1 tvg-chno="3" tvg-id="stream_3" tvg-name="[Live Event] Querétaro vs América Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Querétaro vs América Stream 3 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=434175024&e=pa&n=3897149238376358&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1gizzv516xin&et=classic&i=1&lid=ir7pxs18h1df&lsa=set&mt=1&pbd=1&pbr=1&pgi=ezme7x1ibbes&ph=0&pii=0&pl=199&plc=1&pli=1ak9sjl8xcja&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fmls-2&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dtudniplldishonly%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1784438016882
+
+#EXTINF:-1 tvg-chno="4" tvg-id="stream_4" tvg-name="[Live Event] Querétaro vs América Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Querétaro vs América Stream 4 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F2750%2Fwidevine%2Faudio%2Fy-GijastROKcovh7vYisEg%2F1784438019%2F28%2Fp-cdn4-601-cg15-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=a598a58660a64823accd8c832254f016%3A2e51f54721fba4dd0069805a059c1490
+
+#EXTINF:-1 tvg-chno="5" tvg-id="stream_5" tvg-name="[Live Event] Querétaro vs América Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Querétaro vs América Stream 5 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F2750%2Fwidevine%2Fvideo%2Fy-GijastROKcovh7vYisEg%2F1784438019%2F28%2Fp-cdn4-601-cg15-linear-cbd46b77.movetv.com%2Fvid03.m3u8%3Flocation_zip%3Dsling?ck=a598a58660a64823accd8c832254f016%3A2e51f54721fba4dd0069805a059c1490
+
+#EXTINF:-1 tvg-chno="6" tvg-id="stream_6" tvg-name="[Live Event] Querétaro vs América Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Querétaro vs América Stream 6 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fp-dynaman.movetv.com%2Fmanifest%2F2750%2Fwidevine%2Fmaster.m3u8%3Flocation_zip%3Dsling?ck=a598a58660a64823accd8c832254f016%3A2e51f54721fba4dd0069805a059c1490
+
+#EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] Spain vs Argentina Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Spain vs Argentina Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://247.xyzstreams.st/?stream_id=bbc&pro_id=sling&index.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="stream_2" tvg-name="[Live Event] France vs England Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] France vs England Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="8" tvg-id="stream_2" tvg-name="[Live Event] Spain vs Argentina Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Spain vs Argentina Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://247.xyzstreams.st/?stream_id=bbcuhd&pro_id=sling&index.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="stream_3" tvg-name="[Live Event] France vs England Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] France vs England Stream 3 (SHOPP)
+#EXTINF:-1 tvg-chno="9" tvg-id="stream_3" tvg-name="[Live Event] Spain vs Argentina Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Spain vs Argentina Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://247.xyzstreams.st/?stream_id=tele&pro_id=sling&index.m3u8
 
-#EXTINF:-1 tvg-chno="4" tvg-id="stream_4" tvg-name="[Live Event] France vs England Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] France vs England Stream 4 (SHOPP)
+#EXTINF:-1 tvg-chno="10" tvg-id="stream_4" tvg-name="[Live Event] Spain vs Argentina Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Spain vs Argentina Stream 4 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://247.xyzstreams.st/?stream_id=tsn1&pro_id=247misc&index.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-id="stream_5" tvg-name="[Live Event] France vs England Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] France vs England Stream 5 (SHOPP)
+#EXTINF:-1 tvg-chno="11" tvg-id="stream_5" tvg-name="[Live Event] Spain vs Argentina Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Spain vs Argentina Stream 5 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://247v2.xyzstreams.st/?stream_id=fox4k&pro_id=sling&index-waUvqaAACr.m3u8
 
-#EXTINF:-1 tvg-chno="6" tvg-id="stream_6" tvg-name="[Live Event] France vs England Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] France vs England Stream 6 (SHOPP)
+#EXTINF:-1 tvg-chno="12" tvg-id="stream_6" tvg-name="[Live Event] Spain vs Argentina Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Spain vs Argentina Stream 6 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://247v2.xyzstreams.st/?stream_id=foxwnyw&pro_id=sling&index-waUvqaAACr.m3u8
 
-#EXTINF:-1 tvg-chno="7" tvg-id="stream_7" tvg-name="[Live Event] France vs England Stream 7 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] France vs England Stream 7 (SHOPP)
+#EXTINF:-1 tvg-chno="13" tvg-id="stream_7" tvg-name="[Live Event] Spain vs Argentina Stream 7 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Spain vs Argentina Stream 7 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/ebf14c9857ea26641b7e1738bb820ec0fc38cb75989424717b6c192fb2e2c894/1784429341/fox-usa2.m3u8
+https://fiveo4.vilevodules.uk/main/secure/bf476afe5d25e9947810c4854e7522d5af53a26df9b42690bc10b0d96c02f099/1784441625/fox-usa2.m3u8
 
-#EXTINF:-1 tvg-chno="8" tvg-id="stream_8" tvg-name="[Live Event] France vs England Stream 8 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] France vs England Stream 8 (SHOPP)
+#EXTINF:-1 tvg-chno="14" tvg-id="stream_8" tvg-name="[Live Event] Spain vs Argentina Stream 8 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Spain vs Argentina Stream 8 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-770337974&e=s&n=4182964540748173&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1m51fwkz7yuq&i=0&lid=135ukrp8tzp2&lsa=read&mt=0&pbd=1&pbr=1&pgi=1hgy6cqu44v0&ph=0&pii=0&pl=185&plc=1&pli=1yiwsk21bonp&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams%20%7C%20World%20Cup%20Live&pu=https%3A%2F%2Fxyzstreams.st%2Fworldcup26-2-0718&pv=8.26.0&pyc=1&s=0&sdk=0&stc=2&stpe=0&t=FOX&tv=3.41.0&vb=1&vi=1&vl=90&wd=328&abm=1&bwe=3696&cae=0&cct=0&ch=2&cdid=jwVideoPlayer&drm=0&ff=5180&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dfoxwnyw%26pro_id%3Dsling%26index-waUvqaAACr.m3u8&pcp=4&pd=2&pdr=&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=1733&sp=0&strt=5180&tb=6.2&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1784425752299
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1330429227&e=s&n=1828962877015793&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=blbejewj237u&i=0&lid=n8066b9xpbph&lsa=read&mt=0&pbd=1&pbr=1&pgi=17yu0it9kiwz&ph=0&pii=0&pl=185&plc=1&pli=m27zra1ize14&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams%20%7C%20World%20Cup%20Live&pu=https%3A%2F%2Fxyzstreams.st%2Fworldcup26-2-0718&pv=8.26.0&pyc=1&s=0&sdk=0&stc=2&stpe=0&t=FOX&tv=3.41.0&vb=1&vi=1&vl=90&wd=328&abm=1&bwe=500&cae=0&cct=0&ch=2&cdid=jwVideoPlayer&drm=0&ff=4830&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dfoxwnyw%26pro_id%3Dsling%26index-waUvqaAACr.m3u8&pcp=6&pd=2&pdr=&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=516&sp=0&strt=4830&tb=8.2&tt=0&vd=0&vh=288&vs=5&vw=512&sa=1784438036956
 
-#EXTINF:-1 tvg-chno="9" tvg-id="stream_9" tvg-name="[Live Event] France vs England Stream 9 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] France vs England Stream 9 (SHOPP)
+#EXTINF:-1 tvg-chno="15" tvg-id="stream_9" tvg-name="[Live Event] Spain vs Argentina Stream 9 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Spain vs Argentina Stream 9 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Faudio%2FJ2eIbvWiTFKvfWv6VQJtJQ%2F1784425749%2F28%2Fp-cdn4-808-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F128.m3u8%3Flocation_zip%3Dsling?ck=cfb038e7d19c4ba18835a2d5b8a1dba4%3Ac934fede21b32bb40c09b35fadd57382
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Faudio%2Fo586wp9qRX2wB-lQYJ5ROQ%2F1784438033%2F28%2Fp-cdn1-808-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F128.m3u8%3Flocation_zip%3Dsling?ck=7aed91f4339447adafa5fed314a8c39d%3Ac08855c85b125126ec158117661f3c9b
 
-#EXTINF:-1 tvg-chno="10" tvg-id="stream_10" tvg-name="[Live Event] France vs England Stream 10 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] France vs England Stream 10 (SHOPP)
+#EXTINF:-1 tvg-chno="16" tvg-id="stream_10" tvg-name="[Live Event] Spain vs Argentina Stream 10 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Spain vs Argentina Stream 10 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Faudio%2FJ2eIbvWiTFKvfWv6VQJtJQ%2F1784425749%2F28%2Fp-cdn4-808-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=cfb038e7d19c4ba18835a2d5b8a1dba4%3Ac934fede21b32bb40c09b35fadd57382
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Faudio%2Fo586wp9qRX2wB-lQYJ5ROQ%2F1784438033%2F28%2Fp-cdn1-808-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=7aed91f4339447adafa5fed314a8c39d%3Ac08855c85b125126ec158117661f3c9b
 
-#EXTINF:-1 tvg-chno="11" tvg-id="stream_11" tvg-name="[Live Event] France vs England Stream 11 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] France vs England Stream 11 (SHOPP)
+#EXTINF:-1 tvg-chno="17" tvg-id="stream_11" tvg-name="[Live Event] Spain vs Argentina Stream 11 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Spain vs Argentina Stream 11 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Fvideo%2FJ2eIbvWiTFKvfWv6VQJtJQ%2F1784425749%2F28%2Fp-cdn4-808-cg14-linear-cbd46b77.movetv.com%2Fvid01.m3u8%3Flocation_zip%3Dsling?ck=cfb038e7d19c4ba18835a2d5b8a1dba4%3Ac934fede21b32bb40c09b35fadd57382
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Fvideo%2Fo586wp9qRX2wB-lQYJ5ROQ%2F1784438033%2F28%2Fp-cdn1-808-cg14-linear-cbd46b77.movetv.com%2Fvid01.m3u8%3Flocation_zip%3Dsling?ck=7aed91f4339447adafa5fed314a8c39d%3Ac08855c85b125126ec158117661f3c9b
 
-#EXTINF:-1 tvg-chno="12" tvg-id="stream_12" tvg-name="[Live Event] France vs England Stream 12 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] France vs England Stream 12 (SHOPP)
+#EXTINF:-1 tvg-chno="18" tvg-id="stream_12" tvg-name="[Live Event] Spain vs Argentina Stream 12 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Spain vs Argentina Stream 12 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Fvideo%2FJ2eIbvWiTFKvfWv6VQJtJQ%2F1784425749%2F28%2Fp-cdn4-808-cg14-linear-cbd46b77.movetv.com%2Fvid03.m3u8%3Flocation_zip%3Dsling?ck=cfb038e7d19c4ba18835a2d5b8a1dba4%3Ac934fede21b32bb40c09b35fadd57382
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F537%2Fwidevine%2Fvideo%2Fo586wp9qRX2wB-lQYJ5ROQ%2F1784438033%2F28%2Fp-cdn1-808-cg14-linear-cbd46b77.movetv.com%2Fvid02.m3u8%3Flocation_zip%3Dsling?ck=7aed91f4339447adafa5fed314a8c39d%3Ac08855c85b125126ec158117661f3c9b
 
-#EXTINF:-1 tvg-chno="13" tvg-id="stream_13" tvg-name="[Live Event] France vs England Stream 13 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] France vs England Stream 13 (SHOPP)
+#EXTINF:-1 tvg-chno="19" tvg-id="stream_13" tvg-name="[Live Event] Spain vs Argentina Stream 13 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Spain vs Argentina Stream 13 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fp-dynaman.movetv.com%2Fmanifest%2F537%2Fwidevine%2Fmaster.m3u8%3Flocation_zip%3Dsling?ck=cfb038e7d19c4ba18835a2d5b8a1dba4%3Ac934fede21b32bb40c09b35fadd57382
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fp-dynaman.movetv.com%2Fmanifest%2F537%2Fwidevine%2Fmaster.m3u8%3Flocation_zip%3Dsling?ck=7aed91f4339447adafa5fed314a8c39d%3Ac08855c85b125126ec158117661f3c9b
 
-#EXTINF:-1 tvg-chno="14" tvg-id="stream_1" tvg-name="[Live Event] BKFC 91 Naples: Hunt vs. Puglies Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] BKFC 91 Naples: Hunt vs. Puglies Stream 1 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://ftv.xyzstreams.st/FNETTV/M1051/master.m3u8
-
-#EXTINF:-1 tvg-chno="15" tvg-id="stream_1" tvg-name="[Live Event] UFC Fight Night: Du Plessis vs. Usman Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] UFC Fight Night: Du Plessis vs. Usman Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="20" tvg-id="stream_1" tvg-name="[Live Event] UFC Fight Night: Du Plessis vs. Usman Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] UFC Fight Night: Du Plessis vs. Usman Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://ufcftv.xyzstreams.st/index.m3u8
 
-#EXTINF:-1 tvg-chno="16" tvg-id="stream_2" tvg-name="[Live Event] UFC Fight Night: Du Plessis vs. Usman Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] UFC Fight Night: Du Plessis vs. Usman Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="21" tvg-id="stream_2" tvg-name="[Live Event] UFC Fight Night: Du Plessis vs. Usman Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] UFC Fight Night: Du Plessis vs. Usman Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://ufcftv.xyzstreams.st/manifest_1.m3u8
-
-#EXTINF:-1 tvg-chno="17" tvg-id="stream_3" tvg-name="[Live Event] UFC Fight Night: Du Plessis vs. Usman Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] UFC Fight Night: Du Plessis vs. Usman Stream 3 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://ufcftv.xyzstreams.st/manifest_8.m3u8
 
