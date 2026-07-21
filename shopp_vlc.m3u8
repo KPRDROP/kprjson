@@ -1,39 +1,39 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-21 14:56 UTC
+# Last Updated: 2026-07-21 16:21 UTC
 
-#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Sporting CP vs Strasbourg Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Sporting CP vs Strasbourg Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Ararat-Armenia vs Shamrock Rovers Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Ararat-Armenia vs Shamrock Rovers Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://247v2.xyzstreams.st/?stream_id=beinsports&pro_id=sling&index.m3u8
+https://fiveo4.vilevodules.uk/main/secure/ab5b67de6439cef93f922fd1993903a99af330467811990de74eb41aceb1bb4f/1784654323/shamrock-rovers-vs-ararat-armeni.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="stream_2" tvg-name="[Live Event] Sporting CP vs Strasbourg Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Sporting CP vs Strasbourg Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Iberia 1999 vs Slovan Bratislava Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Iberia 1999 vs Slovan Bratislava Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-1917224279&e=pa&n=4612409502561831&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=dfbyn41k1rne&et=classic&i=1&lid=bfmyulb6ay21&lsa=set&mt=1&pbd=1&pbr=1&pgi=etzhthcfoe8p&ph=0&pii=0&pl=199&plc=1&pli=1vwt7jh18lg1&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fmls-2&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dbeinsports%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1784645778165
+https://fiveo4.vilevodules.uk/main/secure/706d2ef04ea6a917fc187d5f0a64c492d1762c9056d6c9bf5ff0bf7b30ea8fbf/1784654332/Iberia-vs-Slovan-Bratislava.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="stream_3" tvg-name="[Live Event] Sporting CP vs Strasbourg Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Sporting CP vs Strasbourg Stream 3 (SHOPP)
+#EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] AGF vs Lech Poznań Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] AGF vs Lech Poznań Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-2020477073&e=s&n=8647013555803216&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=dfbyn41k1rne&et=classic&i=1&lid=bfmyulb6ay21&lsa=set&mt=1&pbd=1&pbr=1&pgi=etzhthcfoe8p&ph=0&pii=0&pl=199&plc=1&pli=1vwt7jh18lg1&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fmls-2&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=3686&cae=0&cct=0&ch=2&cdid=video-player&drm=0&ff=3700&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dbeinsports%26pro_id%3Dsling%26index.m3u8&pcp=1&pd=2&pdr=&pdt=2026-07-21T14%3A55%3A50.485Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2084&sp=0&strt=3710&tb=2.1&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1784645781874
+https://fiveo4.vilevodules.uk/main/secure/cafe644a39acc22d387d6b2de0250dbd00516263239c27efcc5e0db07acb7b13/1784654342/tvpsport-pl.m3u8
 
-#EXTINF:-1 tvg-chno="4" tvg-id="stream_4" tvg-name="[Live Event] Sporting CP vs Strasbourg Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Sporting CP vs Strasbourg Stream 4 (SHOPP)
+#EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] Thun vs Dinamo Zagreb Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Thun vs Dinamo Zagreb Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F6%2Fwidevine%2Faudio%2FzXgYyTHuTuqI09TQUvW8iA%2F1784645780%2F28%2Fp-cdn1-811-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=a25e887d7c054beeac10aab715538c34%3A30a540edb88c6812bff2dcc5fba6cad5
+https://fiveo4.vilevodules.uk/main/secure/6779a4473ced66d8c34bb20c13561953ab2b47a690a5baba97f335d05132cb0c/1784654351/Thun-vs-Dinamo-Zagreb.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-id="stream_5" tvg-name="[Live Event] Sporting CP vs Strasbourg Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Sporting CP vs Strasbourg Stream 5 (SHOPP)
+#EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] Fenerbahçe vs Górnik Zabrze Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Fenerbahçe vs Górnik Zabrze Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F6%2Fwidevine%2Fvideo%2FzXgYyTHuTuqI09TQUvW8iA%2F1784645780%2F28%2Fp-cdn1-811-cg14-linear-cbd46b77.movetv.com%2Fvid03.m3u8%3Flocation_zip%3Dsling?ck=a25e887d7c054beeac10aab715538c34%3A30a540edb88c6812bff2dcc5fba6cad5
+https://fiveo4.vilevodules.uk/main/secure/689f78453509545575526709ba912646113cc66dbb6c4b6977946d4a6fd9e83e/1784654360/Fenerbahe-vs-Grnik-Zabrze.m3u8
 
-#EXTINF:-1 tvg-chno="6" tvg-id="stream_6" tvg-name="[Live Event] Sporting CP vs Strasbourg Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Sporting CP vs Strasbourg Stream 6 (SHOPP)
+#EXTINF:-1 tvg-chno="6" tvg-id="stream_1" tvg-name="[Live Event] Sturm Graz vs Hearts Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Sturm Graz vs Hearts Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fp-dynaman.movetv.com%2Fmanifest%2F6%2Fwidevine%2Fmaster.m3u8%3Flocation_zip%3Dsling?ck=a25e887d7c054beeac10aab715538c34%3A30a540edb88c6812bff2dcc5fba6cad5
+https://fiveo4.vilevodules.uk/main/secure/0f98c78b1149ee13acc34d1686b303e5d276d54c4a87e12e65e86fe9c71ea1b5/1784654369/Sturm-Graz-vs-Hearts.m3u8
 
