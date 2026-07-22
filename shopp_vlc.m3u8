@@ -1,51 +1,51 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-22 20:21 UTC
+# Last Updated: 2026-07-22 22:11 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Columbus Crew vs New York City Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Columbus Crew vs New York City Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/6fbc99dbafe1142cc9fb0c99e61a161c150898c0d4605e108b61a2b8c0e5ea9a/1784754466/Iberia-vs-Slovan-Bratislava.m3u8
+https://fiveo4.vilevodules.uk/main/secure/19b5d527ceb64f20a55001f025a6a1d2ad3c6d04872d4b7027438861940d6de2/1784761097/Iberia-vs-Slovan-Bratislava.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Cincinnati vs Vancouver Whitecaps Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Cincinnati vs Vancouver Whitecaps Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/4f97e708a66fd77b8ac9e0da02b9ddf5bad8483f76ec7abef75c500b92e4efd2/1784754476/tvpsport-pl.m3u8
+https://fiveo4.vilevodules.uk/main/secure/ba4cc8622b0a09c80109fc03f5c79a0429a205114564ce11b43bcecb29c20a23/1784761107/tvpsport-pl.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Inter Miami vs Chicago Fire Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Inter Miami vs Chicago Fire Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/d0f58e5dce2b91e5a381a01824d172b126f5f15074d4cc72a9dafeed1ecf37e9/1784754485/Thun-vs-Dinamo-Zagreb.m3u8
+https://fiveo4.vilevodules.uk/main/secure/95569945fb4af36e26ddc09da9aec2371dfaf51d6aa0254c99cdb9ee2aade8d7/1784761115/Thun-vs-Dinamo-Zagreb.m3u8
 
 #EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] Philadelphia Union vs New York RB Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Philadelphia Union vs New York RB Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/d3c33c9b50ca8057678db819eb32d6028fdf9d92f854f96d5a0573d20fad5c03/1784754494/Fenerbahe-vs-Grnik-Zabrze.m3u8
+https://fiveo4.vilevodules.uk/main/secure/ee7aeb679121e30efb194de237f043571d23d86501c427be04b0e978a6b165cd/1784761124/Fenerbahe-vs-Grnik-Zabrze.m3u8
 
 #EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] New England vs Toronto FC Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] New England vs Toronto FC Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/2f3a666de68983aaf794cb07d13c3864093b2476af66e78188148c1386eac46c/1784754503/Sturm-Graz-vs-Hearts.m3u8
+https://fiveo4.vilevodules.uk/main/secure/9bbd01d30f30414a6e6cd2abcbabeacaae32f1e052dfd8560a670fb75e88279a/1784761133/Sturm-Graz-vs-Hearts.m3u8
 
 #EXTINF:-1 tvg-chno="6" tvg-id="stream_1" tvg-name="[Live Event] Charlotte vs Atlanta United Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Charlotte vs Atlanta United Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/0bc3458a4ab54fc77773ac7b3339e034f291a2894c364df1528ba97e49d96c9e/1784754512/kauno-zalgiris-vs-ki.m3u8
+https://fiveo4.vilevodules.uk/main/secure/0f7a5fcb52b9fa4cc1dfc412208c7f721eba9b0cc11fe85c49617971fcdefca9/1784761142/kauno-zalgiris-vs-ki.m3u8
 
 #EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] Nashville SC vs CF Montréal Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Nashville SC vs CF Montréal Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/3099fee0c470ccbb9c34547a5a5414eb09bc18fee975cd44de22b8463f3eb1cc/1784754521/sport-1.m3u8
+https://fiveo4.vilevodules.uk/main/secure/b13fcec819f3f68b748f4ce5c17231099ae396e9c17bf26453883e5265f8b513/1784761151/sport-1.m3u8
 
 #EXTINF:-1 tvg-chno="8" tvg-id="stream_1" tvg-name="[Live Event] Houston Dynamo vs DC United Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Houston Dynamo vs DC United Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/d846e479df9e1f762a572439685e5e41650dd7831c0b6255ac90db0341451b96/1784754530/five-plus.m3u8
+https://fiveo4.vilevodules.uk/main/secure/cdbf76f6623b86726aa9b99477a6edc5234a2a4e3c7ef456007065545aa32752/1784761159/five-plus.m3u8
 
