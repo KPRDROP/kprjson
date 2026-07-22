@@ -1,9 +1,9 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-22 16:18 UTC
+# Last Updated: 2026-07-22 18:02 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Tottenham Hotspur vs Milton Keynes Dons Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Tottenham Hotspur vs Milton Keynes Dons Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/9252c732abd4f9b91ef0a695ca652657f821cd4009f53e3dca89777475d9cf57/1784740710/tot.m3u8
+https://fiveo4.vilevodules.uk/main/secure/ed38749e56cbebe5643e8b7ad515696bb605fc08fb41837feeb1f331615a2914/1784746970/tot.m3u8
 
