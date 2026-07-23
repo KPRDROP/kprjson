@@ -1,9 +1,9 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-23 22:53 UTC
+# Last Updated: 2026-07-23 23:53 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Hajduk Split vs Paphos Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Hajduk Split vs Paphos Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/e7e41cf0bef1891748557f4d07fbe61cc5463f34dabc103a6b98832270124e99/1784850815/uefaquali.m3u8
+https://fiveo4.vilevodules.uk/main/secure/a551adf825016ad0e4a7c91fe5b24a7e26f498b5c80089466128e5942d04f0bf/1784854382/uefaquali.m3u8
 
