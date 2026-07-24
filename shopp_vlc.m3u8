@@ -1,9 +1,9 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-24 14:45 UTC
+# Last Updated: 2026-07-24 18:11 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Rosenborg vs. Manchester United Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Rosenborg vs. Manchester United Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/521735011e61de59bd665643b2c3b5443beca57a76ca4087c6c4f3bb22d9979b/1784907947/mutv.m3u8
+https://fiveo4.vilevodules.uk/main/secure/f2ce9cf98d0726f809625061add89b0a12313178bbff13d07a7bc5db9f8c5fc4/1784920311/mutv.m3u8
 
