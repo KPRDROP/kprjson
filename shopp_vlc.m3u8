@@ -1,11 +1,11 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-25 22:47 UTC
+# Last Updated: 2026-07-25 23:55 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Anthony Joshua vs. Kristian Prenga Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Anthony Joshua vs. Kristian Prenga Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/e402783d1ac884f7af5af569e1eed95dfb891a1e43ed95e60fec087f1da40259/1785023090/dazn-xyz.m3u8
+https://fiveo4.vilevodules.uk/main/secure/80e79eda5a5b3b463e4a46d2c92a1b1debbbefe9027d5e9ae7099a5f8e389a38/1785027160/dazn-xyz.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Liverpool vs Sunderland Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Liverpool vs Sunderland Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -17,13 +17,13 @@ https://247v2.xyzstreams.st/?stream_id=liverpool&pro_id=espn&index.m3u8
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=2105127479&e=pa&n=2293146716385063&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1d3hfu01su3c&et=classic&i=1&lid=1oa1hexiw40d&lsa=set&mt=1&pbd=1&pbr=1&pgi=pixwa3hvud73&ph=0&pii=0&pl=199&plc=1&pli=1b2n5fk13bnq&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-2&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dliverpool%26pro_id%3Despn%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785019499777
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1668403990&e=s&n=9082490597415501&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=10rwhj1mlfa4&et=classic&i=1&lid=12hazol1ify5&lsa=set&mt=1&pbd=1&pbr=1&pgi=1flhvml5hkvq&ph=0&pii=0&pl=199&plc=1&pli=pxz17p19d79b&pp=hlsjs&ppm=DVR&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-2&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=43472&cae=0&cct=2&ch=2&cst=880.8799999999993&cdid=video-player&drm=0&ff=4050&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dliverpool%26pro_id%3Despn%26index.m3u8&pcp=883&pd=2&pdr=&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2114&sp=0&strt=4050&tb=885.9&tt=0&vd=0&vh=504&vs=5&vw=896&sa=1785023573570
 
 #EXTINF:-1 tvg-chno="4" tvg-id="stream_3" tvg-name="[Live Event] Liverpool vs Sunderland Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Liverpool vs Sunderland Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=773066610&e=s&n=0165970539567214&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1d3hfu01su3c&et=classic&i=1&lid=1oa1hexiw40d&lsa=set&mt=1&pbd=1&pbr=1&pgi=pixwa3hvud73&ph=0&pii=0&pl=199&plc=1&pli=1b2n5fk13bnq&pp=hlsjs&ppm=DVR&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-2&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=2980&cae=0&cct=2&ch=2&cst=880.8799999999993&cdid=video-player&drm=0&ff=4140&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dliverpool%26pro_id%3Despn%26index.m3u8&pcp=883&pd=2&pdr=&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2114&sp=0&strt=4150&tb=885.9&tt=0&vd=0&vh=504&vs=5&vw=896&sa=1785019503927
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=664817933&e=pa&n=0234647823733863&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=10rwhj1mlfa4&et=classic&i=1&lid=12hazol1ify5&lsa=set&mt=1&pbd=1&pbr=1&pgi=1flhvml5hkvq&ph=0&pii=0&pl=199&plc=1&pli=pxz17p19d79b&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-2&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dliverpool%26pro_id%3Despn%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785023569517
 
 #EXTINF:-1 tvg-chno="5" tvg-id="stream_4" tvg-name="[Live Event] Liverpool vs Sunderland Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Liverpool vs Sunderland Stream 4 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -47,13 +47,13 @@ https://stream.xyzstreams.st/m3u8/https%3A%2F%2Flinear-nsc-sa-east-2.media.dssot
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/bfce22dc309678e311f2b5ce07198fdc56d174072c719d83bf60106d78838f6d/1785023108/mls-charlotte.m3u8
+https://fiveo4.vilevodules.uk/main/secure/6592d05736b0950b8ed67f3fc836629e6d15d06d6f1eaf4d1e0d042baa9118d8/1785027178/mls-charlotte.m3u8
 
 #EXTINF:-1 tvg-chno="9" tvg-id="stream_1" tvg-name="[Live Event] Columbus Crew vs Cincinnati Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Columbus Crew vs Cincinnati Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/eef24857922e61046695b6ab6e894104a43e78a316008f601afa8a027e9d3342/1785023118/mls-cincinnati.m3u8
+https://fiveo4.vilevodules.uk/main/secure/497d54a4d7d8c7b3706d7f80c70ea772e115b4d11a6e941b766d1b526ad3012e/1785027187/mls-columbus.m3u8
 
 #EXTINF:-1 tvg-chno="10" tvg-id="stream_1" tvg-name="[Live Event] Guadalajara vs Juárez Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Guadalajara vs Juárez Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -65,91 +65,91 @@ https://247v2.xyzstreams.st/?stream_id=tele&pro_id=sling&index.m3u8
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/error/ping.gif?h=1509818970&e=err&n=5247947441524705&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=ow69yt1sh9f7&et=classic&i=1&lid=6u9v8h1yrizy&lsa=set&mt=1&pbd=1&pbr=1&pgi=qu60aoi6g95h&ph=0&pii=0&pl=199&plc=1&pli=6j6e2a10s4fz&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-3&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&cme=0&erc=232502&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dtele%26pro_id%3Dsling%26index.m3u8&sa=1785019534688
+https://prd.jwpltx.com/v1/error/ping.gif?h=1117195779&e=err&n=7750142774932950&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1s55mz0b209z&et=classic&i=1&lid=1kni0a28izsr&lsa=set&mt=1&pbd=1&pbr=1&pgi=yngmhav8paob&ph=0&pii=0&pl=199&plc=1&pli=1tpoomg18yn4&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-3&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&cme=0&erc=232502&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dtele%26pro_id%3Dsling%26index.m3u8&sa=1785023603896
 
 #EXTINF:-1 tvg-chno="12" tvg-id="stream_3" tvg-name="[Live Event] Guadalajara vs Juárez Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Guadalajara vs Juárez Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=2088269648&e=pa&n=0935587243148253&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=ow69yt1sh9f7&et=classic&i=1&lid=6u9v8h1yrizy&lsa=set&mt=1&pbd=1&pbr=1&pgi=qu60aoi6g95h&ph=0&pii=0&pl=199&plc=1&pli=6j6e2a10s4fz&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-3&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dtele%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785019527795
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-1323047350&e=pa&n=4845054983165914&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1s55mz0b209z&et=classic&i=1&lid=1kni0a28izsr&lsa=set&mt=1&pbd=1&pbr=1&pgi=yngmhav8paob&ph=0&pii=0&pl=199&plc=1&pli=1tpoomg18yn4&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-3&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dtele%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785023596769
 
 #EXTINF:-1 tvg-chno="13" tvg-id="stream_1" tvg-name="[Live Event] CF Montréal vs Inter Miami Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] CF Montréal vs Inter Miami Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/d5fe28460a670b3ecc03e425cef64166493c5182a4e2867aeefc8a8a87e66062/1785023136/mls-intermiam.m3u8
+https://fiveo4.vilevodules.uk/main/secure/0644ce1947eca7d490deaf641f0d977b397ba1b175a39551baace31efd213f69/1785027205/mls-intermiami.m3u8
 
 #EXTINF:-1 tvg-chno="14" tvg-id="stream_1" tvg-name="[Live Event] DC United vs Toronto FC Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] DC United vs Toronto FC Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/83e0620adf0bc161692c6e2ce73ea48f46600723f77e5fcbd561cd6acea61bb4/1785023145/mls-philadelphia.m3u8
+https://fiveo4.vilevodules.uk/main/secure/c798e6135d43341fb3cf6877728679001827d0402a16bbd26ac5de7ef47015ad/1785027214/mls-dc.m3u8
 
 #EXTINF:-1 tvg-chno="15" tvg-id="stream_1" tvg-name="[Live Event] New York City vs Chicago Fire Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] New York City vs Chicago Fire Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/4c89d7652c0f2187f440e48013871bcecfd5f30dc3b56cb75507630531bd227a/1785023154/mls-newengland.m3u8
+https://fiveo4.vilevodules.uk/main/secure/f2aaefc0ed5d81031bbe2f0852dbc3712839f4dd442f7c19c0f8ec62161c0191/1785027223/mls-nyc.m3u8
 
 #EXTINF:-1 tvg-chno="16" tvg-id="stream_1" tvg-name="[Live Event] Orlando City SC vs Nashville SC Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Orlando City SC vs Nashville SC Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/81522568a619fecfbc7219ede9273b97c7008f098f4dcde011a17cbe81f41edb/1785023163/mls-charlotte.m3u8
+https://fiveo4.vilevodules.uk/main/secure/0f70d881f7b1d57f9f963df8125a0721b077723bca756a2e49b37a08f266d763/1785027232/mls-orl.m3u8
 
 #EXTINF:-1 tvg-chno="17" tvg-id="stream_1" tvg-name="[Live Event] Philadelphia Union vs Seattle Sounders FC Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Philadelphia Union vs Seattle Sounders FC Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/7a20e336cb27942e7d4d0f510062f9da7a2b808c7e039b0a8b916f39647d1c14/1785023172/mls-nashville.m3u8
+https://fiveo4.vilevodules.uk/main/secure/5981fc0669027f5083dd3735d5acace42ea3e6b5ccc7b0658a7970fcf1a5194a/1785027241/mls-philly.m3u8
 
 #EXTINF:-1 tvg-chno="18" tvg-id="stream_1" tvg-name="[Live Event] NEFC vs Atlanta United Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] NEFC vs Atlanta United Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/bb2b08eaade3da4cb2dc7669d4da2589e67853caa88fe9b8f71dd42a4bbae347/1785023181/mls-houston.m3u8
+https://fiveo4.vilevodules.uk/main/secure/87e5d3e72c2b7542c72cb9caabb02cda822644e6aa129d4529f2c4336d4a07b8/1785027250/mls-atl.m3u8
 
 #EXTINF:-1 tvg-chno="19" tvg-id="stream_1" tvg-name="[Live Event] Houston Dynamo vs Austin Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Houston Dynamo vs Austin Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/9478ed276fbdaea4f84025115a0fd748054cd2ff6f7e3c77775b820ad774ed2d/1785023190/mls-sporting.m3u8
+https://fiveo4.vilevodules.uk/main/secure/3627540173aa54adf7f53deb49c22934259d6a4a2dd181c0f9aeea4419551bf0/1785027259/mls-sporting.m3u8
 
 #EXTINF:-1 tvg-chno="20" tvg-id="stream_1" tvg-name="[Live Event] Minnesota United vs Vancouver Whitecaps Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Minnesota United vs Vancouver Whitecaps Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/b833406b2f9d4b693d4378307c412d75fe6b8fc3d63e0a4ee6a0ce2ebd74f579/1785023199/mls-austin.m3u8
+https://fiveo4.vilevodules.uk/main/secure/71c16cfaf47cab045c6b16ca43ea739c1cd1eb1b331c11ca30a7cff5c0b48a6f/1785027268/mls-austin.m3u8
 
 #EXTINF:-1 tvg-chno="21" tvg-id="stream_1" tvg-name="[Live Event] St. Louis City vs Colorado Rapids Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] St. Louis City vs Colorado Rapids Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/19d28473b72df8251630087f00b4a42cdb3754b3dd4207073483435a069c2a0f/1785023208/mls-colorado.m3u8
+https://fiveo4.vilevodules.uk/main/secure/eb0e6782e36f1f61b7598d1420e5375a98e7f491552979865b9d5817b2bbf1d0/1785027276/mls-colorado.m3u8
 
 #EXTINF:-1 tvg-chno="22" tvg-id="stream_1" tvg-name="[Live Event] San Diego vs Dallas Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] San Diego vs Dallas Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/20ae50d1ab50b4076345228998a39c86fae48cef0dacb198de5732db051c38ba/1785023217/mls-lafc.m3u8
+https://fiveo4.vilevodules.uk/main/secure/2e8e64c7259d6f1b7fb587134b350e67f07d67667d0fe0cb3d2caaf9706e2b07/1785027285/mls-lafc.m3u8
 
 #EXTINF:-1 tvg-chno="23" tvg-id="stream_1" tvg-name="[Live Event] Los Angeles FC vs Sporting KC Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Los Angeles FC vs Sporting KC Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/c851d63d05fb59e15d300ee182c5bfa9ca3623191fe01b5d92be0746b69d1c93/1785023226/mls-lagalaxy.m3u8
+https://fiveo4.vilevodules.uk/main/secure/d65f0c80351f703f2866637e68b036ba550982879c0b896dadf8ab397a7aaf3e/1785027294/mls-lagalaxy.m3u8
 
 #EXTINF:-1 tvg-chno="24" tvg-id="stream_1" tvg-name="[Live Event] Portland Timbers vs Real Salt Lake Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Portland Timbers vs Real Salt Lake Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/b41cce1624c39ece3cc5526afe7b2186871af4f80de07fc5d0a7651e8c87b284/1785023235/mls-portland.m3u8
+https://fiveo4.vilevodules.uk/main/secure/3a812827a51039aecd4b929263328cfd8eb050b24d6466b6d8813a4923525f68/1785027303/mls-portland.m3u8
 
 #EXTINF:-1 tvg-chno="25" tvg-id="stream_1" tvg-name="[Live Event] SJ Earthquakes vs LA Galaxy Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] SJ Earthquakes vs LA Galaxy Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/6d138a082ee7cf26574b5d1f070237ea4107e1e92fab5d6d50a1bf8c6378a544/1785023244/mls-sj.m3u8
+https://fiveo4.vilevodules.uk/main/secure/74b87a96f96c0f80dfdc9d431dbdc348adda2c82ef5fd5884b05885d599b66bc/1785027312/mls-sj.m3u8
 
 #EXTINF:-1 tvg-chno="26" tvg-id="stream_1" tvg-name="[Live Event] Tigres UANL vs Atlético San Luis Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Tigres UANL vs Atlético San Luis Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -161,13 +161,13 @@ https://247v2.xyzstreams.st/?stream_id=tele&pro_id=sling&index.m3u8
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/error/ping.gif?h=1429304451&e=err&n=2085506136188549&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=2epyhfdti802&et=classic&i=1&lid=1symgdz5f7zq&lsa=set&mt=1&pbd=1&pbr=1&pgi=1smd2gluhohb&ph=0&pii=0&pl=199&plc=1&pli=12n8vpl10q80&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-3&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&cme=0&erc=232502&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dtele%26pro_id%3Dsling%26index.m3u8&sa=1785019660564
+https://prd.jwpltx.com/v1/error/ping.gif?h=41494781&e=err&n=3963650407459044&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1fa918a17qvr&et=classic&i=1&lid=1h4bbz61ks8z&lsa=set&mt=1&pbd=1&pbr=1&pgi=11amp8019mgp&ph=0&pii=0&pl=199&plc=1&pli=1lah8hc1wdi6&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-3&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&cme=0&erc=232502&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dtele%26pro_id%3Dsling%26index.m3u8&sa=1785023728505
 
 #EXTINF:-1 tvg-chno="28" tvg-id="stream_3" tvg-name="[Live Event] Tigres UANL vs Atlético San Luis Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Tigres UANL vs Atlético San Luis Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1710622577&e=pa&n=9771378059462204&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=2epyhfdti802&et=classic&i=1&lid=1symgdz5f7zq&lsa=set&mt=1&pbd=1&pbr=1&pgi=1smd2gluhohb&ph=0&pii=0&pl=199&plc=1&pli=12n8vpl10q80&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-3&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dtele%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785019653333
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1261788655&e=pa&n=3157993415270066&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1fa918a17qvr&et=classic&i=1&lid=1h4bbz61ks8z&lsa=set&mt=1&pbd=1&pbr=1&pgi=11amp8019mgp&ph=0&pii=0&pl=199&plc=1&pli=1lah8hc1wdi6&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-3&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dtele%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785023721442
 
 #EXTINF:-1 tvg-chno="29" tvg-id="stream_1" tvg-name="[Live Event] Santos Laguna vs Atlas Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Santos Laguna vs Atlas Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -179,25 +179,25 @@ https://247v2.xyzstreams.st/?stream_id=vixpremiumdeportes3&pro_id=sling&index.m3
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-824276839&e=pa&n=0255749782669479&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1ttl5f71sl83&et=classic&i=1&lid=pqutoe1juzsd&lsa=set&mt=1&pbd=1&pbr=1&pgi=ceuedd1ug6bo&ph=0&pii=0&pl=199&plc=1&pli=69xqt51sghj3&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-4&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dvixpremiumdeportes3%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785019662643
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-1147729284&e=pa&n=5085325845790513&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=dp6swb1l7det&et=classic&i=1&lid=tf7lfs10i513&lsa=set&mt=1&pbd=1&pbr=1&pgi=5fcv2n1b1jnc&ph=0&pii=0&pl=199&plc=1&pli=18cwfjr1mkma&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-4&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dvixpremiumdeportes3%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785023730634
 
 #EXTINF:-1 tvg-chno="31" tvg-id="stream_3" tvg-name="[Live Event] Santos Laguna vs Atlas Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Santos Laguna vs Atlas Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=285230175&e=s&n=0758177368143453&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1ttl5f71sl83&et=classic&i=1&lid=pqutoe1juzsd&lsa=set&mt=1&pbd=1&pbr=1&pgi=ceuedd1ug6bo&ph=0&pii=0&pl=199&plc=1&pli=69xqt51sghj3&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-4&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=3686&cae=0&cct=0&ch=2&cdid=video-player&drm=0&ff=4730&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dvixpremiumdeportes3%26pro_id%3Dsling%26index.m3u8&pcp=1&pd=2&pdr=&pdt=2026-07-25T22%3A47%3A16.234Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2084&sp=0&strt=4730&tb=2.1&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1785019667376
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=622333515&e=s&n=0197503029461922&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=dp6swb1l7det&et=classic&i=1&lid=tf7lfs10i513&lsa=set&mt=1&pbd=1&pbr=1&pgi=5fcv2n1b1jnc&ph=0&pii=0&pl=199&plc=1&pli=18cwfjr1mkma&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-4&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=500&cae=0&cct=0&ch=2&cdid=video-player&drm=0&ff=3900&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dvixpremiumdeportes3%26pro_id%3Dsling%26index.m3u8&pcp=1&pd=2&pdr=&pdt=2026-07-25T23%3A55%3A03.562Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2084&sp=0&strt=3910&tb=2.1&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1785023734542
 
 #EXTINF:-1 tvg-chno="32" tvg-id="stream_4" tvg-name="[Live Event] Santos Laguna vs Atlas Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Santos Laguna vs Atlas Stream 4 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F1610%2Fwidevine%2Faudio%2FpVR-9iDAQA6rcNhwH2CQ2Q%2F1785019665%2F28%2Fp-cdn1-809-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=642460c3f39243a5975d640bb3b8ee71%3A55e4934594e3eb0c59d134a9f7a0fb57
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F1610%2Fwidevine%2Faudio%2F8GjCb6C0QGKjjSwSsc1iKA%2F1785023733%2F28%2Fp-cdn4-809-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=642460c3f39243a5975d640bb3b8ee71%3A55e4934594e3eb0c59d134a9f7a0fb57
 
 #EXTINF:-1 tvg-chno="33" tvg-id="stream_5" tvg-name="[Live Event] Santos Laguna vs Atlas Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Santos Laguna vs Atlas Stream 5 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F1610%2Fwidevine%2Fvideo%2FpVR-9iDAQA6rcNhwH2CQ2Q%2F1785019665%2F28%2Fp-cdn1-809-cg14-linear-cbd46b77.movetv.com%2Fvid03.m3u8%3Flocation_zip%3Dsling?ck=642460c3f39243a5975d640bb3b8ee71%3A55e4934594e3eb0c59d134a9f7a0fb57
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F1610%2Fwidevine%2Fvideo%2F8GjCb6C0QGKjjSwSsc1iKA%2F1785023733%2F28%2Fp-cdn4-809-cg14-linear-cbd46b77.movetv.com%2Fvid03.m3u8%3Flocation_zip%3Dsling?ck=642460c3f39243a5975d640bb3b8ee71%3A55e4934594e3eb0c59d134a9f7a0fb57
 
 #EXTINF:-1 tvg-chno="34" tvg-id="stream_6" tvg-name="[Live Event] Santos Laguna vs Atlas Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Santos Laguna vs Atlas Stream 6 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
