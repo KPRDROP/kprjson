@@ -1,9 +1,9 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-25 08:55 UTC
+# Last Updated: 2026-07-25 10:21 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] UFC Fight Night: Ankalaev vs. Guskov Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] UFC Fight Night: Ankalaev vs. Guskov Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/0fbd03156a0d850d266bfadc2eaeecfaafd7c50085d598310143b4bb60f46dfa/1784973323/ufc-xyz.m3u8
+https://fiveo4.vilevodules.uk/main/secure/5ef87e2d1029b1c07db734ac7e299952dfd2bfb1e21d602ecb0c7c34fc5dedf6/1784978468/ufc-xyz.m3u8
 
