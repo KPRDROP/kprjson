@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-27 21:57 UTC
+# Last Updated: 2026-07-27 22:56 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] AEW Redemption Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] AEW Redemption Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -11,25 +11,25 @@ https://247v2.xyzstreams.st/?stream_id=ppv2&pro_id=sling&index.m3u8
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=112013240&e=pa&n=0407576505656652&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=rsehpm1phxgq&et=classic&i=1&lid=1b87ynh9h0t0&lsa=set&mt=1&pbd=1&pbr=1&pgi=1v8of1rnjac8&ph=0&pii=0&pl=199&plc=1&pli=1osmc7i291hc&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-2&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dppv2%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785189425376
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-985391048&e=s&n=0378883063763457&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=uarhllfe0eum&et=classic&i=1&lid=znzbar1ul2l7&lsa=set&mt=1&pbd=1&pbr=1&pgi=1fcljj9kaq4z&ph=0&pii=0&pl=199&plc=1&pli=d9rh7u1x4t63&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-2&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=3686&cae=0&cct=0&ch=2&cdid=video-player&drm=0&ff=3350&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dppv2%26pro_id%3Dsling%26index.m3u8&pcp=1&pd=2&pdr=&pdt=2026-07-27T22%3A56%3A23.914Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2084&sp=0&strt=3350&tb=2.1&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1785193014762
 
 #EXTINF:-1 tvg-chno="3" tvg-id="stream_3" tvg-name="[Live Event] AEW Redemption Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] AEW Redemption Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=304622193&e=s&n=1506602983669685&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=rsehpm1phxgq&et=classic&i=1&lid=1b87ynh9h0t0&lsa=set&mt=1&pbd=1&pbr=1&pgi=1v8of1rnjac8&ph=0&pii=0&pl=199&plc=1&pli=1osmc7i291hc&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-2&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=3686&cae=0&cct=0&ch=2&cdid=video-player&drm=0&ff=4890&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dppv2%26pro_id%3Dsling%26index.m3u8&pcp=0&pd=2&pdr=&pdt=2026-07-27T21%3A56%3A39.914Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2084&sp=0&strt=4900&tb=2.1&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1785189430276
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1729471993&e=pa&n=6129216812526012&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=uarhllfe0eum&et=classic&i=1&lid=znzbar1ul2l7&lsa=set&mt=1&pbd=1&pbr=1&pgi=1fcljj9kaq4z&ph=0&pii=0&pl=199&plc=1&pli=d9rh7u1x4t63&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-2&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.15&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dppv2%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785193011408
 
 #EXTINF:-1 tvg-chno="4" tvg-id="stream_4" tvg-name="[Live Event] AEW Redemption Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] AEW Redemption Stream 4 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F734%2Fwidevine%2Faudio%2F0XEpRXxFQ4K5aNkGqY1beg%2F1785189429%2F28%2Fp-cdn4-a-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=22719a7bfb424cca871727e70fb9dd4b%3Aeef09a3d99d1777987f9808904a84e32
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F734%2Fwidevine%2Faudio%2FrWyr2p3_QaufgTwzWHGhCw%2F1785193013%2F28%2Fp-cdn1-a-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=22719a7bfb424cca871727e70fb9dd4b%3Aeef09a3d99d1777987f9808904a84e32
 
 #EXTINF:-1 tvg-chno="5" tvg-id="stream_5" tvg-name="[Live Event] AEW Redemption Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] AEW Redemption Stream 5 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F734%2Fwidevine%2Fvideo%2F0XEpRXxFQ4K5aNkGqY1beg%2F1785189429%2F28%2Fp-cdn4-a-cg14-linear-cbd46b77.movetv.com%2Fvid03.m3u8%3Flocation_zip%3Dsling?ck=22719a7bfb424cca871727e70fb9dd4b%3Aeef09a3d99d1777987f9808904a84e32
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F734%2Fwidevine%2Fvideo%2FrWyr2p3_QaufgTwzWHGhCw%2F1785193013%2F28%2Fp-cdn1-a-cg14-linear-cbd46b77.movetv.com%2Fvid03.m3u8%3Flocation_zip%3Dsling?ck=22719a7bfb424cca871727e70fb9dd4b%3Aeef09a3d99d1777987f9808904a84e32
 
 #EXTINF:-1 tvg-chno="6" tvg-id="stream_6" tvg-name="[Live Event] AEW Redemption Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] AEW Redemption Stream 6 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
