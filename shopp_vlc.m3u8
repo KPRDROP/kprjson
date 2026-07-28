@@ -1,9 +1,9 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-28 22:05 UTC
+# Last Updated: 2026-07-28 23:52 UTC
 
-#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Chelsea vs Western Sydney Wanderers Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Chelsea vs Western Sydney Wanderers Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] 2026 USAC Indiana Sprint Week Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] 2026 USAC Indiana Sprint Week Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/d49c2bf8851d13f086db6fc79dddf31f8112e1ae9a84fdddb2fb3a79f4fd5de8/1785279929/Chelsea.m3u8
+https://hiveatick.casadenoval.uk/main/secure/b89d71a0f5208626de5a036990ec6403ba682b02ec9d61569ebda674845db0e9/1785286355/flo2-xyz-1.m3u8
 
