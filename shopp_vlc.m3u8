@@ -1,9 +1,9 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-28 08:15 UTC
+# Last Updated: 2026-07-28 11:09 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Chelsea vs Western Sydney Wanderers Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Chelsea vs Western Sydney Wanderers Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/d6084eadebeb0ae2a490b2a691abcff79cf14bd612724616fc419e77296a82ae/1785230122/Chelsea.m3u8
+https://hiveatick.casadenoval.uk/main/secure/b127ea5bfd09daa7d37cab26be0617723dabb4cbb4bd8150eb6d07907b46a8f4/1785240571/Chelsea.m3u8
 
