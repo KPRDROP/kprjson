@@ -1,45 +1,51 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-29 22:52 UTC
+# Last Updated: 2026-07-29 23:54 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] 2026 USAC Indiana Sprint Week at Paragon Speedway Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] 2026 USAC Indiana Sprint Week at Paragon Speedway Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/7c7b2b2dee9a6a98aeb9724f36d92b2af00a0127f2b7e2a08f1ef4bbc57edf2a/1785369141/flo3-xyz-1.m3u8
+https://hiveatick.casadenoval.uk/main/secure/302d66e6e16c7ef4de113e15d5cb03c8a4cd15e1d481114a7cd6abb707c016b0/1785372855/flo3-xyz-1.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Wrexham vs Liverpool Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Wrexham vs Liverpool Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://247v2.xyzstreams.st/?stream_id=beinseries1&pro_id=tod&index.m3u8
+https://247v2.xyzstreams.st/?stream_id=espn&pro_id=sling&index.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="stream_2" tvg-name="[Live Event] Wrexham vs Liverpool Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Wrexham vs Liverpool Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-950961303&e=pa&n=8784208882259363&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1k76gxluqg3p&et=classic&i=1&lid=1ar60511ll1v&lsa=set&mt=1&pbd=1&pbr=1&pgi=16v4re882mt3&ph=0&pii=0&pl=199&plc=1&pli=222rdw1m28i7&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-5&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dbeinseries1%26pro_id%3Dtod%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785365550892
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-1524583307&e=s&n=6008364162994980&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1ctlosb17b91&et=classic&i=1&lid=1tyvpvb1n6nx&lsa=set&mt=1&pbd=1&pbr=1&pgi=xgbzd27ehu2g&ph=0&pii=0&pl=199&plc=1&pli=1uemqsg1o695&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-5&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=500&cae=0&cct=0&ch=2&cdid=video-player&drm=0&ff=2590&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Despn%26pro_id%3Dsling%26index.m3u8&pcp=1&pd=2&pdr=&pdt=2026-07-29T23%3A53%3A56.414Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2084&sp=0&strt=2600&tb=2.1&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1785369266953
 
 #EXTINF:-1 tvg-chno="4" tvg-id="stream_3" tvg-name="[Live Event] Wrexham vs Liverpool Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Wrexham vs Liverpool Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Flinear-nsc-sa-east-2.media.dssott.com%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F2c27a816-4404-4daf-90e0-5cf434e7e0c9-1779959848435%2Faudio-aac-1-128K%2F128_slide.m3u8?ck=c9268829e7874cf1a9f3fdd3c2df3ea8%3Adc2940be4b757d0992031d1e59f29e7a
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1702805763&e=pa&n=8496494253770003&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1ctlosb17b91&et=classic&i=1&lid=1tyvpvb1n6nx&lsa=set&mt=1&pbd=1&pbr=1&pgi=xgbzd27ehu2g&ph=0&pii=0&pl=199&plc=1&pli=1uemqsg1o695&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-5&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Despn%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785369264352
 
 #EXTINF:-1 tvg-chno="5" tvg-id="stream_4" tvg-name="[Live Event] Wrexham vs Liverpool Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Wrexham vs Liverpool Stream 4 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Flinear-nsc-sa-east-2.media.dssott.com%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F2c27a816-4404-4daf-90e0-5cf434e7e0c9-1779959848435%2Fcmaf-cenc-ctr-2400K%2F2400_hdri_slide.m3u8?ck=c9268829e7874cf1a9f3fdd3c2df3ea8%3Adc2940be4b757d0992031d1e59f29e7a
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F1290%2Fwidevine%2Faudio%2FZ__Mk9BNS5eyQEmzPyCOtQ%2F1785369266%2F28%2Fp-cdn4-e-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=9575e759b75a425eba56e0f5e64a6595%3Ae0015987ec8732c09075104cde4a7f62
 
 #EXTINF:-1 tvg-chno="6" tvg-id="stream_5" tvg-name="[Live Event] Wrexham vs Liverpool Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Wrexham vs Liverpool Stream 5 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Flinear-nsc-sa-east-2.media.dssott.com%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F2c27a816-4404-4daf-90e0-5cf434e7e0c9-1779959848435%2Fctr-all-hdri-sliding.m3u8?ck=c9268829e7874cf1a9f3fdd3c2df3ea8%3Adc2940be4b757d0992031d1e59f29e7a
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F1290%2Fwidevine%2Fvideo%2FZ__Mk9BNS5eyQEmzPyCOtQ%2F1785369266%2F28%2Fp-cdn4-e-cg14-linear-cbd46b77.movetv.com%2Fvid03.m3u8%3Flocation_zip%3Dsling?ck=9575e759b75a425eba56e0f5e64a6595%3Ae0015987ec8732c09075104cde4a7f62
 
-#EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] MLS All Star Team vs Liga MX All-Stars Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] MLS All Star Team vs Liga MX All-Stars Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="7" tvg-id="stream_6" tvg-name="[Live Event] Wrexham vs Liverpool Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Wrexham vs Liverpool Stream 6 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/ee45efaabb1ff417ed90c0c156450a4541eb466867e96700818f97bd2835d02b/1785369159/mls-charlotte.m3u8
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fp-dynaman.movetv.com%2Fmanifest%2F1290%2Fwidevine%2Fmaster.m3u8%3Flocation_zip%3Dsling?ck=9575e759b75a425eba56e0f5e64a6595%3Ae0015987ec8732c09075104cde4a7f62
+
+#EXTINF:-1 tvg-chno="8" tvg-id="stream_1" tvg-name="[Live Event] MLS All Star Team vs Liga MX All-Stars Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] MLS All Star Team vs Liga MX All-Stars Stream 1 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://hiveatick.casadenoval.uk/main/secure/7e206bdd39f41c31027b2dccdc59d066ef8176f7c2ff79e92ad1bbbaeae3e122/1785372873/mls-charlotte.m3u8
 
