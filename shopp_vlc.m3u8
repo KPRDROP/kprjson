@@ -1,9 +1,9 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-29 01:46 UTC
+# Last Updated: 2026-07-29 05:12 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] 2026 USAC Indiana Sprint Week Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] 2026 USAC Indiana Sprint Week Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/6db1b8bd6e8db08686cd68b30828d0cd7b627959f564cb3ac9bf052ef4fbc4b5/1785293174/flo3-xyz-1.m3u8
+https://hiveatick.casadenoval.uk/main/secure/b95a8013d1bea9490714c1796ceb0efe4e70716f3050c3edb8c763f60b8a1cb3/1785305539/flo3-xyz-1.m3u8
 
