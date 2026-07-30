@@ -1,21 +1,21 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-30 19:11 UTC
+# Last Updated: 2026-07-30 20:57 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] 2026 USAC Indiana Sprint Week at Terre Haute Action Track Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] 2026 USAC Indiana Sprint Week at Terre Haute Action Track Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/15c39e5c42556d7df61dfca9a4be5da1419d0d1d6529016bd5845e2139879305/1785442251/flo3-xyz-1.m3u8
+https://hiveatick.casadenoval.uk/main/secure/bddb003a5cc2c572ae79fb059006c3a0e86df62ae7173323b278584c8ac473ae/1785448602/flo3-xyz-1.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Cedar Lake Speedway - World of Outlaws Late Models Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Cedar Lake Speedway - World of Outlaws Late Models Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/cf6043c78ac90ed08053866b1b431a72660c6298ae59bde60b3071d115576aee/1785442260/woo.m3u8
+https://hiveatick.casadenoval.uk/main/secure/8ae0dcd8f3bee6a557897256e83bf4e1465e86b27951c547043829cdffed8c33/1785448611/woo.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Sunderland vs Leeds United Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Sunderland vs Leeds United Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/f633a96fab0b43b556cea2faa1a23d2014dd78553e4b633905630b55c00ae8df/1785442269/lfctv.m3u8
+https://hiveatick.casadenoval.uk/main/secure/7d2003c84c28fbf0cfb4fbe4c173927f9ff1af90306c59d7a4b251bfe5b96041/1785448621/lfctv.m3u8
 
