@@ -1,27 +1,21 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-30 17:17 UTC
+# Last Updated: 2026-07-30 19:11 UTC
 
-#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] 2026 USAC Indiana Sprint Week at Paragon Speedway Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] 2026 USAC Indiana Sprint Week at Paragon Speedway Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] 2026 USAC Indiana Sprint Week at Terre Haute Action Track Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] 2026 USAC Indiana Sprint Week at Terre Haute Action Track Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/8d9cab05b2be2dafdfa05b88d1a565d2b7c48a2505b34059c35dd3cbf24aeaf0/1785435387/flo3-xyz-1.m3u8
+https://hiveatick.casadenoval.uk/main/secure/15c39e5c42556d7df61dfca9a4be5da1419d0d1d6529016bd5845e2139879305/1785442251/flo3-xyz-1.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] World of Outlaws Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] World of Outlaws Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Cedar Lake Speedway - World of Outlaws Late Models Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Cedar Lake Speedway - World of Outlaws Late Models Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/53d0d6f41d2a4e0bdad9db579c28a14b67891d972d16b338e27986af7c3b4f2c/1785435396/woo.m3u8
+https://hiveatick.casadenoval.uk/main/secure/cf6043c78ac90ed08053866b1b431a72660c6298ae59bde60b3071d115576aee/1785442260/woo.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Wrexham vs Liverpool Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Wrexham vs Liverpool Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Sunderland vs Leeds United Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Sunderland vs Leeds United Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/2c9584a4580fea2189f41221bdc073f46a66122c6a877c8bece5377a9cfaff54/1785435405/lfctv.m3u8
-
-#EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] MLS All Star Team vs Liga MX All-Stars Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] MLS All Star Team vs Liga MX All-Stars Stream 1 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/e1e599d7b2fb93f601cb856fb2518771cea9077e3eb48968a6bf76aba7b68885/1785435415/mls-allstar.m3u8
+https://hiveatick.casadenoval.uk/main/secure/f633a96fab0b43b556cea2faa1a23d2014dd78553e4b633905630b55c00ae8df/1785442269/lfctv.m3u8
 
