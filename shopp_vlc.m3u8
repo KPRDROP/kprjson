@@ -1,29 +1,29 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-31 11:22 UTC
+# Last Updated: 2026-07-31 13:43 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] 2026 USAC Indiana Sprint Week at Terre Haute Action Track Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] 2026 USAC Indiana Sprint Week at Terre Haute Action Track Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/450200619b086d8c6c0a9881cdc1c552e0fa74643fc9ef4f4e7a8f692539efaf/1785500493/flo3-xyz-1.m3u8
+https://hiveatick.casadenoval.uk/main/secure/4a0ca53b2bc365463347f5ad385a9bc5a9b3c1bc22ae4705bb796c4056755f75/1785508960/flo3-xyz-1.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Cedar Lake Speedway - World of Outlaws Late Models Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Cedar Lake Speedway - World of Outlaws Late Models Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/99a9b95b28bc9abb81118b7f908afda4863e1428f3ce50decc8fea56f6906fea/1785500503/woo.m3u8
+https://hiveatick.casadenoval.uk/main/secure/581c7f0f0c581ef0d016a2a61bfeb80893d4e2577e8267dfd9020287c71079dd/1785508969/woo.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Juventus vs Nice Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Juventus vs Nice Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/56616b7ad09dd9fe5bacb2e66af8f1adc487c0d63e728919198e79edd11ba1c3/1785500512/tv4lv.m3u8
+https://hiveatick.casadenoval.uk/main/secure/1ceb0f9a8a52bda4917746aab7c8bceb394f44740b6c381c38a51fcb15c76a46/1785508978/tv4lv.m3u8
 
 #EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] Birmingham City vs Barcelona Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Birmingham City vs Barcelona Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/01350ae26f2d44fdfddb77c49fcbe655abd9e3cf2afcf3554b206a89514188f4/1785500521/tottenham.m3u8
+https://hiveatick.casadenoval.uk/main/secure/569eb81122438c4154eb6bdfd3df4d6fd04fcb12b9603cf0e2adc99a50abc58b/1785508987/tottenham.m3u8
 
 #EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] Sporting CP vs Nottingham Forest Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Sporting CP vs Nottingham Forest Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -35,25 +35,25 @@ https://247v2.xyzstreams.st/?stream_id=beinsportsconnect3&pro_id=sling&index.m3u
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=196385067&e=s&n=9827848009000520&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1m43vg0l3n41&et=classic&i=1&lid=venhol1dsuzw&lsa=set&mt=1&pbd=1&pbr=1&pgi=12594ah10i5r&ph=0&pii=0&pl=199&plc=1&pli=1g2ie6tzz4ex&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-2&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=3686&cae=0&cct=0&ch=2&cdid=video-player&drm=0&ff=7200&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dbeinsportsconnect3%26pro_id%3Dsling%26index.m3u8&pcp=1&pd=2&pdr=&pdt=2026-07-31T11%3A21%3A47.135Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2084&sp=0&strt=7200&tb=2.1&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1785496938173
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-540180395&e=s&n=8347174985741179&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1e5x1lzh00h4&et=classic&i=1&lid=1i5g58g13qj3&lsa=set&mt=1&pbd=1&pbr=1&pgi=13qv4cpndjnd&ph=0&pii=0&pl=199&plc=1&pli=1toinlq447wv&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-2&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=3686&cae=0&cct=0&ch=2&cdid=video-player&drm=0&ff=4810&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dbeinsportsconnect3%26pro_id%3Dsling%26index.m3u8&pcp=1&pd=2&pdr=&pdt=2026-07-31T13%3A42%3A51.519Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2084&sp=0&strt=4820&tb=2.1&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1785505401955
 
 #EXTINF:-1 tvg-chno="7" tvg-id="stream_3" tvg-name="[Live Event] Sporting CP vs Nottingham Forest Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Sporting CP vs Nottingham Forest Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=956147993&e=pa&n=4336245781672267&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1m43vg0l3n41&et=classic&i=1&lid=venhol1dsuzw&lsa=set&mt=1&pbd=1&pbr=1&pgi=12594ah10i5r&ph=0&pii=0&pl=199&plc=1&pli=1g2ie6tzz4ex&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-2&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dbeinsportsconnect3%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785496930969
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1683100320&e=pa&n=9493785400317570&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1e5x1lzh00h4&et=classic&i=1&lid=1i5g58g13qj3&lsa=set&mt=1&pbd=1&pbr=1&pgi=13qv4cpndjnd&ph=0&pii=0&pl=199&plc=1&pli=1toinlq447wv&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-2&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dbeinsportsconnect3%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785505397138
 
 #EXTINF:-1 tvg-chno="8" tvg-id="stream_4" tvg-name="[Live Event] Sporting CP vs Nottingham Forest Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Sporting CP vs Nottingham Forest Stream 4 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F1140%2Fwidevine%2Faudio%2FROFyCKgbRsS02PawpZPUdA%2F1785496937%2F28%2Fp-cdn4-1-603-cg15-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=0f3bdd61e9324cc8ba787926df95bca8%3A07e8838375cc5589b85c18a23012c288
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F1140%2Fwidevine%2Faudio%2FJBSeO83eRk-W5hxBY-6JMQ%2F1785505400%2F28%2Fp-cdn4-1-603-cg15-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=0f3bdd61e9324cc8ba787926df95bca8%3A07e8838375cc5589b85c18a23012c288
 
 #EXTINF:-1 tvg-chno="9" tvg-id="stream_5" tvg-name="[Live Event] Sporting CP vs Nottingham Forest Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Sporting CP vs Nottingham Forest Stream 5 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F1140%2Fwidevine%2Fvideo%2FROFyCKgbRsS02PawpZPUdA%2F1785496937%2F28%2Fp-cdn4-1-603-cg15-linear-cbd46b77.movetv.com%2Fvid03.m3u8%3Flocation_zip%3Dsling?ck=0f3bdd61e9324cc8ba787926df95bca8%3A07e8838375cc5589b85c18a23012c288
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-3.slg.dishtech.org%2Fmanifest%2F1140%2Fwidevine%2Fvideo%2FJBSeO83eRk-W5hxBY-6JMQ%2F1785505400%2F28%2Fp-cdn4-1-603-cg15-linear-cbd46b77.movetv.com%2Fvid03.m3u8%3Flocation_zip%3Dsling?ck=0f3bdd61e9324cc8ba787926df95bca8%3A07e8838375cc5589b85c18a23012c288
 
 #EXTINF:-1 tvg-chno="10" tvg-id="stream_6" tvg-name="[Live Event] Sporting CP vs Nottingham Forest Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Sporting CP vs Nottingham Forest Stream 6 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
