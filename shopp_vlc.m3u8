@@ -1,75 +1,69 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-07-31 22:58 UTC
+# Last Updated: 2026-07-31 23:59 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] USAC Indiana Sprint Week at Bloomington Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] USAC Indiana Sprint Week at Bloomington Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/d093dc0dc4292273eaced351101bc6a80a294509d187b1bd7ecc614bbcc1586e/1785542256/flo3-xyz-1.m3u8
+https://hiveatick.casadenoval.uk/main/secure/49f98ef654c6981bb5aff5a87786060bf1ca15e154b6c00d5a7395278316d7eb/1785545920/flo3-xyz-1.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] NASCAR Weekly Racing at Autodrome Granby Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] NASCAR Weekly Racing at Autodrome Granby Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/5087afd595f5a5dda661500230e57af037d9bdd0a23db0ca18e54df49faf094a/1785542265/flo3-xyz-2.m3u8
+https://hiveatick.casadenoval.uk/main/secure/fd25b304a3fdcfcb5fa86cba574d6d01db75c9163601759208f1cea11fc67bc1/1785545929/flo3-xyz-2.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Attica Raceway Park Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Attica Raceway Park Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/43da99a832c88ad4d0b9ee221e00b35f15ca555bcbbee2172799cb7870ed2b8f/1785542274/dirt-1.m3u8
+https://hiveatick.casadenoval.uk/main/secure/3cf32b1385434bf1d9916b4e822153b41a92ccf0b1cac0d3324618f771713073/1785545938/dirt-1.m3u8
 
 #EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] Williams Grove Speedway Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Williams Grove Speedway Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/b79e4720c788fd7d581ed2c6dbca838fc8c37a40ef4daacada070b7db5244c76/1785542284/dirt-2.m3u8
+https://hiveatick.casadenoval.uk/main/secure/7acc5073e6842baf78e7ecea367d54fd8705994448405028a15ea9dae99aba49/1785545947/dirt-2.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] Cedar Lake Speedway Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Cedar Lake Speedway Stream 1 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/e3f2bd171194c954066e17ac395266b0321bcbd27882c3690d600bd0f048ebc6/1785542293/dirt-3.m3u8
-
-#EXTINF:-1 tvg-chno="6" tvg-id="stream_1" tvg-name="[Live Event] PFL New York Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] PFL New York Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] PFL New York Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] PFL New York Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://247v2.xyzstreams.st/?stream_id=uefa&pro_id=espn&index.m3u8
 
-#EXTINF:-1 tvg-chno="7" tvg-id="stream_2" tvg-name="[Live Event] PFL New York Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] PFL New York Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="6" tvg-id="stream_2" tvg-name="[Live Event] PFL New York Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] PFL New York Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-1738217161&e=s&n=4969767179714910&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=cfzzvpjcvxj2&et=classic&i=1&lid=gp0zex1q7d7s&lsa=set&mt=1&pbd=1&pbr=1&pgi=1f1neyf1n9ti&ph=0&pii=0&pl=199&plc=1&pli=1wt76ay3wx8o&pp=hlsjs&ppm=DVR&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-5&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=2980&cae=0&cct=2&ch=2&cst=880.8799999999993&cdid=video-player&drm=0&ff=3810&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Duefa%26pro_id%3Despn%26index.m3u8&pcp=883&pd=2&pdr=&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2114&sp=0&strt=3820&tb=885.9&tt=0&vd=0&vh=504&vs=5&vw=896&sa=1785538706880
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1301357554&e=pa&n=9848962803786284&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=4lprpdimnnke&et=classic&i=1&lid=1dvrqbk1h5is&lsa=set&mt=1&pbd=1&pbr=1&pgi=qz7m1ey9mjnz&ph=0&pii=0&pl=199&plc=1&pli=14nh5v1ip9lw&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-5&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Duefa%26pro_id%3Despn%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785542357243
 
-#EXTINF:-1 tvg-chno="8" tvg-id="stream_3" tvg-name="[Live Event] PFL New York Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] PFL New York Stream 3 (SHOPP)
+#EXTINF:-1 tvg-chno="7" tvg-id="stream_3" tvg-name="[Live Event] PFL New York Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] PFL New York Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1899049128&e=pa&n=1668479804872672&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=cfzzvpjcvxj2&et=classic&i=1&lid=gp0zex1q7d7s&lsa=set&mt=1&pbd=1&pbr=1&pgi=1f1neyf1n9ti&ph=0&pii=0&pl=199&plc=1&pli=1wt76ay3wx8o&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-5&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Duefa%26pro_id%3Despn%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785538703059
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=788563929&e=s&n=9886015340925949&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=4lprpdimnnke&et=classic&i=1&lid=1dvrqbk1h5is&lsa=set&mt=1&pbd=1&pbr=1&pgi=qz7m1ey9mjnz&ph=0&pii=0&pl=199&plc=1&pli=14nh5v1ip9lw&pp=hlsjs&ppm=VOD&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-5&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=2980&cae=0&cct=2&ch=2&cst=3.5325708333257353&cdid=video-player&drm=0&ff=3550&fsm=0&l=3&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Duefa%26pro_id%3Despn%26index.m3u8&pcp=0&pd=2&pdr=&plng=en&pni=0&pr=7&q=32&qcr=initial%20choice&sbr=2114&sp=0&strt=3550&tb=5&tt=0&vd=902&vh=504&vs=5&vw=896&sa=1785542360795
 
-#EXTINF:-1 tvg-chno="9" tvg-id="stream_4" tvg-name="[Live Event] PFL New York Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] PFL New York Stream 4 (SHOPP)
+#EXTINF:-1 tvg-chno="8" tvg-id="stream_4" tvg-name="[Live Event] PFL New York Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] PFL New York Stream 4 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://stream.xyzstreams.st/m3u8/https%3A%2F%2Flinear-nsc-sa-east-2.media.dssott.com%2Fclt1%2Fva02%2Fdisneyplus%2Fevent%2F2026%2F07%2F31%2FPFL_New_York_Prelims_20260731_1785524400059%2Faac-1-cmaf-64K%2F64_hdri_slide.m3u8?ck=77a03560c5e04429975f4c483fb5c471%3A1c58ca6de9717df8e0dc83385b2c0019
 
-#EXTINF:-1 tvg-chno="10" tvg-id="stream_5" tvg-name="[Live Event] PFL New York Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] PFL New York Stream 5 (SHOPP)
+#EXTINF:-1 tvg-chno="9" tvg-id="stream_5" tvg-name="[Live Event] PFL New York Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] PFL New York Stream 5 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://stream.xyzstreams.st/m3u8/https%3A%2F%2Flinear-nsc-sa-east-2.media.dssott.com%2Fclt1%2Fva02%2Fdisneyplus%2Fevent%2F2026%2F07%2F31%2FPFL_New_York_Prelims_20260731_1785524400059%2Fcmaf-cenc-ctr-1800K%2F1800_hdri_slide.m3u8?ck=77a03560c5e04429975f4c483fb5c471%3A1c58ca6de9717df8e0dc83385b2c0019
 
-#EXTINF:-1 tvg-chno="11" tvg-id="stream_6" tvg-name="[Live Event] PFL New York Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] PFL New York Stream 6 (SHOPP)
+#EXTINF:-1 tvg-chno="10" tvg-id="stream_6" tvg-name="[Live Event] PFL New York Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] PFL New York Stream 6 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://stream.xyzstreams.st/m3u8/https%3A%2F%2Flinear-nsc-sa-east-2.media.dssott.com%2Fclt1%2Fva02%2Fdisneyplus%2Fevent%2F2026%2F07%2F31%2FPFL_New_York_Prelims_20260731_1785524400059%2Fctr-all-hdri-sliding.m3u8?ck=77a03560c5e04429975f4c483fb5c471%3A1c58ca6de9717df8e0dc83385b2c0019
 
-#EXTINF:-1 tvg-chno="12" tvg-id="stream_1" tvg-name="[Live Event] New York City vs Toronto FC Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] New York City vs Toronto FC Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="11" tvg-id="stream_1" tvg-name="[Live Event] New York City vs Toronto FC Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] New York City vs Toronto FC Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/e9a067abe9ece48a96f6cbf42895e9ac3492797f0a9a4b614f02d09ee53bd83d/1785542311/mls-allstar.m3u8
+https://hiveatick.casadenoval.uk/main/secure/6e8fd9cab64035def5fb68a643e8591f1bb4083f5cb6ad54850f02a039cc2fa7/1785545965/mls-nyc.m3u8
 
