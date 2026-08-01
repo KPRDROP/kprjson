@@ -1,11 +1,11 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-08-01 14:53 UTC
+# Last Updated: 2026-08-01 15:54 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Chelsea vs Tottenham Hotspur Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Chelsea vs Tottenham Hotspur Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/1f4382cef01814480f872b4c9d5f6b79daffba779fc07599c9ccf7770604485b/1785599557/cbsgolazo.m3u8
+https://hiveatick.casadenoval.uk/main/secure/6f1cdf1c3cfbfd7cc84bfc4683a7a45211b22535a59660cb680486e1d333abdc/1785603223/cbsgolazo.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Manchester City vs Inter Milan Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Manchester City vs Inter Milan Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -17,25 +17,25 @@ https://247v2.xyzstreams.st/?stream_id=cbssportsnetworkdish&pro_id=sling&index.m
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1218355251&e=pa&n=4322856045780589&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1b1dbn11kuyc&et=classic&i=1&lid=1087nrzi82ue&lsa=set&mt=1&pbd=1&pbr=1&pgi=1haiw4yn964g&ph=0&pii=0&pl=199&plc=1&pli=bhbzsw1xsnub&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi2-stream-1&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dcbssportsnetworkdish%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785595966134
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-1648205394&e=s&n=9448207734769450&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=11zke1a1x2dk&et=classic&i=1&lid=16sjyhp1d1rp&lsa=set&mt=1&pbd=1&pbr=1&pgi=4f1z3s1fdffx&ph=0&pii=0&pl=199&plc=1&pli=w5bnhsi393np&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi2-stream-1&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=3686&cae=0&cct=0&ch=2&cdid=video-player&drm=0&ff=3500&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dcbssportsnetworkdish%26pro_id%3Dsling%26index.m3u8&pcp=1&pd=2&pdr=&pdt=2026-08-01T15%3A53%3A25.232Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2084&sp=0&strt=3510&tb=2.1&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1785599635817
 
 #EXTINF:-1 tvg-chno="4" tvg-id="stream_3" tvg-name="[Live Event] Manchester City vs Inter Milan Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Manchester City vs Inter Milan Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1848912462&e=s&n=0421179930917344&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1b1dbn11kuyc&et=classic&i=1&lid=1087nrzi82ue&lsa=set&mt=1&pbd=1&pbr=1&pgi=1haiw4yn964g&ph=0&pii=0&pl=199&plc=1&pli=bhbzsw1xsnub&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi2-stream-1&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=3686&cae=0&cct=2&ch=2&cdid=video-player&drm=0&ff=5650&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dcbssportsnetworkdish%26pro_id%3Dsling%26index.m3u8&pcp=1&pd=2&pdr=&pdt=2026-08-01T14%3A52%3A21.360Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2084&sp=0&strt=5660&tb=2.1&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1785595971795
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-918300748&e=pa&n=4761665871750113&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=11zke1a1x2dk&et=classic&i=1&lid=16sjyhp1d1rp&lsa=set&mt=1&pbd=1&pbr=1&pgi=4f1z3s1fdffx&ph=0&pii=0&pl=199&plc=1&pli=w5bnhsi393np&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi2-stream-1&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dcbssportsnetworkdish%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785599632309
 
 #EXTINF:-1 tvg-chno="5" tvg-id="stream_4" tvg-name="[Live Event] Manchester City vs Inter Milan Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Manchester City vs Inter Milan Stream 4 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F2097%2Fwidevine%2Faudio%2F_I-iNmN0TZOjYdPcJ5STWg%2F1785595970%2F28%2Fp-cdn4-806-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=9cdfebd44abc4faeb02d8383e56aeb76%3Aaf1a35e203c45589c43956a9db33383d
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F2097%2Fwidevine%2Faudio%2FGYLAZJupREO2tZAYEfJpEA%2F1785599635%2F28%2Fp-cdn4-806-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=9cdfebd44abc4faeb02d8383e56aeb76%3Aaf1a35e203c45589c43956a9db33383d
 
 #EXTINF:-1 tvg-chno="6" tvg-id="stream_5" tvg-name="[Live Event] Manchester City vs Inter Milan Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Manchester City vs Inter Milan Stream 5 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F2097%2Fwidevine%2Fvideo%2F_I-iNmN0TZOjYdPcJ5STWg%2F1785595970%2F28%2Fp-cdn4-806-cg14-linear-cbd46b77.movetv.com%2Fvid03.m3u8%3Flocation_zip%3Dsling?ck=9cdfebd44abc4faeb02d8383e56aeb76%3Aaf1a35e203c45589c43956a9db33383d
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F2097%2Fwidevine%2Fvideo%2FGYLAZJupREO2tZAYEfJpEA%2F1785599635%2F28%2Fp-cdn4-806-cg14-linear-cbd46b77.movetv.com%2Fvid03.m3u8%3Flocation_zip%3Dsling?ck=9cdfebd44abc4faeb02d8383e56aeb76%3Aaf1a35e203c45589c43956a9db33383d
 
 #EXTINF:-1 tvg-chno="7" tvg-id="stream_6" tvg-name="[Live Event] Manchester City vs Inter Milan Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Manchester City vs Inter Milan Stream 6 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -47,7 +47,7 @@ https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fp-dynaman.movetv.com%2Fmanifest%
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/24d2e6bc920a1967a3c464fc4dcddc34f27814061577e2e52541b511f6a41d54/1785599574/mutv.m3u8
+https://hiveatick.casadenoval.uk/main/secure/2bf5a70276ce2cc9d0e79771accf48e64b5ec82055a21e2b67636cdacc696754/1785603241/mutv.m3u8
 
 #EXTINF:-1 tvg-chno="9" tvg-id="stream_1" tvg-name="[Live Event] Real Madrid vs Fiorentina Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Real Madrid vs Fiorentina Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -59,25 +59,25 @@ https://247v2.xyzstreams.st/?stream_id=cbssportsnetworkdish&pro_id=sling&index.m
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-1489139055&e=s&n=9159482087040367&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=18lqktb1kwii&et=classic&i=1&lid=19det3gcy1jm&lsa=set&mt=1&pbd=1&pbr=1&pgi=1e6tpt4yvkao&ph=0&pii=0&pl=199&plc=1&pli=1gp94gs19ibu&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi2-stream-1&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=500&cae=0&cct=2&ch=2&cdid=video-player&drm=0&ff=2700&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dcbssportsnetworkdish%26pro_id%3Dsling%26index.m3u8&pcp=1&pd=2&pdr=&pdt=2026-08-01T14%3A52%3A35.696Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2084&sp=0&strt=2710&tb=2.1&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1785595986244
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-1421949298&e=pa&n=8426782249569993&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=a6y0f7sqzxnh&et=classic&i=1&lid=u29jgyuwosm1&lsa=set&mt=1&pbd=1&pbr=1&pgi=giuarto5llru&ph=0&pii=0&pl=199&plc=1&pli=13vhpvr18vyk&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi2-stream-1&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dcbssportsnetworkdish%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785599650975
 
 #EXTINF:-1 tvg-chno="11" tvg-id="stream_3" tvg-name="[Live Event] Real Madrid vs Fiorentina Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Real Madrid vs Fiorentina Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1111857006&e=pa&n=1700613938757737&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=18lqktb1kwii&et=classic&i=1&lid=19det3gcy1jm&lsa=set&mt=1&pbd=1&pbr=1&pgi=1e6tpt4yvkao&ph=0&pii=0&pl=199&plc=1&pli=1gp94gs19ibu&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi2-stream-1&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dcbssportsnetworkdish%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785595983537
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1248504725&e=s&n=0343502051701207&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=a6y0f7sqzxnh&et=classic&i=1&lid=u29jgyuwosm1&lsa=set&mt=1&pbd=1&pbr=1&pgi=giuarto5llru&ph=0&pii=0&pl=199&plc=1&pli=13vhpvr18vyk&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi2-stream-1&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=500&cae=0&cct=0&ch=2&cdid=video-player&drm=0&ff=2930&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dcbssportsnetworkdish%26pro_id%3Dsling%26index.m3u8&pcp=0&pd=2&pdr=&pdt=2026-08-01T15%3A53%3A43.664Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2084&sp=0&strt=2930&tb=2.1&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1785599653906
 
 #EXTINF:-1 tvg-chno="12" tvg-id="stream_4" tvg-name="[Live Event] Real Madrid vs Fiorentina Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Real Madrid vs Fiorentina Stream 4 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F2097%2Fwidevine%2Faudio%2F3X8iflohQ3qrV-OcI_0Y7Q%2F1785595985%2F28%2Fp-cdn4-806-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=9cdfebd44abc4faeb02d8383e56aeb76%3Aaf1a35e203c45589c43956a9db33383d
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F2097%2Fwidevine%2Faudio%2FV3IVDKX-TH2fH8rhjBotZw%2F1785599652%2F28%2Fp-cdn4-806-cg14-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=9cdfebd44abc4faeb02d8383e56aeb76%3Aaf1a35e203c45589c43956a9db33383d
 
 #EXTINF:-1 tvg-chno="13" tvg-id="stream_5" tvg-name="[Live Event] Real Madrid vs Fiorentina Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Real Madrid vs Fiorentina Stream 5 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F2097%2Fwidevine%2Fvideo%2F3X8iflohQ3qrV-OcI_0Y7Q%2F1785595985%2F28%2Fp-cdn4-806-cg14-linear-cbd46b77.movetv.com%2Fvid03.m3u8%3Flocation_zip%3Dsling?ck=9cdfebd44abc4faeb02d8383e56aeb76%3Aaf1a35e203c45589c43956a9db33383d
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F2097%2Fwidevine%2Fvideo%2FV3IVDKX-TH2fH8rhjBotZw%2F1785599652%2F28%2Fp-cdn4-806-cg14-linear-cbd46b77.movetv.com%2Fvid03.m3u8%3Flocation_zip%3Dsling?ck=9cdfebd44abc4faeb02d8383e56aeb76%3Aaf1a35e203c45589c43956a9db33383d
 
 #EXTINF:-1 tvg-chno="14" tvg-id="stream_6" tvg-name="[Live Event] Real Madrid vs Fiorentina Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Real Madrid vs Fiorentina Stream 6 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -95,25 +95,25 @@ https://247v2.xyzstreams.st/?stream_id=beinsportsconnect3&pro_id=sling&index.m3u
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-1659381614&e=s&n=7708022727639885&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=ys9d7d104qvb&et=classic&i=1&lid=1qh425h1gmim&lsa=set&mt=1&pbd=1&pbr=1&pgi=rgcfa313mvfe&ph=0&pii=0&pl=199&plc=1&pli=pg54cq1hbdse&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-2&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=3686&cae=0&cct=0&ch=2&cdid=video-player&drm=0&ff=4510&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dbeinsportsconnect3%26pro_id%3Dsling%26index.m3u8&pcp=0&pd=2&pdr=&pdt=2026-08-01T14%3A52%3A46.895Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2084&sp=0&strt=4520&tb=2.1&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1785595996853
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1610722454&e=s&n=9623106453172600&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=whnpcy1w4uay&et=classic&i=1&lid=4q79t31lq03a&lsa=set&mt=1&pbd=1&pbr=1&pgi=1ohx7v266cw7&ph=0&pii=0&pl=199&plc=1&pli=1xznzmglbpxl&pp=hlsjs&ppm=LIVE&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-2&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=3686&cae=0&cct=0&ch=2&cdid=video-player&drm=0&ff=4940&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dbeinsportsconnect3%26pro_id%3Dsling%26index.m3u8&pcp=0&pd=2&pdr=&pdt=2026-08-01T15%3A53%3A54.863Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2084&sp=0&strt=4950&tb=2.1&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1785599665410
 
 #EXTINF:-1 tvg-chno="17" tvg-id="stream_3" tvg-name="[Live Event] Girona vs Arsenal Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Girona vs Arsenal Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1090971803&e=pa&n=6264877595915710&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=ys9d7d104qvb&et=classic&i=1&lid=1qh425h1gmim&lsa=set&mt=1&pbd=1&pbr=1&pgi=rgcfa313mvfe&ph=0&pii=0&pl=199&plc=1&pli=pg54cq1hbdse&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-2&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dbeinsportsconnect3%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785595992338
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=590193519&e=pa&n=2184041712492915&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=whnpcy1w4uay&et=classic&i=1&lid=4q79t31lq03a&lsa=set&mt=1&pbd=1&pbr=1&pgi=1ohx7v266cw7&ph=0&pii=0&pl=199&plc=1&pli=1xznzmglbpxl&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-2&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dbeinsportsconnect3%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1785599660465
 
 #EXTINF:-1 tvg-chno="18" tvg-id="stream_4" tvg-name="[Live Event] Girona vs Arsenal Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Girona vs Arsenal Stream 4 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F1140%2Fwidevine%2Faudio%2F7PCB-QmQT6SNYjE2pDZQRg%2F1785595996%2F28%2Fp-cdn4-1-603-cg15-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=4d138ca014a0403990be8e84d4a392d2%3Adf72cda7453f6bf66877e77f88b6b66e
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F1140%2Fwidevine%2Faudio%2F26-tN1DoTjSXFOTgi0mPVg%2F1785599664%2F28%2Fp-cdn1-1-603-cg15-linear-cbd46b77.movetv.com%2Fstereo%2F192.m3u8%3Flocation_zip%3Dsling?ck=4d138ca014a0403990be8e84d4a392d2%3Adf72cda7453f6bf66877e77f88b6b66e
 
 #EXTINF:-1 tvg-chno="19" tvg-id="stream_5" tvg-name="[Live Event] Girona vs Arsenal Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Girona vs Arsenal Stream 5 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F1140%2Fwidevine%2Fvideo%2F7PCB-QmQT6SNYjE2pDZQRg%2F1785595996%2F28%2Fp-cdn4-1-603-cg15-linear-cbd46b77.movetv.com%2Fvid03.m3u8%3Flocation_zip%3Dsling?ck=4d138ca014a0403990be8e84d4a392d2%3Adf72cda7453f6bf66877e77f88b6b66e
+https://stream.xyzstreams.st/m3u8/https%3A%2F%2Fdynaman-or-4.slg.dishtech.org%2Fmanifest%2F1140%2Fwidevine%2Fvideo%2F26-tN1DoTjSXFOTgi0mPVg%2F1785599664%2F28%2Fp-cdn1-1-603-cg15-linear-cbd46b77.movetv.com%2Fvid03.m3u8%3Flocation_zip%3Dsling?ck=4d138ca014a0403990be8e84d4a392d2%3Adf72cda7453f6bf66877e77f88b6b66e
 
 #EXTINF:-1 tvg-chno="20" tvg-id="stream_6" tvg-name="[Live Event] Girona vs Arsenal Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Girona vs Arsenal Stream 6 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
