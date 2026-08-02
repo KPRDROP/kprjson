@@ -1,93 +1,93 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-08-02 21:47 UTC
+# Last Updated: 2026-08-02 22:48 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] CF Montréal vs New England Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] CF Montréal vs New England Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/57ec80327e91a23fd30bcd1c0b9868676e8cd2fb31d44e191a2fa68ff6770814/1785710722/mls-newengland.m3u8
+https://hiveatick.casadenoval.uk/main/secure/5d653f649c0b7466a7cb51edff359ce7d31b6f6bf4490e97ca0aede8d3fba13d/1785714361/mls-newengland.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] DC United vs Nashville SC Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] DC United vs Nashville SC Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/e2195cf317152611348fec9cad160375fd32666864bb2454921229952b7c433e/1785710731/mls-nashville.m3u8
+https://hiveatick.casadenoval.uk/main/secure/c9c12eb3bad961dc288487b1accd0e0f60530399de6a13817f0bcd145adbe871/1785714371/mls-nashville.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Cincinnati vs SJ Earthquakes Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Cincinnati vs SJ Earthquakes Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/71e5f55c50511d7ff938fbb284eaefbf7124a2342df97d60873e28bbb7e5907b/1785710740/mls-cinci.m3u8
+https://hiveatick.casadenoval.uk/main/secure/91b5c647d4cae317cddf707cc18d75acfc4aeb785669f9f28194a893d89eb464/1785714379/mls-cinci.m3u8
 
 #EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] Inter Miami vs Columbus Crew Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Inter Miami vs Columbus Crew Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/04259c7b1256463ea3895f00fe969194d50be5826bdc13cca1970501eda6d371/1785710749/mls-miami.m3u8
+https://hiveatick.casadenoval.uk/main/secure/af4dd76ad607965845c3773d7368ab43f30cef1f6635ea3dcaaeb3ca70626124/1785714388/mls-miami.m3u8
 
 #EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] New York RB vs Orlando City SC Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] New York RB vs Orlando City SC Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/5332559ab5cb57923f1c513a415d1f878b314d8dc2ea6056cf04e9b57c360fbe/1785710758/mls-orlando.m3u8
+https://hiveatick.casadenoval.uk/main/secure/fe55643b563f9375d205f2e4d699c858e7e7556e1b3b50604d96a4fbe84858f3/1785714397/mls-orlando.m3u8
 
 #EXTINF:-1 tvg-chno="6" tvg-id="stream_1" tvg-name="[Live Event] Philadelphia Union vs Atlanta United Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Philadelphia Union vs Atlanta United Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/a731df70b2bcb5ca4f39f7561a5f1f75cd26f8512caf491544fafca393aab1bc/1785710767/mls-philly.m3u8
+https://hiveatick.casadenoval.uk/main/secure/2376e649f6a5ac9193bac3285153d73680f478927a4ccea0d0bb2acb5da4fc3b/1785714406/mls-philly.m3u8
 
 #EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] Vancouver Whitecaps vs Los Angeles FC Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Vancouver Whitecaps vs Los Angeles FC Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/9ed5eca31e10a6e6539cd2f5275e60d30020541ebee2a281341e6b333036a118/1785710775/mls-lafc.m3u8
+https://hiveatick.casadenoval.uk/main/secure/d34d66076f3352c8f682268f6db7a6568eecefb9e6ed2abd2051aa8b8b321ded/1785714415/mls-lafc.m3u8
 
 #EXTINF:-1 tvg-chno="8" tvg-id="stream_1" tvg-name="[Live Event] Chicago Fire vs Charlotte Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Chicago Fire vs Charlotte Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/8b2920a04354c16bedae5a8286eef88ebce0386fd1bc0e0d388a9a453d142768/1785710784/mls-atl.m3u8
+https://hiveatick.casadenoval.uk/main/secure/e56b636759f05f5fcdb9dfe5ebdcc87267e3fc05725ea66c62f270338e7b70d7/1785714424/mls-atl.m3u8
 
 #EXTINF:-1 tvg-chno="9" tvg-id="stream_1" tvg-name="[Live Event] Minnesota United vs San Diego Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Minnesota United vs San Diego Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/163e578a894ccb90e2dc5216c87aa89d4ce0b0d922b0d7b791d2787b0b39384f/1785710793/mls-sporting.m3u8
+https://hiveatick.casadenoval.uk/main/secure/ff3855c9fecb41c8e422925c2feb6df10b47ef82a7958d630a940b3835dab774/1785714432/mls-sporting.m3u8
 
 #EXTINF:-1 tvg-chno="10" tvg-id="stream_1" tvg-name="[Live Event] Sporting KC vs Houston Dynamo Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Sporting KC vs Houston Dynamo Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/b91446d12589936545c5a332902a31ed2988a843c0afdf4008988cc85d89e276/1785710802/mls-austin.m3u8
+https://hiveatick.casadenoval.uk/main/secure/e10e22a88230119cd65a38aba9589d377b3c611f8e24852f2a80ee18d4608ceb/1785714441/mls-austin.m3u8
 
 #EXTINF:-1 tvg-chno="11" tvg-id="stream_1" tvg-name="[Live Event] St. Louis City vs Real Salt Lake Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] St. Louis City vs Real Salt Lake Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/5d75179b5dabdcea7a977164d37343bb300d4763087e6b8c3a39de99f3f58d88/1785710811/mls-colorado.m3u8
+https://hiveatick.casadenoval.uk/main/secure/73733f86370ac25076abbe422d79fe40e2772d65b03a45ebbed5051c79b1cc2c/1785714450/mls-colorado.m3u8
 
 #EXTINF:-1 tvg-chno="12" tvg-id="stream_1" tvg-name="[Live Event] Colorado Rapids vs Austin Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Colorado Rapids vs Austin Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/f15cced843c16875cc09919068fd84195ba404c72fdbecccd249ee7a3824081b/1785710819/mls-lafc.m3u8
+https://hiveatick.casadenoval.uk/main/secure/70ae5bf000cba91ec8088704288b70ec5dd59697ba164470341a2c6a9748a187/1785714459/mls-lafc.m3u8
 
 #EXTINF:-1 tvg-chno="13" tvg-id="stream_1" tvg-name="[Live Event] LA Galaxy vs Dallas Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] LA Galaxy vs Dallas Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/08e4356541acdb807d4e37b31783fe4ccdbcd34bb0db81d5f3e6c5de3d084eb9/1785710828/mls-lagalaxy.m3u8
+https://hiveatick.casadenoval.uk/main/secure/216491cc9d4d8cee6070363932a6564bdb56563b8d6e5928cb334d4020ff4089/1785714468/mls-lagalaxy.m3u8
 
 #EXTINF:-1 tvg-chno="14" tvg-id="stream_1" tvg-name="[Live Event] Portland Timbers vs Seattle Sounders FC Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Portland Timbers vs Seattle Sounders FC Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/4d3d112a38a8c7e2e19d0fe3d56db7590ae35919690fd42080dc0b451e9b1553/1785710837/mls-portland.m3u8
+https://hiveatick.casadenoval.uk/main/secure/5c7151828934be432a81e87e775c80709513aaba610831478432fcdd8b2a85f3/1785714477/mls-portland.m3u8
 
 #EXTINF:-1 tvg-chno="15" tvg-id="stream_1" tvg-name="[Live Event] WWE Sumerslam Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] WWE Sumerslam Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/f431fe64ee99e777e72fd44e9039a1c3b9e7062e15518ba224805222ab0d04fd/1785710846/wwe.m3u8
+https://hiveatick.casadenoval.uk/main/secure/a2637cdf35682d3a6c924567168f050786560b5a97ba23766c1d497e05e8f39a/1785714485/wwe.m3u8
 
