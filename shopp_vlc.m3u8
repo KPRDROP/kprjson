@@ -1,39 +1,39 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-08-04 22:54 UTC
+# Last Updated: 2026-08-04 23:56 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Cincinnati vs Pachuca Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Cincinnati vs Pachuca Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/6799c357335978d107c48438bfc5d18664edb8909bfa8ff6ea98f0db64a7d27f/1785887593/mls-cincinnati.m3u8
+https://hiveatick.casadenoval.uk/main/secure/15ab8a9e52f322b5aa4cba46bce0b6df2d28e77fe755d896702ce952977d73dd/1785891350/mls-cincinnati.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Columbus Crew vs Atlas Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Columbus Crew vs Atlas Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/3366eaee1e6c7de1b5928295b8fbb80db57d3697c89f9f34bd12ee71f0a629cd/1785887602/mls-columbus.m3u8
+https://hiveatick.casadenoval.uk/main/secure/f2418844e41e254d46b22f8cd80b55fc9ddbdbf66e4c6065164b4dc59008b429/1785891359/mls-columbus.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Charlotte vs Pumas UNAM Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Charlotte vs Pumas UNAM Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/c3cf3239b052a524e71f3a2ff15df8dc89b529b7f72373e7d8ffd1910cbd55eb/1785887611/mls-charlotte.m3u8
+https://hiveatick.casadenoval.uk/main/secure/35c2a5286a466c2dc3e556779ab968864fa7b6255d1aa5f314161d0e449d2c6f/1785891368/mls-charlotte.m3u8
 
 #EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] Minnesota United vs Juárez Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Minnesota United vs Juárez Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/b9057fbb7c60b053c674b78d76207188557bf9dcf7fd483731c261aea56fc935/1785887620/mls-minnesota.m3u8
+https://hiveatick.casadenoval.uk/main/secure/db19ce9026339a49057721f843fcab340ca2e01994e7ab8d6a189194581f8cf1/1785891377/mls-minnesota.m3u8
 
 #EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] Tigres UANL vs Real Salt Lake Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Tigres UANL vs Real Salt Lake Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/f742c9ad7d8dc4184287d2a5fc2a7478c64277dc8de1193c9a4c6a227f500693/1785887628/mls-rsl.m3u8
+https://hiveatick.casadenoval.uk/main/secure/f74cdd77201a0358da722b91883af41dec4bc895afdb1e53610d6ea918515a13/1785891385/mls-rsl.m3u8
 
 #EXTINF:-1 tvg-chno="6" tvg-id="stream_1" tvg-name="[Live Event] Vancouver Whitecaps vs Atlante Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Vancouver Whitecaps vs Atlante Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://hiveatick.casadenoval.uk/main/secure/7384d7039ff2e9ac4707c9d0c5a7194d045bb405548fc2c6bdc92d7339d48c60/1785887637/mls-vancouver.m3u8
+https://hiveatick.casadenoval.uk/main/secure/7a4c7618cef774c9ab4c97b700ca8751f34d30b8e7d4e648d88cbe47087989c5/1785891394/mls-vancouver.m3u8
 
