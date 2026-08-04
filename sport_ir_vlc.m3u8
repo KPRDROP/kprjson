@@ -1,36 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Pittsburgh Pirates vs Milwaukee Brewers (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Pittsburgh Pirates vs Milwaukee Brewers (SPORTir)
+#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Diego Padres vs Arizona Diamondbacks (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] San Diego Padres vs Arizona Diamondbacks (SPORTir)
 #EXTVLCOPT:http-referrer=https://mlb24all.ir
 #EXTVLCOPT:http-origin=https://mlb24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-8bba18be.4587.website/6a71acb7.2057d8a6i5f884dca.a0be.faa04f70/free.live.espn/master.m3u8
-
-#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Francisco Giants vs Texas Rangers (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] San Francisco Giants vs Texas Rangers (SPORTir)
-#EXTVLCOPT:http-referrer=https://mlb24all.ir
-#EXTVLCOPT:http-origin=https://mlb24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-8bba18be.4587.website/6a71acb8.12be97b6i5f884dca.a137.fc84f28b/free.live.espn/master.m3u8
-
-#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Dodgers vs Chicago Cubs (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Los Angeles Dodgers vs Chicago Cubs (SPORTir)
-#EXTVLCOPT:http-referrer=https://mlb24all.ir
-#EXTVLCOPT:http-origin=https://mlb24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-8bba18be.4587.website/6a71acb8.b0af348di5f884dca.a0bd.3c237aba/free.live.espn/master.m3u8
-
-#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Diego Padres vs Arizona Diamondbacks (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] San Diego Padres vs Arizona Diamondbacks (SPORTir)
-#EXTVLCOPT:http-referrer=https://mlb24all.ir
-#EXTVLCOPT:http-origin=https://mlb24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-025d151e.4587.website/6a71acb8.6ba1848ai5f884dca.a147.c22cd25d/free.live.espn/master.m3u8
-
-#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Washington Nationals vs Philadelphia Phillies (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Washington Nationals vs Philadelphia Phillies (SPORTir)
-#EXTVLCOPT:http-referrer=https://mlb24all.ir
-#EXTVLCOPT:http-origin=https://mlb24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-8bba18be.4587.website/6a71acb8.c5b84c15i5f884dca.a0b6.64e5cd58/free.live.espn/master.m3u8
-
-#EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Tampa Bay Rays vs Colorado Rockies (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Tampa Bay Rays vs Colorado Rockies (SPORTir)
-#EXTVLCOPT:http-referrer=https://mlb24all.ir
-#EXTVLCOPT:http-origin=https://mlb24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-8bba18be.4587.website/6a71acb8.5fb5cf3di5f884dca.a13f.1df47906/free.live.espn/master.m3u8
+https://node-9b5feb01.4587.website/6a71dc71.e2e39149i4a9c6bca.a147.98e15c34/free.live.espn/master.m3u8
