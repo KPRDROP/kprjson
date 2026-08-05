@@ -1,9 +1,9 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-08-05 19:16 UTC
+# Last Updated: 2026-08-05 20:58 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Mallorca vs PSG Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Mallorca vs PSG Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/56eeee8fb9ad5be199d3c5d425e6ac620f1826bf95331b9575523a41baa21546/1785960963/dazn-1.m3u8
+https://fiveo4.vilevodules.uk/main/secure/86e90bde42a6c955347b14649b06ac5a93f0f34b09144948858c86929a0eb3b3/1785967085/dazn-1.m3u8
 
