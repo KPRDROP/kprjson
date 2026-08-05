@@ -1,39 +1,39 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-08-05 22:12 UTC
+# Last Updated: 2026-08-05 23:51 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Monterrey vs Orlando City SC Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Monterrey vs Orlando City SC Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/626a18bff39c35da53a704fc760bd7cd306c276c4edac630e355ebf908ae6c4b/1785971470/mls-orl.m3u8
+https://fiveo4.vilevodules.uk/main/secure/a1ec26cf99e0389eaca725e2098d42b3cc07ba8a002ce9925a2eeb5e6c7c1e44/1785977431/mls-orl.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Inter Miami vs Atlético San Luis Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Inter Miami vs Atlético San Luis Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/12b791900cdba736253a4fb887d7dd59090e962c5daafd67e428f632117416f2/1785971479/mls-mia.m3u8
+https://fiveo4.vilevodules.uk/main/secure/93be7b20903dbd49ce242d6172edee560b040887f115cd922bdb1362853c87c9/1785977440/mls-mia.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Nashville SC vs León Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Nashville SC vs León Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/ddbccebb9bef2c274716dfe0b07a51cb00467c9b5886494d29dd7beab21d6aa4/1785971488/mls-nashville.m3u8
+https://fiveo4.vilevodules.uk/main/secure/d4309aaea92a48308483e35cc3052577e7f23f7fe9897656ea4d85192cb107d9/1785977448/mls-nashville.m3u8
 
 #EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] Dallas vs Querétaro Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Dallas vs Querétaro Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/06560c6185d607d6dcd36e98dd7cf6fc681f2c53140e1af7c6ed2d548c1f990a/1785971497/mls-dallas.m3u8
+https://fiveo4.vilevodules.uk/main/secure/5091956cfe5c0d168c1a84850d678284292fcc66839e101b29839077e67e1f9a/1785977457/mls-dallas.m3u8
 
 #EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] Toluca vs Seattle Sounders FC Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Toluca vs Seattle Sounders FC Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/d901a03807f8c008a5588982db324ffb2ac29833bd37e1dc6043391753fab463/1785971506/mls-sea.m3u8
+https://fiveo4.vilevodules.uk/main/secure/214cbad7626cb50c6a9dfc10333da6e46641ae807932a8a83b5c1cc2fe446cee/1785977466/mls-sea.m3u8
 
 #EXTINF:-1 tvg-chno="6" tvg-id="stream_1" tvg-name="[Live Event] Los Angeles FC vs Guadalajara Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Los Angeles FC vs Guadalajara Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/2e6003e56d5aa648f432a1911fdd1759e160eeb91ecec90dc6f9604673ebfd3d/1785971515/mls-lafc.m3u8
+https://fiveo4.vilevodules.uk/main/secure/cdcdff21ae9a3c25846d6be9169b1b426d50b2789e6e5b70965a95183bc4db26/1785977475/mls-lafc.m3u8
 
