@@ -100,7 +100,6 @@ class Time(datetime):
                 "%a, %d %b %Y %H:%M:%S %z",
                 "%A, %b %d, %Y %H:%M",
             ]
-
             for frmt in formats:
                 try:
                     dt = datetime.strptime(s, frmt)
