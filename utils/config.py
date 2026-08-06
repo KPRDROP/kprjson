@@ -100,6 +100,7 @@ class Time(datetime):
                 "%a, %d %b %Y %H:%M:%S %z",
                 "%A, %b %d, %Y %H:%M",
             ]
+
             for frmt in formats:
                 try:
                     dt = datetime.strptime(s, frmt)
@@ -125,7 +126,7 @@ class Leagues:
     def __init__(self) -> None:
         self.data = json.loads(
             (Path(__file__).parent / "leagues.json").read_text(encoding="utf-8")
-        )
+       )
 
     def teams(self, league: str) -> list[str]:
         return self.data["teams"].get(league, [])
