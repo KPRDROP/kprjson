@@ -1,45 +1,45 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-08-07 11:39 UTC
+# Last Updated: 2026-08-07 12:42 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Bayern München vs Aston Villa Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Bayern München vs Aston Villa Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/21cf45ae568f3f9465e4a98b3cb0cb3765932febf8425d00a71dd7a87aed7926/1786106324/cbsgolazo.m3u8
+https://fiveo4.vilevodules.uk/main/secure/7006ac52b0c8c1e531929c3c28eb1fa244cf1e72d4bda8921a42af943e5367d5/1786110078/cbsgolazo.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Fulham vs Crystal Palace Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Fulham vs Crystal Palace Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/be55395f9a79a67882b9789520e586abf020e9893152b1eee11e6e19b7514612/1786106333/cbsgolazo.m3u8
+https://fiveo4.vilevodules.uk/main/secure/bd0160f77ac1df1fff61ae28375b87f58260dae5cc70a31d98b29bd15eb2731e/1786110087/cbsgolazo.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Columbus Crew vs Pachuca Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Columbus Crew vs Pachuca Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/4f09e2e6f94f53dc59b51f613f2d33853e0b57aa0c7cd7ab966d58ba48223cc8/1786106342/mls-nyc.m3u8
+https://fiveo4.vilevodules.uk/main/secure/68d32714956c6aed5c6a5a2d815b4a4bcd00b5abdba5d872291919d0f09bb980/1786110096/mls-nyc.m3u8
 
 #EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] Charlotte vs Atlas Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Charlotte vs Atlas Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/44ca6e03a528546a9012a318185106529875a79b835549d3dbf34200c6a998d6/1786106351/mls-philly.m3u8
+https://fiveo4.vilevodules.uk/main/secure/ca037b4717efc04a364354a155d62d806610091b670f7f7cbb23f4cac714c5f5/1786110105/mls-philly.m3u8
 
 #EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] Cincinnati vs Pumas UNAM Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Cincinnati vs Pumas UNAM Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/55d8dca66ccc0f3f814c60b8bc494cf26c09363d88c0ee81529fe5d2673f4767/1786106359/mls-chi.m3u8
+https://fiveo4.vilevodules.uk/main/secure/8ef56d0241c7ad930c85f6476e13439b2713fd73e95739192094b2c4dc56075a/1786110114/mls-chi.m3u8
 
 #EXTINF:-1 tvg-chno="6" tvg-id="stream_1" tvg-name="[Live Event] Tigres UANL vs Minnesota United Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Tigres UANL vs Minnesota United Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/bfb06fad7b034163f07063e9dfe332c175a661dde27744c7d95e907273318599/1786106368/mls-austin.m3u8
+https://fiveo4.vilevodules.uk/main/secure/85f6b6ff3c6a19527119b65df698719a9a2a1b7588c6a287ce8f079af36fdffe/1786110123/mls-austin.m3u8
 
 #EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] Vancouver Whitecaps vs Juárez Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Vancouver Whitecaps vs Juárez Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/7a44fd1c814e2bd3741fbd3f753d970efe9349b3fc0fb9b021911c2d43471230/1786106377/mls-sd.m3u8
+https://fiveo4.vilevodules.uk/main/secure/70c5fa733c9fbebf8cd53cce541dd4f0b465743bbbc17deb790187b47cd84bea/1786110132/mls-sd.m3u8
 
