@@ -1,51 +1,45 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-08-08 16:23 UTC
+# Last Updated: 2026-08-08 17:22 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] ONE SAMURAI 2 Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] ONE SAMURAI 2 Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/e76338cc7e0c2393e5d94eababf59ec17e41eaab141f27f41d1ced6eddea53ca/1786209692/onefc-xyz.m3u8
+https://fiveo4.vilevodules.uk/main/secure/ce9db1c6ec8679875380952a02852573e5176f89502ef3e02506c5eb33faf4a3/1786213281/onefc-xyz.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Juventus vs Internazionale Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Juventus vs Internazionale Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/f6eb09e3322314da1b25d561fcd94aa28c4431c0df4b84bd9d41ccdaf5157909/1786209701/cbsgolazo.m3u8
+https://fiveo4.vilevodules.uk/main/secure/5084e050fb62ebfaeea974c518668699e1752f6231e8c8282b9c5020ad6cea5d/1786213290/cbsgolazo.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Chelsea vs Milan Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Chelsea vs Milan Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Leeds United vs RB Leipzig Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Leeds United vs RB Leipzig Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-300355981&e=e&n=4732277466793077&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1ugix9wn9zwo&et=classic&i=1&lid=1uaxldt1w3vl&lsa=set&mt=1&pbd=1&pbr=1&pgi=1xltekqfszsm&ph=0&pii=0&pl=497&plc=1&pli=1h3zuy14bfjo&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-2&pv=8.49.5&pyc=0&s=0&sdk=0&ss=1&stc=1&stpe=0&tv=4.0.17&vb=0&vi=0&vl=90&wd=884&ab=0&cae=0&cb=1&cdid=video-player&cme=0&dd=1&flc=0&fv=&ga=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.xyzstreams.st%2F%3Fstream_id%3Dcbssportsnetworkdish%26pro_id%3Dsling%26index.m3u8&pbc=0&pd=2&pdr=&plng=en&plt=500&pni=0&po=0&sp=0&st=100&sa=1786206110450
+https://fiveo4.vilevodules.uk/main/secure/1549dc76d63597a9d41594e976a834d987b63a0ef4a436dcab9d9a3c36c6b471/1786213308/rbtv.m3u8
 
-#EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] Leeds United vs RB Leipzig Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Leeds United vs RB Leipzig Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] Bayer Leverkusen vs Sevilla Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Bayer Leverkusen vs Sevilla Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/73d8c1217db497750d14f64ce23323606f9230f1793191439e2973ba576e1090/1786209720/rbtv.m3u8
+https://fiveo4.vilevodules.uk/main/secure/d66bb2d83aacbe5ed050148b8b259f32179402efef7a3fba07161d050e29c78d/1786213317/ps1-xyz.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] Bayer Leverkusen vs Sevilla Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Bayer Leverkusen vs Sevilla Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] Brighton &amp; Hove Albion vs Roma Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Brighton &amp; Hove Albion vs Roma Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/4ce68a0896cf361ab82ce7dcd485b02d4f63a5766ece60ad5623dba96f9b49d4/1786209729/ps1-xyz.m3u8
+https://fiveo4.vilevodules.uk/main/secure/8a8c84a8ac8f255a3740b9516c66bc32d1646a3f3851369ff222889efa7dd8c0/1786213325/cbsgolazo.m3u8
 
-#EXTINF:-1 tvg-chno="6" tvg-id="stream_1" tvg-name="[Live Event] Brighton &amp; Hove Albion vs Roma Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Brighton &amp; Hove Albion vs Roma Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="6" tvg-id="stream_1" tvg-name="[Live Event] Manchester United vs PSG Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Manchester United vs PSG Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/767c17426cecb6057842d818cbbbcb15da16f437d3035f0a42d1d8c1c6bde4f7/1786209738/cbsgolazo.m3u8
+https://fiveo4.vilevodules.uk/main/secure/f6bdf6b23f32f178081eea0f182d9f70ed414772c0954d540f7b372d43b6a291/1786213343/mutv.m3u8
 
-#EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] Manchester United vs PSG Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Manchester United vs PSG Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] Udinese vs Nottingham Forest vs FC Barcelona Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Udinese vs Nottingham Forest vs FC Barcelona Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/92fc907ca71ff42cd9eac856730f71a9c8fc8ce29c61fc4fa35dcff268116ed2/1786209756/mutv.m3u8
-
-#EXTINF:-1 tvg-chno="8" tvg-id="stream_1" tvg-name="[Live Event] Udinese vs Nottingham Forest vs FC Barcelona Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Udinese vs Nottingham Forest vs FC Barcelona Stream 1 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/3dac5a8a894f99b4428ec1c6c4d828095da5c394ccabc8411b4a11b92b785395/1786209774/cbsgolazo.m3u8
+https://fiveo4.vilevodules.uk/main/secure/08acbd231e062a40f77e5c9582b4adeb7fb2875f360c91ead04491ed0c13be3b/1786213361/cbsgolazo.m3u8
 
