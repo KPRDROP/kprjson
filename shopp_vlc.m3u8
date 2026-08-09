@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-08-09 05:42 UTC
+# Last Updated: 2026-08-09 06:40 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] UFC Fight Night: Gamrot vs. Salkilld Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] UFC Fight Night: Gamrot vs. Salkilld Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -23,41 +23,41 @@ https://ufcftv.xyzstreams.st/manifest_8.m3u8
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/2b6b92fb98064e1224f2a2496b40446df0619029ab0a474600de8d75ca959b95/1786257705/mls-hou.m3u8
+https://fiveo4.vilevodules.uk/main/secure/bd07f861c0ee642a50c062d56e2acfa3b86e895b6bb94a20a92407ead523c15b/1786261161/mls-hou.m3u8
 
 #EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] Orlando City SC vs León Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Orlando City SC vs León Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/9f3543818d44cfc716080ee8bf3f6e596f16b63719bf17d4ed7f28fc8dc59388/1786257714/mls-orl.m3u8
+https://fiveo4.vilevodules.uk/main/secure/94f7a6172fc494d571a2ac8df5e14d14ee69b8800315bd27fc9ff74d9c7749e9/1786261170/mls-orl.m3u8
 
 #EXTINF:-1 tvg-chno="6" tvg-id="stream_1" tvg-name="[Live Event] Inter Miami vs Monterrey Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Inter Miami vs Monterrey Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/62b5848e473f76864bf7e9e3c90784909e314368390766408bc974098a1ab71d/1786257723/mls-mia.m3u8
+https://fiveo4.vilevodules.uk/main/secure/d8eaf43c69137224c2a39a223d61f87dc466d4716793f606b6672f0b34d026f6/1786261179/mls-mia.m3u8
 
 #EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] Guadalajara vs Dallas Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Guadalajara vs Dallas Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/de9ef6914b09e8731e5748016cc5a3392673917eacb69dc5ef49b929f93ae335/1786257732/mls-dallas.m3u8
+https://fiveo4.vilevodules.uk/main/secure/9dda00b8f09d53d89272d8ad76eb25b69af56fa659ec865cc997d752c8209fe3/1786261188/mls-dallas.m3u8
 
 #EXTINF:-1 tvg-chno="8" tvg-id="stream_1" tvg-name="[Live Event] Real Salt Lake vs Atlante Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Real Salt Lake vs Atlante Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/c443c7db0976291b14ad24185e6b46436420707d082eecd8f49a1abb9822c5cd/1786257741/mls-rsl.m3u8
+https://fiveo4.vilevodules.uk/main/secure/2c4d72ff64b107299c13adc2518d854493eac3ecbcb212d0f0ce2d4a1d8ea4e0/1786261196/mls-rsl.m3u8
 
 #EXTINF:-1 tvg-chno="9" tvg-id="stream_1" tvg-name="[Live Event] Toluca vs Los Angeles FC Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Toluca vs Los Angeles FC Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/dc20b6d10f9a27526f0268223f96a0f8acf49ff3410f19c000ad90a5f186e857/1786257749/mls-lafc.m3u8
+https://fiveo4.vilevodules.uk/main/secure/1c32f248a4c58da05a7e27b2d80c05a6ab1a66bd13aa8d8f3917d26088c824e9/1786261205/mls-lafc.m3u8
 
 #EXTINF:-1 tvg-chno="10" tvg-id="stream_1" tvg-name="[Live Event] Udinese vs Nottingham Forest vs FC Barcelona Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Udinese vs Nottingham Forest vs FC Barcelona Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/43a4cfc3aa7f6bfa998b988470c1be76ec9d1230cc864366bc023650f51f6c80/1786257758/cbsgolazo.m3u8
+https://fiveo4.vilevodules.uk/main/secure/6d831ca8bded460653502b7ac32c8440b4809c7c9bf95ac8ffc37fcc4f3b5f97/1786261214/cbsgolazo.m3u8
 
