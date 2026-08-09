@@ -1,51 +1,51 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-08-09 17:23 UTC
+# Last Updated: 2026-08-09 18:27 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Seattle Sounders FC vs Querétaro Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Seattle Sounders FC vs Querétaro Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/f7bb854ca831be1a852cae276aaba7aa701f01bf1094d82a5c21085c5a49fc57/1786299736/mls-orl.m3u8
+https://fiveo4.vilevodules.uk/main/secure/dd558e08ef9af339ec4938c1a9f0bbc35930c389eaa1a58e8a5f43bf9447795c/1786303564/mls-orl.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Philadelphia Union vs Necaxa Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Philadelphia Union vs Necaxa Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/1d86e9dfc3fabfc1f0d2ff6f4c4ac4f120f804a3d21c00c33d7a932a1b532947/1786299745/mls-mia.m3u8
+https://fiveo4.vilevodules.uk/main/secure/85f27486ec021d1ce98ccf828914a2fa015d20f4cb359c9e7e5d8569c2c198a2/1786303573/mls-mia.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Cruz Azul vs New York City Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Cruz Azul vs New York City Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/9527c8b6d8cf4966b152119a8c354ac28c801380fc252953b4c9bdc2cc9da5d1/1786299754/mls-dallas.m3u8
+https://fiveo4.vilevodules.uk/main/secure/657defee158359a024c8c830a672b8a95dcd611a6808f75eaa87342fdfbdc5d4/1786303582/mls-dallas.m3u8
 
 #EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] Nashville SC vs Atlético San Luis Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Nashville SC vs Atlético San Luis Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/6e281d4990e17ec584bc59e8a5dd98ebf34aed205c9e8c0fa31dddc44eac66fe/1786299763/mls-rsl.m3u8
+https://fiveo4.vilevodules.uk/main/secure/4a6026779ba9733c4dc4f6ab5b10fa3b379cf79bc542750b60213bf947e03ad3/1786303590/mls-rsl.m3u8
 
 #EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] Chicago Fire vs Santos Laguna Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Chicago Fire vs Santos Laguna Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/9df4a55e003304948f7aa16642941973962938a1871a48c66943a718013f3934/1786299772/mls-lafc.m3u8
+https://fiveo4.vilevodules.uk/main/secure/96e7a1fbbde911f5fb1934305d3ecf6f21d286583bc376ebd91cc252640498f0/1786303599/mls-lafc.m3u8
 
 #EXTINF:-1 tvg-chno="6" tvg-id="stream_1" tvg-name="[Live Event] Austin vs Puebla Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Austin vs Puebla Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/94b7dbcd9254fd41aa31f1f48edbe9482c72498b76a165c97b2f7fe89377bbd1/1786299781/mls-hou.m3u8
+https://fiveo4.vilevodules.uk/main/secure/e12e1ddd2978b3b873d19aec5781a52f12e8e8187215db63c48bea1d5ee5f6aa/1786303608/mls-hou.m3u8
 
 #EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] San Diego vs Tijuana Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] San Diego vs Tijuana Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/9fdf80da2547824ff7487bf4e2e6950dc72456c68f983c00d73b5102dc8ced1e/1786299790/lafc-es.m3u8
+https://fiveo4.vilevodules.uk/main/secure/89ee116797b3abdf8d57d3df593d5875e97bc1d41676350b33c2dc2b1968a409/1786303617/lafc-es.m3u8
 
 #EXTINF:-1 tvg-chno="8" tvg-id="stream_1" tvg-name="[Live Event] América vs Portland Timbers Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] América vs Portland Timbers Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/1f0b508e0bac0897a8289c811e3b23e99808bfaa15c6ce8f746b1d97bd071607/1786299799/mls-atl.m3u8
+https://fiveo4.vilevodules.uk/main/secure/ea846a4d0f7dfb272e6dd2322c9c0b2eadec73e12f00e415ed2b03940db4a5b7/1786303626/mls-atl.m3u8
 
