@@ -1,27 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-08-10 18:44 UTC
+# Last Updated: 2026-08-11 01:00 UTC
 
-#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Seattle Sounders FC vs Querétaro Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Seattle Sounders FC vs Querétaro Stream 1 (SHOPP)
-https://fiveo4.vilevodules.uk/main/secure/4fee5c91a66c8f9274065364ad1c8c37f3a3df3d7b43b4a9c8b2f13a825feae2/1786390986/mls-sea.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Philadelphia Union vs Necaxa Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Philadelphia Union vs Necaxa Stream 1 (SHOPP)
-https://fiveo4.vilevodules.uk/main/secure/70a2283804a39f21cf595fc5a46b47c7971a581f366ae8c6c7cf9448527f49f8/1786390995/mls-philly.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Cruz Azul vs New York City Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Cruz Azul vs New York City Stream 1 (SHOPP)
-https://fiveo4.vilevodules.uk/main/secure/f95cf59968b9e0c6265357d20afaabd274795da603b738fa70e769c22c001da5/1786391004/mls-nyc.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] Nashville SC vs Atlético San Luis Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Nashville SC vs Atlético San Luis Stream 1 (SHOPP)
-https://fiveo4.vilevodules.uk/main/secure/8d8f6e9fb1a8901a3d57bbe20ca1dc5c11b5544fd9d99e2883721f3b3454fd67/1786391013/mls-nashville.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] Chicago Fire vs Santos Laguna Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Chicago Fire vs Santos Laguna Stream 1 (SHOPP)
-https://fiveo4.vilevodules.uk/main/secure/fde1f965fc44444073ab06c6f49da8ac21ec916ba8b4ee53f5b80a41c6398b18/1786391022/mls-chi.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="6" tvg-id="stream_1" tvg-name="[Live Event] Austin vs Puebla Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Austin vs Puebla Stream 1 (SHOPP)
-https://fiveo4.vilevodules.uk/main/secure/53a7421cde90623694ebb88915877d0f94ad7868ce7929b59088eddad9ff3e05/1786391031/mls-austin.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] San Diego vs Tijuana Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] San Diego vs Tijuana Stream 1 (SHOPP)
-https://fiveo4.vilevodules.uk/main/secure/d33686e45a86d96143bc2c59c375b2168e52b8e66dbf5419ec8e9a9a403c7166/1786391040/mls-sd.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="8" tvg-id="stream_1" tvg-name="[Live Event] América vs Portland Timbers Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] América vs Portland Timbers Stream 1 (SHOPP)
-https://fiveo4.vilevodules.uk/main/secure/879409baa8e039b7fa477a4cf31376a121f7340860b4dd19e16293a5e5886f80/1786391049/mls-portland.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] WWE RAW Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] WWE RAW Stream 1 (SHOPP)
+https://fiveo4.vilevodules.uk/main/secure/c8eefca9e551c0f1b83cb7fcc210544b4223404a9d6166d461af2ac0d2561a0e/1786413642/wwe-xyz.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
 
