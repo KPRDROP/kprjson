@@ -1,9 +1,9 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-08-11 06:50 UTC
+# Last Updated: 2026-08-11 08:04 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Rizin 54 Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Rizin 54 Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/d175202c8f9446f1efb47f98ab79a782a00ca490e2bbb4d75cf37e8edc19e704/1786434595/rizin-xyz.m3u8
+https://fiveo4.vilevodules.uk/main/secure/857cbf7586a4db442ba4696c473849d9db42cb40a605c5b6f0016032797d7e7f/1786439056/rizin-xyz.m3u8
 
