@@ -1,41 +1,41 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-08-12 16:02 UTC
+# Last Updated: 2026-08-12 16:57 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Inter Miami vs León Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Inter Miami vs León Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/4ada9276b07ee34622511895093214f565e5e88b0c61af83f98f715e6e997a29/1786553510/mls-charlotte.m3u8
+https://fiveo4.vilevodules.uk/main/secure/38f32d25a9c12cb7495887bc0287c0d1d1b83bcc8decdba14736fb82d99cc1c1/1786556838/mls-charlotte.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Orlando City SC vs Atlético San Luis Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Orlando City SC vs Atlético San Luis Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/99a32be7c126b61a827f7b270a9db5b8dc3db1323ed0923dc5eb88d4b7c81285/1786553519/mls-cin.m3u8
+https://fiveo4.vilevodules.uk/main/secure/30de38e28d938b991fb063154d3e3f4f8b5153ca9a14ace44786cdeca7f4a2c8/1786556847/mls-cin.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Monterrey vs Nashville SC Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Monterrey vs Nashville SC Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/5061d37d86ca018360e78bee4f22e091fa274d56320c4f854d20c0bcefefc2f2/1786553527/mls-min.m3u8
+https://fiveo4.vilevodules.uk/main/secure/dcc3461c45e06b427c5c99d05fa1d5fb7659cb523c1369fbe48c1162be3fbdae/1786556856/mls-min.m3u8
 
 #EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] Toluca vs Dallas Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Toluca vs Dallas Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/0626e8cf1858daca21c19ffcd19223cc780edf996af3e32e53275ad6e2e5fb93/1786553536/mls-rsl.m3u8
+https://fiveo4.vilevodules.uk/main/secure/d7c1c1cdfd3d63803e7a5f45db4f7b7a41115745819839f22323980e7f24e535/1786556865/mls-rsl.m3u8
 
 #EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] Seattle Sounders FC vs Guadalajara Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Seattle Sounders FC vs Guadalajara Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/7b5ac6c65580d375a2bf776c8b5be23e7ef9d1c13c90d8e8578cd67d2b934ab7/1786553554/mls-sd.m3u8
+https://fiveo4.vilevodules.uk/main/secure/cbdf9e6e008f3e4d5d2b37f9d734a320fdf6c040ba0232f57af5daa48f5ea09d/1786556882/mls-sd.m3u8
 
 #EXTINF:-1 tvg-chno="6" tvg-id="stream_1" tvg-name="[Live Event] Los Angeles FC vs Querétaro Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Los Angeles FC vs Querétaro Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://fiveo4.vilevodules.uk/main/secure/13736f8172dbd22e855e5f07cc77d17b9cd5f48345babf9a2f51f87b2e116ad3/1786553563/mls-portland.m3u8
+https://fiveo4.vilevodules.uk/main/secure/e5d126777037728b4c355b07a010daca8417d4a149a866d06dc44d459260d63e/1786556891/mls-portland.m3u8
 
 #EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] Lions vs Bengals Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Lions vs Bengals Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -47,5 +47,5 @@ https://247.xyzstreams.st/?stream_id=nfl&pro_id=peacock&index.m3u8
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/error/ping.gif?h=1101617339&e=err&n=1484638667419002&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=rzatm91qfwjs&i=1&lid=1dso4ii1qglq&lsa=set&mt=1&pbd=1&pbr=1&pgi=1xs96aeoeic5&ph=0&pii=0&pl=197&plc=1&pli=1fgw9vn1phw1&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fnfl-1&pv=8.26.0&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=3.41.0&vb=1&vi=1&vl=90&wd=350&cme=0&erc=232502&mu=https%3A%2F%2F247.xyzstreams.st%2F%3Fstream_id%3Dnfl%26pro_id%3Dpeacock%26index.m3u8&sa=1786549979576
+https://prd.jwpltx.com/v1/error/ping.gif?h=-180245395&e=err&n=8580599420036524&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1y0c5tezu6qs&i=1&lid=1kwkbnj1wsv1&lsa=set&mt=1&pbd=1&pbr=1&pgi=dzdzio1bxyw6&ph=0&pii=0&pl=197&plc=1&pli=anlhyobho27h&pp=hlsjs&prc=1&ps=4&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fnfl-1&pv=8.26.0&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=3.41.0&vb=1&vi=1&vl=90&wd=350&cme=0&erc=232502&mu=https%3A%2F%2F247.xyzstreams.st%2F%3Fstream_id%3Dnfl%26pro_id%3Dpeacock%26index.m3u8&sa=1786553307872
 
