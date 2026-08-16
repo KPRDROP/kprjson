@@ -2,7 +2,7 @@
 
 from utils import Cache, Time, get_logger, leagues, network
 from datetime import datetime
-from urllib.parse import quote, urljoin
+from urllib.parse import quote, urljoin, parse_qs, urlparse
 import re
 import asyncio
 import json
@@ -281,6 +281,74 @@ async def extract_streams_from_event_page(event_url: str, event_name: str) -> li
                 # Get page content for additional extraction
                 html_content = await page.content()
                 
+                # ============================================================
+                # NEW PATTERN 1: Extract from embed URLs with data-url attribute
+                # Format: https://xyzstreams.st/embed?{stream_id}
+                # Example: https://iptvstream.dlhd.net/{stream_id}/index.m3u8
+                # ============================================================
+                embed_links = re.findall(
+                    r'data-url=["\']([^"\']+)["\']',
+                    html_content,
+                    re.I
+                )
+                
+                for embed_url in embed_links:
+                    # Extract stream ID from embed URL
+                    if 'embed?' in embed_url:
+                        stream_id = embed_url.split('embed?')[-1].strip()
+                        if stream_id:
+                            # Build m3u8 URL using the new pattern
+                            m3u8_url = f"https://iptvstream.dlhd.net/{stream_id}/index.m3u8"
+                            found_streams.add(m3u8_url)
+                            log.info(f"Found embed stream: {stream_id} -> {m3u8_url}")
+                
+                # ============================================================
+                # NEW PATTERN 2: Extract from stream-btn with data-url attribute
+                # Format: https://xyzstreams.st/247.html?streamid={id}&proid={pro}
+                # Example: https://247v2.dlhd.net/?stream_id={id}&pro_id={pro}&index.m3u8
+                # ============================================================
+                stream_buttons = re.findall(
+                    r'<button[^>]*class=["\'][^"\']*stream-btn[^"\']*["\'][^>]*data-url=["\']([^"\']+)["\'][^>]*>',
+                    html_content,
+                    re.I | re.S
+                )
+                
+                for btn_url in stream_buttons:
+                    if '247.html?' in btn_url:
+                        # Parse query parameters
+                        parsed = urlparse(btn_url)
+                        params = parse_qs(parsed.query)
+                        
+                        stream_id = params.get('streamid', [None])[0]
+                        pro_id = params.get('proid', [None])[0]
+                        
+                        if stream_id and pro_id:
+                            # Build m3u8 URL using the new 247 pattern
+                            m3u8_url = f"https://247v2.dlhd.net/?stream_id={stream_id}&pro_id={pro_id}&index.m3u8"
+                            found_streams.add(m3u8_url)
+                            log.info(f"Found 247 stream: {stream_id} -> {m3u8_url}")
+                
+                # ============================================================
+                # NEW PATTERN 3: Direct extraction of new m3u8 URL formats
+                # ============================================================
+                # Pattern for iptvstream.dlhd.net
+                iptv_patterns = re.findall(
+                    r'https?://iptvstream\.dlhd\.net/[^/\s"\']+/index\.m3u8(?:\?[^\s"\']*)?',
+                    html_content,
+                    re.I
+                )
+                for url in iptv_patterns:
+                    found_streams.add(url)
+                
+                # Pattern for 247v2.dlhd.net
+                v2_patterns = re.findall(
+                    r'https?://247v2\.dlhd\.net/\?stream_id=[^&\s"\']+&pro_id=[^&\s"\']+&index\.m3u8(?:\?[^\s"\']*)?',
+                    html_content,
+                    re.I
+                )
+                for url in v2_patterns:
+                    found_streams.add(url)
+                
                 # Extract channel names from HTML for API calls
                 api_channels = set()
                 
@@ -306,7 +374,7 @@ async def extract_streams_from_event_page(event_url: str, event_name: str) -> li
                 )
                 
                 # Common channel names to try
-                common_channels = ['FOX', 'fox4k', 'ITV', 'ITV4', 'itv4', 'tsn4k', 'dsports1arg',  'BBC', 'TSN', 'Telemundo', 'ESPN', 'TNT', 'NBC', 'CBS', 'ABC']
+                common_channels = ['FOX', 'fox4k', 'ITV', 'ITV4', 'itv4', 'tsn4k', 'dsports1arg', 'BBC', 'TSN', 'Telemundo', 'ESPN', 'TNT', 'NBC', 'CBS', 'ABC']
                 for channel in common_channels:
                     if channel in html_content:
                         api_channels.add(channel)
@@ -397,7 +465,7 @@ async def extract_streams_from_event_page(event_url: str, event_name: str) -> li
     
     # Filter out non-tokenized URLs if tokenized versions exist
     final_streams = []
-    tokenized_urls = [s for s in streams if '?' in s and 'expires' in s]
+    tokenized_urls = [s for s in streams if '?' in s and ('expires' in s or 'stream_id' in s)]
     
     if tokenized_urls:
         final_streams = tokenized_urls
