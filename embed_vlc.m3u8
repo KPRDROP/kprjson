@@ -3,11 +3,17 @@
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/mpittsburghpirates.m3u8?md5=5JtIss_qG54cujO1yIPXug&expires=1787164795
+https://cdn15.zohanayaan.com:1686/hls/mpittsburghpirates.m3u8?md5=3ACoULygwTFZfwFomax8rQ&expires=1787167707
 
 #EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Mets - San Diego Padres (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] New York Mets - San Diego Padres
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/mnewyorkmets.m3u8?md5=0l0Q-xWGGle9Mmd66vvDNA&expires=1787164797
+https://cdn14.zohanayaan.com:1686/hls/mnewyorkmets.m3u8?md5=HbXdK_b3hyUCv0ViW8J5pw&expires=1787167708
+
+#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs - Chicago White Sox (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Chicago Cubs - Chicago White Sox
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://cdn14.zohanayaan.com:1686/hls/mchicagocubs.m3u8?md5=DN69eAeGL1gUpUnBm1LBSg&expires=1787167709
 
