@@ -23,7 +23,7 @@ jobs:
 
       - name:  Install deps
         run: |
-          pip install playwright selectolax httpx[http2] pytz "adblock>=0.6.0"
+          pip install playwright aiohttp selectolax httpx[http2] pytz "adblock>=0.6.0"
           python -m playwright install chromium
 
       - name:  Run scraper
