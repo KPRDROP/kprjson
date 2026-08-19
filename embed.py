@@ -170,7 +170,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
     events: list[Event] = []
     
     # Expanded time window to get more events
-    start_dt = now.delta(hours=-6)  # Expanded from -3 to -6
+    start_dt = now.delta(hours=-3)  # Expanded from -3 to -6
     end_dt = now.delta(minutes=60)   # Expanded from 30 to 60
     
     for info in api_data.get("days", []):
