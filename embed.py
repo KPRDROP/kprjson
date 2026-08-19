@@ -5,6 +5,7 @@ from collections.abc import KeysView
 from functools import partial
 from urllib.parse import urljoin, quote
 import os
+import re
 from pathlib import Path
 
 from playwright.async_api import async_playwright, Browser, Page
@@ -65,7 +66,6 @@ def clean_display_name(name: str) -> str:
     if not name:
         return ""
     # Remove commas but keep the text around them
-    import re
     cleaned = re.sub(r',\s*', ' ', name)
     # Remove extra spaces
     cleaned = re.sub(r'\s+', ' ', cleaned).strip()
@@ -154,7 +154,7 @@ async def process_event(
 
 async def get_events(cached_keys: KeysView[str]) -> list[Event]:
     """Fetch and filter events from API."""
-    now = Time.rn()  # Use Time.rn() like original code
+    now = Time.clean(Time.now())  # Use Time.clean(Time.now()) instead of Time.rn()
     
     if not (api_data := API_FILE.load(per_entry=False)):
         log.info("Refreshing API cache")
