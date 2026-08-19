@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import asyncio
+from collections.abc import KeysView
 from functools import partial
 from urllib.parse import urljoin, quote
 import os
@@ -42,8 +43,52 @@ OUT_TIVI = Path("embed_tivimate.m3u8")
 # ================= HELPERS =================
 
 def fix_league(s: str) -> str:
-    return " ".join(x.capitalize() for x in s.split()) if len(s) > 5 else s.upper()
+    """Fix league name formatting."""
+    splits = s.split()
+    if not splits:
+        return s
+    
+    i = splits[0]
+    return f"{i.upper() if len(i) < 4 else i.capitalize()} {' '.join(x.capitalize() for x in splits[1:])}".strip()
 
+
+def clean_display_name(name: str) -> str:
+    """
+    Clean display name by removing commas and extra spaces.
+    
+    Args:
+        name: Display name
+        
+    Returns:
+        Cleaned display name
+    """
+    if not name:
+        return ""
+    # Remove commas but keep the text around them
+    import re
+    cleaned = re.sub(r',\s*', ' ', name)
+    # Remove extra spaces
+    cleaned = re.sub(r'\s+', ' ', cleaned).strip()
+    return cleaned
+
+
+def encode_user_agent(user_agent: str) -> str:
+    """
+    Encode the user agent for URL parameters.
+    
+    Args:
+        user_agent: User agent string
+        
+    Returns:
+        URL-encoded user agent
+    """
+    # URL encode the user agent
+    encoded = user_agent.replace(' ', '%20')
+    encoded = encoded.replace('(', '%28')
+    encoded = encoded.replace(')', '%29')
+    encoded = encoded.replace(';', '%3B')
+    encoded = encoded.replace(',', '%2C')
+    return encoded
 
 # ================= EVENT PROCESSOR =================
 
@@ -107,9 +152,9 @@ async def process_event(
 
 # ================= EVENTS =================
 
-async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
+async def get_events(cached_keys: KeysView[str]) -> list[Event]:
     """Fetch and filter events from API."""
-    now = Time.clean(Time.now())
+    now = Time.rn()  # Use Time.rn() like original code
     
     if not (api_data := API_FILE.load(per_entry=False)):
         log.info("Refreshing API cache")
@@ -122,10 +167,11 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
         
         API_FILE.write(api_data)
     
-    events = []
+    events: list[Event] = []
     
-    start_dt = now.delta(hours=-3)
-    end_dt = now.delta(minutes=30)
+    # Expanded time window to get more events
+    start_dt = now.delta(hours=-6)  # Expanded from -3 to -6
+    end_dt = now.delta(minutes=60)   # Expanded from 30 to 60
     
     for info in api_data.get("days", []):
         for event in info["items"]:
@@ -140,22 +186,23 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
             sport = fix_league(event_league)
             event_name = event["title"]
             
-            key = f"[{sport}] {event_name} ({TAG})"
-            if key in cached_keys:
+            if f"[{sport}] {event_name} ({TAG})" in cached_keys:
                 continue
             
             if not (event_streams := event.get("streams")):
                 continue
             
-            if not (event_link := event_streams[0].get("link")):
+            elif not (event_link := event_streams[0].get("link")):
                 continue
             
-            events.append({
-                "sport": sport,
-                "event": event_name,
-                "link": event_link,
-                "timestamp": now.timestamp(),
-            })
+            events.append(
+                Event(
+                    sport=sport,
+                    name=event_name,
+                    link=event_link,
+                    timestamp=now.timestamp(),
+                )
+            )
     
     return events
 
@@ -166,7 +213,7 @@ async def scrape(browser: Browser) -> None:
     """Scrape events and capture stream URLs."""
     cached_urls = CACHE_FILE.load()
     
-    valid_urls = {k: v for k, v in cached_urls.items() if v.get("url")}
+    valid_urls = {k: v for k, v in cached_urls.items() if v.get("source")}
     valid_count = cached_count = len(valid_urls)
     
     urls.update(valid_urls)
@@ -182,36 +229,36 @@ async def scrape(browser: Browser) -> None:
                 async with network.event_page(context) as page:
                     handler = partial(
                         process_event,
-                        url=(link := ev["link"]),
+                        url=ev.link,
                         url_num=i,
                         page=page,
                     )
                     
-                    stream_url = await network.safe_process(
+                    source = await network.safe_process(
                         handler,
                         url_num=i,
                         semaphore=network.PW_S,
                         log=log,
                     )
                     
-                    sport, event, ts = ev["sport"], ev["event"], ev["timestamp"]
+                    tvg_id, logo = leagues.get_tvg_info(ev.sport, ev.name)
                     
-                    tvg_id, logo = leagues.get_tvg_info(sport, event)
-                    
-                    key = f"[{sport}] {event} ({TAG})"
+                    key = f"[{ev.sport}] {ev.name} ({TAG})"
                     
                     entry = {
-                        "url": stream_url,
+                        "source": source,
                         "logo": logo,
-                        "base": REFERER,
-                        "timestamp": ts,
-                        "id": tvg_id or "Live.Event.us",
-                        "link": link,
+                        "refer": REFERER,
+                        "timestamp": ev.timestamp,
+                        "tvg-id": tvg_id or "Live.Event.us",
+                        "link": ev.link,
+                        "sport": ev.sport,
+                        "name": ev.name,
                     }
                     
                     cached_urls[key] = entry
                     
-                    if stream_url:
+                    if source:
                         valid_count += 1
                         urls[key] = entry
         
@@ -224,56 +271,107 @@ async def scrape(browser: Browser) -> None:
 
 # ================= M3U GENERATOR =================
 
-def write_outputs():
+async def generate_m3u8_files() -> None:
     """Generate M3U8 playlists for VLC and TiviMate."""
-    if not urls:
-        log.warning("No URLs to write")
+    # Filter out channels without source
+    valid_channels = {k: v for k, v in urls.items() if v.get("source")}
+    
+    if not valid_channels:
+        log.warning("No valid channels found to generate M3U8 files")
+        # Create empty files with headers
+        with open(OUT_VLC, 'w', encoding='utf-8') as f:
+            f.write("#EXTM3U\n")
+        with open(OUT_TIVI, 'w', encoding='utf-8') as f:
+            f.write("#EXTM3U\n")
+        OUT_VLC.chmod(0o644)
+        OUT_TIVI.chmod(0o644)
         return
     
     # VLC format
     with open(OUT_VLC, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        for i, (name, e) in enumerate(urls.items(), 1):
+        chno = 1
+        for key, channel in valid_channels.items():
+            # Extract channel info
+            sport = channel.get("sport", "Live Event")
+            name = channel.get("name", key)
+            
+            # Clean display name
+            display_name = clean_display_name(key.replace(f" ({TAG})", ""))
+            
+            # VLC format
+            tvg_name = f"[{sport}] {name} ({TAG})"
+            
             f.write(
-                f'#EXTINF:-1 tvg-chno="{i}" tvg-id="{e["id"]}" '
-                f'tvg-name="{name}" tvg-logo="{e["logo"]}" '
-                f'group-title="Live Events",{name}\n'
+                f'#EXTINF:-1 tvg-chno="{chno}" '
+                f'tvg-id="{channel.get("tvg-id", "Live.Event.us")}" '
+                f'tvg-name="{tvg_name}" '
+                f'tvg-logo="{channel.get("logo", "")}" '
+                f'group-title="{sport}",{display_name}\n'
             )
             f.write(f"#EXTVLCOPT:http-referrer={REFERER}\n")
             f.write(f"#EXTVLCOPT:http-origin={ORIGIN}\n")
             f.write(f"#EXTVLCOPT:http-user-agent={USER_AGENT}\n")
-            f.write(f"{e['url']}\n\n")
+            f.write(f"{channel['source']}\n\n")
+            chno += 1
     
     # TiviMate format
     with open(OUT_TIVI, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        for i, (name, e) in enumerate(urls.items(), 1):
+        chno = 1
+        for key, channel in valid_channels.items():
+            # Extract channel info
+            sport = channel.get("sport", "Live Event")
+            name = channel.get("name", key)
+            
+            # Clean display name for Tivimate
+            display_name = clean_display_name(key.replace(f" ({TAG})", f" ({TAG}TV)"))
+            
+            # Tivimate format
+            tvg_name = f"[{sport}] {name} ({TAG}TV)"
+            
+            # Encode the user agent for Tivimate
+            encoded_user_agent = encode_user_agent(USER_AGENT)
+            
             f.write(
-                f'#EXTINF:-1 tvg-chno="{i}" tvg-id="{e["id"]}" '
-                f'tvg-name="{name}" tvg-logo="{e["logo"]}" '
-                f'group-title="Live Events",{name}\n'
+                f'#EXTINF:-1 tvg-chno="{chno}" '
+                f'tvg-id="{channel.get("tvg-id", "Live.Event.us")}" '
+                f'tvg-name="{tvg_name}" '
+                f'tvg-logo="{channel.get("logo", "")}" '
+                f'group-title="{sport}",{display_name}\n'
             )
             f.write(
-                f"{e['url']}|referer={REFERER}|origin={ORIGIN}|user-agent={UA_ENC}\n\n"
+                f"{channel['source']}|referer={REFERER}|origin={ORIGIN}|user-agent={encoded_user_agent}\n\n"
             )
+            chno += 1
     
-    log.info(f"M3U playlists generated: {OUT_VLC}, {OUT_TIVI}")
+    # Set write permissions (read/write for owner, read for others)
+    OUT_VLC.chmod(0o644)
+    OUT_TIVI.chmod(0o644)
+    
+    log.info(f"M3U playlists generated: {OUT_VLC}, {OUT_TIVI} with {chno-1} channel(s)")
 
 
 # ================= MAIN =================
 
 async def main():
     """Main entry point."""
-    log.info("Starting EMBED updater...")
+    log.info("Starting EMBED scraper...")
     
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
+        browser = await p.chromium.launch(
+            headless=True,
+            args=['--no-sandbox', '--disable-setuid-sandbox']
+        )
         
         await scrape(browser)
         
         await browser.close()
     
-    write_outputs()
+    # Generate M3U8 files after scraping
+    await generate_m3u8_files()
+    
+    log.info("EMBED scraper completed")
 
 
 if __name__ == "__main__":
