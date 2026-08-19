@@ -356,7 +356,7 @@ async def generate_m3u8_files() -> None:
 
 async def main():
     """Main entry point."""
-    log.info("Starting EMBED scraper...")
+    log.info("Starting EMBED updater...")
     
     async with async_playwright() as p:
         browser = await p.chromium.launch(
@@ -371,7 +371,7 @@ async def main():
     # Generate M3U8 files after scraping
     await generate_m3u8_files()
     
-    log.info("EMBED scraper completed")
+    log.info("EMBED updater completed")
 
 
 if __name__ == "__main__":
