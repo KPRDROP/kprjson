@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-08-21 22:15 UTC
+# Last Updated: 2026-08-21 23:17 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Jets vs Steelers Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Jets vs Steelers Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -37,105 +37,111 @@ https://iptvstream.dlhd.net/src=DEN/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/src=GB/index.m3u8
 
-#EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] Arsenal vs Coventry City Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Arsenal vs Coventry City Stream 1 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/astro/index.m3u8
-
-#EXTINF:-1 tvg-chno="8" tvg-id="stream_2" tvg-name="[Live Event] Arsenal vs Coventry City Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Arsenal vs Coventry City Stream 2 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/beinar/index.m3u8
-
-#EXTINF:-1 tvg-chno="9" tvg-id="stream_3" tvg-name="[Live Event] Arsenal vs Coventry City Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Arsenal vs Coventry City Stream 3 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/daznepl/index.m3u8
-
-#EXTINF:-1 tvg-chno="10" tvg-id="stream_4" tvg-name="[Live Event] Arsenal vs Coventry City Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Arsenal vs Coventry City Stream 4 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/epltv/index.m3u8
-
-#EXTINF:-1 tvg-chno="11" tvg-id="stream_5" tvg-name="[Live Event] Arsenal vs Coventry City Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Arsenal vs Coventry City Stream 5 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/fubosnca/index.m3u8
-
-#EXTINF:-1 tvg-chno="12" tvg-id="stream_6" tvg-name="[Live Event] Arsenal vs Coventry City Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Arsenal vs Coventry City Stream 6 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/hubp1/index.m3u8
-
-#EXTINF:-1 tvg-chno="13" tvg-id="stream_7" tvg-name="[Live Event] Arsenal vs Coventry City Stream 7 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Arsenal vs Coventry City Stream 7 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/skyepl/index.m3u8
-
-#EXTINF:-1 tvg-chno="14" tvg-id="stream_8" tvg-name="[Live Event] Arsenal vs Coventry City Stream 8 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Arsenal vs Coventry City Stream 8 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/skymain/index.m3u8
-
-#EXTINF:-1 tvg-chno="15" tvg-id="stream_9" tvg-name="[Live Event] Arsenal vs Coventry City Stream 9 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Arsenal vs Coventry City Stream 9 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/skynz/index.m3u8
-
-#EXTINF:-1 tvg-chno="16" tvg-id="stream_1" tvg-name="[Live Event] Real Betis vs Real Sociedad Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Real Betis vs Real Sociedad Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] Athletic Club vs Sevilla Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Athletic Club vs Sevilla Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/laliga-es/index.m3u8
 
-#EXTINF:-1 tvg-chno="17" tvg-id="stream_2" tvg-name="[Live Event] Real Betis vs Real Sociedad Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Real Betis vs Real Sociedad Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="8" tvg-id="stream_2" tvg-name="[Live Event] Athletic Club vs Sevilla Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Athletic Club vs Sevilla Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/ps1/index.m3u8
 
-#EXTINF:-1 tvg-chno="18" tvg-id="stream_1" tvg-name="[Live Event] Olympique Marseille vs Strasbourg Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Olympique Marseille vs Strasbourg Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="9" tvg-id="stream_1" tvg-name="[Live Event] Valencia vs Celta de Vigo Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Valencia vs Celta de Vigo Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://247v2.dlhd.net/?stream_id=beinsports&pro_id=sling&index.m3u8
+https://iptvstream.dlhd.net/laliga-es/index.m3u8
 
-#EXTINF:-1 tvg-chno="19" tvg-id="stream_2" tvg-name="[Live Event] Olympique Marseille vs Strasbourg Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Olympique Marseille vs Strasbourg Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="10" tvg-id="stream_2" tvg-name="[Live Event] Valencia vs Celta de Vigo Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Valencia vs Celta de Vigo Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-209682764&e=s&n=1392806913845943&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=x6elox1y65v3&et=classic&i=1&lid=1upmc571xt0r&lsa=set&mt=1&pbd=1&pbr=1&pgi=1nngurp1wphy&ph=0&pii=0&pl=199&plc=1&pli=p51hum1a1jfu&pp=hlsjs&ppm=LIVE&prc=1&ps=2&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-ligue-1.html&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=500&cae=0&cct=0&ch=2&cdid=video-player&drm=0&ff=3920&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.dlhd.net%2F%3Fstream_id%3Dbeinsports%26pro_id%3Dsling%26index.m3u8&pcp=1&pd=2&pdr=&pdt=2026-08-21T22%3A14%3A23.802Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2084&sp=0&strt=3930&tb=2.1&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1787350494706
+https://iptvstream.dlhd.net/ps1/index.m3u8
 
-#EXTINF:-1 tvg-chno="20" tvg-id="stream_3" tvg-name="[Live Event] Olympique Marseille vs Strasbourg Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Olympique Marseille vs Strasbourg Stream 3 (SHOPP)
+#EXTINF:-1 tvg-chno="11" tvg-id="stream_1" tvg-name="[Live Event] Brentford vs Tottenham Hotspur Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Brentford vs Tottenham Hotspur Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1981910251&e=pa&n=4126156590107233&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=x6elox1y65v3&et=classic&i=1&lid=1upmc571xt0r&lsa=set&mt=1&pbd=1&pbr=1&pgi=1nngurp1wphy&ph=0&pii=0&pl=199&plc=1&pli=p51hum1a1jfu&pp=hlsjs&prc=1&ps=2&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-ligue-1.html&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.dlhd.net%2F%3Fstream_id%3Dbeinsports%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1787350490774
+https://iptvstream.dlhd.net/astro/index.m3u8
 
-#EXTINF:-1 tvg-chno="21" tvg-id="stream_1" tvg-name="[Live Event] LFA 239: Mecate vs Exposito Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] LFA 239: Mecate vs Exposito Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="12" tvg-id="stream_2" tvg-name="[Live Event] Brentford vs Tottenham Hotspur Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Brentford vs Tottenham Hotspur Stream 2 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/beinar/index.m3u8
+
+#EXTINF:-1 tvg-chno="13" tvg-id="stream_3" tvg-name="[Live Event] Brentford vs Tottenham Hotspur Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Brentford vs Tottenham Hotspur Stream 3 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/daznepl/index.m3u8
+
+#EXTINF:-1 tvg-chno="14" tvg-id="stream_4" tvg-name="[Live Event] Brentford vs Tottenham Hotspur Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Brentford vs Tottenham Hotspur Stream 4 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/epltv/index.m3u8
+
+#EXTINF:-1 tvg-chno="15" tvg-id="stream_5" tvg-name="[Live Event] Brentford vs Tottenham Hotspur Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Brentford vs Tottenham Hotspur Stream 5 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/fubosnca/index.m3u8
+
+#EXTINF:-1 tvg-chno="16" tvg-id="stream_6" tvg-name="[Live Event] Brentford vs Tottenham Hotspur Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Brentford vs Tottenham Hotspur Stream 6 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/hubp1/index.m3u8
+
+#EXTINF:-1 tvg-chno="17" tvg-id="stream_7" tvg-name="[Live Event] Brentford vs Tottenham Hotspur Stream 7 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Brentford vs Tottenham Hotspur Stream 7 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/skyepl/index.m3u8
+
+#EXTINF:-1 tvg-chno="18" tvg-id="stream_8" tvg-name="[Live Event] Brentford vs Tottenham Hotspur Stream 8 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Brentford vs Tottenham Hotspur Stream 8 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/skymain/index.m3u8
+
+#EXTINF:-1 tvg-chno="19" tvg-id="stream_9" tvg-name="[Live Event] Brentford vs Tottenham Hotspur Stream 9 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Brentford vs Tottenham Hotspur Stream 9 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/skynz/index.m3u8
+
+#EXTINF:-1 tvg-chno="20" tvg-id="stream_1" tvg-name="[Live Event] Espanyol vs Real Madrid Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Espanyol vs Real Madrid Stream 1 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/laliga-es/index.m3u8
+
+#EXTINF:-1 tvg-chno="21" tvg-id="stream_2" tvg-name="[Live Event] Espanyol vs Real Madrid Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Espanyol vs Real Madrid Stream 2 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/ps1/index.m3u8
+
+#EXTINF:-1 tvg-chno="22" tvg-id="stream_1" tvg-name="[Live Event] LFA 239: Mecate vs Exposito Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] LFA 239: Mecate vs Exposito Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://247v2.dlhd.net/?stream_id=vice&pro_id=sling&index.m3u8
 
-#EXTINF:-1 tvg-chno="22" tvg-id="stream_2" tvg-name="[Live Event] LFA 239: Mecate vs Exposito Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] LFA 239: Mecate vs Exposito Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="23" tvg-id="stream_2" tvg-name="[Live Event] LFA 239: Mecate vs Exposito Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] LFA 239: Mecate vs Exposito Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-23106675&e=pa&n=6522318161427341&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1pjbogl4bouw&et=classic&i=1&lid=1razpiu1r0bi&lsa=set&mt=1&pbd=1&pbr=1&pgi=1gbe20meppgl&ph=0&pii=0&pl=489&plc=1&pli=9ziddlyra56d&pp=hlsjs&prc=1&ps=2&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-4.html&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.dlhd.net%2F%3Fstream_id%3Dvice%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1787350508710
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-471739404&e=s&n=4496186675153669&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1o38jzn18kho&et=classic&i=1&lid=g7ebkx1xdex6&lsa=set&mt=1&pbd=1&pbr=1&pgi=1fzddgwqrkb2&ph=0&pii=0&pl=489&plc=1&pli=1egyalicdlof&pp=hlsjs&ppm=LIVE&prc=1&ps=2&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-4.html&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=3686&cae=0&cct=0&ch=2&cdid=video-player&drm=0&ff=4380&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.dlhd.net%2F%3Fstream_id%3Dvice%26pro_id%3Dsling%26index.m3u8&pcp=1&pd=2&pdr=&pdt=2026-08-21T23%3A17%3A05.246Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2084&sp=0&strt=4390&tb=2.1&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1787354255769
 
-#EXTINF:-1 tvg-chno="23" tvg-id="stream_3" tvg-name="[Live Event] LFA 239: Mecate vs Exposito Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] LFA 239: Mecate vs Exposito Stream 3 (SHOPP)
+#EXTINF:-1 tvg-chno="24" tvg-id="stream_3" tvg-name="[Live Event] LFA 239: Mecate vs Exposito Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] LFA 239: Mecate vs Exposito Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-885119155&e=s&n=4837044960177683&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1pjbogl4bouw&et=classic&i=1&lid=1razpiu1r0bi&lsa=set&mt=1&pbd=1&pbr=1&pgi=1gbe20meppgl&ph=0&pii=0&pl=489&plc=1&pli=9ziddlyra56d&pp=hlsjs&ppm=LIVE&prc=1&ps=2&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-4.html&pv=8.49.5&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&abm=1&bwe=3686&cae=0&cct=0&ch=2&cdid=video-player&drm=0&ff=4790&fsm=0&l=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.dlhd.net%2F%3Fstream_id%3Dvice%26pro_id%3Dsling%26index.m3u8&pcp=0&pd=2&pdr=&pdt=2026-08-21T22%3A14%3A43.550Z&plng=en&pni=0&pr=7&q=0&qcr=initial%20choice&sbr=2084&sp=0&strt=4800&tb=2.1&tt=0&vd=0&vh=432&vs=5&vw=768&sa=1787350513510
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1268249861&e=pa&n=9534575549989981&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1o38jzn18kho&et=classic&i=1&lid=g7ebkx1xdex6&lsa=set&mt=1&pbd=1&pbr=1&pgi=1fzddgwqrkb2&ph=0&pii=0&pl=489&plc=1&pli=1egyalicdlof&pp=hlsjs&prc=1&ps=2&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi-stream-4.html&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2F247v2.dlhd.net%2F%3Fstream_id%3Dvice%26pro_id%3Dsling%26index.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1787354251380
 
