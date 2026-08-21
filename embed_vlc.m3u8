@@ -3,23 +3,29 @@
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/mbaltimoreorioles.m3u8?md5=1f95AfCw6rlzqmnYBLOQMw&expires=1787276034
+https://cdn11.zohanayaan.com:1686/hls/mbaltimoreorioles.m3u8?md5=4blBj3Ts6c-5d-rig-atRw&expires=1787282557
 
 #EXTINF:-1 tvg-chno="2" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Houston Texans - Las Vegas Raiders (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Houston Texans - Las Vegas Raiders
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/mhoustontexans.m3u8?md5=mJoEObUstVQZfUlM-MA3vQ&expires=1787276035
+https://cdn12.zohanayaan.com:1686/hls/mhoustontexans.m3u8?md5=WTE33FkE-O17Bk-lFrnrzA&expires=1787282558
 
 #EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Texas Rangers - Washington Nationals (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Texas Rangers - Washington Nationals
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/mtexasrangers.m3u8?md5=FxL3Xs4iaYiQn1ffe9Akvw&expires=1787276036
+https://cdn11.zohanayaan.com:1686/hls/mtexasrangers.m3u8?md5=nPAMgHdOVFosz6O9uxhWCg&expires=1787282559
 
 #EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Houston Astros - Los Angeles Angels (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Houston Astros - Los Angeles Angels
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/mhoustonastros.m3u8?md5=KyNqms2iAVZde6TrJKiYHQ&expires=1787276037
+https://cdn11.zohanayaan.com:1686/hls/mhoustonastros.m3u8?md5=ZKmfgZHkJp_A6vdKTj6Q6Q&expires=1787282560
+
+#EXTINF:-1 tvg-chno="5" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Los Angeles Chargers - San Francisco 49ers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Los Angeles Chargers - San Francisco 49ers
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://cdn15.zohanayaan.com:1686/hls/mlosangeleschargers.m3u8?md5=kV4nKOTnBGEJUA62TvAYug&expires=1787282560
 
