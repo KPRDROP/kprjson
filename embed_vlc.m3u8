@@ -3,23 +3,23 @@
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=3Bng-IeX6QhmsQKXgoRYWw&expires=1787406397
+https://cdn15.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=w2NaksJdtFigQ5YnZGhBqw&expires=1787409683
 
 #EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Hull City - Manchester United (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Premier League",[Premier League] Hull City - Manchester United
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/nwolverhamptonwanderers.m3u8?md5=Tnc-e5T2G99rYENB7b-aBw&expires=1787406398
+https://cdn12.zohanayaan.com:1686/hls/nwolverhamptonwanderers.m3u8?md5=qCIJntZqbQsFuAyTVf4hKA&expires=1787409685
 
 #EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Birmingham City - Bristol City (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="EFL Championship",[EFL Championship] Birmingham City - Bristol City
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/nbirminghamcity.m3u8?md5=s62oYQ7d2LaSncpVRg2Fzw&expires=1787406399
+https://cdn14.zohanayaan.com:1686/hls/nbirminghamcity.m3u8?md5=PUZYAGO7W5O23Vao8nT0Zw&expires=1787409686
 
 #EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Lincoln City - Portsmouth (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="EFL Championship",[EFL Championship] Lincoln City - Portsmouth
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/nlincolncity.m3u8?md5=0KbrlcseFma6ryP3hvNOnA&expires=1787406400
+https://cdn13.zohanayaan.com:1686/hls/nlincolncity.m3u8?md5=Zr6ZvMvjI0qdQyASL27s3w&expires=1787409688
 
