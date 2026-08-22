@@ -1,43 +1,43 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Milwaukee Brewers - Atlanta Braves (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Milwaukee Brewers - Atlanta Braves
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[LA Liga] Espanyol - Real Madrid (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="LA Liga",[LA Liga] Espanyol - Real Madrid
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/mmilwaukeebrewers.m3u8?md5=qEgTSOjBAfAwiFalLutTMA&expires=1787439020
+https://cdn15.zohanayaan.com:1686/hls/nespanyol.m3u8?md5=8iZ0QxFgTQM4f7qZugm5Yg&expires=1787440997
 
-#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[LA Liga] Espanyol - Real Madrid (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="LA Liga",[LA Liga] Espanyol - Real Madrid
+#EXTINF:-1 tvg-chno="2" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Los Angeles Rams - New Orleans Saints (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Los Angeles Rams - New Orleans Saints
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/nespanyol.m3u8?md5=losBMZXpDYjE2S6w_t5OJQ&expires=1787439021
+https://cdn12.zohanayaan.com:1686/hls/mlosangelesrams.m3u8?md5=ICOLNc2s_Vy6ERDjLaRBSA&expires=1787440998
 
-#EXTINF:-1 tvg-chno="3" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Los Angeles Rams - New Orleans Saints (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Los Angeles Rams - New Orleans Saints
+#EXTINF:-1 tvg-chno="3" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Miami Dolphins - New York Giants (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Miami Dolphins - New York Giants
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/mlosangelesrams.m3u8?md5=gIdxpJexfq1w2w2kEUIz_g&expires=1787439022
+https://cdn13.zohanayaan.com:1686/hls/mmiamidolphins.m3u8?md5=aPi9rwUqb4FqduTEhasJVw&expires=1787440999
 
-#EXTINF:-1 tvg-chno="4" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Miami Dolphins - New York Giants (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Miami Dolphins - New York Giants
+#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Miami Marlins - Washington Nationals (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Miami Marlins - Washington Nationals
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/mmiamidolphins.m3u8?md5=1AptkyLpe5j_-f5oFC8tWw&expires=1787439024
+https://cdn12.zohanayaan.com:1686/hls/mmiamimarlins.m3u8?md5=daqDxMNqO5i8sr2vyZGOHg&expires=1787441000
 
-#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Miami Marlins - Washington Nationals (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Miami Marlins - Washington Nationals
+#EXTINF:-1 tvg-chno="5" tvg-id="UFC.247.Dummy.us" tvg-name="[UFC] UFC Fight Night: Hernandez vs. Rodrigues (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2017/06/Logo-UFC-500x313.png" group-title="UFC",[UFC] UFC Fight Night: Hernandez vs. Rodrigues
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/mmiamimarlins.m3u8?md5=xQ1RiWc1wxhepfpz_OtiEw&expires=1787439024
+https://cdn14.zohanayaan.com:1686/hls/mevent1.m3u8?md5=1WefQmacqux-CbDyC6L-vw&expires=1787441001
 
-#EXTINF:-1 tvg-chno="6" tvg-id="UFC.247.Dummy.us" tvg-name="[UFC] UFC Fight Night: Hernandez vs. Rodrigues (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2017/06/Logo-UFC-500x313.png" group-title="UFC",[UFC] UFC Fight Night: Hernandez vs. Rodrigues
+#EXTINF:-1 tvg-chno="6" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Mma/pfl/bkfc] PFL : Cris Cyborg - Ketlen Vieira (EMBED)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Mma/pfl/bkfc",[Mma/pfl/bkfc] PFL : Cris Cyborg - Ketlen Vieira
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/mevent1.m3u8?md5=HNHyzR89Zao332r-Znk2lA&expires=1787439026
+https://cdn11.zohanayaan.com:1686/hls/mevent5.m3u8?md5=r_jM3EL9GrTjABxoxy4MfQ&expires=1787441002
 
-#EXTINF:-1 tvg-chno="7" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Mma/pfl/bkfc] PFL : Cris Cyborg - Ketlen Vieira (EMBED)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Mma/pfl/bkfc",[Mma/pfl/bkfc] PFL : Cris Cyborg - Ketlen Vieira
+#EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Philadelphia Phillies - St. Louis Cardinals (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Philadelphia Phillies - St. Louis Cardinals
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/mevent5.m3u8?md5=jw2hiJU-RdAhYq8vejHpVQ&expires=1787439027
+https://cdn15.zohanayaan.com:1686/hls/mphiladelphiaphillies.m3u8?md5=3oH0DkFlLtopArgyQXIRFg&expires=1787441002
 
