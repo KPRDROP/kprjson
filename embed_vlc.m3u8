@@ -3,65 +3,83 @@
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=ez4MP1c0i_R-JwBEN7PPpQ&expires=1787420852
+https://cdn13.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=VWr4h4LlWrtvmeOCgE9ydg&expires=1787423170
 
 #EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Everton - Crystal Palace (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Premier League",[Premier League] Everton - Crystal Palace
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/neverton.m3u8?md5=ZZ6c0WwQzXJMI1SGehtdXQ&expires=1787420853
+https://cdn13.zohanayaan.com:1686/hls/neverton.m3u8?md5=6zYp_7GKJBRO-reCd3HAoA&expires=1787423171
 
 #EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Ipswich Town - Sunderland (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Premier League",[Premier League] Ipswich Town - Sunderland
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/nwesthamunited.m3u8?md5=xMr3ZKJZjNqZV7rBcRFt7w&expires=1787420854
+https://cdn14.zohanayaan.com:1686/hls/nwesthamunited.m3u8?md5=8AOaH0xkb1Ln32uveqt0oQ&expires=1787423171
 
 #EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Nottingham Forest - Leeds United (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Premier League",[Premier League] Nottingham Forest - Leeds United
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/nnottinghamforest.m3u8?md5=xuJPpEWfW_pr8LpbN-Amiw&expires=1787420855
+https://cdn12.zohanayaan.com:1686/hls/nnottinghamforest.m3u8?md5=2_dv5pkbkE3EVpYbz5Qsjg&expires=1787423172
 
 #EXTINF:-1 tvg-chno="5" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] West Ham United - Charlton Athletic (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="EFL Championship",[EFL Championship] West Ham United - Charlton Athletic
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/nwesthamunited.m3u8?md5=SZGJDVEfH-pxTqOURmK84g&expires=1787420856
+https://cdn12.zohanayaan.com:1686/hls/nwesthamunited.m3u8?md5=2vGb0_74cjOorRaebUsOOQ&expires=1787423173
 
 #EXTINF:-1 tvg-chno="6" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Preston North End - Wolverhampton Wanderers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="EFL Championship",[EFL Championship] Preston North End - Wolverhampton Wanderers
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/nprestonnorthend.m3u8?md5=EBGcxkM0_P0IJIZSLROEPA&expires=1787420857
+https://cdn14.zohanayaan.com:1686/hls/nprestonnorthend.m3u8?md5=SDF1ObxQ8tjO7pesWDU4qw&expires=1787423174
 
 #EXTINF:-1 tvg-chno="7" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Blackburn Rovers - Middlesbrough (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="EFL Championship",[EFL Championship] Blackburn Rovers - Middlesbrough
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/nblackburnrovers.m3u8?md5=4w0UHJ-lvx31FL6QFFax4w&expires=1787420857
+https://cdn11.zohanayaan.com:1686/hls/nblackburnrovers.m3u8?md5=oJQ3iBeLwt30gfFCcx203Q&expires=1787423174
 
 #EXTINF:-1 tvg-chno="8" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Wrexham - Watford (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="EFL Championship",[EFL Championship] Wrexham - Watford
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/nwrexham.m3u8?md5=KU7MhS7B4kPcTM-Tiupg1w&expires=1787420858
+https://cdn12.zohanayaan.com:1686/hls/nwrexham.m3u8?md5=anfSVNzJos7psyAeNysSow&expires=1787423175
 
 #EXTINF:-1 tvg-chno="9" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Detroit Lions - Washington Commanders (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Detroit Lions - Washington Commanders
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/mdetroitlions.m3u8?md5=59Ow5Ank5b2jHBz-T5rvVQ&expires=1787420859
+https://cdn15.zohanayaan.com:1686/hls/mdetroitlions.m3u8?md5=rbhfRmZk3mP9-Sngd8p5Bg&expires=1787423176
 
 #EXTINF:-1 tvg-chno="10" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Brentford - Tottenham Hotspur (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Premier League",[Premier League] Brentford - Tottenham Hotspur
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/nbrentford.m3u8?md5=mV7K7SC1eqKbLHUga60WLg&expires=1787420860
+https://cdn13.zohanayaan.com:1686/hls/nbrentford.m3u8?md5=v2XHjQWh6eG891MONlBHaQ&expires=1787423177
 
 #EXTINF:-1 tvg-chno="11" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Boxing] George Liddard - Dario Morello (EMBED)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Boxing",[Boxing] George Liddard - Dario Morello
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/mevent4.m3u8?md5=sEjyFJHu4LWZZgrzwX_waQ&expires=1787420861
+https://cdn12.zohanayaan.com:1686/hls/mevent4.m3u8?md5=WyB2LdpSiHEnFR3L6H6hyg&expires=1787423177
+
+#EXTINF:-1 tvg-chno="12" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Cleveland Browns - Buffalo Bills (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Cleveland Browns - Buffalo Bills
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://cdn12.zohanayaan.com:1686/hls/mbuffalobills.m3u8?md5=xlAiufCVMUf5APEfdvh62g&expires=1787423178
+
+#EXTINF:-1 tvg-chno="13" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Indianapolis Colts - Atlanta Falcons (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Indianapolis Colts - Atlanta Falcons
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://cdn11.zohanayaan.com:1686/hls/matlantafalcons.m3u8?md5=ISag3tH1X639_kEPC1M-0A&expires=1787423179
+
+#EXTINF:-1 tvg-chno="14" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Minnesota Vikings - Baltimore Ravens (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Minnesota Vikings - Baltimore Ravens
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://cdn13.zohanayaan.com:1686/hls/mbaltimoreravens.m3u8?md5=g8WYetl2Ui1P-QXiskvWuQ&expires=1787423179
 
