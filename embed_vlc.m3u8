@@ -3,47 +3,53 @@
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/mdetroitlions.m3u8?md5=fdTKydGQA4kuz0d9hgOHjw&expires=1787428032
+https://cdn13.zohanayaan.com:1686/hls/mdetroitlions.m3u8?md5=2ieWlpLnEVIR3AzoawoFGg&expires=1787430756
 
 #EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Brentford - Tottenham Hotspur (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Premier League",[Premier League] Brentford - Tottenham Hotspur
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/nbrentford.m3u8?md5=tAY3J9BrCbcFVlGTac9w3A&expires=1787428033
+https://cdn14.zohanayaan.com:1686/hls/nbrentford.m3u8?md5=clxKa6XgMLVkufAIjPEMkQ&expires=1787430757
 
 #EXTINF:-1 tvg-chno="3" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Boxing] George Liddard - Dario Morello (EMBED)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Boxing",[Boxing] George Liddard - Dario Morello
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/mevent4.m3u8?md5=vdg_NAOh-2kM32d4FQqyvw&expires=1787428034
+https://cdn15.zohanayaan.com:1686/hls/mevent4.m3u8?md5=JBltrq-CPkthCgTr4jSWCA&expires=1787430758
 
 #EXTINF:-1 tvg-chno="4" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Cleveland Browns - Buffalo Bills (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Cleveland Browns - Buffalo Bills
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/mbuffalobills.m3u8?md5=VnHyTK6Ama9to3_Ru7Zj_g&expires=1787428036
+https://cdn14.zohanayaan.com:1686/hls/mbuffalobills.m3u8?md5=4gUKp2-dSUYSJTSB0zAy1Q&expires=1787430759
 
 #EXTINF:-1 tvg-chno="5" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Indianapolis Colts - Atlanta Falcons (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Indianapolis Colts - Atlanta Falcons
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/matlantafalcons.m3u8?md5=2HoK6LU7DspPf6t0hSE4Eg&expires=1787428036
+https://cdn11.zohanayaan.com:1686/hls/matlantafalcons.m3u8?md5=bbdTOeX9Y9XsNbnoWVPK0Q&expires=1787430760
 
 #EXTINF:-1 tvg-chno="6" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Minnesota Vikings - Baltimore Ravens (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Minnesota Vikings - Baltimore Ravens
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/mbaltimoreravens.m3u8?md5=T0ne30V6e_SrcPh_XLk4qQ&expires=1787428037
+https://cdn13.zohanayaan.com:1686/hls/mbaltimoreravens.m3u8?md5=0WdPUVlBQwygbmJjrECcmg&expires=1787430762
 
 #EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Yankees - Toronto Blue Jays (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] New York Yankees - Toronto Blue Jays
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/mnewyorkyankees.m3u8?md5=seaNcCoh4jjvma_if-ZTUw&expires=1787428038
+https://cdn12.zohanayaan.com:1686/hls/mnewyorkyankees.m3u8?md5=EqLKDMAYh-pqb8KHOA9Bew&expires=1787430763
 
 #EXTINF:-1 tvg-chno="8" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Milwaukee Brewers - Atlanta Braves (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Milwaukee Brewers - Atlanta Braves
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/mmilwaukeebrewers.m3u8?md5=GgboIkDfqiWimIg0nmqjDA&expires=1787428039
+https://cdn15.zohanayaan.com:1686/hls/mmilwaukeebrewers.m3u8?md5=JhawsWGLSsDQW1Y5kmrG8A&expires=1787430764
+
+#EXTINF:-1 tvg-chno="9" tvg-id="Soccer.Dummy.us" tvg-name="[LA Liga] Espanyol - Real Madrid (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="LA Liga",[LA Liga] Espanyol - Real Madrid
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://cdn12.zohanayaan.com:1686/hls/nespanyol.m3u8?md5=Prx-3h3nI5eDOQjCaHtkww&expires=1787430765
 
