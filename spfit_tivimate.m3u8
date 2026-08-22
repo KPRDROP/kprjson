@@ -1,16 +1,28 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-08-22 13:04 UTC
-# Total Streams: 4
+# Last Updated: 2026-08-22 14:41 UTC
+# Total Streams: 8
 
-#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Hull Today at 11:30 AM vs Man United (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Hull Today at 11:30 AM vs Man United (SPFIT)
-https://ivlievmaksym.s3.us-east-1.amazonaws.com/main.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Brentford Today at 4:30 PM vs Spurs (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Brentford Today at 4:30 PM vs Spurs (SPFIT)
+https://x1kxkdjh.s3.us-east-1.amazonaws.com/sportsnet.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="2" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[MMA] DANA WHITE'S CONTENDER SERIES: SEASON 10 WEEK 2 Meta APEX Las Vegas NV USA Aug 18 2022 Final (SPFIT)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[MMA] DANA WHITE'S CONTENDER SERIES: SEASON 10 WEEK 2 Meta APEX Las Vegas NV USA Aug 18 2022 Final (SPFIT)
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Everton Today at 2:00 PM vs C Palace (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Everton Today at 2:00 PM vs C Palace (SPFIT)
+https://tianjungwang.s3.us-east-1.amazonaws.com/yankees.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Ipswich Today at 2:00 PM vs Sunderland (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Ipswich Today at 2:00 PM vs Sunderland (SPFIT)
+https://tianjungwang.s3.us-east-1.amazonaws.com/bluejays.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Nottm Forest Today at 2:00 PM vs Leeds (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Nottm Forest Today at 2:00 PM vs Leeds (SPFIT)
+https://tianjungwang.s3.us-east-1.amazonaws.com/dodgers.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="5" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Espanyol Today at 7:30 PM vs Real Madrid (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Espanyol Today at 7:30 PM vs Real Madrid (SPFIT)
+https://popwellfox.s3.us-east-1.amazonaws.com/btsport.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="6" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[MMA] DANA WHITE'S CONTENDER SERIES: SEASON 10 WEEK 2 Meta APEX Las Vegas NV USA Aug 18 2022 Final (SPFIT)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[MMA] DANA WHITE'S CONTENDER SERIES: SEASON 10 WEEK 2 Meta APEX Las Vegas NV USA Aug 18 2022 Final (SPFIT)
 https://25princess.s3.us-east-1.amazonaws.com/btsport.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="3" tvg-id="Racing.Dummy.us" tvg-name="[F1] AWS HUNGARIAN GP Formula 1 Magyar Nagydíj 2026 JUL 24 - 26 2026 ROUND 12 (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] AWS HUNGARIAN GP Formula 1 Magyar Nagydíj 2026 JUL 24 - 26 2026 ROUND 12 (SPFIT)
-https://cirkel996.s3.us-east-1.amazonaws.com/btsport.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="7" tvg-id="Racing.Dummy.us" tvg-name="[F1] AWS HUNGARIAN GP Formula 1 Magyar Nagydíj 2026 JUL 24 - 26 2026 ROUND 12 (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] AWS HUNGARIAN GP Formula 1 Magyar Nagydíj 2026 JUL 24 - 26 2026 ROUND 12 (SPFIT)
+https://storage.googleapis.com/syankees/f1/manifest.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="4" tvg-id="Racing.Dummy.us" tvg-name="[F1] HEINEKEN DUTCH GP Formula 1 Dutch Grand Prix 2026 AUG 21 - 23 2026 ROUND 14 (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] HEINEKEN DUTCH GP Formula 1 Dutch Grand Prix 2026 AUG 21 - 23 2026 ROUND 14 (SPFIT)
-https://cirkel996.s3.us-east-1.amazonaws.com/btsport.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="8" tvg-id="Racing.Dummy.us" tvg-name="[F1] HEINEKEN DUTCH GP Formula 1 Dutch Grand Prix 2026 AUG 21 - 23 2026 ROUND 14 (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] HEINEKEN DUTCH GP Formula 1 Dutch Grand Prix 2026 AUG 21 - 23 2026 ROUND 14 (SPFIT)
+https://storage.googleapis.com/syankees/f1/manifest.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
