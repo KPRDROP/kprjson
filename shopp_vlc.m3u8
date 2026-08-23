@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-08-23 05:21 UTC
+# Last Updated: 2026-08-23 06:25 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Seahawks vs Titans Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Seahawks vs Titans Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -17,43 +17,43 @@ https://iptvstream.dlhd.net/src=WAS/index.m3u8
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/NBCSN/index.m3u8
+https://iptvstream.dlhd.net/astro2/index.m3u8
 
 #EXTINF:-1 tvg-chno="4" tvg-id="stream_2" tvg-name="[Live Event] Brighton &amp; Hove Albion vs Aston Villa Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Brighton &amp; Hove Albion vs Aston Villa Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/astro2/index.m3u8
+https://iptvstream.dlhd.net/beinar2/index.m3u8
 
 #EXTINF:-1 tvg-chno="5" tvg-id="stream_3" tvg-name="[Live Event] Brighton &amp; Hove Albion vs Aston Villa Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Brighton &amp; Hove Albion vs Aston Villa Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/beinar2/index.m3u8
+https://iptvstream.dlhd.net/daznepl2/index.m3u8
 
 #EXTINF:-1 tvg-chno="6" tvg-id="stream_4" tvg-name="[Live Event] Brighton &amp; Hove Albion vs Aston Villa Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Brighton &amp; Hove Albion vs Aston Villa Stream 4 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/daznepl2/index.m3u8
+https://iptvstream.dlhd.net/fubosnca2/index.m3u8
 
 #EXTINF:-1 tvg-chno="7" tvg-id="stream_5" tvg-name="[Live Event] Brighton &amp; Hove Albion vs Aston Villa Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Brighton &amp; Hove Albion vs Aston Villa Stream 5 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/fubosnca2/index.m3u8
+https://iptvstream.dlhd.net/skyepl/index.m3u8
 
 #EXTINF:-1 tvg-chno="8" tvg-id="stream_6" tvg-name="[Live Event] Brighton &amp; Hove Albion vs Aston Villa Stream 6 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Brighton &amp; Hove Albion vs Aston Villa Stream 6 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/skyepl/index.m3u8
+https://iptvstream.dlhd.net/skynz7/index.m3u8
 
 #EXTINF:-1 tvg-chno="9" tvg-id="stream_7" tvg-name="[Live Event] Brighton &amp; Hove Albion vs Aston Villa Stream 7 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Brighton &amp; Hove Albion vs Aston Villa Stream 7 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/skynz7/index.m3u8
+https://iptvstream.dlhd.net/src=NBCSN/index.m3u8
 
 #EXTINF:-1 tvg-chno="10" tvg-id="stream_1" tvg-name="[Live Event] Manchester City vs AFC Bournemouth Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Manchester City vs AFC Bournemouth Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
