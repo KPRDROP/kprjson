@@ -1,7 +1,19 @@
 #EXTM3U
 #EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Newcastle United - Liverpool (EMBEDTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Premier League",[Premier League] Newcastle United - Liverpool (EMBEDTV)
-https://cdn15.zohanayaan.com:1686/hls/nnewcastleunited.m3u8?md5=zMxr0bGGr5wSy0e1-boLvw&expires=1787509667|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/131.0.0.0%20Safari/537.36
+https://cdn14.zohanayaan.com:1686/hls/nnewcastleunited.m3u8?md5=3evDPy5r61v0L2JJVGE8kg&expires=1787511298|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/131.0.0.0%20Safari/537.36
 
 #EXTINF:-1 tvg-chno="2" tvg-id="Football.Dummy.us" tvg-name="[NFL] NFL vs RedZone (EMBEDTV)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="NFL",[NFL] NFL vs RedZone (EMBEDTV)
-https://cdn14.zohanayaan.com:1686/hls/nnflredzone.m3u8?md5=a4lwdybqz0UiNaQHw1aC2g&expires=1787509668|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/131.0.0.0%20Safari/537.36
+https://cdn14.zohanayaan.com:1686/hls/nnflredzone.m3u8?md5=bY8XbbQTCpEkhIkfuZFJZw&expires=1787511300|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/131.0.0.0%20Safari/537.36
+
+#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Philadelphia Phillies - St. Louis Cardinals (EMBEDTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Philadelphia Phillies - St. Louis Cardinals (EMBEDTV)
+https://cdn15.zohanayaan.com:1686/hls/mphiladelphiaphillies.m3u8?md5=Dz9SvSFMdXg_eYlgMKpqrw&expires=1787511301|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/131.0.0.0%20Safari/537.36
+
+#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Yankees - Toronto Blue Jays (EMBEDTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] New York Yankees - Toronto Blue Jays (EMBEDTV)
+https://cdn14.zohanayaan.com:1686/hls/mnewyorkyankees.m3u8?md5=b79S4eGGbhSAl4Ez1XtatQ&expires=1787511302|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/131.0.0.0%20Safari/537.36
+
+#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Baltimore Orioles - Tampa Bay Rays (EMBEDTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Baltimore Orioles - Tampa Bay Rays (EMBEDTV)
+https://cdn12.zohanayaan.com:1686/hls/mbaltimoreorioles.m3u8?md5=QL0IvVNrw232NowXfb0ihA&expires=1787511302|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/131.0.0.0%20Safari/537.36
+
+#EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Miami Marlins - Washington Nationals (EMBEDTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Miami Marlins - Washington Nationals (EMBEDTV)
+https://cdn13.zohanayaan.com:1686/hls/mmiamimarlins.m3u8?md5=wZsQHvq8zwv1LTcHG7DbqQ&expires=1787511303|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/131.0.0.0%20Safari/537.36
 
