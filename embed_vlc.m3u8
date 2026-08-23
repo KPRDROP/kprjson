@@ -3,29 +3,29 @@
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/mseattlemariners.m3u8?md5=eA0Tzp9CRKEP-vk4zUnKdA&expires=1787531033
+https://cdn12.zohanayaan.com:1686/hls/mseattlemariners.m3u8?md5=Y1-teHS3OHAJgRTRV__MGA&expires=1787532556
 
 #EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Diego Padres - Minnesota Twins (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] San Diego Padres - Minnesota Twins
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/msandiegopadres.m3u8?md5=H5T0ySr7s71ySipwUtOhkw&expires=1787531034
+https://cdn15.zohanayaan.com:1686/hls/msandiegopadres.m3u8?md5=oUbTcL6uRscKB3h3kREqFQ&expires=1787532557
 
 #EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Dodgers - Pittsburgh Pirates (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Los Angeles Dodgers - Pittsburgh Pirates
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/mlosangelesdodgers.m3u8?md5=7OGr-ozOEwTRfDsKtzuGdg&expires=1787531035
+https://cdn14.zohanayaan.com:1686/hls/mlosangelesdodgers.m3u8?md5=-kEAGC1TKTM9nV3acKNJxA&expires=1787532559
 
 #EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Arizona Diamondbacks - Cincinnati Reds (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Arizona Diamondbacks - Cincinnati Reds
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/marizonadiamondbacks.m3u8?md5=UYI1AcmsAm6NvYru0MShpw&expires=1787531036
+https://cdn14.zohanayaan.com:1686/hls/marizonadiamondbacks.m3u8?md5=AxvbILpHX98VHjMKMbUgrw&expires=1787532560
 
 #EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Milwaukee Brewers - Atlanta Braves (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Milwaukee Brewers - Atlanta Braves
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/mmilwaukeebrewers.m3u8?md5=KWTJvL57DImzSrPlYxToCg&expires=1787531037
+https://cdn11.zohanayaan.com:1686/hls/mmilwaukeebrewers.m3u8?md5=CKk9FAIN0TC6Y1-ZB7bgDA&expires=1787532561
 
