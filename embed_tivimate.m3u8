@@ -1,7 +1,1 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Arizona Cardinals - Dallas Cowboys (EMBEDTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Arizona Cardinals - Dallas Cowboys (EMBEDTV)
-https://cdn13.zohanayaan.com:1686/hls/marizonacardinals.m3u8?md5=HT8KPkoMc4WBqLbPfdL-Dw&expires=1787467135|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/131.0.0.0%20Safari/537.36
-
-#EXTINF:-1 tvg-chno="2" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Boxing] Rolly Romero - Teofimo Lopez (EMBEDTV)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Boxing",[Boxing] Rolly Romero - Teofimo Lopez (EMBEDTV)
-https://cdn14.zohanayaan.com:1686/hls/mevent3.m3u8?md5=RvOJPEa_PYu7Akhl_XjBvQ&expires=1787467136|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/131.0.0.0%20Safari/537.36
-
