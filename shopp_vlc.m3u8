@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-08-25 05:24 UTC
+# Last Updated: 2026-08-25 06:30 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Osasuna vs Levante Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Osasuna vs Levante Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -65,5 +65,17 @@ https://iptvstream.dlhd.net/skynz/index.m3u8
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1580841220&e=e&n=8678818303279037&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1lu3t646c6t3&et=classic&i=1&lid=sl26znv0h5ap&lsa=set&mt=1&pbd=1&pbr=1&pgi=152x3jfrgtn2&ph=0&pii=0&pl=580&plc=1&pli=1vkcqf9kcl2h&pp=hlsjs&prc=1&ps=3&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi3-stream-3.html&pv=8.49.5&pyc=0&s=0&sdk=0&ss=1&stc=1&stpe=0&tv=4.0.17&vb=0&vi=0&vl=90&wd=884&ab=0&cae=0&cb=1&cdid=video-player&cme=0&dd=1&flc=0&fv=&ga=0&lng=en&mk=hls&mu=https%3A%2F%2F247v2.dlhd.net%2F%3Fstream_id%3Devent2747%26pro_id%3Despn%26index.m3u8&pbc=0&pd=2&pdr=&plng=en&plt=300&pni=0&po=0&sp=0&st=140&sa=1787635451832
+https://iptvstream.dlhd.net/beinar3/index.m3u8
+
+#EXTINF:-1 tvg-chno="12" tvg-id="stream_2" tvg-name="[Live Event] Málaga vs Deportivo La Coruña Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Málaga vs Deportivo La Coruña Stream 2 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/laliga-es/index.m3u8
+
+#EXTINF:-1 tvg-chno="13" tvg-id="stream_3" tvg-name="[Live Event] Málaga vs Deportivo La Coruña Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Málaga vs Deportivo La Coruña Stream 3 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/ps1/index.m3u8
 
