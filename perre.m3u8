@@ -9,8 +9,6 @@ https://6110f70ea8d0e.streamlock.net/1689/1689/playlist.m3u8|user-agent=Mozilla%
 https://627bb251f23c7.streamlock.net:444/CDMInternacional/CDMInternacional/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="2E1QCHJTYwtjGg" tvg-name="DeFiance Media" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", DeFiance Media (PR)
 https://amg01529-defiancetv-defiancemedia-glewed-tre8x.amagi.tv/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
-#EXTINF:-1 tvg-id="bD45kzyCkGUkuS" tvg-name="Familia Vision HD" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Familia Vision HD (PR)
-https://584097344c1f0.streamlock.net/29/stream/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="P4mxJMVl2wyiPi" tvg-name="Faro de Santidad TV" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Faro de Santidad TV (PR)
 https://5dbcd1053301e.streamlock.net:4443/farodesantidad/farodesantidad/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="ESeEpgafREEMIe" tvg-name="La-X" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", La-X (PR)
