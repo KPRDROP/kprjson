@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-08-26 07:09 UTC
+# Last Updated: 2026-08-26 09:03 UTC
 # Total Streams: 16
 
 #EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Tampa Bay Rays vs 1 - 4 Detroit Tigers (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Tampa Bay Rays vs 1 - 4 Detroit Tigers (SPFIT)
@@ -20,17 +20,17 @@ https://malicksaheb4.s3.us-east-1.amazonaws.com/nationals.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 https://malicksaheb4.s3.us-east-1.amazonaws.com/redsox.m3u8
 
-#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Houston Astros vs 9 - 7 New York Yankees (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Houston Astros vs 9 - 7 New York Yankees (SPFIT)
+#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Texas Rangers vs 7 - 11 Chicago White Sox (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Texas Rangers vs 7 - 11 Chicago White Sox (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.shop/
 #EXTVLCOPT:http-origin=https://sportspass.shop
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://malicksaheb4.s3.us-east-1.amazonaws.com/yankees.m3u8
+https://malicksaheb4.s3.us-east-1.amazonaws.com/whitesox.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Baltimore Orioles vs 13 - 1 St. Louis Cardinals (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Baltimore Orioles vs 13 - 1 St. Louis Cardinals (SPFIT)
+#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Dodgers vs 3 - 4 Atlanta Braves (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Los Angeles Dodgers vs 3 - 4 Atlanta Braves (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.shop/
 #EXTVLCOPT:http-origin=https://sportspass.shop
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://malicksaheb4.s3.us-east-1.amazonaws.com/orioles.m3u8
+https://malicksaheb4.s3.us-east-1.amazonaws.com/dodgers.m3u8
 
 #EXTINF:-1 tvg-chno="6" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Milwaukee Brewers vs 2 - 3 New York Mets (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Milwaukee Brewers vs 2 - 3 New York Mets (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.shop/
@@ -38,35 +38,35 @@ https://malicksaheb4.s3.us-east-1.amazonaws.com/orioles.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 https://malicksaheb4.s3.us-east-1.amazonaws.com/yankees.m3u8
 
-#EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Texas Rangers vs 7 - 11 Chicago White Sox (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Texas Rangers vs 7 - 11 Chicago White Sox (SPFIT)
+#EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Houston Astros vs 9 - 7 New York Yankees (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Houston Astros vs 9 - 7 New York Yankees (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.shop/
 #EXTVLCOPT:http-origin=https://sportspass.shop
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://malicksaheb4.s3.us-east-1.amazonaws.com/whitesox.m3u8
+https://malicksaheb4.s3.us-east-1.amazonaws.com/yankees.m3u8
 
-#EXTINF:-1 tvg-chno="8" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Dodgers vs 3 - 4 Atlanta Braves (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Los Angeles Dodgers vs 3 - 4 Atlanta Braves (SPFIT)
-#EXTVLCOPT:http-referrer=https://sportspass.shop/
-#EXTVLCOPT:http-origin=https://sportspass.shop
-#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://malicksaheb4.s3.us-east-1.amazonaws.com/dodgers.m3u8
-
-#EXTINF:-1 tvg-chno="9" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Kansas City Royals vs 5 - 3 Toronto Blue Jays (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Kansas City Royals vs 5 - 3 Toronto Blue Jays (SPFIT)
+#EXTINF:-1 tvg-chno="8" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Kansas City Royals vs 5 - 3 Toronto Blue Jays (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Kansas City Royals vs 5 - 3 Toronto Blue Jays (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.shop/
 #EXTVLCOPT:http-origin=https://sportspass.shop
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 https://malicksaheb4.s3.us-east-1.amazonaws.com/bluejays.m3u8
 
-#EXTINF:-1 tvg-chno="10" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Philadelphia Phillies vs 1 - 4 Seattle Mariners (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Philadelphia Phillies vs 1 - 4 Seattle Mariners (SPFIT)
+#EXTINF:-1 tvg-chno="9" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Baltimore Orioles vs 13 - 1 St. Louis Cardinals (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Baltimore Orioles vs 13 - 1 St. Louis Cardinals (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.shop/
 #EXTVLCOPT:http-origin=https://sportspass.shop
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://malicksaheb4.s3.us-east-1.amazonaws.com/phillies.m3u8
+https://malicksaheb4.s3.us-east-1.amazonaws.com/orioles.m3u8
 
-#EXTINF:-1 tvg-chno="11" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs vs 4 - 5 Arizona Diamondbacks (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago Cubs vs 4 - 5 Arizona Diamondbacks (SPFIT)
+#EXTINF:-1 tvg-chno="10" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs vs 4 - 5 Arizona Diamondbacks (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago Cubs vs 4 - 5 Arizona Diamondbacks (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.shop/
 #EXTVLCOPT:http-origin=https://sportspass.shop
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 https://malicksaheb4.s3.us-east-1.amazonaws.com/cubs.m3u8
+
+#EXTINF:-1 tvg-chno="11" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Philadelphia Phillies vs 1 - 4 Seattle Mariners (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Philadelphia Phillies vs 1 - 4 Seattle Mariners (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.shop/
+#EXTVLCOPT:http-origin=https://sportspass.shop
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://malicksaheb4.s3.us-east-1.amazonaws.com/phillies.m3u8
 
 #EXTINF:-1 tvg-chno="12" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Minnesota Twins vs 2 - 4 Athletics (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Minnesota Twins vs 2 - 4 Athletics (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.shop/
@@ -74,25 +74,25 @@ https://malicksaheb4.s3.us-east-1.amazonaws.com/cubs.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 https://malicksaheb4.s3.us-east-1.amazonaws.com/twins.m3u8
 
-#EXTINF:-1 tvg-chno="13" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Pittsburgh Pirates vs 1 - 0 San Diego Padres (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Pittsburgh Pirates vs 1 - 0 San Diego Padres (SPFIT)
-#EXTVLCOPT:http-referrer=https://sportspass.shop/
-#EXTVLCOPT:http-origin=https://sportspass.shop
-#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://malicksaheb4.s3.us-east-1.amazonaws.com/padres.m3u8
-
-#EXTINF:-1 tvg-chno="14" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Cincinnati Reds vs 1 - 3 San Francisco Giants (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Cincinnati Reds vs 1 - 3 San Francisco Giants (SPFIT)
+#EXTINF:-1 tvg-chno="13" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Cincinnati Reds vs 1 - 3 San Francisco Giants (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Cincinnati Reds vs 1 - 3 San Francisco Giants (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.shop/
 #EXTVLCOPT:http-origin=https://sportspass.shop
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 https://malicksaheb4.s3.us-east-1.amazonaws.com/reds.m3u8
 
-#EXTINF:-1 tvg-chno="15" tvg-id="Racing.Dummy.us" tvg-name="[F1] AWS HUNGARIAN GP Formula 1 Magyar Nagydíj 2026 JUL 24 - 26 2026 ROUND 12 (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] AWS HUNGARIAN GP Formula 1 Magyar Nagydíj 2026 JUL 24 - 26 2026 ROUND 12 (SPFIT)
+#EXTINF:-1 tvg-chno="14" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Pittsburgh Pirates vs 1 - 0 San Diego Padres (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Pittsburgh Pirates vs 1 - 0 San Diego Padres (SPFIT)
+#EXTVLCOPT:http-referrer=https://sportspass.shop/
+#EXTVLCOPT:http-origin=https://sportspass.shop
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://malicksaheb4.s3.us-east-1.amazonaws.com/padres.m3u8
+
+#EXTINF:-1 tvg-chno="15" tvg-id="Racing.Dummy.us" tvg-name="[F1] HEINEKEN DUTCH GP Formula 1 Dutch Grand Prix 2026 AUG 21 - 23 2026 ROUND 14 (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] HEINEKEN DUTCH GP Formula 1 Dutch Grand Prix 2026 AUG 21 - 23 2026 ROUND 14 (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.shop/
 #EXTVLCOPT:http-origin=https://sportspass.shop
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 https://falbrowns.s3.us-east-1.amazonaws.com/sporsnet.m3u8
 
-#EXTINF:-1 tvg-chno="16" tvg-id="Racing.Dummy.us" tvg-name="[F1] HEINEKEN DUTCH GP Formula 1 Dutch Grand Prix 2026 AUG 21 - 23 2026 ROUND 14 (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] HEINEKEN DUTCH GP Formula 1 Dutch Grand Prix 2026 AUG 21 - 23 2026 ROUND 14 (SPFIT)
+#EXTINF:-1 tvg-chno="16" tvg-id="Racing.Dummy.us" tvg-name="[F1] AWS HUNGARIAN GP Formula 1 Magyar Nagydíj 2026 JUL 24 - 26 2026 ROUND 12 (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] AWS HUNGARIAN GP Formula 1 Magyar Nagydíj 2026 JUL 24 - 26 2026 ROUND 12 (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.shop/
 #EXTVLCOPT:http-origin=https://sportspass.shop
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
