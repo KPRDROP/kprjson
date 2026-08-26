@@ -1,45 +1,45 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-08-26 13:46 UTC
+# Last Updated: 2026-08-26 14:36 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Celje vs Slovan Bratislava Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Celje vs Slovan Bratislava Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/947c04edf0f34d0a73692792fbdb289c149dac39615b4d16ffef93e4061f36fb/1787755540/xyzucl-dazn1.m3u8
+https://volder.timst.cfd/main/secure/35386980bb500efd50d6bd414005fe730333dbce934510160091b1e155cd2993/1787758548/xyzucl-dazn1.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="stream_2" tvg-name="[Live Event] Celje vs Slovan Bratislava Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Celje vs Slovan Bratislava Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/b80ae422508d3a3c001f03e3ca91599c64259fc9aa0dabb2b424a3b145511808/1787755535/xyzucl-dazn1.m3u8
+https://volder.timst.cfd/main/secure/ae1e96dbf6ff07f118248c13496a30bdc5d79accdab500e4e1d447bd245ca19f/1787758552/xyzucl-dazn1.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] AEK Athens vs Levski Sofia Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] AEK Athens vs Levski Sofia Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/fc1de5a4d4f52831ba0cb27bd19a8497678977f4b951e8704bfc15c3c282942a/1787755544/xyzucl-tnt4.m3u8
+https://volder.timst.cfd/main/secure/f499a38594ba15593d3620a35323a05589a6673fc7f0ab142620ad23df8bd1bf/1787758557/xyzucl-tnt4.m3u8
 
 #EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] Olympique Lyonnais vs Fenerbahçe Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Olympique Lyonnais vs Fenerbahçe Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/9c56ac508d61697c1c6b6d27b1660a354255a8f5a3f8f4a70b69563a0be4f8e0/1787755553/xyzucl-tnt1.m3u8
+https://volder.timst.cfd/main/secure/78d3f0dd73a4857b1108a453074b5dc30ab0583204c98a6853f9de6694d415bc/1787758566/xyzucl-tnt1.m3u8
 
 #EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] Viking vs Dinamo Zagreb Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Viking vs Dinamo Zagreb Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/deeadc385468ea531bfe549174ba73dad73d68a925e87359dfee72a07d40d543/1787755563/xyzucl-tnt2.m3u8
+https://volder.timst.cfd/main/secure/c94764763a2341deccbbd5272ab47389bded1117e0781716d73e2d73fe58bc69/1787758575/xyzucl-tnt2.m3u8
 
 #EXTINF:-1 tvg-chno="6" tvg-id="stream_1" tvg-name="[Live Event] Real Madrid vs Real Sociedad Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Real Madrid vs Real Sociedad Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/7a877a85e7f1fd20d16e97fee8ddca6c2e223eefd0e7fd372097845a43dd61eb/1787755577/espnp-xyz.m3u8
+https://volder.timst.cfd/main/secure/52ff3b89b5234e4bcefb83ad1374bdb91c806fb26f1f24772b86362eb3055b8a/1787758584/espnp-xyz.m3u8
 
 #EXTINF:-1 tvg-chno="7" tvg-id="stream_2" tvg-name="[Live Event] Real Madrid vs Real Sociedad Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Real Madrid vs Real Sociedad Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/c56ad0c379efc755bd643f5c6f412ce83ea2fa637a3219fa1d58f98204d18872/1787755573/espnp-xyz.m3u8
+https://volder.timst.cfd/main/secure/f427512e0a0872c084f20950b541723a93acf1f0d486626a14edefa3af8ebe0b/1787758588/espnp-xyz.m3u8
 
