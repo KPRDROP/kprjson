@@ -1,51 +1,45 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-08-27 23:23 UTC
+# Last Updated: 2026-08-28 08:02 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Steelers vs Bills Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Steelers vs Bills Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/460adfd97fffc6faef82d4dd06fbdcd335e9ab8dd414ac607066f34438867110/1787876557/nfl-buf-xyz.m3u8
+https://volder.timst.cfd/main/secure/1d3bd4b021a7e3d5ebd2d23d053449d632b8ad1cce5aaf913c6e583d57a622d0/1787907736/nfl-buf-xyz.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="stream_2" tvg-name="[Live Event] Steelers vs Bills Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Steelers vs Bills Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/75299bab97b0cfba83fa623d01508b353a374d88d97f5c99591a3c6876ee2c70/1787876556/nfl-buf-xyz.m3u8
+https://volder.timst.cfd/main/secure/4b0ab738dcd11cb86782d2435576607469fe3e560369bf2fe9106fef5da826ab/1787907737/nfl-buf-xyz.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Patriots vs Browns Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Patriots vs Browns Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/ce373134ce76f698b63470694faadd9a8eed945972b99d9e4c33b3ba2f228a34/1787876565/nfl-cle-xyz.m3u8
+https://volder.timst.cfd/main/secure/7a7710195090962f6eb1aefc735313df5bd608ed45cae26babedf055cfc98067/1787907746/nfl-cle-xyz.m3u8
 
 #EXTINF:-1 tvg-chno="4" tvg-id="stream_2" tvg-name="[Live Event] Patriots vs Browns Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Patriots vs Browns Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/e94788ee9494c6d3effc409fcdfb2a0dbbb26d0b2f6c42a420f40333191e0c82/1787876566/nfl-cle-xyz.m3u8
+https://volder.timst.cfd/main/secure/f1d4d57737ef702baec324cd46b8300c3927e6bfe1d4350f4c6ab084381e54b0/1787907747/nfl-cle-xyz.m3u8
 
 #EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] 49ers vs Raiders Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] 49ers vs Raiders Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/4da17b683ca4b55fc69861bcd703f4b76b5ea725952306db1e23300f324076d5/1787876574/nfl-lv-xyz.m3u8
+https://volder.timst.cfd/main/secure/1cf58dcfd1c36ebefcf5644fcef6165fc73e38742e96ba7a1ff17a3d51344496/1787907756/nfl-lv-xyz.m3u8
 
 #EXTINF:-1 tvg-chno="6" tvg-id="stream_2" tvg-name="[Live Event] 49ers vs Raiders Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] 49ers vs Raiders Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/5b4e2f67962ce7357cd6b35f859fb84904a2d40d63a01049aed6fa809bb16d54/1787876575/nfl-lv-xyz.m3u8
+https://volder.timst.cfd/main/secure/e690a9459900cf6ffda8313f3dd3867cb23f23c42832bb05d8ebdff08683c814/1787907755/nfl-lv-xyz.m3u8
 
 #EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] Rams vs Chargers Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Rams vs Chargers Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/e38e2156943d86a29608d8f58dc9166df89f69bcb26c853a9efe8b05f657ae8b/1787876584/nfl-lac-xyz.m3u8
-
-#EXTINF:-1 tvg-chno="8" tvg-id="stream_2" tvg-name="[Live Event] Rams vs Chargers Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Rams vs Chargers Stream 2 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/ec40458a5fb3b3710b7033e759fea2db4b84e2b2aafad8d1a94d5e9e1b099cc0/1787876583/nfl-lac-xyz.m3u8
+https://volder.timst.cfd/main/secure/42b5ff02dda997be00194d953567b465d1c008d1c43814ac4d11ba78f49c1ee2/1787907765/nfl-lac-xyz.m3u8
 
