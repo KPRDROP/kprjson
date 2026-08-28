@@ -1,4 +1,10 @@
 #EXTM3U
 #EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs - Cincinnati Reds (EMBEDTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Chicago Cubs - Cincinnati Reds (EMBEDTV)
-https://cdn12.zohanayaan.com:1686/hls/mchicagocubs.m3u8?md5=imtO-YjeWKifj_7ABx3Bxg&expires=1787945884|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/131.0.0.0%20Safari/537.36
+https://cdn11.zohanayaan.com:1686/hls/mchicagocubs.m3u8?md5=lMc-J4IFSDZkXRw_YoDneg&expires=1787947688|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/131.0.0.0%20Safari/537.36
+
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Crystal Palace - Manchester City (EMBEDTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Premier League",[Premier League] Crystal Palace - Manchester City (EMBEDTV)
+https://cdn12.zohanayaan.com:1686/hls/ncrystalpalace.m3u8?md5=dssHEPaUzApg5nxZnwBp6Q&expires=1787947689|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/131.0.0.0%20Safari/537.36
+
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Wrexham - Birmingham City (EMBEDTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="EFL Championship",[EFL Championship] Wrexham - Birmingham City (EMBEDTV)
+https://cdn14.zohanayaan.com:1686/hls/nwrexham.m3u8?md5=244UgpfwL7m6ZxiAN7aRdQ&expires=1787947690|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/131.0.0.0%20Safari/537.36
 
