@@ -1,45 +1,27 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-08-29 21:24 UTC
+# Last Updated: 2026-08-29 23:44 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Bears vs Titans Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Bears vs Titans Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/180961c105ea63c184e1a1d4382a1333d73ee8d6fc9390e4d87edb8aa2f8b2d8/1788042263/nfl-mia-xyz.m3u8
+https://volder.timst.cfd/main/secure/4a18a436c1e58c3bc91d8d2bd03bdfb471362c3d51205490e37782a5d8fe2c57/1788050624/nfl-mia-xyz.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="stream_2" tvg-name="[Live Event] Bears vs Titans Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Bears vs Titans Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/9e6050172c5cf6f96bfe881a82c7502ff54b3d80688941e282aefc2ed1c5c6be/1788042264/nfl-mia-xyz.m3u8
+https://volder.timst.cfd/main/secure/f09ea841eefe34885703df0beb7e5112d961c0574645332bdcec3e9cdf7778f3/1788050623/nfl-mia-xyz.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] AFC Bournemouth vs Everton Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] AFC Bournemouth vs Everton Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/334a7c2dcc28526852310b034f017e49b8d6ed202c1ea38ee8e064dfd9de1126/1788042273/skynz8xyz.m3u8
+https://volder.timst.cfd/main/secure/0b41a47b4f3c45d209b25869b109d499b16d82659c38c83b164593dfc57b9c67/1788050632/skynz8xyz.m3u8
 
 #EXTINF:-1 tvg-chno="4" tvg-id="stream_2" tvg-name="[Live Event] AFC Bournemouth vs Everton Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] AFC Bournemouth vs Everton Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/d65468b56450f09f4a58db52e9f97ffdc81822c68bbfd0d65b8a1d959b0ed37a/1788042272/skynz8xyz.m3u8
-
-#EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] Coventry City vs Hull City Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Coventry City vs Hull City Stream 1 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/61fe07a81fc926ba8ed62c5d16b1875dc178cd7315569ee6aa9d05f368b0bb30/1788042282/usanetwork-usa.m3u8
-
-#EXTINF:-1 tvg-chno="6" tvg-id="stream_1" tvg-name="[Live Event] Tottenham Hotspur vs Newcastle United Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Tottenham Hotspur vs Newcastle United Stream 1 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/0de33b273355e67d32794508bd1a786016f3ee0980de6925976ec142d7e99f85/1788042292/skymain-xyz.m3u8
-
-#EXTINF:-1 tvg-chno="7" tvg-id="stream_2" tvg-name="[Live Event] Tottenham Hotspur vs Newcastle United Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Tottenham Hotspur vs Newcastle United Stream 2 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://volder.timst.cfd/main/secure/97ef560efa59c3b1bf478299f82c15c0f716d6e77c0f5f257dc6d8856ad66bde/1788042291/skymain-xyz.m3u8
+https://volder.timst.cfd/main/secure/1467071468bcb9d90fda53c840ba137e1c21ee9082e91cb11ff5bc0d4358def3/1788050633/skynz8xyz.m3u8
 
