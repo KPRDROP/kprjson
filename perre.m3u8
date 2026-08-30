@@ -9,26 +9,22 @@ https://6110f70ea8d0e.streamlock.net/1689/1689/playlist.m3u8|user-agent=Mozilla%
 https://627bb251f23c7.streamlock.net:444/CDMInternacional/CDMInternacional/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="2E1QCHJTYwtjGg" tvg-name="DeFiance Media" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", DeFiance Media (PR)
 https://amg01529-defiancetv-defiancemedia-glewed-tre8x.amagi.tv/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
+#EXTINF:-1 tvg-id="bD45kzyCkGUkuS" tvg-name="Familia Vision HD" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Familia Vision HD (PR)
+https://584097344c1f0.streamlock.net/29/stream/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="P4mxJMVl2wyiPi" tvg-name="Faro de Santidad TV" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Faro de Santidad TV (PR)
 https://5dbcd1053301e.streamlock.net:4443/farodesantidad/farodesantidad/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
-#EXTINF:-1 tvg-id="ESeEpgafREEMIe" tvg-name="La-X" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", La-X (PR)
-https://stream.eleden.com/livelax/ngrp:livelax_all/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="7W5fz3owCOtino" tvg-name="Nueva Vida FM" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Nueva Vida FM (PR)
 https://stream.nuevavidafm.net:3937/live/nuevavidalive.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="6GzzyU1r6GXxb2" tvg-name="Pura Palabra" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Pura Palabra (PR)
 https://59825a54e4454.streamlock.net:8443/william233/william233/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="dfwJqEOqj4nFiU" tvg-name="Radio Isla TV" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Radio Isla TV (PR)
 https://59a564764e2b6.streamlock.net/palestra/palestra/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
-#EXTINF:-1 tvg-id="LNGJVkOrgPhVTB" tvg-name="Salvacion TV" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Salvacion TV (PR)
-https://stream.eleden.com/livesalvatv/ngrp:livesalvatv_all/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="mus49kJTQfTCmk" tvg-name="Telenorte" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Telenorte (PR)
 https://627bb251f23c7.streamlock.net:444/TopRadioTV/TopRadioTV/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="WRhrhAcp8QVCZv" tvg-name="TeleOnce" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", TeleOnce (PR)
 https://live.11-cdn.com/TeleOnce/3fc63fe00050c646635f16b071cd33e2.sdp/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="kFXY9hZYJ4HFXR" tvg-name="The Retro Channel" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", The Retro Channel (PR)
 https://583ed2f226ac2.streamlock.net/theretrochannel/stream/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
-#EXTINF:-1 tvg-id="QYv70qSnNhaax1" tvg-name="Triunfo 96.9 FM" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Triunfo 96.9 FM (PR)
-https://59825a54e4454.streamlock.net:8443/william652/william652/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="vETwdWDS6Ys3LC" tvg-name="WDWL 58.1" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", WDWL 58.1 (PR)
 https://67acccf130420.streamlock.net/enlacepr1/enlacepr1/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="pCErNDOF1ndRX6" tvg-name="WECN" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", WECN (PR)
