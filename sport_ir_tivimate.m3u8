@@ -1,1 +1,21 @@
 #EXTM3U
+#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Diego Padres vs Cincinnati Reds (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] San Diego Padres vs Cincinnati Reds (SPORTir)
+https://node-9b5feb01.4587.website/6a97cf7a.2c1cbdabi04807341.cec7.00cf0bdb/free.live.espn/master.m3u8|referer=https://mlb24all.ir|origin=https://mlb24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Milwaukee Brewers vs Chicago Cubs (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Milwaukee Brewers vs Chicago Cubs (SPORTir)
+https://node-88894cb5.4587.website/6a97cf7a.3a6f78dei04807341.cec6.828fce9a/free.live.espn/master.m3u8|referer=https://mlb24all.ir|origin=https://mlb24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Mets vs Tampa Bay Rays (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] New York Mets vs Tampa Bay Rays (SPORTir)
+https://node-88894cb5.4587.website/6a97cf7b.4a482bb8i04807341.ceb4.d08fc03f/free.live.espn/master.m3u8|referer=https://mlb24all.ir|origin=https://mlb24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Francisco Giants vs Pittsburgh Pirates (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] San Francisco Giants vs Pittsburgh Pirates (SPORTir)
+https://node-88894cb5.4587.website/6a97cf7b.ef5cb6b3i04807341.cead.629c1e78/free.live.espn/master.m3u8|referer=https://mlb24all.ir|origin=https://mlb24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Atlanta Braves vs Washington Nationals (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Atlanta Braves vs Washington Nationals (SPORTir)
+https://node-8bba18be.4587.website/6a97cf7b.fb68fc83i04807341.cec4.8c2ab389/free.live.espn/master.m3u8|referer=https://mlb24all.ir|origin=https://mlb24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Detroit Tigers vs Minnesota Twins (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Detroit Tigers vs Minnesota Twins (SPORTir)
+https://node-88894cb5.4587.website/6a97cf7b.bb945a73i04807341.ced2.96b66861/free.live.espn/master.m3u8|referer=https://mlb24all.ir|origin=https://mlb24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Miami Marlins vs Kansas City Royals (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Miami Marlins vs Kansas City Royals (SPORTir)
+https://node-88894cb5.4587.website/6a97cf7b.3068cc73i04807341.cedc.10c716b4/free.live.espn/master.m3u8|referer=https://mlb24all.ir|origin=https://mlb24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
