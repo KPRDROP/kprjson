@@ -1,37 +1,7 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-09-04 16:26 UTC
-# Total Streams: 11
+# Last Updated: 2026-09-04 20:50 UTC
+# Total Streams: 1
 
 #EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Ipswich Today at 7:00 PM vs Liverpool (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Ipswich Today at 7:00 PM vs Liverpool (SPFIT)
-https://storage.googleapis.com/cloud-origin/edge02/manifest.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="2" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs Today at 11:10 PM vs Miami Marlins (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Chicago Cubs Today at 11:10 PM vs Miami Marlins (SPFIT)
-https://3860af3e8e3fbfdb.mediapackage.us-east-2.amazonaws.com/out/v1/bce6a3113f3140fd88e9246d550b828d/index.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="3" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Angels Today at 10:40 PM vs Pittsburgh Pirates (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Los Angeles Angels Today at 10:40 PM vs Pittsburgh Pirates (SPFIT)
-https://cf98fa7b2ee4450e.mediapackage.us-east-1.amazonaws.com/out/v1/1204a41da1e74b20b3c3c109030a6726/index.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="4" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Boston Red Sox Today at 11:05 PM vs Baltimore Orioles (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Boston Red Sox Today at 11:05 PM vs Baltimore Orioles (SPFIT)
-https://cf98fa7b2ee4450e.mediapackage.us-east-1.amazonaws.com/out/v1/9cc1d5decd224ffb8e8a50d2fb055a5d/index.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="5" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Minnesota Twins Today at 11:40 PM vs Chicago White Sox (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Minnesota Twins Today at 11:40 PM vs Chicago White Sox (SPFIT)
-https://3ae97e9482b0d011.mediapackage.us-west-2.amazonaws.com/out/v1/e19aa4ba7bce49b1b197b7d43949f190/index.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="6" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Tampa Bay Rays Tomorrow at 12:05 AM vs Texas Rangers (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Tampa Bay Rays Tomorrow at 12:05 AM vs Texas Rangers (SPFIT)
-https://8343f7014c0ea438.mediapackage.us-west-2.amazonaws.com/out/v1/8e8da9e90b0d4b488b856594e72717ec/index.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="7" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Toronto Blue Jays Tomorrow at 12:10 AM vs Kansas City Royals (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Toronto Blue Jays Tomorrow at 12:10 AM vs Kansas City Royals (SPFIT)
-https://c75a7e79204e539d.mediapackage.us-east-1.amazonaws.com/out/v1/c074ac0b3843458ab5aa987605871652/index.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="8" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Washington Nationals Tomorrow at 2:10 AM vs Los Angeles Dodgers (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Washington Nationals Tomorrow at 2:10 AM vs Los Angeles Dodgers (SPFIT)
-https://188a2110c0c0aa3d.mediapackage.us-east-2.amazonaws.com/out/v1/35624f8104d04bada03c2d7694a8c6d6/index.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="9" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Athletics Tomorrow at 2:10 AM vs Seattle Mariners (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Athletics Tomorrow at 2:10 AM vs Seattle Mariners (SPFIT)
-https://3ae97e9482b0d011.mediapackage.us-west-2.amazonaws.com/out/v1/e19aa4ba7bce49b1b197b7d43949f190/index.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="10" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[MMA] DANA WHITE'S CONTENDER SERIES: SEASON 10 WEEK 4 Meta APEX Las Vegas NV USA Sep 1 2022 Final (SPFIT)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[MMA] DANA WHITE'S CONTENDER SERIES: SEASON 10 WEEK 4 Meta APEX Las Vegas NV USA Sep 1 2022 Final (SPFIT)
-https://15595674c0604ed6.mediapackage.eu-central-1.amazonaws.com/out/v1/fe9b6cf7ed314d938d8fe33d2631300e/index.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="11" tvg-id="Racing.Dummy.us" tvg-name="[F1] PIRELLI ITALIAN GP Formula 1 Gran Premio d'Italia 2026 SEP 04 - 06 2026 ROUND 15 (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] PIRELLI ITALIAN GP Formula 1 Gran Premio d'Italia 2026 SEP 04 - 06 2026 ROUND 15 (SPFIT)
-https://tomlinsonpeg48.s3.us-east-1.amazonaws.com/arsenal.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://grtfesadadd.s3.us-east-1.amazonaws.com/liverpool.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
