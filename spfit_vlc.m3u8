@@ -1,54 +1,54 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-09-05 15:12 UTC
+# Last Updated: 2026-09-05 18:18 UTC
 # Total Streams: 9
 
 #EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Man City Today at 2:00 PM vs Coventry (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Man City Today at 2:00 PM vs Coventry (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.shop/
 #EXTVLCOPT:http-origin=https://sportspass.shop
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://likujyjyj.s3.us-east-1.amazonaws.com/mancity.m3u8
+https://wilhelmine318.s3.us-east-1.amazonaws.com/mancity.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Newcastle Today at 11:30 AM vs Bournemouth (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Newcastle Today at 11:30 AM vs Bournemouth (SPFIT)
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Brentford Today at 2:00 PM vs Sunderland (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Brentford Today at 2:00 PM vs Sunderland (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.shop/
 #EXTVLCOPT:http-origin=https://sportspass.shop
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://likujyjyj.s3.us-east-1.amazonaws.com/dodgers_480p30.m3u8
+https://wilhelmine318.s3.us-east-1.amazonaws.com/sunderland.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Fulham Today at 2:00 PM vs C Palace (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Fulham Today at 2:00 PM vs C Palace (SPFIT)
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Newcastle Today at 11:30 AM vs Bournemouth (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Newcastle Today at 11:30 AM vs Bournemouth (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.shop/
 #EXTVLCOPT:http-origin=https://sportspass.shop
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://likujyjyj.s3.us-east-1.amazonaws.com/fulham_480p30.m3u8
+https://likujyjyj.s3.us-east-1.amazonaws.com/dodgers.m3u8
 
 #EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Brighton Today at 2:00 PM vs Leeds (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Brighton Today at 2:00 PM vs Leeds (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.shop/
 #EXTVLCOPT:http-origin=https://sportspass.shop
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://likujyjyj.s3.us-east-1.amazonaws.com/leeds.m3u8
+https://wilhelmine318.s3.us-east-1.amazonaws.com/leeds.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Brentford Today at 2:00 PM vs Sunderland (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Brentford Today at 2:00 PM vs Sunderland (SPFIT)
+#EXTINF:-1 tvg-chno="5" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Fulham Today at 2:00 PM vs C Palace (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Fulham Today at 2:00 PM vs C Palace (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.shop/
 #EXTVLCOPT:http-origin=https://sportspass.shop
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://likujyjyj.s3.us-east-1.amazonaws.com/sunderland.m3u8
+https://wilhelmine318.s3.us-east-1.amazonaws.com/fulham.m3u8
 
 #EXTINF:-1 tvg-chno="6" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Nottm Forest Today at 2:00 PM vs Spurs (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Nottm Forest Today at 2:00 PM vs Spurs (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.shop/
 #EXTVLCOPT:http-origin=https://sportspass.shop
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://likujyjyj.s3.us-east-1.amazonaws.com/spurs.m3u8
+https://wilhelmine318.s3.us-east-1.amazonaws.com/spurs.m3u8
 
 #EXTINF:-1 tvg-chno="7" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Hull Today at 4:30 PM vs Aston Villa (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Hull Today at 4:30 PM vs Aston Villa (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.shop/
 #EXTVLCOPT:http-origin=https://sportspass.shop
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://likujyjyj.s3.us-east-1.amazonaws.com/astonvilla.m3u8
+https://gaedasdasd.s3.us-east-1.amazonaws.com/nbc.m3u8
 
 #EXTINF:-1 tvg-chno="8" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[MMA] UFC FIGHT NIGHT: HOOKER VS. PARNASSE Accor Arena Paris France Sep 5 2022 Scheduled (SPFIT)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[MMA] UFC FIGHT NIGHT: HOOKER VS. PARNASSE Accor Arena Paris France Sep 5 2022 Scheduled (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.shop/
 #EXTVLCOPT:http-origin=https://sportspass.shop
 #EXTVLCOPT:http-user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-https://s3.us-east-1.amazonaws.com/shelest.stanislav/main.m3u8
+https://gaedasdasd.s3.us-east-1.amazonaws.com/btsport.m3u8
 
 #EXTINF:-1 tvg-chno="9" tvg-id="Racing.Dummy.us" tvg-name="[F1] PIRELLI ITALIAN GP Formula 1 Gran Premio d'Italia 2026 SEP 04 - 06 2026 ROUND 15 (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] PIRELLI ITALIAN GP Formula 1 Gran Premio d'Italia 2026 SEP 04 - 06 2026 ROUND 15 (SPFIT)
 #EXTVLCOPT:http-referrer=https://sportspass.shop/
