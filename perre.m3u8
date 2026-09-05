@@ -5,6 +5,8 @@ https://live.gideo.video/americateve2/master.m3u8|user-agent=Mozilla%2F5.0+%28X1
 https://59825a54e4454.streamlock.net:8443/papo351/papo351/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="452xTTX1nRDBiZ" tvg-name="Candelita TV" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Candelita TV (PR)
 https://6110f70ea8d0e.streamlock.net/1689/1689/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
+#EXTINF:-1 tvg-id="ZJCzbVc31LkU2Y" tvg-name="CAtv" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", CAtv (PR)
+https://video2.getstreamhosting.com:19360/8216/8216.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="mS9qxq2CzcaNUI" tvg-name="CDM Internacional" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", CDM Internacional (PR)
 https://627bb251f23c7.streamlock.net:444/CDMInternacional/CDMInternacional/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="2E1QCHJTYwtjGg" tvg-name="DeFiance Media" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", DeFiance Media (PR)
@@ -21,8 +23,6 @@ https://stream.nuevavidafm.net:3937/live/nuevavidalive.m3u8|user-agent=Mozilla%2
 https://stream.eleden.com/livewtpm/ngrp:livewtpm_all/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="6GzzyU1r6GXxb2" tvg-name="Pura Palabra" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Pura Palabra (PR)
 https://59825a54e4454.streamlock.net:8443/william233/william233/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
-#EXTINF:-1 tvg-id="dfwJqEOqj4nFiU" tvg-name="Radio Isla TV" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Radio Isla TV (PR)
-https://59a564764e2b6.streamlock.net/palestra/palestra/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="LNGJVkOrgPhVTB" tvg-name="Salvacion TV" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Salvacion TV (PR)
 https://stream.eleden.com/livesalvatv/ngrp:livesalvatv_all/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="mus49kJTQfTCmk" tvg-name="Telenorte" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Telenorte (PR)
@@ -41,7 +41,7 @@ https://59825a54e4454.streamlock.net:8443/pastorairisn394/pastorairisn394/chunkl
 https://video1.getstreamhosting.com:1936/8226/8226/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="bwDkPgO9EH6E9o" tvg-name="WIPR-TV 6.1" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", WIPR-TV 6.1 (PR)
 https://streamwipr.pr/hls/stream/index.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
-#EXTINF:-1 tvg-id="6DxixUnn8FbaeV" tvg-name="WKAQ-DT1 (Telemundo PR)" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", WKAQ-DT1 (Telemundo PR) (PR)
+#EXTINF:-1 tvg-id="XvwjE3r4OPSQQQ" tvg-name="WKAQ-DT1 (Telemundo PR)" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", WKAQ-DT1 (Telemundo PR) (PR)
 https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="XjdAPMm3YO01Fo" tvg-name="WKAQ-TV 2.2" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", WKAQ-TV 2.2 (PR)
 https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream2/master.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
