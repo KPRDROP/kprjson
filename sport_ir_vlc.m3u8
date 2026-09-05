@@ -3,4 +3,10 @@
 #EXTVLCOPT:http-referrer=https://mlb24all.ir
 #EXTVLCOPT:http-origin=https://mlb24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-8bba18be.4587.website/6a9cd93b.093df367i16087993.d756.0b41c426/free.live.espn/master.m3u8
+https://node-8bba18be.4587.website/6a9cf8ce.0adb07e6i3cfcbcca.d756.d29cc687/free.live.espn/master.m3u8
+
+#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Francisco Giants vs New York Mets (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] San Francisco Giants vs New York Mets (SPORTir)
+#EXTVLCOPT:http-referrer=https://mlb24all.ir
+#EXTVLCOPT:http-origin=https://mlb24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-9b5feb01.4587.website/6a9cf8ce.5313e7cfi3cfcbcca.d764.d6ef6a79/free.live.espn/master.m3u8
