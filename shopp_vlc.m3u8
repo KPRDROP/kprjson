@@ -1,93 +1,81 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-09-05 18:41 UTC
+# Last Updated: 2026-09-06 13:20 UTC
 
-#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Hull City vs Aston Villa Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Hull City vs Aston Villa Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Everton vs Manchester United Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Everton vs Manchester United Stream 1 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/beinar22/index.m3u8
+
+#EXTINF:-1 tvg-chno="2" tvg-id="stream_2" tvg-name="[Live Event] Everton vs Manchester United Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Everton vs Manchester United Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/skymain/index.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="stream_2" tvg-name="[Live Event] Hull City vs Aston Villa Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Hull City vs Aston Villa Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="3" tvg-id="stream_3" tvg-name="[Live Event] Everton vs Manchester United Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Everton vs Manchester United Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/skynzepl/index.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="stream_3" tvg-name="[Live Event] Hull City vs Aston Villa Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Hull City vs Aston Villa Stream 3 (SHOPP)
+#EXTINF:-1 tvg-chno="4" tvg-id="stream_4" tvg-name="[Live Event] Everton vs Manchester United Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Everton vs Manchester United Stream 4 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/src=NBC/index.m3u8
+https://iptvstream.dlhd.net/telemundo/index.m3u8
 
-#EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] Athletic Club vs Atlético Madrid Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Athletic Club vs Atlético Madrid Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="5" tvg-id="stream_5" tvg-name="[Live Event] Everton vs Manchester United Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Everton vs Manchester United Stream 5 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/ps1/index.m3u8
+https://iptvstream.dlhd.net/usa/index.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-id="stream_2" tvg-name="[Live Event] Athletic Club vs Atlético Madrid Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Athletic Club vs Atlético Madrid Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="6" tvg-id="stream_1" tvg-name="[Live Event] Valencia vs Barcelona Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Valencia vs Barcelona Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/error/ping.gif?h=-891025077&e=err&n=2268352059580671&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1778wlibo91h&et=classic&i=1&lid=ffj1xd15bzae&lsa=set&mt=1&pbd=1&pbr=1&pgi=uwwdiy84hqg5&ph=0&pii=0&pl=199&plc=1&pli=1hhs65y11bw9&pp=hlsjs&prc=1&ps=2&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi3-stream-3.html&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&cme=0&erc=232404&mu=https%3A%2F%2Fxyzstreams.blog%2F2%2Fstream%2Fespn%2Fevent5003%2Fstream_0.m3u8&sa=1788633669374
+https://iptvstream.dlhd.net/event5376/index.m3u8
 
-#EXTINF:-1 tvg-chno="6" tvg-id="stream_3" tvg-name="[Live Event] Athletic Club vs Atlético Madrid Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Athletic Club vs Atlético Madrid Stream 3 (SHOPP)
+#EXTINF:-1 tvg-chno="7" tvg-id="stream_2" tvg-name="[Live Event] Valencia vs Barcelona Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Valencia vs Barcelona Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1702027437&e=pa&n=1135875415731941&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1778wlibo91h&et=classic&i=1&lid=ffj1xd15bzae&lsa=set&mt=1&pbd=1&pbr=1&pgi=uwwdiy84hqg5&ph=0&pii=0&pl=199&plc=1&pli=1hhs65y11bw9&pp=hlsjs&prc=1&ps=2&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi3-stream-3.html&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2Fxyzstreams.blog%2F2%2Fstream%2Fespn%2Fevent5003%2Fstream_0.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1788633668507
+https://iptvstream.dlhd.net/event5377/index.m3u8
 
-#EXTINF:-1 tvg-chno="7" tvg-id="stream_4" tvg-name="[Live Event] Athletic Club vs Atlético Madrid Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Athletic Club vs Atlético Madrid Stream 4 (SHOPP)
+#EXTINF:-1 tvg-chno="8" tvg-id="stream_3" tvg-name="[Live Event] Valencia vs Barcelona Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Valencia vs Barcelona Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://xyzstreams.blog/2/stream/espn/event5003/stream_0.m3u8
+https://iptvstream.dlhd.net/ps2/index.m3u8
 
-#EXTINF:-1 tvg-chno="8" tvg-id="stream_1" tvg-name="[Live Event] Rayo Vallecano vs Racing Santander Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Rayo Vallecano vs Racing Santander Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="9" tvg-id="stream_1" tvg-name="[Live Event] Arsenal vs Chelsea Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Arsenal vs Chelsea Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/ps1/index.m3u8
+https://iptvstream.dlhd.net/beinar22/index.m3u8
 
-#EXTINF:-1 tvg-chno="9" tvg-id="stream_2" tvg-name="[Live Event] Rayo Vallecano vs Racing Santander Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Rayo Vallecano vs Racing Santander Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="10" tvg-id="stream_2" tvg-name="[Live Event] Arsenal vs Chelsea Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Arsenal vs Chelsea Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/error/ping.gif?h=-1998070351&e=err&n=2908381599439964&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1cj3j1mhu3gs&et=classic&i=1&lid=1ak1x3npcb9e&lsa=set&mt=1&pbd=1&pbr=1&pgi=fyilqlvq0y3x&ph=0&pii=0&pl=199&plc=1&pli=1m16tgr1v4y2&pp=hlsjs&prc=1&ps=2&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi3-stream-3.html&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&cme=0&erc=232404&mu=https%3A%2F%2Fxyzstreams.blog%2F2%2Fstream%2Fespn%2Fevent5003%2Fstream_0.m3u8&sa=1788633679153
+https://iptvstream.dlhd.net/skymain/index.m3u8
 
-#EXTINF:-1 tvg-chno="10" tvg-id="stream_3" tvg-name="[Live Event] Rayo Vallecano vs Racing Santander Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Rayo Vallecano vs Racing Santander Stream 3 (SHOPP)
+#EXTINF:-1 tvg-chno="11" tvg-id="stream_3" tvg-name="[Live Event] Arsenal vs Chelsea Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Arsenal vs Chelsea Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=2117690130&e=pa&n=8727215658151501&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1cj3j1mhu3gs&et=classic&i=1&lid=1ak1x3npcb9e&lsa=set&mt=1&pbd=1&pbr=1&pgi=fyilqlvq0y3x&ph=0&pii=0&pl=199&plc=1&pli=1m16tgr1v4y2&pp=hlsjs&prc=1&ps=2&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi3-stream-3.html&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2Fxyzstreams.blog%2F2%2Fstream%2Fespn%2Fevent5003%2Fstream_0.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1788633678884
+https://iptvstream.dlhd.net/skynzepl/index.m3u8
 
-#EXTINF:-1 tvg-chno="11" tvg-id="stream_4" tvg-name="[Live Event] Rayo Vallecano vs Racing Santander Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Rayo Vallecano vs Racing Santander Stream 4 (SHOPP)
+#EXTINF:-1 tvg-chno="12" tvg-id="stream_4" tvg-name="[Live Event] Arsenal vs Chelsea Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Arsenal vs Chelsea Stream 4 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://xyzstreams.blog/2/stream/espn/event5003/stream_0.m3u8
+https://iptvstream.dlhd.net/telemundo/index.m3u8
 
-#EXTINF:-1 tvg-chno="12" tvg-id="stream_1" tvg-name="[Live Event] Villarreal vs Deportivo La Coruña Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Villarreal vs Deportivo La Coruña Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="13" tvg-id="stream_5" tvg-name="[Live Event] Arsenal vs Chelsea Stream 5 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Arsenal vs Chelsea Stream 5 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/ps1/index.m3u8
-
-#EXTINF:-1 tvg-chno="13" tvg-id="stream_2" tvg-name="[Live Event] Villarreal vs Deportivo La Coruña Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Villarreal vs Deportivo La Coruña Stream 2 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/error/ping.gif?h=1464276696&e=err&n=4490415764422149&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=ep3a5f2rfbec&et=classic&i=1&lid=v6yiq61ae3x3&lsa=set&mt=1&pbd=1&pbr=1&pgi=1c2ctp0fu5oe&ph=0&pii=0&pl=199&plc=1&pli=57etk6zi9pe1&pp=hlsjs&prc=1&ps=2&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi3-stream-3.html&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&cme=0&erc=232404&mu=https%3A%2F%2Fxyzstreams.blog%2F2%2Fstream%2Fespn%2Fevent5003%2Fstream_0.m3u8&sa=1788633690003
-
-#EXTINF:-1 tvg-chno="14" tvg-id="stream_3" tvg-name="[Live Event] Villarreal vs Deportivo La Coruña Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Villarreal vs Deportivo La Coruña Stream 3 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-180576132&e=pa&n=0224608642886462&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=ep3a5f2rfbec&et=classic&i=1&lid=v6yiq61ae3x3&lsa=set&mt=1&pbd=1&pbr=1&pgi=1c2ctp0fu5oe&ph=0&pii=0&pl=199&plc=1&pli=57etk6zi9pe1&pp=hlsjs&prc=1&ps=2&pss=1&pt=xyzstreams&pu=https%3A%2F%2Fxyzstreams.st%2Fi3-stream-3.html&pv=8.49.5&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=1&vl=90&wd=354&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2Fxyzstreams.blog%2F2%2Fstream%2Fespn%2Fevent5003%2Fstream_0.m3u8&pd=2&pdr=&plng=en&pni=0&pr=7&tb=0&vd=0&sa=1788633689341
-
-#EXTINF:-1 tvg-chno="15" tvg-id="stream_4" tvg-name="[Live Event] Villarreal vs Deportivo La Coruña Stream 4 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Villarreal vs Deportivo La Coruña Stream 4 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://xyzstreams.blog/2/stream/espn/event5003/stream_0.m3u8
+https://iptvstream.dlhd.net/usa/index.m3u8
 
