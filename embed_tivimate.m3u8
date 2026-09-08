@@ -1,1 +1,7 @@
 #EXTM3U
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Uefa Champions League] Club Brugge - Aston Villa (EMBEDTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Uefa Champions League",[Uefa Champions League] Club Brugge - Aston Villa (EMBEDTV)
+https://cdn13.zohanayaan.com:1686/hls/ntntsport1hd.m3u8?md5=Imuh6jv-SqD6hyojdJqm6Q&expires=1788891160|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/131.0.0.0%20Safari/537.36
+
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Uefa Champions League] AEK Athens - LASK (EMBEDTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Uefa Champions League",[Uefa Champions League] AEK Athens - LASK (EMBEDTV)
+https://cdn14.zohanayaan.com:1686/hls/mmevent10.m3u8?md5=wHlVZztoNTAUvvymKOronA&expires=1788891161|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/131.0.0.0%20Safari/537.36
+
