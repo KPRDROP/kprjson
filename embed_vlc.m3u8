@@ -1,49 +1,31 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Atlanta Braves - Tampa Bay Rays (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Atlanta Braves - Tampa Bay Rays
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Uefa Champions League] Manchester United - Sabah Baku (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Uefa Champions League",[Uefa Champions League] Manchester United - Sabah Baku
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/matlantabraves.m3u8?md5=PLYs8UT4RMa__HcJgfVjxg&expires=1789074317
+https://cdn14.zohanayaan.com:1686/hls/mevent15.m3u8?md5=nqBbBmRdHjuvXK1SOX06rQ&expires=1789083971
 
-#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Uefa Champions League] PSV Eindhoven - Shakhtar Donetsk (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Uefa Champions League",[Uefa Champions League] PSV Eindhoven - Shakhtar Donetsk
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Uefa Champions League] Bayern Munich - Bodø/Glimt (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Uefa Champions League",[Uefa Champions League] Bayern Munich - Bodø/Glimt
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/mevent11.m3u8?md5=6-j9QqP90mdGzXMT3pL5MA&expires=1789074319
+https://cdn11.zohanayaan.com:1686/hls/mevent14.m3u8?md5=2vJqTs87AzBmM0lX6vcbQw&expires=1789083973
 
-#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Uefa Champions League] Fenerbahçe - Roma (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Uefa Champions League",[Uefa Champions League] Fenerbahçe - Roma
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Uefa Champions League] Slavia Prague - Lens (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Uefa Champions League",[Uefa Champions League] Slavia Prague - Lens
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/mmevent10.m3u8?md5=GshbhDxaqiE3P0oT-H3AXA&expires=1789074319
+https://cdn13.zohanayaan.com:1686/hls/mevent13.m3u8?md5=AtW0u7bEyzEFfdThxaWosw&expires=1789083974
 
-#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Philadelphia Phillies - Houston Astros (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Philadelphia Phillies - Houston Astros
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Uefa Champions League] Como - RB Leipzig (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Uefa Champions League",[Uefa Champions League] Como - RB Leipzig
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/mphiladelphiaphillies.m3u8?md5=bFsCa4Ngq0Q_jzXqh_2-6A&expires=1789074320
+https://cdn15.zohanayaan.com:1686/hls/mevent12.m3u8?md5=7u-YdimLuEkizZjIpPOgOg&expires=1789083975
 
-#EXTINF:-1 tvg-chno="5" tvg-id="Soccer.Dummy.us" tvg-name="[Uefa Champions League] Manchester United - Sabah Baku (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Uefa Champions League",[Uefa Champions League] Manchester United - Sabah Baku
+#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Seattle Mariners - Texas Rangers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Seattle Mariners - Texas Rangers
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/mevent15.m3u8?md5=7SYBBFLRTHtCxWqaRSopKA&expires=1789074321
-
-#EXTINF:-1 tvg-chno="6" tvg-id="Soccer.Dummy.us" tvg-name="[Uefa Champions League] Bayern Munich - Bodø/Glimt (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Uefa Champions League",[Uefa Champions League] Bayern Munich - Bodø/Glimt
-#EXTVLCOPT:http-referrer=https://exposestrat.com/
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/mevent14.m3u8?md5=URjIdcWiUmEbWhCihDJfEA&expires=1789074322
-
-#EXTINF:-1 tvg-chno="7" tvg-id="Soccer.Dummy.us" tvg-name="[Uefa Champions League] Slavia Prague - Lens (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Uefa Champions League",[Uefa Champions League] Slavia Prague - Lens
-#EXTVLCOPT:http-referrer=https://exposestrat.com/
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/mevent13.m3u8?md5=KzqJe3FzF36KWMiB8ddnvg&expires=1789074323
-
-#EXTINF:-1 tvg-chno="8" tvg-id="Soccer.Dummy.us" tvg-name="[Uefa Champions League] Como - RB Leipzig (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Uefa Champions League",[Uefa Champions League] Como - RB Leipzig
-#EXTVLCOPT:http-referrer=https://exposestrat.com/
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/mevent12.m3u8?md5=8WNlatiHxjHg-f0dmisVCg&expires=1789074324
+https://cdn14.zohanayaan.com:1686/hls/mseattlemariners.m3u8?md5=V0Ttpp218zAR_gDDdfXW9Q&expires=1789083977
 
