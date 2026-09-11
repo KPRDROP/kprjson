@@ -11,8 +11,6 @@ https://video2.getstreamhosting.com:19360/8216/8216.m3u8|user-agent=Mozilla%2F5.
 https://627bb251f23c7.streamlock.net:444/CDMInternacional/CDMInternacional/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="2E1QCHJTYwtjGg" tvg-name="DeFiance Media" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", DeFiance Media (PR)
 https://amg01529-defiancetv-defiancemedia-glewed-tre8x.amagi.tv/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
-#EXTINF:-1 tvg-id="bD45kzyCkGUkuS" tvg-name="Familia Vision HD" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Familia Vision HD (PR)
-https://584097344c1f0.streamlock.net/29/stream/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="P4mxJMVl2wyiPi" tvg-name="Faro de Santidad TV" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Faro de Santidad TV (PR)
 https://5dbcd1053301e.streamlock.net:4443/farodesantidad/farodesantidad/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="ESeEpgafREEMIe" tvg-name="La-X" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", La-X (PR)
@@ -21,6 +19,8 @@ https://stream.eleden.com/livelax/ngrp:livelax_all/playlist.m3u8|user-agent=Mozi
 https://stream.nuevavidafm.net:3937/live/nuevavidalive.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="fxoiDSXZnOUswM" tvg-name="Paraiso TV" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Paraiso TV (PR)
 https://stream.eleden.com/livewtpm/ngrp:livewtpm_all/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
+#EXTINF:-1 tvg-id="6GzzyU1r6GXxb2" tvg-name="Pura Palabra" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Pura Palabra (PR)
+https://59825a54e4454.streamlock.net:8443/william233/william233/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="LNGJVkOrgPhVTB" tvg-name="Salvacion TV" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Salvacion TV (PR)
 https://stream.eleden.com/livesalvatv/ngrp:livesalvatv_all/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="mus49kJTQfTCmk" tvg-name="Telenorte" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Telenorte (PR)
@@ -41,8 +41,6 @@ https://streamwipr.pr/hls/stream/index.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+L
 https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="XjdAPMm3YO01Fo" tvg-name="WKAQ-TV 2.2" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", WKAQ-TV 2.2 (PR)
 https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream2/master.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
-#EXTINF:-1 tvg-id="pK67X1nTuCfVIB" tvg-name="WRUA-DT1 (Tiva TV)" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", WRUA-DT1 (Tiva TV) (PR)
-https://link.frontlayer.com/services/hls2/fl496518/index.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="zi89aJl9FoLNYA" tvg-name="WWXY-DT1 (Boricua TV)" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", WWXY-DT1 (Boricua TV) (PR)
 https://2-fss-2.streamhoster.com/pl_138/amlst:201284-1347630/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="IiR71uuMJmqUVL" tvg-name="WWXY-DT3 (Maranatha Radio Ministries)" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", WWXY-DT3 (Maranatha Radio Ministries) (PR)
