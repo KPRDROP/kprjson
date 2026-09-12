@@ -1,7 +1,58 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-09-12 11:59 UTC
-# Total Streams: 1
+# Last Updated: 2026-09-12 14:53 UTC
+# Total Streams: 18
 
-#EXTINF:-1 tvg-chno="1" tvg-id="Racing.Dummy.us" tvg-name="[F1] TAG HEUER SPANISH GP Formula 1 Gran Premio De España 2026 SEP 11 - 13 2026 ROUND 8 (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] TAG HEUER SPANISH GP Formula 1 Gran Premio De España 2026 SEP 11 - 13 2026 ROUND 8 (SPFIT)
-https://s3.us-east-1.amazonaws.com/shelest.stanislav/boxing.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] C Palace Today at 2:00 PM vs Ipswich (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] C Palace Today at 2:00 PM vs Ipswich (SPFIT)
+https://storage.googleapis.com/surgestream/nbcsn/mux_video_ts/index-1.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Aston Villa Today at 2:00 PM vs Nottm Forest (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Aston Villa Today at 2:00 PM vs Nottm Forest (SPFIT)
+https://storage.googleapis.com/surgestream/main/mux_video_ts/index-1.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Chelsea Today at 2:00 PM vs Hull (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Chelsea Today at 2:00 PM vs Hull (SPFIT)
+https://storage.googleapis.com/surgestream/blues/mux_video_ts/index-1.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Bournemouth Today at 2:00 PM vs Brentford (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Bournemouth Today at 2:00 PM vs Brentford (SPFIT)
+https://storage.googleapis.com/surgestream/nflnw/mux_video_ts/index-1.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="5" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Liverpool Today at 2:00 PM vs Fulham (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Liverpool Today at 2:00 PM vs Fulham (SPFIT)
+https://storage.googleapis.com/surgestream/skysport/mux_video_ts/index-1.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="6" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Spurs Today at 4:30 PM vs Everton (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Spurs Today at 4:30 PM vs Everton (SPFIT)
+https://storage.googleapis.com/surgestream/blues/mux_video_ts/index-1.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="7" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Sunderland Today at 7:00 PM vs Arsenal (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Sunderland Today at 7:00 PM vs Arsenal (SPFIT)
+https://storage.googleapis.com/surgestream/blues/mux_video_ts/index-1.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="8" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Real Madrid Today at 7:00 PM vs Rayo (SPFIT)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Real Madrid Today at 7:00 PM vs Rayo (SPFIT)
+https://storage.googleapis.com/surgestream/blues/mux_video_ts/index-1.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="9" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Colorado Rockies Today at 5:10 PM vs Detroit Tigers (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Colorado Rockies Today at 5:10 PM vs Detroit Tigers (SPFIT)
+https://matchup-media-prod.s3.us-east-1.amazonaws.com/tigers.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="10" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] San Diego Padres Today at 8:05 PM vs San Francisco Giants (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] San Diego Padres Today at 8:05 PM vs San Francisco Giants (SPFIT)
+https://matchup-media-prod.s3.us-east-1.amazonaws.com/padres.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="11" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Cleveland Guardians Today at 8:10 PM vs Minnesota Twins (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Cleveland Guardians Today at 8:10 PM vs Minnesota Twins (SPFIT)
+https://matchup-media-prod.s3.us-east-1.amazonaws.com/twins.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="12" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Dodgers Today at 8:10 PM vs Miami Marlins (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Los Angeles Dodgers Today at 8:10 PM vs Miami Marlins (SPFIT)
+https://matchup-media-prod.s3.us-east-1.amazonaws.com/dodgers.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="13" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Philadelphia Phillies Today at 11:15 PM vs Atlanta Braves (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Philadelphia Phillies Today at 11:15 PM vs Atlanta Braves (SPFIT)
+https://matchup-media-prod.s3.us-east-1.amazonaws.com/phillies.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="14" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Texas Rangers Tomorrow at 12:10 AM vs Arizona Diamondbacks (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Texas Rangers Tomorrow at 12:10 AM vs Arizona Diamondbacks (SPFIT)
+https://matchup-media-prod.s3.us-east-1.amazonaws.com/rangers.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="15" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Seattle Mariners Tomorrow at 1:40 AM vs Athletics (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Seattle Mariners Tomorrow at 1:40 AM vs Athletics (SPFIT)
+https://matchup-media-prod.s3.us-east-1.amazonaws.com/mariners.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="16" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Chicago White Sox Today at 11:15 PM vs St. Louis Cardinals (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Chicago White Sox Today at 11:15 PM vs St. Louis Cardinals (SPFIT)
+https://matchup-media-prod.s3.us-east-1.amazonaws.com/whitesox.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="17" tvg-id="Baseball.Dummy.us" tvg-name="[MLB] Cincinnati Reds Today at 11:10 PM vs Milwaukee Brewers (SPFIT)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[MLB] Cincinnati Reds Today at 11:10 PM vs Milwaukee Brewers (SPFIT)
+https://matchup-media-prod.s3.us-east-1.amazonaws.com/reds.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="18" tvg-id="Racing.Dummy.us" tvg-name="[F1] TAG HEUER SPANISH GP Formula 1 Gran Premio De España 2026 SEP 11 - 13 2026 ROUND 8 (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] TAG HEUER SPANISH GP Formula 1 Gran Premio De España 2026 SEP 11 - 13 2026 ROUND 8 (SPFIT)
+https://storage.googleapis.com/surgestream/f1/mux_video_ts/index-1.m3u8|referer=https://sportspass.shop/|origin=https://sportspass.shop|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
