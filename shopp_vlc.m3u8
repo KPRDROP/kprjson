@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-09-13 21:54 UTC
+# Last Updated: 2026-09-13 23:45 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] NFL Redzone Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] NFL Redzone Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -85,37 +85,19 @@ https://iptvstream.dlhd.net/src=KCBS/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/src=KCBS/index.m3u8
 
-#EXTINF:-1 tvg-chno="15" tvg-id="stream_1" tvg-name="[Live Event] Real Sociedad vs Atlético Madrid Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Real Sociedad vs Atlético Madrid Stream 1 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://live-espn-ftc-na-central-1.media.dssott.com/dvt2=exp=1789410615~url=%2Flas1%2Fva01%2Fdisneyplus%2Fevent%2F2026%2F09%2F13%2FReal_Sociedad_vs_Atletico_20260913_1789318853025%2F~psid=8a68f2f0-0fdc-4bb3-add9-3d0badfe1037~aid=9b763fff-db87-47eb-a38b-f5950d7d92c1~did=32e0b702-df5e-4fe8-96cd-ddc6b963f11a~country=US~kid=k02~hmac=a66b7c37f870b63add802e47132a963c6b579700ba4f0dd1ddc46cff94337eb7/las1/va01/disneyplus/event/2026/09/13/Real_Sociedad_vs_Atletico_20260913_1789318853025/aac-1-cmaf-128K/128_hdri_slide.m3u8
-
-#EXTINF:-1 tvg-chno="16" tvg-id="stream_2" tvg-name="[Live Event] Real Sociedad vs Atlético Madrid Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Real Sociedad vs Atlético Madrid Stream 2 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://live-espn-ftc-na-central-1.media.dssott.com/dvt2=exp=1789410615~url=%2Flas1%2Fva01%2Fdisneyplus%2Fevent%2F2026%2F09%2F13%2FReal_Sociedad_vs_Atletico_20260913_1789318853025%2F~psid=8a68f2f0-0fdc-4bb3-add9-3d0badfe1037~aid=9b763fff-db87-47eb-a38b-f5950d7d92c1~did=32e0b702-df5e-4fe8-96cd-ddc6b963f11a~country=US~kid=k02~hmac=a66b7c37f870b63add802e47132a963c6b579700ba4f0dd1ddc46cff94337eb7/las1/va01/disneyplus/event/2026/09/13/Real_Sociedad_vs_Atletico_20260913_1789318853025/cmaf-cenc-ctr-7000K/7000_hdri_slide.m3u8
-
-#EXTINF:-1 tvg-chno="17" tvg-id="stream_3" tvg-name="[Live Event] Real Sociedad vs Atlético Madrid Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Real Sociedad vs Atlético Madrid Stream 3 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://live-espn-ftc-na-central-1.media.dssott.com/dvt2=exp=1789410615~url=%2Flas1%2Fva01%2Fdisneyplus%2Fevent%2F2026%2F09%2F13%2FReal_Sociedad_vs_Atletico_20260913_1789318853025%2F~psid=8a68f2f0-0fdc-4bb3-add9-3d0badfe1037~aid=9b763fff-db87-47eb-a38b-f5950d7d92c1~did=32e0b702-df5e-4fe8-96cd-ddc6b963f11a~country=US~kid=k02~hmac=a66b7c37f870b63add802e47132a963c6b579700ba4f0dd1ddc46cff94337eb7/las1/va01/disneyplus/event/2026/09/13/Real_Sociedad_vs_Atletico_20260913_1789318853025/ctr-all-hdri-sliding.m3u8
-
-#EXTINF:-1 tvg-chno="18" tvg-id="stream_1" tvg-name="[Live Event] Alexander Zverev vs Ben Shelton Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Alexander Zverev vs Ben Shelton Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="15" tvg-id="stream_1" tvg-name="[Live Event] Alexander Zverev vs Ben Shelton Stream 1 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Alexander Zverev vs Ben Shelton Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://fishing342.b-cdn.net/1/${streamId}/mono.ts.m3u8
 
-#EXTINF:-1 tvg-chno="19" tvg-id="stream_2" tvg-name="[Live Event] Alexander Zverev vs Ben Shelton Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Alexander Zverev vs Ben Shelton Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="16" tvg-id="stream_2" tvg-name="[Live Event] Alexander Zverev vs Ben Shelton Stream 2 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Alexander Zverev vs Ben Shelton Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://fishing342.b-cdn.net/1/ABC/mono.ts.m3u8
 
-#EXTINF:-1 tvg-chno="20" tvg-id="stream_3" tvg-name="[Live Event] Alexander Zverev vs Ben Shelton Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Alexander Zverev vs Ben Shelton Stream 3 (SHOPP)
+#EXTINF:-1 tvg-chno="17" tvg-id="stream_3" tvg-name="[Live Event] Alexander Zverev vs Ben Shelton Stream 3 (SHOPP)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Alexander Zverev vs Ben Shelton Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
