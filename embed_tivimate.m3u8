@@ -1,4 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Leeds United - Newcastle United (EMBEDTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Premier League",[Premier League] Leeds United - Newcastle United (EMBEDTV)
-https://lb11.strmd.st/secure/UQpdLibIDFymSoRrMJBtQrgmsrZqzkHr/ingest/stream/nleedsunited/1/playlist.m3u8|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/131.0.0.0%20Safari/537.36
+#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Cincinnati Reds - Los Angeles Dodgers (EMBEDTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Cincinnati Reds - Los Angeles Dodgers (EMBEDTV)
+https://lb19.strmd.st/secure/sdJYZSauJafriMYeoZyRwCQUtNmeQuyH/ingest/stream/mcincinnatireds/1/playlist.m3u8|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/131.0.0.0%20Safari/537.36
+
+#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Cleveland Guardians - Chicago White Sox (EMBEDTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Cleveland Guardians - Chicago White Sox (EMBEDTV)
+https://lb19.strmd.st/secure/jcAQglRfqImQZSFTduSJjwBBRRwCTKvU/ingest/stream/mclevelandguardians/1/playlist.m3u8|referer=https://exposestrat.com/|origin=https://exposestrat.com|user-agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/131.0.0.0%20Safari/537.36
 
