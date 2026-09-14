@@ -1,42 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Seattle Mariners vs Athletics (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Seattle Mariners vs Athletics (SPORTir)
-#EXTVLCOPT:http-referrer=https://mlb24all.ir
-#EXTVLCOPT:http-origin=https://mlb24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-8bba18be.4587.website/6aa79edc.57051e9di4fb8f943.ea64.5d9e81b7/free.live.espn/master.m3u8
-
-#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Kansas City Royals vs Boston Red Sox (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Kansas City Royals vs Boston Red Sox (SPORTir)
-#EXTVLCOPT:http-referrer=https://mlb24all.ir
-#EXTVLCOPT:http-origin=https://mlb24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-9b5feb01.4587.website/6aa79edc.387878e3i4fb8f943.ea18.90f7e390/free.live.espn/master.m3u8
-
-#EXTINF:-1 tvg-chno="3" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Miami Dolphins vs Las Vegas Raiders (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Miami Dolphins vs Las Vegas Raiders (SPORTir)
+#EXTINF:-1 tvg-chno="1" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Dallas Cowboys vs New York Giants (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Dallas Cowboys vs New York Giants (SPORTir)
 #EXTVLCOPT:http-referrer=https://nfl24all.ir
 #EXTVLCOPT:http-origin=https://nfl24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-f6ba8d9f.4587.website/6aa79edd.14a64b8ei4fb8f943.d246.61bf31f1/free.live.nfl/master.m3u8
-
-#EXTINF:-1 tvg-chno="4" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Washington Commanders vs Philadelphia Eagles (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Washington Commanders vs Philadelphia Eagles (SPORTir)
-#EXTVLCOPT:http-referrer=https://nfl24all.ir
-#EXTVLCOPT:http-origin=https://nfl24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-f6ba8d9f.4587.website/6aa79edd.b6ddf03ci4fb8f943.d24f.b829dea3/free.live.nfl/master.m3u8
-
-#EXTINF:-1 tvg-chno="5" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Arizona Cardinals vs Los Angeles Chargers (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Arizona Cardinals vs Los Angeles Chargers (SPORTir)
-#EXTVLCOPT:http-referrer=https://nfl24all.ir
-#EXTVLCOPT:http-origin=https://nfl24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-f6ba8d9f.4587.website/6aa79ede.06a83b9bi4fb8f943.d242.bfce5026/free.live.nfl/master.m3u8
-
-#EXTINF:-1 tvg-chno="6" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Dallas Cowboys vs New York Giants (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Dallas Cowboys vs New York Giants (SPORTir)
-#EXTVLCOPT:http-referrer=https://nfl24all.ir
-#EXTVLCOPT:http-origin=https://nfl24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-b351e589.4587.website/6aa79ede.fa7c864di4fb8f943.d257.71be5894/free.live.nfl/master.m3u8
-
-#EXTINF:-1 tvg-chno="7" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Green Bay Packers vs Minnesota Vikings (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Green Bay Packers vs Minnesota Vikings (SPORTir)
-#EXTVLCOPT:http-referrer=https://nfl24all.ir
-#EXTVLCOPT:http-origin=https://nfl24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-f6ba8d9f.4587.website/6aa79ede.ab3eb04di4fb8f943.d24b.1b00a3e7/free.live.nfl/master.m3u8
+https://node-025d151e.4587.website/6aa7bb1d.83721a17i17b3cd44.d257.e0b32a7a/free.live.nfl/master.m3u8
