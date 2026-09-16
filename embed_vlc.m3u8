@@ -3,71 +3,95 @@
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb1.strmd.st/secure/SOQyvuBnNIjNUpWNQyQtoOyBvbRpsJzV/ingest/stream/mpittsburghpirates/1/playlist.m3u8
+https://lb17.strmd.st/secure/CCcxFIYNttZOqkZMOZrlzKtFbrzxKozB/ingest/stream/mpittsburghpirates/1/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Tampa Bay Rays - Athletics (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Tampa Bay Rays - Athletics
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb1.strmd.st/secure/AYdQtPPvxGQrxUISdvBYrnMmRSEcdAJu/ingest/stream/mtampabayrays/1/playlist.m3u8
+https://lb17.strmd.st/secure/SdZmWRJkffuycdPNPsnxuoZUhOcHjaCi/ingest/stream/mtampabayrays/1/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Cleveland Guardians - Chicago White Sox (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Cleveland Guardians - Chicago White Sox
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb12.strmd.st/secure/njFOxDPNeAdEbbOROWYxdsYYTjaveOhV/ingest/stream/mclevelandguardians/1/playlist.m3u8
+https://lb17.strmd.st/secure/cMchtgnlVwVGTbHCxVeSRSbqHBimKfgf/ingest/stream/mclevelandguardians/1/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Cincinnati Reds - Los Angeles Dodgers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Cincinnati Reds - Los Angeles Dodgers
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb12.strmd.st/secure/xmzeoPCrHdQHpRnBLiOwEKMNSgbqTlLd/ingest/stream/mcincinnatireds/1/playlist.m3u8
+https://lb17.strmd.st/secure/JDAiodXnxSoYbZbQsPXtkwODZWxrgDTb/ingest/stream/mcincinnatireds/1/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Washington Nationals - Philadelphia Phillies (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Washington Nationals - Philadelphia Phillies
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb12.strmd.st/secure/eypkmWOmiMpROTthgNTfFPKfqQBhNeIt/ingest/stream/mwashingtonnationals/1/playlist.m3u8
+https://lb17.strmd.st/secure/LbbXSfJesVyfpQTHSSnPELIRSxqoiWFh/ingest/stream/mwashingtonnationals/1/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Toronto Blue Jays - Detroit Tigers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Toronto Blue Jays - Detroit Tigers
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb12.strmd.st/secure/RbAuggZREzaDoiDOGlCpEbTiIieTpQbj/ingest/stream/mtorontobluejays/1/playlist.m3u8
+https://lb13.strmd.st/secure/WWZEnMBjimSDLaIDVgNewnyYEJLACFij/ingest/stream/mtorontobluejays/1/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Mets - Baltimore Orioles (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] New York Mets - Baltimore Orioles
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb12.strmd.st/secure/pUFgBTknIiTDhJWXXJqpMOpiJDSSDIRa/ingest/stream/mnewyorkmets/1/playlist.m3u8
+https://lb13.strmd.st/secure/wRcCmxOQJiKHADILLnRHWdvZrxbIYhAZ/ingest/stream/mnewyorkmets/1/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="8" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs - Atlanta Braves (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Chicago Cubs - Atlanta Braves
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb12.strmd.st/secure/dRiWtxufinnyxVUFifsRHMdHfwlZaBXw/ingest/stream/mchicagocubs/1/playlist.m3u8
+https://lb13.strmd.st/secure/QwCRQVWjFPzslywotSMVBbRXpkkPbnkm/ingest/stream/mchicagocubs/1/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="9" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Minnesota Twins - New York Yankees (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Minnesota Twins - New York Yankees
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb3.strmd.st/secure/RnPOFrprBbtqVbgPOwuFmGYsqobZAFJH/ingest/stream/mminnesotatwins/1/playlist.m3u8
+https://lb13.strmd.st/secure/gedkYmgUVMyYdNspXHDNILUDcRzLbaul/ingest/stream/mminnesotatwins/1/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="10" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] St. Louis Cardinals - San Francisco Giants (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] St. Louis Cardinals - San Francisco Giants
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb3.strmd.st/secure/LsTTibIHsQCqLhOEGsRQzsbgieZYotcM/ingest/stream/mstlouiscardinals/1/playlist.m3u8
+https://lb13.strmd.st/secure/AlXvvlhjWfNvxpsxffHUUZkgbRQpqcXZ/ingest/stream/mstlouiscardinals/1/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="11" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Texas Rangers - Boston Red Sox (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Texas Rangers - Boston Red Sox
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb3.strmd.st/secure/nVRHjchnaDybgvGvDAKTqaneLkQByPcv/ingest/stream/mtexasrangers/1/playlist.m3u8
+https://lb13.strmd.st/secure/seLotOlrQBMypGqQuFVjFDeVMeQLGcWd/ingest/stream/mtexasrangers/1/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="12" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Houston Astros - Kansas City Royals (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Houston Astros - Kansas City Royals
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb3.strmd.st/secure/EMgSSeQEGBZyCZtSHCBKSaYsCqeaDbfQ/ingest/stream/mhoustonastros/1/playlist.m3u8
+https://lb7.strmd.st/secure/cPgsMBSnajMIOHEMBUwdXLzgQDwYFqqI/ingest/stream/mhoustonastros/1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="13" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Colorado Rockies - San Diego Padres (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Colorado Rockies - San Diego Padres
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lb7.strmd.st/secure/KJiAHxNjDyxTBHKXWKeUggyiBTKoJnlO/ingest/stream/mcoloradorockies/1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="14" tvg-id="UFC.247.Dummy.us" tvg-name="[UFC] Dana White's Contender Series: Season 10, Week 6 (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2017/06/Logo-UFC-500x313.png" group-title="UFC",[UFC] Dana White's Contender Series: Season 10 Week 6
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lb7.strmd.st/secure/BjwiNLxEaxMMVnEEcCdUmMyHjsWFEIsO/ingest/stream/mevent1/1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="15" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Angels - Seattle Mariners (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Los Angeles Angels - Seattle Mariners
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lb7.strmd.st/secure/zwonrSRweBvakQjxfPPuVmecKhXKUntl/ingest/stream/mlosangelesangels/1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="16" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Arizona Diamondbacks - Miami Marlins (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Arizona Diamondbacks - Miami Marlins
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lb7.strmd.st/secure/dagiRhYJBGrHHYPcIEbDeILemNbofdoV/ingest/stream/marizonadiamondbacks/1/playlist.m3u8
 
