@@ -17,6 +17,8 @@ https://5dbcd1053301e.streamlock.net:4443/farodesantidad/farodesantidad/playlist
 https://stream.eleden.com/livelax/ngrp:livelax_all/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="7W5fz3owCOtino" tvg-name="Nueva Vida FM" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Nueva Vida FM (PR)
 https://stream.nuevavidafm.net:3937/live/nuevavidalive.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
+#EXTINF:-1 tvg-id="fxoiDSXZnOUswM" tvg-name="Paraiso TV" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Paraiso TV (PR)
+https://stream.eleden.com/livewtpm/ngrp:livewtpm_all/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="6GzzyU1r6GXxb2" tvg-name="Pura Palabra" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Pura Palabra (PR)
 https://59825a54e4454.streamlock.net:8443/william233/william233/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="LNGJVkOrgPhVTB" tvg-name="Salvacion TV" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", Salvacion TV (PR)
