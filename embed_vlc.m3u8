@@ -1,25 +1,67 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Bournemouth - Liverpool (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Premier League",[Premier League] Bournemouth - Liverpool
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Fulham - Manchester United (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Premier League",[Premier League] Fulham - Manchester United
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb19.strmd.st/secure/czTMpDFjUwAsjdXaEUenbyjzJfsoFFjy/ingest/stream/nafcbournemouth/1/playlist.m3u8
+https://lb6.strmd.st/secure/vrlIRPIgXFdaQFSmnpNYZuLepRdhctzY/ingest/stream/nfulham/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Manchester City - Sunderland (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Premier League",[Premier League] Manchester City - Sunderland
+#EXTINF:-1 tvg-chno="2" tvg-id="Football.Dummy.us" tvg-name="[NFL] NFL vs RedZone (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="NFL",[NFL] NFL vs RedZone
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb19.strmd.st/secure/pqGoPEKRnKtwXZomyIIVUDJlowGnAEJS/ingest/stream/nmanchestercity/1/playlist.m3u8
+https://lb6.strmd.st/secure/oCQYaDmteBlEHwYevnrsdAtEfuxdWItC/ingest/stream/nnflredzone/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Leeds United - Crystal Palace (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Premier League",[Premier League] Leeds United - Crystal Palace
+#EXTINF:-1 tvg-chno="3" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Atlanta Falcons - Carolina Panthers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Atlanta Falcons - Carolina Panthers
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb8.strmd.st/secure/caejddciabjASUXuvuUnyxRqnoauYrLf/ingest/stream/nleedsunited/1/playlist.m3u8
+https://lb6.strmd.st/secure/DxeskamBzqHKovUOsvDWEqteqRiKtIPL/ingest/stream/matlantafalcons/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[LA Liga] Atletico Madrid - Real Madrid (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="LA Liga",[LA Liga] Atletico Madrid - Real Madrid
+#EXTINF:-1 tvg-chno="4" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Chicago Bears - Minnesota Vikings (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Chicago Bears - Minnesota Vikings
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb8.strmd.st/secure/SyzkzpOQJGnmDqWsvfwVVbsMUjWWFNZC/ingest/stream/nrealmadrid/1/playlist.m3u8
+https://lb3.strmd.st/secure/MEQIyfJIaghTCWLTUdWtFbtcAVPJEzwU/ingest/stream/mchicagobears/1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="5" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Tennessee Titans - Philadelphia Eagles (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Tennessee Titans - Philadelphia Eagles
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lb3.strmd.st/secure/wSeeQBIOzmLKlNIxryoPhiEmizmIFaLw/ingest/stream/mtennesseetitans/1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="6" tvg-id="NFL.Dummy.us" tvg-name="[NFL] New England Patriots - Pittsburgh Steelers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] New England Patriots - Pittsburgh Steelers
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lb3.strmd.st/secure/ikUZFuXFtlLYTuqHOYBibGBeDzOYYPBD/ingest/stream/mnewenglandpatriots/1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="7" tvg-id="NFL.Dummy.us" tvg-name="[NFL] New York Jets - Green Bay Packers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] New York Jets - Green Bay Packers
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lb3.strmd.st/secure/gnogYigUvBtMYYLjeuzeSCadvCCXYczR/ingest/stream/mnewyorkjets/1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="8" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Tampa Bay Buccaneers - Cleveland Browns (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Tampa Bay Buccaneers - Cleveland Browns
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lb4.strmd.st/secure/gvnEoNbmeNsJDrcpoTEPWMdwKYnAehEZ/ingest/stream/mtampabaybuccaneers/1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="9" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Baltimore Ravens - New Orleans Saints (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Baltimore Ravens - New Orleans Saints
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lb4.strmd.st/secure/DYemZqsStpeaVDqOqGvgvQPtLVHYikFp/ingest/stream/mbaltimoreravens/1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="10" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Houston Texans - Cincinnati Bengals (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Houston Texans - Cincinnati Bengals
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lb4.strmd.st/secure/SJTFZHPDSEbOpVMvXXSiiPmjthAQqrlr/ingest/stream/mhoustontexans/1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="11" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] New Jersey Devils - New York Islanders (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] New Jersey Devils - New York Islanders
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lb4.strmd.st/secure/DweWglubymJwXQjGvZgLlQWAtaeEYxXK/ingest/stream/mnewjerseydevils/1/playlist.m3u8
 
