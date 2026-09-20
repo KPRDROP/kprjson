@@ -19,7 +19,7 @@ TAG = "SPFIT"
 
 CACHE_FILE = Cache(TAG, exp=28_800)
 
-BASE_URL = "https://streamseast.eu"
+BASE_URL = "https://streamseast.me"
 #"https://streamseast.me"
 
 # Output files
