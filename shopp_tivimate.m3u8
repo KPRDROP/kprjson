@@ -1,24 +1,12 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-09-20 22:00 UTC
+# Last Updated: 2026-09-20 23:49 UTC
 
-#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] NFL RedZone Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] NFL RedZone Stream 1 (SHOPP)
-https://iptvstream.dlhd.net/REDZONE/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Indianapolis Colts vs Kansas City Chiefs Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Indianapolis Colts vs Kansas City Chiefs Stream 1 (SHOPP)
+https://iptvstream.dlhd.net/WNBC/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Cleveland Browns vs Tampa Bay Buccaneers (Delayed) Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Cleveland Browns vs Tampa Bay Buccaneers (Delayed) Stream 1 (SHOPP)
-https://iptvstream.dlhd.net/WBNS/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Inter Miami vs San Diego Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Inter Miami vs San Diego Stream 1 (SHOPP)
+https://iptvstream.dlhd.net/mls-1/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Jacksonville Jaguars vs Denver Broncos Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Jacksonville Jaguars vs Denver Broncos Stream 1 (SHOPP)
-https://iptvstream.dlhd.net/WCBS/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] Las Vegas Raiders vs Los Angeles Chargers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Las Vegas Raiders vs Los Angeles Chargers Stream 1 (SHOPP)
-https://iptvstream.dlhd.net/KCBS/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] Washington Commanders vs Dallas Cowboys Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Washington Commanders vs Dallas Cowboys Stream 1 (SHOPP)
-https://iptvstream.dlhd.net/WPGH/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="6" tvg-id="stream_1" tvg-name="[Live Event] Seattle Seahawks vs Arizona Cardinals Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Seattle Seahawks vs Arizona Cardinals Stream 1 (SHOPP)
-https://iptvstream.dlhd.net/KLSR/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] Miami Dolphins vs San Francisco 49ers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Miami Dolphins vs San Francisco 49ers Stream 1 (SHOPP)
-https://iptvstream.dlhd.net/KVVU/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="3" tvg-id="stream_2" tvg-name="[Live Event] Inter Miami vs San Diego Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Inter Miami vs San Diego Stream 2 (SHOPP)
+https://iptvstream.dlhd.net/mls-1es/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
 
