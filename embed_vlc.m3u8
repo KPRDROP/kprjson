@@ -1,25 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Rice Owls - Fresno State Bulldogs (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Rice Owls - Fresno State Bulldogs
+#EXTINF:-1 tvg-chno="1" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Boxing] Inoue - Nasukawa 2 (EMBED)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Boxing",[Boxing] Inoue - Nasukawa 2
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb17.strmd.st/secure/hvxezPbTlSvvDFGjWEInloeTkVEHhSSg/ingest/stream/ncwnet/1/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="2" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Georgia Tech Yellow Jackets - Stanford Cardinal (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Georgia Tech Yellow Jackets - Stanford Cardinal
-#EXTVLCOPT:http-referrer=https://exposestrat.com/
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb17.strmd.st/secure/vSbLrSEOcOYBACRogINiKnLPRvDPhUgp/ingest/stream/nespnhd/1/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="3" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Air Force Falcons - Nevada Wolf Pack (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Air Force Falcons - Nevada Wolf Pack
-#EXTVLCOPT:http-referrer=https://exposestrat.com/
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb3.strmd.st/secure/pJlfPnyfgXdCQeAbUVSfyTmdFGcQCkUQ/ingest/stream/nfsonehd/1/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="4" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Minnesota Golden Gophers - Washington Huskies (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Minnesota Golden Gophers - Washington Huskies
-#EXTVLCOPT:http-referrer=https://exposestrat.com/
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb3.strmd.st/secure/RtoESnaaEGYcnboafWsoGWlBwrecwmCy/ingest/stream/nfoxhd/1/playlist.m3u8
+https://lb16.strmd.st/secure/pQZcaysLxQfXGhcWeYhwsUwJWmxEKJpf/ingest/stream/mevent1/1/playlist.m3u8
 
