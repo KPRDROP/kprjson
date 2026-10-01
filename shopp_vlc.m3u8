@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-09-30 23:16 UTC
+# Last Updated: 2026-10-01 02:41 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Philadelphia Phillies vs Atlanta Braves Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Philadelphia Phillies vs Atlanta Braves Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -37,15 +37,39 @@ https://iptvstream.dlhd.net/mlb-pea/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/mlb-pea2/index.m3u8
 
-#EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] New York Islanders vs Toronto Maple Leafs Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] New York Islanders vs Toronto Maple Leafs Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] Pittsburgh Penguins vs Philadelphia Flyers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Pittsburgh Penguins vs Philadelphia Flyers Stream 1 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/pitfeed2/index.m3u8
+
+#EXTINF:-1 tvg-chno="8" tvg-id="stream_2" tvg-name="[Live Event] Pittsburgh Penguins vs Philadelphia Flyers Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Pittsburgh Penguins vs Philadelphia Flyers Stream 2 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/tnt/index.m3u8
+
+#EXTINF:-1 tvg-chno="9" tvg-id="stream_1" tvg-name="[Live Event] New York Islanders vs Toronto Maple Leafs Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] New York Islanders vs Toronto Maple Leafs Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/nhl2a/index.m3u8
 
-#EXTINF:-1 tvg-chno="8" tvg-id="stream_2" tvg-name="[Live Event] New York Islanders vs Toronto Maple Leafs Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] New York Islanders vs Toronto Maple Leafs Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="10" tvg-id="stream_2" tvg-name="[Live Event] New York Islanders vs Toronto Maple Leafs Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] New York Islanders vs Toronto Maple Leafs Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/nhl2h/index.m3u8
+
+#EXTINF:-1 tvg-chno="11" tvg-id="stream_1" tvg-name="[Live Event] Los Angeles Kings vs Colorado Avalanche Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Los Angeles Kings vs Colorado Avalanche Stream 1 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/pitfeed2/index.m3u8
+
+#EXTINF:-1 tvg-chno="12" tvg-id="stream_2" tvg-name="[Live Event] Los Angeles Kings vs Colorado Avalanche Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Los Angeles Kings vs Colorado Avalanche Stream 2 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/tnt/index.m3u8
 
