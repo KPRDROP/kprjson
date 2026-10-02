@@ -1,37 +1,31 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Columbus Blue Jackets - Buffalo Sabres (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Columbus Blue Jackets - Buffalo Sabres
+#EXTINF:-1 tvg-chno="1" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Western Kentucky Hilltoppers - New Mexico State Aggies (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Western Kentucky Hilltoppers - New Mexico State Aggies
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb16.strmd.st/secure/yIHEqizwjZrGuEFmwVouaasNBDKDdTdQ/ingest/stream/mcolumbusbluejackets/1/playlist.m3u8
+https://lb1.strmd.st/secure/hfxXybMXTukClvHxtoxateQwsQxKqoGM/ingest/stream/ncbsn/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] New Jersey Devils - Philadelphia Flyers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] New Jersey Devils - Philadelphia Flyers
+#EXTINF:-1 tvg-chno="2" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] San Jose Sharks - Florida Panthers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] San Jose Sharks - Florida Panthers
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb16.strmd.st/secure/WRtqKWWJAdhzjSGZPbtPSwMqlLHWLIlF/ingest/stream/mnewjerseydevils/1/playlist.m3u8
+https://lb2.strmd.st/secure/FsvusntbETtdtVgYOqdaJdLFfxnjmuwG/ingest/stream/msanjosesharks/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] New York Rangers - Tampa Bay Lightning (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] New York Rangers - Tampa Bay Lightning
+#EXTINF:-1 tvg-chno="3" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Vancouver Canucks - Edmonton Oilers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Vancouver Canucks - Edmonton Oilers
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb16.strmd.st/secure/NQZeEQAodMNVMWPllHFdtmXakPSlpvMV/ingest/stream/mnewyorkrangers/1/playlist.m3u8
+https://lb2.strmd.st/secure/hwIxACyJGPQJIzYkRhPXpaxhlrIErbDG/ingest/stream/mvancouvercanucks/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="4" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Nashville Predators - Minnesota Wild (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Nashville Predators - Minnesota Wild
+#EXTINF:-1 tvg-chno="4" tvg-id="Racing.Dummy.us" tvg-name="[Formula 1] Bahrain in Malaysia Grand Prix Practice 1 (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Formula 1",[Formula 1] Bahrain in Malaysia Grand Prix Practice 1
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb16.strmd.st/secure/GxnVCGvciLoJjKCjonJRScrlDiJZjDnM/ingest/stream/mnashvillepredators/1/playlist.m3u8
+https://lb2.strmd.st/secure/hoHyhUsuWzIXGHYzPUsSYGDeNbePrteV/ingest/stream/nskyf1hdd/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Atlanta Braves - Philadelphia Phillies (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Atlanta Braves - Philadelphia Phillies
+#EXTINF:-1 tvg-chno="5" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] North Texas Mean Green - Tulsa Golden Hurricane (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] North Texas Mean Green - Tulsa Golden Hurricane
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb12.strmd.st/secure/UwtuOzNIzeulFgMLPTbNFoSSFUHsfYjA/ingest/stream/matlantabraves/1/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="6" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Cleveland Browns - Pittsburgh Steelers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Cleveland Browns - Pittsburgh Steelers
-#EXTVLCOPT:http-referrer=https://exposestrat.com/
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb12.strmd.st/secure/gidgbnUapFnvNQEOgmeIlJcZStMQrSIQ/ingest/stream/mclevelandbrowns/1/playlist.m3u8
+https://lb2.strmd.st/secure/RSMAFghoMXGshGJZrAmkddhHpJGotXNe/ingest/stream/nespnhd/1/playlist.m3u8
 
