@@ -1,21 +1,27 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-10-03 08:38 UTC
+# Last Updated: 2026-10-03 17:50 UTC
 
-#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] RIZIN LANDMARK 16 (RIZIN.tv) (ENGLISH) Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] RIZIN LANDMARK 16 (RIZIN.tv) (ENGLISH) Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Chicago White Sox vs Cleveland Guardians Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Chicago White Sox vs Cleveland Guardians Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/mlb-nbc2/index.m3u8
+https://iptvstream.dlhd.net/mlb-feed2/index.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Anaheim Ducks vs Vegas Golden Knights Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Anaheim Ducks vs Vegas Golden Knights Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="2" tvg-id="stream_2" tvg-name="[Live Event] Chicago White Sox vs Cleveland Guardians Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Chicago White Sox vs Cleveland Guardians Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/nhl4a/index.m3u8
+https://iptvstream.dlhd.net/tbs/index.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="stream_2" tvg-name="[Live Event] Anaheim Ducks vs Vegas Golden Knights Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Anaheim Ducks vs Vegas Golden Knights Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Atlanta Braves vs Los Angeles Dodgers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Atlanta Braves vs Los Angeles Dodgers Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/nhl4h/index.m3u8
+https://iptvstream.dlhd.net/mlb-pea/index.m3u8
+
+#EXTINF:-1 tvg-chno="4" tvg-id="stream_2" tvg-name="[Live Event] Atlanta Braves vs Los Angeles Dodgers Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Atlanta Braves vs Los Angeles Dodgers Stream 2 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/mlb-pea2/index.m3u8
 
