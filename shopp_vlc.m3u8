@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-10-04 18:56 UTC
+# Last Updated: 2026-10-04 22:06 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] NFL RedZone Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] NFL RedZone Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -7,151 +7,103 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/REDZONE/index.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Dallas Cowboys vs Houston Texans Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Dallas Cowboys vs Houston Texans Stream 1 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/nfl1/index.m3u8
-
-#EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] New England Patriots vs Buffalo Bills Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] New England Patriots vs Buffalo Bills Stream 1 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/nfl2/index.m3u8
-
-#EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] New York Jets vs Chicago Bears Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] New York Jets vs Chicago Bears Stream 1 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/nfl3/index.m3u8
-
-#EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] Jacksonville Jaguars vs Cincinnati Bengals Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Jacksonville Jaguars vs Cincinnati Bengals Stream 1 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/nfl4/index.m3u8
-
-#EXTINF:-1 tvg-chno="6" tvg-id="stream_1" tvg-name="[Live Event] Arizona Cardinals vs New York Giants Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Arizona Cardinals vs New York Giants Stream 1 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/nfl5/index.m3u8
-
-#EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] Los Angeles Rams vs Philadelphia Eagles Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Los Angeles Rams vs Philadelphia Eagles Stream 1 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/nfl6/index.m3u8
-
-#EXTINF:-1 tvg-chno="8" tvg-id="stream_1" tvg-name="[Live Event] Green Bay Packers vs Tampa Bay Buccaneers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Green Bay Packers vs Tampa Bay Buccaneers Stream 1 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/nfl7/index.m3u8
-
-#EXTINF:-1 tvg-chno="9" tvg-id="stream_1" tvg-name="[Live Event] Tennessee Titans vs Baltimore Ravens Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Tennessee Titans vs Baltimore Ravens Stream 1 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/nfl8/index.m3u8
-
-#EXTINF:-1 tvg-chno="10" tvg-id="stream_1" tvg-name="[Live Event] Miami Dolphins vs Minnesota Vikings Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Miami Dolphins vs Minnesota Vikings Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Miami Dolphins vs Minnesota Vikings Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Miami Dolphins vs Minnesota Vikings Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/nfl9/index.m3u8
 
-#EXTINF:-1 tvg-chno="11" tvg-id="stream_1" tvg-name="[Live Event] Kansas City Chiefs vs Las Vegas Raiders Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Kansas City Chiefs vs Las Vegas Raiders Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Kansas City Chiefs vs Las Vegas Raiders Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Kansas City Chiefs vs Las Vegas Raiders Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/nfl10/index.m3u8
 
-#EXTINF:-1 tvg-chno="12" tvg-id="stream_1" tvg-name="[Live Event] Denver Broncos vs San Francisco 49ers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Denver Broncos vs San Francisco 49ers Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] Denver Broncos vs San Francisco 49ers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Denver Broncos vs San Francisco 49ers Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/nfl11/index.m3u8
 
-#EXTINF:-1 tvg-chno="13" tvg-id="stream_1" tvg-name="[Live Event] Los Angeles Chargers vs Seattle Seahawks Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Los Angeles Chargers vs Seattle Seahawks Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] Los Angeles Chargers vs Seattle Seahawks Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Los Angeles Chargers vs Seattle Seahawks Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/nfl12/index.m3u8
 
-#EXTINF:-1 tvg-chno="14" tvg-id="stream_1" tvg-name="[Live Event] Detroit Lions vs Carolina Panthers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Detroit Lions vs Carolina Panthers Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="6" tvg-id="stream_1" tvg-name="[Live Event] Detroit Lions vs Carolina Panthers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Detroit Lions vs Carolina Panthers Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/nfl1/index.m3u8
 
-#EXTINF:-1 tvg-chno="15" tvg-id="stream_1" tvg-name="[Live Event] San Diego Padres vs Milwaukee Brewers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] San Diego Padres vs Milwaukee Brewers Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] San Diego Padres vs Milwaukee Brewers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] San Diego Padres vs Milwaukee Brewers Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/fs1/index.m3u8
 
-#EXTINF:-1 tvg-chno="16" tvg-id="stream_2" tvg-name="[Live Event] San Diego Padres vs Milwaukee Brewers Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] San Diego Padres vs Milwaukee Brewers Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="8" tvg-id="stream_2" tvg-name="[Live Event] San Diego Padres vs Milwaukee Brewers Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] San Diego Padres vs Milwaukee Brewers Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/mlb-feed3/index.m3u8
 
-#EXTINF:-1 tvg-chno="17" tvg-id="stream_1" tvg-name="[Live Event] Atlanta Braves vs Los Angeles Dodgers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Atlanta Braves vs Los Angeles Dodgers Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="9" tvg-id="stream_1" tvg-name="[Live Event] Atlanta Braves vs Los Angeles Dodgers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Atlanta Braves vs Los Angeles Dodgers Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/fs1/index.m3u8
 
-#EXTINF:-1 tvg-chno="18" tvg-id="stream_2" tvg-name="[Live Event] Atlanta Braves vs Los Angeles Dodgers Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Atlanta Braves vs Los Angeles Dodgers Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="10" tvg-id="stream_2" tvg-name="[Live Event] Atlanta Braves vs Los Angeles Dodgers Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Atlanta Braves vs Los Angeles Dodgers Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/mlb-feed3/index.m3u8
 
-#EXTINF:-1 tvg-chno="19" tvg-id="stream_1" tvg-name="[Live Event] Chicago White Sox vs Cleveland Guardians Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Chicago White Sox vs Cleveland Guardians Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="11" tvg-id="stream_1" tvg-name="[Live Event] Chicago White Sox vs Cleveland Guardians Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Chicago White Sox vs Cleveland Guardians Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/mlb-feed2/index.m3u8
 
-#EXTINF:-1 tvg-chno="20" tvg-id="stream_2" tvg-name="[Live Event] Chicago White Sox vs Cleveland Guardians Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Chicago White Sox vs Cleveland Guardians Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="12" tvg-id="stream_2" tvg-name="[Live Event] Chicago White Sox vs Cleveland Guardians Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Chicago White Sox vs Cleveland Guardians Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/tbs/index.m3u8
 
-#EXTINF:-1 tvg-chno="21" tvg-id="stream_1" tvg-name="[Live Event] New York Yankees vs Tampa Bay Rays Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] New York Yankees vs Tampa Bay Rays Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="13" tvg-id="stream_1" tvg-name="[Live Event] New York Yankees vs Tampa Bay Rays Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] New York Yankees vs Tampa Bay Rays Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/mlb-feed2/index.m3u8
 
-#EXTINF:-1 tvg-chno="22" tvg-id="stream_2" tvg-name="[Live Event] New York Yankees vs Tampa Bay Rays Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] New York Yankees vs Tampa Bay Rays Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="14" tvg-id="stream_2" tvg-name="[Live Event] New York Yankees vs Tampa Bay Rays Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] New York Yankees vs Tampa Bay Rays Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/tbs/index.m3u8
 
-#EXTINF:-1 tvg-chno="23" tvg-id="stream_1" tvg-name="[Live Event] Utah Mammoth vs New York Rangers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Utah Mammoth vs New York Rangers Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="15" tvg-id="stream_1" tvg-name="[Live Event] Utah Mammoth vs New York Rangers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Utah Mammoth vs New York Rangers Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/nhl2h/index.m3u8
 
-#EXTINF:-1 tvg-chno="24" tvg-id="stream_1" tvg-name="[Live Event] Florida Panthers vs Anaheim Ducks Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Florida Panthers vs Anaheim Ducks Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="16" tvg-id="stream_1" tvg-name="[Live Event] Florida Panthers vs Anaheim Ducks Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Florida Panthers vs Anaheim Ducks Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/nhl3h/index.m3u8
 
-#EXTINF:-1 tvg-chno="25" tvg-id="stream_1" tvg-name="[Live Event] Calgary Flames vs Seattle Kraken Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Calgary Flames vs Seattle Kraken Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="17" tvg-id="stream_1" tvg-name="[Live Event] Calgary Flames vs Seattle Kraken Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Calgary Flames vs Seattle Kraken Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/nhl4h/index.m3u8
 
-#EXTINF:-1 tvg-chno="26" tvg-id="stream_1" tvg-name="[Live Event] Vegas Golden Knights vs Vancouver Canucks Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Vegas Golden Knights vs Vancouver Canucks Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="18" tvg-id="stream_1" tvg-name="[Live Event] Vegas Golden Knights vs Vancouver Canucks Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Vegas Golden Knights vs Vancouver Canucks Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
