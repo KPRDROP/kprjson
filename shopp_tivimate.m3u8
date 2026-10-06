@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-10-05 22:59 UTC
+# Last Updated: 2026-10-06 02:40 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Atlanta Falcons vs New Orleans Saints Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Atlanta Falcons vs New Orleans Saints Stream 1 (SHOPP)
 https://iptvstream.dlhd.net/espn/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
@@ -14,20 +14,38 @@ https://iptvstream.dlhd.net/mlb-feed2/index.m3u8|referer=https://xyzstreams.st/|
 https://iptvstream.dlhd.net/tbs/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
 
 #EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] New York Yankees vs Tampa Bay Rays Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] New York Yankees vs Tampa Bay Rays Stream 1 (SHOPP)
-https://iptvstream.dlhd.net/mlb-feed2/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
+https://iptvstream.dlhd.net/mlb-feed3/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
 
 #EXTINF:-1 tvg-chno="6" tvg-id="stream_2" tvg-name="[Live Event] New York Yankees vs Tampa Bay Rays Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] New York Yankees vs Tampa Bay Rays Stream 2 (SHOPP)
 https://iptvstream.dlhd.net/tbs/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] Philadelphia Flyers vs Tampa Bay Lightning Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Philadelphia Flyers vs Tampa Bay Lightning Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] Phoenix Suns vs Detroit Pistons Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Phoenix Suns vs Detroit Pistons Stream 1 (SHOPP)
+https://iptvstream.dlhd.net/nba2/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="8" tvg-id="stream_2" tvg-name="[Live Event] Phoenix Suns vs Detroit Pistons Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Phoenix Suns vs Detroit Pistons Stream 2 (SHOPP)
+https://iptvstream.dlhd.net/nba2a/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="9" tvg-id="stream_1" tvg-name="[Live Event] New York Knicks vs Philadelphia 76ers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] New York Knicks vs Philadelphia 76ers Stream 1 (SHOPP)
+https://iptvstream.dlhd.net/nba3/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="10" tvg-id="stream_2" tvg-name="[Live Event] New York Knicks vs Philadelphia 76ers Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] New York Knicks vs Philadelphia 76ers Stream 2 (SHOPP)
+https://iptvstream.dlhd.net/nba3a/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="11" tvg-id="stream_1" tvg-name="[Live Event] Los Angeles Lakers vs Sacramento Kings Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Los Angeles Lakers vs Sacramento Kings Stream 1 (SHOPP)
+https://iptvstream.dlhd.net/nba1/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="12" tvg-id="stream_2" tvg-name="[Live Event] Los Angeles Lakers vs Sacramento Kings Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Los Angeles Lakers vs Sacramento Kings Stream 2 (SHOPP)
+https://iptvstream.dlhd.net/nba1a/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="13" tvg-id="stream_1" tvg-name="[Live Event] Philadelphia Flyers vs Tampa Bay Lightning Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Philadelphia Flyers vs Tampa Bay Lightning Stream 1 (SHOPP)
 https://iptvstream.dlhd.net/nhl1a/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="8" tvg-id="stream_2" tvg-name="[Live Event] Philadelphia Flyers vs Tampa Bay Lightning Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Philadelphia Flyers vs Tampa Bay Lightning Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="14" tvg-id="stream_2" tvg-name="[Live Event] Philadelphia Flyers vs Tampa Bay Lightning Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Philadelphia Flyers vs Tampa Bay Lightning Stream 2 (SHOPP)
 https://iptvstream.dlhd.net/nhl1h/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="9" tvg-id="stream_1" tvg-name="[Live Event] Ottawa Senators vs Boston Bruins Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Ottawa Senators vs Boston Bruins Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="15" tvg-id="stream_1" tvg-name="[Live Event] Ottawa Senators vs Boston Bruins Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Ottawa Senators vs Boston Bruins Stream 1 (SHOPP)
 https://iptvstream.dlhd.net/nhl2a/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="10" tvg-id="stream_2" tvg-name="[Live Event] Ottawa Senators vs Boston Bruins Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Ottawa Senators vs Boston Bruins Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="16" tvg-id="stream_2" tvg-name="[Live Event] Ottawa Senators vs Boston Bruins Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Ottawa Senators vs Boston Bruins Stream 2 (SHOPP)
 https://iptvstream.dlhd.net/nhl2h/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
 
