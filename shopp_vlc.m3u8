@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-10-08 00:32 UTC
+# Last Updated: 2026-10-08 06:46 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Cleveland Guardians vs Chicago White Sox Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Cleveland Guardians vs Chicago White Sox Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
@@ -80,12 +80,6 @@ https://iptvstream.dlhd.net/nba4a/index.m3u8
 https://iptvstream.dlhd.net/nba4h/index.m3u8
 
 #EXTINF:-1 tvg-chno="14" tvg-id="stream_1" tvg-name="[Live Event] Golden State Warriors vs Portland Trail Blazers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Golden State Warriors vs Portland Trail Blazers Stream 1 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/nba5a/index.m3u8
-
-#EXTINF:-1 tvg-chno="15" tvg-id="stream_2" tvg-name="[Live Event] Golden State Warriors vs Portland Trail Blazers Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Golden State Warriors vs Portland Trail Blazers Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
