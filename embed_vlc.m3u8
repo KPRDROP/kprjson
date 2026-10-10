@@ -1,31 +1,31 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Detroit Red Wings - Seattle Kraken (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Detroit Red Wings - Seattle Kraken
+#EXTINF:-1 tvg-chno="1" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Mma/pfl/bkfc] BKFC Fight Night Cisneros - Petersen (EMBED)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Mma/pfl/bkfc",[Mma/pfl/bkfc] BKFC Fight Night Cisneros - Petersen
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb21.strmd.st/secure/LPBALirRYkJmVYpDtwRPUsRHQAEAHpVl/ingest/stream/streameddetroitredwings/1/playlist.m3u8
+https://lb3.strmd.st/secure/beeXGKEDVYIcwrYpYeHONrelIPRnFvVj/ingest/stream/streamedevent1/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Washington Capitals - New York Rangers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Washington Capitals - New York Rangers
+#EXTINF:-1 tvg-chno="2" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Washington State Cougars - Utah State Aggies (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Washington State Cougars - Utah State Aggies
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb32.strmd.st/secure/vagDxpYzAdOlYbiWYrDIwMEGoMuLseZx/ingest/stream/streamednewyorkrangers/1/playlist.m3u8
+https://lb3.strmd.st/secure/jOwuJzOOHTbnEWFfXIvpLNgzDrQNyEOt/ingest/stream/streamedcwnet/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Columbus Blue Jackets - Pittsburgh Penguins (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Columbus Blue Jackets - Pittsburgh Penguins
+#EXTINF:-1 tvg-chno="3" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Wyoming Cowboys - San Jose State Spartans (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Wyoming Cowboys - San Jose State Spartans
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb32.strmd.st/secure/OkLgqRCJulyubnRWOmIJoezOOyoqSLkr/ingest/stream/streamedcolumbusbluejackets/1/playlist.m3u8
+https://lb3.strmd.st/secure/oVQrJWiQqMbDMotjxLJsAYufTRhVRxXX/ingest/stream/streamedcbsn/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="4" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Chicago Bulls - Memphis Grizzlies (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="NBA",[NBA] Chicago Bulls - Memphis Grizzlies
+#EXTINF:-1 tvg-chno="4" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Boxing] Castillo - Zarate (EMBED)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Boxing",[Boxing] Castillo - Zarate
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb32.strmd.st/secure/qjaDSGTVoDFtFBVddmALKFayNTqyheIN/ingest/stream/streamedchicagobulls/1/playlist.m3u8
+https://lb4.strmd.st/secure/CwpDtucojdXvSfeGpNbWgwRUUmVLvFEl/ingest/stream/streamedevent2/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Winnipeg Jets - Anaheim Ducks (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Winnipeg Jets - Anaheim Ducks
+#EXTINF:-1 tvg-chno="5" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Iowa State Cyclones - BYU Cougars (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Iowa State Cyclones - BYU Cougars
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb32.strmd.st/secure/KKSsuNfhBnoNxvUxIDNEzicTmszZhsny/ingest/stream/streamedmanheimducks/1/playlist.m3u8
+https://lb4.strmd.st/secure/mQFIfmhCJWZRbDXDSOvChHMrwxPrpCYn/ingest/stream/streamedespnhd/1/playlist.m3u8
 
