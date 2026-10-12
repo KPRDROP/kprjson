@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-10-12 02:52 UTC
+# Last Updated: 2026-10-12 09:53 UTC
 
 #EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Baltimore Ravens vs Atlanta Falcons Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Baltimore Ravens vs Atlanta Falcons Stream 1 (SHOPP)
 https://iptvstream.dlhd.net/nfl1/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
@@ -10,24 +10,24 @@ https://iptvstream.dlhd.net/fox/index.m3u8|referer=https://xyzstreams.st/|origin
 #EXTINF:-1 tvg-chno="3" tvg-id="stream_2" tvg-name="[Live Event] Los Angeles Dodgers vs Milwaukee Brewers Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Los Angeles Dodgers vs Milwaukee Brewers Stream 2 (SHOPP)
 https://iptvstream.dlhd.net/mlb-feed3/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] Chicago Bulls vs Denver Nuggets Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Chicago Bulls vs Denver Nuggets Stream 1 (SHOPP)
-https://iptvstream.dlhd.net/nba3a/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="5" tvg-id="stream_2" tvg-name="[Live Event] Chicago Bulls vs Denver Nuggets Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Chicago Bulls vs Denver Nuggets Stream 2 (SHOPP)
-https://iptvstream.dlhd.net/nba3h/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="6" tvg-id="stream_3" tvg-name="[Live Event] Chicago Bulls vs Denver Nuggets Stream 3 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Chicago Bulls vs Denver Nuggets Stream 3 (SHOPP)
-https://iptvstream.dlhd.net/nba3n/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] Orlando Magic vs Cleveland Cavaliers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Orlando Magic vs Cleveland Cavaliers Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="4" tvg-id="stream_1" tvg-name="[Live Event] Orlando Magic vs Cleveland Cavaliers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Orlando Magic vs Cleveland Cavaliers Stream 1 (SHOPP)
 https://iptvstream.dlhd.net/nba1a/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="8" tvg-id="stream_2" tvg-name="[Live Event] Orlando Magic vs Cleveland Cavaliers Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Orlando Magic vs Cleveland Cavaliers Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="5" tvg-id="stream_2" tvg-name="[Live Event] Orlando Magic vs Cleveland Cavaliers Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Orlando Magic vs Cleveland Cavaliers Stream 2 (SHOPP)
 https://iptvstream.dlhd.net/nba1h/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="9" tvg-id="stream_1" tvg-name="[Live Event] Milwaukee Bucks vs Charlotte Hornets Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Milwaukee Bucks vs Charlotte Hornets Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="6" tvg-id="stream_1" tvg-name="[Live Event] Milwaukee Bucks vs Charlotte Hornets Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Milwaukee Bucks vs Charlotte Hornets Stream 1 (SHOPP)
 https://iptvstream.dlhd.net/nba2a/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="10" tvg-id="stream_2" tvg-name="[Live Event] Milwaukee Bucks vs Charlotte Hornets Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Milwaukee Bucks vs Charlotte Hornets Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="7" tvg-id="stream_2" tvg-name="[Live Event] Milwaukee Bucks vs Charlotte Hornets Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Milwaukee Bucks vs Charlotte Hornets Stream 2 (SHOPP)
 https://iptvstream.dlhd.net/nba2h/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="8" tvg-id="stream_1" tvg-name="[Live Event] Chicago Bulls vs Denver Nuggets Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Chicago Bulls vs Denver Nuggets Stream 1 (SHOPP)
+https://iptvstream.dlhd.net/nba3a/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="9" tvg-id="stream_2" tvg-name="[Live Event] Chicago Bulls vs Denver Nuggets Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Chicago Bulls vs Denver Nuggets Stream 2 (SHOPP)
+https://iptvstream.dlhd.net/nba3h/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="10" tvg-id="stream_3" tvg-name="[Live Event] Chicago Bulls vs Denver Nuggets Stream 3 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Chicago Bulls vs Denver Nuggets Stream 3 (SHOPP)
+https://iptvstream.dlhd.net/nba3n/index.m3u8|referer=https://xyzstreams.st/|origin=https://xyzstreams.st|user-agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F138.0.0.0%20Mobile%20Safari%2F537.36
 
