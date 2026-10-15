@@ -1,67 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Kennesaw State Owls - Missouri State Bears (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Kennesaw State Owls - Missouri State Bears
+#EXTINF:-1 tvg-chno="1" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] LA Clippers - Denver Nuggets (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="NBA",[NBA] LA Clippers - Denver Nuggets
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb26.strmd.st/secure/yYNAoJjhpGqgLAKvgzGckNQGCpCxXoMQ/ingest/stream/streamedcbsn/1/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="2" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Miami Heat - Brooklyn Nets (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="NBA",[NBA] Miami Heat - Brooklyn Nets
-#EXTVLCOPT:http-referrer=https://exposestrat.com/
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb30.strmd.st/secure/EXowTsJcNmyECurlShTDylDFjIecROeB/ingest/stream/streamedmiamiheat/1/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="3" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Boston Celtics - Charlotte Hornets (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="NBA",[NBA] Boston Celtics - Charlotte Hornets
-#EXTVLCOPT:http-referrer=https://exposestrat.com/
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb30.strmd.st/secure/TVmaRBsZbxDHMeSKTMTUeduXKQokxxeX/ingest/stream/streamedbostonceltics/1/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="4" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Washington Capitals - Montreal Canadiens (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Washington Capitals - Montreal Canadiens
-#EXTVLCOPT:http-referrer=https://exposestrat.com/
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb30.strmd.st/secure/LOaidvtpCfXBjzmXMqVtmZJvEzvbakke/ingest/stream/streamedmontrealcanadiens/1/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="5" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Western Kentucky Hilltoppers - Sam Houston Bearkats (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Western Kentucky Hilltoppers - Sam Houston Bearkats
-#EXTVLCOPT:http-referrer=https://exposestrat.com/
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb30.strmd.st/secure/aKHPuaDPklAeRYlUOXuVEpHzRRSnxViU/ingest/stream/streamedespnhd/1/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="6" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] San Antonio Spurs - Phoenix Suns (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="NBA",[NBA] San Antonio Spurs - Phoenix Suns
-#EXTVLCOPT:http-referrer=https://exposestrat.com/
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb30.strmd.st/secure/czuMBfFwMTKJDhisfydTWvvJFuHCShHe/ingest/stream/streamedsanantoniospurs/1/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="7" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Dallas Mavericks - New Orleans Pelicans (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="NBA",[NBA] Dallas Mavericks - New Orleans Pelicans
-#EXTVLCOPT:http-referrer=https://exposestrat.com/
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb19.strmd.st/secure/ehpQTtgBBkjQlQQdtvptXqmgQkDNxQZu/ingest/stream/streameddallasmavericks/1/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="8" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Milwaukee Bucks - Chicago Bulls (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="NBA",[NBA] Milwaukee Bucks - Chicago Bulls
-#EXTVLCOPT:http-referrer=https://exposestrat.com/
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb19.strmd.st/secure/LmnaOImOXGrRxYddfskdGUYxeFGiaiQO/ingest/stream/streamedmilwaukeebucks/1/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="9" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Minnesota Timberwolves - Detroit Pistons (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="NBA",[NBA] Minnesota Timberwolves - Detroit Pistons
-#EXTVLCOPT:http-referrer=https://exposestrat.com/
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb19.strmd.st/secure/EgsQrzdfuxFPhWFxUFxnOGFAYMwSbIUn/ingest/stream/streamedminnesotatimberwolves/1/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="10" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Dodgers - Milwaukee Brewers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Los Angeles Dodgers - Milwaukee Brewers
-#EXTVLCOPT:http-referrer=https://exposestrat.com/
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb19.strmd.st/secure/oGduMPOYEHfDpdvzlkBzhvXockXrSViJ/ingest/stream/streamedlosangelesdodgers/1/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="11" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Colorado Avalanche - Dallas Stars (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Colorado Avalanche - Dallas Stars
-#EXTVLCOPT:http-referrer=https://exposestrat.com/
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb19.strmd.st/secure/THDirPFQoaNWnJrKemyuSYzYXhsYEwVo/ingest/stream/streamedcoloradoavalanche/1/playlist.m3u8
+https://lb23.strmd.st/secure/WsKwdeSivoovkwZOXnZDQqYzSbeDsUey/ingest/stream/streamedlosangelesclippers/1/playlist.m3u8
 
