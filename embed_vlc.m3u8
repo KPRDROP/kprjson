@@ -3,53 +3,107 @@
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb24.strmd.st/secure/jZBPDrjRQxdLlurlOeKyUppnIgpIDsBp/ingest/stream/streamedbuffalosabres/1/playlist.m3u8
+https://lb15.strmd.st/secure/nPPQlnvoZzzBmxjcBErzSnaLBNsRgpdJ/ingest/stream/streamedbuffalosabres/1/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Ottawa Senators - New York Islanders (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Ottawa Senators - New York Islanders
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb22.strmd.st/secure/YUgIYOnEnJhqHysMwpBdGigEZgvEWMjI/ingest/stream/streamednewyorkislanders/1/playlist.m3u8
+https://lb15.strmd.st/secure/NhacygEmCnzwOMqHehkqCejfEVxMpGXI/ingest/stream/streamednewyorkislanders/1/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Tampa Bay Lightning - Seattle Kraken (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Tampa Bay Lightning - Seattle Kraken
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb22.strmd.st/secure/YuhffUnxkyeYBqDlfrOsMKlQrTPcWeRN/ingest/stream/streamedseattlekraken/1/playlist.m3u8
+https://lb11.strmd.st/secure/NBzVsjMjADjAvrvofBGUYNSJreiwYBBo/ingest/stream/streamedseattlekraken/1/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="4" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Florida Panthers - Vancouver Canucks (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Florida Panthers - Vancouver Canucks
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb22.strmd.st/secure/YjWCFjwsdoRoGjlhypUfiUvpihYvMLwA/ingest/stream/streamedfloridapanthers/1/playlist.m3u8
+https://lb11.strmd.st/secure/aKnZqaNulJSrrSwQGxsZGHdTjLiFbgim/ingest/stream/streamedfloridapanthers/1/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="5" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] New Jersey Devils - New York Rangers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] New Jersey Devils - New York Rangers
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb22.strmd.st/secure/AAoSgefXtiqciOzLKTJzFuKQOIuXXArs/ingest/stream/streamednewjerseydevils/1/playlist.m3u8
+https://lb11.strmd.st/secure/RQIPwELGZkQvnIyOSVpDzmvaYaolHGQL/ingest/stream/streamednewjerseydevils/1/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="6" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] East Carolina Pirates - UAB Blazers (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] East Carolina Pirates - UAB Blazers
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb22.strmd.st/secure/jNDExZzcZIttAFDHNfySjsRStvJLEwyx/ingest/stream/streamedespnhd/1/playlist.m3u8
+https://lb11.strmd.st/secure/JUjhgxbnwapsAQfrvUnbbVnYuOyhtUMF/ingest/stream/streamedespnhd/1/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="7" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Georgia Southern Eagles - Old Dominion Monarchs (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Georgia Southern Eagles - Old Dominion Monarchs
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb4.strmd.st/secure/JDiTkbVzPUVANgBlliqLQSkMmrUMbKQz/ingest/stream/streamedespn2hd/1/playlist.m3u8
+https://lb11.strmd.st/secure/YrqYeMszKYMyFEmGqLMNdFJccXCQCytt/ingest/stream/streamedespn2hd/1/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="8" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] New York Knicks - Toronto Raptors (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="NBA",[NBA] New York Knicks - Toronto Raptors
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb4.strmd.st/secure/muyposFingBcfIxedQtJMUPmLHEnRkOa/ingest/stream/streamednewyorkknicks/1/playlist.m3u8
+https://lb11.strmd.st/secure/HZllkVxYTyVjivgbtMFhdigglHDxXjzm/ingest/stream/streamednewyorkknicks/1/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="9" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Detroit Red Wings - Philadelphia Flyers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Detroit Red Wings - Philadelphia Flyers
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb4.strmd.st/secure/CrcvGvzBTbaYRodMCVIfZoOPhtMevuJf/ingest/stream/streameddetroitredwings/1/playlist.m3u8
+https://lb9.strmd.st/secure/AsuPVsVLGMPnEbARRSmSQFDUHouzGBSt/ingest/stream/streameddetroitredwings/1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="10" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Colorado State Rams - Texas State Bobcats (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Colorado State Rams - Texas State Bobcats
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lb9.strmd.st/secure/tojGZbCstblUdlBKpanpxAkufIATCBrj/ingest/stream/streamedcbsn/1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="11" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Chicago Blackhawks - Winnipeg Jets (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Chicago Blackhawks - Winnipeg Jets
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lb9.strmd.st/secure/zohOhdWFoVEeQyWHUkglOiiaBOFDgnST/ingest/stream/streamedchicagoblackhawks/1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="12" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Nashville Predators - San Jose Sharks (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Nashville Predators - San Jose Sharks
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lb9.strmd.st/secure/lWfzuGXUpTiVyJdiwqiutBgytHjSFryz/ingest/stream/streamednashvillepredators/1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="13" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Minnesota Wild - St. Louis Blues (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Minnesota Wild - St. Louis Blues
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lb9.strmd.st/secure/PKXgPFyWZunXNqqGEfNsRVWSFIJnFPmE/ingest/stream/streamedminnesotawild/1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="14" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Dodgers - Milwaukee Brewers (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Los Angeles Dodgers - Milwaukee Brewers
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lb9.strmd.st/secure/NmwQVYblURnpAVpAivCsEzVgWfSbYyzh/ingest/stream/streamedlosangelesdodgers/1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="15" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Denver Broncos - Seattle Seahawks (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Denver Broncos - Seattle Seahawks
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lb8.strmd.st/secure/GDTIMlWwyZIEjZAohLcOoAZXRFmhOgoL/ingest/stream/streameddenverbroncos/1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="16" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Houston Rockets - Oklahoma City Thunder (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="NBA",[NBA] Houston Rockets - Oklahoma City Thunder
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lb8.strmd.st/secure/qnTfQjrxdvxSoxegfHOWOvsSpiSiHyIb/ingest/stream/streamedhoustonrockets/1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="17" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Edmonton Oilers - Utah Mammoth (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Edmonton Oilers - Utah Mammoth
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lb8.strmd.st/secure/wGQHSSMXrnDUceUaKALzjovIWoEdRKgV/ingest/stream/streamedutahhockeyclub/1/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="18" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Vegas Golden Knights - Calgary Flames (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Vegas Golden Knights - Calgary Flames
+#EXTVLCOPT:http-referrer=https://exposestrat.com/
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://lb8.strmd.st/secure/UCVZyTtjrCQmnJTrpdyitajmMvBAquQM/ingest/stream/streamedcalgaryflames/1/playlist.m3u8
 
