@@ -1,121 +1,109 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Rutgers Scarlet Knights - Maryland Terrapins (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Rutgers Scarlet Knights - Maryland Terrapins
+#EXTINF:-1 tvg-chno="1" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Penn State Nittany Lions - Michigan Wolverines (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Penn State Nittany Lions - Michigan Wolverines
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb6.strmd.st/secure/UFSyZilnXTIxyLDAMYXNyNFomGyfjYuf/ingest/stream/streamedbtn/1/playlist.m3u8
+https://lb27.strmd.st/secure/RelmxaInkboYLrFTpJBlyMzTarbtfLRL/ingest/stream/streamedcbshd/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Newcastle United - Aston Villa (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Premier League",[Premier League] Newcastle United - Aston Villa
+#EXTINF:-1 tvg-chno="2" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Auburn Tigers - Georgia Bulldogs (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Auburn Tigers - Georgia Bulldogs
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb6.strmd.st/secure/KljUBOkCTKOlSyvmiaJnPECseigLsuTQ/ingest/stream/streamedastonvilla/1/playlist.m3u8
+https://lb27.strmd.st/secure/teiWveBJftsAMZZHZGAjfHHOraQuzSyB/ingest/stream/streamedespnhd/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Charlotte 49ers - Temple Owls (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Charlotte 49ers - Temple Owls
+#EXTINF:-1 tvg-chno="3" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Alabama Crimson Tide - Tennessee Volunteers (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Alabama Crimson Tide - Tennessee Volunteers
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb7.strmd.st/secure/aThHLiDMDGjEJRFgshAQtslEjvzCCCVk/ingest/stream/streamedespnplus2/1/playlist.m3u8
+https://lb27.strmd.st/secure/dqCyBjAsLVjDTkjiqNXWyFfstBcxvCSV/ingest/stream/streamedabchd/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="4" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Massachusetts Minutemen - Buffalo Bulls (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Massachusetts Minutemen - Buffalo Bulls
+#EXTINF:-1 tvg-chno="4" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Missouri Tigers - Ole Miss Rebels (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Missouri Tigers - Ole Miss Rebels
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb7.strmd.st/secure/iKmiHFpOGvNRYSeDWlGJxscmcuiFGBth/ingest/stream/streamedespnplus3/1/playlist.m3u8
+https://lb27.strmd.st/secure/rxfyEgBwlfNVLESotbyETUOmvYsgUSYJ/ingest/stream/streamedsecnet/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Washington Capitals - New Jersey Devils (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Washington Capitals - New Jersey Devils
+#EXTINF:-1 tvg-chno="5" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Arizona State Sun Devils - Texas Tech Red Raiders (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Arizona State Sun Devils - Texas Tech Red Raiders
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb7.strmd.st/secure/QItNOVcenefKKjLGGWFOBknkPFPrdmDx/ingest/stream/streamednewjerseydevils/1/playlist.m3u8
+https://lb6.strmd.st/secure/kXlMNazfcwUPnbNuiSuBctwJmNhjVFbJ/ingest/stream/streamedfoxhd/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="6" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Western Michigan Broncos - Central Michigan Chippewas (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Western Michigan Broncos - Central Michigan Chippewas
+#EXTINF:-1 tvg-chno="6" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Georgia Tech Yellow Jackets - Virginia Tech Hokies (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Georgia Tech Yellow Jackets - Virginia Tech Hokies
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb7.strmd.st/secure/MOJClzjPEjFGFxXEGUABrTjEEPKZvPVf/ingest/stream/streamedespnplus4/1/playlist.m3u8
+https://lb6.strmd.st/secure/fbHSOjGefcmQYmChZhMcagUHQkyeeVSe/ingest/stream/streamedaccn/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="7" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Boxing] Dubois - Wardley 2 (EMBED)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Boxing",[Boxing] Dubois - Wardley 2
+#EXTINF:-1 tvg-chno="7" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] North Carolina Tar Heels - Duke Blue Devils (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] North Carolina Tar Heels - Duke Blue Devils
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb7.strmd.st/secure/wxDlufyWXNXmTPrzsUUwmqwOOHdGzvPn/ingest/stream/streamedevent2/1/playlist.m3u8
+https://lb6.strmd.st/secure/PjdsEvaMGHIRVQoyGMaCdOhcpLhQItyp/ingest/stream/streamedespn2hd/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="8" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Penn State Nittany Lions - Michigan Wolverines (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Penn State Nittany Lions - Michigan Wolverines
+#EXTINF:-1 tvg-chno="8" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Northern Illinois Huskies - Wyoming Cowboys (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Northern Illinois Huskies - Wyoming Cowboys
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb19.strmd.st/secure/rrMumstkSppXVSpHmlteQLlXWNFxPvao/ingest/stream/streamedcbshd/1/playlist.m3u8
+https://lb6.strmd.st/secure/CkevmHzgpUypmtgIJKBwlICJQdozuyQD/ingest/stream/streamedcwnet/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="9" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Auburn Tigers - Georgia Bulldogs (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Auburn Tigers - Georgia Bulldogs
+#EXTINF:-1 tvg-chno="9" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] UNLV Rebels - Air Force Falcons (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] UNLV Rebels - Air Force Falcons
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb19.strmd.st/secure/pEzfaAHvNvUMYvEWCqwwifiPlaKPdwZS/ingest/stream/streamedespnhd/1/playlist.m3u8
+https://lb12.strmd.st/secure/hSwFvUyXgfOyVLZBAGANtWCTFkwyLLYD/ingest/stream/streamedcbsn/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="10" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Alabama Crimson Tide - Tennessee Volunteers (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Alabama Crimson Tide - Tennessee Volunteers
+#EXTINF:-1 tvg-chno="10" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Toledo Rockets - Eastern Michigan Eagles (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Toledo Rockets - Eastern Michigan Eagles
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb19.strmd.st/secure/nKMynDqcaZvMMyTlbrPVGCaSxpWPCahF/ingest/stream/streamedabchd/1/playlist.m3u8
+https://lb12.strmd.st/secure/VXSEbxsZdHkLoZpeikTTpwvLXbfpERMY/ingest/stream/streamedespnplus5/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="11" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Missouri Tigers - Ole Miss Rebels (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Missouri Tigers - Ole Miss Rebels
+#EXTINF:-1 tvg-chno="11" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Akron Zips - Miami (OH) RedHawks (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Akron Zips - Miami (OH) RedHawks
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb19.strmd.st/secure/ysSIVFcMxQByHmAcZREEwObBRLfjMtGg/ingest/stream/streamedsecnet/1/playlist.m3u8
+https://lb12.strmd.st/secure/FpbkfJLBdovNhGyahbYwTPosNZcVizBa/ingest/stream/streamedespnplus6/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="12" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Arizona State Sun Devils - Texas Tech Red Raiders (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Arizona State Sun Devils - Texas Tech Red Raiders
+#EXTINF:-1 tvg-chno="12" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Winnipeg Jets - Carolina Hurricanes (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Winnipeg Jets - Carolina Hurricanes
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb3.strmd.st/secure/ZuJyEyySlgxuJrepLjYxkdRCnaTsYhTe/ingest/stream/streamedfoxhd/1/playlist.m3u8
+https://lb12.strmd.st/secure/yQwONUsCwtxQpkEdnyKNuUZPhKBDVBee/ingest/stream/streamedcarolinahurricanes/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="13" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Georgia Tech Yellow Jackets - Virginia Tech Hokies (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Georgia Tech Yellow Jackets - Virginia Tech Hokies
+#EXTINF:-1 tvg-chno="13" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Tampa Bay Lightning - Vancouver Canucks (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Tampa Bay Lightning - Vancouver Canucks
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb3.strmd.st/secure/dWcwianmwKuvAwDOxCxHeiTqEpWwHcXa/ingest/stream/streamedaccn/1/playlist.m3u8
+https://lb30.strmd.st/secure/mvdaxdFpspNARRIxqKrLKmRKQMZbaBEB/ingest/stream/streamedtampabaylightning/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="14" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] North Carolina Tar Heels - Duke Blue Devils (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] North Carolina Tar Heels - Duke Blue Devils
+#EXTINF:-1 tvg-chno="14" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Tulsa Golden Hurricane - Rice Owls (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Tulsa Golden Hurricane - Rice Owls
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb3.strmd.st/secure/soEyAONyVMjYXVsxyIUrVxBLCxQwByFe/ingest/stream/streamedespn2hd/1/playlist.m3u8
+https://lb30.strmd.st/secure/mxorsxwHFRKgmbnQPxKVTwBMIMLpgOBl/ingest/stream/streamedespnplus7/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="15" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Northern Illinois Huskies - Wyoming Cowboys (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Northern Illinois Huskies - Wyoming Cowboys
+#EXTINF:-1 tvg-chno="15" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Troy Trojans - Louisiana Ragin' Cajuns (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Troy Trojans - Louisiana Ragin' Cajuns
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb3.strmd.st/secure/CmnBalgjWsHTEFBdfuaMhHUuqapAlPbx/ingest/stream/streamedcwnet/1/playlist.m3u8
+https://lb30.strmd.st/secure/XIIRcntaenbvCtSMvLNsCwCBxyKAsjqZ/ingest/stream/streamedespnplus8/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="16" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] UNLV Rebels - Air Force Falcons (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] UNLV Rebels - Air Force Falcons
+#EXTINF:-1 tvg-chno="16" tvg-id="UFC.247.Dummy.us" tvg-name="[UFC] UFC Fight Night Buckley - Malott (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2017/06/Logo-UFC-500x313.png" group-title="UFC",[UFC] UFC Fight Night Buckley - Malott
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb20.strmd.st/secure/ToKMgdhvhgTmBWAkXnLgTIgRwuRyJzlH/ingest/stream/streamedcbsn/1/playlist.m3u8
+https://lb30.strmd.st/secure/oOHSideGWQMAEvATRkkgMxeIyEghvWxM/ingest/stream/streamedevent1/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="17" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Toledo Rockets - Eastern Michigan Eagles (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Toledo Rockets - Eastern Michigan Eagles
+#EXTINF:-1 tvg-chno="17" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Washington State Cougars - Oregon State Beavers (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Washington State Cougars - Oregon State Beavers
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb20.strmd.st/secure/aAoWePCbuwpgoeWzxmjslhoJhpnUmror/ingest/stream/streamedespnplus5/1/playlist.m3u8
+https://lb29.strmd.st/secure/fREqRUgmfAzUBAvOeLyRRzFbDtqpisiQ/ingest/stream/streamedusanetwork/1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="18" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[Ncaaf] Akron Zips - Miami (OH) RedHawks (EMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Ncaaf",[Ncaaf] Akron Zips - Miami (OH) RedHawks
+#EXTINF:-1 tvg-chno="18" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Florida Panthers - Seattle Kraken (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Florida Panthers - Seattle Kraken
 #EXTVLCOPT:http-referrer=https://exposestrat.com/
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb20.strmd.st/secure/RDQMXLieeGBFZoiUZfGWujcwnMxfUTCD/ingest/stream/streamedespnplus6/1/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="19" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Winnipeg Jets - Carolina Hurricanes (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Winnipeg Jets - Carolina Hurricanes
-#EXTVLCOPT:http-referrer=https://exposestrat.com/
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb20.strmd.st/secure/XGcQtmhESFNaraetkbhoMGITpVUarWLU/ingest/stream/streamedcarolinahurricanes/1/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="20" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Tampa Bay Lightning - Vancouver Canucks (EMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Tampa Bay Lightning - Vancouver Canucks
-#EXTVLCOPT:http-referrer=https://exposestrat.com/
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://lb20.strmd.st/secure/ekmMMrVsZvhGSxHpysFCZXkVPcaRzXzo/ingest/stream/streamedtampabaylightning/1/playlist.m3u8
+https://lb29.strmd.st/secure/MmVqzFJpaAtktYauCXdGRoAxOMVVltoY/ingest/stream/streamedfloridapanthers/1/playlist.m3u8
 
