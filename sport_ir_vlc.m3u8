@@ -3,4 +3,46 @@
 #EXTVLCOPT:http-referrer=https://nfl24all.ir
 #EXTVLCOPT:http-origin=https://nfl24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-7a1d2f4c.4587.website/6ad54b1b.a2880409i3d6ba641.11e35.5a6c500c/free.live.nfl/master.m3u8
+https://node-7a1d2f4c.4587.website/6ad5740d.c6153c50i4fe3cd44.11e35.4d2509ea/free.live.nfl/master.m3u8
+
+#EXTINF:-1 tvg-chno="2" tvg-id="NFL.Dummy.us" tvg-name="[NFL] New York Jets vs New England Patriots (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] New York Jets vs New England Patriots (SPORTir)
+#EXTVLCOPT:http-referrer=https://nfl24all.ir
+#EXTVLCOPT:http-origin=https://nfl24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-8bba18be.4587.website/6ad5740d.ca9f9a83i4fe3cd44.11e78.f6f95d04/free.live.nfl/master.m3u8
+
+#EXTINF:-1 tvg-chno="3" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Tennessee Titans vs Indianapolis Colts (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Tennessee Titans vs Indianapolis Colts (SPORTir)
+#EXTVLCOPT:http-referrer=https://nfl24all.ir
+#EXTVLCOPT:http-origin=https://nfl24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-59639d19.4587.website/6ad5740e.62cdd532i4fe3cd44.11e75.69012aae/free.live.nfl/master.m3u8
+
+#EXTINF:-1 tvg-chno="4" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Pittsburgh Steelers vs Tampa Bay Buccaneers (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Pittsburgh Steelers vs Tampa Bay Buccaneers (SPORTir)
+#EXTVLCOPT:http-referrer=https://nfl24all.ir
+#EXTVLCOPT:http-origin=https://nfl24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-5d763f4c.4587.website/6ad5740e.b76b3247i4fe3cd44.11e86.f4797a69/free.live.nfl/master.m3u8
+
+#EXTINF:-1 tvg-chno="5" tvg-id="NFL.Dummy.us" tvg-name="[NFL] New Orleans Saints vs New York Giants (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] New Orleans Saints vs New York Giants (SPORTir)
+#EXTVLCOPT:http-referrer=https://nfl24all.ir
+#EXTVLCOPT:http-origin=https://nfl24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-59639d19.4587.website/6ad5740e.a588675fi4fe3cd44.11e7c.eb51d380/free.live.nfl/master.m3u8
+
+#EXTINF:-1 tvg-chno="6" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Carolina Panthers vs Philadelphia Eagles (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Carolina Panthers vs Philadelphia Eagles (SPORTir)
+#EXTVLCOPT:http-referrer=https://nfl24all.ir
+#EXTVLCOPT:http-origin=https://nfl24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-59639d19.4587.website/6ad5740e.6fe2dd93i4fe3cd44.11e81.934af753/free.live.nfl/master.m3u8
+
+#EXTINF:-1 tvg-chno="7" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Baltimore Ravens vs Cleveland Browns (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Baltimore Ravens vs Cleveland Browns (SPORTir)
+#EXTVLCOPT:http-referrer=https://nfl24all.ir
+#EXTVLCOPT:http-origin=https://nfl24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-8bba18be.4587.website/6ad5740f.d350d788i4fe3cd44.11e71.6f1f060e/free.live.nfl/master.m3u8
+
+#EXTINF:-1 tvg-chno="8" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Chicago Bears vs Atlanta Falcons (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Chicago Bears vs Atlanta Falcons (SPORTir)
+#EXTVLCOPT:http-referrer=https://nfl24all.ir
+#EXTVLCOPT:http-origin=https://nfl24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-5d763f4c.4587.website/6ad5740f.450dc8a0i4fe3cd44.11e6d.13a02133/free.live.nfl/master.m3u8
