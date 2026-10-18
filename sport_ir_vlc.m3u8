@@ -1,1 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-chno="1" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Houston Texans vs Jacksonville Jaguars (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Houston Texans vs Jacksonville Jaguars (SPORTir)
+#EXTVLCOPT:http-referrer=https://nfl24all.ir
+#EXTVLCOPT:http-origin=https://nfl24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-7a1d2f4c.4587.website/6ad54b1b.a2880409i3d6ba641.11e35.5a6c500c/free.live.nfl/master.m3u8
