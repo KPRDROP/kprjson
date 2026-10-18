@@ -41,8 +41,6 @@ https://ott3.streann.com/loadbalancer/services/public/channels-secure/6273ffeae4
 https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="XjdAPMm3YO01Fo" tvg-name="WKAQ-TV 2.2" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", WKAQ-TV 2.2 (PR)
 https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream2/master.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
-#EXTINF:-1 tvg-id="pK67X1nTuCfVIB" tvg-name="WRUA-DT1 (Tiva TV)" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", WRUA-DT1 (Tiva TV) (PR)
-https://link.frontlayer.com/services/hls2/fl496518/index.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="zi89aJl9FoLNYA" tvg-name="WWXY-DT1 (Boricua TV)" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", WWXY-DT1 (Boricua TV) (PR)
 https://2-fss-2.streamhoster.com/pl_138/amlst:201284-1347630/playlist.m3u8|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F147.0.0.0+Safari%2F537.36
 #EXTINF:-1 tvg-id="IiR71uuMJmqUVL" tvg-name="WWXY-DT3 (Maranatha Radio Ministries)" tvg-logo="https://i.postimg.cc/L4cgDpLB/thumb-1920-392729.jpg" group-title="PR", WWXY-DT3 (Maranatha Radio Ministries) (PR)
