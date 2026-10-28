@@ -1,63 +1,165 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-10-28 01:53 UTC
+# Last Updated: 2026-10-28 23:45 UTC
 
-#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Milwaukee Brewers vs Tampa Bay Rays Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Milwaukee Brewers vs Tampa Bay Rays Stream 1 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/fox/index.m3u8
-
-#EXTINF:-1 tvg-chno="2" tvg-id="stream_2" tvg-name="[Live Event] Milwaukee Brewers vs Tampa Bay Rays Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Milwaukee Brewers vs Tampa Bay Rays Stream 2 (SHOPP)
-#EXTVLCOPT:http-referrer=https://xyzstreams.st/
-#EXTVLCOPT:http-origin=https://xyzstreams.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://iptvstream.dlhd.net/mlb-feed3/index.m3u8
-
-#EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Brooklyn Nets vs Boston Celtics Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Brooklyn Nets vs Boston Celtics Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Miami Heat vs Atlanta Hawks Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Miami Heat vs Atlanta Hawks Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/nba1a/index.m3u8
 
-#EXTINF:-1 tvg-chno="4" tvg-id="stream_2" tvg-name="[Live Event] Brooklyn Nets vs Boston Celtics Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Brooklyn Nets vs Boston Celtics Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="2" tvg-id="stream_2" tvg-name="[Live Event] Miami Heat vs Atlanta Hawks Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Miami Heat vs Atlanta Hawks Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/nba1h/index.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] Detroit Pistons vs New York Knicks Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Detroit Pistons vs New York Knicks Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Washington Wizards vs Cleveland Cavaliers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Washington Wizards vs Cleveland Cavaliers Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/nba2a/index.m3u8
 
-#EXTINF:-1 tvg-chno="6" tvg-id="stream_2" tvg-name="[Live Event] Detroit Pistons vs New York Knicks Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Detroit Pistons vs New York Knicks Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="4" tvg-id="stream_2" tvg-name="[Live Event] Washington Wizards vs Cleveland Cavaliers Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Washington Wizards vs Cleveland Cavaliers Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/nba2h/index.m3u8
 
-#EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] Sacramento Kings vs San Antonio Spurs Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Sacramento Kings vs San Antonio Spurs Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="5" tvg-id="stream_1" tvg-name="[Live Event] Charlotte Hornets vs Detroit Pistons Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Charlotte Hornets vs Detroit Pistons Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/nba3a/index.m3u8
 
-#EXTINF:-1 tvg-chno="8" tvg-id="stream_2" tvg-name="[Live Event] Sacramento Kings vs San Antonio Spurs Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Sacramento Kings vs San Antonio Spurs Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="6" tvg-id="stream_2" tvg-name="[Live Event] Charlotte Hornets vs Detroit Pistons Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Charlotte Hornets vs Detroit Pistons Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/nba3h/index.m3u8
 
-#EXTINF:-1 tvg-chno="9" tvg-id="stream_1" tvg-name="[Live Event] Portland Trail Blazers vs Los Angeles Lakers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Portland Trail Blazers vs Los Angeles Lakers Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="7" tvg-id="stream_1" tvg-name="[Live Event] Philadelphia 76ers vs Indiana Pacers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Philadelphia 76ers vs Indiana Pacers Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/nba4a/index.m3u8
 
-#EXTINF:-1 tvg-chno="10" tvg-id="stream_2" tvg-name="[Live Event] Portland Trail Blazers vs Los Angeles Lakers Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Portland Trail Blazers vs Los Angeles Lakers Stream 2 (SHOPP)
+#EXTINF:-1 tvg-chno="8" tvg-id="stream_2" tvg-name="[Live Event] Philadelphia 76ers vs Indiana Pacers Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Philadelphia 76ers vs Indiana Pacers Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
 https://iptvstream.dlhd.net/nba4h/index.m3u8
+
+#EXTINF:-1 tvg-chno="9" tvg-id="stream_3" tvg-name="[Live Event] Philadelphia 76ers vs Indiana Pacers Stream 3 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Philadelphia 76ers vs Indiana Pacers Stream 3 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/nba4n/index.m3u8
+
+#EXTINF:-1 tvg-chno="10" tvg-id="stream_1" tvg-name="[Live Event] Orlando Magic vs Toronto Raptors Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Orlando Magic vs Toronto Raptors Stream 1 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/nba5a/index.m3u8
+
+#EXTINF:-1 tvg-chno="11" tvg-id="stream_2" tvg-name="[Live Event] Orlando Magic vs Toronto Raptors Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Orlando Magic vs Toronto Raptors Stream 2 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/nba5h/index.m3u8
+
+#EXTINF:-1 tvg-chno="12" tvg-id="stream_1" tvg-name="[Live Event] New York Knicks vs Chicago Bulls Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] New York Knicks vs Chicago Bulls Stream 1 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/nba6a/index.m3u8
+
+#EXTINF:-1 tvg-chno="13" tvg-id="stream_2" tvg-name="[Live Event] New York Knicks vs Chicago Bulls Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] New York Knicks vs Chicago Bulls Stream 2 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/nba6h/index.m3u8
+
+#EXTINF:-1 tvg-chno="14" tvg-id="stream_1" tvg-name="[Live Event] Houston Rockets vs Milwaukee Bucks Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Houston Rockets vs Milwaukee Bucks Stream 1 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/nba7a/index.m3u8
+
+#EXTINF:-1 tvg-chno="15" tvg-id="stream_2" tvg-name="[Live Event] Houston Rockets vs Milwaukee Bucks Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Houston Rockets vs Milwaukee Bucks Stream 2 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/nba7h/index.m3u8
+
+#EXTINF:-1 tvg-chno="16" tvg-id="stream_1" tvg-name="[Live Event] Golden State Warriors vs Minnesota Timberwolves Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Golden State Warriors vs Minnesota Timberwolves Stream 1 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/nba8a/index.m3u8
+
+#EXTINF:-1 tvg-chno="17" tvg-id="stream_2" tvg-name="[Live Event] Golden State Warriors vs Minnesota Timberwolves Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Golden State Warriors vs Minnesota Timberwolves Stream 2 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/nba8h/index.m3u8
+
+#EXTINF:-1 tvg-chno="18" tvg-id="stream_1" tvg-name="[Live Event] Denver Nuggets vs New Orleans Pelicans Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Denver Nuggets vs New Orleans Pelicans Stream 1 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/nba9a/index.m3u8
+
+#EXTINF:-1 tvg-chno="19" tvg-id="stream_2" tvg-name="[Live Event] Denver Nuggets vs New Orleans Pelicans Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Denver Nuggets vs New Orleans Pelicans Stream 2 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/nba9h/index.m3u8
+
+#EXTINF:-1 tvg-chno="20" tvg-id="stream_1" tvg-name="[Live Event] San Antonio Spurs vs Utah Jazz Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] San Antonio Spurs vs Utah Jazz Stream 1 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/nba10a/index.m3u8
+
+#EXTINF:-1 tvg-chno="21" tvg-id="stream_2" tvg-name="[Live Event] San Antonio Spurs vs Utah Jazz Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] San Antonio Spurs vs Utah Jazz Stream 2 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/nba10h/index.m3u8
+
+#EXTINF:-1 tvg-chno="22" tvg-id="stream_1" tvg-name="[Live Event] Oklahoma City Thunder vs Dallas Mavericks Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Oklahoma City Thunder vs Dallas Mavericks Stream 1 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/nba11a/index.m3u8
+
+#EXTINF:-1 tvg-chno="23" tvg-id="stream_2" tvg-name="[Live Event] Oklahoma City Thunder vs Dallas Mavericks Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Oklahoma City Thunder vs Dallas Mavericks Stream 2 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/nba11h/index.m3u8
+
+#EXTINF:-1 tvg-chno="24" tvg-id="stream_3" tvg-name="[Live Event] Oklahoma City Thunder vs Dallas Mavericks Stream 3 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Oklahoma City Thunder vs Dallas Mavericks Stream 3 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/nba11n/index.m3u8
+
+#EXTINF:-1 tvg-chno="25" tvg-id="stream_1" tvg-name="[Live Event] Los Angeles Lakers vs LA Clippers Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Los Angeles Lakers vs LA Clippers Stream 1 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/nba12a/index.m3u8
+
+#EXTINF:-1 tvg-chno="26" tvg-id="stream_2" tvg-name="[Live Event] Los Angeles Lakers vs LA Clippers Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Los Angeles Lakers vs LA Clippers Stream 2 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/nba12h/index.m3u8
+
+#EXTINF:-1 tvg-chno="27" tvg-id="stream_1" tvg-name="[Live Event] Philadelphia Flyers vs Washington Capitals Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Philadelphia Flyers vs Washington Capitals Stream 1 (SHOPP)
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-origin=https://xyzstreams.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+https://iptvstream.dlhd.net/tnt/index.m3u8
 
