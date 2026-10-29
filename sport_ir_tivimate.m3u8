@@ -1,1 +1,15 @@
 #EXTM3U
+#EXTINF:-1 tvg-chno="1" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Cleveland Cavaliers vs Atlanta Hawks (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Cleveland Cavaliers vs Atlanta Hawks (SPORTir)
+https://node-cff538bd.4587.website/6ae449bc.e4b621e2iaadfbcca.14fb4.97ead168/free.live.nba/master.m3u8|referer=https://nba24all.ir|origin=https://nba24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="2" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Sacramento Kings vs New Orleans Pelicans (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Sacramento Kings vs New Orleans Pelicans (SPORTir)
+https://node-cff538bd.4587.website/6ae449bc.eabbf7dbiaadfbcca.14fbf.038506ed/free.live.nba/master.m3u8|referer=https://nba24all.ir|origin=https://nba24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="3" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Carolina Panthers vs Green Bay Packers (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Carolina Panthers vs Green Bay Packers (SPORTir)
+https://node-cff538bd.4587.website/6ae449bd.6dfbb0c7iaadfbcca.13e52.0942d74c/free.live.nfl/master.m3u8|referer=https://nfl24all.ir|origin=https://nfl24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="4" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Winnipeg Jets vs Tampa Bay Lightning (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Winnipeg Jets vs Tampa Bay Lightning (SPORTir)
+https://node-025d151e.4587.website/6ae449bd.79c33cdfiaadfbcca.15ac1.e30c6a22/free.live.sportsnet/master.m3u8|referer=https://nhl24all.ir|origin=https://nhl24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="5" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Columbus Blue Jackets vs Carolina Hurricanes (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Columbus Blue Jackets vs Carolina Hurricanes (SPORTir)
+https://node-5d763f4c.4587.website/6ae449bd.6faa83ffiaadfbcca.15ac2.38b02922/free.live.sportsnet/master.m3u8|referer=https://nhl24all.ir|origin=https://nhl24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
