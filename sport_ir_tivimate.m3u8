@@ -1,1 +1,27 @@
 #EXTM3U
+#EXTINF:-1 tvg-chno="1" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Dallas Stars vs Washington Capitals (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Dallas Stars vs Washington Capitals (SPORTir)
+https://node-7a1d2f4c.4587.website/6aeb0cdb.24a6e5c1i20c41268.16ddd.b39e1122/free.live.sportsnet/master.m3u8|referer=https://nhl24all.ir|origin=https://nhl24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="2" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Anaheim Ducks vs Vancouver Canucks (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Anaheim Ducks vs Vancouver Canucks (SPORTir)
+https://node-7a1d2f4c.4587.website/6aeb0cdc.7b164cfci20c41268.16df6.267454ee/free.live.sportsnet/master.m3u8|referer=https://nhl24all.ir|origin=https://nhl24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="3" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Detroit Red Wings vs Tampa Bay Lightning (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Detroit Red Wings vs Tampa Bay Lightning (SPORTir)
+https://node-8bba18be.4587.website/6aeb0cdc.c7b0b538i20c41268.16dea.bee34465/free.live.sportsnet/master.m3u8|referer=https://nhl24all.ir|origin=https://nhl24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="4" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Utah Mammoth vs Toronto Maple Leafs (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Utah Mammoth vs Toronto Maple Leafs (SPORTir)
+https://node-8bba18be.4587.website/6aeb0cdc.c7b3cacei20c41268.16de3.f5640d21/free.live.sportsnet/master.m3u8|referer=https://nhl24all.ir|origin=https://nhl24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="5" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] St. Louis Blues vs New York Rangers (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] St. Louis Blues vs New York Rangers (SPORTir)
+https://node-7a1d2f4c.4587.website/6aeb0cdc.0758ae4ci20c41268.16ddf.e7e64f6f/free.live.sportsnet/master.m3u8|referer=https://nhl24all.ir|origin=https://nhl24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="6" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Winnipeg Jets vs Montréal Canadiens (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Winnipeg Jets vs Montréal Canadiens (SPORTir)
+https://node-8bba18be.4587.website/6aeb0cdc.f651a897i20c41268.16de5.42a98014/free.live.sportsnet/master.m3u8|referer=https://nhl24all.ir|origin=https://nhl24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="7" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Vegas Golden Knights vs Pittsburgh Penguins (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Vegas Golden Knights vs Pittsburgh Penguins (SPORTir)
+https://node-8bba18be.4587.website/6aeb0cdd.76d8c447i20c41268.16de6.1a5f8c73/free.live.sportsnet/master.m3u8|referer=https://nhl24all.ir|origin=https://nhl24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="8" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Minnesota Wild vs Philadelphia Flyers (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Minnesota Wild vs Philadelphia Flyers (SPORTir)
+https://node-7a1d2f4c.4587.website/6aeb0cdd.d26e849ci20c41268.16dee.cd92b0be/free.live.sportsnet/master.m3u8|referer=https://nhl24all.ir|origin=https://nhl24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="9" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Colorado Avalanche vs Columbus Blue Jackets (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Colorado Avalanche vs Columbus Blue Jackets (SPORTir)
+https://node-7a1d2f4c.4587.website/6aeb0cdd.ffa19597i20c41268.16dda.ad06c496/free.live.sportsnet/master.m3u8|referer=https://nhl24all.ir|origin=https://nhl24all.ir|user-agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F145.0.0.0%20Safari%2F537.36
