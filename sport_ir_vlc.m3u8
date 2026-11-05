@@ -1,6 +1,84 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Atlanta Hawks vs Washington Wizards (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Atlanta Hawks vs Washington Wizards (SPORTir)
+#EXTINF:-1 tvg-chno="1" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Miami Heat vs Los Angeles Clippers (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Miami Heat vs Los Angeles Clippers (SPORTir)
 #EXTVLCOPT:http-referrer=https://nba24all.ir
 #EXTVLCOPT:http-origin=https://nba24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-c899cd92.4587.website/6aec285c.30574633i2a0a8108.16244.2e0d5989/free.live.nba/master.m3u8
+https://node-c899cd92.4587.website/6aec608c.d7c31a2bi1e729bca.162d5.7c63f780/free.live.nba/master.m3u8
+
+#EXTINF:-1 tvg-chno="2" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Philadelphia 76ers vs Detroit Pistons (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Philadelphia 76ers vs Detroit Pistons (SPORTir)
+#EXTVLCOPT:http-referrer=https://nba24all.ir
+#EXTVLCOPT:http-origin=https://nba24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-59639d19.4587.website/6aec608c.03f00212i1e729bca.17234.a97646ef/free.live.sportsnet/master.m3u8
+
+#EXTINF:-1 tvg-chno="3" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Minnesota Timberwolves vs Houston Rockets (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Minnesota Timberwolves vs Houston Rockets (SPORTir)
+#EXTVLCOPT:http-referrer=https://nba24all.ir
+#EXTVLCOPT:http-origin=https://nba24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-d1d6a0d2.4587.website/6aec608d.b9945134i1e729bca.1629e.ec969f25/free.live.nba/master.m3u8
+
+#EXTINF:-1 tvg-chno="4" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Cleveland Cavaliers vs Oklahoma City Thunder (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Cleveland Cavaliers vs Oklahoma City Thunder (SPORTir)
+#EXTVLCOPT:http-referrer=https://nba24all.ir
+#EXTVLCOPT:http-origin=https://nba24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-d1d6a0d2.4587.website/6aec608d.b1155e87i1e729bca.1627f.6f293e71/free.live.nba/master.m3u8
+
+#EXTINF:-1 tvg-chno="5" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Indiana Pacers vs Memphis Grizzlies (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Indiana Pacers vs Memphis Grizzlies (SPORTir)
+#EXTVLCOPT:http-referrer=https://nba24all.ir
+#EXTVLCOPT:http-origin=https://nba24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-d1d6a0d2.4587.website/6aec608e.6bbbe4c2i1e729bca.16291.ba083bc2/free.live.nba/master.m3u8
+
+#EXTINF:-1 tvg-chno="6" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Charlotte Hornets vs Brooklyn Nets (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Charlotte Hornets vs Brooklyn Nets (SPORTir)
+#EXTVLCOPT:http-referrer=https://nba24all.ir
+#EXTVLCOPT:http-origin=https://nba24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-d1d6a0d2.4587.website/6aec608e.2987abfai1e729bca.16267.068fc12c/free.live.nba/master.m3u8
+
+#EXTINF:-1 tvg-chno="7" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Chicago Bulls vs New York Knicks (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Chicago Bulls vs New York Knicks (SPORTir)
+#EXTVLCOPT:http-referrer=https://nba24all.ir
+#EXTVLCOPT:http-origin=https://nba24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-7a1d2f4c.4587.website/6aec608e.50973056i1e729bca.17235.13e9b99b/free.live.sportsnet/master.m3u8
+
+#EXTINF:-1 tvg-chno="8" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Los Angeles Lakers vs Sacramento Kings (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Los Angeles Lakers vs Sacramento Kings (SPORTir)
+#EXTVLCOPT:http-referrer=https://nba24all.ir
+#EXTVLCOPT:http-origin=https://nba24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-c899cd92.4587.website/6aec608f.3b5db10ei1e729bca.162ca.fafaa237/free.live.nba/master.m3u8
+
+#EXTINF:-1 tvg-chno="9" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Portland Trail Blazers vs Phoenix Suns (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Portland Trail Blazers vs Phoenix Suns (SPORTir)
+#EXTVLCOPT:http-referrer=https://nba24all.ir
+#EXTVLCOPT:http-origin=https://nba24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-d1d6a0d2.4587.website/6aec608f.bbccef1di1e729bca.162af.c139bcb4/free.live.nba/master.m3u8
+
+#EXTINF:-1 tvg-chno="10" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Milwaukee Bucks vs Boston Celtics (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Milwaukee Bucks vs Boston Celtics (SPORTir)
+#EXTVLCOPT:http-referrer=https://nba24all.ir
+#EXTVLCOPT:http-origin=https://nba24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-d1d6a0d2.4587.website/6aec608f.4a7fa50fi1e729bca.16259.f51469be/free.live.nba/master.m3u8
+
+#EXTINF:-1 tvg-chno="11" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Toronto Raptors vs Denver Nuggets (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Toronto Raptors vs Denver Nuggets (SPORTir)
+#EXTVLCOPT:http-referrer=https://nba24all.ir
+#EXTVLCOPT:http-origin=https://nba24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-d1d6a0d2.4587.website/6aec608f.7e27b3d7i1e729bca.162a9.b29e0d54/free.live.nba/master.m3u8
+
+#EXTINF:-1 tvg-chno="12" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Dallas Mavericks vs San Antonio Spurs (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Dallas Mavericks vs San Antonio Spurs (SPORTir)
+#EXTVLCOPT:http-referrer=https://nba24all.ir
+#EXTVLCOPT:http-origin=https://nba24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-d1d6a0d2.4587.website/6aec608f.4ad2de3fi1e729bca.162c0.8a427652/free.live.nba/master.m3u8
+
+#EXTINF:-1 tvg-chno="13" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Utah Jazz vs New Orleans Pelicans (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Utah Jazz vs New Orleans Pelicans (SPORTir)
+#EXTVLCOPT:http-referrer=https://nba24all.ir
+#EXTVLCOPT:http-origin=https://nba24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-d1d6a0d2.4587.website/6aec6090.be8c1536i1e729bca.16283.ae10b9a0/free.live.nba/master.m3u8
+
+#EXTINF:-1 tvg-chno="14" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Chicago Blackhawks vs Florida Panthers (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Chicago Blackhawks vs Florida Panthers (SPORTir)
+#EXTVLCOPT:http-referrer=https://nhl24all.ir
+#EXTVLCOPT:http-origin=https://nhl24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-7a1d2f4c.4587.website/6aec6091.085c7192i1e729bca.17231.891eda02/free.live.sportsnet/master.m3u8
