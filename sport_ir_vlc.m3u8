@@ -1,42 +1,48 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Utah Jazz vs Minnesota Timberwolves (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Utah Jazz vs Minnesota Timberwolves (SPORTir)
+#EXTINF:-1 tvg-chno="1" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] New Orleans Pelicans vs Los Angeles Clippers (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] New Orleans Pelicans vs Los Angeles Clippers (SPORTir)
 #EXTVLCOPT:http-referrer=https://nba24all.ir
 #EXTVLCOPT:http-origin=https://nba24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-0238e54d.4587.website/6af1728b.451842b7i514ada43.16ff9.0b1aa93c/free.live.nba/master.m3u8
+https://node-58e40509.mlb9.com/6af1a467.1cb46397i46e0ba41.1701b.341ca0ea/free.live.nba/master.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Los Angeles Lakers vs Detroit Pistons (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Los Angeles Lakers vs Detroit Pistons (SPORTir)
+#EXTINF:-1 tvg-chno="2" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Boston Celtics vs Milwaukee Bucks (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Boston Celtics vs Milwaukee Bucks (SPORTir)
 #EXTVLCOPT:http-referrer=https://nba24all.ir
 #EXTVLCOPT:http-origin=https://nba24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-58e40509.mlb9.com/6af1728b.7643dbfai514ada43.16fed.dec531ec/free.live.nba/master.m3u8
+https://node-1795dadf.mlb9.com/6af1a468.197bd33di46e0ba41.1700f.a15d2d18/free.live.nba/master.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Arizona Cardinals vs Seattle Seahawks (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Arizona Cardinals vs Seattle Seahawks (SPORTir)
+#EXTINF:-1 tvg-chno="3" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Brooklyn Nets vs Dallas Mavericks (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Brooklyn Nets vs Dallas Mavericks (SPORTir)
+#EXTVLCOPT:http-referrer=https://nba24all.ir
+#EXTVLCOPT:http-origin=https://nba24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-1795dadf.mlb9.com/6af1a468.6650aac0i46e0ba41.17001.1d3910d2/free.live.nba/master.m3u8
+
+#EXTINF:-1 tvg-chno="4" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Miami Heat vs Sacramento Kings (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Miami Heat vs Sacramento Kings (SPORTir)
+#EXTVLCOPT:http-referrer=https://nba24all.ir
+#EXTVLCOPT:http-origin=https://nba24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-1795dadf.mlb9.com/6af1a468.9741e555i46e0ba41.17023.59274c2e/free.live.nba/master.m3u8
+
+#EXTINF:-1 tvg-chno="5" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Tampa Bay Buccaneers vs Chicago Bears (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Tampa Bay Buccaneers vs Chicago Bears (SPORTir)
 #EXTVLCOPT:http-referrer=https://nfl24all.ir
 #EXTVLCOPT:http-origin=https://nfl24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-5d1ac455.mlb9.com/6af1728c.74431c7di514ada43.1589b.bcfd554b/free.live.nfl/master.m3u8
+https://node-1795dadf.mlb9.com/6af1a469.67e77eabi46e0ba41.158a2.ca0be20a/free.live.nfl/master.m3u8
 
-#EXTINF:-1 tvg-chno="4" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Green Bay Packers vs New England Patriots (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Green Bay Packers vs New England Patriots (SPORTir)
-#EXTVLCOPT:http-referrer=https://nfl24all.ir
-#EXTVLCOPT:http-origin=https://nfl24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-5d1ac455.mlb9.com/6af1728c.d294e79ei514ada43.15898.687d0305/free.live.nfl/master.m3u8
-
-#EXTINF:-1 tvg-chno="5" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Las Vegas Raiders vs San Francisco 49ers (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Las Vegas Raiders vs San Francisco 49ers (SPORTir)
-#EXTVLCOPT:http-referrer=https://nfl24all.ir
-#EXTVLCOPT:http-origin=https://nfl24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-5d1ac455.mlb9.com/6af1728c.67dca50ci514ada43.15894.caa06c43/free.live.nfl/master.m3u8
-
-#EXTINF:-1 tvg-chno="6" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Houston Texans vs Los Angeles Chargers (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Houston Texans vs Los Angeles Chargers (SPORTir)
-#EXTVLCOPT:http-referrer=https://nfl24all.ir
-#EXTVLCOPT:http-origin=https://nfl24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-5d1ac455.mlb9.com/6af1728d.3d46b8cdi514ada43.15890.4ca63e09/free.live.nfl/master.m3u8
-
-#EXTINF:-1 tvg-chno="7" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Tampa Bay Lightning vs Winnipeg Jets (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Tampa Bay Lightning vs Winnipeg Jets (SPORTir)
+#EXTINF:-1 tvg-chno="6" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] New Jersey Devils vs Toronto Maple Leafs (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] New Jersey Devils vs Toronto Maple Leafs (SPORTir)
 #EXTVLCOPT:http-referrer=https://nhl24all.ir
 #EXTVLCOPT:http-origin=https://nhl24all.ir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-1795dadf.mlb9.com/6af1728d.4005aaaei514ada43.17ce8.b84c7d97/free.live.sportsnet/master.m3u8
+https://node-025d151e.4587.website/6af1a469.18979f7ei46e0ba41.180a5.7af39437/free.live.sportsnet/master.m3u8
+
+#EXTINF:-1 tvg-chno="7" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Pittsburgh Penguins vs Anaheim Ducks (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Pittsburgh Penguins vs Anaheim Ducks (SPORTir)
+#EXTVLCOPT:http-referrer=https://nhl24all.ir
+#EXTVLCOPT:http-origin=https://nhl24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-3cc54a6d.4587.website/6af1a46a.6cb45472i46e0ba41.180a6.4dae691c/free.live.sportsnet/master.m3u8
+
+#EXTINF:-1 tvg-chno="8" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Philadelphia Flyers vs Calgary Flames (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Philadelphia Flyers vs Calgary Flames (SPORTir)
+#EXTVLCOPT:http-referrer=https://nhl24all.ir
+#EXTVLCOPT:http-origin=https://nhl24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-025d151e.4587.website/6af1a46a.3cc00c78i46e0ba41.180a4.3b6dc39c/free.live.sportsnet/master.m3u8
