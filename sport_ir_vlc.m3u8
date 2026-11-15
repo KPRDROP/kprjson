@@ -1,1 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-chno="1" tvg-id="NFL.Dummy.us" tvg-name="[NFL] New England Patriots vs Detroit Lions (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] New England Patriots vs Detroit Lions (SPORTir)
+#EXTVLCOPT:http-referrer=https://nfl24all.ir
+#EXTVLCOPT:http-origin=https://nfl24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-d1d6a0d2.mlb9.com/6afa308e.b7d742bfi48198033.16e5f.0b252b29/free.live.nfl/master.m3u8
