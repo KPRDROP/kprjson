@@ -1,1 +1,48 @@
 #EXTM3U
+#EXTINF:-1 tvg-chno="1" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Pittsburgh Steelers vs Philadelphia Eagles (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Pittsburgh Steelers vs Philadelphia Eagles (SPORTir)
+#EXTVLCOPT:http-referrer=https://nfl24all.ir
+#EXTVLCOPT:http-origin=https://nfl24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-d1d6a0d2.mlb9.com/6b0398ca.1a236290i923bda43.18759.df577643/free.live.nfl/master.m3u8
+
+#EXTINF:-1 tvg-chno="2" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Tampa Bay Buccaneers vs Detroit Lions (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Tampa Bay Buccaneers vs Detroit Lions (SPORTir)
+#EXTVLCOPT:http-referrer=https://nfl24all.ir
+#EXTVLCOPT:http-origin=https://nfl24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-d1d6a0d2.mlb9.com/6b0398ca.82e0abcci923bda43.18518.eddf73a0/free.live.nfl/master.m3u8
+
+#EXTINF:-1 tvg-chno="3" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Tennessee Titans vs Dallas Cowboys (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Tennessee Titans vs Dallas Cowboys (SPORTir)
+#EXTVLCOPT:http-referrer=https://nfl24all.ir
+#EXTVLCOPT:http-origin=https://nfl24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-f6ba8d9f.4587.website/6b0398cb.0fc3ffa2i923bda43.18514.0132d808/free.live.nfl/master.m3u8
+
+#EXTINF:-1 tvg-chno="4" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Arizona Cardinals vs Kansas City Chiefs (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Arizona Cardinals vs Kansas City Chiefs (SPORTir)
+#EXTVLCOPT:http-referrer=https://nfl24all.ir
+#EXTVLCOPT:http-origin=https://nfl24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-d1d6a0d2.mlb9.com/6b0398cb.ee0d9de4i923bda43.1851b.258ad339/free.live.nfl/master.m3u8
+
+#EXTINF:-1 tvg-chno="5" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Miami Dolphins vs Buffalo Bills (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Miami Dolphins vs Buffalo Bills (SPORTir)
+#EXTVLCOPT:http-referrer=https://nfl24all.ir
+#EXTVLCOPT:http-origin=https://nfl24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-cff538bd.mlb9.com/6b0398cc.26662426i923bda43.18506.e6be158f/free.live.nfl/master.m3u8
+
+#EXTINF:-1 tvg-chno="6" tvg-id="NFL.Dummy.us" tvg-name="[NFL] New Orleans Saints vs Chicago Bears (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] New Orleans Saints vs Chicago Bears (SPORTir)
+#EXTVLCOPT:http-referrer=https://nfl24all.ir
+#EXTVLCOPT:http-origin=https://nfl24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-d1d6a0d2.mlb9.com/6b0398cc.11eeab72i923bda43.1850f.3f061c6f/free.live.nfl/master.m3u8
+
+#EXTINF:-1 tvg-chno="7" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Baltimore Ravens vs Carolina Panthers (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Baltimore Ravens vs Carolina Panthers (SPORTir)
+#EXTVLCOPT:http-referrer=https://nfl24all.ir
+#EXTVLCOPT:http-origin=https://nfl24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-c899cd92.mlb9.com/6b0398cc.a4fffa1ai923bda43.1850a.1ec5bd94/free.live.nfl/master.m3u8
+
+#EXTINF:-1 tvg-chno="8" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Carolina Hurricanes vs New York Rangers (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Carolina Hurricanes vs New York Rangers (SPORTir)
+#EXTVLCOPT:http-referrer=https://nhl24all.ir
+#EXTVLCOPT:http-origin=https://nhl24all.ir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://node-b351e589.4587.website/6b0398cc.bf1d9363i923bda43.1ac76.819ac935/free.live.sportsnet/master.m3u8
