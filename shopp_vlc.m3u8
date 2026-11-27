@@ -1,21 +1,21 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-11-26 18:49 UTC
+# Last Updated: 2026-11-27 02:00 UTC
 
-#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Chicago Bears vs Detroit Lions Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Chicago Bears vs Detroit Lions Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="1" tvg-id="stream_1" tvg-name="[Live Event] Kansas City Chiefs vs Buffalo Bills Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Kansas City Chiefs vs Buffalo Bills Stream 1 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://us-xyz.work.gd/nfl1/mono.ts.m3u8?server=1
+https://404found.it.com/nfl3/mono.ts.m3u8?server=1
 
-#EXTINF:-1 tvg-chno="2" tvg-id="stream_1" tvg-name="[Live Event] Philadelphia Eagles vs Dallas Cowboys Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Philadelphia Eagles vs Dallas Cowboys Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="2" tvg-id="stream_2" tvg-name="[Live Event] Kansas City Chiefs vs Buffalo Bills Stream 2 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Kansas City Chiefs vs Buffalo Bills Stream 2 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://us-xyz.work.gd/nfl2/mono.ts.m3u8?server=1
+https://iptvstream.dlhd.net/nbc-ll/index.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="stream_1" tvg-name="[Live Event] Kansas City Chiefs vs Buffalo Bills Stream 1 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Kansas City Chiefs vs Buffalo Bills Stream 1 (SHOPP)
+#EXTINF:-1 tvg-chno="3" tvg-id="stream_3" tvg-name="[Live Event] Kansas City Chiefs vs Buffalo Bills Stream 3 (SHOPP)" tvg-logo="https://files.catbox.moe/8kqv9g.png" group-title="Live Events",[Live Event] Kansas City Chiefs vs Buffalo Bills Stream 3 (SHOPP)
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-origin=https://xyzstreams.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
-https://us-xyz.work.gd/nfl3/mono.ts.m3u8?server=1
+https://iptvstream.dlhd.net/nfl3/index.m3u8
 
