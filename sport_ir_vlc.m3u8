@@ -1,12 +1,1 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Kansas City Chiefs vs Buffalo Bills (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Kansas City Chiefs vs Buffalo Bills (SPORTir)
-#EXTVLCOPT:http-referrer=https://nfl24all.ir
-#EXTVLCOPT:http-origin=https://nfl24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-f6ba8d9f.4587.website/6b0937a4.a5a74c54i97f67778.19d43.ca2f18f7/free.live.nfl/master.m3u8
-
-#EXTINF:-1 tvg-chno="2" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Philadelphia Eagles vs Dallas Cowboys (SPORTir)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Philadelphia Eagles vs Dallas Cowboys (SPORTir)
-#EXTVLCOPT:http-referrer=https://nfl24all.ir
-#EXTVLCOPT:http-origin=https://nfl24all.ir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://node-59639d19.mlb9.com/6b0937a4.8d8d6614i97f67778.19d3b.52a979b6/free.live.nfl/master.m3u8
